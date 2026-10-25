@@ -8,7 +8,10 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from content import ARTICLES, TIMELINE
+from content import ARTICLES as EDITORIAL_ARTICLES, TIMELINE
+from archive_support import load_references, reference_sources
+REFERENCES = load_references()
+ARTICLES = EDITORIAL_ARTICLES + REFERENCES
 from site_config import OUT, BASE_PATH, ALLOW_INDEXING, SITE_URL
 
 class Page(HTMLParser):
@@ -37,6 +40,7 @@ class Page(HTMLParser):
 def main():
     errors = []
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
+    sources += reference_sources(REFERENCES)
     source_ids = [s['id'] for s in sources]
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):

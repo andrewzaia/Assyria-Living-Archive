@@ -1,0 +1,8 @@
+{
+  "commit": "e013aba35b67524a4419d4d134ba21142ad038a9",
+  "editorial_articles": 40,
+  "editorial_body_words": 5419,
+  "source_records": 51,
+  "measured": "2026-10-26",
+  "method": "Words in article section text only; interface, summaries and references excluded."
+}
