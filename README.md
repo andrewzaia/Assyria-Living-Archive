@@ -9,12 +9,10 @@ The foundation edition contains 40 introductory articles, 51 source records, six
 Install Python 3.12 or newer. The website builder uses only the Python standard library; there are no pip or npm packages to install.
 
 ```sh
-python generate.py
-python scripts/validate.py
-python -m http.server 8000 --directory dist --bind 127.0.0.1
+python scripts/preview.py
 ```
 
-Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. Opening HTML directly from disk will prevent catalogue search from loading reliably; use the local server.
+Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script builds with local URL settings without changing the tracked production configuration. Opening HTML directly from disk will prevent catalogue search from loading reliably; use the local server.
 
 ## Repository layout
 
@@ -27,19 +25,21 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. Opening HTML directly
 | `site_config.py` | Validated settings and URL handling |
 | `static/` | Maintained CSS, JavaScript, images, fonts and licences |
 | `scripts/validate.py` | Source and generated-link checks |
+| `scripts/preview.py` | Local build and HTTP preview |
 | `.github/workflows/validate.yml` | Build checks on pushes and pull requests |
+| `.github/workflows/pages.yml` | Validated deployment to GitHub Pages from `main` |
 | `dist/` | Generated website, ignored by Git and rebuilt each time |
 
 Edit `static/` rather than `dist/`. Every build recreates `dist/` from the maintained files, so stale generated pages are removed.
 
 ## Site settings
 
-The supplied configuration is suitable for local development:
+The tracked configuration targets this GitHub Pages project:
 
 ```json
 {
-  "site_url": "",
-  "base_path": "",
+  "site_url": "https://andrewzaia.github.io",
+  "base_path": "/Assyria-Living-Archive",
   "allow_indexing": false
 }
 ```
@@ -52,56 +52,27 @@ Environment variables `SITE_URL`, `BASE_PATH` and `ALLOW_INDEXING` override the 
 
 Search-engine exclusion does not provide access control. The private ChatGPT-hosted edition's sign-in gate belongs to that hosting service and is not included in this export. A deployment elsewhere needs its own access controls if you want it to remain private.
 
-## Create your GitHub repository
+## GitHub Pages hosting
 
-Suggested name: **Assyria-Living-Archive**. Create an empty private repository first, without adding an initial README or licence in GitHub.
+Repository: [andrewzaia/Assyria-Living-Archive](https://github.com/andrewzaia/Assyria-Living-Archive).
 
-If you use the source folder from the ZIP:
+The Pages deployment workflow builds the maintained source into `dist/`, validates it, uploads the generated website and deploys it. It runs on pushes to `main` and can be started manually from Actions. Pull requests run validation only.
+
+In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source. The workflow reads the configured Pages origin and base path, so it can also adapt to a future custom domain without rewriting asset links.
+
+The current project URL is `https://andrewzaia.github.io/Assyria-Living-Archive/`. Search indexing remains disabled in `site.config.json` while the foundation edition is under review. Enable it deliberately when the content is ready for indexing.
+
+Reference: [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Working with the repository
 
 ```sh
-git init -b main
-git add .
-git commit -m "Prepare Assyria Living Archive repository"
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
+git clone https://github.com/andrewzaia/Assyria-Living-Archive.git
+cd Assyria-Living-Archive
+python scripts/preview.py
 ```
 
-Replace `YOUR_REPOSITORY_URL` with the HTTPS or SSH URL of your actual repository. Run these commands from the extracted project folder. Set your Git author name and email first if Git requests them.
-
-The package also includes a Git bundle with the prepared initial commit. See `IMPORT.md` beside the project folder for the clone command if you prefer that route.
-
-## Deploy to Cloudflare Pages
-
-Connect the GitHub repository using the Pages Git integration and use:
-
-| Setting | Value |
-| --- | --- |
-| Framework preset | None |
-| Production branch | `main` |
-| Build command | `python3 generate.py` |
-| Build output directory | `dist` |
-| Root directory | Repository root |
-| Python version | 3.12 or newer |
-
-Use `SITE_URL` for the final origin. Keep `BASE_PATH` empty for the domain root. Set the build environment's `PYTHON_VERSION` to `3.12` if needed. These instructions prepare the build; they do not create a Cloudflare project or publish the export.
-
-Reference: [Cloudflare Pages build configuration](https://developers.cloudflare.com/pages/configuration/build-configuration/).
-
-## GitHub Pages project paths
-
-The build supports a repository path, for example:
-
-```json
-{
-  "site_url": "https://YOUR_USERNAME.github.io",
-  "base_path": "/Assyria-Living-Archive",
-  "allow_indexing": false
-}
-```
-
-Publish the generated `dist/` directory using a Pages deployment workflow or a separate deployment branch. The included Actions workflow validates both root and project-path builds; it does not deploy. No hosting is enabled automatically by this package.
-
-To preview a project-path build locally, place `dist/` beneath a folder whose name matches the configured base path and serve its parent. For ordinary local work, leave `base_path` blank.
+After editing, run the validation commands below, commit the source files and push to `main` to trigger deployment. Generated files under `dist/` remain ignored by Git. All maintained assets are under `static/`.
 
 ## Validation
 
@@ -111,7 +82,7 @@ python scripts/validate.py
 node --check static/app.js
 ```
 
-Node.js is optional for local JavaScript syntax checking, not required to build or serve the website. GitHub-hosted CI runs the checks with Python 3.12 and checks the project-path configuration too. Action versions are pinned to immutable commits.
+Node.js is optional for local JavaScript syntax checking, not required to build or serve the website. GitHub-hosted CI runs the checks with Python 3.12 and checks the project-path configuration too. Action versions are pinned to immutable commits. GitHub Pages deployment uses a separate workflow and validates its generated output before publication.
 
 The validator checks article/source relationships, unique slugs and IDs, local navigation and fragment links, referenced assets, catalogue counts, indexing metadata and the ASCII dash convention. External source sites are not fetched by CI. Citation quality and historical accuracy still require editorial review.
 

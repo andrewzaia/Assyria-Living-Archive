@@ -23,6 +23,8 @@ jobs:
       - name: Check JavaScript syntax
         run: node --check static/app.js
       - name: Build and validate root deployment
+        env:
+          BASE_PATH: ''
         run: |
           python generate.py
           python scripts/validate.py
