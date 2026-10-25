@@ -56,7 +56,7 @@ Search-engine exclusion does not provide access control. The private ChatGPT-hos
 
 Repository: [andrewzaia/Assyria-Living-Archive](https://github.com/andrewzaia/Assyria-Living-Archive).
 
-The Pages deployment workflow builds the maintained source into `dist/`, validates it, uploads the generated website and deploys it. It runs on pushes to `main` and can be started manually from Actions. Pull requests run validation only.
+The Pages deployment workflow builds the maintained source into `dist/`, validates it, uploads the generated website and deploys it. It runs on pushes to `main` and can be started manually from Actions. If GitHub's branch-based Pages publisher is still enabled, it also republishes the generated site after that publisher completes, so the repository README cannot overwrite the website. Pull requests run validation only.
 
 In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source. The workflow reads the configured Pages origin and base path, so it can also adapt to a future custom domain without rewriting asset links.
 
