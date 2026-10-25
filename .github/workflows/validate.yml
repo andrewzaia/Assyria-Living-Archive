@@ -1,0 +1,35 @@
+name: Validate website
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Check JavaScript syntax
+        run: node --check static/app.js
+      - name: Build and validate root deployment
+        run: |
+          python generate.py
+          python scripts/validate.py
+      - name: Build and validate project-path deployment
+        env:
+          BASE_PATH: /Assyria
+          SITE_URL: https://example.com
+        run: |
+          python generate.py
+          python scripts/validate.py

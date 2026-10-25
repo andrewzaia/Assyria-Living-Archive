@@ -1,0 +1,461 @@
+[
+  {
+    "id": "met-assyria",
+    "title": "Assyria, 1365-609 B.C.",
+    "publisher": "The Metropolitan Museum of Art, Department of Ancient Near Eastern Art",
+    "url": "https://www.metmuseum.org/essays/assyria-1365-609-b-c",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "unesco-ashur",
+    "title": "Ashur (Qal'at Sherqat)",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1130/",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-lamassu",
+    "title": "Human-headed winged bull (lamassu)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/322608",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-caravan",
+    "title": "Cuneiform tablet: caravan account",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/325851",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "khorsabad-ministry",
+    "title": "Khorsabad",
+    "publisher": "French Ministry of Culture, Grands sites archeologiques",
+    "url": "https://archeologie.culture.gouv.fr/khorsabad/en/khorsabad-0",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "cambridge-mesopotamian-languages",
+    "title": "Mesopotamian Languages",
+    "publisher": "University of Cambridge, Department of Archaeology",
+    "url": "https://www.arch.cam.ac.uk/about-us/mesopotamia/mesopotamia-history/mesopotamia-languages",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "cambridge-nena",
+    "title": "The North-Eastern Neo-Aramaic Database Project",
+    "publisher": "University of Cambridge",
+    "url": "https://nena.ames.cam.ac.uk/",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-aramaic",
+    "title": "Aramaic",
+    "publisher": "Gorgias Encyclopedic Dictionary of the Syriac Heritage, electronic edition, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Aramaic",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-syriac",
+    "title": "Syriac Language",
+    "publisher": "Aaron M. Butts, Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Syriac-Language.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-sureth",
+    "title": "Sureth",
+    "publisher": "Alessandro Mengozzi, Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Sureth",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-turoyo",
+    "title": "Turoyo",
+    "publisher": "Sebastian P. Brock, Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Turoyo",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "fu-surayt",
+    "title": "SLOMO SURAYT II is now online!",
+    "publisher": "Freie Universitat Berlin, Department of History and Cultural Studies",
+    "url": "https://www.geschkult.fu-berlin.de/en/e/semiarab/semitistik/news/SAOPonlinerelease.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "hmml-palaeography",
+    "title": "Syriac Paleography",
+    "publisher": "Hill Museum & Manuscript Library, HMML School",
+    "url": "https://hmmlschool.org/syriac/",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "syriaca-intro",
+    "title": "About Syriac",
+    "publisher": "Syriaca.org: The Syriac Reference Portal",
+    "url": "https://www.syriaca.org/about-syriac.html",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "hmml-voobus",
+    "title": "Voobus Syriac Manuscript Collection",
+    "publisher": "Hill Museum & Manuscript Library",
+    "url": "https://hmml.org/collections/voobus/",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "manchester-syriac",
+    "title": "Syriac Manuscripts",
+    "publisher": "University of Manchester, John Rylands Library",
+    "url": "https://www.digitalcollections.manchester.ac.uk/collections/syriac",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "syriac-digimss",
+    "title": "Digitized Manuscripts",
+    "publisher": "syri.ac: An annotated bibliography of Syriac resources online",
+    "url": "https://syri.ac/digimss",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "cdli",
+    "title": "About CDLI",
+    "publisher": "Cuneiform Digital Library Initiative",
+    "url": "https://cdli.earth/about",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "yale-libraries",
+    "title": "Cities and Libraries",
+    "publisher": "Enrique Jimenez, Cuneiform Commentaries Project, Yale University",
+    "url": "https://ccp.yale.edu/introduction/cities-and-libraries",
+    "type": "Institutional collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-ephrem",
+    "title": "Ephrem (d. 373)",
+    "publisher": "Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Ephrem.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-aaa",
+    "title": "About Us - The Assyrian Australian Association",
+    "publisher": "Assyrian Australian Association",
+    "url": "https://assyrianaustralian.org.au/about-us/",
+    "type": "Community institution, first-party",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-arc",
+    "title": "Assyrian Resource Centre - The Assyrian Australian Association",
+    "publisher": "Assyrian Australian Association",
+    "url": "https://assyrianaustralian.org.au/assyrian-resource-centre/",
+    "type": "Community service, first-party",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-kanna",
+    "title": "Sophia Kanna | NSW Migration Heritage Centre",
+    "publisher": "NSW Migration Heritage Centre",
+    "url": "https://www.migrationheritage.nsw.gov.au/exhibition/belongings/kanna/index.html",
+    "type": "Museum oral history",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-nena",
+    "title": "About the NENA project",
+    "publisher": "University of Cambridge",
+    "url": "https://nena.ames.cam.ac.uk/about/",
+    "type": "Academic linguistic documentation",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-akitu",
+    "title": "What did our ancestors do during the Akitu Festival?",
+    "publisher": "SBS Assyrian",
+    "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/what-did-our-ancestors-do-during-the-akitu-festival/xwt4vwdac",
+    "type": "Public broadcaster, cultural feature",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-festival-sydney",
+    "title": "Assyrian New Year Celebrations in Sydney",
+    "publisher": "SBS Assyrian",
+    "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/assyrian-new-year-celebrations-in-sydney/pxbzbofpi",
+    "type": "Public broadcaster, event reporting",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-dance",
+    "title": "Akitu Dance Crew - Assyrian Student Association of Arizona",
+    "publisher": "Assyrian Student Association of Arizona",
+    "url": "https://www.asaofaz.org/new-page",
+    "type": "Community dance practitioners, first-party",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-kileche",
+    "title": "Evan's kileche (Assyrian cookies)",
+    "publisher": "SBS Food; recipe and personal account by Evan Yako",
+    "url": "https://www.sbs.com.au/food/recipe/evans-kileche-assyrian-cookies/zq1i4cnh1",
+    "type": "First-person cultural account and recipe",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-agassi",
+    "title": "A voice for stateless Assyrians: Community mourns Evin Agassi",
+    "publisher": "SBS Assyrian",
+    "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/a-voice-for-stateless-assyrians-community-mourns-evin-agassi/1vyt69qci",
+    "type": "Firsthand public broadcaster reporting",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-radio",
+    "title": "Assyrian News, Radio & Podcasts",
+    "publisher": "SBS",
+    "url": "https://www.sbs.com.au/language/assyrian/en",
+    "type": "Public broadcaster, first-party service",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-simele-api",
+    "title": "We Demand Justice for Simele",
+    "publisher": "Assyrian Policy Institute",
+    "url": "https://www.assyrianpolicy.org/justice-for-simele",
+    "type": "Community advocacy and research",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-simele-asa",
+    "title": "Simele Letter",
+    "publisher": "Assyrian Studies Association",
+    "url": "https://www.assyrianstudiesassociation.org/simele-letter",
+    "type": "Scholarly association, advocacy letter",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-sayfo",
+    "title": "Let Them Not Return: Sayfo - The Genocide Against the Assyrian, Syriac, and Chaldean Christians in the Ottoman Empire",
+    "publisher": "Berghahn Books; editors David Gaunt, Naures Atto and Soner O. Barthoma",
+    "url": "https://www.jstor.org/stable/j.ctvw049wf",
+    "type": "Academic edited volume",
+    "access": "Public catalogue description; full text access varies",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-sayfo-eyewitness",
+    "title": "Sayfo - An Account of the Assyrian Genocide",
+    "publisher": "Edinburgh University Press",
+    "url": "https://www.jstor.org/stable/10.3366/j.ctv1kd7xdc",
+    "type": "Translated and annotated eyewitness source",
+    "access": "Public catalogue description; full text access varies",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-acoe",
+    "title": "The Church - Assyrian Church of the East",
+    "publisher": "Assyrian Church of the East, Australia",
+    "url": "https://www.assyrianchurch.org.au/the-church",
+    "type": "Official church self-description",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-chaldean",
+    "title": "About the Chaldean Church",
+    "publisher": "Chaldean Diocese of St. Thomas the Apostle U.S.A.",
+    "url": "https://chaldeanchurch.org/about-the-chaldean-church/",
+    "type": "Official church self-description",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-syriac-constitution",
+    "title": "Constitution - Department of Syriac Studies",
+    "publisher": "Syriac Orthodox Patriarchate, Department of Syriac Studies",
+    "url": "https://dss-syriacpatriarchate.org/constitution/?lang=en",
+    "type": "Official church constitutional document",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "modern-chaldean-history",
+    "title": "The Chaldean Catholic Church",
+    "publisher": "Catholic Near East Welfare Association (CNEWA)",
+    "url": "https://cnewa.org/eastern-christian-churches/the-catholic-eastern-churches/from-the-assyrian-church-of-the-east/the-chaldean-catholic-church/",
+    "type": "Catholic institutional reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-lion",
+    "title": "Human-headed winged lion (lamassu), 32.143.2",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/322609",
+    "type": "Museum object record",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-relief",
+    "title": "Relief panel, object 322610",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/322610",
+    "type": "Museum object record",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-court",
+    "title": "The Assyrian Sculpture Court",
+    "publisher": "Michael Seymour, The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-assyrian-sculpture-court",
+    "type": "Museum scholarship",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "rutgers-ebetharke",
+    "title": "eBethArke: The Syriac Digital Library: About",
+    "publisher": "Rutgers University and Beth Mardutho",
+    "url": "https://collections.libraries.rutgers.edu/ebetharke-about",
+    "type": "University digital collection",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "met-access",
+    "title": "Open Access at The Met",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/hubs/open-access",
+    "type": "Image rights policy",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-tur-abdin",
+    "title": "Tur Abdin",
+    "publisher": "Andrew N. Palmer, GEDSH, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Tur-Abdin.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-urmia",
+    "title": "Urmia",
+    "publisher": "Heleen L. Murre-van den Berg, GEDSH, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Urmia.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "nena-urmi",
+    "title": "Urmi, Christian",
+    "publisher": "University of Cambridge, NENA Database Project",
+    "url": "https://nena.ames.cam.ac.uk/dialects/225/",
+    "type": "Academic fieldwork and recordings",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "unami-nineveh",
+    "title": "UN visit to Christian and Shabak communities in the Ninewa Plains, 3 October 2018",
+    "publisher": "United Nations Assistance Mission for Iraq",
+    "url": "https://iraq.un.org/en/167143-un-deputy-special-representative-alice-walpole-hears-firsthand-concerns-and-hopes-christian",
+    "type": "Dated institutional reporting",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-diaspora",
+    "title": "Diaspora",
+    "publisher": "Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Diaspora.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-assyrians",
+    "title": "Assyrians",
+    "publisher": "James F. Coakley, GEDSH, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Assyrians.html",
+    "type": "Scholarly interpretation of naming",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-printing",
+    "title": "Printing",
+    "publisher": "James F. Coakley, GEDSH, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Printing.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "gedsh-edessa",
+    "title": "Edessa",
+    "publisher": "Amir Harrak, GEDSH, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Edessa.html",
+    "type": "Scholarly reference",
+    "access": "Public resource; check individual reuse terms",
+    "checked": "2026-10-26"
+  }
+]
