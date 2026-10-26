@@ -457,5 +457,77 @@
     "type": "Scholarly reference",
     "access": "Public resource; check individual reuse terms",
     "checked": "2026-10-26"
+  },
+  {
+    "id": "aebp-countries",
+    "title": "Countries and peoples",
+    "publisher": "Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Countries/index.html",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "aebp-tiglath",
+    "title": "Tiglath-pileser III, king of Assyria (744-727 BC)",
+    "publisher": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/Tiglath-pileserIII/index.html",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "aebp-sargon",
+    "title": "Sargon II, king of Assyria (721-705 BC)",
+    "publisher": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/SargonII/index.html",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "aebp-babylonia",
+    "title": "Babylon and the cities and tribes of Southern Mesopotamia",
+    "publisher": "Chaitanya Kanchan and Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Countries/Babylonia/index.html",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "oracc-egypt",
+    "title": "Egyptian in hieroglyphic script",
+    "publisher": "Nimrud: Materialities of Assyrian Knowledge Production / ORACC",
+    "url": "https://oracc.museum.upenn.edu/nimrud/ancientkalhu/thewritings/egyptian/index.html",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "met-egypt",
+    "title": "Egypt in the Late Period (ca. 664-332 B.C.)",
+    "publisher": "Department of Egyptian Art, The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-late-period-ca-712-332-b-c",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "bm-chronicle",
+    "title": "Cuneiform tablet with part of the Babylonian Chronicle (616-609 BC)",
+    "publisher": "The British Museum, registration 1896,0409.6, via Google Arts & Culture",
+    "url": "https://artsandculture.google.com/asset/cuneiform-tablet-with-part-of-the-babylonian-chronicle-616-609-bc/xAEPSobA2ozDxw?hl=en",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
+  },
+  {
+    "id": "oracc-shalmaneser",
+    "title": "Shalmaneser III: royal inscriptions (Q004636)",
+    "publisher": "Royal Inscriptions of Assyria online / ORACC",
+    "url": "https://oracc.museum.upenn.edu/riao/Q004636/",
+    "type": "Historical atlas reference",
+    "access": "Public resource; original scholarship retains its own rights",
+    "checked": "2026-10-25"
   }
 ]

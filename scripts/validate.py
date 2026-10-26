@@ -39,6 +39,8 @@ class Page(HTMLParser):
 
 def main():
     errors = []
+    from validate_atlas import validate as validate_atlas
+    validate_atlas()
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     sources += reference_sources(REFERENCES)
     source_ids = [s['id'] for s in sources]
@@ -111,7 +113,7 @@ def main():
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

@@ -1,0 +1,1146 @@
+{
+  "schema_version": 1,
+  "title": "Assyria through space and time",
+  "authorship": "Assyria | The Living Archive. Original editorial text and schematic coordinates. No ancient boundary has been surveyed or traced from a published map.",
+  "licence": "CC BY 4.0 for original atlas text and historical coordinate sketches; Natural Earth basemap data is public domain.",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "method": "Discrete dated teaching sketches synthesised from the cited sources. Approximate regional outlines, not province-level GIS evidence. No interpolation between dates and no area statistics. Modern borders are a separate orientation layer.",
+  "sources": [
+    {
+      "id": "met-assyria",
+      "title": "Assyria, 1365-609 B.C.",
+      "author": "Department of Ancient Near Eastern Art, The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/assyria-1365-609-b-c",
+      "note": "Middle Assyrian recovery, territorial contraction and ninth-century recovery. Chronologies vary between publications."
+    },
+    {
+      "id": "aebp-countries",
+      "title": "Countries and peoples",
+      "author": "Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Countries/index.html",
+      "note": "The Assur-Nineveh-Arbela heartland and the different relationships between Assyria and surrounding states."
+    },
+    {
+      "id": "aebp-tiglath",
+      "title": "Tiglath-pileser III, king of Assyria (744-727 BC)",
+      "author": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/Tiglath-pileserIII/index.html",
+      "note": "Western annexations, including Damascus in 732 BCE; growth towards the Persian Gulf."
+    },
+    {
+      "id": "aebp-sargon",
+      "title": "Sargon II, king of Assyria (721-705 BC)",
+      "author": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/SargonII/index.html",
+      "note": "Rebellion, campaigning and consolidation. Accession conventions differ; the snapshot is at the end of the reign."
+    },
+    {
+      "id": "aebp-babylonia",
+      "title": "Babylon and the cities and tribes of Southern Mesopotamia",
+      "author": "Chaitanya Kanchan and Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Countries/Babylonia/index.html",
+      "note": "Babylonia was not simply annexed wholesale as an Assyrian province. Assyrian kingship and control there took different forms."
+    },
+    {
+      "id": "oracc-egypt",
+      "title": "Egyptian in hieroglyphic script",
+      "author": "Nimrud: Materialities of Assyrian Knowledge Production / ORACC",
+      "url": "https://oracc.museum.upenn.edu/nimrud/ancientkalhu/thewritings/egyptian/index.html",
+      "note": "Esarhaddon's successful campaign against Egypt in 671 BCE."
+    },
+    {
+      "id": "met-egypt",
+      "title": "Egypt in the Late Period (ca. 664-332 B.C.)",
+      "author": "Department of Egyptian Art, The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/egypt-in-the-late-period-ca-712-332-b-c",
+      "note": "Egypt's transition from Assyrian vassal to independent ally; Psamtik I controlled the south by 656 BCE."
+    },
+    {
+      "id": "bm-chronicle",
+      "title": "Cuneiform tablet with part of the Babylonian Chronicle (616-609 BC)",
+      "author": "The British Museum, registration 1896,0409.6, via Google Arts & Culture",
+      "url": "https://artsandculture.google.com/asset/cuneiform-tablet-with-part-of-the-babylonian-chronicle-616-609-bc/xAEPSobA2ozDxw?hl=en",
+      "note": "Ashur in 614 BCE, Nineveh in 612 BCE, the retreat to Harran and the failed attempt to recover it in 609 BCE. This is evidence for the royal state, not the disappearance of a people."
+    },
+    {
+      "id": "oracc-shalmaneser",
+      "title": "Shalmaneser III: royal inscriptions (Q004636)",
+      "author": "Royal Inscriptions of Assyria online / ORACC",
+      "url": "https://oracc.museum.upenn.edu/riao/Q004636/",
+      "note": "Royal claims to campaigns and dominion in the west. Such claims are political texts and do not establish uniform provincial borders."
+    }
+  ],
+  "snapshots": [
+    {
+      "year": -1350,
+      "period": "Middle Assyrian recovery",
+      "title": "From the Assyrian heartland",
+      "summary": "Under Ashur-uballit I, Assyria recovered independence and extended its power north from Ashur towards Nineveh and Arbela. This small northern Mesopotamian core became the foundation for later expansion.",
+      "caution": "A broad heartland sketch, not the boundary of a single campaign. The city-state and its trading networks have a much earlier history.",
+      "control": [
+        "heartland"
+      ],
+      "influence": [],
+      "sources": [
+        "met-assyria",
+        "aebp-countries"
+      ],
+      "focus": "ashur",
+      "fallen": []
+    },
+    {
+      "year": -1250,
+      "period": "Middle Assyrian expansion",
+      "title": "Across northern Mesopotamia",
+      "summary": "Successors of Ashur-uballit pushed Assyrian control west through former Mitannian lands towards the Euphrates. The map shows the northern territorial state before Tukulti-Ninurta I's later conquest of Babylon.",
+      "caution": "The western and mountain frontiers are generalised. Later victories in Babylonia are not projected backwards into this snapshot.",
+      "control": [
+        "middle"
+      ],
+      "influence": [],
+      "sources": [
+        "met-assyria"
+      ],
+      "focus": "ashur",
+      "fallen": []
+    },
+    {
+      "year": -1050,
+      "period": "Contraction",
+      "title": "A smaller territorial state",
+      "summary": "Aramaean expansion and pressure on Assyrian centres reduced Assyria's hold over Upper Mesopotamia towards the end of the second millennium BCE. The surviving heartland remained a base for recovery.",
+      "caution": "The smaller shape is a schematic retreat to the core; the exact frontier in 1050 BCE is not securely reconstructed here.",
+      "control": [
+        "heartland"
+      ],
+      "influence": [],
+      "sources": [
+        "met-assyria"
+      ],
+      "focus": "ashur",
+      "fallen": []
+    },
+    {
+      "year": -859,
+      "period": "Neo-Assyrian recovery",
+      "title": "Recovery under Ashurnasirpal II",
+      "summary": "Assyria recovered much of its earlier northern territory under Ashurnasirpal II. Kalhu, now Nimrud, became a royal capital. Campaigns and tribute reached beyond the area of sustained territorial control.",
+      "caution": "The solid shape represents a broad territorial nucleus. A campaign to the Mediterranean does not make the whole Levant an Assyrian province.",
+      "control": [
+        "recovery"
+      ],
+      "influence": [],
+      "sources": [
+        "met-assyria"
+      ],
+      "focus": "kalhu",
+      "fallen": []
+    },
+    {
+      "year": -824,
+      "period": "Expansion and tribute",
+      "title": "Looking west under Shalmaneser III",
+      "summary": "Shalmaneser III repeatedly campaigned beyond the Euphrates. Assyria combined a northern Mesopotamian territorial base with tribute and pressure on western kingdoms. The patterned zone represents a broad sphere of intervention and tributary relationships.",
+      "caution": "Royal inscriptions magnify conquest. The patterned zone is not a claim that every western kingdom was simultaneously annexed or continuously obedient.",
+      "control": [
+        "ninth-century"
+      ],
+      "influence": [
+        "western-tributaries"
+      ],
+      "sources": [
+        "oracc-shalmaneser",
+        "aebp-countries"
+      ],
+      "focus": "kalhu",
+      "fallen": []
+    },
+    {
+      "year": -727,
+      "period": "Annexation and reorganisation",
+      "title": "A wider empire under Tiglath-pileser III",
+      "summary": "Western kingdoms were increasingly converted into provinces. Damascus was annexed in 732 BCE, alongside further changes in the northern kingdom of Israel. Assyrian power also extended into Babylonia, where kingship and local institutions require separate treatment.",
+      "caution": "Babylonia is patterned to distinguish its political relationship from straightforward provincial annexation. The outlines combine regional changes over a reign.",
+      "control": [
+        "eighth-century"
+      ],
+      "influence": [
+        "babylonia",
+        "southern-levant"
+      ],
+      "sources": [
+        "aebp-tiglath",
+        "aebp-babylonia"
+      ],
+      "focus": "damascus",
+      "fallen": []
+    },
+    {
+      "year": -705,
+      "period": "Sargonid consolidation",
+      "title": "Empire and a new royal city",
+      "summary": "Sargon II faced rebellions and consolidated Assyrian power across the west and east. His new capital, Dur-Sharrukin, expressed imperial ambition. Babylonia remained politically distinctive rather than becoming one uniform block of Assyrian provinces.",
+      "caution": "The outline is a regional sketch at the end of the reign, not a reconstruction of every province, tributary or disputed mountain district.",
+      "control": [
+        "sargonid"
+      ],
+      "influence": [
+        "babylonia",
+        "southern-levant"
+      ],
+      "sources": [
+        "aebp-sargon",
+        "aebp-babylonia"
+      ],
+      "focus": "dur-sharrukin",
+      "fallen": []
+    },
+    {
+      "year": -671,
+      "period": "Reach into Egypt",
+      "title": "An empire reaching the Nile",
+      "summary": "Esarhaddon's successful invasion of Egypt in 671 BCE extended Assyrian intervention into the Nile Delta and the region of Memphis. This was a major imperial reach, maintained through local rulers and repeated military action.",
+      "caution": "Only Lower Egypt is shaded here. Short-lived conquest and indirect rule should not be read as permanent provincial control over all Egypt or Kush.",
+      "control": [
+        "sargonid"
+      ],
+      "influence": [
+        "babylonia",
+        "southern-levant",
+        "lower-egypt"
+      ],
+      "sources": [
+        "oracc-egypt",
+        "aebp-babylonia"
+      ],
+      "focus": "memphis",
+      "fallen": []
+    },
+    {
+      "year": -650,
+      "period": "An uneven empire",
+      "title": "Egypt moves beyond Assyrian control",
+      "summary": "Under the Saite dynasty, Egypt moved from Assyrian vassalage to independence. Psamtik I had brought the south under his authority by 656 BCE. Assyria still held a large Asian empire, but its political relationships were neither uniform nor stable.",
+      "caution": "Egypt is removed from the overlay. Babylonia remains patterned: control there was contested, including the rebellion of 652-648 BCE.",
+      "control": [
+        "sargonid"
+      ],
+      "influence": [
+        "babylonia",
+        "southern-levant"
+      ],
+      "sources": [
+        "met-egypt",
+        "aebp-babylonia"
+      ],
+      "focus": "nineveh",
+      "fallen": []
+    },
+    {
+      "year": -612,
+      "period": "Collapse and retreat",
+      "title": "Nineveh falls; resistance continues",
+      "summary": "Ashur fell to the Medes in 614 BCE. In 612 BCE, the Medes and Babylonians besieged and sacked Nineveh. Surviving Assyrian forces gathered at Harran under Ashur-uballit II.",
+      "caution": "No territorial polygon is drawn: the boundaries of surviving Assyrian control are not established here. The highlighted point marks the rallying city, not a new empire. ",
+      "control": [],
+      "influence": [],
+      "sources": [
+        "bm-chronicle"
+      ],
+      "focus": "harran",
+      "fallen": [
+        "ashur",
+        "nineveh",
+        "kalhu"
+      ]
+    },
+    {
+      "year": -609,
+      "period": "End of the imperial state",
+      "title": "The imperial chapter closes",
+      "summary": "Harran fell in 610/609 BCE. Assyrian and Egyptian forces attempted to recover it, but their siege failed. This marks the end of this map's account of the ancient imperial state. Assyrian communities and cultural histories continue beyond its borders and dates.",
+      "caution": "An empty overlay means no imperial territory is mapped. It does not mean the land was empty, or that Assyrian people disappeared. See the wider archive for later histories.",
+      "control": [],
+      "influence": [],
+      "sources": [
+        "bm-chronicle"
+      ],
+      "focus": "harran",
+      "fallen": [
+        "ashur",
+        "nineveh",
+        "kalhu",
+        "harran"
+      ]
+    }
+  ],
+  "regions": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "heartland",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                42.7,
+                35.2
+              ],
+              [
+                43.6,
+                35.0
+              ],
+              [
+                44.5,
+                35.5
+              ],
+              [
+                44.7,
+                36.6
+              ],
+              [
+                43.7,
+                37.0
+              ],
+              [
+                42.7,
+                36.5
+              ],
+              [
+                42.7,
+                35.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "middle",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.7,
+                35.7
+              ],
+              [
+                38.0,
+                36.8
+              ],
+              [
+                40.3,
+                37.4
+              ],
+              [
+                42.3,
+                37.6
+              ],
+              [
+                43.7,
+                37.1
+              ],
+              [
+                44.7,
+                36.6
+              ],
+              [
+                44.5,
+                35.4
+              ],
+              [
+                43.5,
+                34.8
+              ],
+              [
+                41.8,
+                34.7
+              ],
+              [
+                40.5,
+                35.2
+              ],
+              [
+                39.0,
+                35.2
+              ],
+              [
+                37.7,
+                35.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "recovery",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.2,
+                35.7
+              ],
+              [
+                37.1,
+                36.8
+              ],
+              [
+                38.6,
+                37.4
+              ],
+              [
+                40.6,
+                37.7
+              ],
+              [
+                42.7,
+                37.6
+              ],
+              [
+                44.0,
+                37.0
+              ],
+              [
+                45.2,
+                36.2
+              ],
+              [
+                44.9,
+                35.0
+              ],
+              [
+                43.6,
+                34.3
+              ],
+              [
+                41.9,
+                34.8
+              ],
+              [
+                40.1,
+                35.1
+              ],
+              [
+                38.7,
+                35.2
+              ],
+              [
+                37.2,
+                35.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ninth-century",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                36.8,
+                35.4
+              ],
+              [
+                36.7,
+                37.1
+              ],
+              [
+                38.3,
+                37.8
+              ],
+              [
+                40.8,
+                38.0
+              ],
+              [
+                43.0,
+                37.5
+              ],
+              [
+                44.6,
+                37.0
+              ],
+              [
+                45.5,
+                36.0
+              ],
+              [
+                44.9,
+                34.7
+              ],
+              [
+                43.3,
+                34.1
+              ],
+              [
+                41.6,
+                34.6
+              ],
+              [
+                39.7,
+                35.0
+              ],
+              [
+                38.2,
+                35.2
+              ],
+              [
+                36.8,
+                35.4
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "western-tributaries",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.6,
+                36.7
+              ],
+              [
+                35.6,
+                37.3
+              ],
+              [
+                36.7,
+                37.7
+              ],
+              [
+                37.6,
+                37.3
+              ],
+              [
+                37.5,
+                35.1
+              ],
+              [
+                36.4,
+                34.4
+              ],
+              [
+                36.1,
+                32.8
+              ],
+              [
+                35.5,
+                32.0
+              ],
+              [
+                35.0,
+                32.6
+              ],
+              [
+                35.3,
+                34.0
+              ],
+              [
+                34.6,
+                36.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eighth-century",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.9,
+                32.4
+              ],
+              [
+                35.1,
+                34.4
+              ],
+              [
+                35.7,
+                35.8
+              ],
+              [
+                35.7,
+                36.6
+              ],
+              [
+                36.6,
+                37.3
+              ],
+              [
+                38.3,
+                37.9
+              ],
+              [
+                40.8,
+                38.0
+              ],
+              [
+                43.0,
+                37.6
+              ],
+              [
+                44.7,
+                37.0
+              ],
+              [
+                46.1,
+                35.3
+              ],
+              [
+                45.6,
+                34.1
+              ],
+              [
+                44.0,
+                33.6
+              ],
+              [
+                42.0,
+                34.2
+              ],
+              [
+                40.2,
+                34.3
+              ],
+              [
+                38.0,
+                34.5
+              ],
+              [
+                37.1,
+                33.8
+              ],
+              [
+                36.4,
+                32.6
+              ],
+              [
+                35.7,
+                32.1
+              ],
+              [
+                34.9,
+                32.4
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "sargonid",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.6,
+                32.3
+              ],
+              [
+                35.0,
+                34.5
+              ],
+              [
+                35.7,
+                36.0
+              ],
+              [
+                34.7,
+                36.4
+              ],
+              [
+                34.4,
+                37.1
+              ],
+              [
+                36.4,
+                37.4
+              ],
+              [
+                38.3,
+                38.1
+              ],
+              [
+                41.0,
+                38.0
+              ],
+              [
+                43.2,
+                37.5
+              ],
+              [
+                44.9,
+                37.0
+              ],
+              [
+                46.3,
+                35.4
+              ],
+              [
+                46.0,
+                34.0
+              ],
+              [
+                44.1,
+                33.5
+              ],
+              [
+                42.0,
+                34.0
+              ],
+              [
+                40.0,
+                34.1
+              ],
+              [
+                38.0,
+                34.3
+              ],
+              [
+                36.9,
+                33.5
+              ],
+              [
+                36.1,
+                32.4
+              ],
+              [
+                35.3,
+                31.9
+              ],
+              [
+                34.6,
+                32.3
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "babylonia",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                42.4,
+                34.2
+              ],
+              [
+                43.9,
+                33.5
+              ],
+              [
+                44.5,
+                32.2
+              ],
+              [
+                45.8,
+                31.5
+              ],
+              [
+                47.4,
+                30.5
+              ],
+              [
+                47.7,
+                31.2
+              ],
+              [
+                46.6,
+                32.5
+              ],
+              [
+                45.8,
+                33.6
+              ],
+              [
+                44.6,
+                34.5
+              ],
+              [
+                43.3,
+                34.8
+              ],
+              [
+                42.4,
+                34.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "southern-levant",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.0,
+                31.0
+              ],
+              [
+                34.5,
+                31.4
+              ],
+              [
+                35.0,
+                32.5
+              ],
+              [
+                35.7,
+                32.5
+              ],
+              [
+                36.5,
+                31.8
+              ],
+              [
+                36.1,
+                30.2
+              ],
+              [
+                35.0,
+                29.6
+              ],
+              [
+                34.7,
+                30.4
+              ],
+              [
+                34.0,
+                31.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "lower-egypt",
+        "properties": {
+          "method": "Original schematic interpretation; not a surveyed or digitised ancient boundary"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                30.1,
+                29.7
+              ],
+              [
+                31.3,
+                29.5
+              ],
+              [
+                32.2,
+                30.5
+              ],
+              [
+                32.6,
+                31.2
+              ],
+              [
+                31.8,
+                31.7
+              ],
+              [
+                30.4,
+                31.6
+              ],
+              [
+                29.7,
+                31.0
+              ],
+              [
+                30.1,
+                29.7
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "ashur",
+      "name": "Ashur",
+      "description": "Ancient Assur, on the Tigris in present-day Iraq. The religious and early political centre of Assyria.",
+      "coordinates": [
+        43.26,
+        35.46
+      ],
+      "label_offset": [
+        -52,
+        20
+      ]
+    },
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "description": "On the east bank of the Tigris at present-day Mosul, Iraq. A major late Assyrian capital.",
+      "coordinates": [
+        43.15,
+        36.36
+      ],
+      "label_offset": [
+        -62,
+        -12
+      ]
+    },
+    {
+      "id": "arbela",
+      "name": "Arbela",
+      "description": "Present-day Erbil, Iraq. One of the principal cities of the Assyrian heartland.",
+      "coordinates": [
+        44.01,
+        36.19
+      ],
+      "label_offset": [
+        10,
+        18
+      ]
+    },
+    {
+      "id": "kalhu",
+      "name": "Kalhu / Nimrud",
+      "description": "On the Tigris south of Mosul, Iraq. Ashurnasirpal II's royal capital.",
+      "coordinates": [
+        43.33,
+        36.1
+      ],
+      "label_offset": [
+        10,
+        33
+      ]
+    },
+    {
+      "id": "dur-sharrukin",
+      "name": "Dur-Sharrukin",
+      "description": "Present-day Khorsabad, Iraq. Sargon II's new royal capital.",
+      "coordinates": [
+        43.23,
+        36.51
+      ],
+      "label_offset": [
+        12,
+        -30
+      ]
+    },
+    {
+      "id": "harran",
+      "name": "Harran",
+      "description": "In present-day southeastern Turkey. A rallying centre after the fall of Nineveh.",
+      "coordinates": [
+        39.03,
+        36.87
+      ],
+      "label_offset": [
+        -50,
+        -16
+      ]
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "description": "In present-day Iraq, south of Baghdad. Its relationship to Assyrian kingship changed repeatedly.",
+      "coordinates": [
+        44.42,
+        32.54
+      ],
+      "label_offset": [
+        12,
+        7
+      ]
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "description": "In present-day Syria. Its kingdom was annexed by Tiglath-pileser III in 732 BCE.",
+      "coordinates": [
+        36.3,
+        33.51
+      ],
+      "label_offset": [
+        12,
+        4
+      ]
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "description": "Near present-day Mit Rahina, Egypt, south of Cairo. A focus of the 671 BCE conquest.",
+      "coordinates": [
+        31.25,
+        29.85
+      ],
+      "label_offset": [
+        12,
+        8
+      ]
+    }
+  ],
+  "modern_labels": [
+    {
+      "name": "Iraq",
+      "coordinates": [
+        44.8,
+        33.7
+      ]
+    },
+    {
+      "name": "Syria",
+      "coordinates": [
+        38.5,
+        34.7
+      ]
+    },
+    {
+      "name": "Turkey",
+      "coordinates": [
+        36.2,
+        39.0
+      ]
+    },
+    {
+      "name": "Iran",
+      "coordinates": [
+        49.4,
+        35.3
+      ]
+    },
+    {
+      "name": "Egypt",
+      "coordinates": [
+        28.1,
+        27.4
+      ]
+    },
+    {
+      "name": "Jordan",
+      "coordinates": [
+        36.5,
+        30.3
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "coordinates": [
+        43.2,
+        27.7
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "coordinates": [
+        34.4,
+        34.2
+      ]
+    },
+    {
+      "name": "Israel / Palestine",
+      "coordinates": [
+        33.3,
+        31.7
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "coordinates": [
+        48.5,
+        29.2
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "coordinates": [
+        32.7,
+        35.3
+      ]
+    },
+    {
+      "name": "Armenia",
+      "coordinates": [
+        44.7,
+        40.5
+      ]
+    }
+  ],
+  "basemap": {
+    "credit": "Made with Natural Earth. Tom Patterson, Nathaniel Vaughn Kelso and contributors.",
+    "licence": "Public domain",
+    "licence_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "files": [
+      {
+        "path": "natural-earth-land.geojson",
+        "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+        "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+        "bytes": 138160
+      },
+      {
+        "path": "natural-earth-countries.geojson",
+        "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+        "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+        "bytes": 838726
+      },
+      {
+        "path": "natural-earth-rivers.geojson",
+        "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_rivers_lake_centerlines.geojson",
+        "sha256": "9c2027e93bcfe98ec43516c7653e3b67e4e630b7a14c9977aed86eaafbfb6302",
+        "bytes": 9724,
+        "upstream_sha256": "f286e0ce978fde999ca2d7a78c764be08542e19b63cded52b05c12d5173ccc51",
+        "transformation": "Selected full features named Nile, Tigris or Euphrates in name/name_en; properties and coordinates retained unchanged. JSON serialisation changed."
+      }
+    ]
+  }
+}

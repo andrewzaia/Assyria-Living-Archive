@@ -11,6 +11,10 @@ CHECKS = {
     '/articles/reference-assyria/': ('Preserved reference', 'Wikipedia contributors', 'Download retained source JSON'),
     '/styles.css': ('--paper:', '.hero{'),
     '/app.js': ('searchGlobal', 'renderReading'),
+    '/map/': ('A changing empire.', 'map-year', 'map.js'),
+    '/map.js': ('map-territory', 'map-chapter-select'),
+    '/archive/maps/assyria-atlas.json': ('schema_version', 'snapshots', 'bm-chronicle'),
+    '/archive/maps/natural-earth-countries.geojson': ('FeatureCollection', 'MultiPolygon'),
 }
 
 def check(base_url):

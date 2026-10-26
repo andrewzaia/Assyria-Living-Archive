@@ -91,3 +91,9 @@ The validator checks article/source relationships, unique slugs and IDs, local n
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the article schema and evidence requirements. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for image and font attribution. No general open source licence has been selected for the original project files.
 
 The articles are sourced introductions and have not received specialist peer review. Some references are public book descriptions with variable full-text access. Reading-list data remains in the visitor's browser. Contribution drafts are downloaded locally and are not submitted.
+
+## Interactive historical atlas
+
+The `/map/` page adds eleven dated teaching sketches (1350-609 BCE), a draggable timeline, play/pause, chapter selection, modern borders, a comparison with 671 BCE, historical city context, and keyboard-accessible zoom/pan. It uses plain JavaScript and self-hosted SVG geography, with no API keys, tile services or runtime libraries. Original schematic boundaries are explicitly interpretive; they are not province-level GIS evidence. All chronology, source notes, coordinate sketches and the Natural Earth land, country and selected river data are retained in `archive/maps/`. See [the map methodology](archive/maps/README.md).
+
+`python scripts/validate_atlas.py` checks chronology, source references, geometry and the retained basemap hashes offline. The ordinary site validator runs these checks too. JavaScript syntax checks include `static/map.js`. Browser verification is still required for interaction and layout.

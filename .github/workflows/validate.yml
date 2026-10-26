@@ -23,7 +23,9 @@ jobs:
       - name: Check deployment ordering safeguards
         run: python scripts/test_deployment_order.py
       - name: Check JavaScript syntax
-        run: node --check static/app.js
+        run: |
+          node --check static/app.js
+          node --check static/map.js
       - name: Build and validate root deployment
         env:
           BASE_PATH: ''

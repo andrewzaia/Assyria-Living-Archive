@@ -31,7 +31,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
       - name: Check JavaScript syntax
-        run: node --check static/app.js
+        run: |
+          node --check static/app.js
+          node --check static/map.js
       - name: Build and validate website
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}

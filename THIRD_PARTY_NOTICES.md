@@ -24,3 +24,9 @@ The font binaries and their accompanying CSS are stored locally. Preserve the su
 | Noto Sans Syriac | `syriac-*.ttf` | `static/assets/notosanssyriac-OFL.txt` |
 
 All three families use the SIL Open Font License. Their included notices are preserved verbatim. The project's rosette is a decorative working-design mark, not a documented ancient artefact.
+
+## Historical atlas
+
+The interactive `/map/` page uses locally retained Natural Earth 1:110m land and countries, plus selected 1:50m river features. These datasets are public domain. Credit: Tom Patterson, Nathaniel Vaughn Kelso and contributors. Download locations and exact retained hashes are in `archive/maps/assyria-atlas.json`; see `archive/maps/README.md` for methods and limits. Natural Earth terms: https://www.naturalearthdata.com/about/terms-of-use/ .
+
+The historical coordinate sketches and atlas narrative are original editorial interpretations, licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Attribute Assyria | The Living Archive and identify adaptations. Cited museum and academic scholarship retains its own rights; it has not been copied wholesale or presented as an institutionally endorsed boundary dataset.
