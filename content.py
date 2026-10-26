@@ -7,7 +7,7 @@ add('assyrian-identity','Understanding Assyrian identity','People & diaspora',
 'A starting point for understanding a people through language, memory, community and the names people use for themselves.',[
 ('A living identity','This archive centres Assyrian history and living culture. Its scope includes ancient Assyria, Aramaic-speaking communities, Syriac literary heritage and modern people who identify as Assyrian. These subjects overlap, but each needs its own historical context. A palace inscription, a medieval hymn and a modern migration interview answer different kinds of questions.'),
 ('Names deserve care','Assyrian, Chaldean, Syriac and Aramean appear in different ethnic, linguistic and ecclesiastical settings. Individuals and institutions do not all use these names in the same way. The archive follows the self-description of a person or organisation when discussing them. A church name alone cannot establish an individual\'s ethnic identification. Likewise, the fact that someone speaks an Aramaic variety does not automatically make them Assyrian.'),
-('How to read the evidence','For ancient political history, begin with archaeological and textual scholarship. For language, use specialist linguistic descriptions and recordings. For modern life, add oral histories and community institutions. Sophia Kanna\'s Australian migration account, for example, records one Assyrian family experience; it is valuable testimony without being a census of the whole diaspora. This combination gives a richer account than making one type of evidence stand for every period.'),
+('How to read the evidence','For events recorded in Scripture, begin with the biblical account and cite its book, chapter and verse. Archaeological and textual scholarship supplies additional historical evidence and context. For language, use specialist linguistic descriptions and recordings. For modern life, add oral histories and community institutions. Sophia Kanna\'s Australian migration account, for example, records one Assyrian family experience; it is valuable testimony without being a census of the whole diaspora. This combination gives a richer account than making one type of evidence stand for every period.'),
 ('Questions still to develop','The foundation edition does not settle debates about the historical development of modern national consciousness or every competing interpretation of continuity. Those require dedicated articles, named scholarly positions and a wider bibliography. Future contributions should state the period, place, community and source behind each claim.')],
 ['modern-kanna','modern-aaa','modern-chaldean','gedsh-aramaic'],['australia','faith-and-churches','aramaic'],note='Editorial overview. Self-designations vary; this article does not impose one identity on all related communities.')
 
@@ -314,3 +314,21 @@ TIMELINE = [
 ('1969','Modern','Assyrian Australian Association','The association dates its founding to this year.','assyrian-australian-association','modern-aaa'),
 ('Today','Living culture','A culture carried forward','Language learning, music, family stories and community practice remain subjects for documentation.','endangered-languages','cambridge-nena')
 ]
+
+# Biblical primary-source routes on existing articles.
+_BIBLICAL_ROUTES = {
+    'ancient-assyria': [('GEN',10,8,12),('2KI',15,19,29),('2KI',17,1,6),('2KI',18,13,37),('2KI',19,1,37),('ISA',19,23,25)],
+    'nineveh': [('GEN',10,11,12),('JON',3,1,10),('JON',4,1,11),('NAH',1,1,15),('ZEP',2,13,15),('MAT',12,41,41)],
+    'nimrud': [('GEN',10,8,12)],
+    'khorsabad': [('ISA',20,1,6)],
+    'aramaic': [('2KI',18,26,28),('ISA',36,11,13)],
+}
+for _article in ARTICLES:
+    if _article['slug'] in _BIBLICAL_ROUTES:
+        _article['passages'] = _BIBLICAL_ROUTES[_article['slug']]
+        _article['sources'].insert(0,'bible-webbe')
+        _article['related'] = ['bible-reading-guide'] + _article['related']
+        if _article['slug']=='nimrud':
+            _article['passage_note']='Genesis names Calah among the cities in its account of Nimrod and Assyria. The identification of ancient Kalhu with the archaeological site now called Nimrud comes from historical and archaeological evidence; the modern site name does not establish that Nimrod lived there.'
+        elif _article['slug']=='khorsabad':
+            _article['passage_note']='Isaiah 20 names Sargon and Ashdod. It does not name Dur-Sharrukin; the connection between Sargon II and that capital is supplied by the archaeological and inscriptional evidence cited in this article.'

@@ -8,3 +8,9 @@
 *.md text eol=lf
 *.webp binary
 *.ttf binary
+
+# Preserve the publisher bytes used by Bible integrity checks.
+archive/bible/books/*.txt -text
+archive/bible/source-notice.htm -text
+archive/bible/source-signature.asc -text
+archive/bible/haiola.css -text

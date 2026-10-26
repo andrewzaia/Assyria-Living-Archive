@@ -173,7 +173,20 @@
         "aebp-babylonia"
       ],
       "focus": "damascus",
-      "fallen": []
+      "fallen": [],
+      "biblical": {
+        "note": "The Bible records Tiglath Pileser's campaigns, deportation and relationship with Ahaz. These passages do not supply this map's BCE date or boundary coordinates.",
+        "passages": [
+          {
+            "label": "2 Kings 15:19-29",
+            "url": "/bible/read/2ki/15/#v-19"
+          },
+          {
+            "label": "2 Kings 16:7-18",
+            "url": "/bible/read/2ki/16/#v-7"
+          }
+        ]
+      }
     },
     {
       "year": -705,
@@ -193,7 +206,16 @@
         "aebp-babylonia"
       ],
       "focus": "dur-sharrukin",
-      "fallen": []
+      "fallen": [],
+      "biblical": {
+        "note": "Isaiah 20:1 names Sargon and the capture of Ashdod. It does not name Dur-Sharrukin or give the territory drawn here.",
+        "passages": [
+          {
+            "label": "Isaiah 20:1-6",
+            "url": "/bible/read/isa/20/#v-1"
+          }
+        ]
+      }
     },
     {
       "year": -671,
@@ -214,7 +236,20 @@
         "aebp-babylonia"
       ],
       "focus": "memphis",
-      "fallen": []
+      "fallen": [],
+      "biblical": {
+        "note": "Kings and Isaiah record Esar Haddon succeeding Sennacherib. These verses concern succession, not the date or extent of the Egyptian conquest.",
+        "passages": [
+          {
+            "label": "2 Kings 19:36-37",
+            "url": "/bible/read/2ki/19/#v-36"
+          },
+          {
+            "label": "Isaiah 37:37-38",
+            "url": "/bible/read/isa/37/#v-37"
+          }
+        ]
+      }
     },
     {
       "year": -650,
@@ -252,7 +287,20 @@
         "ashur",
         "nineveh",
         "kalhu"
-      ]
+      ],
+      "biblical": {
+        "note": "Nahum and Zephaniah announce judgement on Nineveh. These biblical passages do not give 612 BCE as an absolute date; that chronology is supplied by the other cited evidence.",
+        "passages": [
+          {
+            "label": "Nahum 1:1",
+            "url": "/bible/read/nah/1/#v-1"
+          },
+          {
+            "label": "Zephaniah 2:13-15",
+            "url": "/bible/read/zep/2/#v-13"
+          }
+        ]
+      }
     },
     {
       "year": -609,

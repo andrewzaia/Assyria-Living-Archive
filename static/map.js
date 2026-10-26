@@ -78,6 +78,15 @@
       const a = document.createElement('a'); a.href = '#atlas-source-' + id; a.textContent = source.title;
       li.append(a); return li;
     }));
+    const biblical = $('map-biblical');
+    biblical.replaceChildren(); biblical.hidden = !s.biblical;
+    if (s.biblical) {
+      const heading = document.createElement('span'); heading.className = 'eyebrow'; heading.textContent = 'BIBLICAL PRIMARY REFERENCES';
+      const note = document.createElement('p'); note.textContent = s.biblical.note;
+      const list = document.createElement('ul');
+      s.biblical.passages.forEach(p => { const li = document.createElement('li'); const a = document.createElement('a'); a.href = base + p.url; a.textContent = p.label; li.append(a); list.append(li); });
+      biblical.append(heading, note, list);
+    }
     $('map-places').querySelectorAll('[data-place]').forEach(marker => {
       marker.classList.toggle('map-place-focus', marker.dataset.place === s.focus);
       marker.classList.toggle('map-place-fallen', s.fallen.includes(marker.dataset.place));

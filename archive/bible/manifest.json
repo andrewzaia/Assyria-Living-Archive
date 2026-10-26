@@ -1,0 +1,759 @@
+{
+  "edition": "World English Bible British Edition with Deuterocanon",
+  "abbreviation": "WEBBE",
+  "source": "https://ebible.org/Scriptures/eng-webbe_vpl.zip",
+  "source_page": "https://ebible.org/bible/details.php?id=eng-webbe",
+  "retrieved": "2026-10-26",
+  "licence": "Public domain; World English Bible is a trademark identifying faithful copies",
+  "source_archive_sha256": "b38472b2574ccaf7c2cbc203057143eb7af9574933b1ca0d1fbfdca3a331ae7c",
+  "complete_text_sha256": "9ce2cf21b6f19b1e3ff1dbcd4abbac008623a0c0183fe91b74425553994bc9e5",
+  "complete_text_bytes": 5326977,
+  "verses": 38058,
+  "books": [
+    {
+      "code": "GEN",
+      "name": "Genesis",
+      "collection": "Old Testament",
+      "path": "books/GEN.txt",
+      "sha256": "c58ca83dbac47ff5c44faa521f2d581fdf039b4664677c58afdb900eacc86848",
+      "bytes": 205484,
+      "verses": 1533
+    },
+    {
+      "code": "EXO",
+      "name": "Exodus",
+      "collection": "Old Testament",
+      "path": "books/EXO.txt",
+      "sha256": "9515a2af5ad82db21a664b1af394a51f23049ac758d0754f58792af3d9983a48",
+      "bytes": 174315,
+      "verses": 1213
+    },
+    {
+      "code": "LEV",
+      "name": "Leviticus",
+      "collection": "Old Testament",
+      "path": "books/LEV.txt",
+      "sha256": "18c6d8e5f2c6f47d7b4332e636459184022e01a1383ffa288f6f2355c772637e",
+      "bytes": 130841,
+      "verses": 859
+    },
+    {
+      "code": "NUM",
+      "name": "Numbers",
+      "collection": "Old Testament",
+      "path": "books/NUM.txt",
+      "sha256": "343f2d1bf61401f5146740a07ccbef0c546f2eb2d60f22a477997dc5b900d13d",
+      "bytes": 181202,
+      "verses": 1288
+    },
+    {
+      "code": "DEU",
+      "name": "Deuteronomy",
+      "collection": "Old Testament",
+      "path": "books/DEU.txt",
+      "sha256": "cbdd9cb21528f4bf4c15ceb66b6a9557448629975f06ca215210164e9a32450f",
+      "bytes": 150519,
+      "verses": 959
+    },
+    {
+      "code": "JOS",
+      "name": "Joshua",
+      "collection": "Old Testament",
+      "path": "books/JOS.txt",
+      "sha256": "52128b1c66e434faea908e2acf55296d46d5f15586d4587ead941764c0333638",
+      "bytes": 102381,
+      "verses": 658
+    },
+    {
+      "code": "JDG",
+      "name": "Judges",
+      "collection": "Old Testament",
+      "path": "books/JDG.txt",
+      "sha256": "1d26f4a42d52f0764de966505417c0abb6d5e4ac287088e4b138c98643220de6",
+      "bytes": 101250,
+      "verses": 618
+    },
+    {
+      "code": "RUT",
+      "name": "Ruth",
+      "collection": "Old Testament",
+      "path": "books/RUT.txt",
+      "sha256": "dc08f9e14dc2a4052500ca8f1ed7faa547f878d1c120312ee31e3dba80c253e7",
+      "bytes": 13586,
+      "verses": 85
+    },
+    {
+      "code": "1SA",
+      "name": "1 Samuel",
+      "collection": "Old Testament",
+      "path": "books/1SA.txt",
+      "sha256": "eab220e4ef44e80d0a53a26e7cd9510b768f412dfece3099d2eabf8e0e928681",
+      "bytes": 133051,
+      "verses": 810
+    },
+    {
+      "code": "2SA",
+      "name": "2 Samuel",
+      "collection": "Old Testament",
+      "path": "books/2SA.txt",
+      "sha256": "375348c217b96588d17dc1e1ca9f99fd0956e9849f332629f4930b695f79ff18",
+      "bytes": 109677,
+      "verses": 695
+    },
+    {
+      "code": "1KI",
+      "name": "1 Kings",
+      "collection": "Old Testament",
+      "path": "books/1KI.txt",
+      "sha256": "22e80e3146d875be83433ef73bceb4ec2594ab855971a7dabc1980ad7d0262ce",
+      "bytes": 130123,
+      "verses": 816
+    },
+    {
+      "code": "2KI",
+      "name": "2 Kings",
+      "collection": "Old Testament",
+      "path": "books/2KI.txt",
+      "sha256": "1ee27575d4e015631f4cee5396e63945e55ae691b006c6202c8137bf7c3b9bed",
+      "bytes": 124511,
+      "verses": 719
+    },
+    {
+      "code": "1CH",
+      "name": "1 Chronicles",
+      "collection": "Old Testament",
+      "path": "books/1CH.txt",
+      "sha256": "46cae199d8979f688c9b2e0b350dc28d6080dc2c6e342ad779c5203ac6b998b1",
+      "bytes": 116101,
+      "verses": 942
+    },
+    {
+      "code": "2CH",
+      "name": "2 Chronicles",
+      "collection": "Old Testament",
+      "path": "books/2CH.txt",
+      "sha256": "3c73fdfb8637cbf81e3a0c051ffecabe12d7e30c2388aa7a0a5a5cd5917c31bd",
+      "bytes": 142864,
+      "verses": 822
+    },
+    {
+      "code": "EZR",
+      "name": "Ezra",
+      "collection": "Old Testament",
+      "path": "books/EZR.txt",
+      "sha256": "9bc96684b5200a58d0d5b11a070020a34c380b2ba3d555156f67824df87132e6",
+      "bytes": 41900,
+      "verses": 280
+    },
+    {
+      "code": "NEH",
+      "name": "Nehemiah",
+      "collection": "Old Testament",
+      "path": "books/NEH.txt",
+      "sha256": "8bb8a0b8a79a2520d8bb8c87d9e0fb2a06466e3ba9be635e42a9c1951c4024b0",
+      "bytes": 59471,
+      "verses": 406
+    },
+    {
+      "code": "EST",
+      "name": "Esther",
+      "collection": "Old Testament",
+      "path": "books/EST.txt",
+      "sha256": "b751dd1bd093b23eac56e0a4cb41148c3ac069933f8e16606d8523ac4f57835f",
+      "bytes": 30937,
+      "verses": 167
+    },
+    {
+      "code": "JOB",
+      "name": "Job",
+      "collection": "Old Testament",
+      "path": "books/JOB.txt",
+      "sha256": "8dfa88d4e2142312d725e636db55367a548bd32b359f1d0e757cd8ed3606b68b",
+      "bytes": 102315,
+      "verses": 1070
+    },
+    {
+      "code": "PSA",
+      "name": "Psalms",
+      "collection": "Old Testament",
+      "path": "books/PSA.txt",
+      "sha256": "48685bf1b9b61d9f6229217652926bae4af922759bef90f158cd820d40741bf8",
+      "bytes": 246701,
+      "verses": 2461
+    },
+    {
+      "code": "PRO",
+      "name": "Proverbs",
+      "collection": "Old Testament",
+      "path": "books/PRO.txt",
+      "sha256": "693b88da15c468dcf57f77fe5b82bc44263e28a1055ff1b2b4973a006e57d6a0",
+      "bytes": 86225,
+      "verses": 915
+    },
+    {
+      "code": "ECC",
+      "name": "Ecclesiastes",
+      "collection": "Old Testament",
+      "path": "books/ECC.txt",
+      "sha256": "07634bf7d5411f40cf5a81c45a03ed97c55d59b0962ed14200d92ff95a84da39",
+      "bytes": 29841,
+      "verses": 222
+    },
+    {
+      "code": "SOL",
+      "name": "Song of Solomon",
+      "collection": "Old Testament",
+      "path": "books/SOL.txt",
+      "sha256": "ef39509d625fc8a62a1931d0e514d737e8978f7bd0d96226cf8f0ada229f39cb",
+      "bytes": 14403,
+      "verses": 117
+    },
+    {
+      "code": "ISA",
+      "name": "Isaiah",
+      "collection": "Old Testament",
+      "path": "books/ISA.txt",
+      "sha256": "96c781bcf9f2405ff0972f7676719b5ea661c5b85797d192fdcd92492a238ce5",
+      "bytes": 201194,
+      "verses": 1292
+    },
+    {
+      "code": "JER",
+      "name": "Jeremiah",
+      "collection": "Old Testament",
+      "path": "books/JER.txt",
+      "sha256": "9963f86b307c990e7ed5498ff0e4cf8d6dce281a572829c4a4428a263067ffc9",
+      "bytes": 233598,
+      "verses": 1364
+    },
+    {
+      "code": "LAM",
+      "name": "Lamentations",
+      "collection": "Old Testament",
+      "path": "books/LAM.txt",
+      "sha256": "c12ec6047e2ac1d58fdf9127ec7fee8b261b22b5b38d868b7d5aeaba416e1395",
+      "bytes": 19378,
+      "verses": 154
+    },
+    {
+      "code": "EZE",
+      "name": "Ezekiel",
+      "collection": "Old Testament",
+      "path": "books/EZE.txt",
+      "sha256": "af908bfc9e66b9bcb650d344e2d0b5417b6691d631ee0a1f6eaf99cadf079634",
+      "bytes": 212197,
+      "verses": 1273
+    },
+    {
+      "code": "DAN",
+      "name": "Daniel",
+      "collection": "Old Testament",
+      "path": "books/DAN.txt",
+      "sha256": "de464e4d2a7e6530874cbd8af5ec2e43f752271d9f8815ec6d75253833d40b6f",
+      "bytes": 63972,
+      "verses": 357
+    },
+    {
+      "code": "HOS",
+      "name": "Hosea",
+      "collection": "Old Testament",
+      "path": "books/HOS.txt",
+      "sha256": "1b0fe69cff23bb6398ada408ea129b69c08f295364ec1493a5f740da262a715d",
+      "bytes": 28792,
+      "verses": 197
+    },
+    {
+      "code": "JOE",
+      "name": "Joel",
+      "collection": "Old Testament",
+      "path": "books/JOE.txt",
+      "sha256": "c585933f208f71c5f9a8aac352cd16db9b41c7b124c599e199a59f84548bd7e6",
+      "bytes": 11053,
+      "verses": 73
+    },
+    {
+      "code": "AMO",
+      "name": "Amos",
+      "collection": "Old Testament",
+      "path": "books/AMO.txt",
+      "sha256": "ee6c208fd70328aeda0f7d9cdeda9135727eb570b5b63a5ea2d0f3d4f9d218d5",
+      "bytes": 22633,
+      "verses": 146
+    },
+    {
+      "code": "OBA",
+      "name": "Obadiah",
+      "collection": "Old Testament",
+      "path": "books/OBA.txt",
+      "sha256": "7c4b2bb263d06ebb0a484f564e72230f7bdbe5349bda7f19eeab4d3f482d0943",
+      "bytes": 3523,
+      "verses": 21
+    },
+    {
+      "code": "JON",
+      "name": "Jonah",
+      "collection": "Old Testament",
+      "path": "books/JON.txt",
+      "sha256": "55b08b3bfa9cf7bcb2c4fe48575beee21c1e3a31b90fa9bc6fb091b682f2fb00",
+      "bytes": 6950,
+      "verses": 48
+    },
+    {
+      "code": "MIC",
+      "name": "Micah",
+      "collection": "Old Testament",
+      "path": "books/MIC.txt",
+      "sha256": "777496cb3f360397c4142fd1ea4b8f4e44760c76d570c692b49eba89d7509111",
+      "bytes": 16571,
+      "verses": 105
+    },
+    {
+      "code": "NAH",
+      "name": "Nahum",
+      "collection": "Old Testament",
+      "path": "books/NAH.txt",
+      "sha256": "e4b726ec47c7a08dc667009ce15c74946592bbf8caa826848d82ac074794aaad",
+      "bytes": 6933,
+      "verses": 47
+    },
+    {
+      "code": "HAB",
+      "name": "Habakkuk",
+      "collection": "Old Testament",
+      "path": "books/HAB.txt",
+      "sha256": "a36205da77296d6006fe28f0ed0d10553fd6ee4f4d4ab185247eb8af04e4d09a",
+      "bytes": 7906,
+      "verses": 56
+    },
+    {
+      "code": "ZEP",
+      "name": "Zephaniah",
+      "collection": "Old Testament",
+      "path": "books/ZEP.txt",
+      "sha256": "3b823cbcce0e06c1220d932586cfe262968f7e92d740025392d7461c17ef0693",
+      "bytes": 8781,
+      "verses": 53
+    },
+    {
+      "code": "HAG",
+      "name": "Haggai",
+      "collection": "Old Testament",
+      "path": "books/HAG.txt",
+      "sha256": "e6b84ef9f58e1816c452da64a0102a00cef78fbf8ea41d07ee08a8e0ea041942",
+      "bytes": 6007,
+      "verses": 38
+    },
+    {
+      "code": "ZEC",
+      "name": "Zechariah",
+      "collection": "Old Testament",
+      "path": "books/ZEC.txt",
+      "sha256": "c7ef98aa32e43d9ad311c0006554e87c9506c1a3a3bf9d9ed9cec6802b9b496d",
+      "bytes": 33774,
+      "verses": 211
+    },
+    {
+      "code": "MAL",
+      "name": "Malachi",
+      "collection": "Old Testament",
+      "path": "books/MAL.txt",
+      "sha256": "ae1011fe6a85dcc761db62f03c65d98b94c3207cd9220bd51c811343554711ae",
+      "bytes": 9677,
+      "verses": 55
+    },
+    {
+      "code": "TOB",
+      "name": "Tobit",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/TOB.txt",
+      "sha256": "57e77973daf7792d9a97ee4ee0f930c5a43ebdd1384d6452d217cc008d39edc6",
+      "bytes": 37498,
+      "verses": 244
+    },
+    {
+      "code": "JDT",
+      "name": "Judith",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/JDT.txt",
+      "sha256": "aa3e147cc73de86a8dfa6aa9c877088f301d4bd1d0bb145856020708688b9e4d",
+      "bytes": 61400,
+      "verses": 339
+    },
+    {
+      "code": "ESG",
+      "name": "Esther (Greek)",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/ESG.txt",
+      "sha256": "f80dc193814a2c6760a8fba52ed5780a45f5b95c381345e1c0e1a51251e3a4fe",
+      "bytes": 41022,
+      "verses": 205
+    },
+    {
+      "code": "WIS",
+      "name": "Wisdom",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/WIS.txt",
+      "sha256": "b3731aaf2e43b875dc7e3fa4812ede541633402c658cb1a0e3a5d8e794fd38f4",
+      "bytes": 61335,
+      "verses": 436
+    },
+    {
+      "code": "SIR",
+      "name": "Sirach",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/SIR.txt",
+      "sha256": "9c63255b703d420be7cd4a910a3697ac97a5dbdb2cd07f14010354e76c8c139b",
+      "bytes": 152872,
+      "verses": 1383
+    },
+    {
+      "code": "BAR",
+      "name": "Baruch",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/BAR.txt",
+      "sha256": "e492692a85f8caffa97aca40a91e49ae845929a78e204e53fe1001899bc45fb1",
+      "bytes": 28132,
+      "verses": 213
+    },
+    {
+      "code": "1MA",
+      "name": "1 Maccabees",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/1MA.txt",
+      "sha256": "f9405547d1e0b886ddac2b1619fb43a008f7bfc0771eb8a0e7b88687f4650c7f",
+      "bytes": 129884,
+      "verses": 924
+    },
+    {
+      "code": "2MA",
+      "name": "2 Maccabees",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/2MA.txt",
+      "sha256": "bf0ab1481bc4e0d2dbcc2ea8af6d8b1d37f6c937e867485401f5fc8160678abf",
+      "bytes": 98615,
+      "verses": 555
+    },
+    {
+      "code": "1ES",
+      "name": "1 Esdras",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/1ES.txt",
+      "sha256": "d50e76ce009c8d8c5ae20cbbcdc12a0a964db791bafc9dd5e076f43e14790586",
+      "bytes": 66237,
+      "verses": 448
+    },
+    {
+      "code": "PRM",
+      "name": "Prayer of Manasses",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/PRM.txt",
+      "sha256": "b1ae70050847b8ba8cb6a8fa71e9e61f6e0bb65b0114fa7c68907ca798b19606",
+      "bytes": 2420,
+      "verses": 15
+    },
+    {
+      "code": "PSX",
+      "name": "Psalm 151",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/PSX.txt",
+      "sha256": "b273866d0d73cbd39e6c34ee21ac4c22b75c9be2e355da091553c2d5355c2450",
+      "bytes": 735,
+      "verses": 7
+    },
+    {
+      "code": "3MA",
+      "name": "3 Maccabees",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/3MA.txt",
+      "sha256": "a3922f1e967e2f7d637554a62a1a3fc9bca90d4cb660033fa97d7a7cb0e75870",
+      "bytes": 40294,
+      "verses": 228
+    },
+    {
+      "code": "4ES",
+      "name": "2 Esdras",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/4ES.txt",
+      "sha256": "c5933df5a373e690a23896f6c9f770f47cbcc06e02c564f6f9b7d1d13d5507a2",
+      "bytes": 125472,
+      "verses": 944
+    },
+    {
+      "code": "4MA",
+      "name": "4 Maccabees",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/4MA.txt",
+      "sha256": "6c8de3e0f391a692c6c98e2fe6dc01c85640d2b99fc62045dbeb22c62ed97141",
+      "bytes": 62542,
+      "verses": 484
+    },
+    {
+      "code": "DNG",
+      "name": "Daniel (Greek)",
+      "collection": "Deuterocanon / additional books",
+      "path": "books/DNG.txt",
+      "sha256": "17395312c9047fdd3a24384d40556acc432093baeb5fafad7863f92aab525759",
+      "bytes": 85539,
+      "verses": 530
+    },
+    {
+      "code": "MAT",
+      "name": "Matthew",
+      "collection": "New Testament",
+      "path": "books/MAT.txt",
+      "sha256": "3370989a11d413e67f3a550b148dce73dd393575b54898cf7a36a4a4aa1a2b91",
+      "bytes": 133388,
+      "verses": 1071
+    },
+    {
+      "code": "MAR",
+      "name": "Mark",
+      "collection": "New Testament",
+      "path": "books/MAR.txt",
+      "sha256": "962999ec4cd8a37a4d1b647146c37b77665f51ff9105e8c2b6a36ae03983b000",
+      "bytes": 83406,
+      "verses": 678
+    },
+    {
+      "code": "LUK",
+      "name": "Luke",
+      "collection": "New Testament",
+      "path": "books/LUK.txt",
+      "sha256": "aae0e0c8f98ac6c7430800401076f5d2a9ee9cbe461a066bf87af642ea0e1ed3",
+      "bytes": 141574,
+      "verses": 1151
+    },
+    {
+      "code": "JOH",
+      "name": "John",
+      "collection": "New Testament",
+      "path": "books/JOH.txt",
+      "sha256": "73a5c8b363067cc0ba05d1ff4debaf2398e6be41ea4e9fcc65e1cb107b7e160b",
+      "bytes": 107156,
+      "verses": 879
+    },
+    {
+      "code": "ACT",
+      "name": "Acts",
+      "collection": "New Testament",
+      "path": "books/ACT.txt",
+      "sha256": "aa1e628c20f997f2b224566af6ab71a41928daf7d7d2aff89a888c8e2b4e4c12",
+      "bytes": 135762,
+      "verses": 1007
+    },
+    {
+      "code": "ROM",
+      "name": "Romans",
+      "collection": "New Testament",
+      "path": "books/ROM.txt",
+      "sha256": "0b93c6d35057840b5de05144208fb1b3b5e0578b45f8f0c0c54cd20c3fbee142",
+      "bytes": 54680,
+      "verses": 434
+    },
+    {
+      "code": "1CO",
+      "name": "1 Corinthians",
+      "collection": "New Testament",
+      "path": "books/1CO.txt",
+      "sha256": "7a889b8fff08f9f770eee17d156a9606b7dee59913d416aed936bc3dcf07d50e",
+      "bytes": 53374,
+      "verses": 437
+    },
+    {
+      "code": "2CO",
+      "name": "2 Corinthians",
+      "collection": "New Testament",
+      "path": "books/2CO.txt",
+      "sha256": "9e5504902dfe69342885d8ad445a2f4ecf3823e96c2a7651cce1c3e73c24365e",
+      "bytes": 34520,
+      "verses": 257
+    },
+    {
+      "code": "GAL",
+      "name": "Galatians",
+      "collection": "New Testament",
+      "path": "books/GAL.txt",
+      "sha256": "ff992efbe10c915e05da214ef9c6af251dbed30ddd46d91dbdda50b49e223245",
+      "bytes": 17850,
+      "verses": 149
+    },
+    {
+      "code": "EPH",
+      "name": "Ephesians",
+      "collection": "New Testament",
+      "path": "books/EPH.txt",
+      "sha256": "fc53e51e09bc77346262d43756e3f6a6844fa2f995501a2c4ae0dd5d06dafa7c",
+      "bytes": 17852,
+      "verses": 155
+    },
+    {
+      "code": "PHI",
+      "name": "Philippians",
+      "collection": "New Testament",
+      "path": "books/PHI.txt",
+      "sha256": "771dd70be080c8668b82c3778bd3d5f68e3bab55ed20fb3a09b63084c68af0f1",
+      "bytes": 12551,
+      "verses": 104
+    },
+    {
+      "code": "COL",
+      "name": "Colossians",
+      "collection": "New Testament",
+      "path": "books/COL.txt",
+      "sha256": "a6c01ce49e0286cc85b9f0d1595264565e2e2c07d651fc786e1e1ce3bdb17192",
+      "bytes": 11622,
+      "verses": 95
+    },
+    {
+      "code": "1TH",
+      "name": "1 Thessalonians",
+      "collection": "New Testament",
+      "path": "books/1TH.txt",
+      "sha256": "2d22937ac3e8c8af241fe1cf6addde48d3500e2b48ffe092146d6bed37149ec2",
+      "bytes": 10471,
+      "verses": 89
+    },
+    {
+      "code": "2TH",
+      "name": "2 Thessalonians",
+      "collection": "New Testament",
+      "path": "books/2TH.txt",
+      "sha256": "55f9e78d2448dc7d01ec7a4c7ade92c8564f5b0652017a8de792103bc68b01e5",
+      "bytes": 5882,
+      "verses": 47
+    },
+    {
+      "code": "1TI",
+      "name": "1 Timothy",
+      "collection": "New Testament",
+      "path": "books/1TI.txt",
+      "sha256": "07c7ce1ef249a4fbc86214fb5df020b42dde01a6684ac4d44d811a931e3e2fb0",
+      "bytes": 13774,
+      "verses": 113
+    },
+    {
+      "code": "2TI",
+      "name": "2 Timothy",
+      "collection": "New Testament",
+      "path": "books/2TI.txt",
+      "sha256": "333fa13dcef0d766c7e45a780a1c47868bda8c080346c50bacf8e01b06c316e7",
+      "bytes": 9656,
+      "verses": 83
+    },
+    {
+      "code": "TIT",
+      "name": "Titus",
+      "collection": "New Testament",
+      "path": "books/TIT.txt",
+      "sha256": "5cc54906ba3908660a2957a758285ff6b240dab7e9c5416256d03de4d06687ed",
+      "bytes": 5594,
+      "verses": 46
+    },
+    {
+      "code": "PHM",
+      "name": "Philemon",
+      "collection": "New Testament",
+      "path": "books/PHM.txt",
+      "sha256": "c26d88f66fb8bcbbdbd83764421337c3d23e813aae96559ec03b89f135f373f3",
+      "bytes": 2513,
+      "verses": 25
+    },
+    {
+      "code": "HEB",
+      "name": "Hebrews",
+      "collection": "New Testament",
+      "path": "books/HEB.txt",
+      "sha256": "c8855948d1dcf05bca28782c006cc52e1dda9502c5abc9dfe454addfc63e5743",
+      "bytes": 40408,
+      "verses": 303
+    },
+    {
+      "code": "JAM",
+      "name": "James",
+      "collection": "New Testament",
+      "path": "books/JAM.txt",
+      "sha256": "8c6141af4e292357b09f2fc117df13d696ef440542768361d0df9b8db26c5f42",
+      "bytes": 13005,
+      "verses": 108
+    },
+    {
+      "code": "1PE",
+      "name": "1 Peter",
+      "collection": "New Testament",
+      "path": "books/1PE.txt",
+      "sha256": "a6047bd405fd285209998669d0910590880bbdae33b0e085306760e5574d0fa8",
+      "bytes": 14246,
+      "verses": 105
+    },
+    {
+      "code": "2PE",
+      "name": "2 Peter",
+      "collection": "New Testament",
+      "path": "books/2PE.txt",
+      "sha256": "412c0428b370a8a5339aebc91b432a61655c9e986cfbfe879af6de6929224458",
+      "bytes": 9072,
+      "verses": 61
+    },
+    {
+      "code": "1JO",
+      "name": "1 John",
+      "collection": "New Testament",
+      "path": "books/1JO.txt",
+      "sha256": "19564e825039f763eb9ebdc7b7d865bccea54c51def2ec32fd571ac3eef8910d",
+      "bytes": 13485,
+      "verses": 105
+    },
+    {
+      "code": "2JO",
+      "name": "2 John",
+      "collection": "New Testament",
+      "path": "books/2JO.txt",
+      "sha256": "5424949785d52200d5c7fdc04748cfe2dc22d34a2752dba574dc597fa8e7c728",
+      "bytes": 1675,
+      "verses": 13
+    },
+    {
+      "code": "3JO",
+      "name": "3 John",
+      "collection": "New Testament",
+      "path": "books/3JO.txt",
+      "sha256": "98a19143810c5fe6ea9eb05a14f5ff33dba04312ecd333dd61ee494ba570c728",
+      "bytes": 1666,
+      "verses": 14
+    },
+    {
+      "code": "JUD",
+      "name": "Jude",
+      "collection": "New Testament",
+      "path": "books/JUD.txt",
+      "sha256": "aed2c01660d613b86b4ae73eabbed16c71e158892284e40ca6c088b75a168a8b",
+      "bytes": 3729,
+      "verses": 25
+    },
+    {
+      "code": "REV",
+      "name": "Revelation",
+      "collection": "New Testament",
+      "path": "books/REV.txt",
+      "sha256": "9261d740fd78f3dcbad6e3613f79cfff47414a05d9ab24929bb4f665d3976bc2",
+      "bytes": 63432,
+      "verses": 404
+    }
+  ],
+  "method": "Complete verse-per-line text split by book without changing bytes. Concatenate books in manifest order to reconstruct eng-webbe_vpl.txt. Formatting, translator notes and introductions were already absent in the publisher VPL edition. The original ZIP also included equivalent XML and SQL serialisations; these redundant formats are not retained. The publisher stylesheet is retained with its notice.",
+  "signature_note": "The publisher signature is retained for provenance. SHA-256 checks are performed locally; no OpenPGP signature verification is claimed.",
+  "supporting_files": [
+    {
+      "path": "source-notice.htm",
+      "sha256": "1b3d3c79cbf82564deb46ad8175bd555c981709f76172934b38a8b27e0b9a922"
+    },
+    {
+      "path": "source-signature.asc",
+      "sha256": "220b1bf2c8a57dd1fcada273e10395519a408ff332aef54194c7a7965f363e20"
+    },
+    {
+      "path": "haiola.css",
+      "sha256": "b0bafca14b3632a01adb83e8b8683ad86e76b4eb65131f0ed90ff3103787c175"
+    }
+  ]
+}

@@ -97,3 +97,11 @@ The articles are sourced introductions and have not received specialist peer rev
 The `/map/` page adds eleven dated teaching sketches (1350-609 BCE), a draggable timeline, play/pause, chapter selection, modern borders, a comparison with 671 BCE, historical city context, and keyboard-accessible zoom/pan. It uses plain JavaScript and self-hosted SVG geography, with no API keys, tile services or runtime libraries. Original schematic boundaries are explicitly interpretive; they are not province-level GIS evidence. All chronology, source notes, coordinate sketches and the Natural Earth land, country and selected river data are retained in `archive/maps/`. See [the map methodology](archive/maps/README.md).
 
 `python scripts/validate_atlas.py` checks chronology, source references, geometry and the retained basemap hashes offline. The ordinary site validator runs these checks too. JavaScript syntax checks include `static/map.js`. Browser verification is still required for interaction and layout.
+
+## Biblical primary sources
+
+The `/bible/` collection begins with Scripture for biblical accounts and cites book, chapter and verse before commentary. It adds 26 original reading guides, a searchable named-reference index and complete local chapter readers. Relevant existing articles and map stages link to the primary passages. Translation choices, unnamed rulers, canonical differences and added historical interpretations are made explicit.
+
+The complete public-domain World English Bible British Edition with Deuterocanon is preserved as 81 source book files, containing 38,058 verse lines. The original text can be reconstructed byte for byte in manifest order. `archive/bible/README.md` documents the edition, rights, scope, acquisition and search rules. This source edition includes additional books whose canonical status differs by tradition.
+
+`python scripts/validate_bible.py` verifies source reconstruction, references, concordance and exact Scripture wording in the generated reader. It is also run by the ordinary site validator. `scripts/capture_bible.py` is an explicit acquisition tool, separate from offline builds. Original source punctuation is preserved in exact quotations; editorial prose retains the ASCII hyphen standard.

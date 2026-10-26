@@ -8,7 +8,10 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from content import ARTICLES as EDITORIAL_ARTICLES, TIMELINE
+from content import ARTICLES as FOUNDATION_ARTICLES, TIMELINE
+from biblical_content import ARTICLES as BIBLICAL_ARTICLES
+from bible_support import validate_passages
+EDITORIAL_ARTICLES = FOUNDATION_ARTICLES + BIBLICAL_ARTICLES
 from archive_support import load_references, reference_sources
 REFERENCES = load_references()
 ARTICLES = EDITORIAL_ARTICLES + REFERENCES
@@ -41,6 +44,9 @@ def main():
     errors = []
     from validate_atlas import validate as validate_atlas
     validate_atlas()
+    validate_passages(EDITORIAL_ARTICLES)
+    from validate_bible import validate as validate_bible
+    validate_bible()
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     sources += reference_sources(REFERENCES)
     source_ids = [s['id'] for s in sources]
@@ -113,11 +119,15 @@ def main():
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
-        if re.search('[\u2010-\u2015\u2212]', path.read_text(encoding='utf-8')):
+        text = path.read_text(encoding='utf-8')
+        # Exact Scripture quotations preserve source punctuation; editorial prose uses ASCII hyphens.
+        if path.suffix == '.html' and OUT / 'bible' in path.parents:
+            text = re.sub(r'<blockquote\b[^>]*>.*?</blockquote>', '', text, flags=re.S)
+        if re.search('[\u2010-\u2015\u2212]', text):
             errors.append(f'{path.relative_to(ROOT)}: prohibited dash character')
     if errors:
         print('\n'.join(errors), file=sys.stderr)

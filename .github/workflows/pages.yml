@@ -34,6 +34,7 @@ jobs:
         run: |
           node --check static/app.js
           node --check static/map.js
+          node --check static/bible.js
       - name: Build and validate website
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}

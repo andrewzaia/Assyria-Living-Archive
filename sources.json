@@ -1,5 +1,50 @@
 [
   {
+    "id": "bible-webbe",
+    "title": "Holy Bible: World English Bible British Edition with Deuterocanon",
+    "publisher": "World English Bible translation project / eBible.org",
+    "url": "https://ebible.org/bible/details.php?id=eng-webbe",
+    "type": "Biblical primary source",
+    "access": "Public-domain Bible wording; full retained text and local chapter references at /bible/",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "bible-genesis-translations",
+    "title": "Genesis 10:11: comparison of published Bible translations",
+    "publisher": "Bible Gateway / named translation publishers",
+    "url": "https://www.biblegateway.com/verse/en/Genesis%2010%3A11",
+    "type": "Biblical translation comparison",
+    "access": "Public comparison; individual translations retain their own terms; linked for the Asshur/Nimrod subject question",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "bible-judith-usccb",
+    "title": "The Book of Judith: introduction",
+    "publisher": "United States Conference of Catholic Bishops",
+    "url": "https://bible.usccb.org/bible/judith/0",
+    "type": "Named ecclesial interpretation",
+    "access": "Public introduction; rights retained by USCCB; cited as an identified interpretation of Judith",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "bible-pul-imj",
+    "title": "Ancient Near Eastern Art collections: stele of Tiglath-Pilesar III (biblical Pul)",
+    "publisher": "The Israel Museum, Jerusalem",
+    "url": "https://museum.imj.org.il/imagine/collections/departments/24",
+    "type": "Museum identification and context",
+    "access": "Public collection listing; cited for the historical identification of Pul, separate from the biblical name",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "bible-official-titles",
+    "title": "SIL Translator's Notes on 2 Kings 18:17",
+    "publisher": "SIL translation specialists, hosted by the United Bible Societies TIPs project",
+    "url": "https://tips.translation.bible/story/sil-translators-notes-on-2-kings-1817/",
+    "type": "Translation and terminology notes",
+    "access": "Public specialist notes explaining Tartan, Rabsaris and Rabshakeh as official titles; commentary is identified separately from Scripture",
+    "checked": "2026-10-26"
+  },
+  {
     "id": "met-assyria",
     "title": "Assyria, 1365-609 B.C.",
     "publisher": "The Metropolitan Museum of Art, Department of Ancient Near Eastern Art",
