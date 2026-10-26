@@ -92,8 +92,9 @@ def main():
                 failures.append(dict(title=title, error=str(error)))
                 print(f'Unavailable: {title}: {error}', flush=True)
             # Keep every successful checkpoint reproducible if interrupted.
-            ordered = [saved[title] for title, _ in selected if title in saved]
+            ordered = existing + [saved[title] for title, _ in selected if title in saved]
             unique = {record['page_id']: record for record in ordered}
+            assert {record['page_id'] for record in existing} <= set(unique), 'Acquisition must not drop retained pages'
             manifest_path.parent.mkdir(parents=True, exist_ok=True)
             manifest_path.write_text(json.dumps(dict(
                 schema_version=1, records=list(unique.values()), unresolved=failures,
