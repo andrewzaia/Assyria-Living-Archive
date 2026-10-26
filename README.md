@@ -105,3 +105,9 @@ The `/bible/` collection begins with Scripture for biblical accounts and cites b
 The complete public-domain World English Bible British Edition with Deuterocanon is preserved as 81 source book files, containing 38,058 verse lines. The original text can be reconstructed byte for byte in manifest order. `archive/bible/README.md` documents the edition, rights, scope, acquisition and search rules. This source edition includes additional books whose canonical status differs by tradition.
 
 `python scripts/validate_bible.py` verifies source reconstruction, references, concordance and exact Scripture wording in the generated reader. It is also run by the ordinary site validator. `scripts/capture_bible.py` is an explicit acquisition tool, separate from offline builds. Original source punctuation is preserved in exact quotations; editorial prose retains the ASCII hyphen standard.
+
+## Encyclopaedia expansion record
+
+The second encyclopaedia expansion is measured against `data/encyclopaedia-round-two-baseline.json`. Article words exclude the Bible reader, retained Bible books and interface copy; retained reference notes and bibliography are included. `/about/expansion/` and `/encyclopaedia-growth.json` show comparable counts and the counting limits. `/glossary/` links short definitions to longer sourced entries.
+
+The active reference manifest is `archive/encyclopaedia-references.json`, falling back to the original manifest when absent. Original API responses are preserved losslessly in deterministic gzip files, with checksums for both compressed and original bytes. The older source edition remains in Git history and its original files remain retained. Preserved external references are labelled as such, including shared regional context. Their inclusion does not imply independent scholarly review or an Assyrian identity for every subject. The acquisition tool never runs during ordinary builds.

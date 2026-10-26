@@ -11,6 +11,7 @@ CHECKS = {
     '/articles/reference-assyria/': ('Preserved reference', 'Wikipedia contributors', 'Download retained source JSON'),
     '/styles.css': ('--paper:', '.hero{'),
     '/app.js': ('searchGlobal', 'renderReading'),
+    '/glossary/': ('A glossary for the journey.', 'Read the sourced entry'),
     '/bible/': ('Assyria in the Bible.', 'World English Bible', 'bible.js'),
     '/bible/passages/': ('Let the text speak.', 'bible-query', 'bible-entry'),
     '/bible/read/isa/19/': ('v-25', 'Assyria the work of my hands'),

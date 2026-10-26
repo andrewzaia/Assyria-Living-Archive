@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "commit": "5d00334b1b631d76794b1e704590aa4eeb5e768a",
+    "articles": 156,
+    "references": 90,
+    "article_body_words": 499998,
+    "method": "Article section words, including retained reference notes and bibliography; excludes Bible reader, Bible source files and interface text."
+  },
+  "current": {
+    "articles": 438,
+    "references": 372,
+    "article_body_words": 1375004
+  },
+  "article_factor": 2.808,
+  "word_factor": 2.75,
+  "category_entries": {
+    "People & diaspora": 85,
+    "History & archaeology": 93,
+    "Places & heritage": 82,
+    "Arts & traditions": 38,
+    "Language & literature": 64,
+    "Faith & communities": 76
+  },
+  "method": "Article section words, including retained reference notes and bibliography; excludes Bible reader, Bible source files and interface text.",
+  "review_note": "Preserved references are externally authored, attributed and licence-labelled. Text volume does not imply independent verification or specialist review."
+}

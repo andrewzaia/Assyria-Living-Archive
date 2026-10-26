@@ -1,0 +1,15 @@
+"""Comparable encyclopaedia growth measurements, excluding the retained Bible."""
+import json
+from pathlib import Path
+from collections import Counter
+
+def measure(articles):
+    baseline=json.loads((Path(__file__).parent/'data/encyclopaedia-round-two-baseline.json').read_text())
+    current=dict(articles=len(articles),references=sum(a.get('kind')=='preserved_reference' for a in articles),article_body_words=sum(len(s['text'].split()) for a in articles for s in a['sections']))
+    return dict(baseline=baseline,current=current,article_factor=round(current['articles']/baseline['articles'],3),word_factor=round(current['article_body_words']/baseline['article_body_words'],3),category_entries=dict(Counter(a['category'] for a in articles)),method=baseline['method'],review_note='Preserved references are externally authored, attributed and licence-labelled. Text volume does not imply independent verification or specialist review.')
+
+def render(heading,h,report):
+    before=report['baseline'];after=report['current']
+    rows=''.join(f'<tr><th>{label}</th><td>{before[key]:,}</td><td>{after[key]:,}</td></tr>' for key,label in [('articles','Reading entries'),('references','Preserved references'),('article_body_words','Article body words')])
+    cats=''.join(f'<li>{h(k)}: {v} entries</li>' for k,v in report['category_entries'].items())
+    return '<main id="main" class="wrap section narrow-page">'+heading('THE ENCYCLOPAEDIA / EXPANSION RECORD','More knowledge. A visible record.','Compare this expansion with the edition immediately before it, using a consistent counting method.')+f'<div class="prose"><table><thead><tr><th>Measure</th><th>Before</th><th>Now</th></tr></thead><tbody>{rows}</tbody></table><p>Reading-entry growth: {report["article_factor"]:.2f} times. Article-text growth: {report["word_factor"]:.2f} times.</p><h2>What is counted</h2><p>{h(report["method"])} Preserved reference text includes its notes and bibliography. This measures available reading volume, not a count of independently verified facts. Source book files, duplicate Bible chapter text and interface copy do not inflate the total.</p><h2>The next chapters, in progress</h2><p>The retained collection expands biographies, women\'s histories, regional communities, ancient evidence, languages and literature. Some contextual entries concern shared traditions, neighbouring societies or related churches; inclusion does not identify every subject as Assyrian.</p><ul>{cats}</ul><h2>What still requires people</h2><p>Preserved references remain labelled as external work. They are not substitutes for original research, specialist review, community testimony or permissions for new media. Missing source pages produce no placeholder articles. Revision, author-history and licence links accompany each retained reference.</p><p><a href="/explore/">Browse the expanded encyclopaedia</a> / <a href="/glossary/">Read the introductory glossary</a> / <a href="/encyclopaedia-growth.json" download>Download the comparison data</a></p></div></main>'

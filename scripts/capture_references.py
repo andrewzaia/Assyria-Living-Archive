@@ -42,7 +42,7 @@ def capture(title, category):
     slug = slugify(canonical)
     folder = ARCHIVE / 'wikipedia' / 'raw'
     folder.mkdir(parents=True, exist_ok=True)
-    filename = f'{page_id}-{revision}.json'
+    filename = f'{page_id}-{revision}-{hashlib.sha256(payload).hexdigest()[:12]}.json'
     path = folder / filename
     path.write_bytes(payload)
     return dict(
@@ -64,17 +64,23 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--refresh', action='store_true', help='Capture a new revision even when a source is already retained')
     parser.add_argument('--limit', type=int, help='Limit the selected set during an explicit acquisition run')
+    parser.add_argument('--max-new',type=int,help='Bound the number of new acquisition attempts without dropping retained records')
     args = parser.parse_args()
     selection = json.loads((ROOT / 'data/reference-selection.json').read_text())
     selected = [(title, category) for category, titles in selection.items() for title in titles]
     if args.limit:
         selected = selected[:args.limit]
-    manifest_path = ARCHIVE / 'references.json'
+    manifest_path = ARCHIVE / 'encyclopaedia-references.json'
+    if not manifest_path.exists():
+        manifest_path = ARCHIVE / 'references.json'
     existing = json.loads(manifest_path.read_text()).get('records', []) if manifest_path.exists() else []
     saved = {record['requested_title']: record for record in existing}
     pending = [(title, category) for title, category in selected if args.refresh or title not in saved]
+    pending.sort(key=lambda pair: {'People & diaspora':0,'Places & heritage':1}.get(pair[1],2))
+    if args.max_new:
+        pending = pending[:args.max_new]
     failures = []
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         jobs = {pool.submit(capture, title, category): title for title, category in pending}
         for count, job in enumerate(as_completed(jobs), 1):
             title = jobs[job]

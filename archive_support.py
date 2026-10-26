@@ -4,6 +4,7 @@ import hashlib
 import html
 from html.parser import HTMLParser
 import json
+import gzip
 from pathlib import Path
 import re
 from urllib.parse import unquote, urljoin, urlsplit
@@ -56,7 +57,7 @@ class Reader(HTMLParser):
         if not emitted:
             return
         safe = []
-        identifier = attrs.get('id')
+        identifier = normalise(attrs.get('id', ''))
         if identifier and identifier not in self.ids:
             self.ids.add(identifier)
             safe.append(('id', 'reference-' + identifier))
@@ -143,7 +144,9 @@ class Reader(HTMLParser):
         return rendered, plain
 
 def load_references():
-    path = ARCHIVE / 'references.json'
+    path = ARCHIVE / 'encyclopaedia-references.json'
+    if not path.exists():
+        path = ARCHIVE / 'references.json'
     if not path.exists():
         return []
     manifest = json.loads(path.read_text(encoding='utf-8'))
@@ -154,6 +157,10 @@ def load_references():
         raw = (ARCHIVE / record['raw_path']).read_bytes()
         if hashlib.sha256(raw).hexdigest() != record['sha256']:
             raise ValueError('Snapshot checksum mismatch: ' + record['id'])
+        if record['raw_path'].endswith('.gz'):
+            raw = gzip.decompress(raw)
+            if hashlib.sha256(raw).hexdigest() != record['uncompressed_sha256']:
+                raise ValueError('Decompressed source checksum mismatch')
         source = json.loads(raw)['parse']
         if source['revid'] != record['revision_id']:
             raise ValueError('Snapshot revision mismatch: ' + record['id'])
