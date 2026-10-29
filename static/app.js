@@ -117,7 +117,12 @@
   const form=$('#contribution-form');if(form){
     const subject=$('#contribution-subject');
     const status=$('#draft-status');
-    const slug=new URLSearchParams(location.search).get('article');
+    const params=new URLSearchParams(location.search);
+    const slug=params.get('article');
+    if(params.get('type')==='correction'){
+      const selector=form.querySelector('select[name="type"]');
+      if(selector)selector.value='Correction to an article';
+    }
     if(slug)getData().then(({articles})=>{
       const article=articles.find(x=>x.slug===slug);
       if(article)subject.value=article.title;

@@ -42,6 +42,16 @@ The downloadable `archive/heritage/` files are original **blank planning aids**,
 
 The current project **has no operational intake or media archive**, and the existing contribution form only creates a local draft. Do not solicit private material as if it will be reviewed or securely stored until a separately approved system and accountable editorial team exist. For method, consult Oral History Australia and the National Library of Australia rights guidance in `sources.json`.
 
+## Editorial governance and revision provenance
+
+`/governance/` is the public corrections policy and curated release ledger. Before a significant change, inspect claim-level anchors, section citations, Scripture or inscriptions, reuse rights and the project roadmap. A substantive correction or withdrawal needs an explicit public notice only after it is investigated and the evidence and editorial action can be stated responsibly. Keep unadjudicated private reports and sensitive material out of public data.
+
+- Significant public releases should be appended to `data/editorial-revisions.json` using a `REV-...` identifier, affected pages and files, the **actual merged Git commit SHA**, pull request number, nature of the change and unresolved limitations. It is a curated log, not a substitute for the full Git history.
+- Documented corrections require a `COR-...` notice linked to a merged revision and affected article, describing the old issue, action, date and evidence. Do not invent error reports or label unresolved private questions as completed corrections.
+- A passing CI build is **automated-validation-only**. Independent approval requires an actual reviewer, scope, assessment note, review date and authorised attribution; a citation, external publication or internal code check is not that approval.
+- Keep unappointed roles visibly **unassigned**. Never describe secure submission, signed consent storage, specialist staffing or response times as active before their systems and responsible people exist.
+- Blank worksheets in `archive/governance/` are local planning aids, not a private intake system. Do not put sensitive reports, contact details or signed permissions into Git.
+
 ## Implementation
 
 Every significant feature or research milestone, including previously undocumented work, must also be recorded in `data/project-roadmap.json` with its accurate status, what has been delivered and what remains. The About page's Next Chapters section is generated directly from this file. Do not mark work complete because code was written if its validation or deployment is still pending.

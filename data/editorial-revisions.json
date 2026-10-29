@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-29",
+  "method": "This curated ledger records named changes already merged into the project, not every Git commit or a claim of historical accuracy. A feature release records software and editorial delivery, not specialist review. No public correction records have yet been documented. Zero correction records does not establish that the archive is error-free.",
+  "project": "andrewzaia/Assyria-Living-Archive",
+  "policy_reference": "/governance/",
+  "roles": [
+    {
+      "id": "maintainer",
+      "label": "Maintainer and release editor",
+      "assignment": "project-maintainer",
+      "description": "Responsible for approving public updates through GitHub; a release commit does not constitute independent historical review."
+    },
+    {
+      "id": "subject-editor",
+      "label": "Subject editor",
+      "assignment": "unassigned",
+      "description": "Future role for section-specific historical, manuscript, biblical, linguistic or diaspora editorial decisions."
+    },
+    {
+      "id": "independent-reviewer",
+      "label": "Independent specialist reviewer",
+      "assignment": "unassigned",
+      "description": "Requires an identified, qualified person, documented scope, date and assessment before a completion claim may be displayed."
+    },
+    {
+      "id": "community-rights-editor",
+      "label": "Community testimony and rights custodian",
+      "assignment": "unassigned",
+      "description": "A future responsible person or institution needed before accepting private interviews, releases or restrictive material."
+    }
+  ],
+  "changes": [
+    {
+      "id": "REV-0004",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Community testimony and heritage research",
+      "summary": "Added the public heritage reference room, six original source-mapped articles and blank private-first planning worksheets.",
+      "impact": "The catalogue links to externally published records; no new private interview content, audio or release forms were collected.",
+      "commit": "661fa38c3c2fc1cb89ebdbf41f46b9a60206db1c",
+      "pr": 11,
+      "sections": [
+        "/heritage/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "heritage_page.py",
+        "data/heritage-records.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
+      "id": "REV-0003",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Language and script reference expansion",
+      "summary": "Added eight source-linked language studies and a Unicode-anchored Syriac letter reference room.",
+      "impact": "Letter identities are validated; pronunciation and original manuscript images remain externally linked or under future expert review.",
+      "commit": "11ec303cf7078799dffe791097ad5aaad4e3fd78",
+      "pr": 10,
+      "sections": [
+        "/languages/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "language_page.py",
+        "data/syriac-letters.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
+      "id": "REV-0002",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Historical atlas evidence and uncertainty",
+      "summary": "Added per-stage reconstruction limits, source-scope notes and routes to historical articles across eleven atlas stages.",
+      "impact": "Map polygons remained schematic and unchanged, and specialist geographic review remains outstanding.",
+      "commit": "746ff4adcb3014f50339599cd6f19a6646d1f7ee",
+      "pr": 9,
+      "sections": [
+        "/map/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "map_page.py",
+        "archive/maps/assyria-atlas.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
+      "id": "REV-0001",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Historical encyclopaedia depth expansion",
+      "summary": "Added fourteen historical reading guides, original sections and section-level bibliographic trails.",
+      "impact": "Academic and biblical references were linked, but independent specialist verification and inscription-level comparisons remain outstanding.",
+      "commit": "48e457dc395138898a0d197fa74d63d9b3e3092c",
+      "pr": 8,
+      "sections": [
+        "/explore/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "content.py",
+        "data/section-evidence.json",
+        "data/project-roadmap.json"
+      ]
+    }
+  ],
+  "corrections": [],
+  "correction_policy": "A dated public correction record is created only after a specific published problem and editorial action are documented. Pending private reports and sensitive personal information must not be published. Substantive corrections should retain a link to the affected article, the evidence and a dated immutable commit; unresolved issues must not be labelled resolved.",
+  "statuses": {
+    "feature-release": "A merged website or content delivery, not specialist validation.",
+    "correction": "A publicly documented substantive change to a published error, with its limits and supporting source trail.",
+    "clarification": "A publicly documented substantive qualification that does not necessarily assert previous text was false.",
+    "withdrawal": "An explicit notice that affected editorial material should no longer be relied on."
+  }
+}
