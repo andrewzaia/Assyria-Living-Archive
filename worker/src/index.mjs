@@ -8,7 +8,7 @@ function response(payload, status = 200, origin = '') {
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'Vary': 'Origin', 'X-Content-Type-Options': 'nosniff' };
   if (origin === ALLOWED_ORIGIN) {
     headers['Access-Control-Allow-Origin'] = ALLOWED_ORIGIN;
-    headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS';
+    headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS';
     headers['Access-Control-Allow-Headers'] = 'Content-Type';
   }
   return new Response(JSON.stringify(payload), { status, headers });
@@ -66,6 +66,7 @@ export default {
   async fetch(request, env) {
     const origin = request.headers.get('Origin') || '';
     const path = new URL(request.url).pathname;
+    if (path === '/status' && request.method === 'GET') return response({ available: Boolean(env.EMAIL && env.CONTRIBUTION_INBOX && env.CONTRIBUTION_FROM && env.TURNSTILE_SECRET) }, 200, origin);
     if (path !== '/submit') return response({ error: 'Not found.' }, 404, origin);
     if (origin !== ALLOWED_ORIGIN) return response({ error: 'Forbidden.' }, 403);
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: response({}, 200, origin).headers });
