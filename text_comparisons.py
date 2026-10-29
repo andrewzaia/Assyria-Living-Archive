@@ -85,7 +85,8 @@ def _line_rows(entry):
 
 def render_lines(case, include_heading=True):
     entry = BY_SLUG[case["slug"]]
-    heading = '<h2 id="compare-lines-title">Read the edited lines side by side.</h2>' if include_heading else ""
+    heading_text = ("Read the edited lines side by side." if entry["status"] == "excerpted" else "A verified line edition is not yet available.")
+    heading = '<h2 id="compare-lines-title">' + H(heading_text) + '</h2>' if include_heading else ""
     lead = (
         '<span class="eyebrow">ATTRIBUTED ANCIENT-TEXT EXCERPTS</span>' + heading +
         '<p class="compare-disclaimer">Transliteration represents cuneiform signs in modern notation; it is not the original cuneiform image. ' +
