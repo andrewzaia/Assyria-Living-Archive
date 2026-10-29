@@ -33,6 +33,7 @@ from case_files import DATA as CASE_FILES, validate as validate_case_files
 from text_comparisons import DATA as TEXT_COMPARISONS, BY_SLUG as TEXT_COMPARISON_BY_SLUG, validate as validate_text_comparisons
 from concordance import DATA as CONCORDANCE, TERMS as CONCORDANCE_TERMS, validate as validate_concordance, build_view as build_concordance_view
 from identity_register import DATA as IDENTITY_DATA, CASES as IDENTITY_CASES, validate as validate_identity
+from royal_witnesses import DATA as ROYAL_DATA, CASES as ROYAL_CASES, validate as validate_royal
 
 class Page(HTMLParser):
     def __init__(self):
@@ -485,10 +486,38 @@ def main():
     concordance_page_path = OUT / 'concordance/index.html'
     if not concordance_page_path.is_file() or '/identity-register/' not in concordance_page_path.read_text(encoding='utf-8'):
         errors.append('Ancient text concordance missing identity-review route')
+    # Directly identified inscription lines, physical panels and biblical passages
+    # must stay mutually distinguishable. This checks references, not ancient truth.
+    royal_report = validate_royal(sources, EDITORIAL_ARTICLES)
+    if royal_report != {"comparisons": 6, "inscription_comparisons": 5,
+                        "museum_comparisons": 1, "bible_routes": 10, "edition_identifiers": 3}:
+        errors.append('Royal source and biblical comparison coverage changed unexpectedly')
+    royal_html = OUT / 'royal-witnesses/index.html'
+    if not royal_html.is_file():
+        errors.append('Missing royal inscription and Bible research room')
+    else:
+        royal_page = royal_html.read_text(encoding='utf-8')
+        if royal_page.count('class="royal-case"') != len(ROYAL_CASES):
+            errors.append('Missing royal source comparison cards')
+        for item in ROYAL_CASES:
+            if 'id="witness-' + item['id'] + '"' not in royal_page:
+                errors.append('Missing royal source deep link ' + item['id'])
+        if 'specialist review pending' not in royal_page or 'royal-witnesses.css' not in royal_page:
+            errors.append('Royal comparison disclaimer or style missing')
+    royal_export = OUT / 'royal-witnesses.json'
+    if not royal_export.is_file() or json.loads(royal_export.read_text(encoding='utf-8')) != ROYAL_DATA:
+        errors.append('Generated royal witness dataset mismatches curated source')
+    dossier_html = OUT / 'dossiers/index.html'
+    if not dossier_html.is_file() or '/royal-witnesses/' not in dossier_html.read_text(encoding='utf-8'):
+        errors.append('Historic dossiers missing royal witness backlink')
+    for item in ROYAL_CASES:
+        article_html = OUT / 'articles' / item['article'] / 'index.html'
+        if not article_html.is_file() or '/royal-witnesses/#witness-' + item['id'] not in article_html.read_text(encoding='utf-8'):
+            errors.append('Missing reciprocal original royal reading route ' + item['id'])
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'royal_witnesses.py', ROOT / 'royal_witnesses_page.py', ROOT / 'data/royal-witnesses.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
