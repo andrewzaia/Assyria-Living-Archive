@@ -1,0 +1,20 @@
+/* Article dossier hub retains the editorial typographic hierarchy. */
+.dossier-room{max-width:1160px}
+.dossier-intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:30px 0 45px;border-top:1px solid var(--line)}
+.dossier-intro p,.dossier-note p{font-size:13px;color:var(--muted);line-height:1.9}
+.dossier-intro strong{color:var(--ink)}.dossier-intro a,.dossier-note a{color:var(--rust);text-decoration:underline;text-underline-offset:3px}
+.dossier-section{border-top:1px solid var(--line);padding:35px 0}
+.dossier-section>.eyebrow{font-size:10px;color:var(--rust)}
+.dossier-section>h2,.dossier-note h2{font:500 41px/1.2 var(--serif);margin:10px 0 28px}
+.dossier-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;padding:0;margin:0;list-style:none}
+.dossier-card{border:1px solid var(--line);background:var(--white)}
+.dossier-card a{display:block;height:100%;padding:25px;transition:background .16s ease}
+.dossier-card a:hover,.dossier-card a:focus-visible{background:#eae9dd}
+.dossier-number{font-size:9px;letter-spacing:1.2px;color:var(--rust)}
+.dossier-card h2{font:500 29px/1.18 var(--serif);margin:13px 0 10px}
+.dossier-card p{font-size:12px;line-height:1.85;color:var(--muted)}
+.dossier-meta{border-top:1px solid var(--line);padding-top:12px;margin-top:22px;font-size:10px;color:var(--muted)}
+.dossier-meta span{padding:0 6px}
+.dossier-note{padding:28px 32px 35px;background:var(--green);color:var(--white)}
+.dossier-note p{color:#d7ddd5}.dossier-note a{color:#efd1a3}
+@media(max-width:760px){.dossier-intro{grid-template-columns:1fr;gap:16px}.dossier-list{grid-template-columns:1fr}.dossier-card h2{font-size:26px}}
