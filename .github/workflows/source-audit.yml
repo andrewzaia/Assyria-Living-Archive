@@ -1,0 +1,57 @@
+name: Audit external source links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 1 * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-audit
+  cancel-in-progress: false
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Probe curated institutional references
+        run: |
+          python scripts/audit_sources.py --network --workers 4 --timeout 8 --output "${RUNNER_TEMP}/source-check.json"
+      - name: Summarise source-health observations
+        env:
+          REPORT_PATH: ${{ runner.temp }}/source-check.json
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          import os
+          from pathlib import Path
+          report = json.loads(Path(os.environ["REPORT_PATH"]).read_text(encoding="utf-8"))
+          print("# External link health observations")
+          print()
+          print("Read-only automated probes of curated institutional source URLs. These are not scholarly verification, rights checks or corrections.")
+          print()
+          print(f"Records probed: **{report['record_count']}**. Original source count: **{report['source_count']}**.")
+          print()
+          for key, count in sorted(report["summary"].items()):
+              print(f"- {key}: {count}")
+          print()
+          print("## Items needing review or a possible updated reference")
+          print()
+          for item in report["results"]:
+              if item["status"] != "reachable":
+                  print(f"- `{item['id']}`: {item['status']} (HTTP {item['http_status'] or 'unknown'}) - {item['url']}")
+          print()
+          print("HTTP 403, 429, timeouts and blocked requests must NOT be classified as broken historical records.")
+          print("Do not update source URLs or consultation dates without editorial checking.")
+          PY
