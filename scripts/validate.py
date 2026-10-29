@@ -30,6 +30,7 @@ from scripts.audit_accessibility import run as accessibility_smoke
 from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
 from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
 from case_files import DATA as CASE_FILES, validate as validate_case_files
+from text_comparisons import DATA as TEXT_COMPARISONS, BY_SLUG as TEXT_COMPARISON_BY_SLUG, validate as validate_text_comparisons
 
 class Page(HTMLParser):
     def __init__(self):
@@ -386,10 +387,55 @@ def main():
     case_claims = [item for item in claim_report['claims'] if item['article'] in case_slugs]
     if len(case_claims) < 12 or any(item['review']['status'] != 'awaiting-independent-review' for item in case_claims):
         errors.append('Object-level statements need an explicitly pending independent-review queue')
+    # Short original-language excerpts must remain attributed and must never be
+    # invented when an individual tablet edition has not been verified.
+    compare_report = validate_text_comparisons(CASE_FILES, sources)
+    if compare_report != {'cases': 9, 'excerpted': 7, 'edition_pending': 2, 'line_excerpts': 16}:
+        errors.append('Unexpected cuneiform comparison counts or edition coverage')
+    compare_hub = OUT / 'text-comparisons/index.html'
+    if not compare_hub.is_file():
+        errors.append('Missing ancient text comparison research hub')
+    else:
+        hub = compare_hub.read_text(encoding='utf-8')
+        if hub.count('class="text-room-item"') != len(CASE_FILES):
+            errors.append('Comparison room must list all the object case files')
+        if 'not replacement scholarly translations' not in hub and 'not a new translation' not in hub:
+            errors.append('Research room must clearly distinguish editorial gloss and authentic scholarly translation')
+        for case in CASE_FILES:
+            slug = case['slug']
+            record = TEXT_COMPARISON_BY_SLUG[slug]
+            if 'id="comparison-' + slug + '"' not in hub:
+                errors.append('Missing line comparison in research room: ' + slug)
+            article_page = OUT / 'articles' / slug / 'index.html'
+            if not article_page.is_file():
+                errors.append('Missing archaeological object article for transliteration: ' + slug)
+                continue
+            html_data = article_page.read_text(encoding='utf-8')
+            if 'id="compare-lines-title"' not in html_data or 'text-comparisons.css' not in html_data:
+                errors.append('Missing line comparison panel on object article: ' + slug)
+            if record['status'] == 'edition-pending':
+                if 'No verified line-by-line text available.' not in html_data or 'class="compare-table"' in html_data:
+                    errors.append('No ancient-language text may be invented for uncollated object: ' + slug)
+            else:
+                if 'class="compare-table"' not in html_data:
+                    errors.append('Missing readable source-comparison table on edited tablet: ' + slug)
+                for line in record['lines']:
+                    if html_escape(line['transliteration']) not in html_data:
+                        errors.append('A source line excerpt is missing from ' + slug)
+    comparison_json = OUT / 'text-comparisons.json'
+    if not comparison_json.is_file() or json.loads(comparison_json.read_text(encoding='utf-8')) != TEXT_COMPARISONS:
+        errors.append('Published text comparison JSON does not match curated excerpts')
+    method_article = 'reading-cuneiform-transliteration'
+    if len(SECTION_DATA.get(method_article, {})) != 5:
+        errors.append('Transliteration methods guide must retain five mapped sections')
+    comparison_slugs = {case['slug'] for case in CASE_FILES} | {method_article}
+    comparison_claims = [item for item in claim_report['claims'] if item['article'] in comparison_slugs]
+    if len(comparison_claims) < 21 or any(item['review']['status'] != 'awaiting-independent-review' for item in comparison_claims):
+        errors.append('Text and translation comparison claims must remain pending independent review')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
