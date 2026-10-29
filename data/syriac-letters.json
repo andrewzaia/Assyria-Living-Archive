@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "scope": "Unicode character identities for the core 22 Syriac consonantal letters. Names and identifiers are copied from the public Unicode character-name registry. Display depends on the user's font and shaping engine. This is not a reconstruction of a historical manuscript hand or a pronunciation guide.",
+  "unicode_source": "unicode-syriac-names",
+  "reading_routes": [
+    "syriac-unicode-reading",
+    "syriac-script-histories",
+    "cuneiform-reading-methods",
+    "nena-dialect-comparison",
+    "urmi-neo-aramaic-recordings",
+    "surayt-documentation",
+    "manuscript-provenance-practice",
+    "living-language-archive-ethics"
+  ],
+  "recording_sources": [
+    "nena-urmi",
+    "nena-alqosh",
+    "nena-ankawa"
+  ],
+  "script_sources": [
+    "hmml-estrangela",
+    "hmml-serto",
+    "hmml-east"
+  ],
+  "letters": [
+    {
+      "codepoint": "U+0710",
+      "character": "ܐ",
+      "unicode_name": "SYRIAC LETTER ALAPH"
+    },
+    {
+      "codepoint": "U+0712",
+      "character": "ܒ",
+      "unicode_name": "SYRIAC LETTER BETH"
+    },
+    {
+      "codepoint": "U+0713",
+      "character": "ܓ",
+      "unicode_name": "SYRIAC LETTER GAMAL"
+    },
+    {
+      "codepoint": "U+0715",
+      "character": "ܕ",
+      "unicode_name": "SYRIAC LETTER DALATH"
+    },
+    {
+      "codepoint": "U+0717",
+      "character": "ܗ",
+      "unicode_name": "SYRIAC LETTER HE"
+    },
+    {
+      "codepoint": "U+0718",
+      "character": "ܘ",
+      "unicode_name": "SYRIAC LETTER WAW"
+    },
+    {
+      "codepoint": "U+0719",
+      "character": "ܙ",
+      "unicode_name": "SYRIAC LETTER ZAIN"
+    },
+    {
+      "codepoint": "U+071A",
+      "character": "ܚ",
+      "unicode_name": "SYRIAC LETTER HETH"
+    },
+    {
+      "codepoint": "U+071B",
+      "character": "ܛ",
+      "unicode_name": "SYRIAC LETTER TETH"
+    },
+    {
+      "codepoint": "U+071D",
+      "character": "ܝ",
+      "unicode_name": "SYRIAC LETTER YUDH"
+    },
+    {
+      "codepoint": "U+071F",
+      "character": "ܟ",
+      "unicode_name": "SYRIAC LETTER KAPH"
+    },
+    {
+      "codepoint": "U+0720",
+      "character": "ܠ",
+      "unicode_name": "SYRIAC LETTER LAMADH"
+    },
+    {
+      "codepoint": "U+0721",
+      "character": "ܡ",
+      "unicode_name": "SYRIAC LETTER MIM"
+    },
+    {
+      "codepoint": "U+0722",
+      "character": "ܢ",
+      "unicode_name": "SYRIAC LETTER NUN"
+    },
+    {
+      "codepoint": "U+0723",
+      "character": "ܣ",
+      "unicode_name": "SYRIAC LETTER SEMKATH"
+    },
+    {
+      "codepoint": "U+0725",
+      "character": "ܥ",
+      "unicode_name": "SYRIAC LETTER E"
+    },
+    {
+      "codepoint": "U+0726",
+      "character": "ܦ",
+      "unicode_name": "SYRIAC LETTER PE"
+    },
+    {
+      "codepoint": "U+0728",
+      "character": "ܨ",
+      "unicode_name": "SYRIAC LETTER SADHE"
+    },
+    {
+      "codepoint": "U+0729",
+      "character": "ܩ",
+      "unicode_name": "SYRIAC LETTER QAPH"
+    },
+    {
+      "codepoint": "U+072A",
+      "character": "ܪ",
+      "unicode_name": "SYRIAC LETTER RISH"
+    },
+    {
+      "codepoint": "U+072B",
+      "character": "ܫ",
+      "unicode_name": "SYRIAC LETTER SHIN"
+    },
+    {
+      "codepoint": "U+072C",
+      "character": "ܬ",
+      "unicode_name": "SYRIAC LETTER TAW"
+    }
+  ]
+}
