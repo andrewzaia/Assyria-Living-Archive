@@ -78,3 +78,11 @@ html[data-theme="dark"] .atlas-reconstruction-status strong{color:var(--ink)}
 /* Native controls and high-contrast focus treatment. */
 html[data-theme="dark"] :where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline-color:#d4b67d}
 @media(prefers-reduced-motion:reduce){.theme-toggle{transition:none}}
+
+/* Keep the main header usable on the narrowest phones. Reading list remains in the mobile menu. */
+@media(max-width:380px){
+  .header-actions>.reading-link{display:none}
+  .header-actions{gap:0}
+  .header-inner .brand>span{font-size:22px}
+}
+html[data-theme="dark"] :is(input[type="checkbox"],input[type="radio"],input[type="range"]){accent-color:var(--gold)}
