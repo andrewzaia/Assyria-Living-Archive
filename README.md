@@ -157,6 +157,14 @@ Editorial workflow: identify credible custodians, verify the record's source rol
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
 
+## Ancient text concordance and cross-reference index
+
+Milestone 13 adds the public `/concordance/` research browser with local client-side search and category filtering. The authoritative manually curated data in `data/concordance.json` includes **25 terms**, **32 object/edited-line links**, **43 related-article routes** and **11 separate biblical reading routes**. These links include ancient sites, historical figures, named objects, grain and other materials, institutional categories and the editorial conventions for damaged or reconstructed texts. The static generator also exports `/concordance.json`.
+
+An edited-line reference opens its real quotation in a case-file article using a stable `#transliteration-...` anchor. If an item has only an object catalogue, the link clearly remains object-level, not an invented line. Scripture references lead to the locally preserved Bible reader as **biblical textual comparisons**; shared names do not imply a common event or proven historical identity. Terms are linked back from all related editorial article pages. The original archive page design is retained and the content is accessible without JavaScript; JavaScript adds offline filtering and a visible result count.
+
+`concordance.py` validates article identities, object IDs, real line coordinates and Scripture verses, independently classified relationship roles, completeness and uniqueness. `scripts/test_concordance.py` exercises false-line, missing-object, invented-verse and ambiguous-role failures. Concordance links are **additional research relationships**, not 32 new museum objects or any new scholarly review. The collection therefore remains at **493 reading entries**, **116 curated source records**, **339 mapped sections across 96 guides**, and **62 anchored claims awaiting independent review**.
+
 ## Ancient texts and translation comparisons
 
 Milestone 12 adds the public `/text-comparisons/` research room and a side-by-side reading panel for each of the nine archaeological case-file articles. Seven named, edited Middle Assyrian tablets are displayed with **16 very short attributed transliteration snippets**, the individual editor's line coordinates, **newly authored English reading cues** and explicit notes on damaged, restored or queried signs. The unverified line editions for the Metropolitan Museum tablet and British Museum Chronicle are deliberately absent rather than invented.
