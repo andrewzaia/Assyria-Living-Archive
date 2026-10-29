@@ -10,12 +10,25 @@ ROOT = Path(__file__).resolve().parents[1]
 def validate():
     folder = ROOT / 'archive/maps'
     data = json.loads((folder / 'assyria-atlas.json').read_text())
-    assert data['schema_version'] == 1
+    assert data['schema_version'] == 2
     assert data['licence_url'] == 'https://creativecommons.org/licenses/by/4.0/'
     years = [s['year'] for s in data['snapshots']]
     assert years == sorted(set(years)), 'Snapshots must have unique increasing dates'
     assert all(year < 0 for year in years), 'This edition covers BCE dates'
     sources = {s['id'] for s in data['sources']}
+    from content import ARTICLES as HISTORICAL_ARTICLES
+    from biblical_content import ARTICLES as BIBLICAL_ARTICLES
+    editorial = {article['slug']: article for article in HISTORICAL_ARTICLES + BIBLICAL_ARTICLES}
+    titles = data.get('article_titles', {})
+    assert titles, 'Atlas related-study directory must not be empty'
+    assert set(titles) <= set(editorial), 'Atlas related-study entry has unknown article'
+    for slug, title in titles.items():
+        assert title == editorial[slug]['title'], f'Atlas article title has changed: {slug}'
+    library = {s['id']: s for s in json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))}
+    assert sources <= library.keys(), 'Atlas source missing from source library'
+    for entry in data['sources']:
+        assert library[entry['id']]['url'] == entry['url'], f'Source URL mismatch: {entry["id"]}'
+    statuses = {'broad-reconstruction', 'highly-generalised', 'unmapped'}
     regions = {f['id']: f for f in data['regions']['features']}
     places = {p['id'] for p in data['places']}
     assert len(sources) == len(data['sources']), 'Duplicate source ID'
@@ -27,6 +40,24 @@ def validate():
         assert snapshot['focus'] in places and set(snapshot['fallen']) <= places
         assert not set(snapshot['control']) & set(snapshot['influence']), 'Conflicting legend categories'
         assert snapshot['summary'] and snapshot['caution'], 'Missing historical context'
+        reconstruction = snapshot.get('reconstruction', {})
+        assert reconstruction.get('status') in statuses, 'Missing or invalid reconstruction category'
+        for field in ('boundary_note', 'control_note', 'influence_note'):
+            assert isinstance(reconstruction.get(field), str) and len(reconstruction[field].strip()) > 24, f'Missing stage-specific {field}'
+        if reconstruction['status'] == 'unmapped':
+            assert not snapshot['control'] and not snapshot['influence'], 'Unmapped stage must not draw territory'
+        else:
+            assert snapshot['control'], 'Mapped stage must describe at least one control region'
+        articles = snapshot.get('article_slugs', [])
+        assert articles and len(articles) == len(set(articles)), 'Missing or repeated chapter article links'
+        assert set(articles) <= set(titles), 'Chapter points to an unregistered editorial guide'
+        for slug in articles:
+            assert slug in editorial and editorial[slug].get('kind') != 'preserved_reference'
+        notes = snapshot.get('evidence_notes', [])
+        assert notes and len(notes) == len(snapshot['sources']), 'Every source must have a chapter-specific role'
+        note_ids = [n['source_id'] for n in notes]
+        assert len(note_ids) == len(set(note_ids)) and set(note_ids) == set(snapshot['sources']), 'Chapter source roles are incomplete'
+        assert all(isinstance(n.get('scope'), str) and len(n['scope'].strip()) > 30 for n in notes), 'Source role must describe its limitation'
     def orientation(a, b, c):
         return (b[0]-a[0])*(c[1]-a[1]) - (b[1]-a[1])*(c[0]-a[0])
     def crosses(a,b,c,d):
