@@ -10,6 +10,7 @@ NAV_GROUPS = (
         ('Interactive map', '/map/', 'Assyria through time and geography'),
         ('Glossary', '/glossary/', 'Terms, names and reading routes'),
         ('Languages and scripts', '/languages/', 'Syriac letter reference, dialect recordings and manuscripts'),
+        ('Chaldean church and Assyrian heritage', '/articles/chaldean-name-and-heritage/', 'Church affiliation, ancient names and shared East Syriac identity'),
         ('Community heritage', '/heritage/', 'Public oral-history leads and preservation tools'),
     )),
     ('Scripture', (
@@ -45,7 +46,7 @@ NAV_GROUPS = (
 NAV_COLUMNS = {
     'Explore': (
         ('Discover', ('/explore/', '/timeline/', '/middle-assyrian/', '/map/')),
-        ('Culture and language', ('/glossary/', '/languages/', '/heritage/')),
+        ('Culture and language', ('/glossary/', '/languages/', '/articles/chaldean-name-and-heritage/', '/heritage/')),
     ),
     'Research': (
         ('Sources and texts', ('/sources/', '/case-files/', '/text-comparisons/',
