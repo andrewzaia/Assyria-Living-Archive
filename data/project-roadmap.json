@@ -34,8 +34,8 @@
       "id": "atlas",
       "title": "Interactive historical atlas",
       "status": "in-progress",
-      "delivered": "Eleven dated interpretive sketches, timeline controls, modern geography and reproducible offline validation.",
-      "next": "Strengthen geographic uncertainty, dated boundary evidence and connections to individual articles."
+      "delivered": "The interactive historical atlas has eleven dated teaching stages with preserved offline basemap data, timeline playback, modern geography and city context. Milestone 3 adds chapter-specific reconstruction limits, source-by-source scope notes, clearer differentiation of provincial control from vassalage or temporary military reach, 21 linked historical and biblical reading routes, and checks that keep map citations and article links current.",
+      "next": "Continue specialist cartographic and historical review before refining polygon coordinates. Map individual provinces only when dated inscriptional, administrative and archaeological evidence supports them. Test real browser behaviour, reduced-motion support and mobile readability. No numerical border certainty or ancient area estimates are justified."
     },
     {
       "id": "source-trails",
@@ -84,7 +84,7 @@
       "title": "Publication and long-term stewardship",
       "status": "planned",
       "delivered": "Static deployment, offline validation and explicit indexing controls are established.",
-      "next": "Complete specialist review, browser and accessibility testing, licence checks and deliberate indexing approval."
+      "next": "Complete independent specialist review, real-browser atlas and accessibility testing, licence checks and deliberate indexing approval."
     }
   ]
 }
