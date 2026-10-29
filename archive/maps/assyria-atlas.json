@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "title": "Assyria through space and time",
   "authorship": "Assyria | The Living Archive. Original editorial text and schematic coordinates. No ancient boundary has been surveyed or traced from a published map.",
   "licence": "CC BY 4.0 for original atlas text and historical coordinate sketches; Natural Earth basemap data is public domain.",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "method": "Discrete dated teaching sketches synthesised from the cited sources. Approximate regional outlines, not province-level GIS evidence. No interpolation between dates and no area statistics. Modern borders are a separate orientation layer.",
+  "method": "Discrete dated teaching sketches sourced to named historical works. The original polygons are editorial approximations, not GIS reconstructions of provincial borders, and the reconstruction scope is recorded for each chapter. Solid shading is a broad zone of more sustained political control; hatched shading groups unlike relationships (vassalage, tribute, contested rule, campaigns). Neither shading type is precise, homogeneous or comparable in measured area. The 612 and 609 BCE boundaries remain unpinned. Modern borders are only a geographical reference layer. Article titles in the related-reading routes are mirrored from the maintained editorial collection and checked by the validator.",
   "sources": [
     {
       "id": "met-assyria",
@@ -57,10 +57,10 @@
     },
     {
       "id": "bm-chronicle",
-      "title": "Cuneiform tablet with part of the Babylonian Chronicle (616-609 BC)",
-      "author": "The British Museum, registration 1896,0409.6, via Google Arts & Culture",
-      "url": "https://artsandculture.google.com/asset/cuneiform-tablet-with-part-of-the-babylonian-chronicle-616-609-bc/xAEPSobA2ozDxw?hl=en",
-      "note": "Ashur in 614 BCE, Nineveh in 612 BCE, the retreat to Harran and the failed attempt to recover it in 609 BCE. This is evidence for the royal state, not the disappearance of a people."
+      "title": "Babylonian Chronicle, British Museum 1896,0409.6 (BM 21901)",
+      "author": "The British Museum, object 1896,0409.6",
+      "url": "https://www.britishmuseum.org/collection/object/W_1896-0409-6",
+      "note": "Original tablet catalogue for events between 616 and 609 BCE, including Nineveh and Harran; the tablet is a later copy recording events, not a historical boundary dataset."
     },
     {
       "id": "oracc-shalmaneser",
@@ -68,6 +68,20 @@
       "author": "Royal Inscriptions of Assyria online / ORACC",
       "url": "https://oracc.museum.upenn.edu/riao/Q004636/",
       "note": "Royal claims to campaigns and dominion in the west. Such claims are political texts and do not establish uniform provincial borders."
+    },
+    {
+      "id": "aebp-vassals",
+      "title": "Representing Assyrian interests in the vassal states",
+      "author": "Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc2.museum.upenn.edu/saao/aebp/essentials/diplomats/representingassyria/index.html",
+      "note": "Explains the difference between annexed provinces, dependent kings, tribute and political relations."
+    },
+    {
+      "id": "aebp-israel",
+      "title": "Israel, the House of Omri",
+      "author": "Assyrian Empire Builders, University College London / ORACC",
+      "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+      "note": "Describes northern Israelite provincial annexations, vassal kingship and Damascus in 732 BCE; do not infer exact boundaries from this essay."
     }
   ],
   "snapshots": [
@@ -86,7 +100,28 @@
         "aebp-countries"
       ],
       "focus": "ashur",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "broad-reconstruction",
+        "boundary_note": "The outline groups the Assur-Nineveh-Arbela heartland without tracing district limits in 1350 BCE.",
+        "control_note": "A schematic core of Assyrian political institutions, not a surveyed frontier.",
+        "influence_note": "No indirect region is mapped. That does not prove neighbouring states were unaffected."
+      },
+      "article_slugs": [
+        "ancient-assyria",
+        "ashur",
+        "assyrian-governance"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "met-assyria",
+          "scope": "Historical synthesis for Middle Assyrian expansion and relative chronology."
+        },
+        {
+          "source_id": "aebp-countries",
+          "scope": "Regional heartland context; not a published ancient boundary geometry."
+        }
+      ]
     },
     {
       "year": -1250,
@@ -102,7 +137,23 @@
         "met-assyria"
       ],
       "focus": "ashur",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "broad-reconstruction",
+        "boundary_note": "The wider northern outline combines historical growth over a long period. Individual conquest dates differ from the illustrative year.",
+        "control_note": "Generalised northern territorial expansion, not a consistent provincial map.",
+        "influence_note": "No separate influence polygon is included; other forms of contact are not ruled out."
+      },
+      "article_slugs": [
+        "ancient-assyria",
+        "assyrian-governance"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "met-assyria",
+          "scope": "Historical overview of Middle Assyrian political change, not an exact-border source."
+        }
+      ]
     },
     {
       "year": -1050,
@@ -118,7 +169,24 @@
         "met-assyria"
       ],
       "focus": "ashur",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "Evidence does not justify an exact frontier for 1050 BCE; the reduced outline represents the continuing political heartland only.",
+        "control_note": "A schematic nucleus during territorial contraction.",
+        "influence_note": "The absence of shaded influence is a cartographic omission, not evidence of no contacts."
+      },
+      "article_slugs": [
+        "ancient-assyria",
+        "ashur",
+        "post-imperial-assyria"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "met-assyria",
+          "scope": "Historical synthesis of contraction; no precise contemporaneous perimeter established."
+        }
+      ]
     },
     {
       "year": -859,
@@ -134,7 +202,24 @@
         "met-assyria"
       ],
       "focus": "kalhu",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "broad-reconstruction",
+        "boundary_note": "The outline generalises ninth-century recovery and should not be used to infer the borders of every campaign.",
+        "control_note": "Broad territorial nucleus, rather than the full reach of royal military claims.",
+        "influence_note": "Unshaded campaign destinations must not be read as places with no Assyrian interaction."
+      },
+      "article_slugs": [
+        "ashurnasirpal-ii",
+        "nimrud",
+        "royal-reliefs"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "met-assyria",
+          "scope": "Reign chronology and revival of imperial building and political power."
+        }
+      ]
     },
     {
       "year": -824,
@@ -153,7 +238,28 @@
         "aebp-countries"
       ],
       "focus": "kalhu",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "Repeated campaigns did not create one fixed western border; the hatched west is a deliberately broad envelope.",
+        "control_note": "Approximate Assyrian northern political base, not a province-by-province reconstruction.",
+        "influence_note": "Hatching combines royal campaigning, diplomatic pressure and tributary relationships that varied across time and location."
+      },
+      "article_slugs": [
+        "shalmaneser-iii",
+        "assyrian-governance",
+        "ancient-assyria"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "oracc-shalmaneser",
+          "scope": "Royal inscriptions report western campaigning; the text is political testimony, not a geospatial survey."
+        },
+        {
+          "source_id": "aebp-countries",
+          "scope": "Secondary context for different relationships between neighbouring states."
+        }
+      ]
     },
     {
       "year": -727,
@@ -170,7 +276,9 @@
       ],
       "sources": [
         "aebp-tiglath",
-        "aebp-babylonia"
+        "aebp-babylonia",
+        "aebp-israel",
+        "aebp-vassals"
       ],
       "focus": "damascus",
       "fallen": [],
@@ -186,7 +294,37 @@
             "url": "/bible/read/2ki/16/#v-7"
           }
         ]
-      }
+      },
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "This sketch merges changing western provinces and dependent kingdoms near the end of a reign; it does not identify exact administrative lines.",
+        "control_note": "Damascus and parts of northern Israel were annexed, while southern Israel remained a dependent kingdom; the solid shape is only a regional synthesis.",
+        "influence_note": "The southern Levant includes vassal relationships; Babylonia has a separate and changing political relationship, not blanket provincial annexation."
+      },
+      "article_slugs": [
+        "tiglath-pileser-iii",
+        "assyrian-governance",
+        "assyrian-deportation",
+        "bible-tiglath-pileser"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "aebp-tiglath",
+          "scope": "Specialist reconstruction of annexations and administration under Tiglath-pileser III."
+        },
+        {
+          "source_id": "aebp-israel",
+          "scope": "Separates the annexed northern Israelite provinces from the remaining dependent kingdom."
+        },
+        {
+          "source_id": "aebp-vassals",
+          "scope": "Documents distinction between provinces and dependent states."
+        },
+        {
+          "source_id": "aebp-babylonia",
+          "scope": "Babylonia's political status was not equivalent to ordinary annexed provinces."
+        }
+      ]
     },
     {
       "year": -705,
@@ -203,7 +341,8 @@
       ],
       "sources": [
         "aebp-sargon",
-        "aebp-babylonia"
+        "aebp-babylonia",
+        "aebp-vassals"
       ],
       "focus": "dur-sharrukin",
       "fallen": [],
@@ -215,7 +354,33 @@
             "url": "/bible/read/isa/20/#v-1"
           }
         ]
-      }
+      },
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "The outline compresses many campaigns and administrative changes into an end-of-reign teaching image.",
+        "control_note": "Broadest recurrent Assyrian-controlled regions, with a mix of directly administered and differently integrated areas.",
+        "influence_note": "Hatching illustrates less uniform political dependencies and contested Babylonia, not constant or universal obedience."
+      },
+      "article_slugs": [
+        "sargon-ii",
+        "khorsabad",
+        "assyrian-governance",
+        "bible-sargon"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "aebp-sargon",
+          "scope": "Scholarly narrative of campaigns, rebellions and royal city, not a measured frontier."
+        },
+        {
+          "source_id": "aebp-vassals",
+          "scope": "Vassal/province distinction carried forward into later Assyrian governance."
+        },
+        {
+          "source_id": "aebp-babylonia",
+          "scope": "Babylonia's kingship and local political institutions need separate treatment."
+        }
+      ]
     },
     {
       "year": -671,
@@ -233,7 +398,8 @@
       ],
       "sources": [
         "oracc-egypt",
-        "aebp-babylonia"
+        "aebp-babylonia",
+        "aebp-vassals"
       ],
       "focus": "memphis",
       "fallen": [],
@@ -249,7 +415,33 @@
             "url": "/bible/read/isa/37/#v-37"
           }
         ]
-      }
+      },
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "The Nile Delta shading is deliberately not an Egyptian provincial boundary. It indicates military reach and unstable indirect arrangements.",
+        "control_note": "The Mesopotamian and Levantine solid zone remains a schematic synthesis, not an administration map.",
+        "influence_note": "Egypt is shown as short-lived conquest and indirect influence around Memphis and Lower Egypt; it does not imply lasting uniform control of Egypt or Kush."
+      },
+      "article_slugs": [
+        "esarhaddon",
+        "assyrian-governance",
+        "bible-esarhaddon",
+        "sennacherib"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "oracc-egypt",
+          "scope": "Historical context for Esarhaddon's Egyptian campaign; not a border geometry source."
+        },
+        {
+          "source_id": "aebp-babylonia",
+          "scope": "Babylonia remains politically distinctive under Assyrian kingship."
+        },
+        {
+          "source_id": "aebp-vassals",
+          "scope": "Vassal and indirect control are different from directly administered provinces."
+        }
+      ]
     },
     {
       "year": -650,
@@ -269,7 +461,28 @@
         "aebp-babylonia"
       ],
       "focus": "nineveh",
-      "fallen": []
+      "fallen": [],
+      "reconstruction": {
+        "status": "highly-generalised",
+        "boundary_note": "The snapshot records Assyria's changed reach after Egypt's increasing independence, not precise district control in 650 BCE.",
+        "control_note": "A broad Asian imperial core, not a uniform guarantee of effective local rule.",
+        "influence_note": "Babylonia is shown as contested; southern Levantine connections varied. Egypt is not shaded, which must not be read as a border claim."
+      },
+      "article_slugs": [
+        "ashurbanipal",
+        "assyrian-governance",
+        "assyrian-deportation"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "met-egypt",
+          "scope": "Chronology of Egypt's transition from Assyrian-backed rulers to Saite autonomy."
+        },
+        {
+          "source_id": "aebp-babylonia",
+          "scope": "Political instability and rebellion in Babylonia."
+        }
+      ]
     },
     {
       "year": -612,
@@ -300,7 +513,25 @@
             "url": "/bible/read/zep/2/#v-13"
           }
         ]
-      }
+      },
+      "reconstruction": {
+        "status": "unmapped",
+        "boundary_note": "After Nineveh's capture, surviving forces and local allegiances cannot be converted responsibly into a single territorial outline.",
+        "control_note": "No solid polygon is drawn. This means not mapped, not absent.",
+        "influence_note": "No hatched polygon is drawn because surviving relations cannot be reconstructed reliably at this scale."
+      },
+      "article_slugs": [
+        "fall-of-nineveh",
+        "nineveh",
+        "post-imperial-assyria",
+        "bible-nahum"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "bm-chronicle",
+          "scope": "Museum catalogue of Babylonian chronicle BM 21901, providing the 612 BCE capture narrative and retreat toward Harran."
+        }
+      ]
     },
     {
       "year": -609,
@@ -319,6 +550,23 @@
         "nineveh",
         "kalhu",
         "harran"
+      ],
+      "reconstruction": {
+        "status": "unmapped",
+        "boundary_note": "The remaining Assyrian military resistance at Harran does not establish a defensible region of direct rule to shade.",
+        "control_note": "No ancient political boundary is asserted for 609 BCE.",
+        "influence_note": "Political and military activity is attested, but no stable sphere is mapped."
+      },
+      "article_slugs": [
+        "fall-of-nineveh",
+        "post-imperial-assyria",
+        "ancient-assyria"
+      ],
+      "evidence_notes": [
+        {
+          "source_id": "bm-chronicle",
+          "scope": "Museum catalogue documents the Harran campaign and unsuccessful attempt to recover the city."
+        }
       ]
     }
   ],
@@ -341,7 +589,7 @@
               ],
               [
                 43.6,
-                35.0
+                35
               ],
               [
                 44.5,
@@ -353,7 +601,7 @@
               ],
               [
                 43.7,
-                37.0
+                37
               ],
               [
                 42.7,
@@ -382,7 +630,7 @@
                 35.7
               ],
               [
-                38.0,
+                38,
                 36.8
               ],
               [
@@ -418,7 +666,7 @@
                 35.2
               ],
               [
-                39.0,
+                39,
                 35.2
               ],
               [
@@ -460,8 +708,8 @@
                 37.6
               ],
               [
-                44.0,
-                37.0
+                44,
+                37
               ],
               [
                 45.2,
@@ -469,7 +717,7 @@
               ],
               [
                 44.9,
-                35.0
+                35
               ],
               [
                 43.6,
@@ -519,19 +767,19 @@
               ],
               [
                 40.8,
-                38.0
+                38
               ],
               [
-                43.0,
+                43,
                 37.5
               ],
               [
                 44.6,
-                37.0
+                37
               ],
               [
                 45.5,
-                36.0
+                36
               ],
               [
                 44.9,
@@ -547,7 +795,7 @@
               ],
               [
                 39.7,
-                35.0
+                35
               ],
               [
                 38.2,
@@ -601,15 +849,15 @@
               ],
               [
                 35.5,
-                32.0
+                32
               ],
               [
-                35.0,
+                35,
                 32.6
               ],
               [
                 35.3,
-                34.0
+                34
               ],
               [
                 34.6,
@@ -655,15 +903,15 @@
               ],
               [
                 40.8,
-                38.0
+                38
               ],
               [
-                43.0,
+                43,
                 37.6
               ],
               [
                 44.7,
-                37.0
+                37
               ],
               [
                 46.1,
@@ -674,11 +922,11 @@
                 34.1
               ],
               [
-                44.0,
+                44,
                 33.6
               ],
               [
-                42.0,
+                42,
                 34.2
               ],
               [
@@ -686,7 +934,7 @@
                 34.3
               ],
               [
-                38.0,
+                38,
                 34.5
               ],
               [
@@ -724,12 +972,12 @@
                 32.3
               ],
               [
-                35.0,
+                35,
                 34.5
               ],
               [
                 35.7,
-                36.0
+                36
               ],
               [
                 34.7,
@@ -748,8 +996,8 @@
                 38.1
               ],
               [
-                41.0,
-                38.0
+                41,
+                38
               ],
               [
                 43.2,
@@ -757,30 +1005,30 @@
               ],
               [
                 44.9,
-                37.0
+                37
               ],
               [
                 46.3,
                 35.4
               ],
               [
-                46.0,
-                34.0
+                46,
+                34
               ],
               [
                 44.1,
                 33.5
               ],
               [
-                42.0,
-                34.0
+                42,
+                34
               ],
               [
-                40.0,
+                40,
                 34.1
               ],
               [
-                38.0,
+                38,
                 34.3
               ],
               [
@@ -872,15 +1120,15 @@
           "coordinates": [
             [
               [
-                34.0,
-                31.0
+                34,
+                31
               ],
               [
                 34.5,
                 31.4
               ],
               [
-                35.0,
+                35,
                 32.5
               ],
               [
@@ -896,7 +1144,7 @@
                 30.2
               ],
               [
-                35.0,
+                35,
                 29.6
               ],
               [
@@ -904,8 +1152,8 @@
                 30.4
               ],
               [
-                34.0,
-                31.0
+                34,
+                31
               ]
             ]
           ]
@@ -947,7 +1195,7 @@
               ],
               [
                 29.7,
-                31.0
+                31
               ],
               [
                 30.1,
@@ -1097,7 +1345,7 @@
       "name": "Turkey",
       "coordinates": [
         36.2,
-        39.0
+        39
       ]
     },
     {
@@ -1190,5 +1438,28 @@
         "transformation": "Selected full features named Nile, Tigris or Euphrates in name/name_en; properties and coordinates retained unchanged. JSON serialisation changed."
       }
     ]
+  },
+  "article_titles": {
+    "ancient-assyria": "Ancient Assyria",
+    "ashur": "Ashur: city, sanctuary and crossroads",
+    "ashurbanipal": "Ashurbanipal: king and the tablet collections",
+    "ashurnasirpal-ii": "Ashurnasirpal II: rebuilding Kalhu",
+    "assyrian-deportation": "Deportation and resettlement in Assyria",
+    "assyrian-governance": "Running the Neo-Assyrian empire",
+    "bible-esarhaddon": "Esar Haddon and the death of Sennacherib",
+    "bible-nahum": "Nahum and the oracle concerning Nineveh",
+    "bible-sargon": "Sargon and the sign against Egypt and Cush",
+    "bible-tiglath-pileser": "Tiglath Pileser, Ahaz and the fall of Damascus",
+    "esarhaddon": "Esarhaddon: succession and Egypt",
+    "fall-of-nineveh": "The fall of Nineveh and the end of Assyrian imperial rule",
+    "khorsabad": "Dur-Sharrukin and Khorsabad",
+    "nimrud": "Nimrud, ancient Kalhu",
+    "nineveh": "Nineveh and the library of Ashurbanipal",
+    "post-imperial-assyria": "After the empire: Assyria's changing regions",
+    "royal-reliefs": "Reading Assyrian palace art",
+    "sargon-ii": "Sargon II: king, campaigns and a new capital",
+    "sennacherib": "Sennacherib: Nineveh and Judah",
+    "shalmaneser-iii": "Shalmaneser III and the western campaigns",
+    "tiglath-pileser-iii": "Tiglath-pileser III: empire and provinces"
   }
 }

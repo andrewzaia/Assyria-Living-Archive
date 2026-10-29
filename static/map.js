@@ -59,8 +59,13 @@
     $('map-chapter').textContent = s.title;
     $('map-summary').textContent = s.summary;
     $('map-caution').textContent = s.caution;
+    const boundaryLabels = {'broad-reconstruction':'Broad reconstruction','highly-generalised':'Highly generalised','unmapped':'Territory not mapped'};
+    $('map-boundary-status').textContent = boundaryLabels[s.reconstruction.status];
+    $('map-boundary-note').textContent = s.reconstruction.boundary_note;
+    $('map-control-note').textContent = s.reconstruction.control_note;
+    $('map-influence-note').textContent = s.reconstruction.influence_note;
     $('map-svg-title').textContent = `Assyria at ${Math.abs(s.year)} BCE - ${s.title}`;
-    $('map-svg-description').textContent = s.summary + ' ' + s.caution;
+    $('map-svg-description').textContent = s.summary + ' ' + s.caution + ' ' + s.reconstruction.boundary_note;
     $('map-year').value = String(index);
     $('map-year').setAttribute('aria-valuetext', `${Math.abs(s.year)} BCE - ${s.title}`);
     $('map-chapter-select').value = String(index);
@@ -72,11 +77,20 @@
     };
     draw('map-territory', s.control, 'map-control');
     draw('map-influence', s.influence, 'map-indirect');
+    const notes = new Map(s.evidence_notes.map(item => [item.source_id, item.scope]));
     $('map-sources').replaceChildren(...s.sources.map(id => {
       const source = data.sources.find(item => item.id === id);
       const li = document.createElement('li');
       const a = document.createElement('a'); a.href = '#atlas-source-' + id; a.textContent = source.title;
-      li.append(a); return li;
+      const small = document.createElement('small');
+      small.textContent = notes.get(id) || 'Additional historical context; no exact boundary inferred.';
+      li.append(a, small); return li;
+    }));
+    $('map-article-links').replaceChildren(...s.article_slugs.map(slug => {
+      const li = document.createElement('li'), link = document.createElement('a');
+      link.href = base + '/articles/' + slug + '/';
+      link.textContent = data.article_titles[slug];
+      li.append(link); return li;
     }));
     const biblical = $('map-biblical');
     biblical.replaceChildren(); biblical.hidden = !s.biblical;

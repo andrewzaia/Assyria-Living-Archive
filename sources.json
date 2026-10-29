@@ -559,12 +559,12 @@
   },
   {
     "id": "bm-chronicle",
-    "title": "Cuneiform tablet with part of the Babylonian Chronicle (616-609 BC)",
-    "publisher": "The British Museum, registration 1896,0409.6, via Google Arts & Culture",
-    "url": "https://artsandculture.google.com/asset/cuneiform-tablet-with-part-of-the-babylonian-chronicle-616-609-bc/xAEPSobA2ozDxw?hl=en",
-    "type": "Historical atlas reference",
-    "access": "Public resource; original scholarship retains its own rights",
-    "checked": "2026-10-25"
+    "title": "Babylonian Chronicle, British Museum 1896,0409.6 (BM 21901)",
+    "publisher": "The British Museum, object 1896,0409.6",
+    "url": "https://www.britishmuseum.org/collection/object/W_1896-0409-6",
+    "type": "Primary-source museum object record",
+    "access": "Original tablet catalogue for events between 616 and 609 BCE, including Nineveh and Harran; the tablet is a later copy recording events, not a historical boundary dataset.",
+    "checked": "2026-10-29"
   },
   {
     "id": "oracc-shalmaneser",
@@ -672,6 +672,24 @@
     "url": "https://www.britishmuseum.org/collection/object/W_1881-0204-188",
     "type": "Museum object catalogue",
     "access": "Concrete surviving tablet in a royal collection; not proof of a modern-style public library",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-vassals",
+    "title": "Representing Assyrian interests in the vassal states",
+    "publisher": "Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc2.museum.upenn.edu/saao/aebp/essentials/diplomats/representingassyria/index.html",
+    "type": "Specialist historical study",
+    "access": "Explains the difference between annexed provinces, dependent kings, tribute and political relations.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-israel",
+    "title": "Israel, the House of Omri",
+    "publisher": "Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+    "type": "Specialist historical study",
+    "access": "Describes northern Israelite provincial annexations, vassal kingship and Damascus in 732 BCE; do not infer exact boundaries from this essay.",
     "checked": "2026-10-29"
   }
 ]
