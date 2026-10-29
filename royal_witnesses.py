@@ -26,6 +26,16 @@ VALID_RANGES = {
     },
 }
 STATUSES = {"qualified-parallel", "distinct-claims", "unresolved-discrepancy", "different-medium"}
+# Curated biblical scopes are explicit and are not interchangeable keyword matches.
+BIBLE_ROUTES = {
+    "jehu-and-black-obelisk": (("2KI", 9, 1, 13), ("2KI", 10, 30, 36)),
+    "sargon-and-ashdod": (("ISA", 20, 1, 6),),
+    "judah-fortified-towns": (("2KI", 18, 13, 13), ("2CH", 32, 1, 1)),
+    "jerusalem-confinement": (("2KI", 18, 17, 37), ("2KI", 19, 35, 36)),
+    "hezekiah-tribute-quantities": (("2KI", 18, 14, 16),),
+    "lachish-palace-panel": (("2KI", 18, 14, 17), ("2CH", 32, 9, 9)),
+}
+
 
 
 def validate(sources, articles, data=None):
@@ -69,6 +79,14 @@ def validate(sources, articles, data=None):
         passages = case["biblical"]
         if not passages or len({tuple(p) for p in passages}) != len(passages):
             raise ValueError("Missing or duplicated biblical passage: " + ident)
+        if ident not in BIBLE_ROUTES or tuple(tuple(p) for p in passages) != BIBLE_ROUTES[ident]:
+            raise ValueError("Unreviewed passage substitution in royal comparison: " + ident)
+        if ident == "hezekiah-tribute-quantities" and not (
+            "eight hundred" in case["royal"].lower() and "three hundred" in case["scripture"].lower()
+            and "thirty" in case["royal"].lower() and "thirty" in case["scripture"].lower()
+            and "differ" in case["difference"].lower()
+        ):
+            raise ValueError("Hezekiah conflicting tribute figures must remain explicit")
         for ref in passages:
             if len(ref) != 4 or not isinstance(ref[0], str):
                 raise ValueError("Malformed biblical passage: " + ident)
@@ -81,6 +99,21 @@ def validate(sources, articles, data=None):
     return {"comparisons": len(cases), "inscription_comparisons": sum(c["kind"] == "royal-inscription" for c in cases),
             "museum_comparisons": sum(c["kind"] == "museum-object" for c in cases),
             "bible_routes": routes, "edition_identifiers": len({c["edition_id"] for c in cases if c["edition_id"]})}
+
+
+def article_links(slug):
+    """Link existing historical dossiers to their directly relevant evidence contrasts."""
+    from html import escape as H
+    related = [c for c in CASES if c["article"] == slug]
+    if not related:
+        return ""
+    links = "".join('<li><a href="/royal-witnesses/#witness-' + H(c["id"]) + '">' +
+                    H(c["title"]) + '</a></li>' for c in related)
+    return ('<section class="royal-article-routes" aria-labelledby="royal-article-heading">'
+            '<span class="eyebrow">SOURCE-BY-SOURCE COMPARISONS</span>'
+            '<h2 id="royal-article-heading">Compare the original witnesses.</h2>'
+            '<p>Read the exact royal edition or museum record beside the biblical passages. '
+            'Shared places do not certify every reported detail.</p><ul>' + links + '</ul></section>')
 
 
 def build_view(sources):
