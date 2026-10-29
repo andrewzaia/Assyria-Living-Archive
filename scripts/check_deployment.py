@@ -23,6 +23,8 @@ CHECKS = {
     '/archive/maps/assyria-atlas.json': ('schema_version', 'snapshots', 'bm-chronicle'),
     '/archive/maps/natural-earth-countries.geojson': ('FeatureCollection', 'MultiPolygon'),
     '/stewardship/': ('Make the archive recoverable.', 'preservation-manifest.json', 'Offsite backups:'),
+    '/middle-assyrian/': ('An empire built by people.', 'middle-grid', 'Dūr-Katlimmu'),
+    '/articles/middle-assyrian-women-and-law/': ('Women, status and the Middle Assyrian Laws', 'Veiling as a marker of status'),
     '/preservation-manifest.json': ('hash_algorithm', 'sha256', 'file_count'),
 }
 
