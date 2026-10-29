@@ -51,6 +51,9 @@
   navGroups.forEach(group=>group.addEventListener('toggle',()=>{
     if(group.open) navGroups.forEach(other=>{if(other!==group) other.open=false;});
   }));
+  document.addEventListener('focusin',event=>{
+    if(!event.target.closest('.nav-group'))navGroups.forEach(group=>{group.open=false;});
+  });
   document.addEventListener('pointerdown',event=>{
     if(!event.target.closest('.nav-group')) navGroups.forEach(group=>{group.open=false;});
     if(!event.target.closest('.site-header')) closeMobile();
@@ -87,7 +90,7 @@
       $('#search-results').innerHTML=found.map(a=>`<a href="${BASE}/articles/${esc(a.slug)}/"><span class="eyebrow">${esc(a.category)}</span><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p></a>`).join('');
     }catch{if(version===searchVersion)$('#search-status').textContent='The search catalogue could not load. Please try again.';}
   };
-  $$('.search-open').forEach(b=>b.addEventListener('click',()=>{dialog.showModal();$('#global-search').focus();}));
+  $('.search-open').forEach(b=>b.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();$('#global-search').focus();}));
   $('.search-close')?.addEventListener('click',()=>dialog.close());
   dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
   $('#global-search')?.addEventListener('input',searchGlobal);
