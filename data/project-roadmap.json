@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-29",
+  "milestones": [
+    {
+      "id": "foundation",
+      "title": "Foundation and discovery",
+      "status": "available",
+      "delivered": "Original articles, six topics, search, reading lists and a selected timeline.",
+      "next": "Continue to maintain links, accessibility and source attribution."
+    },
+    {
+      "id": "navigation",
+      "title": "Unified site-wide navigation",
+      "status": "available",
+      "delivered": "Explore, Scripture, Research and Project menus expose every major public hub on desktop and mobile.",
+      "next": "Recheck keyboard, touch and small-screen behaviour after navigation changes."
+    },
+    {
+      "id": "scripture",
+      "title": "Biblical primary-text collection",
+      "status": "available",
+      "delivered": "Local Bible reader, named-reference index and 26 original guides with explicit passage references.",
+      "next": "Add careful textual comparison and qualified specialist review where applicable."
+    },
+    {
+      "id": "encyclopaedia",
+      "title": "Encyclopaedia expansion and preservation",
+      "status": "in-progress",
+      "delivered": "Preserved reference corpus, expanded original introductions, glossary and measurable expansion dashboard.",
+      "next": "Prioritise deeper original articles and verify copyright, provenance and scope of preserved texts."
+    },
+    {
+      "id": "atlas",
+      "title": "Interactive historical atlas",
+      "status": "in-progress",
+      "delivered": "Eleven dated interpretive sketches, timeline controls, modern geography and reproducible offline validation.",
+      "next": "Strengthen geographic uncertainty, dated boundary evidence and connections to individual articles."
+    },
+    {
+      "id": "source-trails",
+      "title": "Section-level source traceability",
+      "status": "available",
+      "delivered": "Evidence Register, reversible source-to-guide links and 101 section reading trails across 41 guides.",
+      "next": "Extend section coverage without treating section links as proof of all contained claims."
+    },
+    {
+      "id": "claims",
+      "title": "Historical claim verification",
+      "status": "in-progress",
+      "delivered": "Initial 15 text-anchored claim records with direct passages, source roles, qualifications and an independent-review queue.",
+      "next": "Check inscription or tablet identifiers and exact editions, reconcile conflicting reports and record qualified expert decisions."
+    },
+    {
+      "id": "language",
+      "title": "Assyrian languages and cultural heritage",
+      "status": "planned",
+      "delivered": "Introductory language and heritage entries provide starting context.",
+      "next": "Add specialist-reviewed Akkadian, Syriac and Neo-Aramaic material with licensed audio and transliteration."
+    },
+    {
+      "id": "community",
+      "title": "Community testimony and heritage media",
+      "status": "planned",
+      "delivered": "Local Markdown contribution drafts can be downloaded without transmitting personal data.",
+      "next": "Plan consent, permissions, moderated interviews, village histories and media preservation."
+    },
+    {
+      "id": "submission",
+      "title": "Secure contribution delivery",
+      "status": "on-hold",
+      "delivered": "Dormant backend is retained and public contributions remain download-only.",
+      "next": "Authorise a project-specific sender or Microsoft Graph integration, then verify privacy, anti-abuse controls and genuine end-to-end delivery."
+    },
+    {
+      "id": "governance",
+      "title": "Editorial governance and revision history",
+      "status": "planned",
+      "delivered": "Contributor guidance and deterministic metadata validation exist.",
+      "next": "Define named reviewers, corrections, record revision provenance, moderation and multilingual editorial workflows."
+    },
+    {
+      "id": "publication",
+      "title": "Publication and long-term stewardship",
+      "status": "planned",
+      "delivered": "Static deployment, offline validation and explicit indexing controls are established.",
+      "next": "Complete specialist review, browser and accessibility testing, licence checks and deliberate indexing approval."
+    }
+  ]
+}
