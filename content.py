@@ -646,3 +646,27 @@ for _article in ARTICLES:
     for _slug in _HERITAGE_READING_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Eight specialist-source and biblical-primary studies are maintained in a separate
+# module so preserved foundation introductions remain auditable in their original order.
+from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
+ARTICLES.extend(HISTORICAL_EVIDENCE_ARTICLES)
+
+# Preserve existing guide content while exposing direct routes into the new research.
+_EVIDENCE_READING_ROUTES = {
+    'ancient-assyria': ['historical-evidence-methods', 'black-obelisk-jehu'],
+    'nimrud': ['black-obelisk-jehu'],
+    'nineveh': ['sennacherib-prism-hezekiah', 'babylonian-chronicle-nineveh'],
+    'sennacherib': ['sennacherib-prism-hezekiah', 'lachish-reliefs-context'],
+    'shalmaneser-iii': ['black-obelisk-jehu'],
+    'sargon-ii': ['sargon-ashdod-isaiah', 'samaria-assyrian-chronology'],
+    'shalmaneser-v': ['samaria-assyrian-chronology'],
+    'fall-of-nineveh': ['babylonian-chronicle-nineveh'],
+    'assyrian-governance': ['assyrian-deportations-texts', 'historical-evidence-methods'],
+    'royal-reliefs': ['lachish-reliefs-context'],
+    'research-guide': ['historical-evidence-methods'],
+}
+for _article in ARTICLES:
+    for _slug in _EVIDENCE_READING_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
