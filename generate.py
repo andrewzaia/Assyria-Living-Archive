@@ -158,7 +158,7 @@ def articles():
         case_record = CASEFILE_BY_SLUG.get(a['slug'])
         object_metadata = object_panel(case_record) if case_record else ''
         text_comparison_panel = render_text_lines(case_record) if case_record else ''
-        compiled_date = '30 October 2026' if case_record else '26 October 2026'
+        compiled_date = '30 October 2026' if (case_record or a['slug'] == 'reading-cuneiform-transliteration') else '26 October 2026'
         # Section trails are explicit and partial. The other sources remain article-level.
         citations=''.join(f'<a href="#source-{s}" class="citation" aria-label="Source {n}">[{n}]</a>' for s,n in refs.items())
         body=''.join(f'<section id="section-{i+1}"><h2>{H(s["title"])}</h2><p>{H(s["text"])}</p>{section_reading_trail(a,s,refs)}</section>' for i,s in enumerate(a['sections']))
