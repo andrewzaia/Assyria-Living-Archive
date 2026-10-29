@@ -1,0 +1,421 @@
+[
+  {
+    "slug": "tablet-kaj-247-workers-temple",
+    "title": "KAJ 247: workers and a temple account",
+    "summary": "A Middle Assyrian tablet names a group of workers, a temple setting and an uncertain administrative receipt.",
+    "catalogue": "VAT 08971",
+    "edition": "KAJ 247 / CDLI P282259",
+    "findspot": "Aššur, M 09 archive; excavation Ass 14446 df",
+    "dating": "Middle Assyrian period; exact absolute year not established here",
+    "genre": "Receipt? (editorial uncertainty)",
+    "line_focus": "Obverse 1-5; reverse 7-11",
+    "period": "middle",
+    "kind": "Labour and ritual",
+    "source_id": "tcma-kaj-247",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P282259",
+    "related": [
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-religion-ritual",
+      "middle-assyrian-scribes-seals"
+    ],
+    "sections": [
+      {
+        "title": "Identify the surviving object",
+        "text": "The ATMAP/TCMA edition identifies KAJ 247 as CDLI P282259, collection VAT 08971, with excavation label Ass 14446 df from the M 09 archive at Aššur. These parallel identifiers refer to a single tablet, not several separate witnesses. Its catalogue marks the subgenre as a possible receipt. The findspot and archival label are firmer starting points than any imagined reconstruction of the group who used the document."
+      },
+      {
+        "title": "Follow the line divisions",
+        "text": "The English edition associates the opening obverse with a group of twenty-two workers and an event interpreted as a banquet; the worker term itself and the precise nature of the event are qualified in the edition. Later lines refer to a temple and a person in charge, while the reverse contains language of performance or receipt and an eponym date. These observations require the source edition, not an unsupported modern narrative of a festival."
+      },
+      {
+        "title": "Work, institutions and surviving voices",
+        "text": "The tablet makes institutional labour visible through the vocabulary of a particular record. It does not establish whether the listed people volunteered, were paid, belonged to a particular household or experienced the occasion in the way the institution represented it. A temple setting also does not settle the religious convictions of everyone present. Social history begins by noticing which people an official document counts and which people it leaves unnamed."
+      },
+      {
+        "title": "Uncertainty and the next check",
+        "text": "The editorial question mark after the genre and the qualified worker reading should travel with any research reuse of this item. A future Assyriologist should collate the obverse and reverse against the published signs, account for any broken text and confirm the administrative verbs before translating the entry as an undisputed receipt. The archive links the edition and paraphrases its research value; it has not independently translated the Akkadian."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-kaj-247",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-marv-10-07-footwear",
+    "title": "MARV 10, 07: palace footwear and a hostage",
+    "summary": "An object-specific account of palace footwear, custody and a person called a hostage, with a disputed journey context.",
+    "catalogue": "VAT 10052",
+    "edition": "MARV 10, 07 / StAT 5, 07 / CDLI P282957",
+    "findspot": "Aššur, M 07 archive; excavation Ass 21101 s",
+    "dating": "Middle Assyrian period; dated by named eponym, not converted here to a fixed BCE year",
+    "genre": "Receipt",
+    "line_focus": "Obverse 1-5; reverse 7-12; dating reverse 13-15",
+    "period": "middle",
+    "kind": "People and mobility",
+    "source_id": "tcma-marv-10-07",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P282957",
+    "related": [
+      "middle-assyrian-households-inheritance",
+      "middle-assyrian-routes-and-exchange",
+      "middle-assyrian-labour-rations"
+    ],
+    "sections": [
+      {
+        "title": "Identify the item before the story",
+        "text": "This tablet is edited as MARV 10, 07, also published as StAT 5, 07, with collection number VAT 10052 and CDLI P282957. The ATMAP/TCMA catalogue places it in the M 07 archive at Aššur and retains the excavation number Ass 21101 s. Those details distinguish it from other palace supply records. A name appearing in the edition does not mean that a modern biography of that person survives."
+      },
+      {
+        "title": "What the edition actually records",
+        "text": "The source edition describes one pair of palace-associated shoes under the charge of a named great steward, and assigns it to Niri-šaldi, designated a hostage. The route or campaign attached to the entry has a question mark in the scholarly translation. The tablet gives a transaction and an administrative classification; it does not allow a confident description of how the person became a hostage or whether the footwear arrived in an actual campaign camp."
+      },
+      {
+        "title": "A small object and a large political setting",
+        "text": "Footwear is a mundane object, yet its written assignment shows that palace administration attended to clothing and supplies while categorising people by status. The term hostage alerts historians to unequal power and potential coercion. Neither a pair of shoes nor its administrative wording tells us the recipient's feelings, degree of agency, ordinary wardrobe or family connections. Inferring an entire personal story from one receipt would reproduce an institutional viewpoint."
+      },
+      {
+        "title": "How to review the uncertain clause",
+        "text": "The editor's uncertain campaign language is a useful research task, not a reason to omit the record. Review the obverse and reverse line readings, find the name and status vocabulary in parallel Middle Assyrian texts, and distinguish attested place names from conjectural geographical routes. Any map built from this receipt should contain only the locations actually supported by the edition. The original edited text remains linked at the source."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-marv-10-07",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-kaj-233-horse-barley",
+    "title": "KAJ 233: barley for a service horse",
+    "summary": "A single dated barley receipt links horses, service obligations and an administrative recipient.",
+    "catalogue": "VAT 08950",
+    "edition": "KAJ 233 / KAV 207 / CDLI P282245",
+    "findspot": "Aššur, M 09 archive; excavation Ass 14446 p*",
+    "dating": "Middle Assyrian, month Kuzallu, 13th day, eponym Adad-nīrārī",
+    "genre": "Receipt with seal notation",
+    "line_focus": "Obverse 1-6; reverse 7-8",
+    "period": "middle",
+    "kind": "Animals and agriculture",
+    "source_id": "tcma-kaj-233",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P282245",
+    "related": [
+      "middle-assyrian-farming-water",
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-routes-and-exchange"
+    ],
+    "sections": [
+      {
+        "title": "An identified ration text",
+        "text": "KAJ 233 is also KAV 207, CDLI P282245 and VAT 08950. The ATMAP/TCMA record places it in Aššur's M 09 archive and identifies an excavation label. The museum collection number and publication names describe the same artefact, not independent confirmations of its details. Its classification as a receipt is supported by the edition, which includes a seal notation and a short dated text."
+      },
+      {
+        "title": "Barley, a horse and a named recipient",
+        "text": "The edited obverse describes a barley quantity in traditional measures as a ration for a horse attached to a service obligation, with a named recipient. The reverse supplies a named month, day and eponym. These distinctions matter: the record documents an allocation and its administrative framing, not the full cost of feeding all horses, the physical delivery route or a modern conversion of its capacity units. The edition remains the source of the numerical reading."
+      },
+      {
+        "title": "What an equine ration implies",
+        "text": "A service horse needed agricultural production, storage and people managing fodder. The receipt offers a glimpse into that supply system by recording one allocation. It cannot establish how healthy the horse was, whether the ration was sufficient or how ordinary agricultural families managed livestock. One horse entry also cannot be generalised to a royal cavalry strength. Ancient account keeping is evidence of an administrative intention in a specific setting."
+      },
+      {
+        "title": "Provenance before extrapolation",
+        "text": "For a closer tablet-level study, check the edition's reading of the units, the service term and the eponym name, then compare genuinely contemporary equine allocations from the same archive. The source is stronger for the existence of a documented provisioning practice than for large statistical claims. A dated record is not a complete agricultural census, and the exact absolute calendar date is not established by this introduction alone."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-kaj-233",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-marv-1-12-guard-rations",
+    "title": "MARV 1, 12: ten days of guard rations",
+    "summary": "A sealed Middle Assyrian receipt records a barley allocation to several named groups guarding the inner city.",
+    "catalogue": "VAT 18012 and VAT 18088",
+    "edition": "MARV 1, 12 / VS 19, 12 / CDLI P281896",
+    "findspot": "Aššur; individual archive affiliation not supplied by the consulted entry",
+    "dating": "Middle Assyrian, month Kalmartu, day 26, eponym Abattu",
+    "genre": "Receipt with seal notation",
+    "line_focus": "Obverse 1-10; reverse 11-18",
+    "period": "middle",
+    "kind": "Workers and provisions",
+    "source_id": "tcma-marv-1-12",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P281896",
+    "related": [
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-provincial-administration",
+      "middle-assyrian-farming-water"
+    ],
+    "sections": [
+      {
+        "title": "Why this tablet is an unusually useful case",
+        "text": "The ATMAP/TCMA record for MARV 1, 12, CDLI P281896, names two VAT collection pieces and the earlier publication VS 19, 12. It gives the provenance as Aššur but does not assign a specific archive in the displayed metadata. That missing attribution should not be invented. The record is an administrative receipt with seal indicators and a date expressed in the ancient eponym system."
+      },
+      {
+        "title": "Groups and an allocation period",
+        "text": "The edited text gives a barley distribution described for ten days and enumerates several separate sets of people linked to inner-city guard duty. The list distinguishes groups associated with Harallu, Qumānu and Muṣri as well as a group of enrolment lords. Numbers and groups belong to the particular document; the archival translator's phrasing, units and uncertain readings need to be checked before any modern caloric or headcount model is attempted."
+      },
+      {
+        "title": "A guard list is not a population census",
+        "text": "This allocation suggests that guarding a city required coordinated provisioning and categorised personnel. It does not document the entire urban population, prove that each listed person received the prescribed portion or establish what anyone ate in private. The named locations are identifiers in an administrative formula, not a complete map of migration. The document's perspective is shaped by the offices responsible for issuing and recording resources."
+      },
+      {
+        "title": "The testable research question",
+        "text": "A useful next step is to collate the obverse list and reverse dating formula, then compare the provisioned groups with other securely dated military and palace accounts. Any proposed total should retain the unit system and interpretive uncertainty, without silently converting a ten-day allocation into an annual diet. The surviving transcript supports one institution's account, while the lives behind those totals remain only partially visible."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-marv-1-12",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-kaj-144-lead-house",
+    "title": "KAJ 144: lead and a house transaction",
+    "summary": "A Middle Assyrian legal-administrative tablet links lead, household property, named parties and a seal.",
+    "catalogue": "VAT 08609",
+    "edition": "KAJ 144 / CDLI P282157",
+    "findspot": "Aššur, M 11 archive; excavation Ass 14987 b",
+    "dating": "Middle Assyrian period; no independent absolute calendar conversion",
+    "genre": "Receipt? (editorial uncertainty)",
+    "line_focus": "Obverse beginning and seal; check full edition for remaining lines",
+    "period": "middle",
+    "kind": "Households and property",
+    "source_id": "tcma-kaj-144",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P282157",
+    "related": [
+      "middle-assyrian-households-inheritance",
+      "middle-assyrian-women-and-law",
+      "middle-assyrian-scribes-seals"
+    ],
+    "sections": [
+      {
+        "title": "One object with several labels",
+        "text": "KAJ 144 is identified as CDLI P282157, museum collection VAT 08609 and excavation Ass 14987 b, associated with Aššur's M 11 archive. The ATMAP/TCMA catalogue classifies its text as a possible receipt, with a question mark. A preserved seal notation gives an additional physical dimension to the document. It is useful precisely because it links a house-related transaction to a specific excavated tablet, not just a general statement about ancient property."
+      },
+      {
+        "title": "Metal, obligations and property",
+        "text": "The edited beginning reports a substantial lead quantity, names parties associated with it and connects the obligation to a sale of a house in the inner city. The source gives its measures in ancient units, which should not be converted into a modern currency or a supposedly precise commercial valuation without a checked metrological study. The edition also contains damaged or qualified readings. A transaction is evidence of an obligation recorded, not a complete picture of ownership history."
+      },
+      {
+        "title": "How much can a legal receipt establish?",
+        "text": "The record demonstrates that a house, materials and named persons could be connected through formal written obligations. It does not describe the floor plan of the house, the household's wealth, the experiences of its residents or the later resolution of every obligation. The presence of a seal cannot by itself identify the modern legal equivalent of a signature. Ancient document practice must be studied through contemporaneous textual conventions."
+      },
+      {
+        "title": "Questions for a specialist reader",
+        "text": "A philological review should verify the lead measure, the relationship among the named parties, the sentence on the house, the seal owner and any damaged signs in the complete edition. The editorial uncertainty in the document classification should remain visible until that review is done. This article does not claim a new independent transcription, a legally enforceable modern deed or an exact reconstruction of the transaction's outcome."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-kaj-144",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-billa-30-barley",
+    "title": "Billa 30: barley obligations at Shibaniba",
+    "summary": "A receipt from Tell Billa shows provincial barley recording, witnesses and gaps in the names and legal reading.",
+    "catalogue": "UM 33-58-133",
+    "edition": "Billa 30 / CDLI P282711",
+    "findspot": "Šibaniba, modern Tell Billa; Aššur-kašid archive",
+    "dating": "Middle Assyrian, month Muhur-ilāni; day partly broken",
+    "genre": "Receipt",
+    "line_focus": "Obverse 1-7; reverse 10-16; top 17-20",
+    "period": "middle",
+    "kind": "Regional exchange",
+    "source_id": "tcma-billa-30",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/billa/P282711",
+    "related": [
+      "middle-assyrian-routes-and-exchange",
+      "middle-assyrian-farming-water",
+      "middle-assyrian-provincial-administration"
+    ],
+    "sections": [
+      {
+        "title": "Provenance beyond the capital",
+        "text": "The ATMAP/TCMA edition of Billa 30 identifies CDLI P282711 and collection UM 33-58-133, from the Aššur-kašid archive at Šibaniba, now Tell Billa. Its findspot is important evidence that Middle Assyrian record keeping was not confined to the city of Aššur. The tablet is listed as a receipt and preserves a dating formula as well as damaged witness and personal-name sections. It should not be treated as if its geography were uncertain just because some wording is broken."
+      },
+      {
+        "title": "A provincial grain entry",
+        "text": "The edited obverse concerns a barley quantity associated with the palace and the men of Šibaniba, with a named family connection; the reading of the imposition is itself marked uncertain. The document's date and witnesses are partly damaged. These details make it a practical example of how a small account raises questions about the local economy and institutional obligations without revealing all the real-life events behind the text."
+      },
+      {
+        "title": "What we can and cannot reconstruct",
+        "text": "A grain obligation entered in a receipt points to a social system of storing, demanding and acknowledging goods. It does not automatically mean that every household in the town paid the same amount, that a delivery is fully verified or that the broken witnesses can be confidently named. A modern reconstruction must distinguish certain tablet signs, proposed restorations and scholarly explanations rather than flatten them into a smooth narrative."
+      },
+      {
+        "title": "Next reading at line level",
+        "text": "Compare the obverse quantity and status words with the published transliteration, review the reverse witness formula and retain the brackets that mark lost names or signs. Scholars could then compare other securely located Tell Billa receipts to ask whether practices changed between households or periods. This site supplies the edition route and a cautious original introduction, not a newly completed linguistic collation of all twenty written lines."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-billa-30",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "tablet-kaj-118-straw",
+    "title": "KAJ 118: forty sacks of palace straw",
+    "summary": "A named receipt involving palace straw, storehouse responsibility and multiple recipients at Aššur.",
+    "catalogue": "VAT 08819",
+    "edition": "KAJ 118 / CDLI P282131",
+    "findspot": "Aššur, M 10 archive; excavation Ass 14327 by",
+    "dating": "Middle Assyrian period; particular absolute year not asserted here",
+    "genre": "Receipt",
+    "line_focus": "Opening obverse lines; verify remainder in linked edition",
+    "period": "middle",
+    "kind": "Agriculture and logistics",
+    "source_id": "tcma-kaj-118",
+    "source_url": "https://oracc.museum.upenn.edu/tcma/P282131",
+    "related": [
+      "middle-assyrian-farming-water",
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-scribes-seals"
+    ],
+    "sections": [
+      {
+        "title": "A named administrative artefact",
+        "text": "KAJ 118 is catalogued as CDLI P282131, collection VAT 08819 and excavation Ass 14327 by in Aššur's M 10 archive. The genre is recorded as a receipt. Because several scholarly references discuss the document, retaining the KAJ and modern corpus numbers makes it easier to compare readings instead of repeating the same object as independent evidence."
+      },
+      {
+        "title": "Straw and official custody",
+        "text": "The edition's opening passage records forty sacks of straw associated with the palace and an institutional chain of custody, with named stewards, retainers and other people involved. The names and offices matter as much as the quantity: a palace supply chain was organised through specific recorded intermediaries. That does not establish whether the straw was delivered in full, stored for animals, used in construction or reallocated for another purpose."
+      },
+      {
+        "title": "The visible and invisible work",
+        "text": "Agricultural production becomes visible here through an accounted commodity and the offices that handled it. The people who gathered the straw, transported it or needed it in a household are much less visible. The tablet cannot supply their family histories, work conditions or a regional crop estimate. The record says something concrete about palace management while leaving most daily experience outside the scope of its writer."
+      },
+      {
+        "title": "Do not turn a receipt into a harvest",
+        "text": "A future close reading should verify the measure, the precise number of named persons and the syntactic relationships of custody and receipt in the complete edition. Comparing other M 10 documents might reveal repeated roles or changing allocations, but that requires identification checks. Without those, the responsible conclusion is narrow: a Middle Assyrian archive retained one administrative account concerning palace straw and named officials."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "tcma-kaj-118",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "met-62-85-3-sealed-tablet",
+    "title": "The Met 62.85.3: a sealed administrative tablet",
+    "summary": "A Middle Assyrian museum object catalogued with two cylinder-seal impressions, without claiming to translate unread lines.",
+    "catalogue": "The Metropolitan Museum of Art 62.85.3",
+    "edition": "The Met collection record 325514; no line edition verified for this study",
+    "findspot": "Mesopotamia in museum catalogue; exact excavated settlement not established in this record",
+    "dating": "About 13th century BCE (museum classification)",
+    "genre": "Clay administrative record with two cylinder-seal impressions",
+    "line_focus": "No line numbers verified; interpretation based on museum object metadata only",
+    "period": "middle",
+    "kind": "Material archaeology",
+    "source_id": "met-62-85-3",
+    "source_url": "https://www.metmuseum.org/art/collection/search/325514",
+    "related": [
+      "middle-assyrian-scribes-seals",
+      "middle-assyrian-provincial-administration",
+      "manuscripts"
+    ],
+    "sections": [
+      {
+        "title": "The museum record's firm information",
+        "text": "The Metropolitan Museum identifies object 62.85.3 as a Middle Assyrian clay cuneiform administrative tablet impressed with two cylinder seals. The catalogue places it around the thirteenth century BCE and gives physical dimensions of 2.4 by 3.6 by 1.6 centimetres. The museum record documents an object in an institution. It does not, in the readily displayed metadata, establish the original excavated archive or provide an independently checked line-by-line translation for this site."
+      },
+      {
+        "title": "Two impressions and an administrative setting",
+        "text": "The museum's physical identification allows a focused question about how written clay and seal impressions could work together in institutional record keeping. The number of seals is an observed catalogue attribute, not an assurance that two named officials personally witnessed every action referred to in the text. A seal design may identify ownership or authority only after analysis of a wider comparative corpus."
+      },
+      {
+        "title": "Image rights and archaeological limits",
+        "text": "The Met labels the object's digital image Public Domain under its Open Access framework. This archive links to the catalogue rather than silently duplicating artwork or proposing an unattributed photograph. Its current article does not infer a precise findspot, owner, transaction or reconstructed household from an image alone. A detailed reading requires a securely attributed scholarly edition and evaluation of the signs, seal surfaces and object history."
+      },
+      {
+        "title": "What a future case study must add",
+        "text": "To move beyond catalogue-level description, obtain the object publication or verified transcription, map its signs and seal impressions, and confirm its archaeological provenance and translation. A useful interdisciplinary review would compare metrological, legal and palaeographic findings with actual Middle Assyrian parallels. Until then, this is an object-level case with an explicit missing text edition, not a fictitious translation."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "met-62-85-3",
+      "tcma-corpus"
+    ],
+    "passages": [],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  },
+  {
+    "slug": "bm-21901-nineveh-chronicle-case",
+    "title": "BM 21901: the Chronicle of Nineveh's fall",
+    "summary": "A later Babylonian copy records the events of 616-609 BCE, including Nineveh's fall, alongside distinct prophetic passages.",
+    "catalogue": "British Museum 21901; registration 1896,0409.6",
+    "edition": "Babylonian Chronicle, Gadd 1923 edition cited in the BM catalogue",
+    "findspot": "South Iraq (museum findspot field; precise site not supplied)",
+    "dating": "Surviving tablet dated about 550-400 BCE; narrative includes 612 BCE",
+    "genre": "Late Babylonian historical chronicle; not a Middle Assyrian tablet",
+    "line_focus": "Museum inventory and linked scholarly edition; line-level collation pending",
+    "period": "later",
+    "kind": "Chronicles and Scripture",
+    "source_id": "bm-chronicle",
+    "source_url": "https://www.britishmuseum.org/collection/object/W_1896-0409-6",
+    "related": [
+      "babylonian-chronicle-nineveh",
+      "bible-nahum",
+      "fall-of-nineveh",
+      "historical-evidence-methods"
+    ],
+    "passages": [
+      [
+        "NAH",
+        1,
+        1,
+        15
+      ],
+      [
+        "ZEP",
+        2,
+        13,
+        15
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A tablet with two historical dates",
+        "text": "The British Museum identifies this as tablet 21901, registration 1896,0409.6, a Babylonian Chronicle that narrates events from 616 to 609 BCE including the destruction of Nineveh. Its physical copy is catalogued to roughly 550-400 BCE, after those events. Those two dates describe different things: the historical events narrated and the surviving manuscript. Treating the physical tablet as a clay object inscribed during the siege of Nineveh would be a source-dating error."
+      },
+      {
+        "title": "The object and its provenance",
+        "text": "The catalogue assigns the chronicle to Late Babylonian material, describes a clay object acquired in 1896 and gives a general south Iraq findspot rather than a secure detailed excavation address. It cites published scholarship including an edition of the Fall of Nineveh Chronicle. The museum record supplies an independently verifiable accession, physical classification and bibliographic route, but its brief summary is not a substitute for a newly checked complete line-level translation."
+      },
+      {
+        "title": "Read the Bible as a distinct witness",
+        "text": "Nahum 1:1 names Nineveh in a prophetic oracle, and Zephaniah 2:13-15 speaks of the destruction of the Assyrian city. Those chapters are primary for what the biblical texts announce. A Babylonian military chronicle can independently contextualise the city's downfall, but does not establish that every prophetic image is a literal battlefield report. The theological claims and the chronicle's political prose belong to different ancient genres."
+      },
+      {
+        "title": "Do not merge historical periods",
+        "text": "This object is included to demonstrate a necessary comparison technique: a later copy can preserve earlier events. It is not Middle Assyrian, despite appearing in the same archive website section as the new Middle Assyrian tablets. A future editor should collate the lines of a named scholarly edition with the biblical passages, identify breaks or restorations, and document disputed points in the review register rather than claiming a finished philological verification."
+      }
+    ],
+    "category": "History & archaeology",
+    "sources": [
+      "bm-chronicle",
+      "bible-webbe"
+    ],
+    "note": "Editorial case file. The linked object's identification, scholarly edition and line scope are stated separately from interpretation. No independent philological or historical peer review has been completed."
+  }
+]
