@@ -735,3 +735,21 @@ for _article in ARTICLES:
     for _related in _CASE_FILE_READING_ROUTES.get(_article['slug'], []):
         if _related not in _article['related']:
             _article['related'].append(_related)
+
+# Source-specific reading of cuneiform sign notation and translation uncertainty.
+from text_comparison_content import ARTICLES as TRANSLITERATION_METHOD_ARTICLES
+ARTICLES.extend(TRANSLITERATION_METHOD_ARTICLES)
+
+_TRANSLITERATION_ROUTES = {
+    'akkadian-and-cuneiform': ['reading-cuneiform-transliteration'],
+    'cuneiform-reading-methods': ['reading-cuneiform-transliteration'],
+    'historical-evidence-methods': ['reading-cuneiform-transliteration'],
+    'middle-assyrian-scribes-seals': ['reading-cuneiform-transliteration'],
+    'tablet-kaj-233-horse-barley': ['reading-cuneiform-transliteration'],
+    'tablet-billa-30-barley': ['reading-cuneiform-transliteration'],
+    'bm-21901-nineveh-chronicle-case': ['reading-cuneiform-transliteration'],
+}
+for _article in ARTICLES:
+    for _related in _TRANSLITERATION_ROUTES.get(_article['slug'], []):
+        if _related not in _article['related']:
+            _article['related'].append(_related)
