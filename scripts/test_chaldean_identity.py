@@ -20,20 +20,21 @@ SCHOLARLY = {
     "hanoosh-2019-chaldean-identity", "donabed-2012-appellative",
     "iranica-ancient-chaldeans", "hanoosh-2016-appellations",
     "gedsh-aramaic", "gedsh-syriac", "gedsh-assyrians",
+    "wiley-payne-ancient-chaldaeans",
 }
 
 class HistoricalIdentityTests(unittest.TestCase):
     def test_guide_is_visible_sitewide(self):
         self.assertIn("/articles/chaldean-name-and-heritage/", NAV_PATHS)
         self.assertIn("/articles/chaldean-name-and-heritage/", NAV_COLUMNS["Explore"][1][1])
-        self.assertEqual(len(BY_SLUG["chaldean-name-and-heritage"]["sections"]), 10)
+        self.assertEqual(len(BY_SLUG["chaldean-name-and-heritage"]["sections"]), 11)
         for slug in RELATED[:-1]:
             self.assertIn("chaldean-name-and-heritage", BY_SLUG[slug]["related"])
 
     def test_direct_ethnic_claim_not_inferred_from_church(self):
         church = BY_SLUG["chaldean-church"]
         prose = " ".join(s["text"] for s in church["sections"])
-        self.assertIn("membership alone is not proof", prose)
+        self.assertIn("no directly verified source", prose.lower())
         self.assertIn("Assyrian heritage", prose)
         self.assertIn("modern ethnic self-identification", prose)
         guide = " ".join(s["text"] for s in BY_SLUG["chaldean-name-and-heritage"]["sections"])
@@ -67,6 +68,7 @@ class HistoricalIdentityTests(unittest.TestCase):
             "hanoosh-2019-chaldean-identity": "pdxscholar.library.pdx.edu/wll_fac/134/",
             "donabed-2012-appellative": "doi.org/10.1080/14608944.2012.733208",
             "iranica-ancient-chaldeans": "iranicaonline.org/articles/chaldeans-kaldu-west-semitic-tribes",
+            "wiley-payne-ancient-chaldaeans": "doi.org/10.1002/9781444338386.wbeah30233",
         }
         for sid, url in expected.items():
             self.assertIn(url, BY_SOURCE[sid]["url"])
@@ -82,8 +84,33 @@ class HistoricalIdentityTests(unittest.TestCase):
                 sources = section["sources"]
                 self.assertTrue(set(sources) & SCHOLARLY, slug)
                 self.assertTrue(set(sources) <= set(BY_SLUG[slug]["sources"]))
-        self.assertEqual(sum(len(TRAILS[s]) for s in RELATED), 29)
-        self.assertEqual(sum(map(len, TRAILS.values())), 376)
+        self.assertEqual(sum(len(TRAILS[s]) for s in RELATED), 32)
+        self.assertEqual(sum(map(len, TRAILS.values())), 379)
+
+
+    def test_no_ancient_kaldu_lineage_without_primary_evidence(self):
+        guide = BY_SLUG["chaldean-name-and-heritage"]
+        guide_text = " ".join(s["text"] for s in guide["sections"])
+        church_text = " ".join(s["text"] for s in BY_SLUG["chaldean-church"]["sections"])
+        identity_text = " ".join(s["text"] for s in BY_SLUG["assyrian-identity"]["sections"])
+        self.assertIn("Evidence verdict: NOT DEMONSTRATED", guide_text)
+        self.assertIn("Evidence status - NOT DEMONSTRATED", church_text)
+        self.assertIn("Evidence finding: NOT DEMONSTRATED", identity_text)
+        for prose in (guide_text,church_text,identity_text):
+            self.assertIn("ancient Kaldu",prose)
+            self.assertIn("Church of the East",prose)
+        self.assertIn("modern self-description", guide_text.lower())
+        self.assertIn("not independently examined", BY_SOURCE["wiley-payne-ancient-chaldaeans"]["access"])
+
+    def test_followup_claims_protect_lineage_proof_standard(self):
+        claims = [c for c in CLAIMS["claims"] if 89 <= int(c["id"][3:]) <= 91]
+        self.assertEqual([c["id"] for c in claims], ["CL-089","CL-090","CL-091"])
+        for item in claims:
+            self.assertEqual(item["review"]["status"],"awaiting-independent-review")
+            self.assertIsNone(item["review"]["reviewer"])
+            self.assertTrue("Kaldu" in item["claim"] or "Chaldean" in item["claim"])
+            self.assertIn(item["section"], TRAILS[item["article"]])
+        self.assertEqual(len(CLAIMS["claims"]),91)
 
     def test_disputed_naming_claims_remain_unreviewed(self):
         newer = [c for c in CLAIMS["claims"] if 81 <= int(c["id"][3:]) <= 88]
