@@ -57,33 +57,69 @@
   window.addEventListener('storage',e=>{if(e.key===KEY){try{const v=JSON.parse(e.newValue||'[]');saved=Array.isArray(v)?v.filter(x=>typeof x==='string'):[];syncSaved();renderReading();}catch{}}});
   const menu=$('.menu-toggle');
   const mobileMenu=$('#mobile-site-nav');
-  const navGroups=$('details.nav-group');
+  // querySelectorAll is essential: both desktop and mobile contain each group.
+  const navGroups=$$('details.nav-group');
+  const desktopNav=$('.desktop-nav');
+  const desktopGroups=desktopNav ? $$('details.nav-group',desktopNav) : [];
+  const hoverDesktop=window.matchMedia('(min-width: 801px) and (hover: hover) and (pointer: fine)');
+  let navigatingWithKeyboard=false;
+
   const closeMobile=()=>{
     if(!mobileMenu || mobileMenu.hidden) return;
     mobileMenu.hidden=true;
     menu?.setAttribute('aria-expanded','false');
     menu?.setAttribute('aria-label','Open navigation');
   };
+  const closeOtherGroups=(current)=>{
+    navGroups.forEach(group=>{if(group!==current)group.open=false;});
+  };
+
+  // Native details still work with tap, click, Enter and Space. Mouse hover is
+  // an enhancement only for fine-pointer desktop devices; no hover simulation
+  // is applied to touch-capable/mobile navigation.
+  document.addEventListener('keydown',event=>{
+    if(['Tab','Enter',' ','ArrowDown','ArrowUp','ArrowLeft','ArrowRight'].includes(event.key)){
+      navigatingWithKeyboard=true;
+    }
+  });
+  document.addEventListener('pointerdown',()=>{navigatingWithKeyboard=false;});
+  desktopGroups.forEach(group=>{
+    group.addEventListener('pointerenter',event=>{
+      if(!hoverDesktop.matches || event.pointerType!=='mouse')return;
+      navigatingWithKeyboard=false;
+      closeOtherGroups(group);
+      group.open=true;
+    });
+    group.addEventListener('pointerleave',event=>{
+      if(!hoverDesktop.matches || event.pointerType!=='mouse')return;
+      // A keyboard-open menu must remain usable while focus is inside it.
+      if(navigatingWithKeyboard && group.contains(document.activeElement))return;
+      group.open=false;
+    });
+  });
+
   menu?.addEventListener('click',()=>{
     if(!mobileMenu) return;
     mobileMenu.hidden=!mobileMenu.hidden;
     const open=!mobileMenu.hidden;
     menu.setAttribute('aria-expanded',String(open));
     menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');
-    if(!open) navGroups.forEach(group=>{group.open=false;});
+    if(!open)navGroups.forEach(group=>{group.open=false;});
   });
+
   navGroups.forEach(group=>group.addEventListener('toggle',()=>{
-    if(group.open) navGroups.forEach(other=>{if(other!==group) other.open=false;});
+    if(group.open)closeOtherGroups(group);
   }));
   document.addEventListener('focusin',event=>{
-    if(!event.target.closest('.nav-group'))navGroups.forEach(group=>{group.open=false;});
+    const focused=event.target.closest?.('details.nav-group');
+    closeOtherGroups(focused);
   });
   document.addEventListener('pointerdown',event=>{
-    if(!event.target.closest('.nav-group')) navGroups.forEach(group=>{group.open=false;});
-    if(!event.target.closest('.site-header')) closeMobile();
+    if(!event.target.closest('.nav-group'))closeOtherGroups(null);
+    if(!event.target.closest('.site-header'))closeMobile();
   });
   document.addEventListener('keydown',event=>{
-    if(event.key!=='Escape') return;
+    if(event.key!=='Escape')return;
     const opened=navGroups.find(group=>group.open);
     if(opened){
       opened.open=false;
@@ -98,7 +134,7 @@
   window.addEventListener('resize',()=>{
     if(window.innerWidth>800){
       closeMobile();
-      navGroups.forEach(group=>{group.open=false;});
+      closeOtherGroups(null);
     }
   });
 
