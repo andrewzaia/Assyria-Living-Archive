@@ -21,6 +21,7 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 | `content.py` | Original article introductions and timeline entries |
 | `sources.json` | Reference metadata and public source URLs |
 | `generate.py` | Static page and catalogue generator |
+| `navigation.py` | Shared site-wide menu groups and destination registry |
 | `site.config.json` | Site origin, base path and indexing choice |
 | `site_config.py` | Validated settings and URL handling |
 | `static/` | Maintained CSS, JavaScript, images, fonts and licences |
@@ -91,6 +92,12 @@ The validator checks article/source relationships, unique slugs and IDs, local n
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the article schema and evidence requirements. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for image and font attribution. No general open source licence has been selected for the original project files.
 
 The articles are sourced introductions and have not received specialist peer review. Some references are public book descriptions with variable full-text access. Reading-list data remains in the visitor's browser. Contribution drafts can be downloaded locally; they are not currently submitted to the editor. Contact details entered into the form appear only in the local draft, unless the contributor later chooses to share it.
+
+## Site-wide navigation
+
+The header uses four concise menus, **Explore**, **Scripture**, **Research** and **Project**, with search and the locally saved reading list kept as header actions. The grouped menus expose every public site hub, including the interactive map, glossary, verse index, evidence register and expansion dashboard, on desktop and mobile. The footer provides a text-link alternative to the same hubs.
+
+Update `NAV_GROUPS` in `navigation.py` when adding a new public hub rather than writing separate desktop and mobile menu lists. The generator uses native `<details>` disclosure elements, allowing keyboard and touch navigation even without JavaScript. The small JavaScript enhancement closes menus on Escape and outside clicks. `scripts/validate.py` checks that every generated page contains every registered destination with correct active link state and valid local paths.
 
 ## Interactive historical atlas
 
