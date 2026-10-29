@@ -1395,6 +1395,118 @@
         "reviewer": null,
         "date": null
       }
+    },
+    {
+      "id": "CL-063",
+      "article": "black-obelisk-jehu",
+      "section": "The name Jehu and the House of Omri",
+      "anchor": "The directly edited tribute caption is RIAo Q004693, obverse line 1",
+      "claim": "RIAo Q004693 caption line 1 records tribute associated with Iaua of the House of Omri; the biblical Jehu narrative is a different witness.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          9,
+          1,
+          13
+        ]
+      ],
+      "evidence_sources": [
+        "oracc-riao-jehu-caption"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The royal caption attests an Assyrian representation of tribute, not a comprehensive independent account of the biblical accession or an authenticated portrait.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-064",
+      "article": "sargon-ashdod-isaiah",
+      "section": "A cautious comparison route",
+      "anchor": "The direct Ashdod account is identified in RINAP 2 Q006488, edited lines 90-109",
+      "claim": "RINAP 2 Q006488 lines 90-109 narrates Ashdod rulers and Sargon's campaign; Isaiah 20:1 names an Assyrian commander called Tartan.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ],
+      "evidence_sources": [
+        "oracc-rinap2-ashdod"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The Assyrian first-person royal account and Isaiah's wording need separate genre and military-command analysis. This source does not authenticate the prophetic sign.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-065",
+      "article": "sennacherib-prism-hezekiah",
+      "section": "What the Assyrian annals claim",
+      "anchor": "RINAP 3 Q003496, column iii lines 18-37",
+      "claim": "RINAP 3 Q003496 iii 18-37 records fortified Judahite cities and Hezekiah's confinement in Jerusalem without explicitly reporting the city's capture.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          13
+        ]
+      ],
+      "evidence_sources": [
+        "oracc-rinap3-sennacherib22"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The edition is a critical multi-exemplar text; royal hyperbole and different transmission histories prohibit equating all outcomes with the biblical narrative.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-066",
+      "article": "sennacherib-prism-hezekiah",
+      "section": "Check the right evidence",
+      "anchor": "RINAP 3 Q003496, column iii lines 41-42, records thirty talents of gold and eight hundred talents of silver",
+      "claim": "RINAP 3 Q003496 iii 41-42 reports 30 gold and 800 silver talents, while 2 Kings 18:14 reports 30 gold and 300 silver talents.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          18,
+          14,
+          16
+        ]
+      ],
+      "evidence_sources": [
+        "oracc-rinap3-sennacherib22"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The apparent silver discrepancy is preserved without an unsupported explanation or textual harmonisation; edition variants and historic accounting still need independent review.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
     }
   ]
 }
