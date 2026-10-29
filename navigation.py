@@ -20,6 +20,7 @@ NAV_GROUPS = (
         ('Source library', '/sources/', 'Primary records and further reading'),
         ('Historical evidence dossiers', '/dossiers/', 'Biblical passages and accessioned Assyrian records'),
         ('Royal inscriptions and Scripture', '/royal-witnesses/', 'Direct Assyrian edition lines and biblical comparisons'),
+        ('Fall of Samaria and succession', '/samaria-succession/', 'Dated biblical and royal source comparisons from tribute to exile'),
         ('Individual tablet case files', '/case-files/', 'Accessioned objects, editions and archive provenance'),
         ('Text and translation comparisons', '/text-comparisons/', 'Cuneiform signs, editorial readings and uncertainties'),
         ('Ancient text concordance', '/concordance/', 'Cross-reference people, places, materials and Scripture'),
