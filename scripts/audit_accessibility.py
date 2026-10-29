@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGES = (
     "/", "/explore/", "/map/", "/languages/", "/heritage/", "/governance/",
     "/stewardship/", "/bible/", "/bible/passages/", "/reading-list/",
-    "/contribute/", "/sources/", "/about/", "/glossary/", "/middle-assyrian/", "/case-files/", "/text-comparisons/", "/articles/reading-cuneiform-transliteration/",
+    "/contribute/", "/sources/", "/about/", "/glossary/", "/middle-assyrian/", "/case-files/", "/text-comparisons/", "/concordance/", "/articles/reading-cuneiform-transliteration/",
 )
 
 
