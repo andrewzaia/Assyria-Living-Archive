@@ -36,6 +36,9 @@ The published editorial guides currently use article-level bibliography links. T
 
 ## Implementation
 
+Every new public hub page must be registered in `navigation.py` so it appears in both desktop and mobile menus. Keep short link descriptions, use native disclosure semantics and test generated links under both root and subpath deployments. Avoid putting essential pages only in another page's body or footer.
+
+
 Edit maintained assets under `static/`. Keep browser features independent of a database or external service unless that change is explicitly scoped. Use Australian English and ordinary ASCII hyphens and dashes in authored prose. Preserve exact quotations, identifiers and third-party licence text where fidelity requires it.
 
 Run the build and validator before proposing a change. A pull request should state the problem, the resulting behaviour, evidence for new content and the checks completed. GitHub CI validates structure and links, not historical truth or licence ownership.
