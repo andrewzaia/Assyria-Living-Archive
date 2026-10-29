@@ -246,3 +246,9 @@ Cloudflare's email service cannot send *from* a third-party Outlook address that
 Future reactivation requires confirming privacy wording, enabling Turnstile, restricting cross-origin requests, configuring rate limits and sender/recipient secrets, deploying the Worker and verifying a genuine email with the Markdown attachment. Until then, leave the contribution page as download-only and do not advertise email delivery.
 
 Run `node --test worker/tests/*.test.mjs` to check the dormant backend contract. No secrets belong in the git repository.
+
+## Names and identity evidence milestone
+
+The `/identity-register/` research room now presents eight source-scoped comparisons and twelve verified-against-concordance reference routes. These include Aššur and biblical Asshur, Nineveh across chronicle and prophecy, Šibaniba/Tell Billa, a damaged personal name, and four biblical name or place studies whose current concordance entries do not yet carry direct object-level identifiers. No name similarity is silently converted into a confirmed historical identity. Scripture is primary for its own account, while specific inscriptions, objects and independent review remain separate historical checks.
+
+`data/identity-cases.json` maintains the dossiers, with an offline `/identity-cases.json` export. `identity_register.py` enforces source roles, known object and biblical references and an unchanged pending-review status. `scripts/test_identity_register.py` rejects invented objects and passages, duplicate evidence, unknown term identifiers and unsupported reviewer approval. The page is accessible through the Research menu and the ancient text concordance. These checks validate editorial links, not the truth of a contested historical identification.
