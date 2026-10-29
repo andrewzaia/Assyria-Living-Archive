@@ -874,5 +874,502 @@
         ]
       ]
     }
+  },
+  "ashurnasirpal-ii": {
+    "The reign and its evidence": {
+      "sources": [
+        "met-assyria",
+        "met-rulers-assyria"
+      ]
+    },
+    "Why Kalhu mattered": {
+      "sources": [
+        "met-assyria",
+        "met-court"
+      ]
+    },
+    "Palace art as a political record": {
+      "sources": [
+        "met-court",
+        "met-relief"
+      ]
+    },
+    "Read beyond the king": {
+      "sources": [
+        "met-assyria",
+        "met-court"
+      ]
+    }
+  },
+  "shalmaneser-iii": {
+    "A long reign": {
+      "sources": [
+        "met-assyria",
+        "met-rulers-assyria"
+      ]
+    },
+    "An inscriptional itinerary": {
+      "sources": [
+        "oracc-shalmaneser"
+      ]
+    },
+    "Kingdoms and coalitions": {
+      "sources": [
+        "met-levant-chronology",
+        "oracc-shalmaneser"
+      ]
+    },
+    "What comes after a campaign": {
+      "sources": [
+        "oracc-shalmaneser",
+        "met-assyria"
+      ]
+    }
+  },
+  "tiglath-pileser-iii": {
+    "A turning point in imperial rule": {
+      "sources": [
+        "aebp-tiglath",
+        "met-rulers-assyria"
+      ]
+    },
+    "Direct rule and dependent kingdoms": {
+      "sources": [
+        "met-levant-chronology",
+        "aebp-governance"
+      ]
+    },
+    "The Bible names the king": {
+      "sources": [
+        "bible-webbe",
+        "aebp-tiglath"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "2KI",
+          16,
+          7,
+          9
+        ],
+        [
+          "2CH",
+          28,
+          16,
+          21
+        ]
+      ]
+    },
+    "Names across records": {
+      "sources": [
+        "aebp-tiglath",
+        "bible-webbe"
+      ]
+    }
+  },
+  "shalmaneser-v": {
+    "The successor to Tiglath-pileser": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "met-rulers-assyria"
+      ]
+    },
+    "The historical record is uneven": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "aebp-sargon"
+      ]
+    },
+    "Samaria in Kings": {
+      "sources": [
+        "bible-webbe",
+        "aebp-shalmaneser-v"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
+    },
+    "A necessary uncertainty": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "aebp-sargon"
+      ]
+    }
+  },
+  "sargon-ii": {
+    "A contested beginning": {
+      "sources": [
+        "aebp-sargon",
+        "aebp-shalmaneser-v"
+      ]
+    },
+    "Dur-Sharrukin as a royal statement": {
+      "sources": [
+        "aebp-sargon",
+        "khorsabad-ministry"
+      ]
+    },
+    "Sargon in Isaiah": {
+      "sources": [
+        "bible-webbe",
+        "aebp-sargon"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
+      ]
+    },
+    "Claims, chronology and source roles": {
+      "sources": [
+        "aebp-sargon",
+        "oracc-rinap"
+      ]
+    }
+  },
+  "sennacherib": {
+    "The capital at Nineveh": {
+      "sources": [
+        "met-assyria",
+        "met-nineveh-history"
+      ]
+    },
+    "Lachish in stone": {
+      "sources": [
+        "bm-lachish-panel",
+        "bm-lachish-deportees"
+      ]
+    },
+    "The account in Kings and Isaiah": {
+      "sources": [
+        "bible-webbe",
+        "oracc-rinap"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          38
+        ]
+      ]
+    },
+    "How to compare the accounts": {
+      "sources": [
+        "oracc-rinap",
+        "bm-lachish-panel"
+      ]
+    }
+  },
+  "esarhaddon": {
+    "The succession in Scripture": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          19,
+          36,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          37,
+          38
+        ]
+      ]
+    },
+    "The ruler and the wider empire": {
+      "sources": [
+        "met-assyria",
+        "met-rulers-assyria",
+        "oracc-rinap"
+      ]
+    },
+    "Ezra's settlement memory": {
+      "sources": [
+        "bible-webbe",
+        "aebp-deportation"
+      ],
+      "passages": [
+        [
+          "EZR",
+          4,
+          1,
+          5
+        ]
+      ]
+    },
+    "Beyond one individual": {
+      "sources": [
+        "oracc-rinap",
+        "aebp-governance"
+      ]
+    }
+  },
+  "ashurbanipal": {
+    "A late imperial ruler": {
+      "sources": [
+        "met-assyria",
+        "met-rulers-assyria"
+      ]
+    },
+    "A library is not one room": {
+      "sources": [
+        "met-nineveh-history",
+        "yale-libraries"
+      ]
+    },
+    "A tablet that can be checked": {
+      "sources": [
+        "bm-ashurbanipal-tablet"
+      ]
+    },
+    "After the reign": {
+      "sources": [
+        "met-assyria",
+        "bm-chronicle"
+      ]
+    }
+  },
+  "assyrian-governance": {
+    "A government beyond the palace image": {
+      "sources": [
+        "aebp-governance"
+      ]
+    },
+    "Different relationships with regions": {
+      "sources": [
+        "aebp-governance",
+        "aebp-countries"
+      ]
+    },
+    "Scribes, messages and delegated work": {
+      "sources": [
+        "aebp-governance"
+      ]
+    },
+    "What a source can establish": {
+      "sources": [
+        "aebp-governance",
+        "oracc-rinap"
+      ]
+    }
+  },
+  "assyrian-deportation": {
+    "People moved by imperial policy": {
+      "sources": [
+        "aebp-deportation"
+      ]
+    },
+    "The perspective of the state": {
+      "sources": [
+        "aebp-deportation",
+        "bm-lachish-deportees"
+      ]
+    },
+    "Deportation in the Bible": {
+      "sources": [
+        "bible-webbe",
+        "aebp-deportation"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ],
+        [
+          "1CH",
+          5,
+          25,
+          26
+        ]
+      ]
+    },
+    "Numbers and human scale": {
+      "sources": [
+        "aebp-deportation",
+        "bm-lachish-deportees"
+      ]
+    }
+  },
+  "assyrian-religious-life": {
+    "Ashur: city, land and deity": {
+      "sources": [
+        "unesco-ashur"
+      ]
+    },
+    "Temples and political authority": {
+      "sources": [
+        "unesco-ashur",
+        "met-assyria"
+      ]
+    },
+    "Ritual texts and scribal learning": {
+      "sources": [
+        "bm-ashurbanipal-tablet",
+        "yale-libraries"
+      ]
+    },
+    "Separate historical and theological questions": {
+      "sources": [
+        "unesco-ashur",
+        "met-assyria"
+      ]
+    }
+  },
+  "imperial-languages": {
+    "More than one language": {
+      "sources": [
+        "cambridge-mesopotamian-languages",
+        "gedsh-aramaic"
+      ]
+    },
+    "Aramaic and an expanding empire": {
+      "sources": [
+        "met-levant-chronology",
+        "gedsh-aramaic"
+      ]
+    },
+    "The biblical language exchange": {
+      "sources": [
+        "bible-webbe",
+        "gedsh-aramaic"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          26,
+          26
+        ],
+        [
+          "ISA",
+          36,
+          11,
+          11
+        ]
+      ]
+    },
+    "Scripts and continuity need precision": {
+      "sources": [
+        "cambridge-mesopotamian-languages",
+        "gedsh-syriac",
+        "gedsh-aramaic"
+      ]
+    }
+  },
+  "fall-of-nineveh": {
+    "The final imperial decades": {
+      "sources": [
+        "met-assyria",
+        "met-rulers-assyria"
+      ]
+    },
+    "Nineveh in 612 BCE": {
+      "sources": [
+        "met-assyria",
+        "bm-chronicle",
+        "met-nineveh-history"
+      ]
+    },
+    "The Bible's prophetic witness": {
+      "sources": [
+        "bible-webbe",
+        "met-levant-chronology"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          1
+        ],
+        [
+          "ZEP",
+          2,
+          13,
+          15
+        ]
+      ]
+    },
+    "Why 609 BCE also matters": {
+      "sources": [
+        "met-levant-chronology",
+        "met-assyria"
+      ]
+    }
+  },
+  "post-imperial-assyria": {
+    "An empire ends, a region remains": {
+      "sources": [
+        "met-assyria",
+        "unesco-ashur"
+      ]
+    },
+    "Ashur's later archaeological life": {
+      "sources": [
+        "unesco-ashur"
+      ]
+    },
+    "Changing imperial contexts": {
+      "sources": [
+        "met-levant-chronology",
+        "met-assyria"
+      ]
+    },
+    "Language, faith and modern identity": {
+      "sources": [
+        "gedsh-aramaic",
+        "gedsh-assyrians"
+      ]
+    }
   }
 }

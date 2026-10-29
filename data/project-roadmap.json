@@ -27,8 +27,8 @@
       "id": "encyclopaedia",
       "title": "Encyclopaedia expansion and preservation",
       "status": "in-progress",
-      "delivered": "Preserved reference corpus, expanded original introductions, glossary and measurable expansion dashboard.",
-      "next": "Prioritise deeper original articles and verify copyright, provenance and scope of preserved texts."
+      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available.",
+      "next": "Continue article depth with exact inscription-line and tablet comparisons, fuller Middle Assyrian history, provincial life, women and non-elite voices, plus better dated post-imperial regional evidence. Specialist peer review remains outstanding."
     },
     {
       "id": "atlas",
@@ -41,15 +41,15 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, reversible source-to-guide links and 101 section reading trails across 41 guides.",
-      "next": "Extend section coverage without treating section links as proof of all contained claims."
+      "delivered": "Evidence Register, reversible source-to-guide links and 157 section reading trails across 55 editorial guides, including 56 newly mapped historical sections.",
+      "next": "Extend coverage and independently check claim-specific evidence; section trails do not verify every sentence."
     },
     {
       "id": "claims",
       "title": "Historical claim verification",
       "status": "in-progress",
       "delivered": "Initial 15 text-anchored claim records with direct passages, source roles, qualifications and an independent-review queue.",
-      "next": "Check inscription or tablet identifiers and exact editions, reconcile conflicting reports and record qualified expert decisions."
+      "next": "Check precise inscription and tablet identifiers, compare royal texts with biblical passages and document named specialist review. Newly added historical articles are section-mapped, not claim-level peer reviewed."
     },
     {
       "id": "language",

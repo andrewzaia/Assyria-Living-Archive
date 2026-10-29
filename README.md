@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 438 reading entries (66 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 452 reading entries (80 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -122,11 +122,17 @@ The second encyclopaedia expansion is measured against `data/encyclopaedia-round
 The active reference manifest is `archive/encyclopaedia-references.json`, falling back to the original manifest when absent. Original API responses are preserved losslessly in deterministic gzip files, with checksums for both compressed and original bytes. The older source edition remains in Git history and its original files remain retained. Preserved external references are labelled as such, including shared regional context. Their inclusion does not imply independent scholarly review or an Assyrian identity for every subject. The acquisition tool never runs during ordinary builds.
 
 
+## Encyclopaedia depth milestone - original historical studies
+
+The next research expansion adds **14 original guides and 56 section-level evidence trails**, rather than importing another batch of preserved third-party articles. These guides cover Ashurnasirpal II, Shalmaneser III, Tiglath-pileser III, Shalmaneser V, Sargon II, Sennacherib, Esarhaddon, Ashurbanipal, imperial governance, state-directed population movements, ancient religion, multilingual administration, Nineveh's fall, and later regional history. The new original article sections contain approximately 3,776 additional words. Ten specifically named scholarly and museum records were added to `sources.json`; recorded checking dates reflect the date of actual source consultation.
+
+New and old articles link to one another through related reading routes. The selected timeline now includes Assyrian reigns and events of 701, 671, 612 and 609 BCE, while keeping biblical claims distinct from historical dating. The additional 56 section reading trails live in `data/section-evidence.json` and are validated offline. **This is a documented editorial expansion, not specialist peer review or independent confirmation of each sentence.** In-depth inscription passage checks and independent subject-matter review remain future work.
+
 ## Evidence traceability and review
 
 The `/about/evidence/` register is a measured, navigable index of editorial guides and the source records they cite. The source library now links referenced source records back to their editorial guides and displays each source's recorded check or retrieval date rather than a single hardcoded date. The register can be downloaded as `/evidence-index.json`.
 
-The first section-level research pass now identifies **101 individually mapped sections across 41 guides**, including locally hosted Scripture links. The exact section-to-reference mappings live in `data/section-evidence.json` and are checked by `section_evidence.py`. Add a mapping only after verifying that the named source or passage is relevant to that specific section. Bible passages must already occur within the guide's primary passage list, and linked non-biblical sources must exist in its bibliography. The editor may leave a section unmapped rather than assign tenuous evidence.
+The first section-level research pass now identifies **157 individually mapped sections across 55 guides**, including locally hosted Scripture links. The exact section-to-reference mappings live in `data/section-evidence.json` and are checked by `section_evidence.py`. Add a mapping only after verifying that the named source or passage is relevant to that specific section. Bible passages must already occur within the guide's primary passage list, and linked non-biblical sources must exist in its bibliography. The editor may leave a section unmapped rather than assign tenuous evidence.
 
 The register exports the mapped and unmapped section counts, source IDs and book/chapter/verse coordinates in `/evidence-index.json`. The generator adds small "Section reading trail" boxes beneath mapped sections, without changing the full article bibliography. The source library also records the University of Pennsylvania's RINAP royal inscriptions collection as independent historical source material, separate from Scripture. The Sargon guide now retains the specialist note on the Assyrian official title Tartan while also citing a Sargon-specific historical study from Assyrian Empire Builders.
 
