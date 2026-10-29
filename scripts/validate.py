@@ -31,6 +31,7 @@ from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
 from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
 from case_files import DATA as CASE_FILES, validate as validate_case_files
 from text_comparisons import DATA as TEXT_COMPARISONS, BY_SLUG as TEXT_COMPARISON_BY_SLUG, validate as validate_text_comparisons
+from concordance import DATA as CONCORDANCE, TERMS as CONCORDANCE_TERMS, validate as validate_concordance, build_view as build_concordance_view
 
 class Page(HTMLParser):
     def __init__(self):
@@ -432,10 +433,39 @@ def main():
     comparison_claims = [item for item in claim_report['claims'] if item['article'] in comparison_slugs]
     if len(comparison_claims) < 21 or any(item['review']['status'] != 'awaiting-independent-review' for item in comparison_claims):
         errors.append('Text and translation comparison claims must remain pending independent review')
+    # Concordance links are scoped citations: exact edited line, catalogue context,
+    # original editorial chapter, or a separately identified biblical passage.
+    concordance_report = validate_concordance(EDITORIAL_ARTICLES, CASE_FILES, TEXT_COMPARISONS)
+    if concordance_report != {'terms': 25, 'object_links': 32, 'article_links': 43, 'passage_links': 11}:
+        errors.append('Curated concordance coverage changed without editorial review')
+    concordance_html_path = OUT / 'concordance/index.html'
+    if not concordance_html_path.is_file():
+        errors.append('Concordance research index was not generated')
+    else:
+        concordance_html = concordance_html_path.read_text(encoding='utf-8')
+        if concordance_html.count('class="concordance-term"') != len(CONCORDANCE_TERMS):
+            errors.append('Concordance index is missing curated term cards')
+        if 'id="concordance-query"' not in concordance_html or 'id="concordance-type"' not in concordance_html:
+            errors.append('Concordance searchable and category-filter controls missing')
+        if 'concordance.js' not in concordance_html or 'concordance.css' not in concordance_html:
+            errors.append('Concordance assets not linked')
+        for term in CONCORDANCE_TERMS:
+            if 'id="entry-' + term['id'] + '"' not in concordance_html:
+                errors.append('Concordance term not directly addressable: ' + term['id'])
+    exported = OUT / 'concordance.json'
+    if not exported.is_file() or json.loads(exported.read_text(encoding='utf-8')) != CONCORDANCE:
+        errors.append('Public concordance JSON differs from curated source')
+    for record in build_concordance_view(EDITORIAL_ARTICLES, CASE_FILES, TEXT_COMPARISONS):
+        for obj in record['objects']:
+            if obj.get('line'):
+                location = obj['url'].split('#', 1)[-1]
+                html_file = OUT / 'articles' / obj['slug'] / 'index.html'
+                if not html_file.is_file() or 'id="' + location + '"' not in html_file.read_text(encoding='utf-8'):
+                    errors.append('Concordance citation not anchored to actual edited line: ' + obj['url'])
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

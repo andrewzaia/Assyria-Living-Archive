@@ -41,15 +41,22 @@
       "id": "object-case-files",
       "title": "Individual tablet studies and archaeological case files",
       "status": "in-progress",
-      "delivered": "Published nine original, individually identified object studies with 36 separate section-to-source evidence trails. Eight are Middle Assyrian tablets or a seal-impressed museum object, and one later Babylonian Chronicle is explicitly separate. Each study displays accession or CDLI/edition IDs, provenance or acknowledged missing findspot, chronology, source-document type, relevant edited line scope and an external institutional record. Eight new source records and twelve anchored review claims accompany a browsable /case-files/ hub, a public JSON catalogue and automated metadata, accessibility and deployment checks. A follow-up transliteration layer now provides 16 short cited source-text lines with original editorial glosses for seven edited tablets; two other objects remain explicitly edition-pending.",
-      "next": "Commission named Assyriological line-level reviewers for the seven sampled edited texts, locate secure editions for the two pending objects, and expand object types while protecting transcription uncertainty and copyright licences."
+      "delivered": "Published nine original, individually identified object studies with 36 separate section-to-source evidence trails. Eight are Middle Assyrian tablets or a seal-impressed museum object, and one later Babylonian Chronicle is explicitly separate. Each study displays accession or CDLI/edition IDs, provenance or acknowledged missing findspot, chronology, source-document type, relevant edited line scope and an external institutional record. Eight new source records and twelve anchored review claims accompany a browsable /case-files/ hub, a public JSON catalogue and automated metadata, accessibility and deployment checks. A follow-up transliteration layer now provides 16 short cited source-text lines with original editorial glosses for seven edited tablets; two other objects remain explicitly edition-pending. A curated concordance now connects named object catalogues and exact edited lines to terms, other research articles and separate biblical accounts.",
+      "next": "Continue individual specialist edition and findspot verification and extend object-level indexing only when terms and manuscript contexts are independently checked."
     },
     {
       "id": "text-comparisons",
       "title": "Ancient texts and translation comparisons",
       "status": "in-progress",
-      "delivered": "Published a side-by-side ancient-text reading room and embedded comparison panels on all nine archaeological object articles. Sixteen very short credited sign-sequence excerpts from seven ATMAP/TCMA Middle Assyrian edited tablets include line identifiers, editorial English reading cues, source interpretive limits and visible damaged, restored or queried notation. Two catalogue-only objects have no invented transliteration or translation. Added one five-section methodological article with precise section evidence links, three new technical and scholarly source references, nine additional anchored claim-review records, a public comparison JSON export and negative tests that reject missing credit, false periods and fabricated unverified text.",
-      "next": "Engage an independent Assyriologist to collate the cited individual lines against a current edition and, where available, tablet photos; document competing legitimate readings and uncertainty. Expand translations only with appropriate licences or clearly original expert translations, and examine two catalogue-only items only after locating verified editions. Test the side-by-side panels with screen readers and horizontal zoom before public certification."
+      "delivered": "Published a side-by-side ancient-text reading room and embedded comparison panels on all nine archaeological object articles. Sixteen very short credited sign-sequence excerpts from seven ATMAP/TCMA Middle Assyrian edited tablets include line identifiers, editorial English reading cues, source interpretive limits and visible damaged, restored or queried notation. Two catalogue-only objects have no invented transliteration or translation. Added one five-section methodological article with precise section evidence links, three new technical and scholarly source references, nine additional anchored claim-review records, a public comparison JSON export and negative tests that reject missing credit, false periods and fabricated unverified text. Follow-up concordance links now target stable identifiers for the sixteen short credited transliteration lines, with document-level fallback where no line edition exists.",
+      "next": "Commission independent collation of the cited line readings, support documented alternative readings and maintain consistent term disambiguation between ancient sources."
+    },
+    {
+      "id": "ancient-text-concordance",
+      "title": "Ancient text concordance and cross-reference index",
+      "status": "in-progress",
+      "delivered": "Published a locally compiled, search-and-filter accessible concordance of 25 manually curated people, place, materials, institutions and text-method entries. It includes 32 documented object-level or edition-specific cross-references, 43 reading routes into existing encyclopaedia chapters, and 11 Bible comparison routes with deliberate genre/period separation. Edited text references deep-link directly to unique quotation-line IDs; object-only catalogue evidence is kept distinct. Reciprocal links appear on relevant editorial article pages, and an offline JSON export, regression tests, accessible search controls, main navigation links and live deployment checks are implemented. No extra original article or external source records are claimed.",
+      "next": "Expand only with source-checked term identifications and cautious treatment of variant Akkadian/Syriac spellings; add specialist-reviewed person and place disambiguation rather than automatic same-name merging. Build evidence-grade cross-period maps and timelines only where identified sources support the connection. Commission named independent Assyriological and biblical review, and test keyboard, screen reader, zoom and search interaction on real devices."
     },
     {
       "id": "atlas",
@@ -62,8 +69,8 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, source-to-guide links and 339 section-level evidence trails across 96 editorial guides, including 24 new heritage and community research sections.",
-      "next": "Continue edition-specific sign and language evidence mapping for future object comparisons; compare technical notation against published sources and record independent line-level sign-off."
+      "delivered": "Evidence Register, source-to-guide links and 339 section-level evidence trails across 96 editorial guides, including 24 new heritage and community research sections. Added 32 curated object and edited-line concordance relationships, 43 chapter links and 11 separately labelled Scripture comparisons; these are indexed connections rather than new section-level evidence trails.",
+      "next": "Extend term-level and passage-level verification with qualified specialists, preserving documented edited-line identity and the distinction between lexical similarities and historical equivalence."
     },
     {
       "id": "claims",
@@ -98,7 +105,7 @@
       "title": "Editorial governance and revision history",
       "status": "in-progress",
       "delivered": "Published a public editorial governance and revision room, correction/clarification/withdrawal policy, defined role disclosures, two blank release and correction planning documents, and a validated register of eleven merged major milestones (including governance, stewardship, source/accessibility, historical evidence, Middle Assyrian life, object case files and original-language comparisons) with their actual merged commits and pull request links. No independent reviewers have been assigned or claimed, and no confirmed public correction notices have been fabricated. Existing article and local correction-draft flows now link to the policy.",
-      "next": "Appoint qualified subject editors and documented independent reviewers, create secure private correction intake and tracked moderation, and record genuine dated public correction or withdrawal notices and multilingual revisions when required. The curated ledger must follow subsequent substantive merged changes; CI does not imply specialist review."
+      "next": "Record each substantive merged concordance and content release against its actual PR merge SHA, appoint qualified reviewers for disambiguated names and source relationships, and commission human accessibility testing. The curated ledger must not claim approvals that have not been obtained."
     },
     {
       "id": "source-accessibility",

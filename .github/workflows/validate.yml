@@ -32,6 +32,8 @@ jobs:
         run: python scripts/test_case_files.py
       - name: Test original-language source attribution and uncertainty rules
         run: python scripts/test_text_comparisons.py
+      - name: Test historical concordance source and reference integrity
+        run: python scripts/test_concordance.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js

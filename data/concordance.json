@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-10-30",
+  "method": "Manually curated, source-scoped relationships. A link can be a directly cited edited line, an object-level catalogue association, a related research route, or a distinct biblical textual comparison; it is never automatically claimed to be the same historical event or person. No name-identity resolution, epigraphic authentication, or biblical-archaeological harmonisation is inferred from lexical similarity.",
+  "terms": [
+    {
+      "id": "ashur-city",
+      "label": "Aššur",
+      "type": "place",
+      "description": "The city recorded as the findspot of several Middle Assyrian administrative objects; distinguish a documented excavation location from the wider biblical name Asshur.",
+      "aliases": [
+        "Assur",
+        "Ashur"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-247-workers-temple",
+          "role": "object-context",
+          "note": "KAJ 247 is catalogued from the M 09 archive at Aššur; this is an archaeological findspot association."
+        },
+        {
+          "slug": "tablet-kaj-233-horse-barley",
+          "role": "object-context",
+          "note": "KAJ 233 is catalogued from Aššur, also in the M 09 archive."
+        },
+        {
+          "slug": "tablet-kaj-118-straw",
+          "role": "object-context",
+          "note": "KAJ 118 has an Aššur archive excavation label."
+        }
+      ],
+      "articles": [
+        "ashur",
+        "middle-assyrian-overview"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "GEN",
+            10,
+            11,
+            12
+          ],
+          "relation": "biblical-name-comparison",
+          "note": "Genesis refers to Asshur and cities in a different ancient literary setting; this is not an archaeological findspot record."
+        }
+      ]
+    },
+    {
+      "id": "shibaniba",
+      "label": "Šibaniba (Tell Billa)",
+      "type": "place",
+      "description": "A named provincial archive site, securely distinguished from the capital and its differently organised administrative records.",
+      "aliases": [
+        "Tell Billa",
+        "Shibaniba"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-billa-30-barley",
+          "role": "object-context",
+          "note": "Billa 30 is attributed to the Aššur-kašid archive at Šibaniba."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-routes-and-exchange",
+        "middle-assyrian-provincial-administration"
+      ],
+      "passages": []
+    },
+    {
+      "id": "nineveh",
+      "label": "Nineveh",
+      "type": "place",
+      "description": "The Assyrian centre named in biblical prophecy and in a later Babylonian chronicle, with separate copy and event dates.",
+      "aliases": [],
+      "objects": [
+        {
+          "slug": "bm-21901-nineveh-chronicle-case",
+          "role": "object-context",
+          "note": "The chronicle refers to the fall of Nineveh; its surviving physical copy was made later."
+        }
+      ],
+      "articles": [
+        "babylonian-chronicle-nineveh",
+        "bible-nahum",
+        "fall-of-nineveh"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "NAH",
+            1,
+            1,
+            1
+          ],
+          "relation": "biblical-text",
+          "note": "Nahum opens with a prophetic oracle concerning Nineveh, not a military diary."
+        },
+        {
+          "ref": [
+            "ZEP",
+            2,
+            13,
+            15
+          ],
+          "relation": "biblical-text",
+          "note": "Zephaniah includes a prophetic statement concerning Assyria and Nineveh."
+        }
+      ]
+    },
+    {
+      "id": "palace-administration",
+      "label": "Palace administration",
+      "type": "institution",
+      "description": "Official records describe how goods and personnel were assigned through palace offices, not a complete economic census.",
+      "aliases": [
+        "palace",
+        "storehouse"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-118-straw",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "The straw opening connects a commodity quantity to a palace administrative receipt."
+        },
+        {
+          "slug": "tablet-marv-10-07-footwear",
+          "role": "object-context",
+          "note": "This palace document records footwear and an individual identified by a status term."
+        },
+        {
+          "slug": "tablet-billa-30-barley",
+          "role": "object-context",
+          "note": "The provincial account associates barley and palace obligations."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-provincial-administration",
+        "assyrian-governance"
+      ],
+      "passages": []
+    },
+    {
+      "id": "temple-setting",
+      "label": "Temple setting",
+      "type": "institution",
+      "description": "A cuneiform text identifies an institutional temple context while leaving the personal beliefs of its listed participants unrecorded.",
+      "aliases": [
+        "temple"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-247-workers-temple",
+          "line": "Obverse 5",
+          "role": "edition-line",
+          "note": "The edited line includes a temple logogram."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-religion-ritual"
+      ],
+      "passages": []
+    },
+    {
+      "id": "barley",
+      "label": "Barley",
+      "type": "material",
+      "description": "Barley appears in several separate Middle Assyrian administrative receipts; their different dates and people must not be collapsed into one event.",
+      "aliases": [
+        "grain",
+        "ŠE"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-233-horse-barley",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "Barley is expressed with ancient capacity signs in this single horse-provisioning record."
+        },
+        {
+          "slug": "tablet-marv-1-12-guard-rations",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "The opening quantity belongs to a city-guard provision account."
+        },
+        {
+          "slug": "tablet-billa-30-barley",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "A provincial receipt records a separate barley quantity."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-farming-water",
+        "middle-assyrian-labour-rations"
+      ],
+      "passages": []
+    },
+    {
+      "id": "straw",
+      "label": "Straw",
+      "type": "material",
+      "description": "A specific record of palace straw, not proof of region-wide agricultural yields or delivery outcomes.",
+      "aliases": [
+        "IN.NU"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-118-straw",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "The edition records forty sacks associated with straw."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-farming-water",
+        "middle-assyrian-labour-rations"
+      ],
+      "passages": []
+    },
+    {
+      "id": "lead",
+      "label": "Lead",
+      "type": "material",
+      "description": "An ancient measure of lead is linked to a house-related obligation; no modern valuation is inferred.",
+      "aliases": [
+        "AN.NA"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-144-lead-house",
+          "line": "Obverse 2",
+          "role": "edition-line",
+          "note": "The tablet begins a legal-economic statement with a lead measure."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-households-inheritance"
+      ],
+      "passages": []
+    },
+    {
+      "id": "service-horse",
+      "label": "Service horse",
+      "type": "practice",
+      "description": "A documented equine barley provision, not a count of the cavalry or a reconstruction of a horse's diet.",
+      "aliases": [
+        "horse"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-233-horse-barley",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "The associated passage concerns barley supplied for a service horse."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-farming-water"
+      ],
+      "passages": []
+    },
+    {
+      "id": "palace-footwear",
+      "label": "Palace footwear",
+      "type": "material",
+      "description": "A recorded pair of shoes illustrates administrative distribution and its limits when used to reconstruct an individual's story.",
+      "aliases": [
+        "shoes"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-marv-10-07-footwear",
+          "role": "object-context",
+          "note": "The receipt concerns footwear from a palace context."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-labour-rations"
+      ],
+      "passages": []
+    },
+    {
+      "id": "guard-provisions",
+      "label": "Guard provisioning",
+      "type": "practice",
+      "description": "A ten-day allocation lists different guard groups, without documenting actual food consumption or an annual ration.",
+      "aliases": [
+        "guards",
+        "ten-day rations"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-marv-1-12-guard-rations",
+          "line": "Reverse 14",
+          "role": "edition-line",
+          "note": "The published line refers to a ten-day allocation."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-labour-rations",
+        "middle-assyrian-provincial-administration"
+      ],
+      "passages": []
+    },
+    {
+      "id": "house-transaction",
+      "label": "House transaction",
+      "type": "practice",
+      "description": "A house sale and lead obligation are connected in a particular tablet; ownership history and the result remain unknown.",
+      "aliases": [
+        "house sale",
+        "property"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-144-lead-house",
+          "line": "Obverse 11",
+          "role": "edition-line",
+          "note": "The published obverse clause refers to a house sale, but its later legal outcome is not established."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-households-inheritance",
+        "middle-assyrian-women-and-law"
+      ],
+      "passages": []
+    },
+    {
+      "id": "seal-impressions",
+      "label": "Seal impressions",
+      "type": "material",
+      "description": "A physical tablet has two cylinder-seal impressions, while other edited receipts contain seal notation; no unverified identity is supplied.",
+      "aliases": [
+        "cylinder seals",
+        "sealing"
+      ],
+      "objects": [
+        {
+          "slug": "met-62-85-3-sealed-tablet",
+          "role": "object-context",
+          "note": "The Met catalogues two cylinder-seal impressions, without a verified line edition."
+        },
+        {
+          "slug": "tablet-kaj-233-horse-barley",
+          "role": "object-context",
+          "note": "This receipt includes a seal notation, without identifying a new signer here."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-scribes-seals"
+      ],
+      "passages": []
+    },
+    {
+      "id": "worker-list",
+      "label": "Workers in accounts",
+      "type": "practice",
+      "description": "Institutional lists record labour or guard categories; a single label does not establish freedom, remuneration or personal identity.",
+      "aliases": [
+        "workers",
+        "labour",
+        "personnel"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-247-workers-temple",
+          "line": "Obverse 1",
+          "role": "edition-line",
+          "note": "The editor qualifies the term used for the twenty-two people."
+        },
+        {
+          "slug": "tablet-marv-1-12-guard-rations",
+          "role": "object-context",
+          "note": "The separate guard allocation names several personnel groups."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-labour-rations",
+        "middle-assyrian-provincial-administration"
+      ],
+      "passages": []
+    },
+    {
+      "id": "hostage",
+      "label": "Hostage status",
+      "type": "practice",
+      "description": "One edited Middle Assyrian footwear record labels a recipient with a status term; it does not reveal the person's full circumstances.",
+      "aliases": [],
+      "objects": [
+        {
+          "slug": "tablet-marv-10-07-footwear",
+          "role": "object-context",
+          "note": "The linked edition describes the recipient as a hostage."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-routes-and-exchange"
+      ],
+      "passages": []
+    },
+    {
+      "id": "niri-saldi",
+      "label": "Niri-šaldi",
+      "type": "person",
+      "description": "A personal name appears in a specific damaged tablet line; no biography or unverified identity is inferred.",
+      "aliases": [
+        "Niri-shaldi"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-marv-10-07-footwear",
+          "line": "Obverse 5",
+          "role": "edition-line",
+          "note": "The edition gives the recipient's name, partly affected by damage."
+        }
+      ],
+      "articles": [
+        "middle-assyrian-routes-and-exchange"
+      ],
+      "passages": []
+    },
+    {
+      "id": "eponym-date",
+      "label": "Eponym dating",
+      "type": "practice",
+      "description": "Middle Assyrian dates can include an eponym and month/day formula; absolute BCE conversion requires separate chronology.",
+      "aliases": [
+        "limu",
+        "eponym",
+        "dating formula"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-233-horse-barley",
+          "line": "Reverse 7",
+          "role": "edition-line",
+          "note": "A month and day appear beside a following eponym name."
+        },
+        {
+          "slug": "tablet-marv-1-12-guard-rations",
+          "role": "object-context",
+          "note": "The case records an eponym date elsewhere in the tablet."
+        },
+        {
+          "slug": "tablet-kaj-247-workers-temple",
+          "line": "Top edge 12",
+          "role": "edition-line",
+          "note": "The eponym marker is explicitly restored in the edition."
+        }
+      ],
+      "articles": [
+        "reading-cuneiform-transliteration"
+      ],
+      "passages": []
+    },
+    {
+      "id": "damaged-restored-text",
+      "label": "Damaged and restored signs",
+      "type": "textual-method",
+      "description": "Brackets, damaged-sign marks and unidentified signs preserve the limits of an editor's reading.",
+      "aliases": [
+        "restoration",
+        "uncertain signs",
+        "broken tablet"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-kaj-247-workers-temple",
+          "line": "Top edge 12",
+          "role": "edition-line",
+          "note": "Square brackets identify a restored marker, not intact signs."
+        },
+        {
+          "slug": "tablet-billa-30-barley",
+          "line": "Reverse 10",
+          "role": "edition-line",
+          "note": "The editor leaves a name partly lost or unreadable."
+        },
+        {
+          "slug": "tablet-kaj-118-straw",
+          "line": "Reverse 16",
+          "role": "edition-line",
+          "note": "The excerpt preserves lacunae instead of reconstructing missing words."
+        }
+      ],
+      "articles": [
+        "reading-cuneiform-transliteration",
+        "middle-assyrian-scribes-seals"
+      ],
+      "passages": []
+    },
+    {
+      "id": "queried-reading",
+      "label": "Queried reading",
+      "type": "textual-method",
+      "description": "A scholarly question mark records uncertainty in a sign or interpretation; it is not a verified alternative translation.",
+      "aliases": [
+        "editorial question mark",
+        "uncertain reading"
+      ],
+      "objects": [
+        {
+          "slug": "tablet-billa-30-barley",
+          "line": "Obverse 5",
+          "role": "edition-line",
+          "note": "The edited phrase carries a query mark signalling that the particular sign reading remains uncertain."
+        },
+        {
+          "slug": "tablet-marv-10-07-footwear",
+          "line": "Reverse 8",
+          "role": "edition-line",
+          "note": "The journey or campaign wording remains editorially uncertain."
+        }
+      ],
+      "articles": [
+        "reading-cuneiform-transliteration",
+        "historical-evidence-methods"
+      ],
+      "passages": []
+    },
+    {
+      "id": "biblical-asshur",
+      "label": "Asshur in Genesis",
+      "type": "textual-method",
+      "description": "A biblical place and ancestry reference used as a textual comparison, not a dated thirteenth-century administrative tablet.",
+      "aliases": [
+        "Asshur",
+        "Genesis 10"
+      ],
+      "objects": [],
+      "articles": [
+        "bible-reading-guide",
+        "middle-assyrian-overview"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "GEN",
+            10,
+            8,
+            12
+          ],
+          "relation": "biblical-text",
+          "note": "Genesis provides the primary biblical wording about Asshur and named cities; historical geography is a separate inquiry."
+        },
+        {
+          "ref": [
+            "GEN",
+            10,
+            22,
+            22
+          ],
+          "relation": "biblical-text",
+          "note": "Genesis also lists Asshur in a genealogy; the text does not supply Middle Assyrian archive dates."
+        }
+      ]
+    },
+    {
+      "id": "jehu",
+      "label": "Jehu of Israel",
+      "type": "person",
+      "description": "A named king in 2 Kings and a subject of an Assyrian royal monument; not recorded on any of the nine Middle Assyrian tablets.",
+      "aliases": [],
+      "objects": [],
+      "articles": [
+        "black-obelisk-jehu",
+        "shalmaneser-iii"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "2KI",
+            9,
+            1,
+            13
+          ],
+          "relation": "biblical-text",
+          "note": "The biblical accession account is primary for its own narrative; the Black Obelisk independently refers to tribute."
+        }
+      ]
+    },
+    {
+      "id": "sargon-ii",
+      "label": "Sargon II",
+      "type": "person",
+      "description": "A king named in Isaiah's account of Ashdod; a later Neo-Assyrian ruler, not a Middle Assyrian administrative participant.",
+      "aliases": [
+        "Sargon"
+      ],
+      "objects": [],
+      "articles": [
+        "sargon-ashdod-isaiah",
+        "sargon-ii"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "ISA",
+            20,
+            1,
+            6
+          ],
+          "relation": "biblical-text",
+          "note": "Isaiah 20 describes the king and Ashdod as part of a prophetic account."
+        }
+      ]
+    },
+    {
+      "id": "hezekiah",
+      "label": "Hezekiah of Judah",
+      "type": "person",
+      "description": "Biblical ruler compared with Sennacherib's annals; do not substitute Middle Assyrian receipt tablets as evidence for his reign.",
+      "aliases": [],
+      "objects": [],
+      "articles": [
+        "sennacherib-prism-hezekiah",
+        "bible-hezekiah-deliverance"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "2KI",
+            18,
+            13,
+            17
+          ],
+          "relation": "biblical-text",
+          "note": "Kings narrates Judah's conflict with Assyria; interpretation requires comparison with separately dated sources."
+        }
+      ]
+    },
+    {
+      "id": "samaria",
+      "label": "Samaria",
+      "type": "place",
+      "description": "A biblical account of the later Assyrian crisis and deportations, not a reference to the Middle Assyrian city guard receipts.",
+      "aliases": [],
+      "objects": [],
+      "articles": [
+        "samaria-assyrian-chronology",
+        "assyrian-deportations-texts"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "2KI",
+            17,
+            3,
+            6
+          ],
+          "relation": "biblical-text",
+          "note": "Kings describes Shalmaneser, Hoshea and Samaria in the northern kingdom's crisis."
+        },
+        {
+          "ref": [
+            "2KI",
+            17,
+            24,
+            24
+          ],
+          "relation": "biblical-text",
+          "note": "Kings separately describes later population resettlement."
+        }
+      ]
+    },
+    {
+      "id": "deportation",
+      "label": "Deportation and resettlement",
+      "type": "practice",
+      "description": "An important later Neo-Assyrian biblical and historical topic that must not be conflated with a Middle Assyrian hostage or work allocation.",
+      "aliases": [
+        "exile",
+        "resettlement"
+      ],
+      "objects": [],
+      "articles": [
+        "assyrian-deportations-texts",
+        "samaria-assyrian-chronology"
+      ],
+      "passages": [
+        {
+          "ref": [
+            "2KI",
+            17,
+            6,
+            6
+          ],
+          "relation": "biblical-text",
+          "note": "The biblical text names deportation destinations following Samaria's fall."
+        }
+      ]
+    }
+  ]
+}
