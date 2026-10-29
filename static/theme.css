@@ -1,0 +1,80 @@
+/* Appearance control shared by all generated archive pages. */
+.theme-toggle{width:40px;height:40px;flex:0 0 40px;border-radius:50%;color:var(--ink);transition:background .16s ease,color .16s ease}
+.theme-toggle:hover{background:rgba(137,115,77,.12);color:var(--rust)}
+.theme-toggle .theme-icon-moon,.theme-toggle .theme-icon-sun{display:inline-flex;align-items:center;justify-content:center}
+.theme-toggle .icon{width:19px;height:19px}
+html:not([data-theme="dark"]) .theme-icon-sun,
+html[data-theme="dark"] .theme-icon-moon{display:none}
+
+/* Dark mode retains the archive's restrained green, stone and gold visual identity. */
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#101a19;
+  --white:#1a2926;
+  --ink:#edf0e7;
+  --muted:#b1beb4;
+  --line:#385047;
+  --gold:#d4b67d;
+  --rust:#e5b47b;
+  --green:#172d26;
+}
+html[data-theme="dark"] .site-header{background:rgba(16,26,25,.97)}
+html[data-theme="dark"] .nav-panel{box-shadow:0 18px 38px rgba(0,0,0,.4)}
+html[data-theme="dark"] .mobile-nav:not([hidden]){background:var(--paper)}
+html[data-theme="dark"] :is(.nav-trigger:hover,.nav-group[open]>.nav-trigger,.nav-group.is-current>.nav-trigger,.nav-destination:hover,.nav-destination:focus-visible,.nav-destination[aria-current="page"]){background:rgba(212,182,125,.11)}
+html[data-theme="dark"] :is(.archive-bar,.beginnings,.next-banner,.article-note,.article-review,.bible-preservation>div:last-child,.bible-search-controls,.biblical-passages,.governance-downloads li,.heritage-intro aside,.heritage-templates li,.lang-letter,.atlas-downloads,.atlas-presets,.atlas-timeline){background:#1a2a26}
+html[data-theme="dark"] :is(.topic:hover,.button.outline:hover,.chip:hover,#search-results a:hover,.dossier-card a:hover,.dossier-card a:focus-visible,.bible-chapter-text p:target){background:#294036}
+html[data-theme="dark"] :is(.article-body p,.prose p,.prose li,.article-note p){color:var(--muted)}
+html[data-theme="dark"] .article-note p{color:var(--muted)!important}
+html[data-theme="dark"] .article-note>.icon{color:var(--gold)}
+html[data-theme="dark"] .card-meta{color:var(--muted)}
+html[data-theme="dark"] .badge{background:#244037;border-color:#4b6b59;color:#d5ecd8}
+html[data-theme="dark"] :is(.audit-metrics strong,.governance-stats strong,.heritage-intro aside strong,.heritage-source-role strong){color:var(--gold)}
+html[data-theme="dark"] .heritage-intro aside p{color:var(--muted)}
+html[data-theme="dark"] .contribution-form #draft-status[data-state="success"]{color:#a6deb1}
+html[data-theme="dark"] .contribution-form #draft-status[data-state="error"]{color:#f3aa94}
+html[data-theme="dark"] :is(.hero,.time-preview,.bible-feature,.dossier-note,.heritage-final,.governance-method,.stewardship-command){color:#f3efe5}
+html[data-theme="dark"] :is(.hero .light,.hero-image-label,.bible-feature-links>a){color:#f3efe5}
+html[data-theme="dark"] :is(.button.solid,.chip.active,.bible-chapter-list a[aria-current]){color:#f3efe5}
+html[data-theme="dark"] .button.gold{color:#15251e}
+html[data-theme="dark"] .article-body .section-reading-trail{background:rgba(212,182,125,.075)}
+html[data-theme="dark"] :is(.article-body .section-reading-trail p,.article-body .section-reading-trail strong){color:var(--ink)}
+html[data-theme="dark"] .article-visual:has(img[src*="lamassu"])>img{background:#e2d7bb}
+
+/* Form and disclosure surfaces remain readable in both browser colour schemes. */
+html[data-theme="dark"] :is(input,textarea,select){color:var(--ink)}
+html[data-theme="dark"] :is(input:not([type="checkbox"]):not([type="radio"]),textarea,select){background-color:var(--white)}
+html[data-theme="dark"] .search-field input{background:transparent}
+html[data-theme="dark"] :is(.bible-search-controls input,.bible-search-controls select,.heritage-filter select,.bible-verse-jump select){border-color:var(--line)}
+html[data-theme="dark"] :is(.search-field,.atlas-map-label,.atlas-loading){background:var(--white);border-color:var(--line)}
+html[data-theme="dark"] .biblical-passages{border-color:var(--line)}
+
+/* The expansion dashboard uses its own dark backdrop with light cards in day mode. */
+html[data-theme="dark"] .expansion-stat{background:#23372e;border-color:#435b4b}
+html[data-theme="dark"] :is(.expansion-stat-label,.expansion-stat>p){color:#c3cdbf}
+html[data-theme="dark"] .expansion-stat>strong{color:#f3ead8}
+html[data-theme="dark"] .expansion-stat-featured{background:linear-gradient(140deg,#213c32,#102820);border-color:#87734f}
+html[data-theme="dark"] .expansion-stat-featured .expansion-stat-label{color:#dfcda5}
+html[data-theme="dark"] .expansion-table-wrap thead th{background:#283e33}
+html[data-theme="dark"] .expansion-category-track{background:#35473a}
+
+/* Geography remains distinct from UI chrome: darker water and land with clear labels. */
+html[data-theme="dark"] .atlas{background:var(--white);border-color:var(--line);box-shadow:0 18px 48px rgba(0,0,0,.22)}
+html[data-theme="dark"] .atlas-canvas{background:#28414a}
+html[data-theme="dark"] .map-sea{fill:#28414a}
+html[data-theme="dark"] .map-land{fill:#506252;stroke:#81917a}
+html[data-theme="dark"] .map-border{stroke:#bdc9ad}
+html[data-theme="dark"] #map-modern-labels text{fill:#f0dfb7;stroke:#253d38;stroke-opacity:.8}
+html[data-theme="dark"] #map-water-labels text{fill:#c7dddd}
+html[data-theme="dark"] .map-place text{fill:#f6edd2;stroke:#26392f}
+html[data-theme="dark"] .map-place-dot{fill:#ecd49c;stroke:#23372d}
+html[data-theme="dark"] :is(.atlas-map-label,.atlas-map-help){background:rgba(22,38,34,.94);color:var(--ink)}
+html[data-theme="dark"] .atlas-legend{color:var(--muted)}
+html[data-theme="dark"] .atlas-legend .legend-city{background:#ecd49c}
+html[data-theme="dark"] .atlas-zoom{border-color:var(--line)}
+html[data-theme="dark"] .atlas-zoom button{background:var(--white);color:var(--ink)}
+html[data-theme="dark"] .atlas-reconstruction-status strong{color:var(--ink)}
+
+/* Native controls and high-contrast focus treatment. */
+html[data-theme="dark"] :where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline-color:#d4b67d}
+@media(prefers-reduced-motion:reduce){.theme-toggle{transition:none}}

@@ -4,6 +4,30 @@
   const $$ = (s, root=document) => [...root.querySelectorAll(s)];
   const BASE = $('meta[name="site-base-path"]')?.content || '';
   const KEY = 'assyria-reading-v1' + BASE;
+  const THEME_KEY = 'assyria-theme-v1';
+  const themeButton = $('.theme-toggle');
+  const syncTheme = () => {
+    const dark = document.documentElement.dataset.theme === 'dark';
+    if (!themeButton) return;
+    const label = dark ? 'Switch to light theme' : 'Switch to dark theme';
+    themeButton.setAttribute('aria-label', label);
+    themeButton.setAttribute('aria-pressed', String(dark));
+    themeButton.title = label;
+    const browserColour = $('meta[name="theme-color"]');
+    if (browserColour) browserColour.content = dark ? '#101a19' : '#132521';
+  };
+  syncTheme();
+  themeButton?.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.theme !== 'dark';
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    try { localStorage.setItem(THEME_KEY, dark ? 'dark' : 'light'); } catch {}
+    syncTheme();
+  });
+  window.addEventListener('storage', event => {
+    if (event.key !== THEME_KEY) return;
+    document.documentElement.dataset.theme = event.newValue === 'dark' ? 'dark' : 'light';
+    syncTheme();
+  });
   let saved=[];
   try { const value=JSON.parse(localStorage.getItem(KEY)||'[]'); if(Array.isArray(value)) saved=value.filter(x=>typeof x==='string'); } catch {}
   let catalogue;
