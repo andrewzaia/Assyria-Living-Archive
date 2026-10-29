@@ -799,5 +799,59 @@
     "type": "Library collection access guide",
     "access": "Separates finding, researching, copying and publicly reusing oral histories; consult the item-level catalogue record.",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-black-obelisk",
+    "title": "Black Obelisk of Shalmaneser III, BM 118885 (1848,1104.1)",
+    "publisher": "British Museum, object interpretation presented via Google Arts & Culture",
+    "url": "https://artsandculture.google.com/asset/the-black-obelisk-of-shalmaneser-iii/KgEVw2i89-H2Aw?hl=en",
+    "type": "Primary royal monument with museum catalogue interpretation",
+    "access": "Institutional attribution and translated tribute caption; the scene expresses Assyrian royal claims and is not a photographic record of Jehu himself. Images not copied.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "imj-sennacherib-prism",
+    "title": "The Assyrian Campaign in Judah as Told in the Sennacherib Prism",
+    "publisher": "The Israel Museum, Jerusalem",
+    "url": "https://imj.org.il/en/exhibitions/special-display-assyrian-campaign-judah-told-sennacherib-prism",
+    "type": "Primary inscription object with institutional analysis",
+    "access": "Describes the 691 BCE prism and 701 BCE Judah campaign; royal claims must be read separately from 2 Kings 18-19, Isaiah 36-37 and 2 Chronicles 32. Museum article, no images copied.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-taylor-prism",
+    "title": "Taylor Prism / Sennacherib annals, British Museum 91032",
+    "publisher": "British Museum",
+    "url": "https://www.britishmuseum.org/collection/search?keyword=WCT20387",
+    "type": "Primary inscription object catalogue",
+    "access": "Museum collection record for prism 91032 (691 BCE), linked as an external object not a licensed image or verified line-by-line edition.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "rinap-tiglath-corpus",
+    "title": "RINAP 1: Tiglath-pileser III and Shalmaneser V corpus",
+    "publisher": "Oracc / Royal Inscriptions of the Neo-Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap1/corpus",
+    "type": "Scholarly editions of primary royal inscriptions",
+    "access": "Source text editions and editorial commentary; a catalogue landing page is not itself a verified quotation of individual lines.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "rinap-sargon-corpus",
+    "title": "RINAP 2: Sargon II corpus",
+    "publisher": "Oracc / Royal Inscriptions of the Neo-Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap2/corpus/",
+    "type": "Scholarly editions of primary royal inscriptions",
+    "access": "Identified Sargon II inscriptions including Khorsabad annals; campaign entries require edition-specific verification and careful distinction from Isaiah 20.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-lachish-camp",
+    "title": "Lachish camp and royal entourage relief panel, British Museum 124913",
+    "publisher": "British Museum",
+    "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_11",
+    "type": "Primary archaeological object record",
+    "access": "Palace relief panel from Room XXXVI of Sennacherib's Southwest Palace at Nineveh; physical representation and curatorial interpretation, not direct eyewitness testimony.",
+    "checked": "2026-10-29"
   }
 ]
