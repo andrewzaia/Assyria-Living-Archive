@@ -25,6 +25,8 @@ from language_page import DATA as LANG_DATA, validate as validate_languages
 from heritage_page import DATA as HERITAGE_DATA, validate as validate_heritage, TEMPLATES as HERITAGE_TEMPLATES
 from governance_page import DATA as GOVERNANCE_DATA, validate as validate_governance, CHECKLISTS as GOVERNANCE_CHECKLISTS
 from preservation import verify_manifest
+from audit_page import AUDIT as SOURCE_AUDIT
+from scripts.audit_accessibility import run as accessibility_smoke
 
 class Page(HTMLParser):
     def __init__(self):
@@ -290,11 +292,28 @@ def main():
             errors.append('Preservation manifest appears to omit generated public assets')
     except (OSError, ValueError, KeyError) as exc:
         errors.append('Preservation fixity verification failed: ' + str(exc))
+    audit_page = OUT / 'audit/index.html'
+    if not audit_page.is_file():
+        errors.append('Missing generated source/accessibility audit room')
+    else:
+        html = audit_page.read_text(encoding='utf-8')
+        for marker in ('id="sources"', 'id="accessibility"', 'id="method-and-limitations"',
+                       '/source-integrity-index.json', 'not-probed'):
+            if marker not in html:
+                errors.append('Public audit page missing method or limitation: ' + marker)
+    exported_sources = OUT / 'source-integrity-index.json'
+    if not exported_sources.is_file():
+        errors.append('Missing structurally checked source index')
+    elif json.loads(exported_sources.read_text(encoding='utf-8')) != SOURCE_AUDIT:
+        errors.append('Structural source index differs from maintained curated source records')
+    if SOURCE_AUDIT['mode'] != 'offline-metadata-only' or SOURCE_AUDIT['record_count'] < 80:
+        errors.append('Offline source audit must retain explicit unprobed source status')
+    errors.extend(accessibility_smoke(OUT))
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py']
-    authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
         text = path.read_text(encoding='utf-8')
