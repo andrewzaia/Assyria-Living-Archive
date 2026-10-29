@@ -104,7 +104,7 @@ def main():
             if page.nav_details[landmark] != len(NAV_GROUPS):
                 errors.append(f'{path.relative_to(OUT)}: expected {len(NAV_GROUPS)} menu groups in {landmark}')
             current = page.nav_current[landmark]
-            expected_current = [BASE_PATH + page_route] if page_route in NAV_PATHS else []
+            expected_current = [BASE_PATH + page_route] if page_route in NAV_PATHS or (landmark == 'Mobile navigation' and page_route == '/reading-list/') else []
             if current != expected_current:
                 errors.append(f'{path.relative_to(OUT)}: incorrect active destination in {landmark}: {current!r}')
         if BASE_PATH + '/reading-list/' not in page.refs:
