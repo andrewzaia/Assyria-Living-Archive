@@ -27,7 +27,7 @@
       "id": "encyclopaedia",
       "title": "Encyclopaedia expansion and preservation",
       "status": "in-progress",
-      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available.",
+      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts.",
       "next": "Continue article depth with exact inscription-line and tablet comparisons, fuller Middle Assyrian history, provincial life, women and non-elite voices, plus better dated post-imperial regional evidence. Specialist peer review remains outstanding."
     },
     {
@@ -41,8 +41,8 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, reversible source-to-guide links and 157 section reading trails across 55 editorial guides, including 56 newly mapped historical sections.",
-      "next": "Extend coverage and independently check claim-specific evidence; section trails do not verify every sentence."
+      "delivered": "Evidence Register, bidirectional source-to-guide links and 189 section-level reading trails across 63 original guides, including 32 newly mapped language and manuscript sections.",
+      "next": "Extend remaining section coverage and claim-specific review without treating a mapped bibliography as independent historical verification."
     },
     {
       "id": "claims",
@@ -54,16 +54,16 @@
     {
       "id": "language",
       "title": "Assyrian languages and cultural heritage",
-      "status": "planned",
-      "delivered": "Introductory language and heritage entries provide starting context.",
-      "next": "Add specialist-reviewed Akkadian, Syriac and Neo-Aramaic material with licensed audio and transliteration."
+      "status": "in-progress",
+      "delivered": "Added eight original specialist-sourced guides with 32 section reading trails on cuneiform interpretation, Syriac manuscript hands and Unicode, local NENA dialects, Urmi documentation, Surayt and ethical recording. A new navigable language reference room presents 22 Unicode-identified Syriac letters, links to HMML manuscript lessons and Cambridge field recordings for Urmi, Alqosh and Ankawa. No third-party audio or protected manuscript images are copied.",
+      "next": "Invite qualified speakers and palaeographers to review word forms and transcriptions, then add permission-cleared dialect-labelled pronunciation samples and transliteration conventions. Test Syriac font rendering across devices. Do not claim one universal pronunciation or conflate Akkadian with Neo-Aramaic."
     },
     {
       "id": "community",
       "title": "Community testimony and heritage media",
       "status": "planned",
       "delivered": "Local Markdown contribution drafts can be downloaded without transmitting personal data.",
-      "next": "Plan consent, permissions, moderated interviews, village histories and media preservation."
+      "next": "Plan speaker-consented dialect recordings, oral histories and family/village heritage submissions with permission and withdrawal controls before publishing or distributing audio."
     },
     {
       "id": "submission",
@@ -84,7 +84,7 @@
       "title": "Publication and long-term stewardship",
       "status": "planned",
       "delivered": "Static deployment, offline validation and explicit indexing controls are established.",
-      "next": "Complete independent specialist review, real-browser atlas and accessibility testing, licence checks and deliberate indexing approval."
+      "next": "Complete independent specialist linguistic and historical review, script rendering, accessibility and cross-browser testing, rights checks and deliberate indexing approval."
     }
   ]
 }
