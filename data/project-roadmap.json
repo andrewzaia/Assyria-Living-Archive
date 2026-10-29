@@ -76,7 +76,7 @@
       "id": "governance",
       "title": "Editorial governance and revision history",
       "status": "in-progress",
-      "delivered": "Published a public editorial governance and revision room, correction/clarification/withdrawal policy, defined role disclosures, two blank release and correction planning documents, and a validated register of four earlier major milestones with their actual merged commits and pull request links. No independent reviewers have been assigned or claimed, and no confirmed public correction notices have been fabricated. Existing article and local correction-draft flows now link to the policy.",
+      "delivered": "Published a public editorial governance and revision room, correction/clarification/withdrawal policy, defined role disclosures, two blank release and correction planning documents, and a validated register of five merged major milestones (including the governance release) with their actual merged commits and pull request links. No independent reviewers have been assigned or claimed, and no confirmed public correction notices have been fabricated. Existing article and local correction-draft flows now link to the policy.",
       "next": "Appoint qualified subject editors and documented independent reviewers, create secure private correction intake and tracked moderation, and record genuine dated public correction or withdrawal notices and multilingual revisions when required. The curated ledger must follow subsequent substantive merged changes; CI does not imply specialist review."
     },
     {
