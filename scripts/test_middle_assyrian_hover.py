@@ -17,7 +17,8 @@ GENERATOR = (ROOT / "generate.py").read_text(encoding="utf-8")
 
 
 def declarations(styles, selector):
-    for selectors, declaration_text in re.findall(r"([^{}]+)\{([^{}]*)\}", styles):
+    without_comments = re.sub(r"/\\*.*?\\*/", "", styles, flags=re.S)
+    for selectors, declaration_text in re.findall(r"([^{}]+)\\{([^{}]*)\\}", without_comments):
         if selector in [item.strip() for item in selectors.split(",")]:
             return {
                 key.strip(): value.strip()
