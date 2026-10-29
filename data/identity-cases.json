@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-10-30",
+  "method": "Source-bound editorial name comparisons. Similar spellings do not prove the same person or same historical event. All eight cases are pending independent specialist review.",
+  "cases": [
+    {
+      "id": "ashur-asshur",
+      "title": "Aššur and Asshur in Genesis",
+      "type": "place",
+      "decision": "different-witnesses",
+      "forms": [
+        "Aššur",
+        "Assur",
+        "Ashur",
+        "Asshur"
+      ],
+      "terms": [
+        "ashur-city",
+        "biblical-asshur"
+      ],
+      "question": "Do similar names prove that a dated Assyrian archive and a Genesis passage record the same referent?",
+      "finding": "Middle Assyrian tablet catalogues locate documents at Aššur, while Genesis 10 contains biblical Asshur language. These witnesses have different genres, contexts and dates; the archive does not equate a named ancestor with a tablet findspot.",
+      "limit": "The similarity of these Romanised spellings alone is not an historical identity argument.",
+      "next": "Compare original Hebrew and Akkadian forms, textual transmission and securely dated geographical studies.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "ashur-city",
+          "kind": "object",
+          "slug": "tablet-kaj-247-workers-temple",
+          "note": "The catalogue supplies an Aššur archival context, not an identified biblical individual."
+        },
+        {
+          "term": "biblical-asshur",
+          "kind": "scripture",
+          "ref": [
+            "GEN",
+            10,
+            8,
+            12
+          ],
+          "note": "Genesis is primary for what this biblical text says, not for an excavation provenance."
+        }
+      ]
+    },
+    {
+      "id": "nineveh-witnesses",
+      "title": "Nineveh in chronicle and prophecy",
+      "type": "place",
+      "decision": "different-witnesses",
+      "forms": [
+        "Nineveh"
+      ],
+      "terms": [
+        "nineveh"
+      ],
+      "question": "Are a surviving Babylonian chronicle and biblical prophetic accounts interchangeable records?",
+      "finding": "The Babylonian Chronicle case and the prophecies in Nahum and Zephaniah name Nineveh. Their genres, composition histories and physical witnesses differ; the later copy date of the Chronicle is not the date of the event it recounts.",
+      "limit": "Shared naming alone does not establish identical details, motives or textual chronology.",
+      "next": "Independently review published chronicle lines, copy chronology and the literary contexts of both prophets.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "nineveh",
+          "kind": "object",
+          "slug": "bm-21901-nineveh-chronicle-case",
+          "note": "This object is a later copy of an ancient chronicle about Nineveh."
+        },
+        {
+          "term": "nineveh",
+          "kind": "scripture",
+          "ref": [
+            "NAH",
+            1,
+            1,
+            1
+          ],
+          "note": "Nahum explicitly introduces its prophetic subject as Nineveh."
+        },
+        {
+          "term": "nineveh",
+          "kind": "scripture",
+          "ref": [
+            "ZEP",
+            2,
+            13,
+            15
+          ],
+          "note": "Zephaniah supplies another distinct prophetic reference to the city."
+        }
+      ]
+    },
+    {
+      "id": "shibaniba-tell-billa",
+      "title": "Šibaniba and Tell Billa",
+      "type": "place",
+      "decision": "catalogue-alias",
+      "forms": [
+        "Šibaniba",
+        "Shibaniba",
+        "Tell Billa"
+      ],
+      "terms": [
+        "shibaniba"
+      ],
+      "question": "What evidence currently supports using both names for this provincial archive context?",
+      "finding": "The cited Billa 30 tablet is attributed to an archive described using Šibaniba and Tell Billa. This is a documented catalogue association and not a comprehensive new archaeological identification.",
+      "limit": "A single catalogue association cannot establish precise ancient borders, full site chronology or every variant spelling.",
+      "next": "Review excavation reports, findspot records, dating and historical-geographical treatments.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "shibaniba",
+          "kind": "object",
+          "slug": "tablet-billa-30-barley",
+          "note": "The tablet case provides the existing attributed provincial archive context."
+        }
+      ]
+    },
+    {
+      "id": "niri-saldi-reading",
+      "title": "Niri-šaldi in a damaged line",
+      "type": "person",
+      "decision": "single-edition",
+      "forms": [
+        "Niri-šaldi",
+        "Niri-shaldi"
+      ],
+      "terms": [
+        "niri-saldi"
+      ],
+      "question": "Can a partly damaged personal name be matched to a second person or document?",
+      "finding": "The credited editor records the name in a particular obverse line of a Middle Assyrian footwear account. The archive preserves this edition-scoped reading without constructing an unsupported biography.",
+      "limit": "Damage and a single local attestation do not justify a broader person identification.",
+      "next": "Obtain qualified collation of the damaged signs and examine independently edited parallel attestations.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "niri-saldi",
+          "kind": "object",
+          "slug": "tablet-marv-10-07-footwear",
+          "note": "The named recipient occurs in the editor's cited damaged tablet line."
+        }
+      ]
+    },
+    {
+      "id": "sargon-isaiah",
+      "title": "Sargon in Isaiah 20",
+      "type": "person",
+      "decision": "scripture-only-index",
+      "forms": [
+        "Sargon",
+        "Sargon II"
+      ],
+      "terms": [
+        "sargon-ii"
+      ],
+      "question": "What supports this ruler's identification in the existing local concordance?",
+      "finding": "Isaiah 20 directly names Sargon in its narrative. The concordance entry does not yet attach a specific independently edited royal-inscription line or identified physical artefact.",
+      "limit": "A missing object-level link in this index says nothing about the wider existence of historical Sargon inscriptions.",
+      "next": "Add an independently identified royal inscription, edition citation, line number and specialist translation assessment.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "sargon-ii",
+          "kind": "scripture",
+          "ref": [
+            "ISA",
+            20,
+            1,
+            6
+          ],
+          "note": "Isaiah is the cited biblical witness, distinct from an Assyrian inscription."
+        }
+      ]
+    },
+    {
+      "id": "hezekiah-kings",
+      "title": "Hezekiah in Second Kings",
+      "type": "person",
+      "decision": "scripture-only-index",
+      "forms": [
+        "Hezekiah"
+      ],
+      "terms": [
+        "hezekiah"
+      ],
+      "question": "Does the biblical account by itself establish a line-by-line match to an Assyrian royal inscription?",
+      "finding": "Second Kings 18 supplies the named ruler and a biblical account of conflict. No separately identified Assyrian object and edition line is attached to this specific concordance entry.",
+      "limit": "Different documents require textual and chronological comparison, not an assumed word-for-word match.",
+      "next": "Add identified royal edition lines with stated dating, translation uncertainty and independent historical review.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "hezekiah",
+          "kind": "scripture",
+          "ref": [
+            "2KI",
+            18,
+            13,
+            17
+          ],
+          "note": "The referenced verses are the present biblical source for this entry."
+        }
+      ]
+    },
+    {
+      "id": "jehu-kings",
+      "title": "Jehu in Second Kings",
+      "type": "person",
+      "decision": "scripture-only-index",
+      "forms": [
+        "Jehu"
+      ],
+      "terms": [
+        "jehu"
+      ],
+      "question": "Can name similarity alone identify the biblical Jehu with an object from another source?",
+      "finding": "Second Kings 9 provides the indexed narrative for Jehu of Israel. The term currently lacks an independently specified archaeological line or object association in this concordance.",
+      "limit": "The missing link is a limitation of this local index, not a claim that no relevant external material exists.",
+      "next": "Examine authenticated object editions and historical chronology before publishing a direct identification.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "jehu",
+          "kind": "scripture",
+          "ref": [
+            "2KI",
+            9,
+            1,
+            13
+          ],
+          "note": "This is the cited biblical passage, without a separate local object claim."
+        }
+      ]
+    },
+    {
+      "id": "samaria-in-kings",
+      "title": "Samaria and multiple biblical reports",
+      "type": "place",
+      "decision": "scripture-only-index",
+      "forms": [
+        "Samaria"
+      ],
+      "terms": [
+        "samaria"
+      ],
+      "question": "Which distinct events and passages currently support the use of Samaria as a historical place name?",
+      "finding": "Second Kings 17 contains separate references to Samaria, the siege narrative and later resettlement. The current concordance has no specified Assyrian tablet or object line for this place entry.",
+      "limit": "Separate episodes must not be compressed into one event or used to infer unmeasured city extent and population.",
+      "next": "Compare dated Assyrian inscriptions and verified site evidence against the precise biblical passages.",
+      "review_status": "pending-independent-review",
+      "evidence": [
+        {
+          "term": "samaria",
+          "kind": "scripture",
+          "ref": [
+            "2KI",
+            17,
+            3,
+            6
+          ],
+          "note": "This narrative concerns Samaria and its political crisis."
+        },
+        {
+          "term": "samaria",
+          "kind": "scripture",
+          "ref": [
+            "2KI",
+            17,
+            24,
+            24
+          ],
+          "note": "This separate passage describes resettlement as recorded in Kings."
+        }
+      ]
+    }
+  ]
+}
