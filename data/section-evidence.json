@@ -1727,7 +1727,8 @@
     "The name Jehu and the House of Omri": {
       "sources": [
         "bm-black-obelisk",
-        "aebp-israel"
+        "aebp-israel",
+        "oracc-riao-jehu-caption"
       ]
     },
     "Begin with the biblical accession": {
@@ -1816,7 +1817,8 @@
     "What the Assyrian annals claim": {
       "sources": [
         "imj-sennacherib-prism",
-        "bm-taylor-prism"
+        "bm-taylor-prism",
+        "oracc-rinap3-sennacherib22"
       ]
     },
     "Campaign, composition and outcome": {
@@ -1837,7 +1839,8 @@
     "Check the right evidence": {
       "sources": [
         "oracc-rinap",
-        "bm-taylor-prism"
+        "bm-taylor-prism",
+        "oracc-rinap3-sennacherib22"
       ]
     }
   },
@@ -1937,7 +1940,8 @@
       "sources": [
         "rinap-sargon-corpus",
         "aebp-sargon",
-        "oracc-rinap"
+        "oracc-rinap",
+        "oracc-rinap2-ashdod"
       ]
     }
   },

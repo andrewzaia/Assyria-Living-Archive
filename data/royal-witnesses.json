@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-10-30",
+  "method": "Curated inscription and biblical passage comparisons. Scripture is primary for the propositions made in its own narrative, and separately identified royal editions or museum objects are direct historical evidence for their own assertions and surviving material. Similar names and shared events do not validate every detail. All editorial interpretations are pending independent specialist review.",
+  "cases": [
+    {
+      "id": "jehu-and-black-obelisk",
+      "title": "Jehu and the Black Obelisk tribute caption",
+      "ruler": "Shalmaneser III",
+      "kind": "royal-inscription",
+      "source_id": "oracc-riao-jehu-caption",
+      "edition_id": "RIAo Shalmaneser III 088 / Q004693",
+      "object_id": "British Museum 118885; Black Obelisk",
+      "lines": "Caption, obverse line 1",
+      "event_date": "Tribute episode traditionally dated around 841 BCE; monument erected around 825 BCE.",
+      "article": "black-obelisk-jehu",
+      "biblical": [
+        [
+          "2KI",
+          9,
+          1,
+          13
+        ],
+        [
+          "2KI",
+          10,
+          30,
+          36
+        ]
+      ],
+      "royal": "The edited tribute caption names Iāūa (Jehu) of the House of Omri and lists valuable goods received by Shalmaneser. A dynastic or territorial label need not assert Jehu was Omri's biological son.",
+      "scripture": "Second Kings describes Jehu's accession and subsequent reign. These cited passages do not narrate his tribute to Shalmaneser III.",
+      "shared": "Both sources identify a ruler understood as Jehu of Israel, while recording different aspects of his kingship.",
+      "difference": "The tribute episode belongs to Assyrian royal self-presentation and is not described in these passages of Kings. A biblical omission is not an automatic contradiction.",
+      "uncertainty": "The caption identifies a tribute payer; the relief's crouching figure is a constructed royal image, not independently authenticated life portraiture.",
+      "status": "qualified-parallel"
+    },
+    {
+      "id": "sargon-and-ashdod",
+      "title": "Sargon II and the Ashdod episode in Isaiah",
+      "ruler": "Sargon II",
+      "kind": "royal-inscription",
+      "source_id": "oracc-rinap2-ashdod",
+      "edition_id": "RINAP 2, Sargon II / Q006488",
+      "object_id": "Published Khorsabad royal inscription edition Q006488",
+      "lines": "Edited lines 90-109",
+      "event_date": "Ashdod campaign around 711 BCE, recorded in Sargon II's later royal account.",
+      "article": "sargon-ashdod-isaiah",
+      "biblical": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
+      ],
+      "royal": "The royal account describes Azūri, the replacement of Ashdod's ruler, the rise of Iāmānī and an expedition to Ashdod; the king presents the campaign in a first-person voice.",
+      "scripture": "Isaiah 20:1 names Sargon II and describes his commander (Tartan) coming to Ashdod. The chapter then presents an enacted prophetic sign concerning Egypt and Cush.",
+      "shared": "The city of Ashdod and Sargon II's imperial setting appear in separate Assyrian and biblical witnesses.",
+      "difference": "Isaiah explicitly names the Tartan as the officer sent; the Assyrian king narrates his victory in the conventional royal first person. These statements do not by themselves establish the precise chain of command.",
+      "uncertainty": "The royal edition does not directly verify Isaiah's prophetic sign, all motives or the chronology of each narrated action.",
+      "status": "qualified-parallel"
+    },
+    {
+      "id": "judah-fortified-towns",
+      "title": "Sennacherib and the towns of Judah",
+      "ruler": "Sennacherib",
+      "kind": "royal-inscription",
+      "source_id": "oracc-rinap3-sennacherib22",
+      "edition_id": "RINAP 3, Sennacherib 022 / Q003496",
+      "object_id": "Composite prism edition including British Museum 91032 among exemplars",
+      "lines": "Column iii, lines 18-27",
+      "event_date": "The Judah campaign is conventionally dated 701 BCE; extant annals copies were composed later.",
+      "article": "sennacherib-prism-hezekiah",
+      "biblical": [
+        [
+          "2KI",
+          18,
+          13,
+          13
+        ],
+        [
+          "2CH",
+          32,
+          1,
+          1
+        ]
+      ],
+      "royal": "Sennacherib reports capturing forty-six fortified Judahite cities and nearby settlements, with extensive booty and deportations.",
+      "scripture": "Second Kings 18:13 reports the attack on fortified cities of Judah. Second Chronicles 32:1 refers to Sennacherib invading Judah and threatening fortified towns.",
+      "shared": "The military campaign against fortified Judahite cities appears in both source traditions.",
+      "difference": "The Assyrian numerical claims and royal descriptions of victory are not biblical census figures, and the biblical verses do not independently verify the listed totals.",
+      "uncertainty": "The royal inscriptions are partisan and composite; casualty, deportation and settlement numbers require separate evaluation.",
+      "status": "qualified-parallel"
+    },
+    {
+      "id": "jerusalem-confinement",
+      "title": "Jerusalem: threat, confinement and deliverance",
+      "ruler": "Sennacherib",
+      "kind": "royal-inscription",
+      "source_id": "oracc-rinap3-sennacherib22",
+      "edition_id": "RINAP 3, Sennacherib 022 / Q003496",
+      "object_id": "Composite prism edition including British Museum 91032 among exemplars",
+      "lines": "Column iii, lines 27-37",
+      "event_date": "Description of the 701 BCE Judah campaign in a later royal record.",
+      "article": "sennacherib-prism-hezekiah",
+      "biblical": [
+        [
+          "2KI",
+          18,
+          17,
+          37
+        ],
+        [
+          "2KI",
+          19,
+          35,
+          36
+        ]
+      ],
+      "royal": "The Assyrian account claims that Hezekiah was confined in Jerusalem and blockaded; it does not explicitly claim the capture of Jerusalem.",
+      "scripture": "Second Kings recounts Assyrian pressure on Jerusalem, Hezekiah's religious response and a theological account of deliverance and Assyrian withdrawal.",
+      "shared": "Hezekiah and Jerusalem occur in both accounts within the setting of an Assyrian threat.",
+      "difference": "Jerusalem's confinement in an imperial boast is not the same claim as its capture. The royal inscription does not narrate the angelic deliverance reported in Kings.",
+      "uncertainty": "Silence on the biblical deliverance is not independent proof that it did or did not occur. Competing accounts demand historical and literary analysis.",
+      "status": "distinct-claims"
+    },
+    {
+      "id": "hezekiah-tribute-quantities",
+      "title": "Hezekiah's tribute: the silver figures differ",
+      "ruler": "Sennacherib",
+      "kind": "royal-inscription",
+      "source_id": "oracc-rinap3-sennacherib22",
+      "edition_id": "RINAP 3, Sennacherib 022 / Q003496",
+      "object_id": "Composite prism edition including British Museum 91032 among exemplars",
+      "lines": "Column iii, lines 37-49 (quantities at lines 41-42)",
+      "event_date": "The royal account recounts tribute in the context of the 701 BCE campaign.",
+      "article": "sennacherib-prism-hezekiah",
+      "biblical": [
+        [
+          "2KI",
+          18,
+          14,
+          16
+        ]
+      ],
+      "royal": "The published edition records thirty talents of gold and eight hundred talents of silver among the tribute items; Sennacherib also lists dependants and luxury goods.",
+      "scripture": "Second Kings 18:14-16 reports thirty talents of gold and three hundred talents of silver paid by Hezekiah, and describes the stripping of temple and palace treasures.",
+      "shared": "Both witnesses report Hezekiah's tribute and both record thirty talents of gold.",
+      "difference": "The silver amounts differ: eight hundred talents in the Assyrian edition versus three hundred talents in 2 Kings. These must remain explicitly separate, not silently reconciled.",
+      "uncertainty": "Different accounting conventions, rhetorical presentation or transmission have been proposed in scholarship, but none is established by these two passages alone.",
+      "status": "unresolved-discrepancy"
+    },
+    {
+      "id": "lachish-palace-panel",
+      "title": "Lachish: a palace relief is not an inscription line",
+      "ruler": "Sennacherib",
+      "kind": "museum-object",
+      "source_id": "bm-lachish-panel",
+      "edition_id": null,
+      "object_id": "British Museum 124904, gypsum panel, Southwest Palace Room XXXVI",
+      "lines": null,
+      "event_date": "Museum dates the relief panel to about 700-692 BCE; it depicts a campaign assigned to 701 BCE.",
+      "article": "lachish-reliefs-context",
+      "biblical": [
+        [
+          "2KI",
+          18,
+          14,
+          17
+        ],
+        [
+          "2CH",
+          32,
+          9,
+          9
+        ]
+      ],
+      "royal": "British Museum 124904 depicts the opening of the Assyrian attack on Lachish. Its material and visual evidence is distinct from a cuneiform edition line.",
+      "scripture": "Second Kings 18 places the Assyrian king at Lachish in the narrative; Second Chronicles 32:9 also names Lachish as the king's base during the campaign.",
+      "shared": "Lachish features in Assyrian palace visual history and in biblical accounts of the Judah campaign.",
+      "difference": "A relief is a royal visual programme, not a line-by-line independent transcript of the biblical narrative. The named panel must not be described as a cuneiform text.",
+      "uncertainty": "The depicted sequence, selection of scenes and experiences of prisoners cannot be read as a neutral eyewitness report.",
+      "status": "different-medium"
+    }
+  ]
+}

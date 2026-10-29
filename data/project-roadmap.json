@@ -66,6 +66,13 @@
       "next": "Commission Assyriological and biblical specialist review of original-language names, surviving editions, physical objects, chronology and location evidence. Require exact new accession or inscription line references and recorded reviewer assessment before asserting same-person or same-place identifications."
     },
     {
+      "id": "royal-inscriptions-scripture",
+      "title": "Royal inscriptions and biblical cross-verification",
+      "status": "in-progress",
+      "delivered": "Introduced a source-scoped research room with six side-by-side comparisons covering Shalmaneser III and Jehu, Sargon II and Ashdod, Sennacherib's Judah campaign, Jerusalem, tribute quantities and the distinct Lachish palace relief. Five cases identify exact ORACC royal edition coordinates (Q004693, Q006488 and Q003496); the sixth retains British Museum object 124904 as visual evidence, not invented cuneiform text. Three new primary edition source records and ten validated biblical reading routes are documented. Explicitly retains the 800 versus 300 silver talent disagreement and independently reviewed status remains pending. Includes offline JSON, reciprocal encyclopaedia links, Research navigation, CI negative tests and generated-link checks. Four directly anchored claim review records and four new source mappings in existing historical guides link each named royal edition to exact article-level arguments, bringing the total pending claim review register to 66.",
+      "next": "Seek qualified Assyriological and biblical review of original cuneiform readings, exact witness collation and textual history. Expand to Tiglath-pileser III, Shalmaneser V, Esarhaddon and Nineveh's fall only with independently identified edition and chronological contexts. Do not force historical harmonisation or claim certainty from an uncited correspondence."
+    },
+    {
       "id": "atlas",
       "title": "Interactive historical atlas",
       "status": "in-progress",
@@ -83,8 +90,8 @@
       "id": "claims",
       "title": "Historical claim verification",
       "status": "in-progress",
-      "delivered": "The claim-level review register now contains 62 text-anchored records, including forty-seven newer biblical, inscriptional and edition-method records, with nine additional transliteration and uncertainty checks linked to named texts. Passage coordinates, direct-vs-context source roles and review limitations are validated; no independent specialist reviews have been claimed.",
-      "next": "Arrange qualified named independent Assyriological, biblical and linguistic reviewers for 62 queued claims. Source links and notation parsing prove neither the correctness of restored signs nor the quality of an English translation."
+      "delivered": "The claim-level review register now contains 66 text-anchored records, including fifty-one newer biblical, inscriptional and edition-method records, with nine additional transliteration and uncertainty checks linked to named texts. Passage coordinates, direct-vs-context source roles and review limitations are validated; no independent specialist reviews have been claimed.",
+      "next": "Prioritise independent review of the direct royal inscription comparisons and existing 62 claim reviews; checks of ORACC IDs, edition coordinates and local Bible passages establish traceability, not historical agreement."
     },
     {
       "id": "language",
