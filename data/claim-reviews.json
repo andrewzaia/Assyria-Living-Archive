@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "curated_on": "2026-10-29",
-  "method": "These text-anchored claims identify specific wording and evidence roles for individual historical and biblical propositions. Scripture is the primary record of what biblical passages state; accessioned objects, royal inscriptions and museum interpretation are independently attributed. The initial records, including the new object-level comparison claims, await external specialist review. A linked institution or a successful technical build is not a completed fact-check.",
+  "method": "This register anchors individual biblical and historical-source claims in published prose and maps the roles of direct and comparison evidence. Middle Assyrian normative texts and administrative data are studied as their own genres. Biblical references to earlier Asshur or later Assyrian kings remain the primary text for what Scripture reports, but are not asserted to be contemporaneous Middle Assyrian archival evidence. All records await qualified independent specialist review.",
   "claims": [
     {
       "id": "CL-001",
@@ -633,6 +633,321 @@
         "bm-chronicle"
       ],
       "limitation": "The prophetic oracle and Babylonian chronicle are different genres, and corroborating the date is not proof of every poetic image.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-028",
+      "article": "middle-assyrian-overview",
+      "section": "An archive in thousands of pieces",
+      "anchor": "more than 3,000 cuneiform pieces",
+      "claim": "The ATMAP/TCMA source catalogue describes a Middle Assyrian corpus of over 3,000 cuneiform pieces.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-corpus"
+      ],
+      "context_sources": [
+        "tcma-bibliography"
+      ],
+      "limitation": "The aggregate catalogue describes surviving textual records, not all original records or a population census.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-029",
+      "article": "middle-assyrian-overview",
+      "section": "Scripture and period boundaries",
+      "anchor": "Genesis 10:8-12 and 10:22 provide biblical accounts of Asshur and named cities",
+      "claim": "Genesis 10:8-12 and 10:22 provide biblical references to Asshur and early Assyrian geography.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "GEN",
+          10,
+          8,
+          12
+        ],
+        [
+          "GEN",
+          10,
+          22,
+          22
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The passages are not dated Middle Assyrian administrative tablets and cannot identify an excavated thirteenth-century archive.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-030",
+      "article": "middle-assyrian-provincial-administration",
+      "section": "A particular excavated city",
+      "anchor": "Dūr-Katlimmu, identified with Tell Sheikh Hamad on the lower Habur",
+      "claim": "Tell Sheikh Hamad is identified with the ancient city Dūr-Katlimmu on the lower Habur.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "fu-dur-katlimmu"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The site also includes later occupation; this identification does not make every tablet Middle Assyrian.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-031",
+      "article": "middle-assyrian-provincial-administration",
+      "section": "The administrative centre",
+      "anchor": "666 registered fragmentary cuneiform tablets in a sealed deposit",
+      "claim": "The Harvard-supported excavation study describes 666 registered tablet fragments in a specific Dūr-Katlimmu archival deposit.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "harvard-dur-katlimmu-seals"
+      ],
+      "context_sources": [
+        "fu-dur-katlimmu"
+      ],
+      "limitation": "Fragments are an excavation inventory, not an estimate of individuals, deliveries or a complete ancient archive.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-032",
+      "article": "middle-assyrian-women-and-law",
+      "section": "What the laws are",
+      "anchor": "The Middle Assyrian Laws survive in a set of cuneiform tablets",
+      "claim": "The Middle Assyrian Laws survive as a corpus of cuneiform tablets rather than a complete modern legal code.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-law"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "Prescriptive texts cannot establish actual enforcement frequency without practice records.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-033",
+      "article": "middle-assyrian-women-and-law",
+      "section": "Veiling as a marker of status",
+      "anchor": "Frederick Mario Fales's study examines Middle Assyrian requirements and prohibitions associated with the veil",
+      "claim": "Fales distinguishes Middle Assyrian veil/status prescriptions from a more varied documentary practice.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "fales-veil-assyrian"
+      ],
+      "context_sources": [
+        "tcma-law"
+      ],
+      "limitation": "The modern argument concerns available texts, not an exhaustive census of women's experience or direct evidence for later communities.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-034",
+      "article": "middle-assyrian-women-and-law",
+      "section": "Biblical legal comparison without conflation",
+      "anchor": "Deuteronomy 24:1-4 and other biblical legal texts belong to their own textual tradition",
+      "claim": "Deuteronomy 24:1-4 belongs to the Bible's legal tradition and is not an Assyrian legal statute.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "DEU",
+          24,
+          1,
+          4
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "tcma-law"
+      ],
+      "limitation": "Different textual traditions and contexts may share subject matter without borrowing or uniform interpretation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-035",
+      "article": "middle-assyrian-households-inheritance",
+      "section": "Property documents and deposits",
+      "anchor": "ATMAP's catalogues distinguish types such as receipts, allocations, lists and sale transactions",
+      "claim": "ATMAP distinguishes different ancient document types at separately identified findspots.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-taban"
+      ],
+      "context_sources": [
+        "tcma-assur"
+      ],
+      "limitation": "Catalogue descriptors are entry points to specific tablets, not proof of the terms of every transaction.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-036",
+      "article": "middle-assyrian-farming-water",
+      "section": "Water made geography political",
+      "anchor": "Specialists such as Hervé Reculeau have compared ancient administrative correspondence with royal representations of water projects",
+      "claim": "Scholarship on Middle Assyrian water management compares administrative texts with royal irrigation claims.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "reculeau-water-habur"
+      ],
+      "context_sources": [
+        "water-assyria-jstor"
+      ],
+      "limitation": "A regional study does not give verified yields or canal measurements for every Middle Assyrian settlement.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-037",
+      "article": "middle-assyrian-labour-rations",
+      "section": "Who appears in ration lists",
+      "anchor": "The Middle Assyrian corpus provides a route to such documents",
+      "claim": "The Middle Assyrian editorial corpus and its bibliography document the study of personnel and ration allocations.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-bibliography"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "An allocated ration is not proof of delivery, adequate food, a worker's status or a representative working day.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-038",
+      "article": "middle-assyrian-scribes-seals",
+      "section": "The meaning of a seal impression",
+      "anchor": "The Harvard-supported Dūr-Katlimmu research identifies numerous seal images and thousands of clay safety devices",
+      "claim": "Archaeological study identifies seal images and clay sealings in the Dūr-Katlimmu archival complex.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "harvard-dur-katlimmu-seals"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "An image or sealing does not independently identify every human transaction or certify that goods arrived.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-039",
+      "article": "middle-assyrian-religion-ritual",
+      "section": "Rituals in the preserved corpus",
+      "anchor": "ATMAP's Laws and Scholarly Tablets catalogue includes rituals, incantations, learned works and other texts",
+      "claim": "The specialist Middle Assyrian corpus includes texts classified as rituals, incantations and scholarly writing.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-law"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "Text classification does not establish how frequently a rite occurred in the population.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-040",
+      "article": "middle-assyrian-religion-ritual",
+      "section": "Scripture on Assyrian worship in its own setting",
+      "anchor": "2 Kings 19:37 mentions a temple in connection with the death of Sennacherib",
+      "claim": "2 Kings 19:37 reports a temple in connection with Sennacherib's death.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          19,
+          35,
+          37
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "tcma-law"
+      ],
+      "limitation": "The passage concerns a Neo-Assyrian king and is not direct evidence for Middle Assyrian ritual practices.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-041",
+      "article": "middle-assyrian-routes-and-exchange",
+      "section": "Letters, receipts and allocation",
+      "anchor": "ATMAP's Tell Taban catalogue presents examples of these distinct document genres",
+      "claim": "The Tell Taban editorial catalogue includes separately classified letters, receipts and allocations.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-taban"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "A catalogue genre does not by itself establish whether a particular shipment arrived.",
       "review": {
         "status": "awaiting-independent-review",
         "reviewer": null,
