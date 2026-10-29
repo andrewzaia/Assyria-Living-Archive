@@ -670,3 +670,25 @@ for _article in ARTICLES:
     for _slug in _EVIDENCE_READING_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Middle Assyrian social and material history: original source-mapped articles.
+# The period-specific corpus is maintained separately from the foundational guides.
+from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
+validate_middle_assyrian()
+ARTICLES.extend(MIDDLE_ASSYRIAN_ARTICLES)
+
+_MIDDLE_ASSYRIAN_ROUTES = {
+    'ancient-assyria': ['middle-assyrian-overview', 'middle-assyrian-provincial-administration'],
+    'ashur': ['middle-assyrian-religion-ritual', 'middle-assyrian-households-inheritance'],
+    'old-assyrian-trade': ['middle-assyrian-routes-and-exchange'],
+    'akkadian-and-cuneiform': ['middle-assyrian-scribes-seals'],
+    'assyrian-governance': ['middle-assyrian-provincial-administration', 'middle-assyrian-labour-rations'],
+    'assyrian-religious-life': ['middle-assyrian-religion-ritual'],
+    'research-guide': ['middle-assyrian-scribes-seals'],
+    'historical-evidence-methods': ['middle-assyrian-overview', 'middle-assyrian-women-and-law'],
+    'assyrian-deportations-texts': ['middle-assyrian-labour-rations'],
+}
+for _article in ARTICLES:
+    for _slug in _MIDDLE_ASSYRIAN_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
