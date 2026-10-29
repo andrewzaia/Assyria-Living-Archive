@@ -29,6 +29,7 @@ from audit_page import AUDIT as SOURCE_AUDIT
 from scripts.audit_accessibility import run as accessibility_smoke
 from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
 from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
+from case_files import DATA as CASE_FILES, validate as validate_case_files
 
 class Page(HTMLParser):
     def __init__(self):
@@ -351,10 +352,44 @@ def main():
     middle_claims = [item for item in claim_report['claims'] if item['article'] in middle_slugs]
     if len(middle_claims) < 14 or any(item['review']['status'] != 'awaiting-independent-review' for item in middle_claims):
         errors.append('Middle Assyrian anchored claims require documented specialist review queue')
+    # Accession-level object studies require independently identifiable edition metadata.
+    validate_case_files(sources)
+    case_hub = OUT / 'case-files/index.html'
+    if not case_hub.is_file():
+        errors.append('Missing individual archaeological case file hub')
+    else:
+        case_html = case_hub.read_text(encoding='utf-8')
+        if case_html.count('class="case-file-card"') != len(CASE_FILES):
+            errors.append('Object case file hub has missing or duplicated entries')
+        if 'The Babylonian Chronicle is a' not in case_html or 'independent philological' not in case_html:
+            errors.append('Case file hub must disclose source period and review limits')
+        for case in CASE_FILES:
+            slug = case['slug']
+            if '/articles/' + slug + '/' not in case_html:
+                errors.append('Case file not linked in hub: ' + slug)
+            html_file = OUT / 'articles' / slug / 'index.html'
+            if not html_file.is_file():
+                errors.append('Missing generated object file: ' + slug)
+                continue
+            body = html_file.read_text(encoding='utf-8')
+            if 'id="object-panel-heading"' not in body:
+                errors.append('Missing object identification panel in ' + slug)
+            for marker in (case['catalogue'], case['edition'], case['findspot'], case['line_focus']):
+                if html_escape(marker, quote=True) not in body and html_escape(marker) not in body:
+                    errors.append('Object provenance metadata absent from article ' + slug)
+            if len(SECTION_DATA.get(slug, {})) != len(case['sections']):
+                errors.append('Missing mapped object evidence sections: ' + slug)
+    exported_cases = OUT / 'object-case-files.json'
+    if not exported_cases.is_file() or json.loads(exported_cases.read_text(encoding='utf-8')) != CASE_FILES:
+        errors.append('Generated object case file catalogue does not match curated data')
+    case_slugs = {item['slug'] for item in CASE_FILES}
+    case_claims = [item for item in claim_report['claims'] if item['article'] in case_slugs]
+    if len(case_claims) < 12 or any(item['review']['status'] != 'awaiting-independent-review' for item in case_claims):
+        errors.append('Object-level statements need an explicitly pending independent-review queue')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
