@@ -31,7 +31,7 @@ def render(heading):
         '<ol class="case-files-grid">' + ''.join(items) + '</ol></section>' +
         '<section class="case-files-method" aria-labelledby="case-files-method-heading"><span class="eyebrow">CHECK THE RECORD</span>' +
         '<h2 id="case-files-method-heading">The identifiers travel with every claim.</h2>' +
-        '<p>Begin with the catalogue or CDLI ID, the physical object's provenance and date, and the line range of the edited text. ' +
+        '<p>Begin with the catalogue or CDLI ID, the physical provenance and date, and the line range of the edited text. ' +
         'Check damage, uncertain signs, archaeological context, translation choices and the difference between an official assertion and an observed outcome. ' +
         'The <a href="/about/evidence/">Evidence Register</a> provides section-level source trails; the ' +
         '<a href="/about/evidence/#claim-register-title">claim review queue</a> documents what still needs qualified independent verification.</p>' +
