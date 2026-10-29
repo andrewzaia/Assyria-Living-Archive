@@ -24,6 +24,10 @@ jobs:
         run: python scripts/test_deployment_order.py
       - name: Test preservation integrity and ZIP recovery
         run: python scripts/test_preservation.py
+      - name: Test source and accessibility audit handling
+        run: |
+          python scripts/test_source_accessibility.py
+          python scripts/audit_sources.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js

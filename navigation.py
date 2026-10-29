@@ -18,6 +18,7 @@ NAV_GROUPS = (
     ('Research', (
         ('Source library', '/sources/', 'Primary records and further reading'),
         ('Evidence register', '/about/evidence/', 'Sources linked to editorial guides'),
+        ('Source and accessibility audit', '/audit/', 'Citation health, accessibility checks and limitations'),
         ('Editorial governance', '/governance/', 'Corrections, review standards and recorded revisions'),
         ('Publication and stewardship', '/stewardship/', 'Preservation checks, recovery and release readiness'),
         ('Expansion dashboard', '/about/expansion/', 'Archive growth and coverage figures'),

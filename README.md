@@ -157,6 +157,16 @@ Editorial workflow: identify credible custodians, verify the record's source rol
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
 
+## Source integrity and accessibility audit
+
+The public `/audit/` hub documents the difference between checking citation metadata, probing the current URL and verifying an historical claim. `scripts/audit_sources.py` validates the **89 curated sources in `sources.json`** offline with no remote requests. The generated `/source-integrity-index.json` intentionally labels every entry `not-probed`. The 372 preserved reference entries and links inside their full snapshots are not yet remotely inspected by this tool.
+
+An independent `.github/workflows/source-audit.yml` workflow can be dispatched manually and is scheduled monthly. It checks external URLs using bounded HEAD/GET requests; follows only safe public redirects; categorises redirects, absent pages, access restrictions, temporary failures and network errors; and provides a GitHub Actions job summary for manual editorial review. It is deliberately outside the blocking PR checks: HTTP 403 or 429, timeouts and bot defenses must not be mislabelled dead sources, and a working URL is not proof of the underlying historical claim. Source consultation dates remain editorial records, not automatic crawler timestamps.
+
+The representative-page static audit in `scripts/audit_accessibility.py` tests document language, skip links, landmarks, heading counts, labelled controls, named buttons, image alternatives and navigation/search semantics. The shared navigation JavaScript now closes and manages the **whole set** of disclosure menus, rather than treating the first menu as an array. CSS provides consistent keyboard focus and reduced motion, and manual atlas chapter changes announce their context to screen readers. This automated test covers representative HTML, **not a complete WCAG 2.2 audit**. The manual review checklist includes screen readers, keyboard focus, 320 px/mobile reflow, zoom, contrast, touch targets and Syriac text shaping.
+
+See `docs/AUDIT-RUNBOOK.md` for repeatable commands, honest status categories and the required human test matrix. The tracked `allow_indexing: false` is unchanged, and no reviewer sign-off, completed screen-reader testing or live remote-source verification is claimed.
+
 ## Publication and long-term stewardship milestone
 
 The public `/stewardship/` hub documents integrity verification, honest release readiness status and the **not yet completed** work of securing independent backups and qualified accessibility and scholarly review.
