@@ -22,6 +22,8 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 | `sources.json` | Reference metadata and public source URLs |
 | `generate.py` | Static page and catalogue generator |
 | `navigation.py` | Shared site-wide menu groups and destination registry |
+| `data/claim-reviews.json`, `claim_review.py` | Claim-level evidence queue, direct references and review metadata |
+| `data/project-roadmap.json`, `project_roadmap.py` | Single maintained source for the About page's Next Chapters roadmap |
 | `site.config.json` | Site origin, base path and indexing choice |
 | `site_config.py` | Validated settings and URL handling |
 | `static/` | Maintained CSS, JavaScript, images, fonts and licences |
@@ -131,6 +133,15 @@ The register exports the mapped and unmapped section counts, source IDs and book
 **These are selected reading trails, not a claim-by-claim fact check.** A mapped section is not thereby fully substantiated; neither a source link, a recent check date nor a high citation count proves historical accuracy. Original guides have no recorded specialist peer review, and preserved external texts remain credited, not locally endorsed. Next: sentence-level notes on contested claims, direct inscription/tablet identifications and documented expert review.
 
 `scripts/validate.py` verifies the generated evidence index against article metadata, checks every section mapping and ensures the expected trail is present on the generated page. Both root and GitHub Pages subpath builds test local links and Bible verse targets.
+
+
+## Claim-level verification and the Next Chapters roadmap
+
+The Evidence Register now includes an initial **15 individual, text-anchored claim review records** in `data/claim-reviews.json`. Each links to its exact editorial section, direct biblical passages or institutional records, sources included only for comparison, a qualification, and a review status. All initial records are **awaiting independent specialist review**. Neither a source link nor a structural validation establishes the claim's historical truth. Biblical citations support what the biblical narrative states, not automatic archaeological corroboration. The generated evidence index includes this machine-readable review queue.
+
+`claim_review.py` rejects duplicate IDs, missing anchor text, unknown sections or references, Bible coordinates outside the article's cited passage range and unsubstantiated completed-review labels. Reviewer identity, date and a review note are mandatory before a record can be marked independently reviewed. Future inscription-level comparisons must cite exact royal inscription catalogue identifiers, lines or museum accession records rather than just a corpus homepage.
+
+The About page's **Next Chapters** cards are generated from `data/project-roadmap.json`, which also publishes as `/project-roadmap.json`. This single registry tracks completed, in-progress, planned and on-hold work, including milestones previously scattered through commits and project discussions. **Every significant feature, research addition, newly discovered milestone or change in project status must update this file in the same pull request.** Keep delivered work separate from untested or pending tasks. `project_roadmap.py` validates the registry and `scripts/validate.py` verifies that all registered cards appear in the published About page.
 
 ## Contribution email delivery - on hold
 
