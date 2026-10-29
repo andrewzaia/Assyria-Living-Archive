@@ -38,10 +38,13 @@ jobs:
         run: python scripts/test_identity_register.py
       - name: Test primary royal editions and biblical comparison scopes
         run: python scripts/test_royal_witnesses.py
+      - name: Test Fall of Samaria and Assyrian succession source accuracy
+        run: python scripts/test_samaria_succession.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js
           node --check static/map.js
+          node --check static/samaria-succession.js
           node --check static/bible.js
           node --check static/heritage.js
           node --check worker/src/index.mjs
