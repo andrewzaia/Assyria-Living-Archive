@@ -21,6 +21,7 @@ from section_evidence import DATA as SECTION_DATA, validate as validate_section_
 from claim_review import build as build_claim_reviews
 from project_roadmap import DATA as ROADMAP_DATA, validate as validate_roadmap
 from language_page import DATA as LANG_DATA, validate as validate_languages
+from heritage_page import DATA as HERITAGE_DATA, validate as validate_heritage, TEMPLATES as HERITAGE_TEMPLATES
 
 class Page(HTMLParser):
     def __init__(self):
@@ -75,6 +76,7 @@ def main():
     claim_report = build_claim_reviews(EDITORIAL_ARTICLES, sources)
     milestones = validate_roadmap()
     letter_count = validate_languages(EDITORIAL_ARTICLES, sources)
+    heritage_count = validate_heritage(EDITORIAL_ARTICLES, sources)
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):
         errors.append('Duplicate source IDs')
@@ -210,11 +212,36 @@ def main():
         for source_id in LANG_DATA['recording_sources']:
             if not any(source['id'] == source_id and source['url'] in html for source in sources):
                 errors.append('Missing source-backed dialect recording route: ' + source_id)
+    heritage_file = OUT / 'heritage/index.html'
+    if not heritage_file.exists():
+        errors.append('Missing generated community heritage hub')
+    else:
+        html = heritage_file.read_text(encoding='utf-8')
+        if html.count('class="heritage-record"') != heritage_count:
+            errors.append('Heritage hub record count differs from maintained public index')
+        for record in HERITAGE_DATA['records']:
+            if 'data-heritage-category="' + record['category'] + '"' not in html:
+                errors.append('Missing public heritage theme: ' + record['id'])
+            if '/articles/' + record['article_slug'] + '/' not in html:
+                errors.append('Missing heritage article route: ' + record['id'])
+            source = next((item for item in sources if item['id'] == record['source_id']), None)
+            if not source or source['url'] not in html:
+                errors.append('Missing original heritage source link: ' + record['id'])
+        for _, path, _ in HERITAGE_TEMPLATES:
+            if path not in html or not (OUT / path.lstrip('/')).exists():
+                errors.append('Missing downloadable blank heritage worksheet: ' + path)
+        if 'No original audio, transcripts, family photographs or private contact details' not in html:
+            errors.append('Heritage privacy and custody statement missing')
+    exported_heritage = OUT / 'heritage-records.json'
+    if not exported_heritage.exists():
+        errors.append('Missing open heritage reference index')
+    elif json.loads(exported_heritage.read_text(encoding='utf-8')) != HERITAGE_DATA:
+        errors.append('Heritage reference export differs from maintained source')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json']
-    authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json']
+    authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
         text = path.read_text(encoding='utf-8')
