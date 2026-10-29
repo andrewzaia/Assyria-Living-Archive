@@ -35,6 +35,7 @@ jobs:
           node --check static/app.js
           node --check static/map.js
           node --check static/bible.js
+          node --check static/heritage.js
       - name: Build and validate website
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
@@ -42,6 +43,7 @@ jobs:
         run: |
           python generate.py
           python scripts/validate.py
+          python scripts/export_archive.py --output "${RUNNER_TEMP}/assyria-pages-recovery-test.zip"
       - name: Upload website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
