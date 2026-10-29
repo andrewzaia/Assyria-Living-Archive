@@ -118,3 +118,32 @@ html{scroll-padding-top:125px}
 
 /* Visually hidden content remains accessible to assistive technology. */
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+/* Balanced dropdown navigation: shorter categorized menus, no pointer dead zone. */
+.desktop-nav .nav-panel{top:100%;max-height:min(72dvh,620px);overflow-y:auto;overscroll-behavior:contain}
+.nav-column{min-width:0}
+.nav-column-heading{padding:3px 11px 9px;margin:0 0 5px;border-bottom:1px solid var(--line);color:var(--rust);font-size:10px;line-height:1.4;font-weight:700;letter-spacing:1.25px;text-transform:uppercase}
+.desktop-nav .nav-panel--columns{display:grid;align-items:start;gap:8px 14px;padding:16px}
+.desktop-nav .nav-panel--columns .nav-destination{min-height:0;padding:9px 11px}
+.desktop-nav .nav-panel--columns .nav-title{font-size:11.5px;line-height:1.45}
+.desktop-nav .nav-panel--columns .nav-note{font-size:10px;line-height:1.5;margin-top:2px}
+.desktop-nav .nav-panel--research{
+  left:auto;right:-100px;width:min(850px,calc(100vw - 48px));max-width:none;
+  grid-template-columns:repeat(3,minmax(0,1fr))
+}
+.desktop-nav .nav-panel--explore{
+  left:auto;right:-175px;width:min(575px,calc(100vw - 48px));max-width:none;
+  grid-template-columns:repeat(2,minmax(0,1fr))
+}
+@media(min-width:801px) and (max-width:1199px){
+  .desktop-nav .nav-panel--research{right:-90px;width:min(610px,calc(100vw - 48px));grid-template-columns:repeat(2,minmax(0,1fr))}
+  .desktop-nav .nav-panel--research .nav-column:last-child{grid-column:1 / -1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 8px}
+  .desktop-nav .nav-panel--research .nav-column:last-child .nav-column-heading{grid-column:1 / -1}
+  .desktop-nav .nav-panel--explore{right:auto;left:-52px}
+}
+@media(max-width:800px){
+  .mobile-nav .nav-panel--columns{display:block}
+  .mobile-nav .nav-panel--columns .nav-column+.nav-column{margin-top:11px}
+  .mobile-nav .nav-column-heading{margin:10px 8px 4px;padding:6px 8px 8px}
+  .mobile-nav .nav-panel{max-height:none;overflow:visible}
+}
