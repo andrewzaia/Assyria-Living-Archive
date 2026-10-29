@@ -28,7 +28,7 @@ add(
         ('A monument with a precise identity',
          'The Black Obelisk is a carved limestone royal monument of Shalmaneser III discovered at Kalhu, the site now known as Nimrud. The British Museum identifies it with inventory number 1848,1104.1 and describes five registers of tribute bearers. It was made late in the king\'s reign, around 825 BCE, although the tribute episodes depicted cover earlier campaigns. Its physical existence and royal inscription are separate from later interpretations of the king\'s historical achievements.'),
         ('The name Jehu and the House of Omri',
-         'The second register names Jehu in connection with tribute from Israel, using the Assyrian designation House of Omri. The museum interprets the scene as tribute around 841 BCE. The designation need not mean that Jehu was the biological son of Omri: dynastic or territorial labels could persist when a ruler replaced his predecessor. The monument provides an independent Assyrian reference to Jehu and Israel in a specific imperial context, not a transcript of conversations in the Israelite palace.'),
+         'The second register names Jehu in connection with tribute from Israel, using the Assyrian designation House of Omri. The directly edited tribute caption is RIAo Q004693, obverse line 1, and the museum interprets the scene as tribute around 841 BCE. The designation need not mean that Jehu was the biological son of Omri: dynastic or territorial labels could persist when a ruler replaced his predecessor. The monument provides an independent Assyrian reference to Jehu and Israel in a specific imperial context, not a transcript of conversations in the Israelite palace.'),
         ('Begin with the biblical accession',
          '2 Kings 9:1-13 recounts the anointing of Jehu and his proclamation as king, while 2 Kings 9:14-37 and chapter 10 narrate the overthrow of the house of Ahab and Jehu\'s subsequent actions. Those chapters are the Bible\'s primary testimony about his accession and conduct. The Black Obelisk addresses tribute to Assyria instead; it does not repeat the prophetic commission or corroborate every event reported in Kings.'),
         ('Royal spectacle and missing voices',
@@ -36,7 +36,7 @@ add(
         ('A repeatable comparison',
          'For a sound comparison, record the monument accession number, king and approximate display date, the specific tribute register, then read the full cited passages in 2 Kings 9-10. The supportable shared frame is a king called Jehu associated with Israel in the ninth century BCE. Whether Assyrian tribute occurred before or after any particular episode in Kings requires an explicit chronological argument, not an assumed one.')
     ],
-    ['bible-webbe','bm-black-obelisk','oracc-shalmaneser','aebp-israel'],
+    ['bible-webbe','bm-black-obelisk','oracc-shalmaneser','oracc-riao-jehu-caption','aebp-israel'],
     ['shalmaneser-iii','bible-reading-guide','assyrian-governance','sennacherib-prism-hezekiah'],
     [('2KI',9,1,13),('2KI',9,14,37),('2KI',10,1,36)],
     'Biblical passages and royal-monument descriptions are distinct witnesses. The museum interpretation is linked, not copied; no imagery is reproduced.'
@@ -52,13 +52,13 @@ add(
         ('The Bible supplies its own narrative',
          '2 Kings 18:13-16 reports Sennacherib\'s attack on fortified cities of Judah and Hezekiah\'s payment of silver and gold. The following narrative, from 2 Kings 18:17 through chapter 19, presents the Assyrian envoy\'s address, the prayer of Hezekiah, Isaiah\'s response and the account of deliverance. Isaiah 36-37 provides a connected prophetic presentation; 2 Chronicles 32 gives another narrative framing. Read the distinctions among these passages before importing the language of the prisms.'),
         ('What the Assyrian annals claim',
-         'The Assyrian annals boast that Sennacherib overcame rebellious Judah, received tribute and confined Hezekiah in Jerusalem. The Israel Museum points out that the inscription does not explicitly describe a siege of Jerusalem. This observation is narrower than saying Jerusalem was not threatened, and it differs from a claim that the Assyrian text narrates the biblical deliverance. Comparing the sources requires attention to both what they positively report and what they leave unsaid.'),
+         'The Assyrian annals boast that Sennacherib overcame rebellious Judah, received tribute and confined Hezekiah in Jerusalem. RINAP 3 Q003496, column iii lines 18-37, preserves the linked royal campaign and confinement accounts in a composite edition. The Israel Museum points out that the inscription does not explicitly describe a siege of Jerusalem. This observation is narrower than saying Jerusalem was not threatened, and it differs from a claim that the Assyrian text narrates the biblical deliverance. Comparing the sources requires attention to both what they positively report and what they leave unsaid.'),
         ('Campaign, composition and outcome',
          'A palace text composed after the campaign is a royal retrospective, shaped to display authority and success. The biblical record has its own theological and historiographical purposes. An Assyrian record of a Judah campaign and tribute supports the ancient setting of the biblical account, but agreement about those elements does not settle the reported destruction of the Assyrian force, Hezekiah\'s prayers, the chronology of every event or the precise motive for withdrawal.'),
         ('Check the right evidence',
-         'Keep the prism accession number, inscription edition, campaign date and cited chapter together. A future close collation should list exact inscription columns and lines from RINAP 3 beside each biblical passage, with translation choices stated. Until such collation and outside review are documented, this is an evidence-led introduction rather than a certified line-by-line historical verification.')
+         'Keep the prism accession number, inscription edition, campaign date and cited chapter together. RINAP 3 Q003496, column iii lines 41-42, records thirty talents of gold and eight hundred talents of silver, whereas 2 Kings 18:14 records thirty talents of gold and three hundred talents of silver. Both figures must remain separately visible. A future independent collation should check exemplar variants and translation choices. Until such collation and outside review are documented, this is an evidence-led introduction rather than a certified line-by-line historical verification.')
     ],
-    ['bible-webbe','bm-taylor-prism','imj-sennacherib-prism','oracc-rinap','bm-lachish-panel'],
+    ['bible-webbe','bm-taylor-prism','imj-sennacherib-prism','oracc-rinap','oracc-rinap3-sennacherib22','bm-lachish-panel'],
     ['sennacherib','bible-sennacherib-invasion','bible-hezekiah-deliverance','lachish-reliefs-context'],
     [('2KI',18,13,37),('2KI',19,1,37),('ISA',36,1,22),('ISA',37,1,38),('2CH',32,1,23)],
     'The Israel Museum distinguishes the Jerusalem confinement boast from an explicit Assyrian siege description. No object image or unlicensed translation is mirrored.'
@@ -100,9 +100,9 @@ add(
         ('Prophecy and a campaign are different claims',
          'Isaiah uses the Ashdod event to introduce a prophetic warning about reliance on Egypt and Cush. A royal campaign narrative and a prophetic oracle are not the same genre. Evidence for the military action does not directly verify the enacted sign, and the sign\'s interpretation cannot be derived from an Assyrian victory notice alone. The Bible remains the primary account for what Isaiah says.'),
         ('A cautious comparison route',
-         'Start with Isaiah 20:1-6, identify Sargon II in the specialist king profile, then consult the RINAP 2 inscriptions relevant to the Ashdod operation. A closer study should record the precise inscription numbers and preserved lines and address the chronology before making a sentence-level correspondence. This guide supplies the first object and corpus route without claiming that independent peer review is complete.')
+         'Start with Isaiah 20:1-6, identify Sargon II in the specialist king profile, then consult the RINAP 2 inscriptions relevant to the Ashdod operation. The direct Ashdod account is identified in RINAP 2 Q006488, edited lines 90-109, including Ashdod's ruler changes and an expedition narrative. A closer specialist study must still collate the preserved signs and assess chronology before making a sentence-level correspondence. This guide supplies the first object and corpus route without claiming that independent peer review is complete.')
     ],
-    ['bible-webbe','rinap-sargon-corpus','aebp-sargon','bible-official-titles','oracc-rinap'],
+    ['bible-webbe','rinap-sargon-corpus','oracc-rinap2-ashdod','aebp-sargon','bible-official-titles','oracc-rinap'],
     ['bible-sargon','sargon-ii','khorsabad','assyrian-governance'],
     [('ISA',20,1,6)],
     'The chronology of the Ashdod operation uses scholarly Assyrian synthesis; the cited Isaiah verse is primary for the biblical description.'
