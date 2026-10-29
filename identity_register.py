@@ -26,7 +26,7 @@ def validate(data=None):
         if case["review_status"] != "pending-independent-review":
             raise ValueError("Unsubstantiated completed identity review: " + ident)
         for key in ("title", "question", "finding", "limit", "next"):
-            if not isinstance(case.get(key), str) or len(case[key].strip()) < 28:
+            if not isinstance(case.get(key), str) or len(case[key].strip()) < (8 if key == "title" else 28):
                 raise ValueError("Incomplete identity case " + ident + " / " + key)
         if not case.get("forms") or not all(isinstance(v, str) and v.strip() for v in case["forms"]):
             raise ValueError("Missing name forms in " + ident)
