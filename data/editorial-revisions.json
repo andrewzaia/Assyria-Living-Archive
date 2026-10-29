@@ -32,6 +32,35 @@
   ],
   "changes": [
     {
+      "id": "REV-0016",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Balanced global navigation and automatic desktop hover dismissal",
+      "summary": "Reorganised the growing Research menu into three grouped desktop columns, Explore into two, with two-column medium screens and stacked mobile disclosure sections. Fixed selection of only the first native details group in shared JavaScript, implemented mouse pointerenter and pointerleave behaviour that closes when leaving trigger and submenu, removed the interaction gap, and retained keyboard and touch behaviour. New navigation tests check destination coverage, category balance, disclosure semantics and breakpoint safeguards.",
+      "impact": "All thirteen Research destinations, seven Explore destinations and other global links remain exposed on desktop and mobile; the site links were not renamed or removed. Hover-only opening is restricted to fine-pointer desktop devices, while native detail disclosures and accessible focus indicators remain. Real-device screen-reader, Mac Safari and landscape touch testing remain outstanding; automated link and layout-source checks do not replace that review.",
+      "commit": "3806f740a559de78318466e988aff139160ff120",
+      "pr": 31,
+      "sections": [
+        "/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "navigation.py",
+        "static/styles.css",
+        "static/app.js",
+        "scripts/test_navigation.py",
+        ".github/workflows/validate.yml",
+        "data/project-roadmap.json",
+        "README.md"
+      ]
+    },
+    {
       "id": "REV-0015",
       "date": "2026-10-30",
       "kind": "feature-release",
