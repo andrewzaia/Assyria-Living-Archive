@@ -32,6 +32,37 @@
   ],
   "changes": [
     {
+      "id": "REV-0011",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Ancient text and translation comparisons",
+      "summary": "Seven source-edited Middle Assyrian tablets now show sixteen tiny, attributed sign-sequence excerpts with line references, original editorial English reading cues and uncertainty notes. Two catalogue-only objects remain without invented ancient-language text; an original five-section methods chapter, three new scholarly notation sources and nine queued claims complement the text-comparison reading room.",
+      "impact": "The source publication, attribution and CC BY-SA 3.0 terms are visible. Transliteration snippets are distinguished from normalized Akkadian, scholarly translations and independent sign collation; historical and philological verification remains outstanding for all new claims. No image copies, unauthorized full translations or fictitious readings have been included.",
+      "commit": "514ae7b9d9b469433153e8345e27c57d30ac74ee",
+      "pr": 24,
+      "sections": [
+        "/text-comparisons/",
+        "/articles/reading-cuneiform-transliteration/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/text-comparisons.json",
+        "text_comparisons.py",
+        "text_comparisons_page.py",
+        "text_comparison_content.py",
+        "sources.json",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0010",
       "date": "2026-10-30",
       "kind": "feature-release",
