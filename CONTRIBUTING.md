@@ -60,6 +60,14 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Source health and accessibility audits
+
+When adding or changing a source, retain its stable ID, publisher, type, actual consultation date and an HTTPS address that points to a genuinely public institutional resource. Do not automatically update the recorded `checked` date from a network probe. Review changes to an article's bibliography, section evidence, claim anchors and related routes at the same time.
+
+Use `python scripts/audit_sources.py` for offline syntax/metadata checks. To see current network responses, use `python scripts/audit_sources.py --network --output .qa/source-health.json` or the separate monthly/manual GitHub Actions workflow. Status classes are observations requiring human investigation; a block, 404, timeout or redirect is not automatically evidence a historical record ceased to exist.
+
+The representative HTML audit runs inside `python scripts/validate.py` and examines accessible labels, landmarks, navigation, headings and image alternatives on common user journeys. Passing is not a conformance certificate. For changes to user-visible controls, perform manual keyboard-only, mobile zoom, screen-reader and touch testing, particularly on the map and Syriac language pages. Preserve visible focus and reduced-motion alternatives. Record what was actually tested in the roadmap, not an assumed outcome.
+
 ## Implementation
 
 Every significant feature or research milestone, including previously undocumented work, must also be recorded in `data/project-roadmap.json` with its accurate status, what has been delivered and what remains. The About page's Next Chapters section is generated directly from this file. Do not mark work complete because code was written if its validation or deployment is still pending.
