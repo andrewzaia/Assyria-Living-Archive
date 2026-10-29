@@ -1,0 +1,17 @@
+/* Publication stewardship follows the existing long-form editorial layout. */
+.stewardship-room{max-width:1000px}
+.stewardship-lead{border-block:1px solid var(--line);padding:34px 0 40px;margin-top:18px}
+.stewardship-lead h2,.stewardship-section h2{font:500 43px/1.12 var(--serif);margin:0 0 20px}
+.stewardship-lead p,.stewardship-section p,.stewardship-steps li,.stewardship-status li{font-size:13px;color:var(--muted);line-height:1.85}
+.stewardship-lead p{max-width:850px}
+.stewardship-lead a,.stewardship-section a{color:var(--rust);text-decoration:underline;text-underline-offset:4px;font-weight:600}
+.stewardship-section{border-bottom:1px solid var(--line);padding:42px 0}
+.stewardship-section>.eyebrow{color:var(--rust);font-size:10px}
+.stewardship-section h2{margin-top:11px}
+.stewardship-steps{list-style:decimal;padding-left:24px;margin:22px 0}
+.stewardship-steps li{padding:8px 0 10px 8px}
+.stewardship-steps strong,.stewardship-status strong{color:var(--ink)}
+.stewardship-status{padding-left:24px}.stewardship-status li{padding:9px 0}
+.stewardship-section .stewardship-citation{font-size:11px}
+.stewardship-command{background:#132521;color:#f7f3e4;border-radius:4px;padding:22px;overflow:auto;font-size:12px;line-height:1.9}
+@media(max-width:600px){.stewardship-lead h2,.stewardship-section h2{font-size:35px}.stewardship-command{font-size:10px;padding:15px}}
