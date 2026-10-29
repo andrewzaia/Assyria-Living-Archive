@@ -1982,7 +1982,9 @@
     "People, movement and provincial administration": {
       "sources": [
         "bible-webbe",
-        "aebp-deportation"
+        "aebp-deportation",
+        "saa-samaria-corn-tax",
+        "aebp-israel"
       ],
       "passages": [
         [
@@ -2104,6 +2106,21 @@
           24
         ]
       ]
+    },
+    "A provincial grain-tax letter beyond the conquest narrative": {
+      "sources": [
+        "saa-samaria-corn-tax",
+        "aebp-governors-overview",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ]
     }
   },
   "assyrian-deportations-texts": {
@@ -2129,7 +2146,9 @@
     "Samaria and population change": {
       "sources": [
         "bible-webbe",
-        "aebp-deportation"
+        "aebp-deportation",
+        "aebp-israel",
+        "cambridge-naaman-deportees"
       ],
       "passages": [
         [
@@ -2150,7 +2169,8 @@
       "sources": [
         "rinap-tiglath-corpus",
         "aebp-deportation",
-        "aebp-governance"
+        "aebp-governance",
+        "rinap-sargon-samaria7"
       ]
     },
     "Objects, landscapes and captives": {
@@ -2170,7 +2190,140 @@
     "Limits of numbers and identity": {
       "sources": [
         "rinap-tiglath-corpus",
-        "aebp-deportation"
+        "aebp-deportation",
+        "rinap-sargon-nimrud74",
+        "oxford-faust-provinces"
+      ]
+    },
+    "Halah and named biblical geography": {
+      "sources": [
+        "bible-webbe",
+        "aebp-israel",
+        "cambridge-naaman-deportees"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ]
+    },
+    "Guzana, Habor and the boundary of name evidence": {
+      "sources": [
+        "bible-webbe",
+        "aebp-israel",
+        "saao-downloads",
+        "aebp-kings-road"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ]
+    },
+    "Median cities and cautious resettlement dates": {
+      "sources": [
+        "bible-webbe",
+        "aebp-israel",
+        "aebp-sargon"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ]
+    },
+    "SAA 1 220: Samarian grain taxes in an actual letter": {
+      "sources": [
+        "saa-samaria-corn-tax",
+        "bible-webbe",
+        "aebp-governors-overview"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ]
+    },
+    "SAA 19 17-18: convoys, provisioning and new households": {
+      "sources": [
+        "aebp-deportation",
+        "saao-downloads",
+        "aebp-kings-road",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ]
+    },
+    "Tiglath-pileser III's scribes and prisoners are a distinct relief": {
+      "sources": [
+        "bm-tiglath-census-relief",
+        "bm-lachish-deportees",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ]
+      ]
+    },
+    "Provincial archaeology and the danger of assigning ethnicity to finds": {
+      "sources": [
+        "cambridge-naaman-deportees",
+        "oxford-faust-provinces",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
       ]
     }
   },
