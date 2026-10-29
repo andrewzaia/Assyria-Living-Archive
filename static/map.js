@@ -55,6 +55,7 @@
     const s = data.snapshots[index];
     $('map-date').textContent = `${Math.abs(s.year)} BCE`;
     $('map-period').textContent = s.period;
+    if (manual && root.dataset.ready === 'true') $('map-announcement').textContent = `Historical chapter ${index + 1} of ${data.snapshots.length}: ${Math.abs(s.year)} BCE. ${s.title}.`;
     $('map-step').textContent = `CHAPTER ${String(index + 1).padStart(2, '0')} / ${data.snapshots.length}`;
     $('map-chapter').textContent = s.title;
     $('map-summary').textContent = s.summary;
@@ -113,7 +114,7 @@
     if (!p) return;
     $('map-place-select').value = id;
     $('map-place-detail').textContent = p.name + ': ' + p.description;
-    $('map-place-detail').setAttribute('role', 'status');
+
     const [x,y] = project(p.coordinates);
     if (view.width < 1000) { view.x = x - view.width / 2; view.y = y - view.height / 2; setView(); }
   }
