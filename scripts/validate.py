@@ -23,6 +23,7 @@ from claim_review import build as build_claim_reviews
 from project_roadmap import DATA as ROADMAP_DATA, validate as validate_roadmap
 from language_page import DATA as LANG_DATA, validate as validate_languages
 from heritage_page import DATA as HERITAGE_DATA, validate as validate_heritage, TEMPLATES as HERITAGE_TEMPLATES
+from governance_page import DATA as GOVERNANCE_DATA, validate as validate_governance, CHECKLISTS as GOVERNANCE_CHECKLISTS
 
 class Page(HTMLParser):
     def __init__(self):
@@ -78,6 +79,7 @@ def main():
     milestones = validate_roadmap()
     letter_count = validate_languages(EDITORIAL_ARTICLES, sources)
     heritage_count = validate_heritage(EDITORIAL_ARTICLES, sources)
+    revision_count, correction_count = validate_governance()
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):
         errors.append('Duplicate source IDs')
@@ -238,11 +240,39 @@ def main():
         errors.append('Missing open heritage reference index')
     elif json.loads(exported_heritage.read_text(encoding='utf-8')) != HERITAGE_DATA:
         errors.append('Heritage reference export differs from maintained source')
+    governance_html = OUT / 'governance/index.html'
+    if not governance_html.is_file():
+        errors.append('Missing public editorial governance page')
+    else:
+        html = governance_html.read_text(encoding='utf-8')
+        if html.count('class="governance-entry"') != revision_count:
+            errors.append('Governance page must list all curated merged revisions')
+        if ('id="governance-correction-count"' not in html or
+            ('>' + str(correction_count) + ' public correction record') not in html):
+            errors.append('Public correction record count missing or incorrect')
+        for change in GOVERNANCE_DATA['changes']:
+            if 'id="revision-' + change['id'].lower() + '"' not in html:
+                errors.append('Public revision record not rendered: ' + change['id'])
+            if 'https://github.com/' + GOVERNANCE_DATA['project'] + '/commit/' + change['commit'] not in html:
+                errors.append('Public revision commit missing: ' + change['id'])
+        for correction in GOVERNANCE_DATA['corrections']:
+            if 'id="correction-' + correction['id'].lower() + '"' not in html:
+                errors.append('Public correction notice missing: ' + correction['id'])
+        for _, path, _ in GOVERNANCE_CHECKLISTS:
+            if path not in html or not (OUT / path.lstrip('/')).is_file():
+                errors.append('Missing public governance worksheet: ' + path)
+        if 'Independent specialist review: not recorded.' not in html:
+            errors.append('Governance page must distinguish build checks from specialist review')
+    exported_editorial = OUT / 'editorial-revisions.json'
+    if not exported_editorial.is_file():
+        errors.append('Missing machine-readable editorial revision register')
+    elif json.loads(exported_editorial.read_text(encoding='utf-8')) != GOVERNANCE_DATA:
+        errors.append('Public editorial revision export differs from maintained source')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json']
-    authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json']
+    authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
         text = path.read_text(encoding='utf-8')
