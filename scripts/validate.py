@@ -16,6 +16,7 @@ from archive_support import load_references, reference_sources
 REFERENCES = load_references()
 ARTICLES = EDITORIAL_ARTICLES + REFERENCES
 from site_config import OUT, BASE_PATH, ALLOW_INDEXING, SITE_URL
+from navigation import NAV_GROUPS, NAV_PATHS
 
 class Page(HTMLParser):
     def __init__(self):
@@ -25,9 +26,25 @@ class Page(HTMLParser):
         self.headings = 0
         self.canonical = []
         self.robots = None
+        self.active_header_nav = None
+        self.nav_links = {'Main navigation': [], 'Mobile navigation': []}
+        self.nav_current = {'Main navigation': [], 'Mobile navigation': []}
+        self.nav_details = {'Main navigation': 0, 'Mobile navigation': 0}
+
+    def handle_endtag(self, tag):
+        if tag == 'nav':
+            self.active_header_nav = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'nav' and attrs.get('aria-label') in self.nav_links:
+            self.active_header_nav = attrs['aria-label']
+        if tag == 'details' and self.active_header_nav:
+            self.nav_details[self.active_header_nav] += 1
+        if tag == 'a' and self.active_header_nav and 'href' in attrs:
+            self.nav_links[self.active_header_nav].append(attrs['href'])
+            if attrs.get('aria-current') == 'page':
+                self.nav_current[self.active_header_nav].append(attrs['href'])
         if 'id' in attrs:
             self.ids.append(attrs['id'])
         if tag == 'h1':
@@ -75,7 +92,24 @@ def main():
     if not pages:
         errors.append('No generated HTML found; run python generate.py first')
     checked = 0
+    required_navigation = {BASE_PATH + destination for destination in NAV_PATHS}
     for path, page in pages.items():
+        page_route = '/' + path.relative_to(OUT).as_posix()
+        if page_route.endswith('/index.html'):
+            page_route = page_route[:-len('index.html')]
+        for landmark in ('Main navigation', 'Mobile navigation'):
+            missing = required_navigation - set(page.nav_links[landmark])
+            if missing:
+                errors.append(f'{path.relative_to(OUT)}: {landmark} missing {sorted(missing)}')
+            if page.nav_details[landmark] != len(NAV_GROUPS):
+                errors.append(f'{path.relative_to(OUT)}: expected {len(NAV_GROUPS)} menu groups in {landmark}')
+            current = page.nav_current[landmark]
+            expected_current = [BASE_PATH + page_route] if page_route in NAV_PATHS else []
+            if current != expected_current:
+                errors.append(f'{path.relative_to(OUT)}: incorrect active destination in {landmark}: {current!r}')
+        if BASE_PATH + '/reading-list/' not in page.refs:
+            errors.append(f'{path.relative_to(OUT)}: reading list action missing')
+
         if page.headings != 1:
             errors.append(f'{path.relative_to(OUT)}: expected one h1')
         if len(set(page.ids)) != len(page.ids):
