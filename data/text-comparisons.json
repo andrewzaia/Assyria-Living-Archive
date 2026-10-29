@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-10-30",
+  "method": "Short, attributed snippets from named ATMAP/TCMA transliterations (CC BY-SA 3.0), not a locally mirrored edition. Editorial glosses and interpretations are independently written summaries, not certified translations. Missing signs, damaged signs and queried readings are preserved. Museum catalogue-only objects show no invented text. Expert collation remains outstanding.",
+  "items": [
+    {
+      "slug": "tablet-kaj-247-workers-temple",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of KAJ 247 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Workers, temple setting and restored eponym marker",
+      "status_note": "The edition labels the document Receipt? and questions the worker designation. A restored eponym marker does not mean every sign physically survives.",
+      "lines": [
+        {
+          "location": "Obverse 1",
+          "transliteration": "22 ⸢ERIN₂⸣-MEŠ u₂-ra-su",
+          "gloss": "The editor reads twenty-two people in a questioned labour category; the damaged-sign marks must be retained.",
+          "interpretation": "The person category is interpreted cautiously; this is not a census of the city.",
+          "uncertainty": "queried",
+          "note": "The corner marks indicate damaged but partially visible signs. The edition adds a question mark to the worker interpretation."
+        },
+        {
+          "location": "Obverse 5",
+          "transliteration": "i+na E₂ DINGIR",
+          "gloss": "A reference to an institutional temple setting in the published passage.",
+          "interpretation": "A temple location does not establish what each named person believed or did.",
+          "uncertainty": "attested",
+          "note": "Logographic notation is retained from the line; the English statement is an editorial contextual cue."
+        },
+        {
+          "location": "Top edge 12",
+          "transliteration": "[li-mu]",
+          "gloss": "The eponym marker is reconstructed in the modern edition.",
+          "interpretation": "Square brackets mean the corresponding signs are supplied rather than intact.",
+          "uncertainty": "restored",
+          "note": "This explicitly illustrates restoration, not a surviving undamaged written word."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-marv-10-07-footwear",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of MARV 10, 07 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Named recipient and uncertain campaign phrase",
+      "status_note": "The campaign reading contains explicit damage and editorial uncertainty; no definite journey is reconstructed.",
+      "lines": [
+        {
+          "location": "Obverse 5",
+          "transliteration": "a-na ^{m}ni-ri-⸢ša⸣-al-di",
+          "gloss": "The entry introduces a recipient named Niri-šaldi, according to the published edition.",
+          "interpretation": "The next lines supply a legal-status designation; one receipt is not a complete biography.",
+          "uncertainty": "damaged",
+          "note": "The upper corner brackets delimit damaged but readable parts of the personal name."
+        },
+        {
+          "location": "Reverse 8",
+          "transliteration": "⸢i+na KASKAL^{!?}^{ni}⸣",
+          "gloss": "The edition queries the wording used to connect the issue with a journey or campaign.",
+          "interpretation": "A proposed expedition context is not a verified travel route.",
+          "uncertainty": "queried",
+          "note": "Damage brackets and editor marks including ! and ? are deliberately preserved."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-kaj-233-horse-barley",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of KAJ 233 / KAV 207 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Barley measure and dated eponym formula",
+      "status_note": "Ancient units are not converted to litres or modern rations without a metrological study.",
+      "lines": [
+        {
+          "location": "Obverse 1",
+          "transliteration": "16 ANŠE 5 BAN₂ ŠE",
+          "gloss": "This sequence records a barley measure using original numerals and capacity signs.",
+          "interpretation": "The editor links the allocation to a service horse in the following lines; it is not a general cavalry ration rule.",
+          "uncertainty": "attested",
+          "note": "The sign sequence is a short extract, not a normalized Akkadian sentence."
+        },
+        {
+          "location": "Reverse 7",
+          "transliteration": "^{iti}ku-zal-lu U₄ 13-KAM₂",
+          "gloss": "The dating formula includes the month Kuzallu and a thirteenth day.",
+          "interpretation": "The following line gives an eponym, but a precise absolute BCE date is not independently established here.",
+          "uncertainty": "attested",
+          "note": "Calendar and eponym are not automatically equivalent to a modern calendar year."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-marv-1-12-guard-rations",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of MARV 1, 12 / VS 19, 12 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Barley allocation and ten-day duration",
+      "status_note": "Individual group totals and institutional distribution are documented in the linked edition, not transcribed in full here.",
+      "lines": [
+        {
+          "location": "Obverse 1",
+          "transliteration": "18 ANŠE 3 BAN₂ ŠE",
+          "gloss": "The opening records barley quantity in Assyrian scribal measures.",
+          "interpretation": "The following lines classify the provisioned guard groups; the opening figure alone cannot establish individual diet.",
+          "uncertainty": "attested",
+          "note": "The group descriptions on the obverse and reverse must be consulted with the original edition."
+        },
+        {
+          "location": "Reverse 14",
+          "transliteration": "ša 10 U₄-MEŠ ta-din",
+          "gloss": "The source links the provisioned allotment to ten days.",
+          "interpretation": "A ten-day record cannot be generalized into a year-round ration or proof of food actually eaten.",
+          "uncertainty": "attested",
+          "note": "The translated sense belongs to the editor's connected passage, not an independent philological collation."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-kaj-144-lead-house",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of KAJ 144 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Lead measures and house transaction wording",
+      "status_note": "This tablet's subgenre is marked Receipt?; the line does not establish all terms of the house sale.",
+      "lines": [
+        {
+          "location": "Obverse 2",
+          "transliteration": "5 GUN 30 MA.NA AN.NA",
+          "gloss": "The text opens its legal-economic statement with a lead quantity in talents and minas.",
+          "interpretation": "The associated house transaction appears over connected lines, so the amount alone is not a modern property valuation.",
+          "uncertainty": "attested",
+          "note": "Ancient measures are retained, and no exchange rate or modern currency value is asserted."
+        },
+        {
+          "location": "Obverse 11",
+          "transliteration": "a-⸢na⸣ ŠAM₃ E₂-šu",
+          "gloss": "The clause relates the sum to a house sale in the edition's reading.",
+          "interpretation": "This does not establish the ultimate outcome or occupancy of the property.",
+          "uncertainty": "damaged",
+          "note": "The partially damaged na sign is preserved with its original editorial marks."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-billa-30-barley",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of Billa 30 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Provincial barley entry, questioned obligation and broken names",
+      "status_note": "The account is a receipt; an obligation verb is queried and the witnesses and some date signs are broken.",
+      "lines": [
+        {
+          "location": "Obverse 1",
+          "transliteration": "2 ANŠE ŠE mu-la-u₂",
+          "gloss": "The editor records a barley amount and an additional payment phrase.",
+          "interpretation": "Its economic nature is apparent, while the precise imposition on people remains qualified.",
+          "uncertainty": "attested",
+          "note": "The compact excerpt retains ancient measure signs rather than a modern unit conversion."
+        },
+        {
+          "location": "Obverse 5",
+          "transliteration": "em^{?}-du-ni",
+          "gloss": "An editorial question mark qualifies the word describing the imposition or obligation.",
+          "interpretation": "The precise legal nature of the demand cannot be stated as certain.",
+          "uncertainty": "queried",
+          "note": "A queried sign or reading is evidence of uncertainty in the modern edition."
+        },
+        {
+          "location": "Reverse 10",
+          "transliteration": "[^{m}x]-⸢x-x-x⸣",
+          "gloss": "The line preserves lost or unreadable portions of a personal name.",
+          "interpretation": "A missing name must not be reconstructed into an invented individual.",
+          "uncertainty": "restored",
+          "note": "Brackets and x indicate missing or unidentified signs. This example is not a readable full name."
+        }
+      ]
+    },
+    {
+      "slug": "tablet-kaj-118-straw",
+      "status": "excerpted",
+      "edition_credit": "Jacob Jan de Ridder, ATMAP/TCMA edition of KAJ 118 (2020), CC BY-SA 3.0",
+      "editorial_scope": "Palace straw and a broken reverse",
+      "status_note": "The initial quantity is readable; later reverse lines have major losses and cannot establish every participant.",
+      "lines": [
+        {
+          "location": "Obverse 1",
+          "transliteration": "40 a-za-i-lu ša IN.NU",
+          "gloss": "The opening gives forty sacks associated with straw in the published edition.",
+          "interpretation": "Other lines describe institutional custody; this alone is not evidence of a regional harvest.",
+          "uncertainty": "attested",
+          "note": "Commodity and count are a specific account, not a universal agrarian rate."
+        },
+        {
+          "location": "Reverse 16",
+          "transliteration": "[...] ti [...] SAG",
+          "gloss": "The edition has gaps where groups of signs are missing.",
+          "interpretation": "The reverse cannot be silently filled in with reconstructed names or actions.",
+          "uncertainty": "restored",
+          "note": "The ellipses denote lost signs; they are not the author's punctuation replacing a known reading."
+        }
+      ]
+    },
+    {
+      "slug": "met-62-85-3-sealed-tablet",
+      "status": "edition-pending",
+      "edition_credit": "Metropolitan Museum of Art, object catalogue 62.85.3; no published line edition confirmed",
+      "editorial_scope": "Object has two seal impressions; no individual sign or transliteration confirmed",
+      "status_note": "The museum object page identifies the physical tablet, but no trustworthy line-by-line transcription or translation was verified for this release. No cuneiform text is reconstructed.",
+      "lines": []
+    },
+    {
+      "slug": "bm-21901-nineveh-chronicle-case",
+      "status": "edition-pending",
+      "edition_credit": "British Museum BM 21901, Babylonian Chronicle catalogue; a line-specific edition comparison remains pending",
+      "editorial_scope": "Chronicle records the fall of Nineveh; no verbatim line collation supplied here",
+      "status_note": "The tablet is a later copy of earlier historical events. The catalogue is useful provenance evidence; exact Akkadian lines and published translation variants require specialist edition collation before display.",
+      "lines": []
+    }
+  ]
+}
