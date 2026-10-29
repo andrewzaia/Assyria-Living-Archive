@@ -24,6 +24,7 @@ from project_roadmap import DATA as ROADMAP_DATA, validate as validate_roadmap
 from language_page import DATA as LANG_DATA, validate as validate_languages
 from heritage_page import DATA as HERITAGE_DATA, validate as validate_heritage, TEMPLATES as HERITAGE_TEMPLATES
 from governance_page import DATA as GOVERNANCE_DATA, validate as validate_governance, CHECKLISTS as GOVERNANCE_CHECKLISTS
+from preservation import verify_manifest
 
 class Page(HTMLParser):
     def __init__(self):
@@ -268,10 +269,31 @@ def main():
         errors.append('Missing machine-readable editorial revision register')
     elif json.loads(exported_editorial.read_text(encoding='utf-8')) != GOVERNANCE_DATA:
         errors.append('Public editorial revision export differs from maintained source')
+    stewardship_html = OUT / 'stewardship/index.html'
+    if not stewardship_html.is_file():
+        errors.append('Missing generated publication stewardship guide')
+    else:
+        html = stewardship_html.read_text(encoding='utf-8')
+        for required in ('/preservation-manifest.json', 'id="integrity"', 'id="publication"',
+                         'id="recovery"', 'id="human-review"', 'docs/PRESERVATION.md'):
+            if required not in html:
+                errors.append('Stewardship page missing disclosure or reference: ' + required)
+        if ALLOW_INDEXING and 'Indexing enabled by release configuration' not in html:
+            errors.append('Stewardship indexing state does not match this build')
+        if not ALLOW_INDEXING and 'Search indexing deliberately disabled' not in html:
+            errors.append('Stewardship page must show the active noindex state')
+    try:
+        manifest = verify_manifest(OUT)
+        if manifest['base_path'] != BASE_PATH or manifest['indexing_enabled'] != ALLOW_INDEXING:
+            errors.append('Preservation manifest does not match deployment configuration')
+        if manifest['file_count'] < len(pages):
+            errors.append('Preservation manifest appears to omit generated public assets')
+    except (OSError, ValueError, KeyError) as exc:
+        errors.append('Preservation fixity verification failed: ' + str(exc))
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

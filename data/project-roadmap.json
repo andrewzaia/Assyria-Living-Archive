@@ -82,9 +82,9 @@
     {
       "id": "publication",
       "title": "Publication and long-term stewardship",
-      "status": "planned",
-      "delivered": "Static deployment, offline validation and explicit indexing controls are established.",
-      "next": "Complete independent specialist linguistic and historical review, script rendering, accessibility and cross-browser testing, rights checks and deliberate indexing approval."
+      "status": "in-progress",
+      "delivered": "Added a dedicated public publication and preservation room, deterministic SHA-256 fixity manifest covering generated files, strict missing/extra/tampered-file verification, recoverable deterministic ZIP export with tested extraction, CI negative tests and restore checks for build and Pages deployment, plus selected live-file hash probes and an operational recovery runbook. Existing noindex safeguards remain unchanged.",
+      "next": "Appoint a responsible long-term custodian and establish independent offsite redundant backups, scheduled documented integrity checks and actual restoration drills. Conduct a real-device and screen-reader accessibility review against WCAG 2.2; audit outbound source link health, rights and manuscript reuse; obtain specialist subject review and deliberate indexing sign-off before search publication."
     }
   ]
 }

@@ -52,6 +52,14 @@ The current project **has no operational intake or media archive**, and the exis
 - Keep unappointed roles visibly **unassigned**. Never describe secure submission, signed consent storage, specialist staffing or response times as active before their systems and responsible people exist.
 - Blank worksheets in `archive/governance/` are local planning aids, not a private intake system. Do not put sensitive reports, contact details or signed permissions into Git.
 
+## Preservation and publication approvals
+
+Build output from `python generate.py` includes a `preservation-manifest.json` checksum inventory. Verify it with `python scripts/validate.py` before release; export a checked recovery ZIP with `python scripts/export_archive.py --output ../assyria-site-backup.zip`. Do not edit a generated file after the manifest has been recorded. A manifest mismatch is a failure requiring investigation, not a reason to silently rewrite baseline hashes.
+
+The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a SHA-256 match is not a digital signature, historical source assessment, rights clearance or offsite backup. CI tests mechanical integrity and selected live files, but a responsible custodian must independently maintain and periodically recover copies. An automated Pages deployment is not a substitute for real-device WCAG 2.2 checks, copyright and manuscript permissions review, or specialist verification.
+
+Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
+
 ## Implementation
 
 Every significant feature or research milestone, including previously undocumented work, must also be recorded in `data/project-roadmap.json` with its accurate status, what has been delivered and what remains. The About page's Next Chapters section is generated directly from this file. Do not mark work complete because code was written if its validation or deployment is still pending.

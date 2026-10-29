@@ -22,11 +22,14 @@ jobs:
           python-version: '3.12'
       - name: Check deployment ordering safeguards
         run: python scripts/test_deployment_order.py
+      - name: Test preservation integrity and ZIP recovery
+        run: python scripts/test_preservation.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js
           node --check static/map.js
           node --check static/bible.js
+          node --check static/heritage.js
           node --check worker/src/index.mjs
           node --test worker/tests/*.test.mjs
       - name: Build and validate root deployment
@@ -35,6 +38,7 @@ jobs:
         run: |
           python generate.py
           python scripts/validate.py
+          python scripts/export_archive.py --output "${RUNNER_TEMP}/assyria-root-site.zip"
       - name: Build and validate project-path deployment
         env:
           BASE_PATH: /Assyria
