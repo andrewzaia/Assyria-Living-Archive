@@ -2522,5 +2522,235 @@
         "fu-dur-katlimmu"
       ]
     }
+  },
+  "tablet-kaj-247-workers-temple": {
+    "Identify the surviving object": {
+      "sources": [
+        "tcma-kaj-247"
+      ]
+    },
+    "Follow the line divisions": {
+      "sources": [
+        "tcma-kaj-247"
+      ]
+    },
+    "Work, institutions and surviving voices": {
+      "sources": [
+        "tcma-kaj-247",
+        "tcma-corpus"
+      ]
+    },
+    "Uncertainty and the next check": {
+      "sources": [
+        "tcma-kaj-247",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-marv-10-07-footwear": {
+    "Identify the item before the story": {
+      "sources": [
+        "tcma-marv-10-07"
+      ]
+    },
+    "What the edition actually records": {
+      "sources": [
+        "tcma-marv-10-07"
+      ]
+    },
+    "A small object and a large political setting": {
+      "sources": [
+        "tcma-marv-10-07",
+        "tcma-corpus"
+      ]
+    },
+    "How to review the uncertain clause": {
+      "sources": [
+        "tcma-marv-10-07",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-kaj-233-horse-barley": {
+    "An identified ration text": {
+      "sources": [
+        "tcma-kaj-233"
+      ]
+    },
+    "Barley, a horse and a named recipient": {
+      "sources": [
+        "tcma-kaj-233"
+      ]
+    },
+    "What an equine ration implies": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-corpus"
+      ]
+    },
+    "Provenance before extrapolation": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-marv-1-12-guard-rations": {
+    "Why this tablet is an unusually useful case": {
+      "sources": [
+        "tcma-marv-1-12"
+      ]
+    },
+    "Groups and an allocation period": {
+      "sources": [
+        "tcma-marv-1-12"
+      ]
+    },
+    "A guard list is not a population census": {
+      "sources": [
+        "tcma-marv-1-12",
+        "tcma-corpus"
+      ]
+    },
+    "The testable research question": {
+      "sources": [
+        "tcma-marv-1-12",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-kaj-144-lead-house": {
+    "One object with several labels": {
+      "sources": [
+        "tcma-kaj-144"
+      ]
+    },
+    "Metal, obligations and property": {
+      "sources": [
+        "tcma-kaj-144"
+      ]
+    },
+    "How much can a legal receipt establish?": {
+      "sources": [
+        "tcma-kaj-144",
+        "tcma-corpus"
+      ]
+    },
+    "Questions for a specialist reader": {
+      "sources": [
+        "tcma-kaj-144",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-billa-30-barley": {
+    "Provenance beyond the capital": {
+      "sources": [
+        "tcma-billa-30"
+      ]
+    },
+    "A provincial grain entry": {
+      "sources": [
+        "tcma-billa-30"
+      ]
+    },
+    "What we can and cannot reconstruct": {
+      "sources": [
+        "tcma-billa-30",
+        "tcma-corpus"
+      ]
+    },
+    "Next reading at line level": {
+      "sources": [
+        "tcma-billa-30",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "tablet-kaj-118-straw": {
+    "A named administrative artefact": {
+      "sources": [
+        "tcma-kaj-118"
+      ]
+    },
+    "Straw and official custody": {
+      "sources": [
+        "tcma-kaj-118"
+      ]
+    },
+    "The visible and invisible work": {
+      "sources": [
+        "tcma-kaj-118",
+        "tcma-corpus"
+      ]
+    },
+    "Do not turn a receipt into a harvest": {
+      "sources": [
+        "tcma-kaj-118",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "met-62-85-3-sealed-tablet": {
+    "The museum record's firm information": {
+      "sources": [
+        "met-62-85-3"
+      ]
+    },
+    "Two impressions and an administrative setting": {
+      "sources": [
+        "met-62-85-3"
+      ]
+    },
+    "Image rights and archaeological limits": {
+      "sources": [
+        "met-62-85-3",
+        "tcma-corpus"
+      ]
+    },
+    "What a future case study must add": {
+      "sources": [
+        "met-62-85-3",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "bm-21901-nineveh-chronicle-case": {
+    "A tablet with two historical dates": {
+      "sources": [
+        "bm-chronicle"
+      ]
+    },
+    "The object and its provenance": {
+      "sources": [
+        "bm-chronicle"
+      ]
+    },
+    "Read the Bible as a distinct witness": {
+      "sources": [
+        "bm-chronicle",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ],
+        [
+          "ZEP",
+          2,
+          13,
+          15
+        ]
+      ]
+    },
+    "Do not merge historical periods": {
+      "sources": [
+        "bm-chronicle",
+        "bible-webbe"
+      ]
+    }
   }
 }

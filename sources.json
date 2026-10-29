@@ -943,5 +943,77 @@
     "type": "Academic research collection",
     "access": "Bibliographic access to specialist analyses of Assyrian irrigation and regional water history; consult individual chapter rather than infer a specific field's yield.",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-kaj-247",
+    "title": "KAJ 247, Middle Assyrian receipt, CDLI P282259, VAT 08971",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P282259",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur, M 09 Archive, excavation Ass 14446 df. Labour/temple entry; workers and receipt interpretation retain editorial question marks.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-marv-10-07",
+    "title": "MARV 10, 07, palace footwear receipt, CDLI P282957, VAT 10052",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P282957",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur M 07 Archive, excavation Ass 21101 s. Palace footwear assigned to an individual described as a hostage; campaign wording is uncertain.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-kaj-233",
+    "title": "KAJ 233 / KAV 207, equine barley allocation, CDLI P282245, VAT 08950",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P282245",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur M 09 Archive, excavation Ass 14446 p*. A receipt for barley associated with a service horse and a dated eponymy; not a general army ration schedule.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-marv-1-12",
+    "title": "MARV 1, 12, ten-day ration account, CDLI P281896, VAT 18012 and VAT 18088",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P281896",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur. Documents a dated allocation for multiple defined groups guarding the inner city, not the diets of the general public.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-kaj-144",
+    "title": "KAJ 144, lead and house transaction, CDLI P282157, VAT 08609",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P282157",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur M 11 Archive, excavation Ass 14987 b. Administrative legal record involving lead and a house sale; partial reading and genre are marked uncertain.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-billa-30",
+    "title": "Billa 30, barley receipt from Shibaniba, CDLI P282711, UM 33-58-133",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/billa/P282711",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Tell Billa/Shibaniba, Ashur-kashid archive. Barley payment, witnesses and date, with explicitly broken names and uncertain imposition terminology.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-kaj-118",
+    "title": "KAJ 118, palace straw receipt, CDLI P282131, VAT 08819",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder",
+    "url": "https://oracc.museum.upenn.edu/tcma/P282131",
+    "type": "Edition of primary cuneiform tablet",
+    "access": "Assur M 10 Archive, excavation Ass 14327 by. Palace straw documented in a named administrative custody chain; quantity does not reveal total grain harvest.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "met-62-85-3",
+    "title": "Cuneiform tablet with two cylinder seals, Met accession 62.85.3",
+    "publisher": "Metropolitan Museum of Art, Ancient West Asian Art",
+    "url": "https://www.metmuseum.org/art/collection/search/325514",
+    "type": "Institutional primary archaeological object catalogue",
+    "access": "Middle Assyrian clay administrative object, approximately 13th century BCE. Public-domain image status is stated by the Met; a published translation was not identified in this catalogue.",
+    "checked": "2026-10-30"
   }
 ]

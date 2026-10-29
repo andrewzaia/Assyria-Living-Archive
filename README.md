@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 483 reading entries (111 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 492 reading entries (120 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -156,6 +156,14 @@ Six original articles and **24 new section-level source trails** explain intervi
 Editorial workflow: identify credible custodians, verify the record's source role and permitted access, obtain and document participation or reuse permission separately, offer narrator review where appropriate, and publish only approved versions and non-sensitive metadata. Guidance comes from Oral History Australia and the National Library of Australia; those institutions are cited, not affiliated with the project. No private recordings or media are collected or hosted, and the existing contribution form still only downloads a local draft. A secure intake service, verified individual permissions and a named curator are future requirements, not features already completed.
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
+
+## Individually identified tablet and archaeological object case files
+
+Milestone 11 publishes nine original object-level studies in `data/object-case-files.json`, with a research room at `/case-files/` and an offline generated `/object-case-files.json`. Seven records are individually edited Middle Assyrian cuneiform tablets, one is The Met's museum-catalogued Middle Assyrian tablet with two seal impressions, and the final object is a **later Babylonian Chronicle** expressly separate from the Middle Assyrian period. Readers can see physical collection numbers, CDLI/edition references, dates, findspots or explicitly missing provenance, document classification, edited line scopes and limits on independent transcription.
+
+Eight individually attributed institutional links were added to `sources.json`, **36 section-level evidence trails** to `data/section-evidence.json` and twelve text-anchored records to the independent-review queue. Totals now stand at **113 curated sources**, **334 mapped evidence sections across 95 editorial guides**, and **53 pending claim-level reviews**.
+
+Each case-file article has its own provenance panel; object IDs and source URLs are checked against the maintained catalogue metadata on every site build. Museum images and scholarly translations are **not mirrored** or represented as a new independent Akkadian edition. A working object URL is not verification of damaged signs, personal biographies or claims of factual certainty. The new `case_files.py` validator and `scripts/validate.py` protect the scope and require outstanding expert-review disclosures. Public case studies are research entries, not a certificate of epigraphic authentication.
 
 ## Middle Assyrian social history and everyday life
 

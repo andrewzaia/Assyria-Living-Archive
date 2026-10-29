@@ -24,6 +24,9 @@ CHECKS = {
     '/archive/maps/natural-earth-countries.geojson': ('FeatureCollection', 'MultiPolygon'),
     '/stewardship/': ('Make the archive recoverable.', 'preservation-manifest.json', 'Offsite backups:'),
     '/middle-assyrian/': ('An empire built by people.', 'middle-grid', 'Dūr-Katlimmu'),
+    '/case-files/': ('Every object has a story.', 'case-files-grid', 'VAT 08971'),
+    '/object-case-files.json': ('tablet-kaj-247-workers-temple', 'bm-21901-nineveh-chronicle-case', 'met-62-85-3-sealed-tablet'),
+    '/articles/tablet-marv-1-12-guard-rations/': ('VAT 18012 and VAT 18088', 'Object record and edition'),
     '/articles/middle-assyrian-women-and-law/': ('Women, status and the Middle Assyrian Laws', 'Veiling as a marker of status'),
     '/preservation-manifest.json': ('hash_algorithm', 'sha256', 'file_count'),
 }
