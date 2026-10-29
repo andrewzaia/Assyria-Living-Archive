@@ -41,6 +41,7 @@
 .expansion-table-wrap table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
 .expansion-table-wrap th,.expansion-table-wrap td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line)}
 .expansion-table-wrap thead th{background:#e7e7dc;font-weight:600}
+.expansion-detail .expansion-table-wrap thead th:nth-child(n+2){text-align:right}
 .expansion-table-wrap td{text-align:right}
 .expansion-categories{list-style:none;padding:0!important;margin:0 0 35px;display:grid;gap:17px}
 .expansion-categories li{display:grid;grid-template-columns:minmax(145px,1.2fr) 2fr 50px;align-items:center;gap:14px;padding:0;margin:0}
