@@ -32,6 +32,32 @@
   ],
   "changes": [
     {
+      "id": "REV-0007",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Source integrity and accessibility audit",
+      "summary": "Added structural citation validation for curated source records, bounded monthly/manual external URL checks, a public audit page and machine-readable offline index, automated accessible-markup regression tests, corrected keyboard menu handling and accessible atlas status text.",
+      "impact": "External URLs have not been certified live by the offline build; monthly HTTP probes require human interpretation. Manual device, contrast, screen-reader, Syriac shaping, subject-expert verification and release indexing reviews remain outstanding.",
+      "commit": "558b414b9ec093947b51539f0a049b78d41bf075",
+      "pr": 16,
+      "sections": [
+        "/audit/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "audit_page.py",
+        "scripts/audit_sources.py",
+        "scripts/audit_accessibility.py",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0006",
       "date": "2026-10-29",
       "kind": "feature-release",
