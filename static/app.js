@@ -153,7 +153,7 @@
   // All header search triggers must be collected as a NodeList. querySelector
   // returns one Element, which has no forEach and previously stopped every
   // subsequent initializer, including Explore topic buttons and search.
-  $('.search-open').forEach(b=>b.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();$('#global-search').focus();}));
+  $$('.search-open').forEach(b=>b.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();$('#global-search').focus();}));
   $('.search-close')?.addEventListener('click',()=>dialog.close());
   dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
   $('#global-search')?.addEventListener('input',searchGlobal);
