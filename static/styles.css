@@ -124,7 +124,7 @@ html{scroll-padding-top:125px}
 .nav-column{min-width:0}
 .nav-column-heading{padding:3px 11px 9px;margin:0 0 5px;border-bottom:1px solid var(--line);color:var(--rust);font-size:10px;line-height:1.4;font-weight:700;letter-spacing:1.25px;text-transform:uppercase}
 .desktop-nav .nav-panel--columns{display:grid;align-items:start;gap:8px 14px;padding:16px}
-.desktop-nav .nav-panel--columns .nav-destination{min-height:0;padding:9px 11px}
+.desktop-nav .nav-panel--columns .nav-destination{min-height:44px;padding:9px 11px}
 .desktop-nav .nav-panel--columns .nav-title{font-size:11.5px;line-height:1.45}
 .desktop-nav .nav-panel--columns .nav-note{font-size:10px;line-height:1.5;margin-top:2px}
 .desktop-nav .nav-panel--research{
