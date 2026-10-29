@@ -1568,5 +1568,153 @@
         "modern-kanna"
       ]
     }
+  },
+  "oral-history-interview-method": {
+    "Begin with a conversation, not a recording": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice"
+      ]
+    },
+    "Invite the ordinary details": {
+      "sources": [
+        "modern-kanna",
+        "oha-australia-practice"
+      ]
+    },
+    "Keep testimony and historical claims legible": {
+      "sources": [
+        "modern-kanna",
+        "nla-oral-history-rights"
+      ]
+    },
+    "Before an interview is shared": {
+      "sources": [
+        "oha-australia-ethics",
+        "nla-oral-history-rights"
+      ]
+    }
+  },
+  "assyrian-village-histories": {
+    "Start with the place and the date": {
+      "sources": [
+        "gedsh-tur-abdin",
+        "gedsh-sureth"
+      ]
+    },
+    "Use more than a family memory": {
+      "sources": [
+        "unami-nineveh",
+        "oha-australia-ethics"
+      ]
+    },
+    "The Nineveh Plain as an example": {
+      "sources": [
+        "unami-nineveh"
+      ]
+    },
+    "Privacy and surviving places": {
+      "sources": [
+        "oha-australia-ethics"
+      ]
+    }
+  },
+  "migration-memory-research": {
+    "One account can be well documented": {
+      "sources": [
+        "modern-kanna",
+        "nla-oral-history-access"
+      ]
+    },
+    "Institutions preserve another perspective": {
+      "sources": [
+        "modern-aaa",
+        "modern-arc"
+      ]
+    },
+    "A diaspora has multiple routes": {
+      "sources": [
+        "gedsh-diaspora"
+      ]
+    },
+    "Build a comparable but humane record": {
+      "sources": [
+        "nla-oral-history-rights",
+        "modern-kanna"
+      ]
+    }
+  },
+  "heritage-objects-and-practices": {
+    "Context makes an object meaningful": {
+      "sources": [
+        "nla-oral-history-rights"
+      ]
+    },
+    "Recipes are histories of variation": {
+      "sources": [
+        "modern-kileche"
+      ]
+    },
+    "Performance needs named context": {
+      "sources": [
+        "modern-dance",
+        "modern-festival-sydney"
+      ]
+    },
+    "Record rights for every medium": {
+      "sources": [
+        "nla-oral-history-rights"
+      ]
+    }
+  },
+  "heritage-consent-and-access": {
+    "An interview agreement is specific": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice"
+      ]
+    },
+    "Research access is not public reuse": {
+      "sources": [
+        "nla-oral-history-rights",
+        "nla-oral-history-access"
+      ]
+    },
+    "Protect living people and third parties": {
+      "sources": [
+        "oha-australia-ethics"
+      ]
+    },
+    "Corrections, withdrawal and limits": {
+      "sources": [
+        "oha-australia-ethics",
+        "nla-oral-history-rights"
+      ]
+    }
+  },
+  "assyria-community-broadcasts": {
+    "Media as a dated historical witness": {
+      "sources": [
+        "modern-radio"
+      ]
+    },
+    "Examples from living culture": {
+      "sources": [
+        "modern-festival-sydney",
+        "modern-kileche",
+        "modern-dance"
+      ]
+    },
+    "Language and reach": {
+      "sources": [
+        "cambridge-nena",
+        "modern-radio"
+      ]
+    },
+    "Preserve citations, not illicit copies": {
+      "sources": [
+        "modern-radio"
+      ]
+    }
   }
 }
