@@ -4,7 +4,7 @@
   "authorship": "Assyria | The Living Archive. Original editorial text and schematic coordinates. No ancient boundary has been surveyed or traced from a published map.",
   "licence": "CC BY 4.0 for original atlas text and historical coordinate sketches; Natural Earth basemap data is public domain.",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "method": "Discrete dated teaching sketches sourced to named historical works. The original polygons are editorial approximations, not GIS reconstructions of provincial borders, and the reconstruction scope is recorded for each chapter. Solid shading is a broad zone of more sustained political control; hatched shading groups unlike relationships (vassalage, tribute, contested rule, campaigns). Neither shading type is precise, homogeneous or comparable in measured area. The 612 and 609 BCE boundaries remain unpinned. Modern borders are only a geographical reference layer.",
+  "method": "Discrete dated teaching sketches sourced to named historical works. The original polygons are editorial approximations, not GIS reconstructions of provincial borders, and the reconstruction scope is recorded for each chapter. Solid shading is a broad zone of more sustained political control; hatched shading groups unlike relationships (vassalage, tribute, contested rule, campaigns). Neither shading type is precise, homogeneous or comparable in measured area. The 612 and 609 BCE boundaries remain unpinned. Modern borders are only a geographical reference layer. Article titles in the related-reading routes are mirrored from the maintained editorial collection and checked by the validator.",
   "sources": [
     {
       "id": "met-assyria",
@@ -1438,5 +1438,28 @@
         "transformation": "Selected full features named Nile, Tigris or Euphrates in name/name_en; properties and coordinates retained unchanged. JSON serialisation changed."
       }
     ]
+  },
+  "article_titles": {
+    "ancient-assyria": "Ancient Assyria",
+    "ashur": "Ashur: city, sanctuary and crossroads",
+    "ashurbanipal": "Ashurbanipal: king and the tablet collections",
+    "ashurnasirpal-ii": "Ashurnasirpal II: rebuilding Kalhu",
+    "assyrian-deportation": "Deportation and resettlement in Assyria",
+    "assyrian-governance": "Running the Neo-Assyrian empire",
+    "bible-esarhaddon": "Esar Haddon and the death of Sennacherib",
+    "bible-nahum": "Nahum and the oracle concerning Nineveh",
+    "bible-sargon": "Sargon and the sign against Egypt and Cush",
+    "bible-tiglath-pileser": "Tiglath Pileser, Ahaz and the fall of Damascus",
+    "esarhaddon": "Esarhaddon: succession and Egypt",
+    "fall-of-nineveh": "The fall of Nineveh and the end of Assyrian imperial rule",
+    "khorsabad": "Dur-Sharrukin and Khorsabad",
+    "nimrud": "Nimrud, ancient Kalhu",
+    "nineveh": "Nineveh and the library of Ashurbanipal",
+    "post-imperial-assyria": "After the empire: Assyria's changing regions",
+    "royal-reliefs": "Reading Assyrian palace art",
+    "sargon-ii": "Sargon II: king, campaigns and a new capital",
+    "sennacherib": "Sennacherib: Nineveh and Judah",
+    "shalmaneser-iii": "Shalmaneser III and the western campaigns",
+    "tiglath-pileser-iii": "Tiglath-pileser III: empire and provinces"
   }
 }
