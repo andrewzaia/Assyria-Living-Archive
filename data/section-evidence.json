@@ -25,7 +25,8 @@
     "Ancient Chaldeans and today's Chaldean Catholic name are different historical categories": {
       "sources": [
         "iranica-ancient-chaldeans",
-        "hanoosh-2019-chaldean-identity"
+        "hanoosh-2019-chaldean-identity",
+        "wiley-payne-ancient-chaldaeans"
       ]
     },
     "Independent voices, denominational interests and bias": {
@@ -50,6 +51,14 @@
     "The history of a name": {
       "sources": [
         "gedsh-assyrians"
+      ]
+    },
+    "Proof status: ancient Kaldu descent not demonstrated": {
+      "sources": [
+        "iranica-ancient-chaldeans",
+        "wiley-payne-ancient-chaldaeans",
+        "gedsh-chaldeans",
+        "hanoosh-2019-chaldean-identity"
       ]
     }
   },
@@ -419,7 +428,8 @@
       "sources": [
         "gedsh-chaldeans",
         "donabed-2012-appellative",
-        "hanoosh-2019-chaldean-identity"
+        "hanoosh-2019-chaldean-identity",
+        "wiley-payne-ancient-chaldaeans"
       ]
     },
     "Use the right authorities for the right claim": {
@@ -3128,7 +3138,8 @@
     "Do not confuse modern usage with the ancient Kaldu": {
       "sources": [
         "iranica-ancient-chaldeans",
-        "hanoosh-2019-chaldean-identity"
+        "hanoosh-2019-chaldean-identity",
+        "wiley-payne-ancient-chaldaeans"
       ]
     },
     "Shared Syriac inheritance and church differences": {
@@ -3143,6 +3154,14 @@
         "modern-chaldean-history",
         "gedsh-chaldeans",
         "parker-2018-chaldaean"
+      ]
+    },
+    "Ancient ethnic lineage: an explicit evidence finding": {
+      "sources": [
+        "iranica-ancient-chaldeans",
+        "wiley-payne-ancient-chaldaeans",
+        "parker-2018-chaldaean",
+        "gedsh-chaldeans"
       ]
     }
   },
@@ -3170,7 +3189,8 @@
     "Ancient Chaldeans in Babylonia are not the same historical category": {
       "sources": [
         "iranica-ancient-chaldeans",
-        "hanoosh-2019-chaldean-identity"
+        "hanoosh-2019-chaldean-identity",
+        "wiley-payne-ancient-chaldaeans"
       ]
     },
     "The modern ethnic label has a documented history longer than the 1990s": {
@@ -3213,6 +3233,15 @@
         "donabed-2012-appellative",
         "hanoosh-2019-chaldean-identity",
         "iranica-ancient-chaldeans"
+      ]
+    },
+    "Evidence ledger: the missing ancient-to-modern link": {
+      "sources": [
+        "gedsh-chaldeans",
+        "iranica-ancient-chaldeans",
+        "wiley-payne-ancient-chaldaeans",
+        "parker-2018-chaldaean",
+        "hanoosh-2019-chaldean-identity"
       ]
     }
   }

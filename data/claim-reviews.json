@@ -2090,7 +2090,77 @@
       "context_sources": [
         "modern-chaldean"
       ],
-      "limitation": "Contemporary Chaldean ethnic self-identification exists as a distinct question; ecclesiastical nomenclature alone proves neither universal shared ancestry nor an automatically separate tribe.",
+      "limitation": "A church title is evidence of church affiliation, not a separate ethnicity; no ancient Kaldu-to-modern Catholic descent chain is demonstrated in the cited historical record. Modern self-description remains a different category of evidence.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-089",
+      "article": "chaldean-name-and-heritage",
+      "section": "Evidence ledger: the missing ancient-to-modern link",
+      "anchor": "Required but absent: an independently evidenced chain linking these two populations",
+      "claim": "The independently cited record attests ancient southern Babylonian Kaldu and much later East Syriac Catholic naming, but provides no direct source chain demonstrating a distinct continuous Kaldu ethnicity among present-day Chaldean Catholics.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "iranica-ancient-chaldeans",
+        "wiley-payne-ancient-chaldaeans",
+        "gedsh-chaldeans"
+      ],
+      "context_sources": [
+        "parker-2018-chaldaean",
+        "hanoosh-2019-chaldean-identity"
+      ],
+      "limitation": "This is a bounded negative assessment of the catalogue as cited, not proof that every ancient ancestor is knowable or a universal claim about all human ancestry. An original papal brief, archaeological sequence and specialist review have not been independently collated.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-090",
+      "article": "chaldean-church",
+      "section": "Ancient ethnic lineage: an explicit evidence finding",
+      "anchor": "The archive has not identified primary evidence connecting the former to the latter",
+      "claim": "The Chaldean Catholic ecclesiastical name, first attested through cited 1445 scholarship, does not establish ancient southern Babylonian Kaldu descent.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans",
+        "iranica-ancient-chaldeans"
+      ],
+      "context_sources": [
+        "wiley-payne-ancient-chaldaeans",
+        "parker-2018-chaldaean"
+      ],
+      "limitation": "The absence of a demonstrated source chain in the archive must not be converted into a genetic finding about individuals, or treated as a church authority settling genealogy. Primary ancient and early-modern document collation remains pending.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-091",
+      "article": "assyrian-identity",
+      "section": "Proof status: ancient Kaldu descent not demonstrated",
+      "anchor": "No direct, independently verified ancient-to-modern source sequence",
+      "claim": "In the evidence currently cited, no demonstrated ancient Kaldu-to-modern East Syriac Catholic genealogical or historical link warrants treating separate ancient Chaldean origin as an established history.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans",
+        "iranica-ancient-chaldeans",
+        "wiley-payne-ancient-chaldaeans"
+      ],
+      "context_sources": [
+        "hanoosh-2019-chaldean-identity"
+      ],
+      "limitation": "An explicitly scope-limited finding; it does not adjudicate each modern individual's personal identity or imply that scholars have verified every primary archive worldwide.",
       "review": {
         "status": "awaiting-independent-review",
         "reviewer": null,
