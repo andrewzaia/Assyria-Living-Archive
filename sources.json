@@ -1114,5 +1114,68 @@
     "type": "Direct edited royal inscription, heavily restored passage",
     "access": "RINAP 2 text 1, lines 12-17. Large portions of the Samaria account are restored from parallel royal records; an edited reconstruction is not independent confirmation of every detail.",
     "checked": "2026-10-30"
+  },
+  {
+    "id": "saa-samaria-corn-tax",
+    "title": "SAA 1 220 (P334789), The Corn Tax of the Samarians, original edited administrative letter",
+    "publisher": "State Archives of Assyria Online / ORACC, University of Pennsylvania",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/P334789",
+    "type": "Primary cuneiform administrative letter",
+    "access": "SAA 01 220, obverse lines 4-6 and reverse lines 1-9; Arihu to Nabu-duri-usur; discusses uncertainty over Samarian grain taxes. Not a list of deportees or proof of a specific migrant's identity.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "aebp-kings-road",
+    "title": "The King's Road: the imperial communication network",
+    "publisher": "Karen Radner / Assyrian Empire Builders, UCL, ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Governors/TheKing%27sRoad/index.html",
+    "type": "Specialist synthesis of Neo-Assyrian administration",
+    "access": "Explains relay and provincial communications, SAA 1 177 and road-station obligations. Infrastructure context, not an identified itinerary for any Israelite exile group.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "bm-tiglath-census-relief",
+    "title": "Tiglath-pileser III: Assyrian scribes and displaced captives, British Museum 1848,1104.5",
+    "publisher": "The British Museum Collection Online",
+    "url": "https://www.britishmuseum.org/collection/object/W_1848-1104-5",
+    "type": "Primary visual material: museum object",
+    "access": "A wall panel of counting spoil and captives; paired with BM 118882 in the same pictorial scene. Museum attributes it to campaigns in southern Iraq, not Samaria; 728 BCE production date.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "cambridge-naaman-deportees",
+    "title": "Locating sites of Assyrian deportees in ancient Israel and Southern Palestine",
+    "publisher": "Nadav Na'aman / McDonald Institute for Archaeological Research, University of Cambridge",
+    "url": "https://www.repository.cam.ac.uk/items/d0f17023-393a-4f22-aa2e-6267ba6017b0",
+    "type": "Peer-reviewed edited volume chapter: archaeological interpretation",
+    "access": "Chapter in The Provincial Archaeology of the Assyrian Empire (2016); repository records DOI 10.17863/CAM.128784, rights all reserved. Interpretive context, not primary testimony for any named family.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "oxford-faust-provinces",
+    "title": "The Empire in the Southwest: Reconstructing Assyrian Activity in the Provinces",
+    "publisher": "Avraham Faust / Oxford University Press",
+    "url": "https://academic.oup.com/book/39739/chapter-abstract/339783538",
+    "type": "Scholarly archaeological synthesis (abstract)",
+    "access": "The Neo-Assyrian Empire in the Southwest (2021), chapter 7, pages 181-213, DOI 10.1093/oso/9780198841630.003.0007. Abstract accessible; full scholarly argument may require institutional access. Warns administrative evidence is unevenly distributed.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "aebp-governors-overview",
+    "title": "Governors: Neo-Assyrian administration and research overview",
+    "publisher": "Karen Radner / Assyrian Empire Builders, UCL, ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Governors/index.html",
+    "type": "Specialist thematic index",
+    "access": "Index for governors, palace scribes, communication, resettlement and administration. Orientation only, not an original tablet or direct textual quotation.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "saao-downloads",
+    "title": "State Archives of Assyria Online - maintained downloadable SAA catalogues",
+    "publisher": "State Archives of Assyria Online / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/downloads/",
+    "type": "Institutional source catalogue and edition downloads",
+    "access": "Lists SAA 01-21 text data and catalogues; an index for verifying manuscript and edition identities, not proof that individual letter line locations have been personally collated.",
+    "checked": "2026-10-30"
   }
 ]
