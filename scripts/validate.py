@@ -329,8 +329,9 @@ def main():
         for dossier in HISTORICAL_EVIDENCE_ARTICLES:
             if '/articles/' + dossier['slug'] + '/' not in hub_html:
                 errors.append('Dossier not linked from hub: ' + dossier['slug'])
-            if len(dossier['sections']) != 5 or len(SECTION_DATA.get(dossier['slug'], {})) != 5:
-                errors.append('Dossier must retain five mapped source-specific sections: ' + dossier['slug'])
+            expected_sections = 11 if dossier['slug'] == 'samaria-assyrian-chronology' else 5
+            if len(dossier['sections']) != expected_sections or len(SECTION_DATA.get(dossier['slug'], {})) != expected_sections:
+                errors.append('Dossier must retain every mapped source-specific section (' + str(expected_sections) + '): ' + dossier['slug'])
             if 'bible-webbe' not in dossier['sources'] or not dossier.get('passages'):
                 errors.append('Biblical primary passages must be present on historical dossier: ' + dossier['slug'])
         dossier_ids = {item['slug'] for item in HISTORICAL_EVIDENCE_ARTICLES}
