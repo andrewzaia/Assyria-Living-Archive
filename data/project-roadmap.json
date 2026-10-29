@@ -27,7 +27,7 @@
       "id": "encyclopaedia",
       "title": "Encyclopaedia expansion and preservation",
       "status": "in-progress",
-      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts.",
+      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts. Six further original methods and community-heritage studies now complement ancient history and linguistic resources.",
       "next": "Continue article depth with exact inscription-line and tablet comparisons, fuller Middle Assyrian history, provincial life, women and non-elite voices, plus better dated post-imperial regional evidence. Specialist peer review remains outstanding."
     },
     {
@@ -41,8 +41,8 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, bidirectional source-to-guide links and 189 section-level reading trails across 63 original guides, including 32 newly mapped language and manuscript sections.",
-      "next": "Extend remaining section coverage and claim-specific review without treating a mapped bibliography as independent historical verification."
+      "delivered": "Evidence Register, source-to-guide links and 213 section-level evidence trails across 69 editorial guides, including 24 new heritage and community research sections.",
+      "next": "Continue source coverage and individual claim review, separating oral testimony, community self-description and independent historical evidence."
     },
     {
       "id": "claims",
@@ -61,23 +61,23 @@
     {
       "id": "community",
       "title": "Community testimony and heritage media",
-      "status": "planned",
-      "delivered": "Local Markdown contribution drafts can be downloaded without transmitting personal data.",
-      "next": "Plan speaker-consented dialect recordings, oral histories and family/village heritage submissions with permission and withdrawal controls before publishing or distributing audio."
+      "status": "in-progress",
+      "delivered": "Launched a public heritage and oral-history reference room containing ten previously published, externally linked records across migration, community institutions, cultural practice and living speech. Added six original method and history guides with 24 source-mapped sections, three blank downloadable planning worksheets, a locally filtered source index and explicit rights, narrator consent and privacy safeguards. No family submissions or protected recordings have been collected or published.",
+      "next": "Establish a separately authorised custodian, secure intake and informed-consent review process before collecting personal testimony. Invite community and subject specialists, document narrator review and access restrictions, and add village-specific sourced entries and permission-cleared media only after the needed agreements exist."
     },
     {
       "id": "submission",
       "title": "Secure contribution delivery",
       "status": "on-hold",
       "delivered": "Dormant backend is retained and public contributions remain download-only.",
-      "next": "Authorise a project-specific sender or Microsoft Graph integration, then verify privacy, anti-abuse controls and genuine end-to-end delivery."
+      "next": "Secure authorisation for a delivery workflow with encrypted storage and reviewer-only access before accepting any private testimony. Public heritage examples and Markdown drafts must remain link-only or local until that is approved."
     },
     {
       "id": "governance",
       "title": "Editorial governance and revision history",
       "status": "planned",
-      "delivered": "Contributor guidance and deterministic metadata validation exist.",
-      "next": "Define named reviewers, corrections, record revision provenance, moderation and multilingual editorial workflows."
+      "delivered": "Contributor guidance and deterministic metadata validation exist. The public heritage index now enforces source attribution, article relationships and external-reference-only publication; separate blank planning worksheets describe narrator review, access and rights questions.",
+      "next": "Define named editors, secure custody, contributor consent records, correction and access-restriction requests, release review, moderation and multilingual revision provenance before accepting real interviews."
     },
     {
       "id": "publication",

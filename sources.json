@@ -763,5 +763,41 @@
     "type": "Academic fieldwork and recordings",
     "access": "Speaker and locality-specific records, not representative pronunciation for every Assyrian or Aramaic variety",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "oha-australia-ethics",
+    "title": "Guidelines for ethical practice in oral history",
+    "publisher": "Oral History Australia",
+    "url": "https://oralhistoryaustralia.org.au/guide-ethical-practice/",
+    "type": "Professional ethical guidance",
+    "access": "Public ethical guidance; consent, choice of access conditions, and participant review. Guidance is not a substitute for a signed, project-specific agreement.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "oha-australia-practice",
+    "title": "Practising oral history",
+    "publisher": "Oral History Australia",
+    "url": "https://oralhistoryaustralia.org.au/guidance/practise/",
+    "type": "Professional oral-history practice",
+    "access": "Research planning, high quality recording, preservation and informed consent; externally hosted guidance, not a licence to reuse interviews.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "nla-oral-history-rights",
+    "title": "Rights and the Oral History and Folklore Collection",
+    "publisher": "National Library of Australia",
+    "url": "https://www.library.gov.au/services/copyright-library-collections/rights-and-oral-history-and-folklore-collection",
+    "type": "Library collection rights policy",
+    "access": "Written access and publication agreements; conditions differ per interview and transcript. NLA policy describes its own collection.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "nla-oral-history-access",
+    "title": "Using the Oral History collection",
+    "publisher": "National Library of Australia",
+    "url": "https://www.library.gov.au/research/access-collection/using-oral-history-collection",
+    "type": "Library collection access guide",
+    "access": "Separates finding, researching, copying and publicly reusing oral histories; consult the item-level catalogue record.",
+    "checked": "2026-10-29"
   }
 ]

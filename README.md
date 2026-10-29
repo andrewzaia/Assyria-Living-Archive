@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 460 reading entries (88 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 466 reading entries (94 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -146,6 +146,16 @@ The register exports the mapped and unmapped section counts, source IDs and book
 The /languages/ reference room is generated from `data/syriac-letters.json` and `language_page.py`. It provides a compact research route to eight new specialist-sourced editorial guides and a static reference grid of **22 Unicode Syriac letter identities** (U+0710 through U+072C, excluding supplementary characters). The characters are Unicode identifiers, not a pronunciation model or facsimiles of Estrangela, Serto or East Syriac manuscript hands. Native right-to-left text rendering depends on the user's system shaping and fonts.
 
 The milestone also adds **32 new mapped editorial sections**, eight additional institutional and academic source records, and direct external links to Cambridge NENA **Urmi, Alqosh and Ankawa** recording pages. Manuscript letterform comparisons link to HMML School without copying protected images. No generated audio, assumed accent, unlicensed text editions or unreviewed transliterations have been added. Linguistic peer review, permission-cleared audio, dialect-specific transliteration keys and real browser typography checks remain open. The generated hub is validated alongside the ordinary site paths by `scripts/validate.py`.
+
+## Community testimony and heritage preservation milestone
+
+The public `/heritage/` room presents **ten linked, already published records** as leads for research into migration, Assyrian community organisations, living languages, broadcasts and cultural practice. The curated external-source register is maintained in `data/heritage-records.json` and exported as `/heritage-records.json`. Each entry states its source role, the original custodian and the restriction that no media is locally copied. Categories are filtered in the browser without any account, network request or tracking.
+
+Six original articles and **24 new section-level source trails** explain interviewing, village research, diaspora accounts, art and everyday culture, broadcast references and consent. The three original blank worksheets in `archive/heritage/` are downloadable Markdown: a story-planning sheet, open-ended interview prompts, and a permissions-review checklist. They are **not** participant consent forms, automatically collected submissions, or evidence of permission to publish. Do not commit completed sheets, recordings or private contact details into the public repository.
+
+Editorial workflow: identify credible custodians, verify the record's source role and permitted access, obtain and document participation or reuse permission separately, offer narrator review where appropriate, and publish only approved versions and non-sensitive metadata. Guidance comes from Oral History Australia and the National Library of Australia; those institutions are cited, not affiliated with the project. No private recordings or media are collected or hosted, and the existing contribution form still only downloads a local draft. A secure intake service, verified individual permissions and a named curator are future requirements, not features already completed.
+
+The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
 
 ## Claim-level verification and the Next Chapters roadmap
 
