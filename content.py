@@ -434,10 +434,17 @@ TIMELINE = [
 ('Third millennium BCE','Ancient','Ashur develops','The Tigris city has a long settlement history before the better-known imperial periods.','ashur','unesco-ashur'),
 ('Early second millennium BCE','Ancient','Merchant networks in Anatolia','Old Assyrian tablets document trade, investment and correspondence.','old-assyrian-trade','met-caravan'),
 ('Fourteenth to eleventh centuries BCE','Ancient','Middle Assyrian expansion','Assyria develops as a major territorial power. Period boundaries are approximate.','ancient-assyria','met-assyria'),
-('883-859 BCE','Ancient','Ashurnasirpal II and Kalhu','A major programme of royal building and sculpture transforms Nimrud.','nimrud','met-court'),
-('Eighth century BCE','Ancient','Dur-Sharrukin','Sargon II creates a new royal capital at modern Khorsabad.','khorsabad','khorsabad-ministry'),
-('Seventh century BCE','Ancient','Scholarship at Nineveh','Royal tablet collections form part of a wider Mesopotamian scholarly landscape.','nineveh','yale-libraries'),
-('Late seventh century BCE','Ancient','End of imperial power','The collapse of the Assyrian state is a political turning point, not evidence that every local population disappeared.','ancient-assyria','met-assyria'),
+('883-859 BCE','Ancient','Ashurnasirpal II and Kalhu','A programme of royal building and palace sculpture transforms Nimrud.','ashurnasirpal-ii','met-assyria'),
+('858-824 BCE','Ancient','Shalmaneser III','Western campaigns and shifting relations with Levantine states.','shalmaneser-iii','met-rulers-assyria'),
+('745-727 BCE','Ancient','Tiglath-pileser III','Conquests and provincial administration reshape Assyrian rule.','tiglath-pileser-iii','aebp-tiglath'),
+('726-722 BCE','Ancient','Shalmaneser V','A short reign and contested questions around Samaria.','shalmaneser-v','aebp-shalmaneser-v'),
+('721-705 BCE','Ancient','Sargon II and Dur-Sharrukin','Sargon II creates a new royal capital at modern Khorsabad.','sargon-ii','aebp-sargon'),
+('701 BCE','Ancient','Sennacherib and Judah','Royal reliefs and the biblical record describe aspects of the Assyrian campaign.','sennacherib','bm-lachish-panel'),
+('671 BCE','Ancient','Esarhaddon in Egypt','Historical accounts describe the Assyrian capture of Memphis.','esarhaddon','met-assyria'),
+('Seventh century BCE','Ancient','Scholarship at Nineveh','Royal tablet collections form part of a wider Mesopotamian scholarly landscape.','ashurbanipal','bm-ashurbanipal-tablet'),
+('612 BCE','Ancient','Fall of Nineveh','The capture of Nineveh is a turning point in the collapse of imperial rule.','fall-of-nineveh','met-assyria'),
+('609 BCE','Ancient','Last stand at Harran','Remaining Assyrian forces are defeated during the struggle for imperial control.','fall-of-nineveh','met-levant-chronology'),
+('Parthian period','Ancient','Later life at Ashur','Archaeological phases at the old Assyrian capital document later activity.','post-imperial-assyria','unesco-ashur'),
 ('Fourth century CE','Literary heritage','Ephrem and Syriac literature','The poet and theologian works in Nisibis and Edessa; he dies in 373.','ephrem','gedsh-ephrem'),
 ('Late sixteenth century','Literary heritage','Attested Sureth literary texts','The written record includes religious poetry in local Neo-Aramaic varieties.','sureth','gedsh-sureth'),
 ('First World War and aftermath','Modern','Sayfo','Mass violence, survival and displacement become central subjects of historical research and memory.','sayfo','modern-sayfo'),
@@ -466,3 +473,20 @@ for _article in ARTICLES:
             _article['passage_note']='Genesis names Calah among the cities in its account of Nimrod and Assyria. The identification of ancient Kalhu with the archaeological site now called Nimrud comes from historical and archaeological evidence; the modern site name does not establish that Nimrod lived there.'
         elif _article['slug']=='khorsabad':
             _article['passage_note']='Isaiah 20 names Sargon and Ashdod. It does not name Dur-Sharrukin; the connection between Sargon II and that capital is supplied by the archaeological and inscriptional evidence cited in this article.'
+
+# Build reading routes both ways without changing the original city introductions.
+_NEW_READING_ROUTES = {
+    'ancient-assyria': ['ashurnasirpal-ii', 'assyrian-governance', 'fall-of-nineveh', 'post-imperial-assyria'],
+    'nimrud': ['ashurnasirpal-ii', 'shalmaneser-iii'],
+    'khorsabad': ['sargon-ii'],
+    'nineveh': ['sennacherib', 'ashurbanipal', 'fall-of-nineveh'],
+    'ashur': ['assyrian-religious-life', 'post-imperial-assyria'],
+    'akkadian-and-cuneiform': ['imperial-languages'],
+    'aramaic': ['imperial-languages'],
+    'royal-reliefs': ['sennacherib', 'ashurnasirpal-ii'],
+    'assyrian-identity': ['post-imperial-assyria'],
+}
+for _article in ARTICLES:
+    for _slug in _NEW_READING_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
