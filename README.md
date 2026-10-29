@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 492 reading entries (120 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 493 reading entries (121 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -156,6 +156,14 @@ Six original articles and **24 new section-level source trails** explain intervi
 Editorial workflow: identify credible custodians, verify the record's source role and permitted access, obtain and document participation or reuse permission separately, offer narrator review where appropriate, and publish only approved versions and non-sensitive metadata. Guidance comes from Oral History Australia and the National Library of Australia; those institutions are cited, not affiliated with the project. No private recordings or media are collected or hosted, and the existing contribution form still only downloads a local draft. A secure intake service, verified individual permissions and a named curator are future requirements, not features already completed.
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
+
+## Ancient texts and translation comparisons
+
+Milestone 12 adds the public `/text-comparisons/` research room and a side-by-side reading panel for each of the nine archaeological case-file articles. Seven named, edited Middle Assyrian tablets are displayed with **16 very short attributed transliteration snippets**, the individual editor's line coordinates, **newly authored English reading cues** and explicit notes on damaged, restored or queried signs. The unverified line editions for the Metropolitan Museum tablet and British Museum Chronicle are deliberately absent rather than invented.
+
+An original five-section method article, `/articles/reading-cuneiform-transliteration/`, explains cuneiform transliteration, normalized Akkadian, technical signs, variations in published translation and chronological source comparisons. Three Oracc/Oxford method references join the curated bibliography. Data and independent publication status are recorded in `data/text-comparisons.json`, validated by `text_comparisons.py`, and exported to `/text-comparisons.json` after static compilation. Excerpts are clearly credited to Jacob Jan de Ridder's ATMAP/TCMA editions under the cited **CC BY-SA 3.0** licence with links to the original publications; scholarly translations are *not* mirrored. English reading cues are original editorial synopses, not new verified Akkadian translations.
+
+Totals now stand at **116 curated sources**, **339 source-mapped sections across 96 editorial guides**, **62 pending claim-review records** and **493 reading entries**. `scripts/test_text_comparisons.py` rejects missing edition credits, removed restoration brackets, illegitimate original-language claims for catalogue-only objects and truncated excerpts. The public accessibility smoke checks and full site validation cover both root and GitHub Pages deployment modes.
 
 ## Individually identified tablet and archaeological object case files
 
