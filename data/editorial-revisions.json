@@ -32,6 +32,36 @@
   ],
   "changes": [
     {
+      "id": "REV-0012",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Ancient text concordance and biblical cross-reference index",
+      "summary": "Twenty-five manually curated research terms link thirty-two specific tablet or object evidence relationships, forty-three encyclopaedia reading routes and eleven biblical passage comparisons. A locally searchable, accessible concordance hub, direct line anchors, reciprocal article links, offline data export and source/verse validation make these connections navigable.",
+      "impact": "Relationships distinguish direct edited inscriptions, object-level context, related articles and biblical primary-text comparisons. Similar names or subjects do not establish identical historical people or events. Automated checks cannot replace independent Assyriological, biblical or accessibility review; no such completion is claimed.",
+      "commit": "680fcda54720c17e6dbacdf570e1f31788696614",
+      "pr": 26,
+      "sections": [
+        "/concordance/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/concordance.json",
+        "concordance.py",
+        "concordance_page.py",
+        "static/concordance.js",
+        "text_comparisons.py",
+        "generate.py",
+        "navigation.py",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0011",
       "date": "2026-10-30",
       "kind": "feature-release",
