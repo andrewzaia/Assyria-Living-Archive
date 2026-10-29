@@ -78,23 +78,33 @@ def build(articles, sources):
 
 
 def render(report):
+    summary = report['summary']
     out = ['<section aria-labelledby="claim-register-title"><div class="prose"><h2 id="claim-register-title">Claim-level review register</h2>',
            '<p>' + H(report['method']) + '</p>',
-           '<p><strong>' + str(report['summary']['claim_records']) + ' records, ' +
-           str(report['summary']['awaiting_review']) + ' awaiting independent review.</strong> These are editorial mappings, not a verified-claim count.</p></div>',
-           '<ol class="source-list claim-review-list">']
+           '<p><strong>' + str(summary['claim_records']) + ' records, ' +
+           str(summary['awaiting_review']) + ' awaiting independent review.</strong> Expand a record to inspect its direct references, comparison sources and limitations.</p></div>',
+           '<ol class="claim-review-list">']
     for item in report['claims']:
         readings = ['<a href="' + H(reference_url(ref)) + '">' + H(reference_label(ref)) + '</a>' for ref in item['passages']]
         direct = ['<a href="/sources/#source-' + H(s) + '">' + H(s) + '</a>' for s in item['evidence_sources']]
         context = ['<a href="/sources/#source-' + H(s) + '">' + H(s) + '</a>' for s in item['context_sources']]
         label = 'Biblical account' if item['kind'] == 'biblical-text' else 'Historical source record'
-        out += ['<li class="source-item" id="claim-' + H(item['id'].lower()) + '"><span class="source-no">' + H(item['id']) + '</span><div>',
-                '<span class="eyebrow">' + H(label) + ' / Awaiting specialist review</span><h3>' + H(item['claim']) + '</h3>',
-                '<p><a href="/articles/' + H(item['article']) + '/#section-' + str(item['section_number']) + '">' +
-                H(item['article_title']) + ' / ' + H(item['section']) + '</a></p>']
+        review_status = item['review']['status'].replace('-', ' ').capitalize()
+        out += ['<li class="claim-record" id="claim-' + H(item['id'].lower()) + '"><details><summary>',
+                '<span class="claim-id">' + H(item['id']) + '</span><span class="claim-title"><strong>' +
+                H(item['claim']) + '</strong><small>' + H(label) + ' / ' + H(review_status) + '</small></span></summary>',
+                '<div class="claim-record-content"><p><a href="/articles/' + H(item['article']) +
+                '/#section-' + str(item['section_number']) + '">' + H(item['article_title']) + ' / ' +
+                H(item['section']) + '</a></p>']
         if readings: out.append('<p><strong>Scripture:</strong> ' + ', '.join(readings) + '</p>')
         if direct: out.append('<p><strong>Direct source:</strong> ' + ', '.join(direct) + '</p>')
         if context: out.append('<p><strong>Comparison or context only:</strong> ' + ', '.join(context) + '</p>')
-        out.append('<p><strong>Review limitation:</strong> ' + H(item['limitation']) + '</p></div></li>')
+        out.append('<p><strong>Review limitation:</strong> ' + H(item['limitation']) + '</p>')
+        review = item['review']
+        if review['status'] == 'independently-reviewed':
+            out.append('<p><strong>Independent reviewer:</strong> ' + H(review['reviewer']) +
+                       ' (' + H(review['date']) + ')</p><p><strong>Review note:</strong> ' +
+                       H(review['review_note']) + '</p>')
+        out.append('</div></details></li>')
     out.append('</ol></section>')
     return ''.join(out)
