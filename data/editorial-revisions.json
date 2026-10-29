@@ -32,6 +32,40 @@
   ],
   "changes": [
     {
+      "id": "REV-0015",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "The Fall of Samaria and Assyrian succession",
+      "summary": "Published eight documented comparison cases over four teaching-order stages with twelve biblical reading routes, five directly identified RINAP editions, a clearly labelled Shalmaneser V specialist synthesis, edition-specific uncertainty and provenance, an accessible progressive phase filter and offline JSON. Added six mapped historical sections, six anchored claims and five institutional source records, raising the curated source library to 124 and the independent review queue to 72.",
+      "impact": "Samaria history is not reduced to an invented single siege account. The Bible names Shalmaneser V in the siege narrative while royal Sargonic inscriptions claim conquest. The Pekah/Hoshea killing verb is broken, Sargon deportation totals differ across exemplars, and Sargon annal restorations are distinguishable from preserved signs. Direct citation checks and automated validation do not substitute for independent historical, Assyriological or biblical specialist review.",
+      "commit": "c2d15f93edbe3d99e167351271103174c15d560e",
+      "pr": 30,
+      "sections": [
+        "/samaria-succession/",
+        "/articles/samaria-assyrian-chronology/",
+        "/about/evidence/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/samaria-succession.json",
+        "samaria_succession.py",
+        "samaria_succession_page.py",
+        "static/samaria-succession.css",
+        "static/samaria-succession.js",
+        "scripts/test_samaria_succession.py",
+        "data/claim-reviews.json",
+        "historical_evidence_content.py",
+        "data/section-evidence.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0014",
       "date": "2026-10-30",
       "kind": "feature-release",
