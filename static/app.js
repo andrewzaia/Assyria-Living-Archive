@@ -150,7 +150,10 @@
       $('#search-results').innerHTML=found.map(a=>`<a href="${BASE}/articles/${esc(a.slug)}/"><span class="eyebrow">${esc(a.category)}</span><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p></a>`).join('');
     }catch{if(version===searchVersion)$('#search-status').textContent='The search catalogue could not load. Please try again.';}
   };
-  $('.search-open').forEach(b=>b.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();$('#global-search').focus();}));
+  // All header search triggers must be collected as a NodeList. querySelector
+  // returns one Element, which has no forEach and previously stopped every
+  // subsequent initializer, including Explore topic buttons and search.
+  $$('.search-open').forEach(b=>b.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();$('#global-search').focus();}));
   $('.search-close')?.addEventListener('click',()=>dialog.close());
   dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
   $('#global-search')?.addEventListener('input',searchGlobal);
@@ -162,7 +165,7 @@
     const apply=()=>{
       const q=$('#article-search').value.trim().toLowerCase();let count=0;
       cards.forEach(c=>{c.hidden=!(topic==='all'||c.dataset.category===cats[Number(topic)])||!q.split(/\s+/).every(w=>c.dataset.search.includes(w));if(!c.hidden)count++;});
-      $('#result-count').textContent=`${count} introduction${count===1?'':'s'}`;$('#no-results').hidden=!!count;
+      $('#result-count').textContent=`${count} reading entr${count===1?'y':'ies'}`;$('#no-results').hidden=!!count;
       $$('.chip[data-topic]').forEach(b=>{const active=b.dataset.topic===topic;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
     };
     // Category labels are rendered in the same order as the catalogue.
