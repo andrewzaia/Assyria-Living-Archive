@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The foundation edition contains 40 introductory articles, 51 source records, six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 438 reading entries (66 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -112,6 +112,14 @@ The second encyclopaedia expansion is measured against `data/encyclopaedia-round
 
 The active reference manifest is `archive/encyclopaedia-references.json`, falling back to the original manifest when absent. Original API responses are preserved losslessly in deterministic gzip files, with checksums for both compressed and original bytes. The older source edition remains in Git history and its original files remain retained. Preserved external references are labelled as such, including shared regional context. Their inclusion does not imply independent scholarly review or an Assyrian identity for every subject. The acquisition tool never runs during ordinary builds.
 
+
+## Evidence traceability and review
+
+The `/about/evidence/` register is a measured, navigable index of editorial guides and the source records they cite. The source library now links referenced source records back to their editorial guides and displays each source's recorded check or retrieval date rather than a single hardcoded date. The register can be downloaded as `/evidence-index.json`.
+
+This is an **article-level citation graph**, not a claim-by-claim fact check. Neither a source link, a recent check date nor a high citation count proves historical accuracy. Original editorial guides have not received documented specialist peer review; retained Wikipedia references are attributed external text, not locally endorsed historical conclusions. The next editorial step is to map individual claims or sections to specific evidence and record review decisions.
+
+`scripts/validate.py` verifies that the generated evidence index agrees exactly with article and source metadata, including every reverse citation relationship.
 
 ## Contribution email delivery - on hold
 

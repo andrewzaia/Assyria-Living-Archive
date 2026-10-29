@@ -22,7 +22,7 @@ Choose one of the six existing categories. Every source ID must exist in `source
 
 Source records use `id`, `title`, `publisher`, `url`, `type`, `access` and `checked`. Use stable institutional or publication URLs where possible. Record the actual consultation date; do not update it merely because a build ran.
 
-The foundation template displays a compilation date and article-level reference groups. If substantively updating an entry, review the displayed dates and make the relevant evidence trail clear. Section-level source attribution and individual revision metadata are planned improvements.
+The published editorial guides currently use article-level bibliography links. The evidence register at `/about/evidence/` and `evidence-index.json` exposes this relationship in both directions; it does not claim that every statement is individually verified. Do not describe an unreviewed source as peer reviewed or a consultation date as independent validation. The foundation template displays a compilation date and article-level reference groups. If substantively updating an entry, review the displayed dates and make the relevant evidence trail clear. Section-level source attribution and individual revision metadata are planned improvements.
 
 ## Evidence and identity
 
