@@ -124,9 +124,13 @@ The active reference manifest is `archive/encyclopaedia-references.json`, fallin
 
 The `/about/evidence/` register is a measured, navigable index of editorial guides and the source records they cite. The source library now links referenced source records back to their editorial guides and displays each source's recorded check or retrieval date rather than a single hardcoded date. The register can be downloaded as `/evidence-index.json`.
 
-This is an **article-level citation graph**, not a claim-by-claim fact check. Neither a source link, a recent check date nor a high citation count proves historical accuracy. Original editorial guides have not received documented specialist peer review; retained Wikipedia references are attributed external text, not locally endorsed historical conclusions. The next editorial step is to map individual claims or sections to specific evidence and record review decisions.
+The first section-level research pass now identifies **101 individually mapped sections across 41 guides**, including locally hosted Scripture links. The exact section-to-reference mappings live in `data/section-evidence.json` and are checked by `section_evidence.py`. Add a mapping only after verifying that the named source or passage is relevant to that specific section. Bible passages must already occur within the guide's primary passage list, and linked non-biblical sources must exist in its bibliography. The editor may leave a section unmapped rather than assign tenuous evidence.
 
-`scripts/validate.py` verifies that the generated evidence index agrees exactly with article and source metadata, including every reverse citation relationship.
+The register exports the mapped and unmapped section counts, source IDs and book/chapter/verse coordinates in `/evidence-index.json`. The generator adds small "Section reading trail" boxes beneath mapped sections, without changing the full article bibliography. The source library also records the University of Pennsylvania's RINAP royal inscriptions collection as independent historical source material, separate from Scripture. A Sargon guide citation formerly linking unrelated translator notes has been replaced with a relevant Assyrian Empire Builders history.
+
+**These are selected reading trails, not a claim-by-claim fact check.** A mapped section is not thereby fully substantiated; neither a source link, a recent check date nor a high citation count proves historical accuracy. Original guides have no recorded specialist peer review, and preserved external texts remain credited, not locally endorsed. Next: sentence-level notes on contested claims, direct inscription/tablet identifications and documented expert review.
+
+`scripts/validate.py` verifies the generated evidence index against article metadata, checks every section mapping and ensures the expected trail is present on the generated page. Both root and GitHub Pages subpath builds test local links and Bible verse targets.
 
 ## Contribution email delivery - on hold
 
