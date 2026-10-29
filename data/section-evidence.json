@@ -2,24 +2,54 @@
   "assyrian-identity": {
     "A living identity": {
       "sources": [
-        "gedsh-assyrians"
+        "gedsh-assyrians",
+        "gedsh-chaldeans",
+        "modern-acoe"
       ]
     },
-    "Names deserve care": {
+    "A church affiliation is not an ethnicity test": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "donabed-2012-appellative",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Why modern Chaldean naming requires a timeline": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Ancient Chaldeans and today's Chaldean Catholic name are different historical categories": {
+      "sources": [
+        "iranica-ancient-chaldeans",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Independent voices, denominational interests and bias": {
+      "sources": [
+        "donabed-2012-appellative",
+        "hanoosh-2019-chaldean-identity",
+        "modern-chaldean"
+      ]
+    },
+    "What language evidence does and does not say": {
       "sources": [
         "gedsh-aramaic",
-        "modern-chaldean"
+        "gedsh-chaldeans"
+      ]
+    },
+    "How the archive applies the evidence": {
+      "sources": [
+        "gedsh-chaldeans",
+        "iranica-ancient-chaldeans"
       ]
     },
     "The history of a name": {
       "sources": [
         "gedsh-assyrians"
-      ]
-    },
-    "How to read the evidence": {
-      "sources": [
-        "modern-kanna",
-        "gedsh-aramaic"
       ]
     }
   },
@@ -370,16 +400,39 @@
     }
   },
   "faith-and-churches": {
-    "A shared field, distinct churches": {
+    "An intertwined East Syriac history with different churches": {
       "sources": [
         "modern-acoe",
         "modern-chaldean",
-        "modern-syriac-constitution"
+        "modern-syriac-constitution",
+        "vatican-2001-church-of-east-unity",
+        "gedsh-chaldeans"
       ]
     },
-    "Ethnicity is a separate question": {
+    "What the fifteenth and sixteenth centuries changed": {
       "sources": [
-        "gedsh-syriac"
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean"
+      ]
+    },
+    "Ethnic heritage is not determined by sacraments or patriarchates": {
+      "sources": [
+        "gedsh-chaldeans",
+        "donabed-2012-appellative",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Use the right authorities for the right claim": {
+      "sources": [
+        "parker-2018-chaldaean",
+        "hanoosh-2019-chaldean-identity",
+        "modern-chaldean"
+      ]
+    },
+    "Common heritage without a compulsory identity label": {
+      "sources": [
+        "hanoosh-2019-chaldean-identity",
+        "donabed-2012-appellative"
       ]
     }
   },
@@ -3047,6 +3100,119 @@
           13,
           15
         ]
+      ]
+    }
+  },
+  "chaldean-church": {
+    "The name denotes a Catholic church, not an automatic separate ancestry": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "modern-chaldean"
+      ]
+    },
+    "How the religious designation developed": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "vatican-2001-church-of-east-unity",
+        "modern-chaldean-history"
+      ]
+    },
+    "Modern ethnic interpretations are not a doctrine or a census": {
+      "sources": [
+        "donabed-2012-appellative",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Do not confuse modern usage with the ancient Kaldu": {
+      "sources": [
+        "iranica-ancient-chaldeans",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "Shared Syriac inheritance and church differences": {
+      "sources": [
+        "vatican-2001-church-of-east-unity",
+        "gedsh-chaldeans"
+      ]
+    },
+    "How church sources are used on this page": {
+      "sources": [
+        "modern-chaldean",
+        "modern-chaldean-history",
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean"
+      ]
+    }
+  },
+  "chaldean-name-and-heritage": {
+    "What the word Chaldean identifies in church history": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean"
+      ]
+    },
+    "Assyrian heritage transcends Catholic and non-Catholic affiliation": {
+      "sources": [
+        "vatican-2001-church-of-east-unity",
+        "donabed-2012-appellative",
+        "parker-2018-chaldaean"
+      ]
+    },
+    "Chaldean Catholic and Syriac Orthodox are not interchangeable church labels": {
+      "sources": [
+        "vatican-2001-church-of-east-unity",
+        "modern-acoe",
+        "gedsh-chaldeans"
+      ]
+    },
+    "Ancient Chaldeans in Babylonia are not the same historical category": {
+      "sources": [
+        "iranica-ancient-chaldeans",
+        "hanoosh-2019-chaldean-identity"
+      ]
+    },
+    "The modern ethnic label has a documented history longer than the 1990s": {
+      "sources": [
+        "gedsh-chaldeans",
+        "hanoosh-2016-appellations"
+      ]
+    },
+    "Why Assyrian advocates object to denominational division": {
+      "sources": [
+        "donabed-2012-appellative",
+        "gedsh-chaldeans"
+      ]
+    },
+    "Contemporary Chaldean self-identification and scholarly disagreement": {
+      "sources": [
+        "hanoosh-2019-chaldean-identity",
+        "donabed-2012-appellative"
+      ]
+    },
+    "Linguistic inheritance is not a church-controlled ethnic boundary": {
+      "sources": [
+        "gedsh-aramaic",
+        "gedsh-syriac"
+      ]
+    },
+    "A source hierarchy that exposes advocacy and corrects bias": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "hanoosh-2019-chaldean-identity",
+        "modern-chaldean"
+      ]
+    },
+    "Readings for independent verification": {
+      "sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean",
+        "vatican-2001-church-of-east-unity",
+        "donabed-2012-appellative",
+        "hanoosh-2019-chaldean-identity",
+        "iranica-ancient-chaldeans"
       ]
     }
   }

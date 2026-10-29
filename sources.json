@@ -365,7 +365,7 @@
     "publisher": "Chaldean Diocese of St. Thomas the Apostle U.S.A.",
     "url": "https://chaldeanchurch.org/about-the-chaldean-church/",
     "type": "Official church self-description",
-    "access": "Public resource; check individual reuse terms",
+    "access": "First-party Chaldean Catholic diocesan account. Appropriate for worship, church institution and self-description ONLY; not independent corroboration of ethnic separation, language classification, unbroken descent from ancient Kaldu or claims about all Church of the East communities.",
     "checked": "2026-10-26"
   },
   {
@@ -383,7 +383,7 @@
     "publisher": "Catholic Near East Welfare Association (CNEWA)",
     "url": "https://cnewa.org/eastern-christian-churches/the-catholic-eastern-churches/from-the-assyrian-church-of-the-east/the-chaldean-catholic-church/",
     "type": "Catholic institutional reference",
-    "access": "Public resource; check individual reuse terms",
+    "access": "Catholic Near East Welfare Association institutional reference. Used for Catholic ecclesiastical history and church relations, NOT independent academic authority for modern ethnicity, language or a distinct ancient ancestral origin.",
     "checked": "2026-10-26"
   },
   {
@@ -1176,6 +1176,69 @@
     "url": "https://oracc.museum.upenn.edu/saao/downloads/",
     "type": "Institutional source catalogue and edition downloads",
     "access": "Lists SAA 01-21 text data and catalogues; an index for verifying manuscript and edition identities, not proof that individual letter line locations have been personally collated.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "gedsh-chaldeans",
+    "title": "Chaldeans - historical ecclesiastical and modern identity terms",
+    "publisher": "James F. Coakley / Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
+    "url": "https://gedsh.bethmardutho.org/Chaldeans",
+    "type": "Independent specialist historical dictionary",
+    "access": "Explicitly distinguishes Chaldean Catholics from modern ethnic uses; records the name in the 1445 papal brief, later East Syriac Catholic adoption, nineteenth-century historical-descent advocacy, and debates over contemporary community terms. Scholar's analysis, not a church's authority on other people's ethnicity.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "parker-2018-chaldaean",
+    "title": "The Ambiguities of Belief and Belonging: Catholicism and the Church of the East in the Sixteenth Century",
+    "publisher": "Lucy Parker / The English Historical Review, Oxford University Press (2018)",
+    "url": "https://doi.org/10.1093/ehr/cey334",
+    "type": "Peer-reviewed early-modern church history",
+    "access": "English Historical Review 133(565), 1420-1445. The accessible abstract describes the emergence of the East Syrian Catholic church in the 1550s and cautions against anachronistic fixed confessional categories; full journal article may require access.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "hanoosh-2019-chaldean-identity",
+    "title": "The Chaldeans: Politics and Identity in Iraq and the American Diaspora",
+    "publisher": "Yasmeen S. Hanoosh / I.B. Tauris, Bloomsbury Academic, Portland State University (2019)",
+    "url": "https://pdxscholar.library.pdx.edu/wll_fac/134/",
+    "type": "Academic ethnographic historical monograph",
+    "access": "University repository's book abstract identifies modern Aramaic-speaking Chaldean Catholics as distinct from ancient Chaldean tribes; dates the ecclesiastical adoption and studies how present-day identity developed. Full book unavailable via public record and not independently read in full.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "donabed-2012-appellative",
+    "title": "Rethinking Nationalism and an Appellative Conundrum: Historiography and Politics in Iraq",
+    "publisher": "Sargon G. Donabed / National Identities, Taylor & Francis (2012)",
+    "url": "https://doi.org/10.1080/14608944.2012.733208",
+    "type": "Peer-reviewed Assyrian-oriented identity interpretation",
+    "access": "Open article emphasises Assyrian cross-denominational heritage and quotes former Chaldean patriarch Raphael Bidawid's expression of Assyrian ethnicity and Chaldean confession; not a neutral census of all members or sole authoritative interpretation.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "iranica-ancient-chaldeans",
+    "title": "Chaldeans (Kaldu): ancient West Semitic tribes of southern Babylonia",
+    "publisher": "Muhammad A. Dandamayev / Encyclopaedia Iranica (1991; updated 2013)",
+    "url": "https://www.iranicaonline.org/articles/chaldeans-kaldu-west-semitic-tribes/",
+    "type": "Independent specialist ancient history reference",
+    "access": "Ancient Kaldu were groups attested in southern Babylonia from the ninth century BCE, a separate historical category from the later Chaldean Catholic Church and present-day ethnic self-identification.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "vatican-2001-church-of-east-unity",
+    "title": "Guidelines for Admission to the Eucharist between the Chaldean Church and the Assyrian Church of the East",
+    "publisher": "Pontifical Council for Promoting Christian Unity / Holy See (2001)",
+    "url": "https://www.christianunity.va/content/unitacristiani/fr/dialoghi/sezione-orientale/chiesa-assira-dell-oriente/altri-documenti/2001---orientamenti-per-lammissione-alleucaristia-fra-la-chiesa-/testo-in-inglese.html",
+    "type": "First-party interchurch institutional history",
+    "access": "Direct Catholic-Assyrian interchurch guidance acknowledges a shared Church of the East background and sixteenth-century moves into communion with Rome. Official position for church history, not independent academic proof of modern ethnic identity.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "hanoosh-2016-appellations",
+    "title": "Minority Identities Before and After Iraq: The Making of the Modern Assyrian and Chaldean Appellations",
+    "publisher": "Yasmeen S. Hanoosh / The Arab Studies Journal 24(2), 2016",
+    "url": "https://www.christianitymiddleeast.gr.cemmis.edu.gr/resources/annotated-bibliography/227-minority-identities-before-and-after-iraq-the-making-of-the-modern-assyrian-and-chaldean-appellations",
+    "type": "Academic article - independent scholarly abstract",
+    "access": "Annotated bibliography identifies 2016 study tracing modern Assyrian and Chaldean naming and missionary encounters; linked listing only, not an audited full article. Distinguishes development over several centuries from simplistic late-1990s invention.",
     "checked": "2026-10-30"
   }
 ]

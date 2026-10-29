@@ -1924,6 +1924,178 @@
         "reviewer": null,
         "date": null
       }
+    },
+    {
+      "id": "CL-081",
+      "article": "chaldean-name-and-heritage",
+      "section": "What the word Chaldean identifies in church history",
+      "anchor": "Independent specialist James F. Coakley's GEDSH Chaldeans entry identifies the papal use in 1445",
+      "claim": "The modern church designation Chaldean is documented in papal ecclesiastical usage in 1445.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans"
+      ],
+      "context_sources": [
+        "parker-2018-chaldaean"
+      ],
+      "limitation": "Coakley's dictionary is independent expert historical synthesis, not an original papal brief personally collated here. The name's ecclesiastical use is distinct from historical descent.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-082",
+      "article": "chaldean-name-and-heritage",
+      "section": "Assyrian heritage transcends Catholic and non-Catholic affiliation",
+      "anchor": "People of the Chaldean Catholic Church and the Assyrian Church of the East share substantial East Syriac Christian history",
+      "claim": "Chaldean Catholic and Assyrian Church of the East communities share a substantial Church of the East historical inheritance.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "parker-2018-chaldaean"
+      ],
+      "context_sources": [
+        "vatican-2001-church-of-east-unity",
+        "donabed-2012-appellative"
+      ],
+      "limitation": "Historical and ecclesiastical overlap is not a certified ancestry for every individual; Vatican is a first-party religious institutional source and Donabed advances a cross-denominational Assyrian position.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-083",
+      "article": "chaldean-name-and-heritage",
+      "section": "Ancient Chaldeans in Babylonia are not the same historical category",
+      "anchor": "Encyclopaedia Iranica documents the ancient Kaldu or Chaldeans as West Semitic tribal groups",
+      "claim": "Ancient Kaldu were historical groups in southern Babylonia; their ancient ethnonym does not by itself demonstrate genealogical descent for all modern Chaldean Catholics.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "iranica-ancient-chaldeans"
+      ],
+      "context_sources": [
+        "hanoosh-2019-chaldean-identity"
+      ],
+      "limitation": "The ancient record and much later church names are different evidentiary categories. This source does not genealogically test modern communities.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-084",
+      "article": "chaldean-name-and-heritage",
+      "section": "The modern ethnic label has a documented history longer than the 1990s",
+      "anchor": "The GEDSH Chaldeans entry discusses the association of the name with a broader ethnic identity in nineteenth-century writing",
+      "claim": "There are documented nineteenth-century uses and advocacy of a broader Chaldean national or ethnic label, predating the late 1900s.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans"
+      ],
+      "context_sources": [
+        "hanoosh-2016-appellations"
+      ],
+      "limitation": "The dating of a published argument is not proof of uniform self-identification throughout all centuries or of a separate ancient ancestry; scholarly reconstructions differ.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-085",
+      "article": "chaldean-name-and-heritage",
+      "section": "Why Assyrian advocates object to denominational division",
+      "anchor": "Sargon Donabed's 2012 peer-reviewed discussion describes an Assyrian cross-denominational interpretation",
+      "claim": "A peer-reviewed Assyrian-oriented author documents shared Assyrian heritage claims and attributes an Assyrian self-identification to former Chaldean patriarch Raphael Bidawid.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "donabed-2012-appellative"
+      ],
+      "context_sources": [
+        "gedsh-chaldeans"
+      ],
+      "limitation": "The original interview quotation has not been independently authenticated in this archive, and one patriarch's position does not determine another person's ethnic identification.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-086",
+      "article": "chaldean-name-and-heritage",
+      "section": "Contemporary Chaldean self-identification and scholarly disagreement",
+      "anchor": "Yasmeen Hanoosh's 2019 ethnographic study describes Chaldean Catholics as a modern Syriac, Aramaic-speaking community",
+      "claim": "An ethnographic study describes Chaldean Catholic identity as a developed modern community identity and distinguishes it from the ancient Babylonian Chaldeans.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "hanoosh-2019-chaldean-identity"
+      ],
+      "context_sources": [
+        "donabed-2012-appellative"
+      ],
+      "limitation": "The linked university repository provides a book abstract, not independently audited full text. It is evidence for the study's published framing, not every person's identity.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-087",
+      "article": "chaldean-name-and-heritage",
+      "section": "A source hierarchy that exposes advocacy and corrects bias",
+      "anchor": "For a church's name, worship and institutional relations, a first-party church website or Vatican document is relevant evidence of what that institution states",
+      "claim": "Source evaluation must distinguish first-party church institutional testimony about itself from scholarly evaluation of ethnicity and ancient descent.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean"
+      ],
+      "context_sources": [
+        "modern-chaldean",
+        "vatican-2001-church-of-east-unity"
+      ],
+      "limitation": "A source's denomination or interpretive affiliation should be disclosed, but bias or deliberate revisionism must not be asserted without particular supporting evidence.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-088",
+      "article": "chaldean-church",
+      "section": "The name denotes a Catholic church, not an automatic separate ancestry",
+      "anchor": "The Chaldean Catholic Church is an East Syriac Catholic church in communion with Rome",
+      "claim": "The denominational name Chaldean Catholic identifies a church affiliation that cannot itself demonstrate a separate ancient ethnic descent.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "gedsh-chaldeans",
+        "parker-2018-chaldaean"
+      ],
+      "context_sources": [
+        "modern-chaldean"
+      ],
+      "limitation": "Contemporary Chaldean ethnic self-identification exists as a distinct question; ecclesiastical nomenclature alone proves neither universal shared ancestry nor an automatically separate tribe.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
     }
   ]
 }
