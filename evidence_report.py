@@ -1,5 +1,6 @@
 """Traceable source relationships, not a historical accuracy score."""
 from collections import defaultdict
+from claim_review import build as build_claim_reviews, render as render_claim_reviews
 
 
 def build(editorial, preserved, sources):
@@ -42,7 +43,7 @@ def build(editorial, preserved, sources):
     mapped = sum(entry['mapped_section_count'] for entry in entries)
     total = sum(entry['section_count'] for entry in entries)
     return {
-        'method': 'Article-level bibliographies are not sentence-level verification. Curated section reading trails identify selected Bible passages and additional sources without claiming that every assertion has been checked. Unmapped sections retain article-level sources only. No specialist review is recorded.',
+        'method': 'Article and section bibliographies are distinct from claim-level source mappings. The initial claim queue identifies text and sources without asserting independent historical verification. No specialist review has yet been recorded.',
         'summary': {
             'editorial_entries': len(editorial),
             'preserved_references': len(preserved),
@@ -57,6 +58,7 @@ def build(editorial, preserved, sources):
             'section_source_links': sum(len(section['source_ids']) for entry in entries for section in entry['mapped_sections']),
             'section_bible_passage_links': sum(len(section['passages']) for entry in entries for section in entry['mapped_sections']),
         },
+        'claim_reviews': build_claim_reviews(editorial, sources),
         'editorial_entries': entries,
         'source_usage': {source_id: sorted(slugs) for source_id, slugs in sorted(usage.items())},
     }
@@ -70,6 +72,7 @@ def render(heading, escape, report):
         ('Editorial citations', summary['editorial_source_links'], 'Article-to-source relationships, not verified claims'),
         ('Sections with reading trails', summary['mapped_sections'], 'Of ' + str(summary['total_sections']) + ' original editorial sections'),
         ('Preserved texts', summary['preserved_references'], 'Externally authored texts, kept separately from editorial guides'),
+        ('Claim review records', report['claim_reviews']['summary']['claim_records'], 'Text-anchored claims queued for independent review'),
     ]
     stats = ''.join(
         '<article class="expansion-stat"><span class="expansion-stat-label">' + escape(title) +
@@ -100,7 +103,7 @@ def render(heading, escape, report):
         '<p><strong>Editorial guides:</strong> Some sections now have curated links to specific Scripture passages and additional sources. Most articles still also use an article-level bibliography. None of these links claims that every statement in a section has been independently verified. No specialist review is recorded.</p>'
         '<p><strong>Preserved texts:</strong> Locally retained external reference material is credited to its original authors. Preservation does not mean that its contents are endorsed, verified or exclusively about Assyrians.</p>'
         '<p><strong>Source dates:</strong> The <a href="/sources/">source library</a> displays each record\'s recorded consultation or retrieval date. It is not a promise that a live external page remains unchanged.</p>'
-        '<h2>Editorial source register</h2><p>Use these direct links to inspect a guide and follow the references it names. '
+        '</div>' + render_claim_reviews(report['claim_reviews']) + '<div class="prose"><h2>Editorial source register</h2><p>Use these direct links to inspect a guide and follow the references it names. '
         'The section trail column shows which guides have selected section references. Research, interpretation and specialist review are ongoing; unlinked sections are not automatically considered unsupported or proven.</p></div>'
         '<div class="expansion-table-wrap evidence-register-table"><table><thead><tr><th scope="col">Editorial guide</th>'
         '<th scope="col">Collection</th><th scope="col">Sources</th><th scope="col">Section trails</th><th scope="col">Source IDs</th>'
