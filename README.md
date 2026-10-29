@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 474 reading entries (102 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 483 reading entries (111 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -156,6 +156,14 @@ Six original articles and **24 new section-level source trails** explain intervi
 Editorial workflow: identify credible custodians, verify the record's source role and permitted access, obtain and document participation or reuse permission separately, offer narrator review where appropriate, and publish only approved versions and non-sensitive metadata. Guidance comes from Oral History Australia and the National Library of Australia; those institutions are cited, not affiliated with the project. No private recordings or media are collected or hosted, and the existing contribution form still only downloads a local draft. A secure intake service, verified individual permissions and a named curator are future requirements, not features already completed.
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
+
+## Middle Assyrian social history and everyday life
+
+Milestone 10 adds nine original social-history guides and the public `/middle-assyrian/` hub. The reading routes cover the Middle Assyrian period beyond military rulers: provinces and offices, households, women and normative laws, agriculture and irrigation, labour and rations, tablets and seals, ritual contexts, and regional exchange.
+
+The studies are maintained in `data/middle-assyrian-articles.json` and validated through `middle_assyrian_content.py`; their public landing page is `middle_assyrian_page.py`. They comprise **45 substantive original sections**, each with its own mapped citation trail. Ten institutional and scholarly sources were added to `sources.json`, including the ATMAP/TCMA corpus and findspot guides, scholarly law interpretation and excavations at Dūr-Katlimmu. Fourteen new anchored review records raise the claim-level queue to **41**, without claiming any have undergone independent specialist peer review.
+
+The archive now maintains **298 source-mapped sections across 86 editorial guides**. The Middle Assyrian corpus is not conflated with either the much earlier Old Assyrian merchants of Kaneš or the later Neo-Assyrian imperial campaigns. Scripture remains primary for biblical claims; Genesis, Deuteronomy and Kings are used only as properly labelled textual or chronological comparisons, never invented eyewitness records for Middle Assyrian households. Legal statutes are not mistaken for universal actual practice, and royal or administrative archives do not claim to speak for every worker or family. All third-party imagery and tablet editions remain with their institutions and rights holders.
 
 ## Historical and biblical evidence dossiers
 
