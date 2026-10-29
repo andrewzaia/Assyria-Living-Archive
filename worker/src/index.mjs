@@ -93,6 +93,7 @@ export default {
       fields[name] = value;
     }
     if (!fields.subject || !fields.body || !validEmail(fields.email)) return response({ error: 'A subject and contribution are required. Check your contact email.' }, 400, origin);
+    if (/[\r\n]/.test(fields.subject) || /[\r\n]/.test(fields.name)) return response({ error: 'Subject and contributor name must use a single line.' }, 400, origin);
     if (typeof data.turnstileToken !== 'string' || data.turnstileToken.length < 10 || data.turnstileToken.length > 2048) return response({ error: 'Complete the security check.' }, 400, origin);
     try {
       if (!(await verifyTurnstile(data.turnstileToken, env, request))) return response({ error: 'Security verification expired or failed. Please try again.' }, 403, origin);
