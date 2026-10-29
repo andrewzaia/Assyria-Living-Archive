@@ -34,6 +34,14 @@ Published editorial guides have article-level bibliographies and selected curate
 - Mark personal recollections as testimony. Check consent before publishing interviews, family details or contributed photographs.
 - Use original summaries and check reuse rights for every imported asset.
 
+## Oral histories and community heritage
+
+Use the public `/heritage/` hub only for original summaries and linked material already published by the original custodians. Every entry in `data/heritage-records.json` requires a traceable source, a clear source role, an original guide route and an explicit external-reference-only rights status. Do not commit contributed interviews, photographs, signed consent forms, family contacts, recordings, transcripts or unapproved biographical material to GitHub.
+
+The downloadable `archive/heritage/` files are original **blank planning aids**, not consent agreements, legal releases or upload endpoints. Consent to record, private preservation, research access, public quotation, reproduction and commercial or machine-learning reuse must be considered separately. Narrators and appropriate rights holders should know the intended custody, restrictions, review/correction opportunities and realistic withdrawal limits before recording or publication. Sensitive details of third parties and children need further safeguards. Informed consent and custodial approval cannot be inferred from a publicly accessible recording.
+
+The current project **has no operational intake or media archive**, and the existing contribution form only creates a local draft. Do not solicit private material as if it will be reviewed or securely stored until a separately approved system and accountable editorial team exist. For method, consult Oral History Australia and the National Library of Australia rights guidance in `sources.json`.
+
 ## Implementation
 
 Every significant feature or research milestone, including previously undocumented work, must also be recorded in `data/project-roadmap.json` with its accurate status, what has been delivered and what remains. The About page's Next Chapters section is generated directly from this file. Do not mark work complete because code was written if its validation or deployment is still pending.
