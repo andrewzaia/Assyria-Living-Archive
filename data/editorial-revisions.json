@@ -32,6 +32,40 @@
   ],
   "changes": [
     {
+      "id": "REV-0019",
+      "date": "2026-10-30",
+      "kind": "clarification",
+      "status": "merged",
+      "title": "Ancient Kaldu lineage evidence: historical proof requirement",
+      "summary": "Revised the source-critical guide, Assyrian identity article, Chaldean Catholic Church entry and linked Christian tradition explanations to state explicitly that no ancient-to-modern Kaldu ancestry or discrete ethnicity for the present Chaldean Catholic community is demonstrated in the archive's cited primary record. The evidence finding is NOT DEMONSTRATED, rather than a conjecture treated as an equally evidenced alternative to documented East Syriac, Church of the East and Assyrian communal inheritance. Recorded present-day self-descriptions as contemporary observations only, not proof of ancient descent. Added Elizabeth E. Payne's independent ancient-history reference, updated the provenance limits for Coakley, Hanoosh, Iranica and Donabed, expanded three individually mapped evidence sections and registered three additional anchored unreviewed claims CL-089 to CL-091. Curated sources are now 139; mapped evidence trails 379; claim queue 91.",
+      "impact": "The question of ancient ancestry is evaluated against positive dated records rather than denominational dogma, reuse of an ancient name or modern identity preference. The ancient Kaldu of southern Babylonia and later northern Mesopotamian Chaldean Catholic ecclesiastical identity have distinct source histories. A bounded absence of demonstrated evidence is not a global genetic finding, a prohibition of contemporary self-identification or an assertion that every possible archive has been reviewed. Independent Assyriological, early-modern archival and ethnographic specialist review remains outstanding.",
+      "commit": "29dd1a23005f0c38b9f15dcd56e5706afcb074d1",
+      "pr": 34,
+      "sections": [
+        "/articles/chaldean-name-and-heritage/",
+        "/articles/chaldean-church/",
+        "/articles/assyrian-identity/",
+        "/articles/faith-and-churches/",
+        "/about/evidence/",
+        "/sources/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "content.py",
+        "sources.json",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "scripts/test_chaldean_identity.py",
+        "data/project-roadmap.json",
+        "README.md"
+      ]
+    },
+    {
       "id": "REV-0018",
       "date": "2026-10-30",
       "kind": "clarification",
