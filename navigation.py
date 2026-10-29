@@ -17,6 +17,7 @@ NAV_GROUPS = (
     )),
     ('Research', (
         ('Source library', '/sources/', 'Primary records and further reading'),
+        ('Historical evidence dossiers', '/dossiers/', 'Biblical passages and accessioned Assyrian records'),
         ('Evidence register', '/about/evidence/', 'Sources linked to editorial guides'),
         ('Source and accessibility audit', '/audit/', 'Citation health, accessibility checks and limitations'),
         ('Editorial governance', '/governance/', 'Corrections, review standards and recorded revisions'),
