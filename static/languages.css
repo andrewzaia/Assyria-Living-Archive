@@ -1,0 +1,28 @@
+/* Language reference hub uses the archive palette and existing bundled Syriac font fallback. */
+.language-hub{max-width:1100px}.language-intro{max-width:850px}
+.language-section{border-top:1px solid var(--line);padding:33px 0 45px}
+.language-section-head>.eyebrow{color:var(--rust);font-size:9px;letter-spacing:1.4px}
+.language-section h2,.language-bottom h2{font-family:var(--serif);font-size:41px;line-height:1.12;margin:13px 0 24px;font-weight:500}
+.language-guides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));list-style:none;gap:14px;padding:0;margin:0}
+.language-guides li a{display:flex;flex-direction:column;gap:9px;min-height:120px;padding:22px;border:1px solid var(--line)}
+.language-guides li a:hover,.language-guides li a:focus-visible{border-color:var(--rust);background:var(--white)}
+.language-guides strong{font-family:var(--serif);font-size:23px;line-height:1.15;font-weight:500}
+.language-guides span,.language-note{font-size:11px;line-height:1.85;color:var(--muted)}
+.language-note{max-width:820px;margin:0 0 18px}
+.language-note a{color:var(--rust);text-decoration:underline;text-underline-offset:3px}
+.language-letters{list-style:none;padding:0;margin:24px 0 14px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.lang-letter{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;min-height:146px;background:#f1f1e9;border:1px solid #d3d9cd;padding:14px 8px;text-align:center}
+.lang-glyph{display:block;font-size:50px;line-height:1.4;font-family:"Syriac","Noto Sans Syriac","East Syriac Adiabene","Estrangelo Edessa",serif;direction:rtl;color:var(--ink)}
+.lang-letter-name{font-size:10px;letter-spacing:.5px;font-weight:600}.lang-letter code{font-size:10px;color:var(--rust)}
+.language-explainer{border-top:1px solid var(--line);padding-top:18px;margin-top:22px}
+.language-explainer summary{cursor:pointer;font-weight:600;font-size:12px}
+.language-explainer p{font-size:12px;line-height:1.9;color:var(--muted);max-width:820px}
+.language-source-links,.language-audio-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;list-style:none;padding:0;margin:0}
+.language-source-links li,.language-audio-links li{border:1px solid var(--line);padding:22px}
+.language-source-links a,.language-audio-links a{font-size:13px;font-weight:600;color:var(--rust);text-decoration:underline;text-underline-offset:4px}
+.language-source-links small{display:block;margin-top:12px;color:var(--muted);font-size:9px;line-height:1.8}
+.language-audio-links strong{font-family:var(--serif);font-size:24px;font-weight:500}
+.language-audio-links p{font-size:11px;line-height:1.8;color:var(--muted);min-height:60px}
+.language-bottom{padding:0 0 20px}.language-bottom p{max-width:780px}
+@media(max-width:900px){.language-letters{grid-template-columns:repeat(4,minmax(0,1fr))}.language-source-links,.language-audio-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.language-guides,.language-source-links,.language-audio-links{grid-template-columns:1fr}.language-letters{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.lang-letter{min-height:126px}.lang-glyph{font-size:42px}.language-section h2{font-size:34px}.language-guides li a{min-height:0}}

@@ -20,6 +20,7 @@ from navigation import NAV_GROUPS, NAV_PATHS
 from section_evidence import DATA as SECTION_DATA, validate as validate_section_evidence
 from claim_review import build as build_claim_reviews
 from project_roadmap import DATA as ROADMAP_DATA, validate as validate_roadmap
+from language_page import DATA as LANG_DATA, validate as validate_languages
 
 class Page(HTMLParser):
     def __init__(self):
@@ -73,6 +74,7 @@ def main():
     validate_section_evidence(EDITORIAL_ARTICLES, sources)
     claim_report = build_claim_reviews(EDITORIAL_ARTICLES, sources)
     milestones = validate_roadmap()
+    letter_count = validate_languages(EDITORIAL_ARTICLES, sources)
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):
         errors.append('Duplicate source IDs')
@@ -193,10 +195,25 @@ def main():
     roadmap_file = OUT / 'project-roadmap.json'
     if not roadmap_file.exists() or json.loads(roadmap_file.read_text(encoding='utf-8')) != ROADMAP_DATA:
         errors.append('Generated roadmap differs from maintained milestones')
+    language_file = OUT / 'languages/index.html'
+    if not language_file.exists():
+        errors.append('Missing generated language reference hub')
+    else:
+        html = language_file.read_text(encoding='utf-8')
+        if html.count('class="lang-letter"') != letter_count:
+            errors.append('Incorrect Unicode letter count on generated language hub')
+        if html.count('class="lang-glyph"') != letter_count:
+            errors.append('Missing Syriac character display on language hub')
+        for slug in LANG_DATA['reading_routes']:
+            if '/articles/' + slug + '/' not in html:
+                errors.append('Language hub reading route missing: ' + slug)
+        for source_id in LANG_DATA['recording_sources']:
+            if not any(source['id'] == source_id and source['url'] in html for source in sources):
+                errors.append('Missing source-backed dialect recording route: ' + source_id)
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

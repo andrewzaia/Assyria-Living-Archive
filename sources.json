@@ -691,5 +691,77 @@
     "type": "Specialist historical study",
     "access": "Describes northern Israelite provincial annexations, vassal kingship and Damascus in 732 BCE; do not infer exact boundaries from this essay.",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "unicode-syriac-names",
+    "title": "Syriac Unicode character names (U+0700-U+074F)",
+    "publisher": "Unicode Consortium",
+    "url": "https://www.unicode.org/Public/18.0.0/charts/nameslist/0700/",
+    "type": "Technical character standard",
+    "access": "Stable Unicode character identifiers and names, not a pronunciation guide or manuscript palaeography",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "unicode-syriac-standard",
+    "title": "The Unicode Standard: Syriac script, chapter 9",
+    "publisher": "Unicode Consortium",
+    "url": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-9/",
+    "type": "Technical character standard",
+    "access": "Directionality, joining and type styles; same coded letters may render in different fonts",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "hmml-serto",
+    "title": "Syriac Scripts - Serto",
+    "publisher": "Hill Museum & Manuscript Library, HMML School",
+    "url": "https://hmmlschool.org/syriac-serto/",
+    "type": "Institutional palaeography training",
+    "access": "Manuscript-based discussion of Serto shapes, dating and mixed hands; manuscript images retain their own rights",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "hmml-east",
+    "title": "Syriac Scripts - East Syriac",
+    "publisher": "Hill Museum & Manuscript Library, HMML School",
+    "url": "https://hmmlschool.org/syriac-east-syriac/",
+    "type": "Institutional palaeography training",
+    "access": "East Syriac manuscript letterforms and vocalisation; style is not synonymous with one modern speech variety",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "hmml-estrangela",
+    "title": "Syriac Scripts - Earliest Estrangela",
+    "publisher": "Hill Museum & Manuscript Library, HMML School",
+    "url": "https://hmmlschool.org/syriac-earliest-estrangela/",
+    "type": "Institutional palaeography training",
+    "access": "Dated early manuscript hands and diagnostic letterform comparisons",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "nena-dialects",
+    "title": "North-Eastern Neo-Aramaic dialect catalogue",
+    "publisher": "University of Cambridge, NENA project",
+    "url": "https://nena.ames.cam.ac.uk/dialects/",
+    "type": "Academic dialect documentation",
+    "access": "Community and locality-labelled dialect descriptions; coverage varies by locality",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "nena-alqosh",
+    "title": "Alqosh dialect - recordings and grammatical description",
+    "publisher": "University of Cambridge, NENA project",
+    "url": "https://nena.ames.cam.ac.uk/dialects/49/",
+    "type": "Academic fieldwork and recordings",
+    "access": "Actual locality-labelled speech samples and analyses; audio is not relicensed for this archive",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "nena-ankawa",
+    "title": "Ankawa dialect - recordings and grammatical description",
+    "publisher": "University of Cambridge, NENA project",
+    "url": "https://nena.ames.cam.ac.uk/dialects/26/",
+    "type": "Academic fieldwork and recordings",
+    "access": "Speaker and locality-specific records, not representative pronunciation for every Assyrian or Aramaic variety",
+    "checked": "2026-10-29"
   }
 ]

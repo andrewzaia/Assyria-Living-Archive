@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 452 reading entries (80 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 460 reading entries (88 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -140,6 +140,12 @@ The register exports the mapped and unmapped section counts, source IDs and book
 
 `scripts/validate.py` verifies the generated evidence index against article metadata, checks every section mapping and ensures the expected trail is present on the generated page. Both root and GitHub Pages subpath builds test local links and Bible verse targets.
 
+
+## Language and cultural heritage milestone
+
+The /languages/ reference room is generated from `data/syriac-letters.json` and `language_page.py`. It provides a compact research route to eight new specialist-sourced editorial guides and a static reference grid of **22 Unicode Syriac letter identities** (U+0710 through U+072C, excluding supplementary characters). The characters are Unicode identifiers, not a pronunciation model or facsimiles of Estrangela, Serto or East Syriac manuscript hands. Native right-to-left text rendering depends on the user's system shaping and fonts.
+
+The milestone also adds **32 new mapped editorial sections**, eight additional institutional and academic source records, and direct external links to Cambridge NENA **Urmi, Alqosh and Ankawa** recording pages. Manuscript letterform comparisons link to HMML School without copying protected images. No generated audio, assumed accent, unlicensed text editions or unreviewed transliterations have been added. Linguistic peer review, permission-cleared audio, dialect-specific transliteration keys and real browser typography checks remain open. The generated hub is validated alongside the ordinary site paths by `scripts/validate.py`.
 
 ## Claim-level verification and the Next Chapters roadmap
 
