@@ -70,10 +70,11 @@ def validate(cases, sources):
 
 def _line_rows(entry):
     output = []
-    for line in entry["lines"]:
+    for number, line in enumerate(entry["lines"], 1):
         tag = H(line["uncertainty"])
+        anchor = 'transliteration-' + entry["slug"] + '-' + str(number)
         output.append(
-            '<tr><th scope="row">' + H(line["location"]) +
+            '<tr id="' + H(anchor) + '"><th scope="row">' + H(line["location"]) +
             '<span class="compare-state">' + tag + '</span></th>' +
             '<td><code lang="akk-Latn">' + H(line["transliteration"]) + '</code></td>' +
             '<td>' + H(line["gloss"]) + '</td>' +
