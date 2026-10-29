@@ -36,6 +36,8 @@ jobs:
         run: python scripts/test_concordance.py
       - name: Verify historical name and identity disambiguation
         run: python scripts/test_identity_register.py
+      - name: Test primary royal editions and biblical comparison scopes
+        run: python scripts/test_royal_witnesses.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js
