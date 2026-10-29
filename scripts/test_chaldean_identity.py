@@ -100,7 +100,7 @@ class HistoricalIdentityTests(unittest.TestCase):
             self.assertIn("ancient Kaldu",prose)
             self.assertIn("Church of the East",prose)
         self.assertIn("modern self-description", guide_text.lower())
-        self.assertIn("not independently examined", BY_SOURCE["wiley-payne-ancient-chaldaeans"]["access"])
+        self.assertIn("not independently consulted", BY_SOURCE["wiley-payne-ancient-chaldaeans"]["access"])
 
     def test_followup_claims_protect_lineage_proof_standard(self):
         claims = [c for c in CLAIMS["claims"] if 89 <= int(c["id"][3:]) <= 91]
