@@ -97,3 +97,13 @@
 }
 @media(max-width:520px){.mobile-nav:not([hidden]){max-height:calc(100dvh - 74px);padding:8px 18px 18px}}
 @media(prefers-reduced-motion:reduce){.nav-trigger::after{transition:none}}
+
+/* Curated section reading trails sit near their text, not in place of the full bibliography. */
+.article-body .section-reading-trail{margin:19px 0 28px;padding:15px 19px;background:rgba(127,99,65,.065);border-left:2px solid var(--gold);border-radius:0 7px 7px 0}
+.article-body .section-reading-trail .eyebrow{font-size:9px;color:var(--rust);letter-spacing:1.2px;margin-bottom:8px}
+.article-body .section-reading-trail p{font-size:11px;line-height:1.8;margin:4px 0;max-width:none;color:var(--ink)}
+.section-reading-trail strong{font-weight:600}
+.section-reading-trail a{text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;overflow-wrap:anywhere}
+.section-reading-trail a:hover{color:var(--rust)}
+.evidence-register-table td:nth-child(4){text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){.article-body .section-reading-trail{padding:12px 14px}}
