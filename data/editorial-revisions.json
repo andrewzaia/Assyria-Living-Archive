@@ -32,6 +32,39 @@
   ],
   "changes": [
     {
+      "id": "REV-0014",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Royal inscriptions and biblical cross-verification",
+      "summary": "Published six source-scoped comparisons across three edited royal inscription identities and a separately identified Lachish relief, with ten precise biblical reading routes. Added three institutional original-language edition records, direct links and source mappings to four historical article sections, and four anchored claim reviews bringing the pending queue to sixty-six. A dedicated reading room, offline JSON, reciprocal article links, CI regression coverage and documented roadmap accompany the release.",
+      "impact": "The Bible is cited as primary evidence for its own statements, and royal inscription editions are direct evidence for their commissioned Assyrian claims. RINAP 3 Q003496 explicitly reports 800 silver talents where 2 Kings 18 reports 300; a shared 30 gold figure does not resolve the difference. Royal annals and palace reliefs have separate purposes, and automated tests of source coordinates do not constitute independent historical, biblical or epigraphic review.",
+      "commit": "fbbed214ec355f73b046c7c9dad8584c77e148aa",
+      "pr": 29,
+      "sections": [
+        "/royal-witnesses/",
+        "/dossiers/",
+        "/about/evidence/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/royal-witnesses.json",
+        "royal_witnesses.py",
+        "royal_witnesses_page.py",
+        "data/claim-reviews.json",
+        "data/section-evidence.json",
+        "historical_evidence_content.py",
+        "sources.json",
+        "scripts/test_royal_witnesses.py",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0013",
       "date": "2026-10-30",
       "kind": "feature-release",
