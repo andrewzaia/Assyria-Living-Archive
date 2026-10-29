@@ -1,6 +1,11 @@
 """Reject invented identities, citations and unrecorded specialist approvals."""
 import copy
+import sys
 import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 from identity_register import DATA, validate, build_view
 from concordance import build_view as build_concordance_view
 from content import ARTICLES as FOUNDATION
