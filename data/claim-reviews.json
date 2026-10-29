@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "curated_on": "2026-10-30",
-  "method": "The anchored claim register distinguishes primary biblical statements, individual museum objects and scholarly edited cuneiform records. Individual Middle Assyrian texts are linked by collection, edition, CDLI identifier and specified lines; broad institutional sources serve as context, not substitute proof of damaged signs, personal identities or completed specialist translation. All claims remain awaiting documented independent specialist review.",
+  "method": "This claim queue distinguishes biblical passages, archaeological catalogues, explicitly attributed ancient-language editions and editorial reading methods. Source matching and short quoted transliteration snippets do not establish an independent Assyriological collation, a newly authenticated translation, historical proof of missing names or completed academic review. Every claim awaits qualified independent review.",
   "claims": [
     {
       "id": "CL-001",
@@ -1201,6 +1201,195 @@
         "bm-chronicle"
       ],
       "limitation": "A Babylonian military chronicle does not prove every prophetic image or theological claim.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-054",
+      "article": "tablet-kaj-247-workers-temple",
+      "section": "Follow the line divisions",
+      "anchor": "The English edition associates the opening obverse with a group of twenty-two workers and an event interpreted as a banquet; the worker term itself and the precise nature of the event are qualified in the edition.",
+      "claim": "The edited KAJ 247 source preserves a questioned worker category and a temple reference, with sign damage retained.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-247"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-055",
+      "article": "tablet-marv-10-07-footwear",
+      "section": "What the edition actually records",
+      "anchor": "The source edition describes one pair of palace-associated shoes under the charge of a named great steward, and assigns it to Niri-šaldi, designated a hostage.",
+      "claim": "The published MARV 10, 07 transcription has damaged or queried signs in the named recipient and travel passage.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-marv-10-07"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-056",
+      "article": "tablet-kaj-233-horse-barley",
+      "section": "Barley, a horse and a named recipient",
+      "anchor": "The edited obverse describes a barley quantity in traditional measures as a ration for a horse attached to a service obligation, with a named recipient.",
+      "claim": "KAJ 233 contains a line recording barley in scribal measures and a later dating formula.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-233"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-057",
+      "article": "tablet-marv-1-12-guard-rations",
+      "section": "Groups and an allocation period",
+      "anchor": "The edited text gives a barley distribution described for ten days and enumerates several separate sets of people linked to inner-city guard duty.",
+      "claim": "MARV 1, 12 has a barley quantity and a ten-day date span in the published line sequence.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-marv-1-12"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-058",
+      "article": "tablet-kaj-144-lead-house",
+      "section": "Metal, obligations and property",
+      "anchor": "The edited beginning reports a substantial lead quantity, names parties associated with it and connects the obligation to a sale of a house in the inner city.",
+      "claim": "KAJ 144 gives a lead quantity and a house transaction phrase, while its receipt classification remains tentative.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-144"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-059",
+      "article": "tablet-billa-30-barley",
+      "section": "A provincial grain entry",
+      "anchor": "The edited obverse concerns a barley quantity associated with the palace and the men of Šibaniba, with a named family connection; the reading of the imposition is itself marked uncertain.",
+      "claim": "Billa 30 includes a barley quantity and visibly damaged or queried signs in other lines.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-billa-30"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-060",
+      "article": "tablet-kaj-118-straw",
+      "section": "Straw and official custody",
+      "anchor": "The edition's opening passage records forty sacks of straw associated with the palace and an institutional chain of custody, with named stewards, retainers and other people involved.",
+      "claim": "KAJ 118 records straw in its opening line and has missing signs in later reverse lines.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-118"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The website displays only a tiny attributed excerpt and editorial gloss from the named ATMAP/TCMA edition. It has not independently collated Akkadian signs, validated all reading alternatives, or produced a new licensed translation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-061",
+      "article": "reading-cuneiform-transliteration",
+      "section": "What brackets, x and question marks really mean",
+      "anchor": "Oracc's ATF conventions use square brackets for signs restored where material is missing and x for unidentified signs.",
+      "claim": "Oracc's technical convention represents reconstructed signs with brackets and unidentified signs with x.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "oracc-atf-primer"
+      ],
+      "context_sources": [
+        "oracc-atf-translations"
+      ],
+      "limitation": "These are editorial notation conventions, not proof that the archive independently inspected any cuneiform artefact.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-062",
+      "article": "reading-cuneiform-transliteration",
+      "section": "Why one sign can support several English readings",
+      "anchor": "The Oxford cuneiform conventions distinguish the letter-by-letter sign representation from language normalization.",
+      "claim": "Oxford's reference distinguishes sign-by-sign transliteration from normalized Akkadian transcription.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "oxford-cuneiform-conventions"
+      ],
+      "context_sources": [
+        "oracc-atf-translations"
+      ],
+      "limitation": "Terminology and sign interpretation may vary by edition; the archive's English reading cues are not a certified original-language translation.",
       "review": {
         "status": "awaiting-independent-review",
         "reviewer": null,
