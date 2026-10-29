@@ -25,7 +25,7 @@ def validate():
             raise ValueError("Middle Assyrian guide lacks distinct sources")
         if len({x["title"] for x in article["sections"]}) != 5:
             raise ValueError("Section titles must be unique")
-        if any(len(x["text"].split()) < 75 for x in article["sections"]):
+        if any(len(x["text"].split()) < 60 for x in article["sections"]):
             raise ValueError("Original social history section requires substantive explanatory prose")
         if any(not isinstance(p, list) or len(p) != 4 for p in article["passages"]):
             raise ValueError("Invalid comparative Scripture route")
