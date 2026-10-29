@@ -32,6 +32,7 @@ from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, valida
 from case_files import DATA as CASE_FILES, validate as validate_case_files
 from text_comparisons import DATA as TEXT_COMPARISONS, BY_SLUG as TEXT_COMPARISON_BY_SLUG, validate as validate_text_comparisons
 from concordance import DATA as CONCORDANCE, TERMS as CONCORDANCE_TERMS, validate as validate_concordance, build_view as build_concordance_view
+from identity_register import DATA as IDENTITY_DATA, CASES as IDENTITY_CASES, validate as validate_identity
 
 class Page(HTMLParser):
     def __init__(self):
@@ -462,10 +463,32 @@ def main():
                 html_file = OUT / 'articles' / obj['slug'] / 'index.html'
                 if not html_file.is_file() or 'id="' + location + '"' not in html_file.read_text(encoding='utf-8'):
                     errors.append('Concordance citation not anchored to actual edited line: ' + obj['url'])
+    # Every name dossier must resolve only already credited concordance references.
+    identity_counts = validate_identity()
+    if identity_counts != {"cases": 8, "evidence_links": 12}:
+        errors.append('Identity register changed without source-level review')
+    identity_page = OUT / 'identity-register/index.html'
+    if not identity_page.is_file():
+        errors.append('Name and identity research page was not generated')
+    else:
+        identity_html = identity_page.read_text(encoding='utf-8')
+        if identity_html.count('class="identity-case"') != len(IDENTITY_CASES):
+            errors.append('Name and identity dossier cards are incomplete')
+        for case in IDENTITY_CASES:
+            if 'id="identity-' + case['id'] + '"' not in identity_html:
+                errors.append('Missing identity dossier deep link: ' + case['id'])
+        if 'Independent specialist review pending' not in identity_html or 'identity-register.css' not in identity_html:
+            errors.append('Identity register missing review disclosure or styles')
+    identity_export = OUT / 'identity-cases.json'
+    if not identity_export.is_file() or json.loads(identity_export.read_text(encoding='utf-8')) != IDENTITY_DATA:
+        errors.append('Identity JSON export differs from authored reference data')
+    concordance_page_path = OUT / 'concordance/index.html'
+    if not concordance_page_path.is_file() or '/identity-register/' not in concordance_page_path.read_text(encoding='utf-8'):
+        errors.append('Ancient text concordance missing identity-review route')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
