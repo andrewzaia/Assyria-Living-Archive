@@ -56,12 +56,13 @@ def source_item(s, numbering=None):
     date = H(s.get('checked') or 'not recorded')
     local = (' <a href="' + H(s['local_url']) + '">Read retained copy</a>') if s.get('local_url') else ''
     used = EVIDENCE['source_usage'].get(s['id'], []) if numbering is None else []
-    linked = ''.join(
+    linked = ', '.join(
         '<a href="' + link(slug) + '">' + H(AM[slug]['title']) + '</a>'
         for slug in used[:3]
     )
     more = (' <a href="/about/evidence/">See full register</a>' if len(used) > 3 else '')
-    backlinks = ('<small>Linked from ' + str(len(used)) + ' editorial guide(s): ' + linked + more + '</small>') if used else ''
+    back_label = ' editorial guide: ' if len(used) == 1 else ' editorial guides: '
+    backlinks = ('<small>Linked from ' + str(len(used)) + back_label + linked + more + '</small>') if used else ''
     return (f'<li id="source-{s["id"]}" class="source-item" data-source-search="{H((s["title"]+" "+s["publisher"]+" "+s["type"]).lower())}">'
             f'<span class="source-no">{numbering or icon("book")}</span><div><span class="eyebrow">{H(s["type"])}</span>'
             f'<h3><a href="{H(s["url"])}" target="_blank" rel="noopener">{H(s["title"])} {icon("external")}</a></h3>'
