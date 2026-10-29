@@ -699,3 +699,39 @@ for _article in ARTICLES:
     for _slug in _MIDDLE_ASSYRIAN_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Individual tablets and objects connect archival social history to a named
+# publication and collection record rather than repeating generic references.
+from case_files import DATA as OBJECT_CASE_FILES
+ARTICLES.extend(OBJECT_CASE_FILES)
+
+_CASE_FILE_READING_ROUTES = {
+    'middle-assyrian-labour-rations': [
+        'tablet-kaj-247-workers-temple', 'tablet-marv-1-12-guard-rations',
+        'tablet-kaj-118-straw', 'tablet-kaj-233-horse-barley',
+    ],
+    'middle-assyrian-farming-water': [
+        'tablet-kaj-233-horse-barley', 'tablet-billa-30-barley', 'tablet-kaj-118-straw',
+    ],
+    'middle-assyrian-households-inheritance': [
+        'tablet-kaj-144-lead-house', 'tablet-marv-10-07-footwear',
+    ],
+    'middle-assyrian-provincial-administration': [
+        'tablet-billa-30-barley', 'tablet-marv-1-12-guard-rations',
+        'met-62-85-3-sealed-tablet',
+    ],
+    'middle-assyrian-scribes-seals': [
+        'met-62-85-3-sealed-tablet', 'tablet-kaj-144-lead-house',
+    ],
+    'middle-assyrian-religion-ritual': ['tablet-kaj-247-workers-temple'],
+    'middle-assyrian-routes-and-exchange': [
+        'tablet-marv-10-07-footwear', 'tablet-billa-30-barley',
+    ],
+    'babylonian-chronicle-nineveh': ['bm-21901-nineveh-chronicle-case'],
+    'fall-of-nineveh': ['bm-21901-nineveh-chronicle-case'],
+    'historical-evidence-methods': ['met-62-85-3-sealed-tablet', 'bm-21901-nineveh-chronicle-case'],
+}
+for _article in ARTICLES:
+    for _related in _CASE_FILE_READING_ROUTES.get(_article['slug'], []):
+        if _related not in _article['related']:
+            _article['related'].append(_related)
