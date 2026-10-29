@@ -26,7 +26,8 @@ def render(heading):
         '<p>All dossiers are newly written introductions; their mapped sections are part of the ' +
         '<a href="/about/evidence/">Evidence Register</a>. ' +
         'Text-anchored claims are tracked in the <a href="/about/evidence/#claim-register-title">independent-review queue</a>, not presented as peer-reviewed conclusions. '
-        'See the <a href="/royal-witnesses/">royal inscription comparison room</a> for directly identified edition lines and unresolved differences.</p></div>' +
+        'See the <a href="/royal-witnesses/">royal inscription comparison room</a> for directly identified edition lines, and the '
+        '<a href="/samaria-succession/">fall of Samaria and succession room</a> for the debated eighth-century sequence.</p></div>' +
         '<section class="dossier-section" aria-labelledby="dossier-heading"><span class="eyebrow">EVIDENCE READING ROUTES</span>' +
         '<h2 id="dossier-heading">Eight connected research dossiers.</h2>' +
         '<ol class="dossier-list">' + ''.join(cards) + '</ol></section>' +

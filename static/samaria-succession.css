@@ -1,0 +1,29 @@
+/* Source comparison timeline and readable chronological witness cards. */
+.samaria-room{max-width:1200px}.samaria-room a{color:var(--rust);text-decoration:underline;text-underline-offset:3px}
+.samaria-method{display:grid;gap:10px;border-top:1px solid var(--line);padding:22px 0 18px}
+.samaria-method p,.samaria-conclusion p{font-size:13px;color:var(--muted);line-height:1.8;margin:0}
+.samaria-method strong{color:var(--ink)}.samaria-filters{border:1px solid var(--line);background:var(--white);padding:20px;margin:12px 0 28px}
+.samaria-filters h2{font:500 26px/1.3 var(--serif);margin:0 0 14px}
+.samaria-filters button{font:inherit;cursor:pointer;text-align:left;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:6px;padding:12px;width:100%;transition:border-color .15s ease,background .15s ease}
+.samaria-filters button:hover,.samaria-filters button[aria-pressed="true"]{border-color:var(--rust);background:color-mix(in srgb,var(--rust) 7%,transparent)}
+.samaria-filters button:focus-visible{outline:3px solid var(--rust);outline-offset:2px}
+.samaria-reset{margin:0 0 12px}.samaria-reset button{width:auto;padding:7px 17px}
+.samaria-filters ol{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:0;margin:0}
+.samaria-filters strong,.samaria-filters small,.samaria-filters span{display:block}.samaria-filters strong{font-size:12px}.samaria-filters small{font-size:11px;color:var(--rust);margin-top:5px}
+.samaria-filters span{font-size:11px;color:var(--muted);line-height:1.55;margin-top:5px}.samaria-filter-count{font-size:11px;margin:14px 0 0;color:var(--muted)}
+.samaria-cases{display:grid;gap:22px}.samaria-case{background:var(--white);border:1px solid var(--line);scroll-margin-top:120px}
+.samaria-case[hidden]{display:none}.samaria-case:target{outline:2px solid var(--rust);outline-offset:3px}
+.samaria-case header{padding:23px 26px 18px}.samaria-case h2{font:500 clamp(24px,2.7vw,34px)/1.18 var(--serif);margin:8px 0}
+.samaria-kind{font-size:11px;color:var(--muted);margin:3px 0}.samaria-witnesses{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.samaria-witnesses>section{padding:21px 26px;min-width:0}.samaria-witnesses>section+section{border-left:1px solid var(--line)}
+.samaria-witnesses h3,.samaria-analysis h3{font-size:13px;margin:0 0 10px;color:var(--ink)}
+.samaria-witnesses p,.samaria-analysis p{font-size:12px;line-height:1.8;color:var(--muted);margin:8px 0}
+.samaria-witnesses ul{font-size:12px;line-height:1.9;padding-left:19px}
+.samaria-witnesses a{font-size:12px;overflow-wrap:anywhere}.samaria-object{color:var(--ink)!important;font-weight:600}
+.samaria-analysis{padding:23px 26px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.samaria-case footer{padding:16px 26px;border-top:1px solid var(--line);display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;font-size:11px;color:var(--muted)}
+.samaria-conclusion{border-top:1px solid var(--line);margin-top:35px;padding:20px 0;display:grid;gap:12px}
+.samaria-conclusion h2{font:500 29px/1.2 var(--serif)}
+@media(max-width:850px){.samaria-filters ol{grid-template-columns:repeat(2,minmax(0,1fr))}.samaria-analysis{grid-template-columns:1fr;gap:15px}}
+@media(max-width:610px){.samaria-filters ol,.samaria-witnesses{grid-template-columns:1fr}.samaria-witnesses>section+section{border-left:0;border-top:1px solid var(--line)}.samaria-case header,.samaria-witnesses>section,.samaria-analysis,.samaria-case footer{padding-left:18px;padding-right:18px}}
+@media(prefers-reduced-motion:reduce){.samaria-filters button{transition:none}}

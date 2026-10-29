@@ -1507,6 +1507,179 @@
         "reviewer": null,
         "date": null
       }
+    },
+    {
+      "id": "CL-067",
+      "article": "samaria-assyrian-chronology",
+      "section": "Before the final siege: Menahem and tributary payment",
+      "anchor": "RINAP 1, Tiglath-pileser III 32 (Q003445), obverse line 1",
+      "claim": "Tiglath-pileser III Q003445, obverse line 1, names Menahem of Samaria among foreign tributaries.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          15,
+          19,
+          20
+        ]
+      ],
+      "evidence_sources": [
+        "rinap-tiglath-menahem32"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "Assyrian imperial list confirms an attributed tribute relationship in its own terms; Kings supplies its distinct Pul and silver-levy narrative.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-068",
+      "article": "samaria-assyrian-chronology",
+      "section": "Pekah and Hoshea: the original damaged verb",
+      "anchor": "RINAP 1, Tiglath-pileser III 42 (Q003455), obverse lines 15'-18'",
+      "claim": "The Q003455 edition names Pekah and Hoshea but does not preserve an unambiguous agent in the verb of Pekah's killing.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          15,
+          30,
+          30
+        ]
+      ],
+      "evidence_sources": [
+        "rinap-tiglath-peqah42"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The damaged royal verb permits different restorations; 2 Kings names Hoshea as conspirator, but the damaged inscription cannot independently identify the killer.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-069",
+      "article": "samaria-assyrian-chronology",
+      "section": "Shalmaneser V: biblical name and missing siege annals",
+      "anchor": "Second Kings 17:3-6 and 18:9-10 both identify Shalmaneser V",
+      "claim": "Second Kings names Shalmaneser V in its account of Hoshea and the siege of Samaria.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          10
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-shalmaneser-v"
+      ],
+      "limitation": "The ORACC specialist account synthesises the reign but supplies no complete contemporary Shalmaneser siege annal; the precise conquest attribution remains debated.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-070",
+      "article": "samaria-assyrian-chronology",
+      "section": "Sargon II and the independently attributed conquest claim",
+      "anchor": "RINAP 2, Sargon II 007 (Q006488), lines 23-25",
+      "claim": "Q006488, lines 23-25, records Sargon II's commissioned claim to capture Samaria and organise its deportations.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          5,
+          6
+        ]
+      ],
+      "evidence_sources": [
+        "rinap-sargon-samaria7"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "A royal victory statement does not date every military action or refute the biblical attribution of the siege to Shalmaneser V.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-071",
+      "article": "samaria-assyrian-chronology",
+      "section": "Exile totals are different across Assyrian copies",
+      "anchor": "The RINAP 2 edited display text Q006488 line 24 lists 27,290",
+      "claim": "The edited Sargon display text Q006488 has 27,290 in its main exemplar but edited alternatives include 27,280 and apparently 24,280; Nimrud Prism Q006555 also carries disputed figures.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "evidence_sources": [
+        "rinap-sargon-samaria7",
+        "rinap-sargon-nimrud74"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "Numbers vary between copies and have rhetorical and counting limitations; the biblical passage does not state any of those numeric totals.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-072",
+      "article": "samaria-assyrian-chronology",
+      "section": "The province and relocated residents",
+      "anchor": "RINAP 2 Sargon II 001 (Q006482), lines 12-17",
+      "claim": "Q006482 lines 12-17 provide a damaged and substantially restored account of Samaria and its imperial reorganisation.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "evidence_sources": [
+        "rinap-sargon-annals1"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "Many restored signs are based on parallel royal texts and do not independently corroborate the detailed named populations of 2 Kings 17:24.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
     }
   ]
 }

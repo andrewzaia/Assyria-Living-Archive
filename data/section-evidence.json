@@ -2011,6 +2011,99 @@
         "rinap-sargon-corpus",
         "aebp-israel"
       ]
+    },
+    "Before the final siege: Menahem and tributary payment": {
+      "sources": [
+        "rinap-tiglath-menahem32",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          19,
+          20
+        ]
+      ]
+    },
+    "Pekah and Hoshea: the original damaged verb": {
+      "sources": [
+        "rinap-tiglath-peqah42",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          30
+        ]
+      ]
+    },
+    "Shalmaneser V: biblical name and missing siege annals": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          10
+        ]
+      ]
+    },
+    "Sargon II and the independently attributed conquest claim": {
+      "sources": [
+        "rinap-sargon-samaria7",
+        "bible-webbe",
+        "aebp-shalmaneser-v"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          5,
+          6
+        ]
+      ]
+    },
+    "Exile totals are different across Assyrian copies": {
+      "sources": [
+        "rinap-sargon-samaria7",
+        "rinap-sargon-nimrud74",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ]
+    },
+    "The province and relocated residents": {
+      "sources": [
+        "rinap-sargon-annals1",
+        "rinap-sargon-nimrud74",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ]
     }
   },
   "assyrian-deportations-texts": {

@@ -1069,5 +1069,50 @@
     "type": "Edited royal inscription primary source",
     "access": "RINAP 3 composite prism edition with British Museum 91032 among listed exemplars; relevant column iii lines 18-49. Attribution of a master edition does not mean each line is preserved identically on a single artefact.",
     "checked": "2026-10-30"
+  },
+  {
+    "id": "rinap-tiglath-menahem32",
+    "title": "Tiglath-pileser III 032 (Q003445), Menahem of Samaria in tribute list",
+    "publisher": "Hayim Tadmor, Shigeo Yamada and the RINAP Project / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap1/Q003445",
+    "type": "Direct edited royal inscription",
+    "access": "RINAP 1, text 32, obverse line 1. British Museum BM 118899 + BM 118900 are identified exemplars. Text is an Assyrian tribute notice, not a siege record.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "rinap-tiglath-peqah42",
+    "title": "Tiglath-pileser III 042 (Q003455), Pekah and Hoshea in damaged inscription",
+    "publisher": "Hayim Tadmor, Shigeo Yamada and the RINAP Project / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap1/Q003455",
+    "type": "Direct edited royal inscription with damaged reading",
+    "access": "RINAP 1, text 42, obverse 15'-18'. The edition flags 'I/they killed' as textually ambiguous; no reading is independently collated in this archive.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "rinap-sargon-samaria7",
+    "title": "Sargon II 007 (Q006488), Samaria display-inscription passage and variant apparatus",
+    "publisher": "Grant Frame and the RINAP Project / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap2/Q006488",
+    "type": "Direct edited royal inscription, composite witness",
+    "access": "RINAP 2 text 7, lines 23b-25a and editor's line 24 notes; main exemplar 27,290 with variant 27,280 and apparently 24,280. Identical underlying edition URL to separately scoped Ashdod source record; this entry limits the passage to Samaria.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "rinap-sargon-nimrud74",
+    "title": "Sargon II 074 (Q006555), Nimrud Prism Samaria narrative and variant reading",
+    "publisher": "Grant Frame and the RINAP Project / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap2/Q006555",
+    "type": "Direct edited royal inscription with disputed count",
+    "access": "RINAP 2 text 74, column iv lines 25-38. Its Samaria count is disputed and restorations are visible; the commentary records different readings from Q006488; never treat it as an exact modern demographic statistic.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "rinap-sargon-annals1",
+    "title": "Sargon II 001 (Q006482), restored Khorsabad annal account of Samaria",
+    "publisher": "Grant Frame and the RINAP Project / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap2/Q006482",
+    "type": "Direct edited royal inscription, heavily restored passage",
+    "access": "RINAP 2 text 1, lines 12-17. Large portions of the Samaria account are restored from parallel royal records; an edited reconstruction is not independent confirmation of every detail.",
+    "checked": "2026-10-30"
   }
 ]
