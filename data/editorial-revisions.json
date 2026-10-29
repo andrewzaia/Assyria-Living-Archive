@@ -32,6 +32,32 @@
   ],
   "changes": [
     {
+      "id": "REV-0006",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Publication stewardship and preservation integrity",
+      "summary": "Added full generated-site SHA-256 manifests, strict file-integrity verification, deterministic ZIP export with tested recovery, public stewardship guidance and stronger root, subpath and deployment checks.",
+      "impact": "Fixity does not prove historical truth or provide an independent offsite backup. Actual custodianship, accessibility review, source link maintenance, independent specialist review and search-indexing approval remain outstanding.",
+      "commit": "32e104ec5dc65f22348c68ca311806099b465056",
+      "pr": 14,
+      "sections": [
+        "/stewardship/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "preservation.py",
+        "stewardship_page.py",
+        "docs/PRESERVATION.md",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0005",
       "date": "2026-10-29",
       "kind": "feature-release",
