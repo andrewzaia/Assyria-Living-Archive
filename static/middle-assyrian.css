@@ -6,9 +6,10 @@
 .middle-header .eyebrow,.middle-method .eyebrow{color:var(--rust)}
 .middle-header h2,.middle-method h2{font:500 43px/1.15 var(--serif);margin:10px 0 27px}
 .middle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;list-style:none;margin:0;padding:0}
-.middle-card{border:1px solid var(--line);background:var(--white)}
-.middle-card>a{display:flex;flex-direction:column;min-height:240px;padding:23px 23px 18px}
-.middle-card>a:hover,.middle-card>a:focus-visible{background:#eae9dd}
+/* Match Explore cards: the whole tile lifts without replacing its theme-aware surface. */
+.middle-card{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);background:var(--white);transition:box-shadow .2s,transform .2s}
+.middle-card:hover,.middle-card:focus-within{box-shadow:0 7px 25px #1729200a;transform:translateY(-3px)}
+.middle-card>a{display:flex;flex-direction:column;flex:1;min-height:240px;padding:23px 23px 18px}
 .middle-card h2{font:500 27px/1.15 var(--serif);margin:15px 0 12px}
 .middle-card p{font-size:12px;line-height:1.8;color:var(--muted);flex:1}
 .middle-number{color:var(--rust);font-size:9px;letter-spacing:1.1px}
