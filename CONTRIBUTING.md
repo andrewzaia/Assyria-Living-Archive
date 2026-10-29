@@ -60,6 +60,12 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Accessioned objects and edited cuneiform case files
+
+New object dossiers belong in `data/object-case-files.json` and must include a stable museum collection or tablet edition number, independently referenced source URL, known/unknown excavated provenance, period, specific edited text line range or a clear statement that none has been checked, document genre and distinct statements of fact versus interpretation. Case files are checked by `case_files.py`; matching source records belong in `sources.json` and per-section relationships in `data/section-evidence.json`.
+
+Do not assume a complete household biography, route, precise date, translated legal effect, diet or transaction outcome from a damaged or summary tablet. Match actual sign readings and editorial uncertainty in named scholarly editions. Keep the late Babylonian Chronicle separate from Middle Assyrian administrative objects. Textual and biblical comparison must respect period and genre. Reviewer status remains `awaiting-independent-review` until an identified qualified editor documents scope and result. Never copy protected images or scholarly editions without rights verification.
+
 ## Middle Assyrian social-history contributions
 
 The nine original everyday-life studies are stored in `data/middle-assyrian-articles.json`, with source roles in `data/section-evidence.json` and unresolved statement-level verification in `data/claim-reviews.json`. A substantive new section needs a dated primary tablet edition, identified findspot and/or a named scholarly discussion. Explain which parts are law, administrative accounting, royal ideology, an excavation context or modern interpretation.
