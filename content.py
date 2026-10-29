@@ -676,6 +676,13 @@ for _article in ARTICLES:
 from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
 validate_middle_assyrian()
 ARTICLES.extend(MIDDLE_ASSYRIAN_ARTICLES)
+# A dated non-royal historical entry makes the provincial archive visible in the public timeline.
+TIMELINE.insert(3, (
+    'Thirteenth century BCE', 'Ancient', 'Provincial administration on the Habur',
+    'Cuneiform archives and sealings from Dūr-Katlimmu reveal records of people, goods and official work.',
+    'middle-assyrian-provincial-administration', 'fu-dur-katlimmu',
+))
+
 
 _MIDDLE_ASSYRIAN_ROUTES = {
     'ancient-assyria': ['middle-assyrian-overview', 'middle-assyrian-provincial-administration'],
