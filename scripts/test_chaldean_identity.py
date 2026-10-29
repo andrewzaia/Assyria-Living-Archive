@@ -19,7 +19,7 @@ SCHOLARLY = {
     "gedsh-chaldeans", "parker-2018-chaldaean",
     "hanoosh-2019-chaldean-identity", "donabed-2012-appellative",
     "iranica-ancient-chaldeans", "hanoosh-2016-appellations",
-    "gedsh-aramaic", "gedsh-syriac",
+    "gedsh-aramaic", "gedsh-syriac", "gedsh-assyrians",
 }
 
 class HistoricalIdentityTests(unittest.TestCase):
@@ -82,8 +82,8 @@ class HistoricalIdentityTests(unittest.TestCase):
                 sources = section["sources"]
                 self.assertTrue(set(sources) & SCHOLARLY, slug)
                 self.assertTrue(set(sources) <= set(BY_SLUG[slug]["sources"]))
-        self.assertEqual(sum(len(TRAILS[s]) for s in RELATED), 28)
-        self.assertEqual(sum(map(len, TRAILS.values())), 375)
+        self.assertEqual(sum(len(TRAILS[s]) for s in RELATED), 29)
+        self.assertEqual(sum(map(len, TRAILS.values())), 376)
 
     def test_disputed_naming_claims_remain_unreviewed(self):
         newer = [c for c in CLAIMS["claims"] if 81 <= int(c["id"][3:]) <= 88]
