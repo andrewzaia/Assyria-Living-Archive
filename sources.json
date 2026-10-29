@@ -1015,5 +1015,32 @@
     "type": "Institutional primary archaeological object catalogue",
     "access": "Middle Assyrian clay administrative object, approximately 13th century BCE. Public-domain image status is stated by the Met; a published translation was not identified in this catalogue.",
     "checked": "2026-10-30"
+  },
+  {
+    "id": "oracc-atf-primer",
+    "title": "Oracc ATF Primer: editing, damage, query and collation conventions",
+    "publisher": "Oracc, University of Pennsylvania",
+    "url": "https://oracc.museum.upenn.edu/doc/help/editinginatf/primer/",
+    "type": "Documentation of cuneiform transcription conventions",
+    "access": "Defines broken signs in square brackets, damaged graphemes (#), uncertain readings (?) and unknown x. This technical guide is not an ancient document or a translation of any named tablet.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "oracc-atf-translations",
+    "title": "Oracc translations: supplied, uncertain and broken text conventions",
+    "publisher": "Oracc, University of Pennsylvania",
+    "url": "https://oracc2.museum.upenn.edu/doc/help/editinginatf/translations/index.html",
+    "type": "Documentation for scholarly translation conventions",
+    "access": "Explains editorially supplied translations, uncertainty notes and relationships between transliteration and translation. Technical conventions do not make the site's editorial glosses independent Akkadian translations.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "oxford-cuneiform-conventions",
+    "title": "A Note on Typographical Conventions, The Oxford Handbook of Cuneiform Culture",
+    "publisher": "Oxford University Press",
+    "url": "https://academic.oup.com/edited-volume/27992/chapter/211695199",
+    "type": "Academic reference on cuneiform signs, normalization and translation",
+    "access": "Explains how transliteration preserves sign values and differs from normalized forms; scholarly typography may vary by edition. Source is a methods reference, not evidence for an individual Assyrian transaction.",
+    "checked": "2026-10-30"
   }
 ]
