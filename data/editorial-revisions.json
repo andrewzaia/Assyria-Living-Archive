@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-30",
   "method": "This curated ledger records named changes already merged into the project, not every Git commit or a claim of historical accuracy. A feature release records software and editorial delivery, not specialist review. No public correction records have yet been documented. Zero correction records does not establish that the archive is error-free.",
   "project": "andrewzaia/Assyria-Living-Archive",
   "policy_reference": "/governance/",
@@ -31,6 +31,35 @@
     }
   ],
   "changes": [
+    {
+      "id": "REV-0010",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Individual tablet and archaeological case files",
+      "summary": "Nine original accessioned object studies with catalogue and CDLI/edition identity, findspot and dating disclosures, line-scope metadata, eight new curated institutional source references, 36 new mapped research sections, 12 anchored claims and a dedicated public object case-file room.",
+      "impact": "Eight Middle Assyrian objects and one separately labelled later Babylonian Chronicle are connected to their institutional records. A catalogue match is not an independent translation, complete biography or specialist philological review; all new claims remain unreviewed. Museum images and scholarly text editions have not been copied.",
+      "commit": "47aeadb8a24823f1dacbd0e5bdf87ddfe68a9cea",
+      "pr": 22,
+      "sections": [
+        "/case-files/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/object-case-files.json",
+        "case_files.py",
+        "case_files_page.py",
+        "sources.json",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "data/project-roadmap.json"
+      ]
+    },
     {
       "id": "REV-0009",
       "date": "2026-10-29",
