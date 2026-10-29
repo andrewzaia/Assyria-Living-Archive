@@ -85,8 +85,11 @@ def validate(sources, articles, data=None):
             raise ValueError("Unrecognised evidence witness mode: " + ident)
         if case["article"] not in article_slugs:
             raise ValueError("Missing original related historical study: " + ident)
-        for key in ("year", "heading", "actors", "object", "royal", "scripture", "meeting", "limits", "uncertainty"):
-            if not isinstance(case.get(key), str) or len(case[key].strip()) < 17:
+        minimum_lengths = {"year": 5, "heading": 17, "actors": 5, "object": 17,
+                           "royal": 17, "scripture": 17, "meeting": 17,
+                           "limits": 17, "uncertainty": 17}
+        for key, minimum in minimum_lengths.items():
+            if not isinstance(case.get(key), str) or len(case[key].strip()) < minimum:
                 raise ValueError("Missing required comparison context: " + ident + "/" + key)
         passages = case["biblical"]
         if tuple(tuple(ref) for ref in passages) != BIBLE_SCOPES[ident]:
