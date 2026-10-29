@@ -400,7 +400,8 @@
         "modern-acoe",
         "modern-chaldean",
         "modern-syriac-constitution",
-        "vatican-2001-church-of-east-unity"
+        "vatican-2001-church-of-east-unity",
+        "gedsh-chaldeans"
       ]
     },
     "What the fifteenth and sixteenth centuries changed": {
@@ -3157,7 +3158,8 @@
     "Chaldean Catholic and Syriac Orthodox are not interchangeable church labels": {
       "sources": [
         "vatican-2001-church-of-east-unity",
-        "modern-acoe"
+        "modern-acoe",
+        "gedsh-chaldeans"
       ]
     },
     "Ancient Chaldeans in Babylonia are not the same historical category": {
