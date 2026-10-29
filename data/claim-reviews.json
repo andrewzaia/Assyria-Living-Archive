@@ -1680,6 +1680,250 @@
         "reviewer": null,
         "date": null
       }
+    },
+    {
+      "id": "CL-073",
+      "article": "assyrian-deportations-texts",
+      "section": "Halah and named biblical geography",
+      "anchor": "Second Kings 17:6 and 18:11 name Halah",
+      "claim": "Second Kings 17:6 and 18:11 name Halah as an exile destination.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-israel",
+        "cambridge-naaman-deportees"
+      ],
+      "limitation": "The Assyrian regional identification is a specialist historical interpretation and does not identify individual exiled persons or precise settlement paths.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-074",
+      "article": "assyrian-deportations-texts",
+      "section": "Guzana, Habor and the boundary of name evidence",
+      "anchor": "Second Kings 17:6 places some deportees by Habor in Gozan",
+      "claim": "Kings names Gozan and Habor and Chronicles separately names Gozan in a tribal exile narrative.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-israel",
+        "saao-downloads"
+      ],
+      "limitation": "The later SAA 16 63 theophoric-name research lead is not independently collated here and cannot prove the ethnic history of each named person.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-075",
+      "article": "assyrian-deportations-texts",
+      "section": "Median cities and cautious resettlement dates",
+      "anchor": "Second Kings 17:6 and 18:11 name cities of the Medes",
+      "claim": "Kings identifies cities of the Medes as destinations without a single unique ancient provincial name.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-israel",
+        "aebp-sargon"
+      ],
+      "limitation": "Dating Harhar and Kissessim's later provinces to 716 BCE creates conditional chronological problems, not a proved itinerary.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-076",
+      "article": "assyrian-deportations-texts",
+      "section": "SAA 1 220: Samarian grain taxes in an actual letter",
+      "anchor": "The preserved Neo-Assyrian administrative letter SAA 1 220, also indexed as P334789",
+      "claim": "SAA 1 220, edited as P334789, records an administrative inquiry concerning the grain tax of the Samarians.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "evidence_sources": [
+        "saa-samaria-corn-tax"
+      ],
+      "context_sources": [
+        "bible-webbe",
+        "aebp-governors-overview"
+      ],
+      "limitation": "This original letter concerns administrative taxation; it is not an Israelite deportee census and does not establish the origin of any individual taxpayer.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-077",
+      "article": "assyrian-deportations-texts",
+      "section": "SAA 19 17-18: convoys, provisioning and new households",
+      "anchor": "Karen Radner's specialist UCL treatment identifies two Assyrian letters",
+      "claim": "The published specialist synthesis identifies SAA 19 17 and SAA 19 18 as administrative letters concerning transported Aramaeans, provisions and marriage arrangements.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "evidence_sources": [
+        "aebp-deportation"
+      ],
+      "context_sources": [
+        "saao-downloads",
+        "bible-webbe"
+      ],
+      "limitation": "Primary tablet text and exact line readings have not been collated by this archive; these letters concern Aramaeans, not verified Samarian household groups. The direct source listed is a specialist publication, not an object-level edition.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-078",
+      "article": "assyrian-deportations-texts",
+      "section": "Tiglath-pileser III's scribes and prisoners are a distinct relief",
+      "anchor": "The British Museum entry for wall panel 1848,1104.5",
+      "claim": "British Museum wall panel 1848,1104.5 depicts scribes counting spoil and nearby prisoners in a Tiglath-pileser III relief composition about southern Iraq.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ]
+      ],
+      "evidence_sources": [
+        "bm-tiglath-census-relief"
+      ],
+      "context_sources": [
+        "bm-lachish-deportees",
+        "bible-webbe"
+      ],
+      "limitation": "Museum scene belongs to southern Iraq, not northern Israel. The visual record cannot be used as a named cuneiform deportation list.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-079",
+      "article": "assyrian-deportations-texts",
+      "section": "Provincial archaeology and the danger of assigning ethnicity to finds",
+      "anchor": "Avraham Faust's Oxford chapter 7",
+      "claim": "Faust's 2021 Oxford archaeological synthesis argues that evidence for Assyrian administrative activity was unevenly distributed across the southwestern provinces.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "evidence_sources": [
+        "oxford-faust-provinces"
+      ],
+      "context_sources": [
+        "cambridge-naaman-deportees",
+        "bible-webbe"
+      ],
+      "limitation": "The accessible source is an Oxford chapter abstract, not a full audited archaeological report. Material culture cannot identify ethnic membership for every named individual.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-080",
+      "article": "samaria-assyrian-chronology",
+      "section": "A provincial grain-tax letter beyond the conquest narrative",
+      "anchor": "The edited administrative letter SAA 01 220 (P334789) documents a question",
+      "claim": "The contemporary Assyrian SAA 1 220 letter records Samarian grain-tax discussions outside the royal conquest rhetoric.",
+      "kind": "historical-record",
+      "passages": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "evidence_sources": [
+        "saa-samaria-corn-tax"
+      ],
+      "context_sources": [
+        "aebp-governors-overview",
+        "bible-webbe"
+      ],
+      "limitation": "Administrative correspondence establishes recorded tax concerns, not the ethnic identity of individual taxpayers or the final conquest chronology.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
     }
   ]
 }
