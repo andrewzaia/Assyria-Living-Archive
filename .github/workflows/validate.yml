@@ -40,6 +40,8 @@ jobs:
         run: python scripts/test_royal_witnesses.py
       - name: Test Fall of Samaria and Assyrian succession source accuracy
         run: python scripts/test_samaria_succession.py
+      - name: Test exile, resettlement and provincial source scopes
+        run: python scripts/test_exile_provinces.py
       - name: Test balanced menus and complete navigation coverage
         run: python scripts/test_navigation.py
       - name: Check JavaScript syntax
@@ -47,6 +49,7 @@ jobs:
           node --check static/app.js
           node --check static/map.js
           node --check static/samaria-succession.js
+          node --check static/exile-provinces.js
           node --check static/bible.js
           node --check static/heritage.js
           node --check worker/src/index.mjs

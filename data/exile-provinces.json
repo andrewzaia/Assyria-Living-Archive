@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-30",
+  "method": "The Bible is the primary witness for the statements its texts make. Original letters, royal inscriptions and museum objects are primary only for their own original claims and depictions; specialist syntheses and later archaeological interpretations are separately labelled. Source identifiers and excerpts have been manually checked against named institutional records, but the archive has not independently collated cuneiform signs, audited every full book chapter or obtained qualified independent review. Correlation does not prove migration identity, consent or precise itinerary.",
+  "scope_note": "The biblical notice of exile, an Assyrian letter about Aramaeans, a royal record of imperial victories and a later palace relief are different evidentiary genres. Period headings orient reading without asserting a single mapped exile journey or shared population.",
+  "categories": [
+    {
+      "id": "origins",
+      "title": "Earlier displacement",
+      "description": "Northern territory taken before Samaria's final fall"
+    },
+    {
+      "id": "destinations",
+      "title": "Biblical destinations",
+      "description": "Halah, Gozan, Habor and the towns of the Medes"
+    },
+    {
+      "id": "administration",
+      "title": "Provincial administration",
+      "description": "Samaria, resettlement and preserved tax correspondence"
+    },
+    {
+      "id": "daily-life",
+      "title": "Families, travel and images",
+      "description": "A distinct Aramaean context and later visual portrayals"
+    },
+    {
+      "id": "limits",
+      "title": "Archaeological limits",
+      "description": "Why neither a name nor an object establishes an individual migration"
+    }
+  ],
+  "cases": [
+    {
+      "id": "northern-captivity",
+      "category": "origins",
+      "kind": "edited-text",
+      "title": "The northern Israelite displacement before Samaria fell",
+      "date": "c. 732 BCE",
+      "scope": "Northern Israel, not the later Samaria capture",
+      "source_id": "rinap-tiglath-peqah42",
+      "secondary": [
+        "aebp-israel"
+      ],
+      "source_location": "Q003455 obverse lines 15'-17' - broken and restored",
+      "biblical": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ],
+      "witness": "RINAP 1 Q003455 attributes the taking of people and the imposition of imperial authority in the kingdom known to Assyria as Bit-Humri to Tiglath-pileser III's western operations. The edited signs are fragmentary; the scale and destinations cannot be read off this fragment as a complete register.",
+      "scripture": "Second Kings 15:29 names places lost to Tiglath-pileser III and the carrying away of inhabitants. First Chronicles 5:26 separately describes the east-Jordan tribes and named destinations.",
+      "comparison": "Both sources place forced population movement before the final disappearance of the reduced northern kingdom.",
+      "limits": "Kings and Chronicles differ in their narrative emphases; this royal fragment cannot allocate the named tribes or reconstruct exact routes.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "halah-identification",
+      "category": "destinations",
+      "kind": "scholarly-context",
+      "title": "Halah is a named destination, not an individual address list",
+      "date": "Biblical relocation notice, late eighth century BCE",
+      "scope": "Halah / Halahhu, central Assyrian region",
+      "source_id": "aebp-israel",
+      "secondary": [
+        "cambridge-naaman-deportees"
+      ],
+      "source_location": "Specialist place assessment - no single original tablet locus asserted",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ],
+      "witness": "The Assyrian Empire Builders country study identifies the Halah of Kings with the Assyrian Halahhu in the central region later associated with Sargon's capital province. That is a historical geographical interpretation, not an excavated registry of the transported Israelites.",
+      "scripture": "Second Kings 17:6 and 18:11 both include Halah among the destinations after Samaria's capture.",
+      "comparison": "The named location is a specific biblical anchor, and specialist Assyrian geography provides a plausible ancient regional referent.",
+      "limits": "A regional identification does not establish the itinerary of any named Israelite family or the exact settlement coordinates.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "guzana-habor",
+      "category": "destinations",
+      "kind": "scholarly-context",
+      "title": "Gozan, Habor and the limits of names in administrative letters",
+      "date": "Biblical setting and seventh-century Assyrian evidence",
+      "scope": "Guzana and the Habur basin, northeast Syria",
+      "source_id": "aebp-israel",
+      "secondary": [
+        "saao-downloads",
+        "aebp-kings-road"
+      ],
+      "source_location": "Specialist study cites SAA 16 63; no exact personal-name line asserted",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ],
+      "witness": "The UCL / ORACC study associates biblical Gozan with Guzana and references SAA 16 63, a later letter with names invoking Yahweh. This is an edition-specific research lead; the archive does not present an unchecked cuneiform reading or equate the names with an exhaustive list of deportees.",
+      "scripture": "Kings places deportees in Gozan in association with the Habor; Chronicles also remembers Hara and the river Gozan in its account of trans-Jordanian exiles.",
+      "comparison": "The ancient regional setting and later attestation of Yahwistic names can be studied together as a limited historical correspondence.",
+      "limits": "A theophoric name alone does not prove a person's place of birth, ancestry, family route or direct descent from an exile reported in Kings.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "median-cities",
+      "category": "destinations",
+      "kind": "scholarly-context",
+      "title": "The towns of the Medes remain a regional problem",
+      "date": "After the fall of Samaria; later provinces formed in 716 BCE",
+      "scope": "Median lands east of Assyria",
+      "source_id": "aebp-israel",
+      "secondary": [
+        "aebp-sargon"
+      ],
+      "source_location": "Specialist reconstruction, not mapped individual settlement coordinates",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ]
+      ],
+      "witness": "The specialist Assyrian country overview discusses Parsua, Harhar and Kissessim as later imperial provinces associated with Median territory. It warns that the latter two provinces were founded only in 716 BCE, so an assumption of immediate relocation constrains the possibilities.",
+      "scripture": "The biblical notice speaks of cities of the Medes, not a single named Assyrian district, date-stamped settlement or mapped route.",
+      "comparison": "The destination description is consistent with an eastern sphere of deportation without specifying one unique ancient town.",
+      "limits": "The 716 BCE provincial dates do not prove the deportees travelled immediately, travelled only once or all entered Parsua.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "sargonic-resettlement",
+      "category": "administration",
+      "kind": "edited-text",
+      "title": "Sargon's royal account of Samaria's reorganisation",
+      "date": "Retrospective royal inscription of Sargon II",
+      "scope": "Samaria as a claimed Assyrian provincial centre",
+      "source_id": "rinap-sargon-samaria7",
+      "secondary": [
+        "aebp-israel",
+        "cambridge-naaman-deportees"
+      ],
+      "source_location": "Q006488 lines 23-25 - edited royal display text",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "witness": "RINAP 2 Q006488 lines 23-25 boast of deportations, military appropriation and an appointed governor. A different number appears in the edition's exemplar notes; the royal report reflects self-presentation, not a certified census or undebated capture date.",
+      "scripture": "Second Kings 17:6 narrates Israelites taken to Assyria; verse 24 narrates settlers subsequently brought into the towns of Samaria.",
+      "comparison": "Both testimonies include a changed population and the extension of Assyrian control over Samaria.",
+      "limits": "Royal resettlement rhetoric does not independently identify the five settlement origins in verse 24, settle Shalmaneser's siege attribution or verify the exact deportation total.",
+      "article": "samaria-assyrian-chronology"
+    },
+    {
+      "id": "new-residents",
+      "category": "administration",
+      "kind": "scholarly-context",
+      "title": "Where did Samaria's new residents come from?",
+      "date": "Aftermath described in Kings",
+      "scope": "Babylon, Cuthah, Avva, Hamath and Sepharvaim",
+      "source_id": "aebp-deportation",
+      "secondary": [
+        "cambridge-naaman-deportees",
+        "oxford-faust-provinces",
+        "aebp-israel"
+      ],
+      "source_location": "Thematic specialist resettlement synthesis - no specific settler roll claimed",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "witness": "Assyrian imperial policy moved groups across provincial boundaries for economic and political reasons. Specialist archaeological studies examine how settlement traces may be recognised, while emphasising that many inferences are not attributable to individually named migrants.",
+      "scripture": "Second Kings 17:24 explicitly names the places from which people were brought to settle in Samaria and its cities.",
+      "comparison": "The biblical notice concerns a specific population transfer, and Assyrian resettlement was an attested imperial practice.",
+      "limits": "The policy summary is not a separate surviving list matching the five biblical place names; material culture cannot automatically be labelled ethnic origin.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "samaria-tax-letter",
+      "category": "administration",
+      "kind": "edited-text",
+      "title": "A letter about grain taxes from the Samarians",
+      "date": "Reign of Sargon II, after Samaria entered imperial administration",
+      "scope": "Samaria in state correspondence",
+      "source_id": "saa-samaria-corn-tax",
+      "secondary": [
+        "aebp-israel",
+        "aebp-governance"
+      ],
+      "source_location": "SAA 01 220 / P334789, obverse 4-6 and reverse 1-9",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "witness": "SAA 1 220 is an actual edited Neo-Assyrian administrative letter. Arihu writes to Nabu-duri-usur requesting clarification of the Samarians' grain tax and complaining about officials' inaction. The original source's edited signs, letter identification and a bounded translation are available to inspect.",
+      "scripture": "Kings supplies the narrative of Samaria's settlement change, whereas the letter concerns the functioning and friction of an imperial administrative system.",
+      "comparison": "The letter provides direct evidence that Assyrian administrators discussed taxes associated with Samaria rather than only announcing conquest in royal inscriptions.",
+      "limits": "The letter is not an exile roster and does not reveal whether a particular taxpayer was an Israelite survivor, an incoming settler or another resident.",
+      "article": "samaria-assyrian-chronology"
+    },
+    {
+      "id": "travel-supplies",
+      "category": "daily-life",
+      "kind": "specialist-identified-text",
+      "title": "Food, water and shoes in a deportation convoy",
+      "date": "Tiglath-pileser III period, distinct Aramaean movement",
+      "scope": "Aramaean transport under Assyrian officials, not a Samarian convoy",
+      "source_id": "aebp-deportation",
+      "secondary": [
+        "saao-downloads",
+        "aebp-kings-road"
+      ],
+      "source_location": "Specialist synthesis cites NL 25 = SAA 19 17; no unverified line asserted",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "witness": "An Assyrian letter identified by UCL as SAA 19 17 concerns an Aramaean group and arrangements for food, clothing, a waterskin, shoes, oil and transport animals. It is evidence for bureaucratic attention to some forced journeys, not proof that all journeys were benign.",
+      "scripture": "Second Kings 17:6 focuses on the capture and removal of Israelites and names destinations without describing the supplies given to travellers.",
+      "comparison": "A documented imperial logistics practice helps readers ask what transport and state organisation involved.",
+      "limits": "The letter is about Aramaeans rather than Israelites, and official provisioning plans do not establish recipients' consent, safety or actual treatment.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "marriage-and-bride-price",
+      "category": "daily-life",
+      "kind": "specialist-identified-text",
+      "title": "New households and the limits of state-managed marriage",
+      "date": "Tiglath-pileser III period, distinct Aramaean movement",
+      "scope": "Resettled Aramaean households",
+      "source_id": "aebp-deportation",
+      "secondary": [
+        "saao-downloads",
+        "cambridge-naaman-deportees"
+      ],
+      "source_location": "Specialist synthesis cites NL 26 = SAA 19 18; no unverified line asserted",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "witness": "A second letter, cited as SAA 19 18, concerns officials seeking marriage partners for transported Aramaeans and objections concerning bride price. It shows that administrative policy intersected with family relationships and economic obligations.",
+      "scripture": "Second Kings 17:24 identifies populations settled in Samaria but does not describe the family histories of those moved.",
+      "comparison": "State-managed population policy had household and community dimensions beyond victories and territorial maps.",
+      "limits": "The letter cannot be recast as an Israelite family history or proof of voluntary marriage, universal practice or the experiences of women who were not authors of the surviving text.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "tiglath-scribes-relief",
+      "category": "daily-life",
+      "kind": "museum-object",
+      "title": "Assyrian scribes record booty and prisoners",
+      "date": "c. 728 BCE, Tiglath-pileser III",
+      "scope": "Southern Iraq campaign image, not a Samaria capture",
+      "source_id": "bm-tiglath-census-relief",
+      "secondary": [
+        "aebp-deportation"
+      ],
+      "source_location": "British Museum 1848,1104.5; paired with BM 118882",
+      "biblical": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ]
+      ],
+      "witness": "The British Museum describes a relief showing an officer and two scribes recording spoil, with captives and livestock in the larger paired scene. The monument's original setting and museum catalogue identify it with Tiglath-pileser III and a southern Iraq campaign.",
+      "scripture": "Second Kings 15:29 narrates the removal of people from northern Israel under Tiglath-pileser III.",
+      "comparison": "The image illustrates that officials and record-keeping belonged to the visual vocabulary of Assyrian conquest and relocation.",
+      "limits": "The pictured captives cannot be identified as the Israelites of 2 Kings 15:29. This is visual material, not a translatable named deportation register.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "lachish-distinct",
+      "category": "daily-life",
+      "kind": "museum-object",
+      "title": "Prisoners from Lachish belong to a later campaign",
+      "date": "701 BCE campaign, sculpture made later",
+      "scope": "Sennacherib's Judah campaign, not northern Samaria",
+      "source_id": "bm-lachish-deportees",
+      "secondary": [
+        "aebp-deportation"
+      ],
+      "source_location": "British Museum 124908, Room XXXVI panel 9",
+      "biblical": [
+        [
+          "2KI",
+          18,
+          13,
+          17
+        ]
+      ],
+      "witness": "The museum records a carved panel depicting captives and goods moving away from Lachish, under Sennacherib. The documented archaeological and pictorial setting concerns Judah's war, more than two decades after Samaria's fall.",
+      "scripture": "Second Kings 18:13-17 recounts the later siege and pressure on Judah and Hezekiah under Sennacherib.",
+      "comparison": "A separately accessioned visual witness helps compare the empire's depictions of displaced people.",
+      "limits": "Its people, date and city are not Samaria: this is Sennacherib's later Judah campaign. The image neither supplies an authentic first-person deportee narrative nor a list of northern Israelite exiles.",
+      "article": "assyrian-deportations-texts"
+    },
+    {
+      "id": "limits-of-archaeology",
+      "category": "limits",
+      "kind": "academic-synthesis",
+      "title": "What archaeology cannot reconstruct on its own",
+      "date": "Archaeological studies published 2016 and 2021",
+      "scope": "Samaria, Megiddo and the southwestern Assyrian provinces",
+      "source_id": "oxford-faust-provinces",
+      "secondary": [
+        "cambridge-naaman-deportees",
+        "aebp-israel"
+      ],
+      "source_location": "Faust (2021), chapter 7, pp. 181-213; accessible abstract only",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ],
+      "witness": "Faust's published abstract warns that traces of Assyrian administration are patchy across much of the provincial landscape. Na'aman's archaeological chapter explicitly examines where deportees in Israel and southern Palestine might be located. These are archaeological arguments, not ancient census rolls.",
+      "scripture": "Kings names the populations newly settled in Samaria, but the passage does not supply their excavation layers or a modern site register.",
+      "comparison": "Material evidence can help evaluate provincial geography, urban change and patterns of control.",
+      "limits": "Sparse finds, mixed material culture and incomplete records do not permit a confident family-by-family map; the full Oxford chapter was not independently audited from its accessible abstract.",
+      "article": "assyrian-deportations-texts"
+    }
+  ]
+}

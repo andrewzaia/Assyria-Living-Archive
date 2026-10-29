@@ -35,6 +35,7 @@ from concordance import DATA as CONCORDANCE, TERMS as CONCORDANCE_TERMS, validat
 from identity_register import DATA as IDENTITY_DATA, CASES as IDENTITY_CASES, validate as validate_identity
 from royal_witnesses import DATA as ROYAL_DATA, CASES as ROYAL_CASES, validate as validate_royal
 from samaria_succession import DATA as SAMARIA_DATA, CASES as SAMARIA_CASES, validate as validate_samaria
+from exile_provinces import DATA as EXILE_DATA, CASES as EXILE_CASES, validate as validate_exile
 
 class Page(HTMLParser):
     def __init__(self):
@@ -329,7 +330,7 @@ def main():
         for dossier in HISTORICAL_EVIDENCE_ARTICLES:
             if '/articles/' + dossier['slug'] + '/' not in hub_html:
                 errors.append('Dossier not linked from hub: ' + dossier['slug'])
-            expected_sections = 11 if dossier['slug'] == 'samaria-assyrian-chronology' else 5
+            expected_sections = 12 if dossier['slug'] in ('samaria-assyrian-chronology', 'assyrian-deportations-texts') else 5
             if len(dossier['sections']) != expected_sections or len(SECTION_DATA.get(dossier['slug'], {})) != expected_sections:
                 errors.append('Dossier must retain every mapped source-specific section (' + str(expected_sections) + '): ' + dossier['slug'])
             if 'bible-webbe' not in dossier['sources'] or not dossier.get('passages'):
@@ -541,10 +542,35 @@ def main():
     samaria_dossiers = OUT / 'dossiers/index.html'
     if not samaria_dossiers.is_file() or '/samaria-succession/' not in samaria_dossiers.read_text(encoding='utf-8'):
         errors.append('Research dossiers missing Samaria route')
+    exile_report = validate_exile(sources, EDITORIAL_ARTICLES)
+    if exile_report != {"cases": 12, "bible_routes": 17, "original_text_cases": 3,
+                         "museum_object_cases": 2, "context_cases": 7,
+                         "categories": 5, "distinct_supporting_sources": 13}:
+        errors.append('Exile and province source-case coverage changed without editorial review')
+    exile_html = OUT / 'exile-provinces/index.html'
+    if not exile_html.is_file():
+        errors.append('Exile and Assyrian provincial research room missing')
+    else:
+        exile_page = exile_html.read_text(encoding='utf-8')
+        if exile_page.count('class="exile-case"') != len(EXILE_CASES):
+            errors.append('Missing curated exile evidence cards')
+        if '/exile-provinces.js' not in exile_page:
+            errors.append('Exile source type filtering not linked')
+        for item in EXILE_CASES:
+            if 'id="exile-' + item['id'] + '"' not in exile_page:
+                errors.append('Exile research room missing case ' + item['id'])
+            article_path = OUT / 'articles' / item['article'] / 'index.html'
+            if not article_path.exists() or '/exile-provinces/#exile-' + item['id'] not in article_path.read_text(encoding='utf-8'):
+                errors.append('Missing reciprocal exile study link ' + item['id'])
+    exile_export = OUT / 'exile-provinces.json'
+    if not exile_export.is_file() or json.loads(exile_export.read_text(encoding='utf-8')) != EXILE_DATA:
+        errors.append('Missing or altered offline exile and resettlement source export')
+    if not (OUT / 'dossiers/index.html').is_file() or '/exile-provinces/' not in (OUT / 'dossiers/index.html').read_text(encoding='utf-8'):
+        errors.append('Dossier reading room missing new exile research link')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'royal_witnesses.py', ROOT / 'royal_witnesses_page.py', ROOT / 'data/royal-witnesses.json', ROOT / 'samaria_succession.py', ROOT / 'samaria_succession_page.py', ROOT / 'data/samaria-succession.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'royal_witnesses.py', ROOT / 'royal_witnesses_page.py', ROOT / 'data/royal-witnesses.json', ROOT / 'samaria_succession.py', ROOT / 'samaria_succession_page.py', ROOT / 'data/samaria-succession.json', ROOT / 'exile_provinces.py', ROOT / 'exile_provinces_page.py', ROOT / 'data/exile-provinces.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
