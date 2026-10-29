@@ -80,7 +80,7 @@ def render(heading, escape, report):
         '<p><strong>Source dates:</strong> The <a href="/sources/">source library</a> displays each record\'s recorded consultation or retrieval date. It is not a promise that a live external page remains unchanged.</p>'
         '<h2>Editorial source register</h2><p>Use these direct links to inspect a guide and follow the references it names. '
         'The next research stage is paragraph-level evidence mapping and a documented specialist review process.</p></div>'
-        '<div class="expansion-table-wrap"><table><thead><tr><th scope="col">Editorial guide</th>'
+        '<div class="expansion-table-wrap evidence-register-table"><table><thead><tr><th scope="col">Editorial guide</th>'
         '<th scope="col">Collection</th><th scope="col">Sources</th><th scope="col">Source IDs</th>'
         '</tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
         '<div class="prose"><p><a href="/evidence-index.json" download>Download the machine-readable evidence index</a>'
