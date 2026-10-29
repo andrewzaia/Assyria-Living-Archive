@@ -3,6 +3,7 @@ import json
 import re
 import sys
 from html.parser import HTMLParser
+from html import escape as html_escape
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -220,7 +221,7 @@ def main():
         if html.count('class="heritage-record"') != heritage_count:
             errors.append('Heritage hub record count differs from maintained public index')
         for record in HERITAGE_DATA['records']:
-            if 'data-heritage-category="' + record['category'] + '"' not in html:
+            if 'data-heritage-category="' + html_escape(record['category'], quote=True) + '"' not in html:
                 errors.append('Missing public heritage theme: ' + record['id'])
             if '/articles/' + record['article_slug'] + '/' not in html:
                 errors.append('Missing heritage article route: ' + record['id'])
