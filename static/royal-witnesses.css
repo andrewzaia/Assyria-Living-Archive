@@ -1,0 +1,27 @@
+/* Source-scoped side-by-side biblical and royal evidence layout. */
+.royal-room{max-width:1180px}.royal-room a{color:var(--rust);text-decoration:underline;text-underline-offset:3px}
+.royal-intro{display:grid;grid-template-columns:1fr 1fr;gap:28px;border-top:1px solid var(--line);padding:26px 0}
+.royal-intro p,.royal-method p{font-size:13px;line-height:1.85;color:var(--muted)}.royal-intro strong{color:var(--ink)}
+.royal-index{background:var(--white);border:1px solid var(--line);padding:23px 26px;margin:15px 0 28px}
+.royal-index h2{font:500 28px/1.2 var(--serif);margin:0 0 14px}.royal-index ol{display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;padding-left:20px}
+.royal-index li{font-size:12px;line-height:1.75}.royal-cases{display:grid;gap:24px}
+.royal-case{background:var(--white);border:1px solid var(--line);scroll-margin-top:130px}
+.royal-case:target{outline:2px solid var(--rust);outline-offset:2px}
+.royal-case header{padding:24px 28px 20px;border-bottom:1px solid var(--line)}
+.royal-case header .eyebrow{text-transform:uppercase;color:var(--rust)}
+.royal-case h2{font:500 clamp(26px,3vw,38px)/1.2 var(--serif);margin:10px 0}
+.royal-case header p{color:var(--muted);font-size:12px;line-height:1.75}
+.royal-two{display:grid;grid-template-columns:1fr 1fr}
+.royal-two>section{min-width:0;padding:22px 28px;border-bottom:1px solid var(--line)}
+.royal-two>section+section{border-left:1px solid var(--line)}
+.royal-two h3,.royal-assessment h3{font-size:13px;color:var(--ink);margin:0 0 12px}
+.royal-two p,.royal-assessment p{font-size:12px;line-height:1.85;color:var(--muted);margin:10px 0}
+.royal-two ul{margin:0 0 18px;padding-left:18px;font-size:12px;line-height:2}
+.royal-meta{font-weight:600;color:var(--ink)!important}
+.royal-two a{font-size:12px;overflow-wrap:anywhere}
+.royal-assessment{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding:24px 28px}
+.royal-case footer{border-top:1px solid var(--line);padding:17px 28px;display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+.royal-method{margin-top:40px;border-top:1px solid var(--line);padding:28px 0}
+.royal-method h2{font:500 34px/1.2 var(--serif)}
+@media(max-width:760px){.royal-intro,.royal-index ol,.royal-two,.royal-assessment{grid-template-columns:1fr}.royal-two>section+section{border-left:0}.royal-two>section:first-child{border-bottom:1px solid var(--line)}.royal-case header,.royal-two>section,.royal-assessment,.royal-case footer{padding-left:19px;padding-right:19px}}
+@media print{.royal-index{display:none}.royal-case{break-inside:avoid}}
