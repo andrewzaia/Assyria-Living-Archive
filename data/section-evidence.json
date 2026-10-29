@@ -2207,5 +2207,320 @@
         ]
       ]
     }
+  },
+  "middle-assyrian-overview": {
+    "Where and when": {
+      "sources": [
+        "tcma-corpus"
+      ]
+    },
+    "An archive in thousands of pieces": {
+      "sources": [
+        "tcma-corpus"
+      ]
+    },
+    "Western expansion and local difference": {
+      "sources": [
+        "tcma-corpus",
+        "fu-dur-katlimmu"
+      ]
+    },
+    "Why social history changes the questions": {
+      "sources": [
+        "tcma-bibliography",
+        "tcma-corpus"
+      ]
+    },
+    "Scripture and period boundaries": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "GEN",
+          10,
+          8,
+          12
+        ],
+        [
+          "GEN",
+          10,
+          22,
+          22
+        ],
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "middle-assyrian-provincial-administration": {
+    "A particular excavated city": {
+      "sources": [
+        "fu-dur-katlimmu"
+      ]
+    },
+    "The administrative centre": {
+      "sources": [
+        "harvard-dur-katlimmu-seals"
+      ]
+    },
+    "What the officials recorded": {
+      "sources": [
+        "tcma-corpus"
+      ]
+    },
+    "Authority at several scales": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    },
+    "Evidence gaps and further study": {
+      "sources": [
+        "tcma-bibliography",
+        "fu-dur-katlimmu"
+      ]
+    }
+  },
+  "middle-assyrian-women-and-law": {
+    "What the laws are": {
+      "sources": [
+        "tcma-law"
+      ]
+    },
+    "Marriage, property and vulnerable people": {
+      "sources": [
+        "tcma-law",
+        "fales-veil-assyrian"
+      ]
+    },
+    "Veiling as a marker of status": {
+      "sources": [
+        "fales-veil-assyrian"
+      ]
+    },
+    "Documents challenge a single narrative": {
+      "sources": [
+        "fales-veil-assyrian",
+        "tcma-corpus"
+      ]
+    },
+    "Biblical legal comparison without conflation": {
+      "sources": [
+        "bible-webbe",
+        "tcma-law"
+      ],
+      "passages": [
+        [
+          "DEU",
+          24,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "middle-assyrian-households-inheritance": {
+    "A household is more than a name": {
+      "sources": [
+        "tcma-assur",
+        "tcma-corpus"
+      ]
+    },
+    "Inheritance and legal vulnerability": {
+      "sources": [
+        "tcma-law"
+      ]
+    },
+    "Property documents and deposits": {
+      "sources": [
+        "tcma-taban"
+      ]
+    },
+    "The limits of analogy": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    },
+    "How to assemble a family dossier": {
+      "sources": [
+        "tcma-assur",
+        "tcma-taban"
+      ]
+    }
+  },
+  "middle-assyrian-farming-water": {
+    "Water made geography political": {
+      "sources": [
+        "reculeau-water-habur",
+        "water-assyria-jstor"
+      ]
+    },
+    "The administrative trace of a field": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    },
+    "Irrigation law and conflict": {
+      "sources": [
+        "tcma-law"
+      ]
+    },
+    "Animals and agricultural labour": {
+      "sources": [
+        "tcma-bibliography",
+        "fu-dur-katlimmu"
+      ]
+    },
+    "A research route through the landscape": {
+      "sources": [
+        "reculeau-water-habur",
+        "tcma-corpus"
+      ]
+    }
+  },
+  "middle-assyrian-labour-rations": {
+    "Who appears in ration lists": {
+      "sources": [
+        "tcma-bibliography",
+        "tcma-corpus"
+      ]
+    },
+    "Work and unequal power": {
+      "sources": [
+        "tcma-bibliography",
+        "tcma-corpus"
+      ]
+    },
+    "Counting food and textiles": {
+      "sources": [
+        "tcma-bibliography"
+      ]
+    },
+    "Movement under state authority": {
+      "sources": [
+        "tcma-corpus",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ]
+      ]
+    },
+    "Restore the missing questions": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    }
+  },
+  "middle-assyrian-scribes-seals": {
+    "A written record is a selection": {
+      "sources": [
+        "tcma-corpus"
+      ]
+    },
+    "The meaning of a seal impression": {
+      "sources": [
+        "harvard-dur-katlimmu-seals"
+      ]
+    },
+    "Copies, editions and catalogue numbers": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-assur"
+      ]
+    },
+    "People behind the names": {
+      "sources": [
+        "tcma-assur"
+      ]
+    },
+    "How to preserve a source chain": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    }
+  },
+  "middle-assyrian-religion-ritual": {
+    "Aššur as a religious centre": {
+      "sources": [
+        "tcma-assur",
+        "tcma-corpus",
+        "unesco-ashur"
+      ]
+    },
+    "Rituals in the preserved corpus": {
+      "sources": [
+        "tcma-law"
+      ]
+    },
+    "Institutions and ordinary worship": {
+      "sources": [
+        "tcma-law",
+        "tcma-assur"
+      ]
+    },
+    "Scripture on Assyrian worship in its own setting": {
+      "sources": [
+        "bible-webbe",
+        "tcma-law"
+      ],
+      "passages": [
+        [
+          "2KI",
+          19,
+          35,
+          37
+        ]
+      ]
+    },
+    "Respect historical and living identities": {
+      "sources": [
+        "tcma-corpus",
+        "unesco-ashur"
+      ]
+    }
+  },
+  "middle-assyrian-routes-and-exchange": {
+    "The geography of connection": {
+      "sources": [
+        "tcma-corpus",
+        "fu-dur-katlimmu"
+      ]
+    },
+    "Letters, receipts and allocation": {
+      "sources": [
+        "tcma-taban"
+      ]
+    },
+    "Markets and institutions": {
+      "sources": [
+        "tcma-corpus",
+        "tcma-bibliography"
+      ]
+    },
+    "Sealings and the problem of trust": {
+      "sources": [
+        "harvard-dur-katlimmu-seals"
+      ]
+    },
+    "A route for a real journey dossier": {
+      "sources": [
+        "tcma-taban",
+        "fu-dur-katlimmu"
+      ]
+    }
   }
 }
