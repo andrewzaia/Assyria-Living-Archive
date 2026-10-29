@@ -32,6 +32,33 @@
   ],
   "changes": [
     {
+      "id": "REV-0020",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Explore topic categories - startup fault and browser filter regression",
+      "summary": "Fixed a JavaScript initialisation error where querySelector('.search-open') was treated as an iterable with .forEach(), preventing the rest of the page's JavaScript setup, including all Explore topic filters, search, sort and reset controls. Corrected the search trigger binding using querySelectorAll, aligned results labels with reading entries, and added a comprehensive real-script Node VM regression suite exercising all six topics, homepage ?topic= links, invalid topic values, search/category intersection, sorting, empty state, counts and reset. The new test runs in standard validation CI. Patch-level usability correction; source records, historical claims and content were not changed.",
+      "impact": "Restores functioning Explore category buttons under the search bar, along with the header search trigger and related page controls. Root and GitHub Pages subpath builds and all automated regression tests passed before merge. Automated browser simulation does not substitute for manual Safari, touch and assistive technology testing.",
+      "commit": "8a270e29a1ca0f5a181006e4f135dda556cb6f6c",
+      "pr": 35,
+      "sections": [
+        "/explore/",
+        "/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "static/app.js",
+        "scripts/test_explore_filters.mjs",
+        ".github/workflows/validate.yml",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0019",
       "date": "2026-10-30",
       "kind": "clarification",
