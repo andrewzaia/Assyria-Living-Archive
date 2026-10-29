@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-29",
+  "method": "These text-anchored records are an editorial verification queue. Scripture passages establish what the cited biblical text reports; institutional material and corpora supply separately identified evidence or context. Source mapping is not scholarly fact-checking or agreement between sources. All initial records await independent specialist review.",
+  "claims": [
+    {
+      "id": "CL-001",
+      "article": "bible-sargon",
+      "section": "The named king",
+      "anchor": "Isaiah 20:1 refers to the year in which the Tartan came to Ashdod",
+      "claim": "Isaiah 20:1 names Sargon as king of Assyria and describes his official's action at Ashdod.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-sargon"
+      ],
+      "limitation": "Sargon's identity is named in the biblical account; the Assyrian history source supplies context, not automatic proof of every detail in Isaiah.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-002",
+      "article": "bible-sargon",
+      "section": "The named king",
+      "anchor": "The text calls the commander Tartan",
+      "claim": "The commander is called Tartan in the retained translation of Isaiah 20:1.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "bible-official-titles"
+      ],
+      "limitation": "Tartan can denote an office title. The specialist notes address terminology, not a unique personal identification.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-003",
+      "article": "bible-sargon",
+      "section": "The prophetic sign",
+      "anchor": "Isaiah 20:2-4 describes",
+      "claim": "Isaiah 20:2-4 presents an enacted prophetic sign concerning Egypt and Cush.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "ISA",
+          20,
+          2,
+          4
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "A prophetic text reporting a sign is not independently verified evidence that all predicted events occurred as described.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-004",
+      "article": "bible-sennacherib-invasion",
+      "section": "The invasion in Kings",
+      "anchor": "2 Kings 18:13 records",
+      "claim": "2 Kings 18:13 reports Sennacherib's attack on fortified cities of Judah.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          13
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "oracc-rinap"
+      ],
+      "limitation": "The RINAP corpus is a comparison route; individual inscription passages and campaign chronology still need direct alignment.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-005",
+      "article": "bible-sennacherib-invasion",
+      "section": "The invasion in Kings",
+      "anchor": "Verses 14-16 describe",
+      "claim": "2 Kings 18:14-16 reports tribute involving silver and gold from Hezekiah.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          18,
+          14,
+          16
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "oracc-rinap"
+      ],
+      "limitation": "Do not silently harmonise the biblical amounts or circumstances with Assyrian royal accounts.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-006",
+      "article": "bible-rabshakeh",
+      "section": "Language as a political choice",
+      "anchor": "In 2 Kings 18:26 and Isaiah 36:11",
+      "claim": "The Judean officials request that the Assyrian representative speak Aramaic rather than the language of Judah.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          18,
+          26,
+          26
+        ],
+        [
+          "ISA",
+          36,
+          11,
+          11
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "The stated language choice does not identify modern spoken varieties or establish how every Assyrian spoke.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-007",
+      "article": "bible-hezekiah-deliverance",
+      "section": "The promised deliverance",
+      "anchor": "Verses 35-37 record the angel",
+      "claim": "2 Kings 19:35-37 reports the destruction of 185,000 in the Assyrian camp and Sennacherib's return to Nineveh.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          19,
+          35,
+          37
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "This is a claim about what the biblical text records. The number and divine agency are not independently archaeologically verified by this entry.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-008",
+      "article": "bible-esarhaddon",
+      "section": "The succession notice",
+      "anchor": "2 Kings 19:36-37 says that Sennacherib returned",
+      "claim": "2 Kings 19:36-37 and Isaiah 37:37-38 describe Sennacherib's death and Esar Haddon's succession.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          19,
+          36,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          37,
+          38
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "Names and succession are reported in the cited passages. Independent succession records still require claim-specific inspection.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-009",
+      "article": "bible-samaria",
+      "section": "The siege narrative",
+      "anchor": "2 Kings 17:3 names Shalmaneser",
+      "claim": "2 Kings 17:3 names Shalmaneser in Hoshea's tribute relationship with Assyria.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          3
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "The verse naming a king must be distinguished from assigning the final capture of Samaria to that ruler.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-010",
+      "article": "bible-samaria",
+      "section": "The parallel chronological account",
+      "anchor": "2 Kings 18:9-12 recounts the same siege",
+      "claim": "2 Kings 18:9-12 reports the siege and fall of Samaria with regnal-year coordinates.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "An absolute BCE date and attribution between Shalmaneser V and Sargon II require extra-biblical evidence.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-011",
+      "article": "bible-nahum",
+      "section": "The subject named at the start",
+      "anchor": "Nahum 1:1 identifies the work",
+      "claim": "Nahum 1:1 identifies the prophecy as an oracle concerning Nineveh.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          1
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "This identifies the literary subject. It does not itself establish the calendar year in which Nineveh fell.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-012",
+      "article": "bible-isaiah-blessing",
+      "section": "The blessing itself",
+      "anchor": "Isaiah 19:25 names Egypt",
+      "claim": "Isaiah 19:23-25 presents Egypt, Assyria and Israel together in a vision of blessing.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "ISA",
+          19,
+          23,
+          25
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [],
+      "limitation": "Theological interpretations of fulfilment must be labelled as interpretations, rather than presented as dated geopolitical outcomes.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-013",
+      "article": "khorsabad",
+      "section": "A royal foundation",
+      "anchor": "Dur-Sharrukin, at modern Khorsabad, was built as a capital by Sargon II",
+      "claim": "Dur-Sharrukin at Khorsabad was founded as a royal capital under Sargon II.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "khorsabad-ministry"
+      ],
+      "context_sources": [],
+      "limitation": "The public archaeological overview supports the introductory association; individual construction dates and phases remain to be checked against excavations and inscriptions.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-014",
+      "article": "ashur",
+      "section": "A site with several lives",
+      "anchor": "UNESCO records a revival under the Parthians",
+      "claim": "UNESCO records a later Parthian revival at Ashur.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "unesco-ashur"
+      ],
+      "context_sources": [],
+      "limitation": "A later occupation phase is not evidence of uninterrupted institutions or unchanged identity across all intervening periods.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-015",
+      "article": "old-assyrian-trade",
+      "section": "Read a real document",
+      "anchor": "object 66.245.10",
+      "claim": "The Met catalogues a caravan-account tablet under object number 66.245.10.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "met-caravan"
+      ],
+      "context_sources": [],
+      "limitation": "The museum object record establishes the attributed object and catalogue context, not a comprehensive reconstruction of Old Assyrian commerce.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

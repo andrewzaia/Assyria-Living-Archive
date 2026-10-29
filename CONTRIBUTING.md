@@ -22,7 +22,7 @@ Choose one of the six existing categories. Every source ID must exist in `source
 
 Source records use `id`, `title`, `publisher`, `url`, `type`, `access` and `checked`. Use stable institutional or publication URLs where possible. Record the actual consultation date; do not update it merely because a build ran.
 
-The published editorial guides currently use article-level bibliography links. The evidence register at `/about/evidence/` and `evidence-index.json` exposes this relationship in both directions; it does not claim that every statement is individually verified. Do not describe an unreviewed source as peer reviewed or a consultation date as independent validation. The foundation template displays a compilation date and article-level reference groups. If substantively updating an entry, review the displayed dates and make the relevant evidence trail clear. Section-level source attribution and individual revision metadata are planned improvements.
+Published editorial guides have article-level bibliographies and selected curated section-level source trails. The evidence register at `/about/evidence/` also presents an initial claim-level verification queue. None of these links alone establishes historical truth. Do not describe an unreviewed source as peer reviewed or a consultation date as independent validation. If substantively updating an entry, check its section trail, any anchored claim-review records and their limitations. Claim reviews require exact source roles, passages and named specialist review before a completed-review label can be used.
 
 ## Evidence and identity
 
@@ -35,6 +35,8 @@ The published editorial guides currently use article-level bibliography links. T
 - Use original summaries and check reuse rights for every imported asset.
 
 ## Implementation
+
+Every significant feature or research milestone, including previously undocumented work, must also be recorded in `data/project-roadmap.json` with its accurate status, what has been delivered and what remains. The About page's Next Chapters section is generated directly from this file. Do not mark work complete because code was written if its validation or deployment is still pending.
 
 Every new public hub page must be registered in `navigation.py` so it appears in both desktop and mobile menus. Keep short link descriptions, use native disclosure semantics and test generated links under both root and subpath deployments. Avoid putting essential pages only in another page's body or footer.
 

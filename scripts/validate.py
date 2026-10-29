@@ -18,6 +18,8 @@ ARTICLES = EDITORIAL_ARTICLES + REFERENCES
 from site_config import OUT, BASE_PATH, ALLOW_INDEXING, SITE_URL
 from navigation import NAV_GROUPS, NAV_PATHS
 from section_evidence import DATA as SECTION_DATA, validate as validate_section_evidence
+from claim_review import build as build_claim_reviews
+from project_roadmap import DATA as ROADMAP_DATA, validate as validate_roadmap
 
 class Page(HTMLParser):
     def __init__(self):
@@ -69,6 +71,8 @@ def main():
     sources += reference_sources(REFERENCES)
     source_ids = [s['id'] for s in sources]
     validate_section_evidence(EDITORIAL_ARTICLES, sources)
+    claim_report = build_claim_reviews(EDITORIAL_ARTICLES, sources)
+    milestones = validate_roadmap()
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):
         errors.append('Duplicate source IDs')
@@ -173,10 +177,26 @@ def main():
                 errors.append('Evidence index differs from source and article metadata')
         except (OSError, ValueError) as exc:
             errors.append(f'Invalid evidence relationship index: {exc}')
+    evidence_html = OUT / 'about/evidence/index.html'
+    if not evidence_html.exists() or evidence_html.read_text(encoding='utf-8').count('id="claim-cl-') != claim_report['summary']['claim_records']:
+        errors.append('Claim evidence queue is missing or incomplete in generated evidence register')
+    about_html = OUT / 'about/index.html'
+    if not about_html.exists():
+        errors.append('Missing About roadmap page')
+    else:
+        html = about_html.read_text(encoding='utf-8')
+        for milestone in milestones:
+            if 'id="milestone-' + milestone['id'] + '"' not in html:
+                errors.append('Roadmap milestone missing from Next Chapters: ' + milestone['id'])
+        if 'id="next-chapters"' not in html:
+            errors.append('Next Chapters anchor missing')
+    roadmap_file = OUT / 'project-roadmap.json'
+    if not roadmap_file.exists() or json.loads(roadmap_file.read_text(encoding='utf-8')) != ROADMAP_DATA:
+        errors.append('Generated roadmap differs from maintained milestones')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
