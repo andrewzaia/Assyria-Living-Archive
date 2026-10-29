@@ -32,6 +32,31 @@
   ],
   "changes": [
     {
+      "id": "REV-0005",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Public editorial governance and revision history",
+      "summary": "Added public corrections and review policy, role disclosures, a curated merged-commit register and blank editorial planning worksheets.",
+      "impact": "No secure private correction intake, appointed specialist reviewer or confirmed public correction case is claimed. This milestone implements editorial infrastructure, not independent historical adjudication.",
+      "commit": "efa81fcf14079c832c1736e9269dcd8ae4fcadf8",
+      "pr": 12,
+      "sections": [
+        "/governance/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "governance_page.py",
+        "data/editorial-revisions.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0004",
       "date": "2026-10-29",
       "kind": "feature-release",

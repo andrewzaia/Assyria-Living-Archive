@@ -160,7 +160,7 @@ def render(heading):
         '<a href="/about/evidence/#claim-register-title">claim-level evidence queue</a> retains separate, stricter criteria for independent review. ' +
         'The <a href="/about/evidence/">Evidence Register</a> documents references, not editorial sign-off.</p></section>' +
         '<section class="governance-section" id="revision-history"><span class="eyebrow">VERIFIABLE RELEASE HISTORY</span>' +
-        '<h2>Selected published changes.</h2><p>This is a curated record of four previously merged major milestones, not a complete Git log. ' +
+        '<h2>Selected published changes.</h2><p>This is a curated record of published major milestones, not a complete Git log. ' +
         'Dates and commit IDs refer to existing repository changes; some prior and minor changes are not individually catalogued here. ' +
         'Automated tests support reproducibility, not the historical truth of every editorial statement.</p>' +
         '<ol class="governance-revisions">' + ''.join(rows) + '</ol></section>' +
