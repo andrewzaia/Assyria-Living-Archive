@@ -28,7 +28,7 @@ def render(heading):
         'Seven edited Middle Assyrian tablet records supply short, clearly credited sign sequences and editorial reading cues. ' +
         'Two museum or chronicle records remain catalogue-only: they are not given invented cuneiform text, normalized Akkadian or a translation.</p>' +
         '<p>The snippets come from the <a href="https://oracc.museum.upenn.edu/tcma/" rel="noopener noreferrer" target="_blank">ATMAP/TCMA project</a> ' +
-        'and are credited to the scholarly editor under the project's stated CC BY-SA 3.0 edition licence. English cues are newly written ' +
+        'and are credited to the scholarly editor under the stated CC BY-SA 3.0 edition licence. English cues are newly written ' +
         'editorial summaries, not replacement scholarly translations. See <a href="/articles/reading-cuneiform-transliteration/">the reading methods guide</a> ' +
         'for damage, restoration, uncertain signs and the difference between transliteration and transcription.</p></div>' +
         '<section aria-labelledby="text-room-heading"><span class="eyebrow">VERIFIABLE EDITION ROUTES</span>' +
