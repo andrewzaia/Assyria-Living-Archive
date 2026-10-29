@@ -583,5 +583,95 @@
     "type": "Edited primary inscription corpus",
     "access": "Public searchable editions of royal inscriptions; cited for historical context and independent records of royal claims, not as proof of every biblical or theological interpretation",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "met-rulers-assyria",
+    "title": "List of Rulers of Mesopotamia",
+    "publisher": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+    "url": "https://www.metmuseum.org/de/toah/hd/meru/hd_meru.htm",
+    "type": "Scholarly chronology",
+    "access": "Dynastic reference dates; chronology conventions and alternative dates remain possible",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "met-nineveh-history",
+    "title": "Nineveh",
+    "publisher": "Michael Seymour, The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/de/essays/nineveh",
+    "type": "Scholarly museum essay",
+    "access": "Historical and archaeological synthesis; distinguish palace material from earlier urban development",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-kings",
+    "title": "Kings of late eighth-century Assyria",
+    "publisher": "Karen Radner and Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/index.html",
+    "type": "Specialist scholarly reference",
+    "access": "Kingship context; not a substitute for a specific royal inscription edition",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-shalmaneser-v",
+    "title": "Shalmaneser V, king of Assyria (726-722 BC)",
+    "publisher": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/ShalmaneserV/index.html",
+    "type": "Specialist scholarly reference",
+    "access": "Succession, letters and royal material; uncertainty around the fall of Samaria retained",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-governance",
+    "title": "Running the empire: Assyrian governance",
+    "publisher": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/governors/assyriangovernance/index.html",
+    "type": "Specialist scholarly reference",
+    "access": "Royal ideology contrasted with administrative correspondence and provincial records",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "aebp-deportation",
+    "title": "Mass deportation: the Assyrian resettlement policy",
+    "publisher": "Karen Radner, Assyrian Empire Builders, University College London / ORACC",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/governors/massdeportation/",
+    "type": "Specialist scholarly reference",
+    "access": "Interpretive essay on deportation; caution about state propaganda, survivor voices and estimates",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "met-levant-chronology",
+    "title": "The Eastern Mediterranean and Syria, 1000 B.C.-1 A.D.",
+    "publisher": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/wae.html",
+    "type": "Scholarly chronology",
+    "access": "Regional chronology including 609 BCE; historical dating distinct from biblical narrative",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-lachish-panel",
+    "title": "Lachish assault relief, British Museum 124904",
+    "publisher": "The British Museum",
+    "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_1",
+    "type": "Museum object catalogue",
+    "access": "Physical palace relief and findspot; Assyrian royal representation is selective",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-lachish-deportees",
+    "title": "Lachish prisoners relief, British Museum 124908",
+    "publisher": "The British Museum",
+    "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_5",
+    "type": "Museum object catalogue",
+    "access": "Object records prisoners and displacement; depiction does not tell their individual stories",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "bm-ashurbanipal-tablet",
+    "title": "Prayer tablet, Library of Ashurbanipal, British Museum 1881,0204.188",
+    "publisher": "The British Museum",
+    "url": "https://www.britishmuseum.org/collection/object/W_1881-0204-188",
+    "type": "Museum object catalogue",
+    "access": "Concrete surviving tablet in a royal collection; not proof of a modern-style public library",
+    "checked": "2026-10-29"
   }
 ]
