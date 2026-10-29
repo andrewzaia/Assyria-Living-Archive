@@ -22,6 +22,8 @@ from text_comparisons import DATA as TEXT_DATA, BY_SLUG as TEXT_BY_SLUG, render_
 from text_comparisons_page import render as render_text_comparisons
 from concordance import DATA as CONCORDANCE_DATA, article_links as concordance_article_links, build_view as build_concordance_view, validate as validate_concordance
 from concordance_page import render as render_concordance
+from identity_register import DATA as IDENTITY_DATA, validate as validate_identity, build_view as build_identity_view
+from identity_page import render as render_identity
 from preservation import create_manifest
 from growth_report import measure as measure_growth, render as render_growth
 from evidence_report import build as build_evidence, render as render_evidence
@@ -40,6 +42,8 @@ validate_case_files(SOURCES)
 validate_text_comparisons(CASEFILES, SOURCES)
 CONCORDANCE_REPORT = validate_concordance(EDITORIAL_ARTICLES, CASEFILES, TEXT_DATA)
 CONCORDANCE_VIEW = build_concordance_view(EDITORIAL_ARTICLES, CASEFILES, TEXT_DATA)
+IDENTITY_COUNTS = validate_identity()
+IDENTITY_VIEW = build_identity_view(CONCORDANCE_VIEW)
 EVIDENCE = build_evidence(EDITORIAL_ARTICLES, REFERENCES, SOURCES)
 SM = {s['id']:s for s in SOURCES}
 AM = {a['slug']:a for a in ARTICLES}
@@ -244,6 +248,7 @@ if __name__=='__main__':
     write('/object-case-files.json',json.dumps(CASEFILES,ensure_ascii=False,indent=2)+'\n')
     write('/text-comparisons.json',json.dumps(TEXT_DATA,ensure_ascii=False,indent=2)+'\n')
     write('/concordance.json',json.dumps(CONCORDANCE_DATA,ensure_ascii=False,indent=2)+'\n')
+    write('/identity-cases.json',json.dumps(IDENTITY_DATA,ensure_ascii=False,indent=2)+'\n')
     write('/source-integrity-index.json',json.dumps(SOURCE_AUDIT,ensure_ascii=False,indent=2)+'\n')
     write('/about/evidence/index.html',shell('Evidence register','Source relationships and outstanding review limitations for the editorial encyclopaedia.','/about/evidence/',render_evidence(heading,H,EVIDENCE),extra='<link rel="stylesheet" href="/claim.css">'))
     validate_passages(EDITORIAL_ARTICLES)
@@ -262,6 +267,7 @@ if __name__=='__main__':
     write('/case-files/index.html',shell('Individual tablets and archaeological case files','Nine accessioned object studies with edition identifiers, dates, findspots and independently cited limitations.','/case-files/',render_case_files(heading),'case-files','<link rel="stylesheet" href="/case-files.css">'))
     write('/text-comparisons/index.html',shell('Ancient text transliteration and translation comparisons','Read short cited cuneiform sign sequences alongside editorial glosses and recorded textual uncertainty.','/text-comparisons/',render_text_comparisons(heading),'text-comparisons','<link rel="stylesheet" href="/text-comparisons.css">'))
     write('/concordance/index.html',shell('Ancient text concordance and cross-references','Explore curated names, sites, objects, commodities and biblical evidence with provenance-specific deep links.','/concordance/',render_concordance(heading,CONCORDANCE_VIEW,CONCORDANCE_REPORT),'concordance','<link rel="stylesheet" href="/concordance.css"><script defer src="/concordance.js"></script>'))
+    write('/identity-register/index.html',shell('Name and identity evidence register','Eight source-scoped name and place cases with documented object and Scripture routes, uncertainties and pending specialist review.','/identity-register/',render_identity(heading, IDENTITY_VIEW, IDENTITY_COUNTS),'identity-register','<link rel="stylesheet" href="/identity-register.css">'))
     bible_paths = make_bible_pages(write, shell, heading, card, EDITORIAL_ARTICLES)
     write('/map/index.html', shell('Interactive historical map', 'Explore the growth and contraction of ancient Assyria with eleven dated map sketches, a draggable timeline and locally preserved geographical data.', '/map/', render_atlas(), 'map', '<link rel="stylesheet" href="/map.css"><script defer src="/map.js"></script>'))
     payload={'edition':'Research and preservation edition 01','compiled':'2026-10-26','articles':[{k:v for k,v in a.items() if k not in ('html','record','headings')} for a in ARTICLES],'sources':SOURCES,'topics':CATS}
@@ -270,7 +276,7 @@ if __name__=='__main__':
     robots_text = 'User-agent: *\nAllow: /\n' if ALLOW_INDEXING else 'User-agent: *\nDisallow: /\n'
     if ALLOW_INDEXING:
         from xml.sax.saxutils import escape as xml_escape
-        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
+        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/identity-register/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
         sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         sitemap += ''.join('<url><loc>' + xml_escape(public_url(path)) + '</loc></url>' for path in pages)
         write('/sitemap.xml', sitemap + '</urlset>\n')
