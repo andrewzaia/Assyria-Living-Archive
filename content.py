@@ -549,7 +549,8 @@ add("assyria-community-broadcasts", "Community voices on radio and local media",
 
 identity = next(a for a in ARTICLES if a['slug']=='assyrian-identity')
 identity['sections'].insert(2,dict(title='The history of a name',text='James F. Coakley\'s GEDSH entry traces a change from geographically specific uses of Assyrian in pre-modern sources to broader ethnic and national uses in the nineteenth and twentieth centuries. It is one scholarly account of naming. Changes in the use of a name are a different question from the survival of regional populations or traditions. A fuller treatment must compare competing historical interpretations rather than turn terminology alone into a verdict on ancestry.'))
-identity['sources'].append('gedsh-assyrians')
+if 'gedsh-assyrians' not in identity['sources']:
+    identity['sources'].append('gedsh-assyrians')
 identity['related'].append('diaspora')
 
 TIMELINE = [
