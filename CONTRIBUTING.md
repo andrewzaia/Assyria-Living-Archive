@@ -60,6 +60,12 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Source-credited ancient-language line comparison
+
+Short original-language transliteration excerpts belong in `data/text-comparisons.json`. Include the exact catalogue/edition identifier, original side and line, very short credited sign notation and an attributed licence statement with a link to the scholarly editor's publication. The English columns are **original editorial reading cues and discussion, not an authenticated Akkadian translation**. Preserve signs and scholarly uncertainty including square brackets, damaged signs, restored text, x, queried readings and alternate interpretations. Never silently normalize lost words or invent a witness's name.
+
+A museum catalogue without a confirmed reliable text edition must remain `edition-pending` with an empty `lines` array. Do not add a speculative transliteration simply because a physical tablet is known. A verified technical source URL does not substitute for independent review of ancient signs, chronology or a historical claim. Full text reproduction, imagery and translations must have an explicit rights justification. Run `python scripts/test_text_comparisons.py` and both root/project validations before merging.
+
 ## Accessioned objects and edited cuneiform case files
 
 New object dossiers belong in `data/object-case-files.json` and must include a stable museum collection or tablet edition number, independently referenced source URL, known/unknown excavated provenance, period, specific edited text line range or a clear statement that none has been checked, document genre and distinct statements of fact versus interpretation. Case files are checked by `case_files.py`; matching source records belong in `sources.json` and per-section relationships in `data/section-evidence.json`.

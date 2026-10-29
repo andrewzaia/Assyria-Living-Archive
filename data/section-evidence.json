@@ -2752,5 +2752,52 @@
         "bible-webbe"
       ]
     }
+  },
+  "reading-cuneiform-transliteration": {
+    "The three different texts on the table": {
+      "sources": [
+        "oracc-atf-primer",
+        "oxford-cuneiform-conventions"
+      ]
+    },
+    "What brackets, x and question marks really mean": {
+      "sources": [
+        "oracc-atf-primer",
+        "oracc-atf-translations"
+      ]
+    },
+    "Why one sign can support several English readings": {
+      "sources": [
+        "oxford-cuneiform-conventions",
+        "oracc-atf-translations"
+      ]
+    },
+    "A real comparison from receipt tablets": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-billa-30",
+        "oracc-atf-primer"
+      ]
+    },
+    "Scripture, chronicle copies and chronological discipline": {
+      "sources": [
+        "bible-webbe",
+        "bm-chronicle"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          1
+        ],
+        [
+          "ZEP",
+          2,
+          13,
+          15
+        ]
+      ]
+    }
   }
 }
