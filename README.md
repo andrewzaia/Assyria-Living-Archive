@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 466 reading entries (94 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
+The initial foundation edition contained 40 introductory articles and 51 source records. The collection has since expanded to 474 reading entries (102 original editorial introductions and Bible guides, plus 372 attributed preserved references), with six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions are prepared and downloaded locally as Markdown drafts. Email submissions are on hold until a project-specific sending method is authorised. The site has no database or account service.
 
 ## Quick start
 
@@ -156,6 +156,14 @@ Six original articles and **24 new section-level source trails** explain intervi
 Editorial workflow: identify credible custodians, verify the record's source role and permitted access, obtain and document participation or reuse permission separately, offer narrator review where appropriate, and publish only approved versions and non-sensitive metadata. Guidance comes from Oral History Australia and the National Library of Australia; those institutions are cited, not affiliated with the project. No private recordings or media are collected or hosted, and the existing contribution form still only downloads a local draft. A secure intake service, verified individual permissions and a named curator are future requirements, not features already completed.
 
 The automated validator checks the heritage dataset's source references, editorial routes, public-only status and download targets; both root and project-path builds validate the hub. The expanded archive has **213 curated section trails across 69 editorial guides**.
+
+## Historical and biblical evidence dossiers
+
+Milestone 9 adds eight original, research-oriented reading dossiers on the Black Obelisk and Jehu, Sennacherib's prism and Hezekiah, the Lachish relief sequence, Sargon II and Isaiah 20, Samaria's disputed conquest attribution, deportation accounts and imperial records, the Babylonian Chronicle and Nineveh, and best-practice historical comparison. They are authored in `historical_evidence_content.py` and appear at `/dossiers/`, linked from the Research menu, earlier encyclopaedia entries and Bible guides.
+
+Each dossier has five original sections with a curated evidence mapping in `data/section-evidence.json`, primary Scripture passages and real reference IDs in the bibliography. Six museum and specialist corpus reference records were added to `sources.json`, including individual British Museum accession records and the RINAP 1/2 corpora. The total editorial section evidence count rises to **253 mapped sections in 77 guides**. Twelve new text-anchored records raise the public independent-review queue to **27 claims**, all awaiting independent specialist review.
+
+The Bible is the primary source for what a biblical passage reports; accessioned inscriptions, Assyrian royal reliefs, Babylonian chronicles and modern museum scholarship add their own independently situated evidence and historical context. Agreement on a ruler or campaign does not establish every reported event, and royal propaganda is distinguished from an eyewitness account. The archive neither copies copyrighted images nor claims line-by-line Akkadian philological review. `scripts/validate.py` enforces the dossier count, citations, section trails, Scripture and claim queue integrity.
 
 ## Source integrity and accessibility audit
 

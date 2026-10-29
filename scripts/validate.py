@@ -27,6 +27,7 @@ from governance_page import DATA as GOVERNANCE_DATA, validate as validate_govern
 from preservation import verify_manifest
 from audit_page import AUDIT as SOURCE_AUDIT
 from scripts.audit_accessibility import run as accessibility_smoke
+from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
 
 class Page(HTMLParser):
     def __init__(self):
@@ -309,10 +310,30 @@ def main():
     if SOURCE_AUDIT['mode'] != 'offline-metadata-only' or SOURCE_AUDIT['record_count'] < 80:
         errors.append('Offline source audit must retain explicit unprobed source status')
     errors.extend(accessibility_smoke(OUT))
+    dossier_index = OUT / 'dossiers/index.html'
+    if not dossier_index.is_file():
+        errors.append('Missing historical evidence dossier hub')
+    else:
+        hub_html = dossier_index.read_text(encoding='utf-8')
+        if len(HISTORICAL_EVIDENCE_ARTICLES) != 8:
+            errors.append('Historical evidence dossier count changed without editorial review')
+        if hub_html.count('class="dossier-card"') != len(HISTORICAL_EVIDENCE_ARTICLES):
+            errors.append('Historical evidence room does not expose all dossiers')
+        for dossier in HISTORICAL_EVIDENCE_ARTICLES:
+            if '/articles/' + dossier['slug'] + '/' not in hub_html:
+                errors.append('Dossier not linked from hub: ' + dossier['slug'])
+            if len(dossier['sections']) != 5 or len(SECTION_DATA.get(dossier['slug'], {})) != 5:
+                errors.append('Dossier must retain five mapped source-specific sections: ' + dossier['slug'])
+            if 'bible-webbe' not in dossier['sources'] or not dossier.get('passages'):
+                errors.append('Biblical primary passages must be present on historical dossier: ' + dossier['slug'])
+        dossier_ids = {item['slug'] for item in HISTORICAL_EVIDENCE_ARTICLES}
+        queued = [item for item in claim_report['claims'] if item['article'] in dossier_ids]
+        if len(queued) < 12 or any(item['review']['status'] != 'awaiting-independent-review' for item in queued):
+            errors.append('New object-level claims must remain in a documented specialist review queue')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

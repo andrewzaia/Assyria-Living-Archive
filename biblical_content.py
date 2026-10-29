@@ -133,3 +133,19 @@ add('reading-guide','How to read the biblical references','Primary text, transla
 ('Keep the textual layers visible','The biblical wording, the choice of translation and an interpreter\'s explanation are related but distinct. Genesis 10:11 raises a question about its subject; Hosea 10:14 leaves Shalman\'s precise identity unstated; Ezra 6:22 uses an Assyrian royal title in a later setting. The site preserves the wording while identifying those questions.'),
 ('Use other evidence with a clear purpose','Archaeology, inscriptions and historical scholarship can supply context, proposed identifications and absolute dates. They are cited separately, so that a reader can tell when a claim comes directly from Scripture and when it comes from comparison or reconstruction. The Bible-first approach does not require presenting every proposed harmonisation as something the text itself explicitly states.'),
 ('Scope of the verse index','The index is a reproducible search of the retained translation for the published names and aliases. It includes ambiguous name matches with context and separately labelled additional books. The topic guides add related passages that do not use a search term. This provides extensive coverage without claiming to settle every indirect allusion, translation variant or theological reading.')], [('GEN',10,11,11),('HOS',10,14,14),('EZR',6,22,22)],'Reading & interpretation')
+
+# Direct routes connect the established Bible-first guides to new object-level studies.
+_HISTORICAL_READING_ROUTES = {
+    'bible-sargon': ['sargon-ashdod-isaiah'],
+    'bible-samaria': ['samaria-assyrian-chronology'],
+    'bible-deportation': ['assyrian-deportations-texts'],
+    'bible-sennacherib-invasion': ['sennacherib-prism-hezekiah', 'lachish-reliefs-context'],
+    'bible-hezekiah-deliverance': ['sennacherib-prism-hezekiah'],
+    'bible-nahum': ['babylonian-chronicle-nineveh'],
+    'bible-zephaniah': ['babylonian-chronicle-nineveh'],
+    'bible-reading-guide': ['historical-evidence-methods'],
+}
+for _article in ARTICLES:
+    for _slug in _HISTORICAL_READING_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)

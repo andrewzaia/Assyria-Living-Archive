@@ -27,8 +27,8 @@
       "id": "encyclopaedia",
       "title": "Encyclopaedia expansion and preservation",
       "status": "in-progress",
-      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts. Six further original methods and community-heritage studies now complement ancient history and linguistic resources.",
-      "next": "Continue article depth with exact inscription-line and tablet comparisons, fuller Middle Assyrian history, provincial life, women and non-elite voices, plus better dated post-imperial regional evidence. Specialist peer review remains outstanding."
+      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts. Six further original methods and community-heritage studies now complement ancient history and linguistic resources. Milestone 9 adds eight long-form Bible-primary, object-identified comparisons (40 precisely mapped new sections), six curated specialist and museum reference records and a public evidence dossier reading hub. The release also connects the new studies to older Bible and history entries.",
+      "next": "Continue with Middle Assyrian family, administration and women in historical sources; make line-level RINAP comparisons using actual edition and tablet identifiers, and document specialist review on disputed passages, royal chronologies and translations."
     },
     {
       "id": "atlas",
@@ -41,15 +41,15 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, source-to-guide links and 213 section-level evidence trails across 69 editorial guides, including 24 new heritage and community research sections.",
-      "next": "Continue source coverage and individual claim review, separating oral testimony, community self-description and independent historical evidence."
+      "delivered": "Evidence Register, source-to-guide links and 253 section-level evidence trails across 77 editorial guides, including 24 new heritage and community research sections.",
+      "next": "Improve sentence-level source attribution and historical document line citations for the new dossiers. Section links are research routes rather than independent scholarly verification."
     },
     {
       "id": "claims",
       "title": "Historical claim verification",
       "status": "in-progress",
-      "delivered": "Initial 15 text-anchored claim records with direct passages, source roles, qualifications and an independent-review queue.",
-      "next": "Continue precise inscription comparisons and documented reviewer-scope decisions. New governance rules forbid completed independent-review claims without a named reviewer, date and assessment."
+      "delivered": "The claim-level review register now contains 27 text-anchored records, including twelve new biblical and museum/inscription claims linked to eight research dossiers. Passage coordinates, direct-vs-context source roles and review limitations are validated; no independent specialist reviews have been claimed.",
+      "next": "Recruit and document qualified external historical and biblical reviewers and verify precise inscription lines or manuscript editions. Keep the meaning of awaiting independent review separate from automated evidence citation integrity."
     },
     {
       "id": "language",

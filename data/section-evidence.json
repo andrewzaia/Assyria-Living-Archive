@@ -1716,5 +1716,496 @@
         "modern-radio"
       ]
     }
+  },
+  "black-obelisk-jehu": {
+    "A monument with a precise identity": {
+      "sources": [
+        "bm-black-obelisk",
+        "oracc-shalmaneser"
+      ]
+    },
+    "The name Jehu and the House of Omri": {
+      "sources": [
+        "bm-black-obelisk",
+        "aebp-israel"
+      ]
+    },
+    "Begin with the biblical accession": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          9,
+          1,
+          13
+        ],
+        [
+          "2KI",
+          10,
+          1,
+          36
+        ]
+      ]
+    },
+    "Royal spectacle and missing voices": {
+      "sources": [
+        "bm-black-obelisk"
+      ]
+    },
+    "A repeatable comparison": {
+      "sources": [
+        "bm-black-obelisk",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          9,
+          14,
+          37
+        ]
+      ]
+    }
+  },
+  "sennacherib-prism-hezekiah": {
+    "The object and the composition": {
+      "sources": [
+        "bm-taylor-prism",
+        "imj-sennacherib-prism"
+      ]
+    },
+    "The Bible supplies its own narrative": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          38
+        ],
+        [
+          "2CH",
+          32,
+          1,
+          23
+        ]
+      ]
+    },
+    "What the Assyrian annals claim": {
+      "sources": [
+        "imj-sennacherib-prism",
+        "bm-taylor-prism"
+      ]
+    },
+    "Campaign, composition and outcome": {
+      "sources": [
+        "imj-sennacherib-prism",
+        "oracc-rinap",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ]
+      ]
+    },
+    "Check the right evidence": {
+      "sources": [
+        "oracc-rinap",
+        "bm-taylor-prism"
+      ]
+    }
+  },
+  "lachish-reliefs-context": {
+    "An archaeological sequence, not a photograph": {
+      "sources": [
+        "bm-lachish-panel"
+      ]
+    },
+    "Prisoners and the city after assault": {
+      "sources": [
+        "bm-lachish-deportees"
+      ]
+    },
+    "The military camp and supporting cast": {
+      "sources": [
+        "bm-lachish-camp"
+      ]
+    },
+    "Read Kings before harmonising": {
+      "sources": [
+        "bible-webbe",
+        "imj-sennacherib-prism"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          17
+        ],
+        [
+          "2CH",
+          32,
+          1,
+          9
+        ]
+      ]
+    },
+    "A precise citation trail": {
+      "sources": [
+        "bm-lachish-panel",
+        "bm-lachish-deportees",
+        "bm-lachish-camp"
+      ]
+    }
+  },
+  "sargon-ashdod-isaiah": {
+    "The named king in Scripture": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
+      ]
+    },
+    "The Tartan and imperial command": {
+      "sources": [
+        "bible-webbe",
+        "bible-official-titles"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ]
+    },
+    "Assyrian records of Sargon": {
+      "sources": [
+        "rinap-sargon-corpus",
+        "aebp-sargon"
+      ]
+    },
+    "Prophecy and a campaign are different claims": {
+      "sources": [
+        "bible-webbe",
+        "rinap-sargon-corpus"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
+      ]
+    },
+    "A cautious comparison route": {
+      "sources": [
+        "rinap-sargon-corpus",
+        "aebp-sargon",
+        "oracc-rinap"
+      ]
+    }
+  },
+  "samaria-assyrian-chronology": {
+    "Two biblical vantage points": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
+    },
+    "What later royal records add": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "rinap-tiglath-corpus",
+        "rinap-sargon-corpus"
+      ]
+    },
+    "Do not erase the disputed attribution": {
+      "sources": [
+        "aebp-shalmaneser-v",
+        "aebp-sargon",
+        "aebp-israel"
+      ]
+    },
+    "People, movement and provincial administration": {
+      "sources": [
+        "bible-webbe",
+        "aebp-deportation"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
+    },
+    "How to pursue exact comparison": {
+      "sources": [
+        "rinap-tiglath-corpus",
+        "rinap-sargon-corpus",
+        "aebp-israel"
+      ]
+    }
+  },
+  "assyrian-deportations-texts": {
+    "Israel and the east of the Jordan": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ]
+    },
+    "Samaria and population change": {
+      "sources": [
+        "bible-webbe",
+        "aebp-deportation"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ]
+      ]
+    },
+    "Royal representations of resettlement": {
+      "sources": [
+        "rinap-tiglath-corpus",
+        "aebp-deportation",
+        "aebp-governance"
+      ]
+    },
+    "Objects, landscapes and captives": {
+      "sources": [
+        "bm-lachish-deportees",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          11,
+          12
+        ]
+      ]
+    },
+    "Limits of numbers and identity": {
+      "sources": [
+        "rinap-tiglath-corpus",
+        "aebp-deportation"
+      ]
+    }
+  },
+  "babylonian-chronicle-nineveh": {
+    "Identify the tablet, not just the date": {
+      "sources": [
+        "bm-chronicle"
+      ]
+    },
+    "The political setting of 612 BCE": {
+      "sources": [
+        "bm-chronicle",
+        "met-levant-chronology"
+      ]
+    },
+    "Nahum names Nineveh": {
+      "sources": [
+        "bible-webbe",
+        "bm-chronicle"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ],
+        [
+          "NAH",
+          2,
+          1,
+          13
+        ],
+        [
+          "NAH",
+          3,
+          1,
+          19
+        ]
+      ]
+    },
+    "Zephaniah and later memory": {
+      "sources": [
+        "bible-webbe",
+        "met-nineveh-history"
+      ],
+      "passages": [
+        [
+          "ZEP",
+          2,
+          13,
+          15
+        ]
+      ]
+    },
+    "What remains to check": {
+      "sources": [
+        "bm-chronicle"
+      ]
+    }
+  },
+  "historical-evidence-methods": {
+    "Begin by defining the exact claim": {
+      "sources": [
+        "bible-webbe",
+        "bm-taylor-prism"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          16
+        ]
+      ]
+    },
+    "Separate the four clocks": {
+      "sources": [
+        "bm-taylor-prism",
+        "imj-sennacherib-prism",
+        "bm-chronicle"
+      ]
+    },
+    "Name the document and its genre": {
+      "sources": [
+        "bm-black-obelisk",
+        "bm-lachish-panel",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
+      ]
+    },
+    "Keep translation and preservation visible": {
+      "sources": [
+        "oracc-rinap",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ]
+      ]
+    },
+    "Record what agrees and what remains open": {
+      "sources": [
+        "oracc-rinap",
+        "imj-sennacherib-prism",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          16
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ]
+      ]
+    }
   }
 }
