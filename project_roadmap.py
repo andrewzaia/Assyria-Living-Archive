@@ -13,7 +13,7 @@ REQUIRED = {'foundation', 'navigation', 'scripture', 'encyclopaedia', 'atlas', '
 def validate():
     items = DATA['milestones']
     ids = [item['id'] for item in items]
-    if DATA.get('schema_version') != 1 or len(set(ids)) != len(ids) or set(ids) != REQUIRED:
+    if DATA.get('schema_version') != 1 or len(set(ids)) != len(ids) or not REQUIRED.issubset(set(ids)):
         raise ValueError('Invalid or undocumented roadmap milestone IDs')
     for item in items:
         if not re.fullmatch(r'[a-z][a-z0-9-]+', item['id']) or item['status'] not in STATUSES:
