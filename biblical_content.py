@@ -149,3 +149,15 @@ for _article in ARTICLES:
     for _slug in _HISTORICAL_READING_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Add clearly labelled chronological comparison routes without treating later
+# biblical narrative as contemporary Middle Assyrian archive testimony.
+_MIDDLE_ASSYRIAN_COMPARATIVE_ROUTES = {
+    'bible-origins': ['middle-assyrian-overview'],
+    'bible-deportation': ['middle-assyrian-labour-rations'],
+    'bible-reading-guide': ['middle-assyrian-overview'],
+}
+for _article in ARTICLES:
+    for _slug in _MIDDLE_ASSYRIAN_COMPARATIVE_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
