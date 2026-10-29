@@ -1,0 +1,20 @@
+/* Middle Assyrian reading room within the existing editorial styling system. */
+.middle-room{max-width:1170px}
+.middle-intro{display:grid;grid-template-columns:1fr 1fr;gap:45px;padding:31px 0 45px;margin-top:18px;border-top:1px solid var(--line)}
+.middle-intro p,.middle-method p{font-size:13px;line-height:1.9;color:var(--muted)}
+.middle-intro strong{color:var(--ink)}.middle-header{border-top:1px solid var(--line);padding-top:35px}
+.middle-header .eyebrow,.middle-method .eyebrow{color:var(--rust)}
+.middle-header h2,.middle-method h2{font:500 43px/1.15 var(--serif);margin:10px 0 27px}
+.middle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;list-style:none;margin:0;padding:0}
+.middle-card{border:1px solid var(--line);background:var(--white)}
+.middle-card>a{display:flex;flex-direction:column;min-height:240px;padding:23px 23px 18px}
+.middle-card>a:hover,.middle-card>a:focus-visible{background:#eae9dd}
+.middle-card h2{font:500 27px/1.15 var(--serif);margin:15px 0 12px}
+.middle-card p{font-size:12px;line-height:1.8;color:var(--muted);flex:1}
+.middle-number{color:var(--rust);font-size:9px;letter-spacing:1.1px}
+.middle-meta{display:block;padding-top:14px;border-top:1px solid var(--line);margin-top:19px;font-size:10px;color:var(--muted)}
+.middle-method{padding:40px 0 10px}
+.middle-method p{margin:15px 0;max-width:840px}
+.middle-method a{color:var(--rust);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px){.middle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.middle-grid,.middle-intro{grid-template-columns:1fr}.middle-intro{gap:17px}.middle-header h2,.middle-method h2{font-size:36px}.middle-card>a{min-height:200px}}

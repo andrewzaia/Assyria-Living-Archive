@@ -853,5 +853,95 @@
     "type": "Primary archaeological object record",
     "access": "Palace relief panel from Room XXXVI of Sennacherib's Southwest Palace at Nineveh; physical representation and curatorial interpretation, not direct eyewitness testimony.",
     "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-corpus",
+    "title": "Archival Texts of the Middle Assyrian Period (ATMAP/TCMA)",
+    "publisher": "Oracc / Jacob Jan de Ridder and project contributors",
+    "url": "https://oracc.museum.upenn.edu/tcma/",
+    "type": "Specialist edited primary administrative text corpus",
+    "access": "Online corpus with transliterations, translations, findspots, bibliographies and provenance notes. Its 3,000+ texts are a corpus description, not representative of every inhabitant.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-law",
+    "title": "Middle Assyrian Laws, palace edicts and scholarly tablets",
+    "publisher": "Oracc / Archival Texts of the Middle Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/tcma/LawsandScholarlyTablets/index.html",
+    "type": "Specialist corpus reference to normative primary texts",
+    "access": "Law collections and scholarly/ritual texts; normative wording alone does not prove day-to-day enforcement. The older proposed Tiglath-pileser I temple library interpretation is disputed.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-bibliography",
+    "title": "ATMAP/TCMA bibliography of Middle Assyrian archive scholarship",
+    "publisher": "Oracc / Archival Texts of the Middle Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/tcma/Bibliography/",
+    "type": "Specialist secondary bibliography and edition locator",
+    "access": "Bibliographic route for granaries, clothing, ration lists, agriculture, labour and historical chronology. Titles point to research; they are not substitutes for individual tablet edition checks.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-assur",
+    "title": "ATMAP/TCMA Assur findspot archive and glossaries",
+    "publisher": "Oracc / Archival Texts of the Middle Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/tcma/assur/hub.html",
+    "type": "Primary archive portal / specialist glossary",
+    "access": "Findspot-specific text and proper-name indexes; a lexical entry is not itself evidence of an occupation's prevalence.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "tcma-taban",
+    "title": "ATMAP/TCMA Middle Assyrian texts from Tabete (Tell Taban)",
+    "publisher": "Oracc / Archival Texts of the Middle Assyrian Period",
+    "url": "https://oracc.museum.upenn.edu/tcma/taban/withlem",
+    "type": "Primary tablet and document-type catalogue",
+    "access": "Texts include receipts, allocations, letters, lists and purchase documents; preserve distinctions of findspot and period before comparison.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "fu-dur-katlimmu",
+    "title": "Excavation at Tell Sheikh Hamad (Dur-Katlimmu), project history",
+    "publisher": "Freie Universitaet Berlin, Institute for Near Eastern Archaeology",
+    "url": "https://www.geschkult.fu-berlin.de/en/e/vaa/forschung/projekte_abgeschlossen/tell_schech_hamad/index.html",
+    "type": "Institutional archaeological research history",
+    "access": "Excavations identified Middle Assyrian Dur-Katlimmu and later settlement phases; early-period archives must not be confused with the later Neo-Assyrian Red House corpus.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "harvard-dur-katlimmu-seals",
+    "title": "The Glyptic Evidence of the Middle Assyrian Period from Dur-Katlimmu",
+    "publisher": "Harvard University, Shelby White and Leon Levy Program",
+    "url": "https://whitelevy.fas.harvard.edu/glyptic-evidence-middle-assyrian-period-dur-katlimmu",
+    "type": "Archaeological finds and seal-impression study",
+    "access": "Research describes 666 registered fragmentary cuneiform tablets and seal impressions in a specific administrative deposit. Object count is not an ancient census.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "fales-veil-assyrian",
+    "title": "Veiling in Ancient Near Eastern Legal Contexts (Frederick Mario Fales)",
+    "publisher": "Edizioni Ca' Foscari / Frederick Mario Fales",
+    "url": "https://edizionicafoscari.unive.it/v4/en/edizioni4/libri/978-88-6969-522-3/veiling-in-ancient-near-eastern-legal-contexts/",
+    "type": "Peer-reviewed scholarly interpretation of Middle Assyrian legal texts",
+    "access": "Distinguishes law-code veiling and status rules from contemporaneous documents showing more varied women's agency. Legal prescription does not automatically describe enforcement.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "reculeau-water-habur",
+    "title": "Water management and irrigation in Middle Assyrian Dur-Katlimmu",
+    "publisher": "The Institute for the Study of Ancient Cultures, University of Chicago",
+    "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIS/ois13.pdf",
+    "type": "Academic discussion of archives and agrarian management",
+    "access": "Herve Reculeau's essay compares royal representations with administrative evidence for irrigation in the Euphrates and Habur valleys. Linked academic PDF, not locally copied or line-collated.",
+    "checked": "2026-10-29"
+  },
+  {
+    "id": "water-assyria-jstor",
+    "title": "Water for Assyria: Politics and Water Management at the Lower Habur",
+    "publisher": "Hartmut Kuehne / JSTOR academic edition",
+    "url": "https://www.jstor.org/stable/j.ctvcm4fg3",
+    "type": "Academic research collection",
+    "access": "Bibliographic access to specialist analyses of Assyrian irrigation and regional water history; consult individual chapter rather than infer a specific field's yield.",
+    "checked": "2026-10-29"
   }
 ]

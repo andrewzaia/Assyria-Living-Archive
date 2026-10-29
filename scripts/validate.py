@@ -28,6 +28,7 @@ from preservation import verify_manifest
 from audit_page import AUDIT as SOURCE_AUDIT
 from scripts.audit_accessibility import run as accessibility_smoke
 from historical_evidence_content import ARTICLES as HISTORICAL_EVIDENCE_ARTICLES
+from middle_assyrian_content import ARTICLES as MIDDLE_ASSYRIAN_ARTICLES, validate as validate_middle_assyrian
 
 class Page(HTMLParser):
     def __init__(self):
@@ -330,10 +331,30 @@ def main():
         queued = [item for item in claim_report['claims'] if item['article'] in dossier_ids]
         if len(queued) < 12 or any(item['review']['status'] != 'awaiting-independent-review' for item in queued):
             errors.append('New object-level claims must remain in a documented specialist review queue')
+    middle_count = validate_middle_assyrian()
+    middle_hub = OUT / 'middle-assyrian/index.html'
+    if not middle_hub.is_file():
+        errors.append('Missing Middle Assyrian social history hub')
+    else:
+        middle_html = middle_hub.read_text(encoding='utf-8')
+        if middle_html.count('class="middle-card"') != middle_count:
+            errors.append('Middle Assyrian hub must list every original research guide')
+        if 'law is a prescription' not in middle_html or 'Bible remains primary' not in middle_html:
+            errors.append('Middle Assyrian hub missing genre and biblical source limitations')
+        for item in MIDDLE_ASSYRIAN_ARTICLES:
+            slug = item['slug']
+            if '/articles/' + slug + '/' not in middle_html:
+                errors.append('Missing social history reading route in hub: ' + slug)
+            if len(SECTION_DATA.get(slug, {})) != len(item['sections']):
+                errors.append('Missing Middle Assyrian section evidence trails: ' + slug)
+    middle_slugs = {article['slug'] for article in MIDDLE_ASSYRIAN_ARTICLES}
+    middle_claims = [item for item in claim_report['claims'] if item['article'] in middle_slugs]
+    if len(middle_claims) < 14 or any(item['review']['status'] != 'awaiting-independent-review' for item in middle_claims):
+        errors.append('Middle Assyrian anchored claims require documented specialist review queue')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

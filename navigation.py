@@ -6,6 +6,7 @@ NAV_GROUPS = (
     ('Explore', (
         ('Encyclopaedia', '/explore/', 'All articles and preserved references'),
         ('Historical timeline', '/timeline/', 'Key moments across the centuries'),
+        ('Middle Assyrian life', '/middle-assyrian/', 'Families, fields, law and everyday work'),
         ('Interactive map', '/map/', 'Assyria through time and geography'),
         ('Glossary', '/glossary/', 'Terms, names and reading routes'),
         ('Languages and scripts', '/languages/', 'Syriac letter reference, dialect recordings and manuscripts'),

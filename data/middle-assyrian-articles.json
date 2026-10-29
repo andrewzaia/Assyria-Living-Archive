@@ -1,0 +1,424 @@
+[
+  {
+    "title": "The Middle Assyrian world beyond its kings",
+    "summary": "An introduction to the people, provinces and archives of Assyria's second-millennium expansion, beyond royal victories.",
+    "sections": [
+      {
+        "title": "Where and when",
+        "text": "The Middle Assyrian period refers to a long phase of Assyrian political and cultural history centred on Aššur and extending into northern Mesopotamia. Chronological boundaries vary by specialist and political context. The Archival Texts of the Middle Assyrian Period project describes an expansive state between roughly 1500 and 1000 BCE, with a later transition into the Neo-Assyrian period. A dynasty label or a large regional map is not enough to reconstruct what daily life looked like in a specific settlement."
+      },
+      {
+        "title": "An archive in thousands of pieces",
+        "text": "Administrative tablets found at Aššur, the lower Habur and other sites record deliveries, assignments, households, officials and correspondence. The ATMAP/TCMA project identifies a corpus of more than 3,000 cuneiform pieces and provides a pathway to findspot-specific editions. That number concerns surviving and catalogued textual evidence, not the number of people who could read or an estimate of every historical record written. Which institutions preserved records strongly shapes what modern historians can know."
+      },
+      {
+        "title": "Western expansion and local difference",
+        "text": "Shalmaneser I and Tukulti-Ninurta I ruled during major developments in Middle Assyrian territorial control. Finds at Dūr-Katlimmu, now Tell Sheikh Hamad, connect provincial administration to the Habur valley. Administrative needs could be different from those of the religious and political centre at Aššur. A tablet produced in a provincial office should not be treated as if it described every town of the kingdom."
+      },
+      {
+        "title": "Why social history changes the questions",
+        "text": "Royal inscriptions show how rulers wished their power to be understood. Account tablets instead ask who supplied grain, who received rations, which goods were counted and how an official sealed a record. Legal compilations ask what was prescribed, not necessarily what was enforced. Excavated rooms and objects show material contexts but often leave individual motives unknown. Together these genres restore part of the human infrastructure behind an imperial map."
+      },
+      {
+        "title": "Scripture and period boundaries",
+        "text": "Genesis 10:8-12 and 10:22 provide biblical accounts of Asshur and named cities. They are the primary biblical passages for those references, but do not themselves date a particular thirteenth-century provincial ration list. The familiar Assyrian interventions in 2 Kings 17-19 belong to a substantially later period. This archive does not project a seventh-century palace programme or a ninth-century ruler back onto the Middle Assyrian population."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "fu-dur-katlimmu",
+      "tcma-bibliography",
+      "bible-webbe"
+    ],
+    "related": [
+      "ancient-assyria",
+      "ashur",
+      "middle-assyrian-provincial-administration",
+      "middle-assyrian-households-inheritance",
+      "historical-evidence-methods"
+    ],
+    "passages": [
+      [
+        "GEN",
+        10,
+        8,
+        12
+      ],
+      [
+        "GEN",
+        10,
+        22,
+        22
+      ],
+      [
+        "2KI",
+        17,
+        3,
+        6
+      ]
+    ],
+    "note": "Chronological overview. Biblical references are compared by source type, not asserted as Middle Assyrian administrative documents.",
+    "slug": "middle-assyrian-overview",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Provincial offices and Dūr-Katlimmu",
+    "summary": "Follow official correspondence, sealings and local archives along the Habur, with limits on what bureaucracy records.",
+    "sections": [
+      {
+        "title": "A particular excavated city",
+        "text": "Dūr-Katlimmu, identified with Tell Sheikh Hamad on the lower Habur in Syria, is one of the clearest archaeological settings for Middle Assyrian provincial administration. Freie Universität Berlin describes its discovery and decades of excavation. The name and findspot matter: an archive from Dūr-Katlimmu is not automatically an archive from the capital Aššur, and much later Neo-Assyrian tablets from the same site cannot be silently substituted for the earlier deposit."
+      },
+      {
+        "title": "The administrative centre",
+        "text": "Research on the Middle Assyrian citadel identifies a major official complex associated with provincial management. A Harvard-supported glyptic study describes 666 registered fragmentary cuneiform tablets in a sealed deposit and accompanying seal impressions, associated with Building P. These are excavation and registration figures for particular finds, not a count of every transaction or a proof that the named office controlled every western village in the same way."
+      },
+      {
+        "title": "What the officials recorded",
+        "text": "The administrative corpus covers letters, orders, receipts, accounts and allocations. Its survival shows that provincial government depended on communication and accounting as well as military power. An item that records a delivery proves the document's author chose to enter a delivery; verifying whether a shipment arrived, who physically transported it and who bore the cost requires other linked evidence. The corpus search and individual findspots are the next level of investigation."
+      },
+      {
+        "title": "Authority at several scales",
+        "text": "Some records document high officers and central oversight while others concern particular personnel, property or goods. This is evidence for overlapping local and royal administration rather than a simple diagram in which every order always travelled from the king to the household. Care is required when translating administrative titles: a term interpreted as an office in a published glossary may differ in duties by site or period. Titles are research prompts, not personal biographies."
+      },
+      {
+        "title": "Evidence gaps and further study",
+        "text": "Many tablets are broken, copied in publication editions, or recovered from contexts that represent only a portion of a settlement. The ATMAP bibliography offers relevant publications and the university excavation history supplies context. The next research step is to identify a dated tablet or group and annotate its findspot, seal, editor, document type, intended recipient and gaps before drawing a detailed picture of provincial governance."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "fu-dur-katlimmu",
+      "harvard-dur-katlimmu-seals",
+      "tcma-bibliography"
+    ],
+    "related": [
+      "middle-assyrian-overview",
+      "middle-assyrian-scribes-seals",
+      "middle-assyrian-labour-rations",
+      "assyrian-governance"
+    ],
+    "passages": [],
+    "note": "Site-specific Middle Assyrian research. Later Neo-Assyrian Red House documents are excluded from the period comparison.",
+    "slug": "middle-assyrian-provincial-administration",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Women, status and the Middle Assyrian Laws",
+    "summary": "Distinguish prescriptive law, actual legal practice and the surviving evidence for women's roles and restrictions.",
+    "sections": [
+      {
+        "title": "What the laws are",
+        "text": "The Middle Assyrian Laws survive in a set of cuneiform tablets rather than a complete modern legal code. The ATMAP project groups them with palace edicts and scholarly texts. Their surviving copies and the history of their collection require careful dating. Even an explicitly harsh provision tells us about a written norm and its intended social order; it cannot on its own show how often officials applied it or how every woman lived."
+      },
+      {
+        "title": "Marriage, property and vulnerable people",
+        "text": "The law collections discuss marriage, widowhood, inheritance, accusations, sexual violence and household property. These subjects show that women and girls were directly affected by legal arrangements and by severe, unequal punishments. A sound account should neither romanticise the rules nor reduce all women to passive subjects: the question of ownership, negotiation and remedies also emerges from actual transactions. Specific paragraphs must be checked in a named edition before quoting legal wording."
+      },
+      {
+        "title": "Veiling as a marker of status",
+        "text": "Frederick Mario Fales's study examines Middle Assyrian requirements and prohibitions associated with the veil. The regulations distinguished classes of women in public and assigned different rights or restrictions. The article highlights the difference between severe norms in the law texts and a more varied picture in contemporary legal deeds. Veiling provisions should not be generalised to all ancient Near Eastern women, every later Syriac community or all people living in Assyria."
+      },
+      {
+        "title": "Documents challenge a single narrative",
+        "text": "A legal transaction can show women holding interests, arranging obligations or participating in economic life in ways that a punitive law collection does not describe. Yet surviving transaction texts, often written for households with property, are not a representative survey of poor or enslaved women. Compare document genres and record which women are visible only through the claims of a male institution, and which appear as participants in named transactions."
+      },
+      {
+        "title": "Biblical legal comparison without conflation",
+        "text": "Deuteronomy 24:1-4 and other biblical legal texts belong to their own textual tradition and context. They are the primary text for what the Bible prescribes, not lost Middle Assyrian statutes. Similar themes of marriage or household rights are a reason to ask comparative questions, not to declare direct borrowing or identical enforcement. This distinction is especially important where coercion, violent penalties and vulnerable people are being discussed."
+      }
+    ],
+    "sources": [
+      "tcma-law",
+      "fales-veil-assyrian",
+      "tcma-corpus",
+      "tcma-bibliography",
+      "bible-webbe"
+    ],
+    "related": [
+      "middle-assyrian-households-inheritance",
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-overview",
+      "historical-evidence-methods"
+    ],
+    "passages": [
+      [
+        "DEU",
+        24,
+        1,
+        4
+      ]
+    ],
+    "note": "Descriptions of violence and discrimination concern ancient legal texts. Legal prescriptions are not equated with representative everyday practice.",
+    "slug": "middle-assyrian-women-and-law",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Households, property and inheritance",
+    "summary": "Use contracts, legal tablets and missing perspectives to investigate property and kinship in Middle Assyria.",
+    "sections": [
+      {
+        "title": "A household is more than a name",
+        "text": "A Middle Assyrian household might appear in records because it owned land, owed work, transferred goods or had a dispute. An administrative account captures a fiscal or legal relationship, while the larger family relationships can be absent. The archive of Aššur and regional texts can provide names and documentary roles but rarely yield a continuous biography. The survival of a person's name should not be mistaken for a full view of their domestic life."
+      },
+      {
+        "title": "Inheritance and legal vulnerability",
+        "text": "Middle Assyrian legal provisions address inheritance, widows and ownership in situations of remarriage or family dispute. One must check the wording of the particular tablet and whether a scholar proposes a restoration of a damaged phrase. Legal scenarios reveal what ancient drafters regarded as disputes needing regulation, but cannot show how regularly families used those rules. The distinction is especially important for women and children."
+      },
+      {
+        "title": "Property documents and deposits",
+        "text": "Contracts and deposits may identify a creditor, debtor, witness, object and occasion. ATMAP's catalogues distinguish types such as receipts, allocations, lists and sale transactions at documented findspots. Each document should be assessed for its actual period: a site may preserve Middle Assyrian, Mitanni and Neo-Assyrian layers. A text about a household in one place should not become a universal portrait of Middle Assyrian family arrangements."
+      },
+      {
+        "title": "The limits of analogy",
+        "text": "Old Assyrian letters from the much earlier Anatolian merchant period illustrate women's property and business activity, but they belong to a different chronological setting. Likewise Neo-Assyrian household transactions are later. Comparisons can reveal questions worth testing, not automatically fill evidence gaps in the Middle Assyrian period. This guide prioritises Middle Assyrian legal and archival corpora when describing its own period."
+      },
+      {
+        "title": "How to assemble a family dossier",
+        "text": "Choose a name or securely identified group of documents from an edition, record the findspot, dates, sealings and all relevant names, then consider the terms of a transaction and its legal status. Distinguish a person mentioned in one transaction from a repeated individual attested across an archive. Kinship identifications and ownership rights remain tentative until individual tablet readings have been checked."
+      }
+    ],
+    "sources": [
+      "tcma-law",
+      "tcma-assur",
+      "tcma-taban",
+      "tcma-corpus",
+      "tcma-bibliography"
+    ],
+    "related": [
+      "middle-assyrian-women-and-law",
+      "middle-assyrian-scribes-seals",
+      "old-assyrian-trade"
+    ],
+    "passages": [],
+    "note": "Middle Assyrian household study. Older Old Assyrian and later Neo-Assyrian texts are used only as explicitly labelled comparisons.",
+    "slug": "middle-assyrian-households-inheritance",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Fields, irrigation and livestock",
+    "summary": "Explore the grain, irrigation and animal management behind provincial survival in the Habur valley.",
+    "sections": [
+      {
+        "title": "Water made geography political",
+        "text": "The lower Habur lay in a region where the reliability of cultivation depended strongly on access to water. Archaeological study and regional geography help explain the importance of the river and irrigation. Specialists such as Hervé Reculeau have compared ancient administrative correspondence with royal representations of water projects. Modern rainfall descriptions should not be projected uncritically onto each ancient harvest without environmental evidence."
+      },
+      {
+        "title": "The administrative trace of a field",
+        "text": "A grain allocation, plot measure or order to supply seed reflects institutions attempting to measure and control agricultural production. Middle Assyrian corpus and bibliographies preserve the way such documents were collected and edited. A reported field area, unit of capacity or yield must be checked in its own tablet and translation before turning it into a modern percentage or exact hectare calculation. Ancient measures are not always uniform across times and regions."
+      },
+      {
+        "title": "Irrigation law and conflict",
+        "text": "The Middle Assyrian Laws include provisions dealing with fields, irrigation, property and damages. Such rules make water management visible as a legal issue, alongside administration and archaeology. They do not prove the existence of a specific canal at every named settlement. Identifying a particular installation requires an excavation context, map and dated evidence rather than a general law applied to the whole kingdom."
+      },
+      {
+        "title": "Animals and agricultural labour",
+        "text": "The TCMA bibliography points to specialist studies of pastoral management, farming and provincial production at Dūr-Katlimmu. Sheep, cattle and other livestock could be counted as part of administrative economies, but an account of herd delivery is not a total census of animals kept by everyone. The actual herders, seasonal workers and families who supported production frequently appear only as categories or the names chosen for a record."
+      },
+      {
+        "title": "A research route through the landscape",
+        "text": "Compare a dated administrative record with the river setting, excavated installations and the named publication, then ask whether they concern the same place and century. Record limits of irrigation reconstruction and do not mix Middle Assyrian evidence with Sennacherib's much later hydraulic projects. This produces a grounded human picture of work and scarcity without inventing a crop yield or a uniform provincial environment."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "tcma-bibliography",
+      "tcma-law",
+      "fu-dur-katlimmu",
+      "reculeau-water-habur",
+      "water-assyria-jstor"
+    ],
+    "related": [
+      "middle-assyrian-provincial-administration",
+      "middle-assyrian-labour-rations",
+      "middle-assyrian-routes-and-exchange"
+    ],
+    "passages": [],
+    "note": "Agricultural interpretation requires period-specific field and archival evidence, not extrapolation from later royal engineering claims.",
+    "slug": "middle-assyrian-farming-water",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Workers, rations and compulsory service",
+    "summary": "The people behind labour records, allocation lists and state-managed economic obligations.",
+    "sections": [
+      {
+        "title": "Who appears in ration lists",
+        "text": "An allocation text or ration account can name or classify people who received grain, clothing or other supplies. The Middle Assyrian corpus provides a route to such documents, while its bibliography identifies studies of personnel and ration lists from Dūr-Katlimmu. These records can show administration attempting to allocate resources, not a complete account of how much any worker ate, whether a listed ration arrived or what conditions the worker experienced."
+      },
+      {
+        "title": "Work and unequal power",
+        "text": "Labour in an ancient kingdom cannot be represented as a single category. Documents may concern palace-dependent workers, people performing obligations, craft personnel and those whose freedom was restricted. Some transfers or assignments could be coercive. An administrative term needs study in its exact tablet context before translating it into a modern legal labour category. The power imbalance is historically important even when individual testimony is absent."
+      },
+      {
+        "title": "Counting food and textiles",
+        "text": "Published studies of granaries, clothing storage, ration lists and bakery memoranda are indexed in the ATMAP bibliography. This documentation hints at a supply chain extending from agricultural production to households and officials. However, the mere presence of a bibliography title does not establish the content of each surviving tablet. Do not fabricate a ration quantity or identify a specific worker from a title alone."
+      },
+      {
+        "title": "Movement under state authority",
+        "text": "The Middle Assyrian state's provincial expansion entailed officials, military personnel and changing local populations. Individual documents and archaeology may reveal movements, service and resettlement, but the much later Neo-Assyrian deportations in 2 Kings 17 belong to a different historical setting. They cannot be substituted as eyewitness evidence for a thirteenth-century Middle Assyrian labour assignment. A responsible comparison must identify the ruler, archaeological context and genre before it can describe similarities in state practices. Similar terminology across centuries is not evidence for the same people or events."
+      },
+      {
+        "title": "Restore the missing questions",
+        "text": "Whenever a document classifies a person as labour or a dependent, ask whose institution wrote it and what it omits about health, family, freedom, bargaining and mobility. The archival record is stronger on transactions and allocations than on individual feelings. Original research should state both the administrative evidence and those silences rather than romanticising an imperial economy or claiming certainty about every worker."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "tcma-bibliography",
+      "tcma-taban",
+      "fu-dur-katlimmu",
+      "bible-webbe"
+    ],
+    "related": [
+      "middle-assyrian-farming-water",
+      "middle-assyrian-provincial-administration",
+      "assyrian-deportations-texts"
+    ],
+    "passages": [
+      [
+        "2KI",
+        17,
+        3,
+        6
+      ]
+    ],
+    "note": "2 Kings 17 is a later Neo-Assyrian comparison only, not contemporaneous evidence for Middle Assyrian labour conditions.",
+    "slug": "middle-assyrian-labour-rations",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Scribes, seals and the making of archives",
+    "summary": "How tablets, impressions, named officials and modern editions make provincial lives legible.",
+    "sections": [
+      {
+        "title": "A written record is a selection",
+        "text": "Clay tablets can preserve extraordinary administrative detail because someone wanted a transaction, letter or order written down. The ATMAP/TCMA collection spans multiple settlements and provides transliterations, translations and bibliographic links. That record was produced for particular ancient institutional purposes. Its survival and publication depend on destruction, abandonment, excavation, recovery and modern editorial decisions. For this reason, the edition's document type, surviving physical condition and archive context are as consequential as the names written on the tablet. Unwritten daily routines remain difficult to recover."
+      },
+      {
+        "title": "The meaning of a seal impression",
+        "text": "Seals and impressions could mark authority, identity or a managed transfer. The Harvard-supported Dūr-Katlimmu research identifies numerous seal images and thousands of clay safety devices associated with a major archival complex. The forms and impressions can illuminate professional practices and office control, but do not prove that every stamped object was actually delivered or that its named owner physically signed every transaction."
+      },
+      {
+        "title": "Copies, editions and catalogue numbers",
+        "text": "The same document can appear under a museum number, excavation label, original publication or later revised edition. ATMAP specifically explains why a text might be listed under its first major publication despite having another edition. When citing a tablet, retain the exact unique identifier, the revised reading where relevant, its findspot and genre. A generic link to the corpus is not equivalent to an individually collated line or sign."
+      },
+      {
+        "title": "People behind the names",
+        "text": "Proper-name glossaries make it possible to find attestations across site corpora, but variant spelling and the reuse of names can frustrate identification. The project's notes on idealised glossary spellings are useful safeguards. Two documents bearing similar names need not describe one individual, and a person's role as scribe, witness or recipient must be determined from the relevant record rather than inferred from a shared name."
+      },
+      {
+        "title": "How to preserve a source chain",
+        "text": "For a single record, capture the corpus route, catalogue number, excavation context, publication edition, translator and date, then differentiate direct wording from a scholarly reconstruction. Link to the primary or scholarly text rather than copying protected material without rights. A named source can support a cautious study while the actual paleographic and philological line check is still awaiting expert review."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "tcma-assur",
+      "tcma-taban",
+      "harvard-dur-katlimmu-seals",
+      "tcma-bibliography"
+    ],
+    "related": [
+      "middle-assyrian-provincial-administration",
+      "middle-assyrian-households-inheritance",
+      "cuneiform-reading-methods"
+    ],
+    "passages": [],
+    "note": "Text and seal sources are identifiable, but tablet-level line collations have not been independently completed.",
+    "slug": "middle-assyrian-scribes-seals",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Temples, ritual texts and sacred institutions",
+    "summary": "An evidence-led look at cultic life in Aššur, preserved rituals and the limits of royal religious statements.",
+    "sections": [
+      {
+        "title": "Aššur as a religious centre",
+        "text": "The city of Aššur was a political centre and a setting for long-lived cultic institutions. Its temples, inscriptions and cuneiform records offer different ways of studying religious life. A royal building inscription may express the king's duty to a deity; temple-related administrative evidence may concern personnel and objects. Neither genre records how every resident privately prayed or whether all communities shared one ritual practice."
+      },
+      {
+        "title": "Rituals in the preserved corpus",
+        "text": "ATMAP's Laws and Scholarly Tablets catalogue includes rituals, incantations, learned works and other texts written in the Assyrian dialect. Their survival establishes written traditions of specialist practice. The project's editors caution that the once-common idea of a single Tiglath-pileser I royal temple library is rejected by many scholars. It would be misleading to portray every ritual tablet as a personally commissioned volume of one king."
+      },
+      {
+        "title": "Institutions and ordinary worship",
+        "text": "Temples needed places, personnel and resources, and religious terminology also appears in names and institutional records. Administrative traces may show what the institution counted or supervised, but they cannot alone reconstruct the full calendar of community worship. A future dossier should identify an individual ritual, its damaged passages and edition rather than attach a generic modern festival to all second-millennium Assyrian inhabitants."
+      },
+      {
+        "title": "Scripture on Assyrian worship in its own setting",
+        "text": "Later biblical books include accounts of Assyria and its rulers, and 2 Kings 19:37 mentions a temple in connection with the death of Sennacherib. That passage is a primary biblical statement about a Neo-Assyrian king many centuries after the Middle Assyrian period. It should not be used to prove the exact rituals of Middle Assyrian Aššur. Ancient Near Eastern parallels are useful only when date, location and textual witness are plainly distinguished."
+      },
+      {
+        "title": "Respect historical and living identities",
+        "text": "Assyrian communities today sustain varied ecclesiastical, linguistic and cultural traditions. The evidence for Middle Assyrian temples belongs to a much earlier historical and religious setting. A comparison may explore long-term place names or manuscript histories but must not automatically equate modern community beliefs with an excavated ritual text. Preserving this separation protects both a responsible ancient history and accurate accounts of living communities."
+      }
+    ],
+    "sources": [
+      "tcma-law",
+      "tcma-corpus",
+      "tcma-assur",
+      "unesco-ashur",
+      "bible-webbe"
+    ],
+    "related": [
+      "assyrian-religious-life",
+      "ashur",
+      "faith-and-churches",
+      "middle-assyrian-overview"
+    ],
+    "passages": [
+      [
+        "2KI",
+        19,
+        35,
+        37
+      ]
+    ],
+    "note": "The cited biblical episode is explicitly later Neo-Assyrian history and is not offered as direct Middle Assyrian ritual evidence.",
+    "slug": "middle-assyrian-religion-ritual",
+    "category": "History & archaeology"
+  },
+  {
+    "title": "Movement, exchange and regional connections",
+    "summary": "Goods, correspondence and people moved between the Assyrian centre and provincial settlements.",
+    "sections": [
+      {
+        "title": "The geography of connection",
+        "text": "The Middle Assyrian state linked its core around Aššur with provincial settlements to the west. The ATMAP project identifies major documentary findspots, including the Habur region, while archaeological research at Tell Sheikh Hamad supplies a specific location within those routes. A network of recorded connections does not prove the path taken by every carrier or establish a uniform distance between towns."
+      },
+      {
+        "title": "Letters, receipts and allocation",
+        "text": "A letter can signal an order, a receipt can record an acknowledgement and an allocation can show intended distribution. ATMAP's Tell Taban catalogue presents examples of these distinct document genres. When discussing a movement of goods, it matters whether a tablet is an initial order, a record of an actual handover or a later account. Combining them without date or location can produce an invented commercial journey."
+      },
+      {
+        "title": "Markets and institutions",
+        "text": "Provincial records can document transactions under government control and exchanges affecting individuals. They rarely provide a complete market price series or a full account of private enterprise. Evidence for long-distance Old Assyrian merchant families at Kaneš belongs primarily to an earlier period, and Neo-Assyrian trade arrangements developed later. Similarities may invite a question but cannot turn one period into a seamless merchant history."
+      },
+      {
+        "title": "Sealings and the problem of trust",
+        "text": "Official documents could be identified or controlled with tablets, envelopes and seal impressions. The Dūr-Katlimmu glyptic record illustrates how physical traces help reconstruct administrative process. A sealing may mark institutional oversight, not the personal opinion of the messenger or recipient. Archaeologists must also ask whether impressions were found with their associated tablets or in secondary disposal deposits. Separating the initial transaction from later disposal of a clay object is essential: archive deposition can represent storage, clearance or destruction, and its cause may be unknown."
+      },
+      {
+        "title": "A route for a real journey dossier",
+        "text": "Choose an individually identified document from a published corpus, map only its stated origin and destination, compare the dating and people named, then record what the tablet cannot tell us. Avoid reconstructing a precise road, travel time or ethnic make-up from a general administrative record. The combined textual and archaeological evidence can reveal the structures that made exchange possible while leaving room for unseen carriers and families."
+      }
+    ],
+    "sources": [
+      "tcma-corpus",
+      "tcma-taban",
+      "fu-dur-katlimmu",
+      "harvard-dur-katlimmu-seals",
+      "tcma-bibliography"
+    ],
+    "related": [
+      "middle-assyrian-provincial-administration",
+      "middle-assyrian-scribes-seals",
+      "old-assyrian-trade"
+    ],
+    "passages": [],
+    "note": "Trade, transport and movement studies do not borrow Old Assyrian Kaneš household documentation as contemporaneous Middle Assyrian evidence.",
+    "slug": "middle-assyrian-routes-and-exchange",
+    "category": "History & archaeology"
+  }
+]

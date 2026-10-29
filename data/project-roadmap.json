@@ -27,8 +27,15 @@
       "id": "encyclopaedia",
       "title": "Encyclopaedia expansion and preservation",
       "status": "in-progress",
-      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts. Six further original methods and community-heritage studies now complement ancient history and linguistic resources. Milestone 9 adds eight long-form Bible-primary, object-identified comparisons (40 precisely mapped new sections), six curated specialist and museum reference records and a public evidence dossier reading hub. The release also connects the new studies to older Bible and history entries.",
-      "next": "Continue with Middle Assyrian family, administration and women in historical sources; make line-level RINAP comparisons using actual edition and tablet identifiers, and document specialist review on disputed passages, royal chronologies and translations."
+      "delivered": "Expanded the original collection with 14 specialist-sourced, independently authored historical guides covering eight rulers, governance, deportation, religion, languages, the imperial collapse and later regional history. Added 56 section-level reading trails, 10 source records and dated timeline routes. Earlier preserved reference corpus, glossary and measured growth dashboard remain available. Added another eight original language and heritage studies without importing unlicensed texts. Six further original methods and community-heritage studies now complement ancient history and linguistic resources. Milestone 9 adds eight long-form Bible-primary, object-identified comparisons (40 precisely mapped new sections), six curated specialist and museum reference records and a public evidence dossier reading hub. The release also connects the new studies to older Bible and history entries. Nine additional Middle Assyrian social-history guides provide 45 sourced sections and a period-sensitive non-royal reading pathway.",
+      "next": "Deepen object-level Middle Assyrian administrative and household case studies, with named tablet editions and independent philological review. Extend historical coverage to the transitions between Middle and Neo-Assyrian periods."
+    },
+    {
+      "id": "middle-assyrian-life",
+      "title": "The Middle Assyrian world and everyday life",
+      "status": "in-progress",
+      "delivered": "Published nine original source-mapped guides with 45 substantive editorial sections about Middle Assyrian provincial administration, law, women, households, fields, irrigation, livestock, dependent labour, ration lists, scribal archives, sealings, religion and exchange. Added ten externally attributed specialist source records, fourteen anchored claim reviews, a public research hub, reciprocal reading routes and a non-royal timeline entry. Legal prescriptions are distinguished from practice; Old and Neo-Assyrian and biblical comparisons are explicitly dated and limited.",
+      "next": "Invite qualified Assyriologists to review tablet and legal paragraph translations, precise administrative titles, provenance and dates. Expand dated individual tablet case studies and material culture where object-level research permits; document more non-elite and women's perspectives without inventing identities or experiences. Check rights before using photos, manuscripts or audio."
     },
     {
       "id": "atlas",
@@ -41,15 +48,15 @@
       "id": "source-trails",
       "title": "Section-level source traceability",
       "status": "available",
-      "delivered": "Evidence Register, source-to-guide links and 253 section-level evidence trails across 77 editorial guides, including 24 new heritage and community research sections.",
-      "next": "Improve sentence-level source attribution and historical document line citations for the new dossiers. Section links are research routes rather than independent scholarly verification."
+      "delivered": "Evidence Register, source-to-guide links and 298 section-level evidence trails across 86 editorial guides, including 24 new heritage and community research sections.",
+      "next": "Connect more claims to exact individual cuneiform tablet IDs and publication lines. Existing source-to-section links are reading routes, not completed specialist verification."
     },
     {
       "id": "claims",
       "title": "Historical claim verification",
       "status": "in-progress",
-      "delivered": "The claim-level review register now contains 27 text-anchored records, including twelve new biblical and museum/inscription claims linked to eight research dossiers. Passage coordinates, direct-vs-context source roles and review limitations are validated; no independent specialist reviews have been claimed.",
-      "next": "Recruit and document qualified external historical and biblical reviewers and verify precise inscription lines or manuscript editions. Keep the meaning of awaiting independent review separate from automated evidence citation integrity."
+      "delivered": "The claim-level review register now contains 41 text-anchored records, including twenty-six new biblical and historical-record claims, including fourteen Middle Assyrian social-history claims linked to eight research dossiers. Passage coordinates, direct-vs-context source roles and review limitations are validated; no independent specialist reviews have been claimed.",
+      "next": "Arrange documented independent Assyriological, legal-history and biblical-review assessments for 41 outstanding text-anchored records, especially Middle Assyrian legal versus actual practice and period chronology. Maintain no implied peer-review completion."
     },
     {
       "id": "language",

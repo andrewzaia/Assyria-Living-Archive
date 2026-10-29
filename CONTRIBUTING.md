@@ -60,6 +60,12 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Middle Assyrian social-history contributions
+
+The nine original everyday-life studies are stored in `data/middle-assyrian-articles.json`, with source roles in `data/section-evidence.json` and unresolved statement-level verification in `data/claim-reviews.json`. A substantive new section needs a dated primary tablet edition, identified findspot and/or a named scholarly discussion. Explain which parts are law, administrative accounting, royal ideology, an excavation context or modern interpretation.
+
+Avoid transferring Old Assyrian commercial letters or later Neo-Assyrian deportation records into a Middle Assyrian household without explicit period qualification. Biblical passages are primary for their own ancient narrative; do not represent their words as a direct transcript of a thirteenth-century Middle Assyrian archive. Respect the experiences of vulnerable and enslaved people without inventing reconstructed personal biographies. Only approved source metadata and original prose should be committed; do not copy museum photographs or modern translations without permission.
+
 ## Biblical and archaeological evidence dossiers
 
 The eight object-level comparison guides are kept in `historical_evidence_content.py`, with section trails recorded in `data/section-evidence.json`, curated source records in `sources.json` and text-anchored review items in `data/claim-reviews.json`. New studies must distinguish the exact wording and genre of biblical passages from independent inscriptions, museum catalogues, archaeology or modern historical interpretation.
