@@ -15,3 +15,21 @@
 @media(max-width:520px){.atlas-timeline{padding:12px 14px 9px}.atlas-timeline-head label{font-size:17px;max-width:140px;display:block}.atlas-playback .button{min-width:100px;padding:8px;font-size:9px}.atlas-playback .icon-button{min-width:26px;width:26px;font-size:16px}.atlas-presets{padding:14px 16px}.atlas-timeline-head{gap:4px}.atlas-ticks{height:15px;margin-top:1px}}
 
 #map-biblical{border-top:1px solid #b7c2a92b;padding-top:17px;margin-bottom:15px}#map-biblical[hidden]{display:none}#map-biblical>.eyebrow{font-size:8px;color:#d3b47a}#map-biblical p{font-size:10px;color:#bdc9b7;line-height:1.8;margin-top:9px}#map-biblical ul{margin-bottom:10px}.atlas-continuity>.text-link+.text-link{margin-left:25px}
+
+/* Milestone 3: explicit reconstruction limits and chapter-level reading routes. */
+.atlas-reconstruction{width:100%;border-bottom:1px solid #b7c2a92b;margin:0 0 20px;padding:0 0 17px}
+.atlas-reconstruction>.eyebrow,.atlas-article-routes>.eyebrow{font-size:8px;color:#d3b47a}
+.atlas-reconstruction-status{display:flex;flex-wrap:wrap;gap:5px 9px;align-items:center;margin:10px 0 12px}
+.atlas-reconstruction-status strong{font-size:10px;text-transform:uppercase;letter-spacing:.5px;background:#d2b7821b;border:1px solid #d2b7826b;padding:5px 8px;color:#f4dfb2}
+.atlas-reconstruction-status span{font-size:9px;line-height:1.5;color:#b5c5b5}
+.atlas-reconstruction>p:not(.atlas-reconstruction-status),.atlas-rule-notes p{font-size:10px;line-height:1.8;color:#c0cbbd;margin:0 0 9px}
+.atlas-rule-notes{padding:9px 0 0}
+.atlas-rule-notes strong{color:#f4dfb2}
+.atlas-story-sources li small{display:block;margin-top:4px;font-size:9px;line-height:1.65;color:#b3c5b1}
+.atlas-story-sources li a,.atlas-article-routes a{overflow-wrap:anywhere}
+.atlas-article-routes{width:100%;border-top:1px solid #b7c2a92b;padding:16px 0 22px;margin-top:3px}
+.atlas-article-routes ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 0;padding:0}
+.atlas-article-routes li a{display:inline-block;font-size:10px;line-height:1.5;border:1px solid #9fae9666;padding:6px 9px;color:#f4dfb2}
+.atlas-article-routes li a:hover,.atlas-article-routes li a:focus-visible{border-color:#e8c884;color:#fff;outline-offset:2px}
+.atlas-text-chapters li p a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){.atlas-story{display:block}.atlas-story-sources,.atlas-reconstruction,.atlas-article-routes{max-width:720px}}
