@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-30",
+  "method": "Scripture is primary for biblical statements; original inscriptions are primary for their own imperial claims and surviving exemplars. This archive does not presume that shared events establish every biblical detail or that a later royal claim proves a command chronology. All case interpretations await qualified independent expert review; neither source coordinates nor automated tests constitute that review.",
+  "chronology_note": "Stages are teaching-order groupings, not mutually exclusive exact-year boundaries. Samaria's capture and imperial consolidation are debated and may involve multiple episodes. Apparent exact royal totals may vary between exemplars.",
+  "stages": [
+    {
+      "id": "before-siege",
+      "title": "Before the siege",
+      "date": "740s-730s BCE",
+      "focus": "Tribute, northern conquests and a new vassal king"
+    },
+    {
+      "id": "siege",
+      "title": "The siege",
+      "date": "Approx. 725-722 BCE",
+      "focus": "Hoshea, Shalmaneser V and biblical regnal synchronisms"
+    },
+    {
+      "id": "sargon",
+      "title": "Sargon's accounts",
+      "date": "722-720 BCE and later compositions",
+      "focus": "Competing royal attribution, deportation numbers and preserved text variants"
+    },
+    {
+      "id": "aftermath",
+      "title": "Provincial aftermath",
+      "date": "Late eighth century BCE",
+      "focus": "Resettlement, administration and limited surviving witnesses"
+    }
+  ],
+  "cases": [
+    {
+      "id": "menahem-tribute",
+      "stage": "before-siege",
+      "year": "c. 740s BCE",
+      "heading": "Menahem and the first documented tribute",
+      "actors": "Tiglath-pileser III / Menahem",
+      "mode": "edition",
+      "source_id": "rinap-tiglath-menahem32",
+      "edition": "RINAP 1, Tiglath-pileser III 32, Q003445",
+      "location": "Obverse line 1",
+      "object": "British Museum 118899 + 118900, Nimrud inscribed wall slabs",
+      "biblical": [
+        [
+          "2KI",
+          15,
+          19,
+          20
+        ]
+      ],
+      "royal": "The edited royal tribute list includes Menahem of Samaria among rulers who made payment to Tiglath-pileser III. This is a tribute witness, not a siege or conquest account.",
+      "scripture": "Second Kings 15:19-20 names Pul of Assyria, relates Menahem's payment, and describes raising silver from wealthy Israelites.",
+      "meeting": "Menahem and Assyrian tribute are part of the same historical setting. The Assyrian ruler Tiglath-pileser III is conventionally identified with biblical Pul.",
+      "limits": "The surviving Assyrian list does not independently establish every monetary figure, collection method, or political motive given in Kings. The inscription does not describe the later siege of Samaria.",
+      "uncertainty": "The list is a royal retrospective and its lines partly overlap other compositions; document both copy and edited reading.",
+      "class": "bounded-agreement"
+    },
+    {
+      "id": "north-israel-deportations",
+      "stage": "before-siege",
+      "year": "c. 733-732 BCE",
+      "heading": "Northern losses and the geography of deportation",
+      "actors": "Tiglath-pileser III / northern Israel",
+      "mode": "edition",
+      "source_id": "rinap-tiglath-peqah42",
+      "edition": "RINAP 1, Tiglath-pileser III 42, Q003455",
+      "location": "Obverse lines 15'-16' (broken text)",
+      "object": "Nimrud royal summary inscription reconstructed from damaged copies",
+      "biblical": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "1CH",
+          5,
+          26,
+          26
+        ]
+      ],
+      "royal": "The edited inscription discusses Bīt-Ḫumrî (the Assyrian designation for Israel), people taken to Assyria and losses to the kingdom before Samaria's final fall.",
+      "scripture": "Second Kings 15:29 records northern territories taken and inhabitants deported by Tiglath-pileser. First Chronicles 5:26 recalls the exile of eastern Israelite tribes.",
+      "meeting": "Both records discuss Assyrian encroachment and removal of people before the final Samaria crisis.",
+      "limits": "Neither witness supplies a complete household-by-household census. The earlier northern deportations must not be conflated with Sargon II's later claims about Samaria.",
+      "uncertainty": "The Q003455 inscription is broken; identifying precisely which people and areas occur in each fragment depends on specialist restoration.",
+      "class": "bounded-agreement"
+    },
+    {
+      "id": "peqah-hoshea",
+      "stage": "before-siege",
+      "year": "c. 732-731 BCE",
+      "heading": "Pekah, Hoshea and the broken succession line",
+      "actors": "Tiglath-pileser III / Pekah / Hoshea",
+      "mode": "edition",
+      "source_id": "rinap-tiglath-peqah42",
+      "edition": "RINAP 1, Tiglath-pileser III 42, Q003455",
+      "location": "Obverse lines 17'-18' (damaged verb)",
+      "object": "Nimrud royal summary inscription reconstructed from damaged copies",
+      "biblical": [
+        [
+          "2KI",
+          15,
+          30,
+          30
+        ]
+      ],
+      "royal": "The edition names Pekah, king of Israel, and says Tiglath-pileser installed Hoshea. The verb concerning Pekah's death is damaged and may allow 'I killed' or 'they killed'.",
+      "scripture": "Second Kings 15:30 attributes the conspiracy against Pekah and his killing to Hoshea, who then succeeds him.",
+      "meeting": "Both sources know of Pekah's removal and Hoshea's accession, though they assign emphasis differently.",
+      "limits": "The broken Assyrian verb cannot independently prove whether the Assyrian ruler, Hoshea, or others killed Pekah. Avoid converting a restoration into an undisputed historical fact.",
+      "uncertainty": "The RINAP editor explicitly flags alternative restorations and disputed readings of the damaged signs in Q003455 line 17'.",
+      "class": "open-reading"
+    },
+    {
+      "id": "shalmaneser-siege",
+      "stage": "siege",
+      "year": "c. 725-722 BCE (approximate)",
+      "heading": "Shalmaneser V and the three-year siege",
+      "actors": "Shalmaneser V / Hoshea",
+      "mode": "specialist-synthesis",
+      "source_id": "aebp-shalmaneser-v",
+      "edition": null,
+      "location": null,
+      "object": "Specialist reign synthesis - not a surviving siege inscription",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          10
+        ]
+      ],
+      "royal": "Contemporary official royal inscriptions surviving from Shalmaneser V's brief reign are scarce. The Assyrian Empire Builders chronology reconstructs his western campaigns and considers the formation of Samaria as a province; it does not provide an extant Assyrian siege annal from him.",
+      "scripture": "Second Kings 17:3-6 names Shalmaneser and describes Hoshea's subjection, imprisonment and the siege; 18:9-10 synchronises a three-year siege with the reigns of Hoshea and Hezekiah.",
+      "meeting": "The reign of Shalmaneser V is the critical setting for the named biblical siege; scholarly reconstruction associates him with the end of Israelite independence.",
+      "limits": "This comparison uses secondary specialist synthesis, not an invented Shalmaneser V inscription. The final city's capture and whether further action followed under Sargon II remain disputed.",
+      "uncertainty": "The absolute years and sequence of campaign, siege, capture and formal provincial reorganisation are reconstructed from limited and uneven witnesses.",
+      "class": "disputed-chronology"
+    },
+    {
+      "id": "sargon-capture-claim",
+      "stage": "sargon",
+      "year": "c. 722-720 BCE (date debated)",
+      "heading": "Sargon II's claim to the capture of Samaria",
+      "actors": "Sargon II / Samaria",
+      "mode": "edition",
+      "source_id": "rinap-sargon-samaria7",
+      "edition": "RINAP 2, Sargon II 007, Q006488",
+      "location": "Lines 23-25, especially 23b-25a",
+      "object": "Khorsabad (Dur-Sharrukin) royal display inscription, several exemplars",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          5,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          11
+        ]
+      ],
+      "royal": "Sargon's later palace inscription claims he surrounded and captured Samaria, removed inhabitants, conscripted chariots, and imposed a governor and tribute. It is a first-person imperial claim, not a neutral timestamp of siege events.",
+      "scripture": "Second Kings 17:5-6 and 18:9-11 recount the siege, fall and deportations while explicitly naming Shalmaneser at the beginning of the campaign.",
+      "meeting": "Samaria's capture, deportation and Assyrian power appear in both traditions.",
+      "limits": "Shalmaneser's named siege and Sargon's later personal conquest claim need not be silently identified as one attested command action. Some scholars argue one campaign, others multiple actions or later royal appropriation.",
+      "uncertainty": "The edition's annal and display composition traditions assign episodes differently; its own commentary notes the chronology is not straightforward.",
+      "class": "competing-attribution"
+    },
+    {
+      "id": "sargon-numbers",
+      "stage": "sargon",
+      "year": "Recorded in later Sargonic compositions",
+      "heading": "27,290 is a royal figure with variant readings",
+      "actors": "Sargon II / deported Samarians",
+      "mode": "edition",
+      "source_id": "rinap-sargon-samaria7",
+      "edition": "RINAP 2, Sargon II 007, Q006488",
+      "location": "Line 24 and its exemplar commentary",
+      "object": "Khorsabad display inscription with variant copies",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "royal": "The main edited exemplar reports 27,290 people taken from Samaria. The edition's apparatus also identifies readings of 27,280 and apparently 24,280 in other exemplars; the figure varies between witnesses.",
+      "scripture": "Second Kings 17:6 reports that Israelites were taken into Assyria and names settlement locations, without giving the number 27,290.",
+      "meeting": "Population removal is a shared theme, but the numerical precision belongs to Assyrian royal rhetoric and its surviving exemplars.",
+      "limits": "27,290 cannot be presented as an independently verified modern population census or as a number supplied by 2 Kings. The other edited figures must not be hidden.",
+      "uncertainty": "The damaged signs, exemplar variants, what was counted, and the royal purpose of the tally still require critical historical assessment.",
+      "class": "text-variants"
+    },
+    {
+      "id": "sargon-prism-variation",
+      "stage": "sargon",
+      "year": "Recounted in later Sargonic prism text",
+      "heading": "A second Sargon inscription has a different count",
+      "actors": "Sargon II / Samaria",
+      "mode": "edition",
+      "source_id": "rinap-sargon-nimrud74",
+      "edition": "RINAP 2, Sargon II 074, Q006555",
+      "location": "Column iv, lines 25-38",
+      "object": "Nimrud prism, incomplete and restored in places",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "royal": "The Nimrud Prism also discusses Samaria's rebellion, seizure, chariots, resettlement and imperial administration. Its population figure is damaged and is represented differently from the main Khorsabad display edition; the edition notes a proposed 47,280 reading.",
+      "scripture": "Kings records deportation following Samaria's fall, without the Assyrian palace figures or their copy differences.",
+      "meeting": "Sargonic records offer more than one Assyrian textual witness to claims of Samaria's takeover and resettlement.",
+      "limits": "A different manuscript is not automatic independent corroboration of a number when texts belong to the same royal propaganda system. Variant counts must not be averaged or converted into false certainty.",
+      "uncertainty": "The Nirud Prism reading and restorations are specialist editorial questions; neither the exact number nor the reign-specific assignment is settled simply by comparing English summaries.",
+      "class": "text-variants"
+    },
+    {
+      "id": "new-residents-samaria",
+      "stage": "aftermath",
+      "year": "Assyrian provincial aftermath, late eighth century BCE",
+      "heading": "Resettlement and the reshaping of Samaria",
+      "actors": "Sargon II / displaced communities",
+      "mode": "edition",
+      "source_id": "rinap-sargon-annals1",
+      "edition": "RINAP 2, Sargon II 001, Q006482",
+      "location": "Lines 12-17 (heavily restored)",
+      "object": "Khorsabad royal annals, damaged signs and restoration commentary",
+      "biblical": [
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ],
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ]
+      ],
+      "royal": "The restored annal text presents the takeover of Samaria, deportations, resettlement and installation of a governor. Large portions are supplied by scholarly restoration with parallel royal texts.",
+      "scripture": "Second Kings 17:24 describes settlers relocated into Samaria from named places, while 17:6 records the exile of Israelites to locations in the Assyrian sphere.",
+      "meeting": "Both narratives describe population movement and an altered political and demographic landscape.",
+      "limits": "The annal's restored text cannot directly identify every person or place in the biblical account. Biblical and royal language each selects details for different purposes.",
+      "uncertainty": "Sign restoration, translation, dating and the proposed sequence of one or more stages of transfer require independent review.",
+      "class": "restored-witness"
+    }
+  ]
+}
