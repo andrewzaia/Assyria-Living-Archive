@@ -557,3 +557,22 @@ for _article in ARTICLES:
     for _slug in _NEW_READING_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Language reading routes connect established introductions with the new specialist-backed guides.
+_LANGUAGE_READING_ROUTES = {
+    'akkadian-and-cuneiform': ['cuneiform-reading-methods'],
+    'imperial-languages': ['cuneiform-reading-methods', 'syriac-script-histories'],
+    'syriac-scripts': ['syriac-script-histories', 'syriac-unicode-reading'],
+    'classical-syriac': ['syriac-script-histories', 'syriac-unicode-reading'],
+    'sureth': ['nena-dialect-comparison', 'urmi-neo-aramaic-recordings'],
+    'surayt': ['surayt-documentation'],
+    'manuscripts': ['manuscript-provenance-practice'],
+    'syriac-printing': ['urmi-neo-aramaic-recordings'],
+    'urmia': ['urmi-neo-aramaic-recordings'],
+    'endangered-languages': ['nena-dialect-comparison', 'living-language-archive-ethics'],
+    'oral-history': ['living-language-archive-ethics'],
+}
+for _article in ARTICLES:
+    for _slug in _LANGUAGE_READING_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
