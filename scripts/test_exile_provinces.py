@@ -52,7 +52,7 @@ class ExileEvidenceTests(unittest.TestCase):
         self.rejects(lambda d:d["cases"][11].update(kind="edited-text"),"Secondary synthesis")
 
     def test_oxford_full_text_not_claimed(self):
-        self.rejects(lambda d:d["cases"][11].update(limits="I have fully checked the original argument in every paragraph."),"abstract")
+        self.rejects(lambda d:d["cases"][11].update(limits="I have fully checked the original argument in every paragraph."),"Paywalled article scope limitation")
 
     def test_review_caveat_cannot_disappear(self):
         self.rejects(lambda d:d.update(method="Everything certified"),"review limits")
