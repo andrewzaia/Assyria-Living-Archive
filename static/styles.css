@@ -57,3 +57,9 @@
 @media(max-width:800px){.expansion-stats{grid-template-columns:1fr 1fr}.expansion-stat-featured{grid-column:span 2;grid-row:auto;min-height:285px}.expansion-dashboard{padding:20px}}
 @media(max-width:520px){.expansion-dashboard-heading{display:block}.expansion-live{display:block;margin-top:13px}.expansion-stats{grid-template-columns:1fr}.expansion-stat-featured{grid-column:auto;min-height:290px}.expansion-stat{min-height:140px}.expansion-category-label{font-size:10px}.expansion-categories li{grid-template-columns:minmax(90px,1fr) 1fr 34px;gap:8px}.expansion-dashboard-footer{gap:10px 18px}.expansion-table-wrap th,.expansion-table-wrap td{padding:11px 9px}}
 @media(prefers-reduced-motion:reduce){.expansion-stat,.expansion-dashboard{animation:none;transition:none}}
+
+/* Evidence relationships keep reference links legible without altering other tables. */
+.evidence-register-table td{text-align:left}
+.evidence-register-table td:nth-child(3){text-align:center}
+.evidence-register-table td:last-child a{text-decoration:underline;text-underline-offset:3px;display:inline-block;margin-right:9px;margin-bottom:5px;white-space:nowrap}
+.library-list .source-item small a{text-decoration:underline;text-underline-offset:2px}
