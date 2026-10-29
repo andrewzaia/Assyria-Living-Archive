@@ -60,6 +60,12 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Curated ancient text concordance associations
+
+The concordance is maintained in `data/concordance.json`. Each term has an editorial category, descriptive scope, aliases, and separate object, chapter and biblical references. A direct edited-line citation must match the `location` of a real excerpt in `data/text-comparisons.json`, and must be labelled `edition-line`; a broader catalogue or findspot relationship uses `object-context`, without claiming an exact sign or line. Bible references must identify real local verses and explain the different source genre or historical period.
+
+Never auto-merge similarly named individuals, ancient toponyms, biblical accounts and museum objects merely because words match. A term link is a reading route, not a declaration of philological or historical corroboration. Add new terms only with clear source-backed associations and explanatory limitations. Preserve dates, damaged reading uncertainty, and existing provenance. `python scripts/test_concordance.py` checks negative cases for invented object IDs, line locations, article slugs and Bible coordinates. The page's search must work without any remote service and retain a readable unfiltered no-JavaScript state.
+
 ## Source-credited ancient-language line comparison
 
 Short original-language transliteration excerpts belong in `data/text-comparisons.json`. Include the exact catalogue/edition identifier, original side and line, very short credited sign notation and an attributed licence statement with a link to the scholarly editor's publication. The English columns are **original editorial reading cues and discussion, not an authenticated Akkadian translation**. Preserve signs and scholarly uncertainty including square brackets, damaged signs, restored text, x, queried readings and alternate interpretations. Never silently normalize lost words or invent a witness's name.
