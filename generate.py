@@ -206,7 +206,7 @@ if __name__=='__main__':
     write('/about/expansion/index.html',shell('Encyclopaedia expansion','Comparable article and text growth, source preservation and review status.','/about/expansion/',render_growth(heading,H,growth)))
     write('/evidence-index.json',json.dumps(EVIDENCE,ensure_ascii=False,indent=2)+'\n')
     write('/project-roadmap.json',json.dumps(PROJECT_ROADMAP,ensure_ascii=False,indent=2)+'\n')
-    write('/about/evidence/index.html',shell('Evidence register','Source relationships and outstanding review limitations for the editorial encyclopaedia.','/about/evidence/',render_evidence(heading,H,EVIDENCE)))
+    write('/about/evidence/index.html',shell('Evidence register','Source relationships and outstanding review limitations for the editorial encyclopaedia.','/about/evidence/',render_evidence(heading,H,EVIDENCE),extra='<link rel="stylesheet" href="/claim.css">'))
     validate_passages(EDITORIAL_ARTICLES)
     home();explore();articles();timeline();sources();about();reading_list();contribute();credits()
     write('/glossary/index.html',shell('Glossary','Definitions and sourced reading routes for Assyrian history, languages, Scripture and preservation.','/glossary/',render_glossary(heading,H)))
