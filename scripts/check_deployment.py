@@ -1,5 +1,7 @@
 """Verify the published website, including its design assets and reading routes."""
 import argparse
+import hashlib
+import json
 import time
 import urllib.error
 import urllib.request
@@ -20,6 +22,8 @@ CHECKS = {
     '/map.js': ('map-territory', 'map-chapter-select'),
     '/archive/maps/assyria-atlas.json': ('schema_version', 'snapshots', 'bm-chronicle'),
     '/archive/maps/natural-earth-countries.geojson': ('FeatureCollection', 'MultiPolygon'),
+    '/stewardship/': ('Make the archive recoverable.', 'preservation-manifest.json', 'Offsite backups:'),
+    '/preservation-manifest.json': ('hash_algorithm', 'sha256', 'file_count'),
 }
 
 def check(base_url):
@@ -40,6 +44,30 @@ def check(base_url):
                 errors.append(f'{path}: expected website content is missing')
         except (OSError, ValueError, urllib.error.URLError) as error:
             errors.append(f'{path}: {error}')
+    try:
+        url = base_url.rstrip('/') + '/preservation-manifest.json'
+        with urllib.request.urlopen(urllib.request.Request(url, headers={
+            'User-Agent': 'AssyriaLivingArchive-deployment-check',
+            'Cache-Control': 'no-cache',
+        }), timeout=15) as response:
+            manifest = json.loads(response.read())
+        if manifest.get('hash_algorithm') != 'sha256' or manifest.get('schema_version') != 1:
+            raise ValueError('unsupported manifest')
+        records = {record['path']: record for record in manifest['files']}
+        for path in ('index.html', 'catalogue.json', 'editorial-revisions.json',
+                     'archive/maps/assyria-atlas.json', 'stewardship/index.html'):
+            if path not in records:
+                raise ValueError('missing manifest entry: ' + path)
+            with urllib.request.urlopen(urllib.request.Request(
+                base_url.rstrip('/') + '/' + path, headers={
+                    'User-Agent': 'AssyriaLivingArchive-deployment-check',
+                    'Cache-Control': 'no-cache',
+                }), timeout=15) as response:
+                body = response.read()
+            if len(body) != records[path]['bytes'] or hashlib.sha256(body).hexdigest() != records[path]['sha256']:
+                raise ValueError('live file digest mismatch: ' + path)
+    except (KeyError, TypeError, OSError, ValueError, urllib.error.URLError) as error:
+        errors.append('Live preservation sample: ' + str(error))
     return errors
 
 def main():
