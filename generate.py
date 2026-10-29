@@ -9,6 +9,7 @@ EDITORIAL_ARTICLES = FOUNDATION_ARTICLES + BIBLICAL_ARTICLES
 from archive_support import load_references, reference_sources, corpus_metrics
 from map_page import render_atlas
 from glossary import render as render_glossary
+from language_page import render as render_languages, validate as validate_languages
 from growth_report import measure as measure_growth, render as render_growth
 from evidence_report import build as build_evidence, render as render_evidence
 from project_roadmap import DATA as PROJECT_ROADMAP, render as render_roadmap
@@ -208,8 +209,10 @@ if __name__=='__main__':
     write('/project-roadmap.json',json.dumps(PROJECT_ROADMAP,ensure_ascii=False,indent=2)+'\n')
     write('/about/evidence/index.html',shell('Evidence register','Source relationships and outstanding review limitations for the editorial encyclopaedia.','/about/evidence/',render_evidence(heading,H,EVIDENCE),extra='<link rel="stylesheet" href="/claim.css">'))
     validate_passages(EDITORIAL_ARTICLES)
+    validate_languages(EDITORIAL_ARTICLES, SOURCES)
     home();explore();articles();timeline();sources();about();reading_list();contribute();credits()
     write('/glossary/index.html',shell('Glossary','Definitions and sourced reading routes for Assyrian history, languages, Scripture and preservation.','/glossary/',render_glossary(heading,H)))
+    write('/languages/index.html',shell('Language and script reference','Syriac Unicode letters, Akkadian and Aramaic research, manuscript traditions and named dialect recordings.','/languages/',render_languages(heading,EDITORIAL_ARTICLES,SOURCES),'languages','<link rel="stylesheet" href="/languages.css">'))
     bible_paths = make_bible_pages(write, shell, heading, card, EDITORIAL_ARTICLES)
     write('/map/index.html', shell('Interactive historical map', 'Explore the growth and contraction of ancient Assyria with eleven dated map sketches, a draggable timeline and locally preserved geographical data.', '/map/', render_atlas(), 'map', '<link rel="stylesheet" href="/map.css"><script defer src="/map.js"></script>'))
     payload={'edition':'Research and preservation edition 01','compiled':'2026-10-26','articles':[{k:v for k,v in a.items() if k not in ('html','record','headings')} for a in ARTICLES],'sources':SOURCES,'topics':CATS}
@@ -218,7 +221,7 @@ if __name__=='__main__':
     robots_text = 'User-agent: *\nAllow: /\n' if ALLOW_INDEXING else 'User-agent: *\nDisallow: /\n'
     if ALLOW_INDEXING:
         from xml.sax.saxutils import escape as xml_escape
-        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
+        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
         sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         sitemap += ''.join('<url><loc>' + xml_escape(public_url(path)) + '</loc></url>' for path in pages)
         write('/sitemap.xml', sitemap + '</urlset>\n')
