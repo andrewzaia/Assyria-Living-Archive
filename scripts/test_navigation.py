@@ -41,7 +41,7 @@ class NavigationTests(unittest.TestCase):
     def test_categories_are_complete_and_balanced(self):
         validate_nav_columns()
         self.assertEqual([len(p) for _, p in NAV_COLUMNS['Research']], [5, 5, 4])
-        self.assertEqual([len(p) for _, p in NAV_COLUMNS['Explore']], [4, 3])
+        self.assertEqual([len(p) for _, p in NAV_COLUMNS['Explore']], [4, 4])
         for group, cols in NAV_COLUMNS.items():
             all_targets = [x for _, destinations in cols for x in destinations]
             original = [p for name, links in NAV_GROUPS if name == group for _, p, _ in links]
