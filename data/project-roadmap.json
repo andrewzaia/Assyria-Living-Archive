@@ -13,8 +13,8 @@
       "id": "navigation",
       "title": "Unified site-wide navigation",
       "status": "available",
-      "delivered": "Explore, Scripture, Research and Project menus expose every major public hub on desktop and mobile.",
-      "next": "Recheck keyboard, touch and small-screen behaviour after navigation changes."
+      "delivered": "Explore, Scripture, Research and Project menus expose every major public hub on desktop and mobile. Source/accessibility audit is exposed under Research; disclosure-group scripting now handles the whole menu collection and closes on focus leaving a group.",
+      "next": "Verify keyboard and touch behaviour on physical devices, and test focus management through navigation changes on screen readers."
     },
     {
       "id": "scripture",
@@ -80,11 +80,18 @@
       "next": "Appoint qualified subject editors and documented independent reviewers, create secure private correction intake and tracked moderation, and record genuine dated public correction or withdrawal notices and multilingual revisions when required. The curated ledger must follow subsequent substantive merged changes; CI does not imply specialist review."
     },
     {
+      "id": "source-accessibility",
+      "title": "Source integrity and accessibility audit",
+      "status": "in-progress",
+      "delivered": "Added an offline structural audit for 89 curated institutional source URLs, a separate bounded monthly/manual HTTP health workflow with inconclusive 403/429/timeout handling, a public audit and metadata report, representative-page accessibility markup checks, and automated test coverage. Repaired multi-menu keyboard disclosure handling, improved focus and reduced-motion CSS, and introduced nonvisual atlas chapter status announcements. These checks do not claim real browser testing, all-source remote verification or full WCAG conformance.",
+      "next": "Review actual remote health reports with source custodians before changing citations; extend coverage to preserved reference URLs and all generated pages. Record and fix results of keyboard-only, screen-reader, zoom/reflow, contrast/touch-target and Syriac shaping tests on real devices. Keep publication indexing disabled until rights and specialist approvals are granted."
+    },
+    {
       "id": "publication",
       "title": "Publication and long-term stewardship",
       "status": "in-progress",
       "delivered": "Added a dedicated public publication and preservation room, deterministic SHA-256 fixity manifest covering generated files, strict missing/extra/tampered-file verification, recoverable deterministic ZIP export with tested extraction, CI negative tests and restore checks for build and Pages deployment, plus selected live-file hash probes and an operational recovery runbook. Existing noindex safeguards remain unchanged.",
-      "next": "Appoint a responsible long-term custodian and establish independent offsite redundant backups, scheduled documented integrity checks and actual restoration drills. Conduct a real-device and screen-reader accessibility review against WCAG 2.2; audit outbound source link health, rights and manuscript reuse; obtain specialist subject review and deliberate indexing sign-off before search publication."
+      "next": "Assign a backup custodian and establish independent offsite copies and restoration drills. Use the new source and accessibility audit procedures to review remote citations and real-device WCAG 2.2 usability before any indexing approval. Rights, specialist historical/linguistic review and live publisher availability still require human checks."
     }
   ]
 }
