@@ -1042,5 +1042,32 @@
     "type": "Academic reference on cuneiform signs, normalization and translation",
     "access": "Explains how transliteration preserves sign values and differs from normalized forms; scholarly typography may vary by edition. Source is a methods reference, not evidence for an individual Assyrian transaction.",
     "checked": "2026-10-30"
+  },
+  {
+    "id": "oracc-riao-jehu-caption",
+    "title": "Shalmaneser III 088 (Q004693): Black Obelisk Jehu caption",
+    "publisher": "Royal Inscriptions of Assyria online (RIAo), RIMA 3 / ORACC",
+    "url": "https://oracc.museum.upenn.edu/riao/ria5/Q004693",
+    "type": "Edited royal inscription primary source",
+    "access": "Obelisk second tribute caption, obverse line 1; historical edition by A. Kirk Grayson, updated by MOCCI; CC BY-SA 3.0 edition. Read the original edition; no local text transcription mirrored.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "oracc-rinap2-ashdod",
+    "title": "Sargon II royal account (Q006488): Ashdod, lines 90-109",
+    "publisher": "Royal Inscriptions of the Neo-Assyrian Period 2, Grant Frame / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap2/Q006488",
+    "type": "Edited royal inscription primary source",
+    "access": "Directly consulted RINAP 2 edition, lines 90-109 concerning Ashdod. Original transliteration and scholarly translation remain at the institutional URL; royal first-person narrative is not neutral modern reportage.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "oracc-rinap3-sennacherib22",
+    "title": "Sennacherib 022 (Q003496): Judah and Hezekiah, column iii",
+    "publisher": "Royal Inscriptions of the Neo-Assyrian Period 3, A. Kirk Grayson and Jamie Novotny / ORACC",
+    "url": "https://oracc.museum.upenn.edu/rinap/rinap3/Q003496",
+    "type": "Edited royal inscription primary source",
+    "access": "RINAP 3 composite prism edition with British Museum 91032 among listed exemplars; relevant column iii lines 18-49. Attribution of a master edition does not mean each line is preserved identically on a single artefact.",
+    "checked": "2026-10-30"
   }
 ]
