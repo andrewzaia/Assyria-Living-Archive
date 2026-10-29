@@ -1371,5 +1371,202 @@
         "gedsh-assyrians"
       ]
     }
+  },
+  "cuneiform-reading-methods": {
+    "From object to identified text": {
+      "sources": [
+        "cambridge-mesopotamian-languages"
+      ]
+    },
+    "Signs, transliteration and translation": {
+      "sources": [
+        "cdli",
+        "cambridge-mesopotamian-languages"
+      ]
+    },
+    "Assyrian and Babylonian as Akkadian traditions": {
+      "sources": [
+        "cambridge-mesopotamian-languages",
+        "gedsh-aramaic"
+      ]
+    },
+    "Check the claim against the edition": {
+      "sources": [
+        "cdli",
+        "oracc-rinap"
+      ]
+    }
+  },
+  "syriac-script-histories": {
+    "One Unicode script, several written styles": {
+      "sources": [
+        "unicode-syriac-standard",
+        "unicode-syriac-names"
+      ]
+    },
+    "Estrangela over time": {
+      "sources": [
+        "hmml-estrangela"
+      ]
+    },
+    "Serto and East Syriac": {
+      "sources": [
+        "hmml-serto",
+        "hmml-east"
+      ]
+    },
+    "Images are not automatically reusable": {
+      "sources": [
+        "hmml-palaeography",
+        "hmml-serto"
+      ]
+    }
+  },
+  "syriac-unicode-reading": {
+    "A character is not its drawing": {
+      "sources": [
+        "unicode-syriac-names",
+        "unicode-syriac-standard"
+      ]
+    },
+    "Right-to-left writing and connected forms": {
+      "sources": [
+        "unicode-syriac-standard"
+      ]
+    },
+    "Letters are not a complete pronunciation key": {
+      "sources": [
+        "unicode-syriac-standard",
+        "hmml-palaeography"
+      ]
+    },
+    "Safely cite digital examples": {
+      "sources": [
+        "unicode-syriac-names",
+        "hmml-palaeography"
+      ]
+    }
+  },
+  "nena-dialect-comparison": {
+    "The dialect database is not a single voice": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects"
+      ]
+    },
+    "Alqosh in its own record": {
+      "sources": [
+        "nena-alqosh"
+      ]
+    },
+    "Ankawa in its own record": {
+      "sources": [
+        "nena-ankawa"
+      ]
+    },
+    "A research-led comparison": {
+      "sources": [
+        "nena-dialects",
+        "cambridge-nena"
+      ]
+    }
+  },
+  "urmi-neo-aramaic-recordings": {
+    "Local speech, not one national norm": {
+      "sources": [
+        "nena-urmi"
+      ]
+    },
+    "A documented oral archive": {
+      "sources": [
+        "nena-urmi",
+        "cambridge-nena"
+      ]
+    },
+    "Urmia and print": {
+      "sources": [
+        "gedsh-urmia",
+        "gedsh-printing"
+      ]
+    },
+    "What a reliable comparison needs": {
+      "sources": [
+        "nena-urmi"
+      ]
+    }
+  },
+  "surayt-documentation": {
+    "A separate contemporary language tradition": {
+      "sources": [
+        "gedsh-turoyo",
+        "gedsh-tur-abdin"
+      ]
+    },
+    "A course with an identified authoring context": {
+      "sources": [
+        "fu-surayt"
+      ]
+    },
+    "Writing is a separate editorial decision": {
+      "sources": [
+        "unicode-syriac-standard",
+        "gedsh-turoyo"
+      ]
+    },
+    "Place and diaspora context": {
+      "sources": [
+        "gedsh-tur-abdin",
+        "fu-surayt"
+      ]
+    }
+  },
+  "manuscript-provenance-practice": {
+    "Separate a work from its surviving copy": {
+      "sources": [
+        "manchester-syriac",
+        "hmml-voobus"
+      ]
+    },
+    "A reproducible reference": {
+      "sources": [
+        "hmml-palaeography"
+      ]
+    },
+    "Mixed hands and changing letterforms": {
+      "sources": [
+        "hmml-serto",
+        "hmml-east"
+      ]
+    },
+    "Access and reuse are different permissions": {
+      "sources": [
+        "syriac-digimss",
+        "hmml-voobus"
+      ]
+    }
+  },
+  "living-language-archive-ethics": {
+    "Documentation starts with people": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects"
+      ]
+    },
+    "Record what the speaker authorised": {
+      "sources": [
+        "modern-nena"
+      ]
+    },
+    "Preserve context, not just sound": {
+      "sources": [
+        "cambridge-nena"
+      ]
+    },
+    "Enable correction and future review": {
+      "sources": [
+        "cambridge-nena",
+        "modern-kanna"
+      ]
+    }
   }
 }
