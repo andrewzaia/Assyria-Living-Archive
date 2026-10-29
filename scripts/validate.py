@@ -116,6 +116,18 @@ def main():
             errors.append('Generated catalogue differs from source counts')
     else:
         errors.append('Missing article catalogue')
+    from evidence_report import build as build_evidence
+    evidence_file = OUT / 'evidence-index.json'
+    if not evidence_file.exists():
+        errors.append('Missing evidence relationship index')
+    else:
+        expected = build_evidence(EDITORIAL_ARTICLES, REFERENCES, sources)
+        try:
+            actual = json.loads(evidence_file.read_text(encoding='utf-8'))
+            if actual != expected:
+                errors.append('Evidence index differs from source and article metadata')
+        except (OSError, ValueError) as exc:
+            errors.append(f'Invalid evidence relationship index: {exc}')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
