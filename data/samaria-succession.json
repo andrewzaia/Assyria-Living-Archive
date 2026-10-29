@@ -54,7 +54,8 @@
       "meeting": "Menahem and Assyrian tribute are part of the same historical setting. The Assyrian ruler Tiglath-pileser III is conventionally identified with biblical Pul.",
       "limits": "The surviving Assyrian list does not independently establish every monetary figure, collection method, or political motive given in Kings. The inscription does not describe the later siege of Samaria.",
       "uncertainty": "The list is a royal retrospective and its lines partly overlap other compositions; document both copy and edited reading.",
-      "class": "bounded-agreement"
+      "class": "bounded-agreement",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "north-israel-deportations",
@@ -86,7 +87,8 @@
       "meeting": "Both records discuss Assyrian encroachment and removal of people before the final Samaria crisis.",
       "limits": "Neither witness supplies a complete household-by-household census. The earlier northern deportations must not be conflated with Sargon II's later claims about Samaria.",
       "uncertainty": "The Q003455 inscription is broken; identifying precisely which people and areas occur in each fragment depends on specialist restoration.",
-      "class": "bounded-agreement"
+      "class": "bounded-agreement",
+      "article": "assyrian-deportations-texts"
     },
     {
       "id": "peqah-hoshea",
@@ -112,7 +114,8 @@
       "meeting": "Both sources know of Pekah's removal and Hoshea's accession, though they assign emphasis differently.",
       "limits": "The broken Assyrian verb cannot independently prove whether the Assyrian ruler, Hoshea, or others killed Pekah. Avoid converting a restoration into an undisputed historical fact.",
       "uncertainty": "The RINAP editor explicitly flags alternative restorations and disputed readings of the damaged signs in Q003455 line 17'.",
-      "class": "open-reading"
+      "class": "open-reading",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "shalmaneser-siege",
@@ -144,7 +147,8 @@
       "meeting": "The reign of Shalmaneser V is the critical setting for the named biblical siege; scholarly reconstruction associates him with the end of Israelite independence.",
       "limits": "This comparison uses secondary specialist synthesis, not an invented Shalmaneser V inscription. The final city's capture and whether further action followed under Sargon II remain disputed.",
       "uncertainty": "The absolute years and sequence of campaign, siege, capture and formal provincial reorganisation are reconstructed from limited and uneven witnesses.",
-      "class": "disputed-chronology"
+      "class": "disputed-chronology",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "sargon-capture-claim",
@@ -176,7 +180,8 @@
       "meeting": "Samaria's capture, deportation and Assyrian power appear in both traditions.",
       "limits": "Shalmaneser's named siege and Sargon's later personal conquest claim need not be silently identified as one attested command action. Some scholars argue one campaign, others multiple actions or later royal appropriation.",
       "uncertainty": "The edition's annal and display composition traditions assign episodes differently; its own commentary notes the chronology is not straightforward.",
-      "class": "competing-attribution"
+      "class": "competing-attribution",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "sargon-numbers",
@@ -202,7 +207,8 @@
       "meeting": "Population removal is a shared theme, but the numerical precision belongs to Assyrian royal rhetoric and its surviving exemplars.",
       "limits": "27,290 cannot be presented as an independently verified modern population census or as a number supplied by 2 Kings. The other edited figures must not be hidden.",
       "uncertainty": "The damaged signs, exemplar variants, what was counted, and the royal purpose of the tally still require critical historical assessment.",
-      "class": "text-variants"
+      "class": "text-variants",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "sargon-prism-variation",
@@ -227,8 +233,9 @@
       "scripture": "Kings records deportation following Samaria's fall, without the Assyrian palace figures or their copy differences.",
       "meeting": "Sargonic records offer more than one Assyrian textual witness to claims of Samaria's takeover and resettlement.",
       "limits": "A different manuscript is not automatic independent corroboration of a number when texts belong to the same royal propaganda system. Variant counts must not be averaged or converted into false certainty.",
-      "uncertainty": "The Nirud Prism reading and restorations are specialist editorial questions; neither the exact number nor the reign-specific assignment is settled simply by comparing English summaries.",
-      "class": "text-variants"
+      "uncertainty": "The Nimrud Prism reading and restorations are specialist editorial questions; neither the exact number nor the reign-specific assignment is settled simply by comparing English summaries.",
+      "class": "text-variants",
+      "article": "samaria-assyrian-chronology"
     },
     {
       "id": "new-residents-samaria",
@@ -260,7 +267,8 @@
       "meeting": "Both narratives describe population movement and an altered political and demographic landscape.",
       "limits": "The annal's restored text cannot directly identify every person or place in the biblical account. Biblical and royal language each selects details for different purposes.",
       "uncertainty": "Sign restoration, translation, dating and the proposed sequence of one or more stages of transfer require independent review.",
-      "class": "restored-witness"
+      "class": "restored-witness",
+      "article": "assyrian-deportations-texts"
     }
   ]
 }
