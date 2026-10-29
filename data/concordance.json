@@ -16,7 +16,7 @@
         {
           "slug": "tablet-kaj-247-workers-temple",
           "role": "object-context",
-          "note": "KAJ 247 comes from Aššur's M 09 archive."
+          "note": "KAJ 247 is catalogued from the M 09 archive at Aššur; this is an archaeological findspot association."
         },
         {
           "slug": "tablet-kaj-233-horse-barley",
@@ -319,7 +319,7 @@
           "slug": "tablet-kaj-144-lead-house",
           "line": "Obverse 11",
           "role": "edition-line",
-          "note": "An edited clause refers to a house sale."
+          "note": "The published obverse clause refers to a house sale, but its later legal outcome is not established."
         }
       ],
       "articles": [
@@ -506,7 +506,7 @@
           "slug": "tablet-billa-30-barley",
           "line": "Obverse 5",
           "role": "edition-line",
-          "note": "The edited phrase carries a query mark."
+          "note": "The edited phrase carries a query mark signalling that the particular sign reading remains uncertain."
         },
         {
           "slug": "tablet-marv-10-07-footwear",
