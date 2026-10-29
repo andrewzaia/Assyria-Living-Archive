@@ -60,6 +60,12 @@ The public `/stewardship/` page and `docs/PRESERVATION.md` explain the limits: a
 
 Keep `allow_indexing: false` until a separate deliberate editorial launch approval. Never turn on indexing or describe unassigned custodians/reviewers as active just to pass a checklist. Maintain the Next Chapters milestone, and link a major published change to an actual merged revision commit once that SHA is known.
 
+## Biblical and archaeological evidence dossiers
+
+The eight object-level comparison guides are kept in `historical_evidence_content.py`, with section trails recorded in `data/section-evidence.json`, curated source records in `sources.json` and text-anchored review items in `data/claim-reviews.json`. New studies must distinguish the exact wording and genre of biblical passages from independent inscriptions, museum catalogues, archaeology or modern historical interpretation.
+
+Always identify the physical object accession, edition or named source when possible, and explain whether a claim concerns a depicted scene, a translated royal inscription, a biblical narrative or a proposed chronological reconstruction. If ancient texts differ, describe the difference rather than declaring the entire story historically proven on the strength of one parallel. Maintain qualified status until a named specialist reviewer has checked the precise passage and inscription. Do not use third-party object imagery without case-specific rights clearance.
+
 ## Source health and accessibility audits
 
 When adding or changing a source, retain its stable ID, publisher, type, actual consultation date and an HTTPS address that points to a genuinely public institutional resource. Do not automatically update the recorded `checked` date from a network probe. Review changes to an article's bibliography, section evidence, claim anchors and related routes at the same time.
