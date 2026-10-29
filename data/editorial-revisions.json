@@ -32,6 +32,44 @@
   ],
   "changes": [
     {
+      "id": "REV-0017",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Exile, resettlement and provincial life - primary source strengthening",
+      "summary": "Published twelve source-typed studies with seventeen biblical reading routes and thirteen distinct supporting reference identities across five research categories, plus seven new institutionally catalogued primary and academic records. Added one directly identified Samarian grain-tax letter SAA 1 220/P334789, preserved separate original royal records and museum visual objects, and gave specialist-only citation status to the Aramaean logistics and household letters SAA 19 17-18 and later Guzana name references SAA 16 63. Expanded the existing Assyrian exile dossier by seven substantial sections and Samaria by one, linked eight additional section reading trails and eight pending original claims to the source and evidence registers. The curated source library now has 131 maintained records; the awaiting-independent-review queue has 80 anchored claims.",
+      "impact": "Scripture remains primary evidence for biblical passages and stated destinations; ancient letters, royal inscriptions and reliefs are direct evidence only for their own claims and materials. Halah-Halahhu and Guzana/Habor interpretations remain historical geography, the Medes' provincial dates remain conditional reconstructions, and Aramaean letters or later Judah reliefs are not misattributed to Israelite deportee groups. Original-language collation, ancient population ancestry assertions, full Oxford chapter audit, real-device interactions, cartographic verification and named independent specialist review remain pending.",
+      "commit": "424e0db538d6dbca808ff795a14260291c0f4cc9",
+      "pr": 32,
+      "sections": [
+        "/exile-provinces/",
+        "/dossiers/",
+        "/articles/assyrian-deportations-texts/",
+        "/articles/samaria-assyrian-chronology/",
+        "/about/evidence/",
+        "/sources/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/exile-provinces.json",
+        "exile_provinces.py",
+        "exile_provinces_page.py",
+        "static/exile-provinces.css",
+        "static/exile-provinces.js",
+        "scripts/test_exile_provinces.py",
+        "historical_evidence_content.py",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "sources.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0016",
       "date": "2026-10-30",
       "kind": "feature-release",
