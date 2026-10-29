@@ -32,6 +32,33 @@
   ],
   "changes": [
     {
+      "id": "REV-0008",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Historical and biblical evidence dossier expansion",
+      "summary": "Eight new original Bible-primary historical dossiers with 40 source-mapped sections, six museum and inscription-corpus reference records, twelve text-anchored verification claims and a browseable research hub.",
+      "impact": "Scripture is primary for statements about the biblical account, while accessioned objects and royal inscriptions are separately labelled historical witnesses. These are curated research routes, not independent specialist approval or a verified line-by-line transcription of ancient documents.",
+      "commit": "96b944528f6fc98c883c681e7a83e742346279c4",
+      "pr": 18,
+      "sections": [
+        "/dossiers/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "historical_evidence_content.py",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "sources.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0007",
       "date": "2026-10-29",
       "kind": "feature-release",
