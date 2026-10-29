@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "curated_on": "2026-10-29",
-  "method": "This register anchors individual biblical and historical-source claims in published prose and maps the roles of direct and comparison evidence. Middle Assyrian normative texts and administrative data are studied as their own genres. Biblical references to earlier Asshur or later Assyrian kings remain the primary text for what Scripture reports, but are not asserted to be contemporaneous Middle Assyrian archival evidence. All records await qualified independent specialist review.",
+  "curated_on": "2026-10-30",
+  "method": "The anchored claim register distinguishes primary biblical statements, individual museum objects and scholarly edited cuneiform records. Individual Middle Assyrian texts are linked by collection, edition, CDLI identifier and specified lines; broad institutional sources serve as context, not substitute proof of damaged signs, personal identities or completed specialist translation. All claims remain awaiting documented independent specialist review.",
   "claims": [
     {
       "id": "CL-001",
@@ -948,6 +948,259 @@
         "tcma-corpus"
       ],
       "limitation": "A catalogue genre does not by itself establish whether a particular shipment arrived.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-042",
+      "article": "tablet-kaj-247-workers-temple",
+      "section": "Identify the surviving object",
+      "anchor": "The ATMAP/TCMA edition identifies KAJ 247 as CDLI P282259, collection VAT 08971, with excavation label Ass 144",
+      "claim": "KAJ 247 is CDLI P282259, VAT 08971, from Aššur's M 09 archive.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-247"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The receipt designation and worker vocabulary remain qualified in the consulted edition.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-043",
+      "article": "tablet-marv-10-07-footwear",
+      "section": "What the edition actually records",
+      "anchor": "The source edition describes one pair of palace-associated shoes under the charge of a named great steward, an",
+      "claim": "A Middle Assyrian palace footwear record names a recipient described as a hostage.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-marv-10-07"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The edition marks the campaign context as uncertain; it does not establish the person's later fate.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-044",
+      "article": "tablet-kaj-233-horse-barley",
+      "section": "Barley, a horse and a named recipient",
+      "anchor": "The edited obverse describes a barley quantity in traditional measures as a ration for a horse attached to a s",
+      "claim": "A single barley receipt connects a service horse and a named recipient.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-233"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "Ancient units and the recorded receipt do not establish the amount actually consumed or all horse provisioning.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-045",
+      "article": "tablet-marv-1-12-guard-rations",
+      "section": "Groups and an allocation period",
+      "anchor": "The edited text gives a barley distribution described for ten days and enumerates several separate sets of peo",
+      "claim": "The ration edition lists distinct sets of personnel guarding the inner city.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-marv-1-12"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The account's ten-day duration is not a modern annual nutritional survey.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-046",
+      "article": "tablet-kaj-144-lead-house",
+      "section": "Metal, obligations and property",
+      "anchor": "The edited beginning reports a substantial lead quantity, names parties associated with it and connects the ob",
+      "claim": "KAJ 144 links a quantity of lead with a house-related sale or obligation.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-144"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The receipt genre and damaged phrases remain uncertain and the legal result is not known.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-047",
+      "article": "tablet-billa-30-barley",
+      "section": "Provenance beyond the capital",
+      "anchor": "The ATMAP/TCMA edition of Billa 30 identifies CDLI P282711 and collection UM 33-58-133, from the Aššur-kašid a",
+      "claim": "The receipt Billa 30 comes from the Ashur-kashid archive at Tell Billa.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-billa-30"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "Some names and the obligation wording are broken or editorially uncertain.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-048",
+      "article": "tablet-kaj-118-straw",
+      "section": "Straw and official custody",
+      "anchor": "The edition's opening passage records forty sacks of straw associated with the palace and an institutional cha",
+      "claim": "The edited obverse records forty sacks of straw in palace custody.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-118"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "A recorded quantity does not prove actual delivery or a regional agricultural yield.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-049",
+      "article": "met-62-85-3-sealed-tablet",
+      "section": "The museum record's firm information",
+      "anchor": "The Metropolitan Museum identifies object 62.85.3 as a Middle Assyrian clay cuneiform administrative tablet im",
+      "claim": "The Met catalogues 62.85.3 as a Middle Assyrian tablet with two cylinder-seal impressions.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "met-62-85-3"
+      ],
+      "context_sources": [],
+      "limitation": "The catalogue does not provide a verified tablet transcription or exact findspot.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-050",
+      "article": "bm-21901-nineveh-chronicle-case",
+      "section": "A tablet with two historical dates",
+      "anchor": "The British Museum identifies this as tablet 21901, registration 1896,0409.6, a Babylonian Chronicle that narr",
+      "claim": "British Museum 21901 is a late copy of a chronicle narrating Nineveh's fall.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-chronicle"
+      ],
+      "context_sources": [
+        "bible-webbe"
+      ],
+      "limitation": "The surviving tablet dates later than the historical events it describes.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-051",
+      "article": "tablet-kaj-247-workers-temple",
+      "section": "Follow the line divisions",
+      "anchor": "The English edition associates the opening obverse with a group of twenty-two workers and an event interpreted",
+      "claim": "The published text refers to a group of workers in a temple-related account.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "tcma-kaj-247"
+      ],
+      "context_sources": [
+        "tcma-corpus"
+      ],
+      "limitation": "The precise worker term and event are uncertain; cannot infer voluntary participation.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-052",
+      "article": "met-62-85-3-sealed-tablet",
+      "section": "Image rights and archaeological limits",
+      "anchor": "The Met labels the object's digital image Public Domain under its Open Access framework.",
+      "claim": "The Met states that the object image is Public Domain.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "met-62-85-3"
+      ],
+      "context_sources": [],
+      "limitation": "Public-domain image status does not establish a scholarly Akkadian transcription.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-053",
+      "article": "bm-21901-nineveh-chronicle-case",
+      "section": "Read the Bible as a distinct witness",
+      "anchor": "Nahum 1:1 names Nineveh in a prophetic oracle, and Zephaniah 2:13-15 speaks of the destruction of the Assyrian",
+      "claim": "Nahum 1:1 introduces a prophetic account concerning Nineveh.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "bm-chronicle"
+      ],
+      "limitation": "A Babylonian military chronicle does not prove every prophetic image or theological claim.",
       "review": {
         "status": "awaiting-independent-review",
         "reviewer": null,
