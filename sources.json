@@ -1184,7 +1184,7 @@
     "publisher": "James F. Coakley / Gorgias Encyclopedic Dictionary of the Syriac Heritage, Beth Mardutho",
     "url": "https://gedsh.bethmardutho.org/Chaldeans",
     "type": "Independent specialist historical dictionary",
-    "access": "Explicitly distinguishes Chaldean Catholics from modern ethnic uses; records the name in the 1445 papal brief, later East Syriac Catholic adoption, nineteenth-century historical-descent advocacy, and debates over contemporary community terms. Scholar's analysis, not a church's authority on other people's ethnicity.",
+    "access": "Independent Syriac-studies reference: explicitly distinguishes (1) Chaldean Catholic church members and (2) later modern ethnic name applications; identifies the 1445 brief and nineteenth-century revival. The entry does NOT publish an ancient Kaldu-to-modern Catholic genealogy. The original papal document has not been collated here.",
     "checked": "2026-10-30"
   },
   {
@@ -1202,7 +1202,7 @@
     "publisher": "Yasmeen S. Hanoosh / I.B. Tauris, Bloomsbury Academic, Portland State University (2019)",
     "url": "https://pdxscholar.library.pdx.edu/wll_fac/134/",
     "type": "Academic ethnographic historical monograph",
-    "access": "University repository's book abstract identifies modern Aramaic-speaking Chaldean Catholics as distinct from ancient Chaldean tribes; dates the ecclesiastical adoption and studies how present-day identity developed. Full book unavailable via public record and not independently read in full.",
+    "access": "University-hosted abstract of a 2019 academic ethnographic book; distinguishes modern Aramaic-speaking East Syriac Catholics in northern Iraq from the ancient Mesopotamian namesake. Explains development of contemporary identity; does not demonstrate ancient Kaldu lineage. Full book unavailable outside institution and NOT independently examined.",
     "checked": "2026-10-30"
   },
   {
@@ -1211,7 +1211,7 @@
     "publisher": "Sargon G. Donabed / National Identities, Taylor & Francis (2012)",
     "url": "https://doi.org/10.1080/14608944.2012.733208",
     "type": "Peer-reviewed Assyrian-oriented identity interpretation",
-    "access": "Open article emphasises Assyrian cross-denominational heritage and quotes former Chaldean patriarch Raphael Bidawid's expression of Assyrian ethnicity and Chaldean confession; not a neutral census of all members or sole authoritative interpretation.",
+    "access": "Peer-reviewed Assyrian-oriented cross-denominational historical argument, National Identities 14(4), 407-431, DOI 10.1080/14608944.2012.733208 (corrected full version of original 14(2), 115-138). This advocates historical Assyrian continuity across church labels; does not itself document an individual genetic lineage.",
     "checked": "2026-10-30"
   },
   {
@@ -1220,7 +1220,7 @@
     "publisher": "Muhammad A. Dandamayev / Encyclopaedia Iranica (1991; updated 2013)",
     "url": "https://www.iranicaonline.org/articles/chaldeans-kaldu-west-semitic-tribes/",
     "type": "Independent specialist ancient history reference",
-    "access": "Ancient Kaldu were groups attested in southern Babylonia from the ninth century BCE, a separate historical category from the later Chaldean Catholic Church and present-day ethnic self-identification.",
+    "access": "Independent ancient-history entry on Kaldu tribes attested in southern Babylonia in ninth-century BCE royal records. Ancient referent only. Do not use as direct proof of the ancestry of present-day Chaldean Catholics.",
     "checked": "2026-10-30"
   },
   {
@@ -1239,6 +1239,15 @@
     "url": "https://www.christianitymiddleeast.gr.cemmis.edu.gr/resources/annotated-bibliography/227-minority-identities-before-and-after-iraq-the-making-of-the-modern-assyrian-and-chaldean-appellations",
     "type": "Academic article - independent scholarly abstract",
     "access": "Annotated bibliography identifies 2016 study tracing modern Assyrian and Chaldean naming and missionary encounters; linked listing only, not an audited full article. Distinguishes development over several centuries from simplistic late-1990s invention.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "wiley-payne-ancient-chaldaeans",
+    "title": "Chaldaeans (ancient southern Mesopotamian tribes)",
+    "publisher": "Elizabeth E. Payne / The Encyclopedia of Ancient History, Wiley (2016)",
+    "url": "https://doi.org/10.1002/9781444338386.wbeah30233",
+    "type": "Independent specialist ancient-history encyclopedia entry",
+    "access": "Public academic abstract distinguishes ancient Chaldaean tribes of southern Mesopotamia from any modern church designation; this is ancient-history reference evidence only, not an original ancient tablet or genealogical bridge. Full entry not independently consulted.",
     "checked": "2026-10-30"
   }
 ]
