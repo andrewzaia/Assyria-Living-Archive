@@ -32,6 +32,35 @@
   ],
   "changes": [
     {
+      "id": "REV-0009",
+      "date": "2026-10-29",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Middle Assyrian social history and everyday life",
+      "summary": "Nine new original research guides with 45 section-specific reading trails, ten specialist institutional and academic source records, fourteen anchored claims awaiting review, a social-history research hub and a provincial timeline entry.",
+      "impact": "Law codes remain normative rather than proof of universal actual practice. Administrative and archaeological archives describe selectively documented households and institutions. Biblical passages are used as separately dated primary texts for their own accounts, not as Middle Assyrian contemporary administrative records. No independent specialist sign-off, object-level line collation or permissions for third-party imagery is claimed.",
+      "commit": "456179efbdd856046bdc4ae7c052ed24e0897b83",
+      "pr": 20,
+      "sections": [
+        "/middle-assyrian/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/middle-assyrian-articles.json",
+        "middle_assyrian_content.py",
+        "middle_assyrian_page.py",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "sources.json",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0008",
       "date": "2026-10-29",
       "kind": "feature-release",
