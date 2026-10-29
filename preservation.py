@@ -33,7 +33,7 @@ def _safe_files(root):
         result[name] = path
     if not REQUIRED.issubset(result):
         raise ValueError("Mandatory preservation files missing: " + ", ".join(sorted(REQUIRED - result.keys())))
-    return result
+    return {name: result[name] for name in sorted(result)}
 
 
 def _digest(path):
