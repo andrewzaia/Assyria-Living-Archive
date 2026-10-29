@@ -32,6 +32,32 @@
   ],
   "changes": [
     {
+      "id": "REV-0021",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Middle Assyrian tile hover - theme and Explore style parity",
+      "summary": "Removed the fixed pale beige hover fill from all nine Middle Assyrian study tiles. Matching the existing Explore card behaviour, tiles now keep the theme-aware var(--white) surface and gently raise with the same subtle shadow on hover or keyboard focus-within, avoiding glaring light patches in dark mode. Preserved responsive layout, source summaries and full-tile article links. Added CSS equivalence, light/dark mode colour and nine-tile markup regression tests in the standard validation workflow, and updated the Middle Assyrian Next Chapters roadmap.",
+      "impact": "Improved light/dark visual consistency and keyboard focus behaviour on /middle-assyrian/. No evidence sources, scholarly text, biblical content or claim review statuses were changed. Root and GitHub Pages subpath CI builds passed before merging; automated styling checks are not a substitute for manual interaction and assistive technology evaluation.",
+      "commit": "25ce95135a3eac7577f112f4dfa9be92aeb29b56",
+      "pr": 36,
+      "sections": [
+        "/middle-assyrian/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "static/middle-assyrian.css",
+        "scripts/test_middle_assyrian_hover.py",
+        ".github/workflows/validate.yml",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0020",
       "date": "2026-10-30",
       "kind": "feature-release",
