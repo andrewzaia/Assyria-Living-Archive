@@ -32,6 +32,37 @@
   ],
   "changes": [
     {
+      "id": "REV-0013",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Ancient names and historical identity disambiguation",
+      "summary": "Published eight source-scoped person and place evidence dossiers with twelve checked citations to the existing accessioned-object concordance and biblical primary passages. Added a dedicated research room, site-wide and reciprocal navigation, an offline dossier dataset, negative source/approval regression tests, and root/subpath build validation.",
+      "impact": "A source relationship or similar name is not an independently proven historical identity. Biblical accounts remain primary for what Scripture states; object catalogues and original-language readings have different evidentiary roles. All identity dossiers remain awaiting qualified independent scholarly review, and no new unverified inscriptions or physical object attestations were invented.",
+      "commit": "565c483a533a0f3c613a013840fb2a95e88b4898",
+      "pr": 28,
+      "sections": [
+        "/identity-register/",
+        "/concordance/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/identity-cases.json",
+        "identity_register.py",
+        "identity_page.py",
+        "static/identity-register.css",
+        "scripts/test_identity_register.py",
+        "generate.py",
+        "navigation.py",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0012",
       "date": "2026-10-30",
       "kind": "feature-release",
