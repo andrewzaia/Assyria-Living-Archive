@@ -567,6 +567,23 @@ def main():
         errors.append('Missing or altered offline exile and resettlement source export')
     if not (OUT / 'dossiers/index.html').is_file() or '/exile-provinces/' not in (OUT / 'dossiers/index.html').read_text(encoding='utf-8'):
         errors.append('Dossier reading room missing new exile research link')
+    # The dedicated identity guide must be discoverable in the rendered site,
+    # have first-party/independent sources clearly distinguished, and remain
+    # linked from every existing central church / identity article.
+    guide_path = OUT / 'articles/chaldean-name-and-heritage/index.html'
+    if not guide_path.is_file():
+        errors.append('Missing Chaldean name and Assyrian heritage research guide')
+    else:
+        guide_text = guide_path.read_text(encoding='utf-8')
+        if not all(term in guide_text for term in (
+                'Ancient Chaldeans in Babylonia', 'Assyrian heritage transcends',
+                'gedsh-chaldeans', 'donabed-2012-appellative',
+                'hanoosh-2019-chaldean-identity')):
+            errors.append('Chaldean source-critical guide omits evidence distinctions')
+    for slug in ('assyrian-identity', 'faith-and-churches', 'chaldean-church'):
+        guide_parent = OUT / 'articles' / slug / 'index.html'
+        if not guide_parent.is_file() or '/articles/chaldean-name-and-heritage/' not in guide_parent.read_text(encoding='utf-8'):
+            errors.append('Missing reciprocal source-critical identity reading route from ' + slug)
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
