@@ -32,6 +32,42 @@
   ],
   "changes": [
     {
+      "id": "REV-0018",
+      "date": "2026-10-30",
+      "kind": "editorial-source-review",
+      "status": "merged",
+      "title": "Chaldean Catholic church designation and shared Assyrian heritage: independent identity sources",
+      "summary": "Substantially expanded the Assyrian identity, Syriac church traditions and Chaldean Catholic Church essays; added a ten-section source-critical guide distinguishing church communion from ancient ethnic descent, ancient Babylonian Kaldu, nineteenth-century ethnic naming debates, Assyrian cross-denominational heritage and present-day self-identification. Added seven independently attributed scholarly, ancient-history and institutional references bringing curated sources to 138. Explicitly labelled Chaldean diocesan and CNEWA material as church institutional testimony, not independent ethnicity evidence. Maintained 29 mapped sections across four identity essays, bringing total section reading trails to 376, and added eight anchored, pending expert-review claims CL-081 to CL-088 bringing the claim register to 88. Linked guide from Explore's balanced columns and added source-provenance regression tests.",
+      "impact": "Chaldean Catholic is firmly identified as a church affiliation; that affiliation is not proof of an ancient ethnicity or separate language. The article records that modern ethnic self-identification and scholarly disagreement also exist, and does not assert anachronistic late-1990s invention, unbroken descent from ancient Kaldu or unsupported malevolent motives. Independent evidence types and incomplete journal/book access are disclosed, and no named independent specialist review has occurred.",
+      "commit": "0703307fc5a8f4cab13cd4ef6464acafb09643bf",
+      "pr": 33,
+      "sections": [
+        "/articles/chaldean-name-and-heritage/",
+        "/articles/chaldean-church/",
+        "/articles/assyrian-identity/",
+        "/articles/faith-and-churches/",
+        "/sources/",
+        "/about/evidence/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "content.py",
+        "sources.json",
+        "data/section-evidence.json",
+        "data/claim-reviews.json",
+        "navigation.py",
+        "scripts/test_chaldean_identity.py",
+        "scripts/test_navigation.py",
+        "scripts/validate.py",
+        "data/project-roadmap.json"
+      ]
+    },
+    {
       "id": "REV-0017",
       "date": "2026-10-30",
       "kind": "feature-release",
