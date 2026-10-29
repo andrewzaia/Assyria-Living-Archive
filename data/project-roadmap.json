@@ -56,7 +56,14 @@
       "title": "Ancient text concordance and cross-reference index",
       "status": "in-progress",
       "delivered": "Published a locally compiled, search-and-filter accessible concordance of 25 manually curated people, place, materials, institutions and text-method entries. It includes 32 documented object-level or edition-specific cross-references, 43 reading routes into existing encyclopaedia chapters, and 11 Bible comparison routes with deliberate genre/period separation. Edited text references deep-link directly to unique quotation-line IDs; object-only catalogue evidence is kept distinct. Reciprocal links appear on relevant editorial article pages, and an offline JSON export, regression tests, accessible search controls, main navigation links and live deployment checks are implemented. No extra original article or external source records are claimed.",
-      "next": "Expand only with source-checked term identifications and cautious treatment of variant Akkadian/Syriac spellings; add specialist-reviewed person and place disambiguation rather than automatic same-name merging. Build evidence-grade cross-period maps and timelines only where identified sources support the connection. Commission named independent Assyriological and biblical review, and test keyboard, screen reader, zoom and search interaction on real devices."
+      "next": "Use the new evidence-limited name and identity register to guide source-checked editorial links. Extend term coverage only after independent specialists verify original names and disambiguation evidence."
+    },
+    {
+      "id": "name-disambiguation",
+      "title": "Ancient names and historical identity disambiguation",
+      "status": "in-progress",
+      "delivered": "Published eight individual name and place dossiers with twelve source-scoped object and biblical reading routes. Each records exact concordance anchors, name forms, what its current evidence does and does not establish, and checks needed before any historical identity claim. Added a public page and JSON export, Research navigation and concordance links, reusable validation and regression tests. The records are editorial, not independently specialist-reviewed, and they add no invented cuneiform signs, original manuscripts or new archaeological identities.",
+      "next": "Commission Assyriological and biblical specialist review of original-language names, surviving editions, physical objects, chronology and location evidence. Require exact new accession or inscription line references and recorded reviewer assessment before asserting same-person or same-place identifications."
     },
     {
       "id": "atlas",

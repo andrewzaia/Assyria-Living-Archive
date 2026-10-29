@@ -22,6 +22,7 @@ NAV_GROUPS = (
         ('Individual tablet case files', '/case-files/', 'Accessioned objects, editions and archive provenance'),
         ('Text and translation comparisons', '/text-comparisons/', 'Cuneiform signs, editorial readings and uncertainties'),
         ('Ancient text concordance', '/concordance/', 'Cross-reference people, places, materials and Scripture'),
+        ('Identity and name register', '/identity-register/', 'Case-by-case evidence limits for names and places'),
         ('Evidence register', '/about/evidence/', 'Sources linked to editorial guides'),
         ('Source and accessibility audit', '/audit/', 'Citation health, accessibility checks and limitations'),
         ('Editorial governance', '/governance/', 'Corrections, review standards and recorded revisions'),
