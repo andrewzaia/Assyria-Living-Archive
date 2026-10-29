@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "curated_on": "2026-10-29",
-  "method": "These text-anchored records are an editorial verification queue. Scripture passages establish what the cited biblical text reports; institutional material and corpora supply separately identified evidence or context. Source mapping is not scholarly fact-checking or agreement between sources. All initial records await independent specialist review.",
+  "method": "These text-anchored claims identify specific wording and evidence roles for individual historical and biblical propositions. Scripture is the primary record of what biblical passages state; accessioned objects, royal inscriptions and museum interpretation are independently attributed. The initial records, including the new object-level comparison claims, await external specialist review. A linked institution or a successful technical build is not a completed fact-check.",
   "claims": [
     {
       "id": "CL-001",
@@ -362,6 +362,277 @@
       ],
       "context_sources": [],
       "limitation": "The museum object record establishes the attributed object and catalogue context, not a comprehensive reconstruction of Old Assyrian commerce.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-016",
+      "article": "black-obelisk-jehu",
+      "section": "A monument with a precise identity",
+      "anchor": "The British Museum identifies it with inventory number 1848,1104.1",
+      "claim": "The Black Obelisk is a Shalmaneser III royal monument catalogued as 1848,1104.1.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-black-obelisk"
+      ],
+      "context_sources": [
+        "oracc-shalmaneser"
+      ],
+      "limitation": "The museum's catalogue context establishes the object identification, not all the military events claimed in the royal inscriptions.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-017",
+      "article": "black-obelisk-jehu",
+      "section": "The name Jehu and the House of Omri",
+      "anchor": "The second register names Jehu in connection with tribute from Israel",
+      "claim": "The monument associates Jehu of Israel with tribute and the Assyrian designation House of Omri.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-black-obelisk"
+      ],
+      "context_sources": [
+        "aebp-israel"
+      ],
+      "limitation": "Assyrian dynastic geography is not evidence of Jehu's biological parentage or a complete chronology of his accession.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-018",
+      "article": "black-obelisk-jehu",
+      "section": "Begin with the biblical accession",
+      "anchor": "2 Kings 9:1-13 recounts the anointing of Jehu",
+      "claim": "2 Kings 9:1-13 reports the anointing and proclamation of Jehu.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          9,
+          1,
+          13
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "bm-black-obelisk"
+      ],
+      "limitation": "The Obelisk supplies independent testimony about tribute, not the prophetic commission of 2 Kings.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-019",
+      "article": "sennacherib-prism-hezekiah",
+      "section": "The object and the composition",
+      "anchor": "The British Museum catalogues the Taylor Prism as object 91032",
+      "claim": "The British Museum catalogues the Taylor Prism under object number 91032.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-taylor-prism"
+      ],
+      "context_sources": [
+        "imj-sennacherib-prism"
+      ],
+      "limitation": "The accession identifies an object, not the entire chronology of the narrated Judah campaign.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-020",
+      "article": "sennacherib-prism-hezekiah",
+      "section": "What the Assyrian annals claim",
+      "anchor": "the inscription does not explicitly describe a siege of Jerusalem",
+      "claim": "The Israel Museum notes that the Assyrian prism does not explicitly describe a siege of Jerusalem.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "imj-sennacherib-prism"
+      ],
+      "context_sources": [
+        "bm-taylor-prism"
+      ],
+      "limitation": "An omission is not positive proof that Jerusalem experienced no threat; the biblical account uses a different genre and perspective.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-021",
+      "article": "lachish-reliefs-context",
+      "section": "An archaeological sequence, not a photograph",
+      "anchor": "Panel 124904 represents the beginning of the assault on Lachish",
+      "claim": "British Museum panel 124904 depicts the beginning of the Assyrian assault on Lachish.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-lachish-panel"
+      ],
+      "context_sources": [],
+      "limitation": "The panel is palace propaganda and not a neutral photograph or exact operational reconstruction.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-022",
+      "article": "lachish-reliefs-context",
+      "section": "Prisoners and the city after assault",
+      "anchor": "British Museum panel 124908 depicts prisoners, carried goods",
+      "claim": "British Museum panel 124908 depicts Lachish prisoners and transported goods.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-lachish-deportees"
+      ],
+      "context_sources": [],
+      "limitation": "Royal reliefs do not record every captive's identity or experience.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-023",
+      "article": "sargon-ashdod-isaiah",
+      "section": "The named king in Scripture",
+      "anchor": "Isaiah 20:1 names Sargon king of Assyria",
+      "claim": "Isaiah 20:1 explicitly names Sargon as king of Assyria in the account of Ashdod.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "rinap-sargon-corpus"
+      ],
+      "limitation": "Royal Annals form a separate witness; specialist alignment of individual inscription lines remains pending.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-024",
+      "article": "samaria-assyrian-chronology",
+      "section": "Two biblical vantage points",
+      "anchor": "2 Kings 17:3-6 names Shalmaneser king of Assyria",
+      "claim": "2 Kings 17:3-6 reports Shalmaneser and the events leading to Samaria's fall and deportation.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "aebp-shalmaneser-v"
+      ],
+      "limitation": "This does not by itself settle the disputed relationship between Shalmaneser V and Sargon II's reign.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-025",
+      "article": "assyrian-deportations-texts",
+      "section": "Israel and the east of the Jordan",
+      "anchor": "2 Kings 15:29 reports Tiglath-pileser taking northern places",
+      "claim": "2 Kings 15:29 reports an Assyrian campaign and removal of northern populations.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "rinap-tiglath-corpus"
+      ],
+      "limitation": "One verse is not a complete list of deportees or their later settlement experience.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-026",
+      "article": "babylonian-chronicle-nineveh",
+      "section": "Identify the tablet, not just the date",
+      "anchor": "The British Museum catalogues tablet 21901, accession 1896,0409.6",
+      "claim": "British Museum 21901 (1896,0409.6) is a Babylonian Chronicle whose surviving copy postdates 612 BCE.",
+      "kind": "historical-record",
+      "passages": [],
+      "evidence_sources": [
+        "bm-chronicle"
+      ],
+      "context_sources": [],
+      "limitation": "Object dating and date of the narrated fall of Nineveh differ; no inscription-line comparison has been independently reviewed.",
+      "review": {
+        "status": "awaiting-independent-review",
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "id": "CL-027",
+      "article": "babylonian-chronicle-nineveh",
+      "section": "Nahum names Nineveh",
+      "anchor": "Nahum 1:1 introduces an oracle concerning Nineveh",
+      "claim": "Nahum 1:1 names an oracle concerning Nineveh.",
+      "kind": "biblical-text",
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ]
+      ],
+      "evidence_sources": [],
+      "context_sources": [
+        "bm-chronicle"
+      ],
+      "limitation": "The prophetic oracle and Babylonian chronicle are different genres, and corroborating the date is not proof of every poetic image.",
       "review": {
         "status": "awaiting-independent-review",
         "reviewer": null,
