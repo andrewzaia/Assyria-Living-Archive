@@ -31,7 +31,49 @@
   $('#clear-saved')?.addEventListener('click',()=>{saved=[];storeSaved();syncSaved();renderReading();notify('Reading list cleared');});
   syncSaved();renderReading();
   window.addEventListener('storage',e=>{if(e.key===KEY){try{const v=JSON.parse(e.newValue||'[]');saved=Array.isArray(v)?v.filter(x=>typeof x==='string'):[];syncSaved();renderReading();}catch{}}});
-  const menu=$('.menu-toggle');menu?.addEventListener('click',()=>{const nav=$('.mobile-nav');nav.hidden=!nav.hidden;menu.setAttribute('aria-expanded',String(!nav.hidden));menu.setAttribute('aria-label',nav.hidden?'Open navigation':'Close navigation');});
+  const menu=$('.menu-toggle');
+  const mobileMenu=$('#mobile-site-nav');
+  const navGroups=$('details.nav-group');
+  const closeMobile=()=>{
+    if(!mobileMenu || mobileMenu.hidden) return;
+    mobileMenu.hidden=true;
+    menu?.setAttribute('aria-expanded','false');
+    menu?.setAttribute('aria-label','Open navigation');
+  };
+  menu?.addEventListener('click',()=>{
+    if(!mobileMenu) return;
+    mobileMenu.hidden=!mobileMenu.hidden;
+    const open=!mobileMenu.hidden;
+    menu.setAttribute('aria-expanded',String(open));
+    menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');
+    if(!open) navGroups.forEach(group=>{group.open=false;});
+  });
+  navGroups.forEach(group=>group.addEventListener('toggle',()=>{
+    if(group.open) navGroups.forEach(other=>{if(other!==group) other.open=false;});
+  }));
+  document.addEventListener('pointerdown',event=>{
+    if(!event.target.closest('.nav-group')) navGroups.forEach(group=>{group.open=false;});
+    if(!event.target.closest('.site-header')) closeMobile();
+  });
+  document.addEventListener('keydown',event=>{
+    if(event.key!=='Escape') return;
+    const opened=navGroups.find(group=>group.open);
+    if(opened){
+      opened.open=false;
+      opened.querySelector('summary')?.focus();
+      event.preventDefault();
+    }else if(mobileMenu && !mobileMenu.hidden){
+      closeMobile();
+      menu?.focus();
+      event.preventDefault();
+    }
+  });
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth>800){
+      closeMobile();
+      navGroups.forEach(group=>{group.open=false;});
+    }
+  });
 
   const dialog=$('#search-dialog');let searchVersion=0;
   const searchGlobal=async()=>{
