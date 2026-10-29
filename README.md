@@ -2,7 +2,7 @@
 
 An independent reference website for Assyrian history, language, culture, faith, places and diaspora communities.
 
-The foundation edition contains 40 introductory articles, 51 source records, six topic collections and a selected timeline. Search, filters, saved reading lists and contribution-draft downloads work in the browser. There is no database, account service or submission backend.
+The foundation edition contains 40 introductory articles, 51 source records, six topic collections and a selected timeline. Search, filters and saved reading lists work in the browser. Contributions can be downloaded locally or sent privately through a Cloudflare Worker, which emails the editor a Markdown attachment. The site has no database or account service.
 
 ## Quick start
 
@@ -90,7 +90,7 @@ The validator checks article/source relationships, unique slugs and IDs, local n
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the article schema and evidence requirements. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for image and font attribution. No general open source licence has been selected for the original project files.
 
-The articles are sourced introductions and have not received specialist peer review. Some references are public book descriptions with variable full-text access. Reading-list data remains in the visitor's browser. Contribution drafts are downloaded locally and are not submitted.
+The articles are sourced introductions and have not received specialist peer review. Some references are public book descriptions with variable full-text access. Reading-list data remains in the visitor's browser. Contribution drafts can be downloaded locally or sent to the editor via the protected Cloudflare Worker. The attached Markdown draft contains only the information entered by the contributor.
 
 ## Interactive historical atlas
 
@@ -111,3 +111,22 @@ The complete public-domain World English Bible British Edition with Deuterocanon
 The second encyclopaedia expansion is measured against `data/encyclopaedia-round-two-baseline.json`. Article words exclude the Bible reader, retained Bible books and interface copy; retained reference notes and bibliography are included. `/about/expansion/` and `/encyclopaedia-growth.json` show comparable counts and the counting limits. `/glossary/` links short definitions to longer sourced entries.
 
 The active reference manifest is `archive/encyclopaedia-references.json`, falling back to the original manifest when absent. Original API responses are preserved losslessly in deterministic gzip files, with checksums for both compressed and original bytes. The older source edition remains in Git history and its original files remain retained. Preserved external references are labelled as such, including shared regional context. Their inclusion does not imply independent scholarly review or an Assyrian identity for every subject. The acquisition tool never runs during ordinary builds.
+
+
+## Private contribution delivery
+
+The static GitHub Pages site calls the standalone Cloudflare Worker in `worker/src/index.mjs` at `https://assyria-archive-contributions.andrew-zaia.workers.dev/submit`.
+Turnstile verifies submissions before the Worker sends a private email with a Markdown attachment using Cloudflare Email Service.
+The public site contains only the Turnstile site key and Worker endpoint. The recipient address and secrets must never appear in the repo or site assets.
+
+Before enabling live email delivery, set these three **encrypted Worker secrets** in Cloudflare > Workers & Pages > assyria-archive-contributions > Settings > Variables and Secrets:
+
+- `CONTRIBUTION_INBOX`: a verified destination address belonging to the project editor.
+- `CONTRIBUTION_FROM`: a sender address on a domain onboarded to Cloudflare Email Sending.
+- `TURNSTILE_SECRET`: the private secret for the widget named Assyria Living Archive - Contributions.
+
+The Worker requires the `EMAIL` sending binding defined in `worker/wrangler.jsonc`. The website is still hosted independently on GitHub Pages. The current allowed origin is `https://andrewzaia.github.io`; keep Worker origin and Turnstile hostname settings aligned when changing domains.
+
+The endpoint limits input size, checks the Turnstile token, hostname and action, and never returns the editor address. It provides generic failures without logging submitted text or contributor contact information. The separate download button always allows the visitor to save a local draft without sending it.
+
+Run `node --test worker/tests/*.test.mjs` to test the Worker. Once the secrets are set, use a real browser submission to verify email delivery and the attached Markdown file. Production email delivery is not verified merely because tests pass. Review and consent are required before anything is published.
