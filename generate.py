@@ -28,6 +28,8 @@ from royal_witnesses import DATA as ROYAL_DATA, validate as validate_royal, buil
 from royal_witnesses_page import render as render_royal
 from samaria_succession import DATA as SAMARIA_DATA, validate as validate_samaria, build_view as build_samaria_view, article_links as samaria_article_links
 from samaria_succession_page import render as render_samaria
+from exile_provinces import DATA as EXILE_DATA, validate as validate_exile, build_view as build_exile_view, article_links as exile_article_links
+from exile_provinces_page import render as render_exile
 from preservation import create_manifest
 from growth_report import measure as measure_growth, render as render_growth
 from evidence_report import build as build_evidence, render as render_evidence
@@ -52,6 +54,8 @@ ROYAL_COUNTS = validate_royal(SOURCES, EDITORIAL_ARTICLES)
 ROYAL_VIEW = build_royal_view(SOURCES)
 SAMARIA_COUNTS = validate_samaria(SOURCES, EDITORIAL_ARTICLES)
 SAMARIA_VIEW = build_samaria_view(SOURCES)
+EXILE_COUNTS = validate_exile(SOURCES, EDITORIAL_ARTICLES)
+EXILE_VIEW = build_exile_view(SOURCES)
 EVIDENCE = build_evidence(EDITORIAL_ARTICLES, REFERENCES, SOURCES)
 SM = {s['id']:s for s in SOURCES}
 AM = {a['slug']:a for a in ARTICLES}
@@ -177,6 +181,7 @@ def articles():
         concordance_related = concordance_article_links(a['slug'])
         royal_related = royal_article_links(a['slug'])
         samaria_related = samaria_article_links(a['slug'])
+        exile_related = exile_article_links(a['slug'])
         compiled_date = '30 October 2026' if (case_record or a['slug'] == 'reading-cuneiform-transliteration') else '26 October 2026'
         # Section trails are explicit and partial. The other sources remain article-level.
         citations=''.join(f'<a href="#source-{s}" class="citation" aria-label="Source {n}">[{n}]</a>' for s,n in refs.items())
@@ -189,7 +194,7 @@ def articles():
         note=f'<aside class="article-note">{icon("book")}<p>{H(a["note"])}</p></aside>' if a.get('note') else ''
         visual=f'<figure class="article-visual"><img src="/assets/{a["image"]}.webp" alt="{H(image_alt(a["image"]))}" fetchpriority="high"><figcaption>{credit(a["image"])}</figcaption></figure>' if a.get('image') else ''
         related=''.join(card(AM[s]) for s in a['related'])
-        main=f'''<main id="main"><div class="wrap article-header"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/explore/">Explore</a><span>/</span><span>{H(a['category'])}</span></nav><span class="eyebrow">{H(a['category'])}</span><h1>{H(a['title'])}</h1><p class="article-deck">{H(a['summary'])}</p><div class="article-info">{badge('Sourced introduction')}<span>{minutes(a)} min read</span><span>Compiled {compiled_date}</span><button class="save text-action" data-save="{a['slug']}" aria-pressed="false">{icon('save')} <span>Save article</span></button><button class="copy-link text-action">{icon('copy')} Copy link</button></div></div><div class="wrap article-layout"><aside class="article-toc"><span class="eyebrow">In this article</span>{toc}<a href="#article-sources">Sources & further reading</a><a href="#related">Continue exploring</a></aside><article class="article-body">{visual}{note}{object_metadata}{text_comparison_panel}{passage_panel(a)}{body}{concordance_related}{royal_related}{samaria_related}<div class="evidence-line"><span class="eyebrow">Evidence trail</span><p>This introduction draws on the following sources: {citations}. Section reading trails highlight selected references where a more precise relationship has been recorded. Unmapped passages and other references remain at article level; these trails are not a sentence-by-sentence verification. Editorial guidance is identified in the text.</p></div><section id="article-sources" class="article-sources"><span class="eyebrow">Go to the evidence</span><h2>Sources & further reading</h2><ul class="source-list">{''.join(source_item(SM[s],refs[s]) for s in a['sources'])}</ul></section><div class="article-review"><h3>A foundation to build on</h3><p>This introduction was compiled from the linked sources and has not received specialist peer review. It is intended as a route into further research. <a href="/governance/">Read how corrections and reviews are handled.</a></p><a href="/contribute/?type=correction&amp;article={a['slug']}">Prepare a correction or contribution {icon('arrow')}</a></div></article></div><section id="related" class="wrap section"><div class="section-top"><div><span class="eyebrow">A connected story</span><h2>Continue exploring.</h2></div></div><div class="article-grid">{related}</div></section></main>'''
+        main=f'''<main id="main"><div class="wrap article-header"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/explore/">Explore</a><span>/</span><span>{H(a['category'])}</span></nav><span class="eyebrow">{H(a['category'])}</span><h1>{H(a['title'])}</h1><p class="article-deck">{H(a['summary'])}</p><div class="article-info">{badge('Sourced introduction')}<span>{minutes(a)} min read</span><span>Compiled {compiled_date}</span><button class="save text-action" data-save="{a['slug']}" aria-pressed="false">{icon('save')} <span>Save article</span></button><button class="copy-link text-action">{icon('copy')} Copy link</button></div></div><div class="wrap article-layout"><aside class="article-toc"><span class="eyebrow">In this article</span>{toc}<a href="#article-sources">Sources & further reading</a><a href="#related">Continue exploring</a></aside><article class="article-body">{visual}{note}{object_metadata}{text_comparison_panel}{passage_panel(a)}{body}{concordance_related}{royal_related}{samaria_related}{exile_related}<div class="evidence-line"><span class="eyebrow">Evidence trail</span><p>This introduction draws on the following sources: {citations}. Section reading trails highlight selected references where a more precise relationship has been recorded. Unmapped passages and other references remain at article level; these trails are not a sentence-by-sentence verification. Editorial guidance is identified in the text.</p></div><section id="article-sources" class="article-sources"><span class="eyebrow">Go to the evidence</span><h2>Sources & further reading</h2><ul class="source-list">{''.join(source_item(SM[s],refs[s]) for s in a['sources'])}</ul></section><div class="article-review"><h3>A foundation to build on</h3><p>This introduction was compiled from the linked sources and has not received specialist peer review. It is intended as a route into further research. <a href="/governance/">Read how corrections and reviews are handled.</a></p><a href="/contribute/?type=correction&amp;article={a['slug']}">Prepare a correction or contribution {icon('arrow')}</a></div></article></div><section id="related" class="wrap section"><div class="section-top"><div><span class="eyebrow">A connected story</span><h2>Continue exploring.</h2></div></div><div class="article-grid">{related}</div></section></main>'''
         publication_date='2026-10-30' if (case_record or a['slug'] == 'reading-cuneiform-transliteration') else '2026-10-26'
         structured={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['summary'],'inLanguage':'en-AU','datePublished':publication_date,'dateModified':publication_date,'citation':[SM[s]['url'] for s in a['sources']]}
         if case_record:
@@ -205,6 +210,8 @@ def articles():
             extra += '<link rel="stylesheet" href="/royal-witnesses.css">'
         if samaria_related:
             extra += '<link rel="stylesheet" href="/samaria-succession.css">'
+        if exile_related:
+            extra += '<link rel="stylesheet" href="/exile-provinces.css">'
         write(link(a['slug'])+'index.html',shell(a['title'],a['summary'],link(a['slug']),main,'',extra))
 
 def reference_page(a):
@@ -265,6 +272,7 @@ if __name__=='__main__':
     write('/identity-cases.json',json.dumps(IDENTITY_DATA,ensure_ascii=False,indent=2)+'\n')
     write('/royal-witnesses.json',json.dumps(ROYAL_DATA,ensure_ascii=False,indent=2)+'\n')
     write('/samaria-succession.json',json.dumps(SAMARIA_DATA,ensure_ascii=False,indent=2)+'\n')
+    write('/exile-provinces.json',json.dumps(EXILE_DATA,ensure_ascii=False,indent=2)+'\n')
     write('/source-integrity-index.json',json.dumps(SOURCE_AUDIT,ensure_ascii=False,indent=2)+'\n')
     write('/about/evidence/index.html',shell('Evidence register','Source relationships and outstanding review limitations for the editorial encyclopaedia.','/about/evidence/',render_evidence(heading,H,EVIDENCE),extra='<link rel="stylesheet" href="/claim.css">'))
     validate_passages(EDITORIAL_ARTICLES)
@@ -286,6 +294,7 @@ if __name__=='__main__':
     write('/identity-register/index.html',shell('Name and identity evidence register','Eight source-scoped name and place cases with documented object and Scripture routes, uncertainties and pending specialist review.','/identity-register/',render_identity(heading, IDENTITY_VIEW, IDENTITY_COUNTS),'identity-register','<link rel="stylesheet" href="/identity-register.css">'))
     write('/royal-witnesses/index.html',shell('Royal inscriptions and biblical evidence','Six original source-scoped comparisons of named Assyrian royal inscriptions, a museum relief and biblical accounts.','/royal-witnesses/',render_royal(heading, ROYAL_VIEW, ROYAL_COUNTS),'royal-witnesses','<link rel="stylesheet" href="/royal-witnesses.css">'))
     write('/samaria-succession/index.html',shell('Fall of Samaria and Assyrian succession','Eight source-scoped biblical and Assyrian comparisons tracing Menahem, Pekah, Hoshea, Shalmaneser V and Sargon II.','/samaria-succession/',render_samaria(heading, SAMARIA_DATA['stages'], SAMARIA_VIEW, SAMARIA_COUNTS, SAMARIA_DATA['chronology_note']),'samaria-succession','<link rel="stylesheet" href="/samaria-succession.css"><script defer src="/samaria-succession.js"></script>'))
+    write('/exile-provinces/index.html',shell('Exile, resettlement and Assyrian provincial life','Twelve source-typed studies with original Assyrian tax correspondence, biblical exile passages, museum objects and archaeological limits.','/exile-provinces/',render_exile(heading, EXILE_DATA['categories'], EXILE_VIEW, EXILE_COUNTS, EXILE_DATA['scope_note']),'exile-provinces','<link rel="stylesheet" href="/exile-provinces.css"><script defer src="/exile-provinces.js"></script>'))
     bible_paths = make_bible_pages(write, shell, heading, card, EDITORIAL_ARTICLES)
     write('/map/index.html', shell('Interactive historical map', 'Explore the growth and contraction of ancient Assyria with eleven dated map sketches, a draggable timeline and locally preserved geographical data.', '/map/', render_atlas(), 'map', '<link rel="stylesheet" href="/map.css"><script defer src="/map.js"></script>'))
     payload={'edition':'Research and preservation edition 01','compiled':'2026-10-26','articles':[{k:v for k,v in a.items() if k not in ('html','record','headings')} for a in ARTICLES],'sources':SOURCES,'topics':CATS}
@@ -294,7 +303,7 @@ if __name__=='__main__':
     robots_text = 'User-agent: *\nAllow: /\n' if ALLOW_INDEXING else 'User-agent: *\nDisallow: /\n'
     if ALLOW_INDEXING:
         from xml.sax.saxutils import escape as xml_escape
-        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/identity-register/', '/royal-witnesses/', '/samaria-succession/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
+        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/identity-register/', '/royal-witnesses/', '/samaria-succession/', '/exile-provinces/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
         sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         sitemap += ''.join('<url><loc>' + xml_escape(public_url(path)) + '</loc></url>' for path in pages)
         write('/sitemap.xml', sitemap + '</urlset>\n')
