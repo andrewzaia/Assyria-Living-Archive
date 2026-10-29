@@ -627,3 +627,22 @@ for _article in ARTICLES:
     for _slug in _LANGUAGE_READING_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+# Connect existing introductions to the public heritage methods and independent source examples.
+_HERITAGE_READING_ROUTES = {
+    'oral-history': ['oral-history-interview-method', 'heritage-consent-and-access', 'migration-memory-research'],
+    'australia': ['migration-memory-research', 'assyria-community-broadcasts'],
+    'diaspora': ['migration-memory-research'],
+    'heritage-stewardship': ['heritage-consent-and-access', 'heritage-objects-and-practices'],
+    'nineveh-plain': ['assyrian-village-histories'],
+    'tur-abdin': ['assyrian-village-histories'],
+    'music': ['assyria-community-broadcasts'],
+    'dance': ['heritage-objects-and-practices'],
+    'kileche': ['heritage-objects-and-practices'],
+    'akitu': ['assyria-community-broadcasts'],
+    'assyrian-australian-association': ['migration-memory-research'],
+}
+for _article in ARTICLES:
+    for _slug in _HERITAGE_READING_ROUTES.get(_article['slug'], []):
+        if _slug not in _article['related']:
+            _article['related'].append(_slug)
