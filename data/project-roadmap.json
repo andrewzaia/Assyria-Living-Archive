@@ -49,7 +49,7 @@
       "title": "Historical claim verification",
       "status": "in-progress",
       "delivered": "Initial 15 text-anchored claim records with direct passages, source roles, qualifications and an independent-review queue.",
-      "next": "Check precise inscription and tablet identifiers, compare royal texts with biblical passages and document named specialist review. Newly added historical articles are section-mapped, not claim-level peer reviewed."
+      "next": "Continue precise inscription comparisons and documented reviewer-scope decisions. New governance rules forbid completed independent-review claims without a named reviewer, date and assessment."
     },
     {
       "id": "language",
@@ -70,14 +70,14 @@
       "title": "Secure contribution delivery",
       "status": "on-hold",
       "delivered": "Dormant backend is retained and public contributions remain download-only.",
-      "next": "Secure authorisation for a delivery workflow with encrypted storage and reviewer-only access before accepting any private testimony. Public heritage examples and Markdown drafts must remain link-only or local until that is approved."
+      "next": "Do not imply a working private corrections inbox or media-intake workflow. Authorise a protected, staffed delivery service before taking personal reports, promising responses or storing consent records."
     },
     {
       "id": "governance",
       "title": "Editorial governance and revision history",
-      "status": "planned",
-      "delivered": "Contributor guidance and deterministic metadata validation exist. The public heritage index now enforces source attribution, article relationships and external-reference-only publication; separate blank planning worksheets describe narrator review, access and rights questions.",
-      "next": "Define named editors, secure custody, contributor consent records, correction and access-restriction requests, release review, moderation and multilingual revision provenance before accepting real interviews."
+      "status": "in-progress",
+      "delivered": "Published a public editorial governance and revision room, correction/clarification/withdrawal policy, defined role disclosures, two blank release and correction planning documents, and a validated register of four earlier major milestones with their actual merged commits and pull request links. No independent reviewers have been assigned or claimed, and no confirmed public correction notices have been fabricated. Existing article and local correction-draft flows now link to the policy.",
+      "next": "Appoint qualified subject editors and documented independent reviewers, create secure private correction intake and tracked moderation, and record genuine dated public correction or withdrawal notices and multilingual revisions when required. The curated ledger must follow subsequent substantive merged changes; CI does not imply specialist review."
     },
     {
       "id": "publication",
