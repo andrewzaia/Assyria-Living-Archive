@@ -107,7 +107,7 @@ def render_lines(case, include_heading=True):
             '<thead><tr><th scope="col">Edition line</th><th scope="col">Transliteration excerpt</th>' +
             '<th scope="col">English reading cue</th><th scope="col">Interpretation and uncertainty</th></tr></thead><tbody>' +
             _line_rows(entry) + '</tbody></table></div>' +
-            '<p class="compare-attribution">Source: ' + H(entry["edition_credit"]) + '. ' +
+            '<p class="compare-attribution">Source: ' + H(entry["edition_credit"]) + '. <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">Licence details</a>. ' +
             '<a href="' + H(case["source_url"], quote=True) +
             '" rel="noopener noreferrer" target="_blank">Read the complete original edition</a>. ' +
             'Only short attributed samples are included; no full scholarly translation is mirrored.</p>'
