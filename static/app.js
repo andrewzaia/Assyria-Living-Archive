@@ -77,6 +77,11 @@
     const status=$('#draft-status');
     const submit=$('#submit-contribution');
     const api='https://assyria-archive-contributions.andrew-zaia.workers.dev/submit';
+    submit.disabled=true;
+    fetch(api.replace('/submit','/status'),{credentials:'omit'}).then(r=>{if(!r.ok)throw Error('Service unavailable');return r.json();}).then(data=>{
+      submit.disabled=!data.available;
+      if(!data.available)setStatus('Email submissions are being configured. You can still download your Markdown draft.');
+    }).catch(()=>setStatus('Email submissions are temporarily unavailable. You can still download your Markdown draft.','error'));
     const makeDraft=()=>{
       const fd=new FormData(form);
       return ['# Assyria | The Living Archive','','Contribution draft - not submitted','','## Contributor','',
@@ -100,6 +105,7 @@
     });
     form.addEventListener('submit',async e=>{
       e.preventDefault();
+      if(submit.disabled)return;
       if(!form.reportValidity())return;
       const fd=new FormData(form);
       const token=String(fd.get('cf-turnstile-response')||'');
