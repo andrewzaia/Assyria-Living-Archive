@@ -37,7 +37,7 @@ class TextComparisonTests(unittest.TestCase):
         data = copy.deepcopy(text_comparisons.DATA)
         line = next(l for item in data["items"] for l in item["lines"] if l["uncertainty"] == "restored")
         line["transliteration"] = "li-mu"
-        with patch.object(text_comparisons, "DATA", data), self.assertRaisesRegex(ValueError, "restored"):
+        with patch.object(text_comparisons, "DATA", data), self.assertRaisesRegex(ValueError, "Restored"):
             text_comparisons.validate(self.cases, self.sources)
 
     def test_copy_requires_edition_attribution_and_license(self):
