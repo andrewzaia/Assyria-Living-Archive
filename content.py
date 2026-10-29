@@ -328,6 +328,8 @@ for _article in ARTICLES:
         _article['passages'] = _BIBLICAL_ROUTES[_article['slug']]
         _article['sources'].insert(0,'bible-webbe')
         _article['related'] = ['bible-reading-guide'] + _article['related']
+        if _article['slug']=='ancient-assyria':
+            _article['sources'].append('oracc-rinap')
         if _article['slug']=='nimrud':
             _article['passage_note']='Genesis names Calah among the cities in its account of Nimrod and Assyria. The identification of ancient Kalhu with the archaeological site now called Nimrud comes from historical and archaeological evidence; the modern site name does not establish that Nimrod lived there.'
         elif _article['slug']=='khorsabad':

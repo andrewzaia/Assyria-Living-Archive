@@ -1,0 +1,878 @@
+{
+  "assyrian-identity": {
+    "A living identity": {
+      "sources": [
+        "gedsh-assyrians"
+      ]
+    },
+    "Names deserve care": {
+      "sources": [
+        "gedsh-aramaic",
+        "modern-chaldean"
+      ]
+    },
+    "The history of a name": {
+      "sources": [
+        "gedsh-assyrians"
+      ]
+    },
+    "How to read the evidence": {
+      "sources": [
+        "modern-kanna",
+        "gedsh-aramaic"
+      ]
+    }
+  },
+  "ancient-assyria": {
+    "Begin with Ashur": {
+      "sources": [
+        "unesco-ashur",
+        "met-assyria"
+      ]
+    },
+    "Trade before the great palaces": {
+      "sources": [
+        "met-caravan"
+      ]
+    },
+    "The imperial centuries": {
+      "sources": [
+        "met-assyria"
+      ]
+    },
+    "After the empire": {
+      "sources": [
+        "met-assyria"
+      ]
+    }
+  },
+  "ashur": {
+    "On the Tigris": {
+      "sources": [
+        "unesco-ashur"
+      ]
+    },
+    "More than a capital": {
+      "sources": [
+        "unesco-ashur"
+      ]
+    },
+    "A site with several lives": {
+      "sources": [
+        "unesco-ashur"
+      ]
+    }
+  },
+  "old-assyrian-trade": {
+    "A trading network": {
+      "sources": [
+        "met-caravan"
+      ]
+    },
+    "Read a real document": {
+      "sources": [
+        "met-caravan"
+      ]
+    }
+  },
+  "nimrud": {
+    "A capital rebuilt": {
+      "sources": [
+        "met-court"
+      ]
+    },
+    "Reconstructing a setting": {
+      "sources": [
+        "met-court",
+        "met-lion"
+      ]
+    }
+  },
+  "khorsabad": {
+    "A royal foundation": {
+      "sources": [
+        "khorsabad-ministry"
+      ]
+    },
+    "Ancient city, modern discoveries": {
+      "sources": [
+        "khorsabad-ministry"
+      ]
+    }
+  },
+  "nineveh": {
+    "A city of collected knowledge": {
+      "sources": [
+        "yale-libraries"
+      ]
+    },
+    "Reading tablets today": {
+      "sources": [
+        "cdli",
+        "yale-libraries"
+      ]
+    }
+  },
+  "lamassu": {
+    "Protection and presence": {
+      "sources": [
+        "met-lion",
+        "met-lamassu"
+      ]
+    },
+    "Why five legs?": {
+      "sources": [
+        "met-lion",
+        "met-lamassu"
+      ]
+    }
+  },
+  "royal-reliefs": {
+    "Art within architecture": {
+      "sources": [
+        "met-court",
+        "met-relief"
+      ]
+    },
+    "Ask who is speaking": {
+      "sources": [
+        "met-court"
+      ]
+    }
+  },
+  "akkadian-and-cuneiform": {
+    "Language versus script": {
+      "sources": [
+        "cambridge-mesopotamian-languages"
+      ]
+    },
+    "Finding texts": {
+      "sources": [
+        "cdli"
+      ]
+    },
+    "The modern-language distinction": {
+      "sources": [
+        "gedsh-aramaic"
+      ]
+    }
+  },
+  "aramaic": {
+    "One label, many varieties": {
+      "sources": [
+        "gedsh-aramaic"
+      ]
+    },
+    "Syriac and living speech": {
+      "sources": [
+        "gedsh-syriac",
+        "cambridge-nena",
+        "gedsh-turoyo"
+      ]
+    },
+    "Choose a learning route": {
+      "sources": [
+        "cambridge-nena",
+        "gedsh-turoyo"
+      ]
+    }
+  },
+  "classical-syriac": {
+    "Origins and reach": {
+      "sources": [
+        "gedsh-syriac"
+      ]
+    },
+    "A literary tradition": {
+      "sources": [
+        "syriaca-intro",
+        "gedsh-syriac"
+      ]
+    }
+  },
+  "sureth": {
+    "A name with local meanings": {
+      "sources": [
+        "gedsh-sureth"
+      ]
+    },
+    "Listen to documented voices": {
+      "sources": [
+        "cambridge-nena"
+      ]
+    }
+  },
+  "surayt": {
+    "Place and language": {
+      "sources": [
+        "gedsh-turoyo"
+      ]
+    },
+    "A course to explore": {
+      "sources": [
+        "fu-surayt"
+      ]
+    }
+  },
+  "syriac-scripts": {
+    "Recognising the traditions": {
+      "sources": [
+        "hmml-palaeography"
+      ]
+    },
+    "Reading responsibly": {
+      "sources": [
+        "hmml-palaeography"
+      ]
+    }
+  },
+  "manuscripts": {
+    "More than religious books": {
+      "sources": [
+        "manchester-syriac",
+        "hmml-voobus"
+      ]
+    },
+    "Distributed heritage": {
+      "sources": [
+        "manchester-syriac",
+        "syriac-digimss",
+        "rutgers-ebetharke"
+      ]
+    },
+    "How to cite a manuscript": {
+      "sources": [
+        "hmml-voobus"
+      ]
+    }
+  },
+  "ephrem": {
+    "A documented literary figure": {
+      "sources": [
+        "gedsh-ephrem"
+      ]
+    },
+    "Read the works with care": {
+      "sources": [
+        "gedsh-ephrem"
+      ]
+    }
+  },
+  "simele": {
+    "The historical subject": {
+      "sources": [
+        "modern-simele-asa",
+        "modern-simele-api"
+      ]
+    },
+    "Know the source type": {
+      "sources": [
+        "modern-simele-asa",
+        "modern-simele-api"
+      ]
+    }
+  },
+  "sayfo": {
+    "A field of historical research": {
+      "sources": [
+        "modern-sayfo"
+      ]
+    },
+    "Scholarship and testimony": {
+      "sources": [
+        "modern-sayfo",
+        "modern-sayfo-eyewitness"
+      ]
+    }
+  },
+  "tur-abdin": {
+    "A region with its own geography": {
+      "sources": [
+        "gedsh-tur-abdin"
+      ]
+    },
+    "Language and memory": {
+      "sources": [
+        "gedsh-tur-abdin",
+        "gedsh-turoyo"
+      ]
+    }
+  },
+  "urmia": {
+    "A city and its surrounding communities": {
+      "sources": [
+        "gedsh-urmia"
+      ]
+    },
+    "The nineteenth-century press": {
+      "sources": [
+        "gedsh-urmia"
+      ]
+    },
+    "A spoken record": {
+      "sources": [
+        "nena-urmi"
+      ]
+    }
+  },
+  "nineveh-plain": {
+    "A linguistic landscape": {
+      "sources": [
+        "gedsh-sureth"
+      ]
+    },
+    "A dated community record": {
+      "sources": [
+        "unami-nineveh"
+      ]
+    }
+  },
+  "diaspora": {
+    "Several migration histories": {
+      "sources": [
+        "gedsh-diaspora"
+      ]
+    },
+    "New centres of life": {
+      "sources": [
+        "gedsh-diaspora"
+      ]
+    },
+    "Culture in a new setting": {
+      "sources": [
+        "modern-aaa",
+        "modern-kanna"
+      ]
+    }
+  },
+  "syriac-printing": {
+    "Early printed texts": {
+      "sources": [
+        "gedsh-printing"
+      ]
+    },
+    "Presses in several regions": {
+      "sources": [
+        "gedsh-printing"
+      ]
+    }
+  },
+  "edessa": {
+    "Several names, one changing city": {
+      "sources": [
+        "gedsh-edessa"
+      ]
+    },
+    "Aramaic and Syriac Christianity": {
+      "sources": [
+        "gedsh-edessa"
+      ]
+    }
+  },
+  "faith-and-churches": {
+    "A shared field, distinct churches": {
+      "sources": [
+        "modern-acoe",
+        "modern-chaldean",
+        "modern-syriac-constitution"
+      ]
+    },
+    "Ethnicity is a separate question": {
+      "sources": [
+        "gedsh-syriac"
+      ]
+    }
+  },
+  "australia": {
+    "Start with a person": {
+      "sources": [
+        "modern-kanna"
+      ]
+    },
+    "Community institutions": {
+      "sources": [
+        "modern-aaa",
+        "modern-arc"
+      ]
+    }
+  },
+  "oral-history": {
+    "A voice in the archive": {
+      "sources": [
+        "modern-kanna"
+      ]
+    },
+    "Memory and evidence": {
+      "sources": [
+        "modern-kanna"
+      ]
+    }
+  },
+  "heritage-stewardship": {
+    "Sites and collections": {
+      "sources": [
+        "unesco-ashur",
+        "met-lion"
+      ]
+    },
+    "Digital survival": {
+      "sources": [
+        "hmml-voobus"
+      ]
+    }
+  },
+  "bible-origins": {
+    "Rivers and peoples": {
+      "passages": [
+        [
+          "GEN",
+          2,
+          14,
+          14
+        ],
+        [
+          "GEN",
+          10,
+          8,
+          12
+        ],
+        [
+          "GEN",
+          10,
+          22,
+          22
+        ],
+        [
+          "1CH",
+          1,
+          10,
+          17
+        ]
+      ]
+    },
+    "Read the names precisely": {
+      "passages": [
+        [
+          "GEN",
+          10,
+          11,
+          11
+        ],
+        [
+          "GEN",
+          25,
+          3,
+          3
+        ]
+      ],
+      "sources": [
+        "bible-genesis-translations"
+      ]
+    },
+    "Early references beyond Genesis": {
+      "passages": [
+        [
+          "GEN",
+          25,
+          18,
+          18
+        ],
+        [
+          "NUM",
+          24,
+          21,
+          24
+        ]
+      ]
+    }
+  },
+  "bible-pul-menahem": {
+    "The account in Kings": {
+      "passages": [
+        [
+          "2KI",
+          15,
+          19,
+          20
+        ]
+      ]
+    },
+    "The reference in Chronicles": {
+      "passages": [
+        [
+          "1CH",
+          5,
+          25,
+          26
+        ]
+      ]
+    },
+    "Names and interpretation": {
+      "passages": [
+        [
+          "2KI",
+          15,
+          19,
+          19
+        ]
+      ],
+      "sources": [
+        "bible-pul-imj",
+        "aebp-tiglath"
+      ]
+    }
+  },
+  "bible-tiglath-pileser": {
+    "Israel and Damascus": {
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "2KI",
+          16,
+          7,
+          9
+        ]
+      ]
+    },
+    "The altar and the court": {
+      "passages": [
+        [
+          "2KI",
+          16,
+          10,
+          18
+        ]
+      ]
+    },
+    "Read Chronicles alongside Kings": {
+      "passages": [
+        [
+          "2CH",
+          28,
+          16,
+          21
+        ]
+      ]
+    }
+  },
+  "bible-samaria": {
+    "The siege narrative": {
+      "passages": [
+        [
+          "2KI",
+          17,
+          1,
+          6
+        ]
+      ]
+    },
+    "The parallel chronological account": {
+      "passages": [
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
+    },
+    "The book's explanation": {
+      "passages": [
+        [
+          "2KI",
+          17,
+          7,
+          23
+        ]
+      ]
+    }
+  },
+  "bible-sargon": {
+    "The named king": {
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          1
+        ]
+      ],
+      "sources": [
+        "aebp-sargon"
+      ]
+    },
+    "The prophetic sign": {
+      "passages": [
+        [
+          "ISA",
+          20,
+          2,
+          4
+        ]
+      ]
+    },
+    "What the passage warns against": {
+      "passages": [
+        [
+          "ISA",
+          20,
+          5,
+          6
+        ]
+      ]
+    }
+  },
+  "bible-sennacherib-invasion": {
+    "The invasion in Kings": {
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          16
+        ]
+      ],
+      "sources": [
+        "oracc-rinap"
+      ]
+    },
+    "The delegation to Jerusalem": {
+      "passages": [
+        [
+          "2KI",
+          18,
+          17,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ]
+      ]
+    },
+    "Read the connected chapters": {
+      "passages": [
+        [
+          "2CH",
+          32,
+          1,
+          19
+        ]
+      ]
+    }
+  },
+  "bible-rabshakeh": {
+    "Officials on both sides": {
+      "passages": [
+        [
+          "2KI",
+          18,
+          17,
+          26
+        ],
+        [
+          "ISA",
+          36,
+          2,
+          11
+        ]
+      ],
+      "sources": [
+        "bible-official-titles"
+      ]
+    },
+    "Language as a political choice": {
+      "passages": [
+        [
+          "2KI",
+          18,
+          26,
+          28
+        ],
+        [
+          "ISA",
+          36,
+          11,
+          13
+        ]
+      ]
+    }
+  },
+  "bible-hezekiah-deliverance": {
+    "Prayer before the LORD": {
+      "passages": [
+        [
+          "2KI",
+          19,
+          1,
+          19
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          20
+        ]
+      ]
+    },
+    "The promised deliverance": {
+      "passages": [
+        [
+          "2KI",
+          19,
+          20,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          21,
+          38
+        ]
+      ]
+    },
+    "Parallel witness and later remembrance": {
+      "passages": [
+        [
+          "2CH",
+          32,
+          20,
+          23
+        ]
+      ]
+    }
+  },
+  "bible-esarhaddon": {
+    "The succession notice": {
+      "passages": [
+        [
+          "2KI",
+          19,
+          36,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          37,
+          38
+        ]
+      ]
+    },
+    "Esar Haddon in Ezra": {
+      "passages": [
+        [
+          "EZR",
+          4,
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  "bible-jonah": {
+    "Called to Nineveh": {
+      "passages": [
+        [
+          "JON",
+          1,
+          1,
+          17
+        ]
+      ]
+    },
+    "The response of the city": {
+      "passages": [
+        [
+          "JON",
+          3,
+          1,
+          10
+        ]
+      ]
+    },
+    "Compassion and the prophet": {
+      "passages": [
+        [
+          "JON",
+          4,
+          1,
+          11
+        ]
+      ]
+    }
+  },
+  "bible-nahum": {
+    "The subject named at the start": {
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "The city under assault": {
+      "passages": [
+        [
+          "NAH",
+          2,
+          1,
+          13
+        ],
+        [
+          "NAH",
+          3,
+          1,
+          19
+        ]
+      ]
+    }
+  },
+  "bible-isaiah-blessing": {
+    "The highway and shared worship": {
+      "passages": [
+        [
+          "ISA",
+          19,
+          23,
+          23
+        ]
+      ]
+    },
+    "The blessing itself": {
+      "passages": [
+        [
+          "ISA",
+          19,
+          24,
+          25
+        ]
+      ]
+    },
+    "Return and gathering": {
+      "passages": [
+        [
+          "ISA",
+          11,
+          11,
+          16
+        ],
+        [
+          "ISA",
+          27,
+          12,
+          13
+        ]
+      ]
+    }
+  }
+}

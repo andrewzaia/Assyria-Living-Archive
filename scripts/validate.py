@@ -17,6 +17,7 @@ REFERENCES = load_references()
 ARTICLES = EDITORIAL_ARTICLES + REFERENCES
 from site_config import OUT, BASE_PATH, ALLOW_INDEXING, SITE_URL
 from navigation import NAV_GROUPS, NAV_PATHS
+from section_evidence import DATA as SECTION_DATA, validate as validate_section_evidence
 
 class Page(HTMLParser):
     def __init__(self):
@@ -67,6 +68,7 @@ def main():
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     sources += reference_sources(REFERENCES)
     source_ids = [s['id'] for s in sources]
+    validate_section_evidence(EDITORIAL_ARTICLES, sources)
     slugs = [a['slug'] for a in ARTICLES]
     if len(set(source_ids)) != len(source_ids):
         errors.append('Duplicate source IDs')
@@ -84,6 +86,15 @@ def main():
     for event in TIMELINE:
         if event[4] not in slugs or event[5] not in source_ids:
             errors.append(f'Unknown timeline reference: {event[2]}')
+    for article in EDITORIAL_ARTICLES:
+        route = OUT / 'articles' / article['slug'] / 'index.html'
+        if not route.exists():
+            errors.append(f"Missing generated editorial guide: {article['slug']}")
+            continue
+        actual = route.read_text(encoding='utf-8').count('class="section-reading-trail"')
+        expected = len(SECTION_DATA.get(article['slug'], {}))
+        if actual != expected:
+            errors.append(f"Incorrect section reading trail count in {article['slug']}: {actual} instead of {expected}")
     pages = {}
     for path in OUT.rglob('*.html'):
         parsed = Page()
@@ -165,7 +176,7 @@ def main():
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
-    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json']
+    authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:

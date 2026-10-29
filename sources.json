@@ -574,5 +574,14 @@
     "type": "Historical atlas reference",
     "access": "Public resource; original scholarship retains its own rights",
     "checked": "2026-10-25"
+  },
+  {
+    "id": "oracc-rinap",
+    "title": "Royal Inscriptions of the Neo-Assyrian Period (RINAP)",
+    "publisher": "University of Pennsylvania / Open Richly Annotated Cuneiform Corpus (ORACC)",
+    "url": "https://oracc.museum.upenn.edu/rinap/s.html",
+    "type": "Edited primary inscription corpus",
+    "access": "Public searchable editions of royal inscriptions; cited for historical context and independent records of royal claims, not as proof of every biblical or theological interpretation",
+    "checked": "2026-10-29"
   }
 ]
