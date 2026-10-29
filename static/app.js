@@ -73,9 +73,54 @@
   $$('[data-era-filter]').forEach(b=>b.addEventListener('click',()=>{let n=0;$$('[data-era]').forEach(el=>{el.hidden=b.dataset.eraFilter!=='all'&&el.dataset.era!==b.dataset.eraFilter;if(!el.hidden)n++;});$$('[data-era-filter]').forEach(el=>{const active=el===b;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active));});$('#timeline-count').textContent=`${n} selected moment${n===1?'':'s'}`;}));
   $('.copy-link')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);notify('Article link copied');}catch{notify('Copy the article URL from your address bar');}});
   const form=$('#contribution-form');if(form){
-    const slug=new URLSearchParams(location.search).get('article');if(slug)getData().then(({articles})=>{const a=articles.find(x=>x.slug===slug);if(a)$('#contribution-subject').value=a.title;}).catch(()=>{});
-    form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const fd=new FormData(form);const draft=`# Assyria | The Living Archive\n\nContribution draft - not submitted\n\nType: ${fd.get('type')}\nSubject: ${fd.get('subject')}\n\n## Contribution\n\n${fd.get('body')}\n\n## Sources\n\n${fd.get('sources')||'Not supplied'}\n\n## Attribution and permissions\n\n${fd.get('permissions')||'To be discussed'}\n`;
-      const url=URL.createObjectURL(new Blob([draft],{type:'text/markdown;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='assyria-contribution-draft.md';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);$('#draft-status').textContent='Draft downloaded. Nothing has been sent or published.';notify('Contribution draft downloaded');
+    const subject=$('#contribution-subject');
+    const status=$('#draft-status');
+    const submit=$('#submit-contribution');
+    const api='https://assyria-archive-contributions.andrew-zaia.workers.dev/submit';
+    const makeDraft=()=>{
+      const fd=new FormData(form);
+      return ['# Assyria | The Living Archive','','Contribution draft - not submitted','','## Contributor','',
+        'Name: '+(fd.get('name')||'Not supplied'),'Contact email: '+(fd.get('email')||'Not supplied'),
+        '','## Submission','','Type: '+fd.get('type'),'Subject: '+fd.get('subject'),
+        '','### Contribution','',fd.get('body'),'','### Sources or supporting records','',
+        fd.get('sources')||'Not supplied','','### Attribution and permissions','',
+        fd.get('permissions')||'To be discussed',''].join('\n');
+    };
+    const setStatus=(message,state='')=>{status.textContent=message;status.dataset.state=state;};
+    const slug=new URLSearchParams(location.search).get('article');
+    if(slug)getData().then(({articles})=>{const article=articles.find(x=>x.slug===slug);if(article)subject.value=article.title;}).catch(()=>{});
+    $('#download-draft')?.addEventListener('click',()=>{
+      const draft=makeDraft();
+      const url=URL.createObjectURL(new Blob([draft],{type:'text/markdown;charset=utf-8'}));
+      const a=document.createElement('a');
+      a.href=url;a.download='assyria-contribution-draft.md';document.body.append(a);a.click();a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+      setStatus('Your Markdown draft was downloaded to this device. It has not been submitted.','success');
+      notify('Contribution draft downloaded');
+    });
+    form.addEventListener('submit',async e=>{
+      e.preventDefault();
+      if(!form.reportValidity())return;
+      const fd=new FormData(form);
+      const token=String(fd.get('cf-turnstile-response')||'');
+      if(!token){setStatus('Please complete the security check before submitting. You can still download your draft.','error');return;}
+      const data={};
+      for(const key of ['type','subject','name','email','body','sources','permissions','website'])data[key]=String(fd.get(key)||'');
+      data.turnstileToken=token;
+      submit.disabled=true;
+      setStatus('Sending your contribution securely for editorial review...');
+      try{
+        const response=await fetch(api,{method:'POST',mode:'cors',credentials:'omit',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+        const result=await response.json().catch(()=>({}));
+        if(!response.ok||result.ok!==true)throw new Error(result.error||'The submission service could not confirm delivery.');
+        form.reset();
+        window.turnstile?.reset?.();
+        setStatus('Contribution received for editorial review. Thank you. Nothing has been published automatically.','success');
+        notify('Contribution submitted');
+      }catch(error){
+        setStatus((error?.message||'Unable to send contribution.')+' Your draft remains on this page. You can download it for safekeeping.','error');
+        window.turnstile?.reset?.();
+      }finally{submit.disabled=false;}
     });
   }
 })();
