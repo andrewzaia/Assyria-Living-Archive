@@ -46,6 +46,11 @@
         "gedsh-chaldeans",
         "iranica-ancient-chaldeans"
       ]
+    },
+    "The history of a name": {
+      "sources": [
+        "gedsh-assyrians"
+      ]
     }
   },
   "ancient-assyria": {
