@@ -31,16 +31,18 @@
   },
   "old-assyrian-trade": {
     "sources": [
-      "wikipedia-old-assyrian-period"
+      "wikipedia-old-assyrian-period",
+      "met-old-assyrian-caravan-66-245-10",
+      "met-old-assyrian-letter-66-245-1"
     ],
     "sections": [
       {
         "title": "How a caravan business operated",
-        "text": "Merchants from Ashur carried tin and textiles into Anatolia and received silver and other returns. Donkeys moved consignments between settlements, while food, transport, taxes and intermediaries affected the result of a shipment. A profitable sale and the total profit of a journey were therefore different figures.\n\nKanesh, at modern Kultepe, became a major centre of this network. Merchants could maintain houses and records there while relatives and partners remained in Ashur. Credit and letters helped organise transactions across that separation. The business depended on maintaining obligations between people, not simply on finding a valuable commodity."
+        "text": "Merchants from Ashur carried tin and textiles into Anatolia and received silver and other returns. Donkeys moved consignments between settlements, while food, transport, taxes and intermediaries affected the result of a shipment. A profitable sale and the total profit of a journey were therefore different figures.\n\nKanesh, at modern Kultepe, became a major centre of this network. Merchants could maintain houses and records there while relatives and partners remained in Ashur. Credit and letters helped organise transactions across that separation. The business depended on maintaining obligations between people, not simply on finding a valuable commodity.\n\nA surviving account of Imdi-ilum's firm, Met 66.245.10, makes these costs concrete. It records investment in tin, textiles and lapis lazuli alongside guides, donkeys, equipment and fodder. Animals could be sold after arrival. The account then works towards a silver balance, showing how transport and sale belonged to one calculation."
       },
       {
         "title": "Households supplied goods and information",
-        "text": "Women participated in the commercial world through textile production, property and financial arrangements. Relatives could organise consignments, request payments and report difficulties. The household was consequently part of the enterprise, even when only one member travelled.\n\nA caravan account follows expenditure and returns; a private letter can carry an instruction or a complaint about a delayed payment. Read together, they explain different stages of a family business. These Old Assyrian commercial archives belong to an earlier setting than Middle Assyrian provincial administration and should not be used as interchangeable documents of one unchanging economy."
+        "text": "Women participated in the commercial world through textile production, property and financial arrangements. Relatives could organise consignments, request payments and report difficulties. The household was consequently part of the enterprise, even when only one member travelled.\n\nA caravan account follows expenditure and returns; a private letter can carry an instruction or a complaint about a delayed payment. Read together, they explain different stages of a family business. These Old Assyrian commercial archives belong to an earlier setting than Middle Assyrian provincial administration and should not be used as interchangeable documents of one unchanging economy.\n\nIn Met 66.245.1, Puzur-Ashur writes to his brothers about a business dispute and companions reportedly detained before reaching Kanesh. Commercial correspondence carried requests for news alongside financial matters. The letter and caravan account concern the same family firm, connecting the figures in an account with the uncertainty experienced by its participants."
       }
     ]
   },
@@ -196,7 +198,8 @@
   },
   "syriac-scripts": {
     "sources": [
-      "wikipedia-syriac-alphabet"
+      "wikipedia-syriac-alphabet",
+      "unicode-syriac-standard"
     ],
     "sections": [
       {
@@ -1301,7 +1304,7 @@
     "sections": [
       {
         "title": "A successor and a later settlement claim",
-        "text": "Kings and Isaiah place Esarhaddon's accession after Sennacherib's killing and the killers' flight. This identifies a successor in a royal crisis, without narrating his entire reign.\n\nEzra 4 uses the name differently. Speakers seeking participation in rebuilding refer to sacrifices since the time Esar Haddon brought them into the land. The historical reference forms part of their argument about standing and religious activity.\n\nThese are succession and settlement memory in distinct settings. Explaining both makes the name useful to readers without assuming each occurrence tells the same story. The similarly spelled deity in 2 Kings 17 is another subject and cannot be treated as a further mention of the king merely because an index finds a resemblance."
+        "text": "Kings and Isaiah place Esarhaddon's accession after Sennacherib's killing and the killers' flight. This identifies a successor in a royal crisis, without narrating his entire reign.\n\nEzra 4 uses the name differently. Speakers seeking participation in rebuilding refer to sacrifices since the time Esar Haddon brought them into the land. The historical reference forms part of their argument about standing and religious activity.\n\nThese are succession and settlement memory in distinct settings. Explaining both makes the name useful to readers without assuming each occurrence tells the same story. Adrammelech, named as one of Sennacherib's killers, is also the name of a deity in 2 Kings 17:31. The deity and the king's son are different subjects; neither reference is another name for Esarhaddon."
       }
     ],
     "inline_scripture": true

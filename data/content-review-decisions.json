@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-30",
+  "scope": "All generated HTML routes are inventoried by purpose. All 122 original articles have explicit editorial decisions. Preserved references retain full local text and attribution; complete Bible chapters retain primary wording. Indexes, research interfaces and utilities are assessed by function, not by an article word minimum.",
+  "articles": [
+    {
+      "slug": "assyrian-identity",
+      "status": "reviewed-retained",
+      "reason": "Substantial multi-section explanation of identity, ecclesiastical naming and evidence, retained without changing the documented distinctions."
+    },
+    {
+      "slug": "ancient-assyria",
+      "status": "expanded",
+      "reason": "Added local explanations: From a city to a territorial kingdom; Why the capitals changed. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "ashur",
+      "status": "expanded",
+      "reason": "Added local explanations: A sacred centre beside the Tigris; Several phases of occupation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "old-assyrian-trade",
+      "status": "expanded",
+      "reason": "Added local explanations: How a caravan business operated; Households supplied goods and information. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "nimrud",
+      "status": "expanded",
+      "reason": "Added local explanations: Kalhu as a working capital; Ivories, tombs and the wider city. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "khorsabad",
+      "status": "expanded",
+      "reason": "Added local explanations: A city built around a king; Why a great project could lose its purpose. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "nineveh",
+      "status": "expanded",
+      "reason": "Added local explanations: The capital extended into its surrounding landscape; Learning was part of court activity. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "lamassu",
+      "status": "expanded",
+      "reason": "Added local explanations: A guardian experienced from two directions; Stone, labour and religious protection. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "royal-reliefs",
+      "status": "expanded",
+      "reason": "Added local explanations: Scenes organise events into a narrative; An architectural surface rather than a museum picture. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "akkadian-and-cuneiform",
+      "status": "expanded",
+      "reason": "Added local explanations: A language is different from its writing system; What a tablet's form contributes. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "aramaic",
+      "status": "expanded",
+      "reason": "Added local explanations: A widespread language developed local forms; Where Syriac and modern varieties fit. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "classical-syriac",
+      "status": "expanded",
+      "reason": "Added local explanations: A literature with several practical purposes; A learned language crossed political borders. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sureth",
+      "status": "expanded",
+      "reason": "Added local explanations: Local speech has its own history; Reading and speaking develop through different activities. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "surayt",
+      "status": "expanded",
+      "reason": "Added local explanations: Tur Abdin and the diaspora are both settings of use; A lesson needs sound, meaning and use. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "syriac-scripts",
+      "status": "expanded",
+      "reason": "Added local explanations: Three principal styles share an alphabet; What to observe on a manuscript page. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "manuscripts",
+      "status": "expanded",
+      "reason": "Added local explanations: The work and its surviving copy have different dates; How a catalogue makes a passage findable. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "ephrem",
+      "status": "expanded",
+      "reason": "Added local explanations: A career between Nisibis and Edessa; Poetry made teaching memorable. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "faith-and-churches",
+      "status": "reviewed-retained",
+      "reason": "Explains shared East Syriac history, communion chronology and the distinction between ancestry and membership."
+    },
+    {
+      "slug": "church-of-the-east",
+      "status": "expanded",
+      "reason": "Added local explanations: A church east of the Roman frontier; Learning and shared inheritance. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "chaldean-church",
+      "status": "reviewed-retained",
+      "reason": "Existing substantive church and naming history; no source-only placeholder."
+    },
+    {
+      "slug": "syriac-orthodox",
+      "status": "expanded",
+      "reason": "Added local explanations: A West Syriac tradition; Monasteries, books and communal worship. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "akitu",
+      "status": "expanded",
+      "reason": "Added local explanations: What a modern celebration brings together; Ancient reference and cultural renewal. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "dance",
+      "status": "expanded",
+      "reason": "Added local explanations: Co-ordinating a shared sequence; Weddings, learning and variation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "kileche",
+      "status": "expanded",
+      "reason": "Added local explanations: Dough, filling and shaping; The occasion is part of the food's history. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "music",
+      "status": "expanded",
+      "reason": "Added local explanations: Different music serves different settings; Performance is only one kind of authorship. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "evin-agassi",
+      "status": "expanded",
+      "reason": "Added local explanations: An international career rooted in several settings; Collaboration and remembrance. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "oral-history",
+      "status": "expanded",
+      "reason": "Added local explanations: What an interview can preserve; Memory and corroboration do different work. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "australia",
+      "status": "expanded",
+      "reason": "Added local explanations: Settlement is a continuing process; Generations and institutions. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyrian-australian-association",
+      "status": "expanded",
+      "reason": "Added local explanations: The role of an association; Records and experiences illuminate different things. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "simele",
+      "status": "expanded",
+      "reason": "Added local explanations: Violence and the disruption of communities; Historical estimates and remembrance. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sayfo",
+      "status": "expanded",
+      "reason": "Added local explanations: Several regions, connected destruction; Loss continued through displacement. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "endangered-languages",
+      "status": "expanded",
+      "reason": "Added local explanations: How language shift happens in ordinary life; Documentation and use are complementary. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "research-guide",
+      "status": "expanded",
+      "reason": "Added local explanations: A worked example: a named monument; Turn research notes into an explanation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "heritage-stewardship",
+      "status": "expanded",
+      "reason": "Added local explanations: Different objects face different risks; A practical preservation sequence. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tur-abdin",
+      "status": "expanded",
+      "reason": "Added local explanations: A landscape linked through institutions; Language, migration and particular places. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "urmia",
+      "status": "expanded",
+      "reason": "Added local explanations: The city and its rural surroundings; Printing, speech and displacement. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "nineveh-plain",
+      "status": "expanded",
+      "reason": "Added local explanations: A region beyond the excavated capital; Return requires more than reaching a place. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "diaspora",
+      "status": "expanded",
+      "reason": "Added local explanations: There is no single migration route; What is carried and what is rebuilt. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "syriac-printing",
+      "status": "expanded",
+      "reason": "Added local explanations: What printing changed; An edition connects producers and readers. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "edessa",
+      "status": "expanded",
+      "reason": "Added local explanations: A city between political worlds; Schools and remembered beginnings. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "ashurnasirpal-ii",
+      "status": "expanded",
+      "reason": "Added local explanations: Conquest and the building of Kalhu; The resources behind monumental success. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "shalmaneser-iii",
+      "status": "expanded",
+      "reason": "Added local explanations: Repeated campaigning met organised resistance; Tribute represented a hierarchy. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tiglath-pileser-iii",
+      "status": "expanded",
+      "reason": "Added local explanations: Annexation changed local government; Ahaz's appeal had consequences beyond battle. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "shalmaneser-v",
+      "status": "expanded",
+      "reason": "Added local explanations: Subordination, rebellion and siege; The change of reign complicates attribution. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sargon-ii",
+      "status": "expanded",
+      "reason": "Added local explanations: Consolidating authority after accession; A capital tied closely to one reign. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sennacherib",
+      "status": "expanded",
+      "reason": "Added local explanations: War became visible within the capital; A kingdom under pressure in 701 BCE. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "esarhaddon",
+      "status": "expanded",
+      "reason": "Added local explanations: Maintaining power through a royal transition; Babylon and the next generation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "ashurbanipal",
+      "status": "expanded",
+      "reason": "Added local explanations: Court learning had practical purposes; Conflict within an extensive empire. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyrian-governance",
+      "status": "expanded",
+      "reason": "Added local explanations: What direct provincial rule required; Letters reveal work rather than perfect order. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyrian-deportation",
+      "status": "expanded",
+      "reason": "Added local explanations: What forced removal changed; Resettlement affected institutions and worship. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyrian-religious-life",
+      "status": "expanded",
+      "reason": "Added local explanations: Cult had a material basis; Ritual and divination addressed different questions. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "imperial-languages",
+      "status": "expanded",
+      "reason": "Added local explanations: One state could use several languages; The language choice at Jerusalem. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "fall-of-nineveh",
+      "status": "expanded",
+      "reason": "Added local explanations: Several defeats ended imperial power; Why a capital's destruction reached beyond its walls. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "post-imperial-assyria",
+      "status": "expanded",
+      "reason": "Added local explanations: A region within changing empires; Continuity is compatible with change. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "cuneiform-reading-methods",
+      "status": "expanded",
+      "reason": "Added local explanations: Reading the structure of a receipt; What damage changes. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "syriac-script-histories",
+      "status": "expanded",
+      "reason": "Added local explanations: Compare characters before dating a hand; A book can preserve several hands. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "syriac-unicode-reading",
+      "status": "expanded",
+      "reason": "Added local explanations: A character is different from a glyph; Marks and direction carry information. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "nena-dialect-comparison",
+      "status": "expanded",
+      "reason": "Added local explanations: Compare like tasks in recordings; Variation is not automatically an error. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "urmi-neo-aramaic-recordings",
+      "status": "expanded",
+      "reason": "Added local explanations: A voice belongs to a particular setting; Connect speech with the written example. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "surayt-documentation",
+      "status": "expanded",
+      "reason": "Added local explanations: A lesson connects sound and use; A course and a field record do different work. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "manuscript-provenance-practice",
+      "status": "expanded",
+      "reason": "Added local explanations: Composition, copying and custody; A reference another reader can follow. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "living-language-archive-ethics",
+      "status": "expanded",
+      "reason": "Added local explanations: Describe real uses before recording; Teach through an authorised segment. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "oral-history-interview-method",
+      "status": "expanded",
+      "reason": "Added local explanations: Prompts that produce a concrete account; When dates and memories differ. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyrian-village-histories",
+      "status": "expanded",
+      "reason": "Added local explanations: Explain how a settlement functioned; Organise change around documented events. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "migration-memory-research",
+      "status": "expanded",
+      "reason": "Added local explanations: Arrival is not the end of migration history; Compare without making accounts identical. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "heritage-objects-and-practices",
+      "status": "expanded",
+      "reason": "Added local explanations: Technique and occasion both explain food; Objects and performances preserve different evidence. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "heritage-consent-and-access",
+      "status": "expanded",
+      "reason": "Added local explanations: A contribution can have several access choices; Withdrawal and correction differ. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "assyria-community-broadcasts",
+      "status": "expanded",
+      "reason": "Added local explanations: A public setting for language and discussion; Make an episode useful before listening. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "black-obelisk-jehu",
+      "status": "expanded",
+      "reason": "Added local explanations: Tribute entered a royal narrative; Two accounts illuminate different actions. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sennacherib-prism-hezekiah",
+      "status": "expanded",
+      "reason": "Added local explanations: The campaign reached beyond Jerusalem; Tribute and deliverance belong to a sequence. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "lachish-reliefs-context",
+      "status": "expanded",
+      "reason": "Added local explanations: Assault leads into captivity in the imagery; The scene's second setting was a palace. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "sargon-ashdod-isaiah",
+      "status": "expanded",
+      "reason": "Added local explanations: Ashdod within regional competition; The warning concerns a protector who can fall. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "samaria-assyrian-chronology",
+      "status": "reviewed-retained",
+      "reason": "Extended account of named rulers, siege, succession, conquest variants, resettlement and a provincial letter."
+    },
+    {
+      "slug": "assyrian-deportations-texts",
+      "status": "reviewed-retained",
+      "reason": "Extended explanation of biblical destinations, settlement, correspondence and material evidence."
+    },
+    {
+      "slug": "babylonian-chronicle-nineveh",
+      "status": "expanded",
+      "reason": "Added local explanations: An annual record supplies a sequence; Copy date and event date answer different questions. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "historical-evidence-methods",
+      "status": "expanded",
+      "reason": "Added local explanations: Agreement can coexist with a difference; Two dates can describe one witness. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "middle-assyrian-overview",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-provincial-administration",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-women-and-law",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-households-inheritance",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-farming-water",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-labour-rations",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-scribes-seals",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-religion-ritual",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "middle-assyrian-routes-and-exchange",
+      "status": "reviewed-retained",
+      "reason": "Rewritten in PR #37 with named laws, documents or institutional examples and pinpoint citations; reviewed and retained."
+    },
+    {
+      "slug": "tablet-kaj-247-workers-temple",
+      "status": "expanded",
+      "reason": "Added local explanations: Work and a temple in one account; An administrative sequence. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-marv-10-07-footwear",
+      "status": "expanded",
+      "reason": "Added local explanations: Palace property and a named recipient; Names do not supply an entire journey. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-kaj-233-horse-barley",
+      "status": "expanded",
+      "reason": "Added local explanations: Grain entered a service relationship; A date distinguished the occasion. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-marv-1-12-guard-rations",
+      "status": "expanded",
+      "reason": "Added local explanations: A public duty required supplies; Keep quantity and duration together. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-kaj-144-lead-house",
+      "status": "expanded",
+      "reason": "Added local explanations: A house transaction involved a metal obligation; A written relationship outlasted the encounter. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-billa-30-barley",
+      "status": "expanded",
+      "reason": "Added local explanations: Provincial provisioning beyond Ashur; One stage reveals part of a larger system. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "tablet-kaj-118-straw",
+      "status": "expanded",
+      "reason": "Added local explanations: A by-product became an accountable resource; Short records select from longer work. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "met-62-85-3-sealed-tablet",
+      "status": "expanded",
+      "reason": "Added local explanations: A small object combined writing and images; Useful description without a fictitious translation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bm-21901-nineveh-chronicle-case",
+      "status": "expanded",
+      "reason": "Added local explanations: The capital fell within a longer conflict; The chronicle and prophets have distinct purposes. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "reading-cuneiform-transliteration",
+      "status": "reviewed-retained",
+      "reason": "Worked tutorial with actual signs, brackets, damage and translation examples."
+    },
+    {
+      "slug": "chaldean-name-and-heritage",
+      "status": "reviewed-retained",
+      "reason": "Extended chronological naming and evidence assessment, retaining the prior documented source boundaries."
+    },
+    {
+      "slug": "bible-origins",
+      "status": "expanded",
+      "reason": "Added local explanations: How names and places work in Genesis 10. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-pul-menahem",
+      "status": "expanded",
+      "reason": "Added local explanations: Royal security placed a burden on others. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-tiglath-pileser",
+      "status": "expanded",
+      "reason": "Added local explanations: Rescue led into a dependent relationship. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-samaria",
+      "status": "expanded",
+      "reason": "Added local explanations: Rebellion, siege and the book's explanation. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-deportation",
+      "status": "expanded",
+      "reason": "Added local explanations: Movement occurred in two directions. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-sargon",
+      "status": "expanded",
+      "reason": "Added local explanations: The notice and the sign belong together. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-sennacherib-invasion",
+      "status": "expanded",
+      "reason": "Added local explanations: From fortified cities to a public challenge. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-rabshakeh",
+      "status": "expanded",
+      "reason": "Added local explanations: The wider audience was part of the strategy. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-hezekiah-deliverance",
+      "status": "expanded",
+      "reason": "Added local explanations: The prayer answers the challenge. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-esarhaddon",
+      "status": "expanded",
+      "reason": "Added local explanations: A successor and a later settlement claim. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-manasseh",
+      "status": "expanded",
+      "reason": "Added local explanations: Humiliation is followed by a changed return. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-jonah",
+      "status": "expanded",
+      "reason": "Added local explanations: The city and the prophet respond differently. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-nahum",
+      "status": "expanded",
+      "reason": "Added local explanations: Security and violence are judged together. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-isaiah-assyria",
+      "status": "expanded",
+      "reason": "Added local explanations: An instrument remains accountable. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-isaiah-blessing",
+      "status": "expanded",
+      "reason": "Added local explanations: The passage develops a shared blessing. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-hosea",
+      "status": "expanded",
+      "reason": "Added local explanations: Seeking rescue does not heal the underlying problem. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-ezekiel",
+      "status": "expanded",
+      "reason": "Added local explanations: Another ruler is warned through Assyria's image. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-micah",
+      "status": "expanded",
+      "reason": "Added local explanations: Peace is described against invasion. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-zephaniah",
+      "status": "expanded",
+      "reason": "Added local explanations: A confident city becomes a deserted landscape. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-other-prophets",
+      "status": "expanded",
+      "reason": "Added local explanations: A shared name serves several purposes. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-ezra-memory",
+      "status": "expanded",
+      "reason": "Added local explanations: A reference to the past supports a present argument. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-new-testament",
+      "status": "expanded",
+      "reason": "Added local explanations: Nineveh becomes a comparison about response. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-tobit",
+      "status": "expanded",
+      "reason": "Added local explanations: Exile shapes a household's obligations. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-judith",
+      "status": "expanded",
+      "reason": "Added local explanations: A vulnerable community faces overwhelming force. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-later-remembrance",
+      "status": "expanded",
+      "reason": "Added local explanations: Deliverance becomes a model for later hope. Existing source references and uncertainty are retained."
+    },
+    {
+      "slug": "bible-reading-guide",
+      "status": "expanded",
+      "reason": "Added local explanations: Follow an account before isolating a quotation. Existing source references and uncertainty are retained."
+    }
+  ]
+}

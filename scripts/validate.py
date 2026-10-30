@@ -585,17 +585,24 @@ def main():
         guide_parent = OUT / 'articles' / slug / 'index.html'
         if not guide_parent.is_file() or '/articles/chaldean-name-and-heritage/' not in guide_parent.read_text(encoding='utf-8'):
             errors.append('Missing reciprocal source-critical identity reading route from ' + slug)
+    from content_review import build as build_content_review
+    review_path = OUT / 'content-review.json'
+    if not review_path.exists() or json.loads(review_path.read_text(encoding='utf-8')) != build_content_review(OUT, ARTICLES):
+        errors.append('Content review inventory does not match the generated site')
     expected_sitemap = ALLOW_INDEXING and bool(SITE_URL)
     if (OUT / 'sitemap.xml').exists() != expected_sitemap:
         errors.append('Unexpected sitemap state')
     authored = [ROOT / 'content.py', ROOT / 'map_page.py', ROOT / 'bible_pages.py', ROOT / 'bible_support.py', ROOT / 'biblical_content.py', ROOT / 'generate.py', ROOT / 'site_config.py', ROOT / 'sources.json', ROOT / 'section_evidence.py', ROOT / 'data/section-evidence.json', ROOT / 'claim_review.py', ROOT / 'data/claim-reviews.json', ROOT / 'project_roadmap.py', ROOT / 'data/project-roadmap.json', ROOT / 'language_page.py', ROOT / 'data/syriac-letters.json', ROOT / 'heritage_page.py', ROOT / 'data/heritage-records.json', ROOT / 'governance_page.py', ROOT / 'data/editorial-revisions.json', ROOT / 'stewardship_page.py', ROOT / 'preservation.py', ROOT / 'audit_page.py', ROOT / 'dossier_page.py', ROOT / 'historical_evidence_content.py', ROOT / 'middle_assyrian_page.py', ROOT / 'middle_assyrian_content.py', ROOT / 'case_files.py', ROOT / 'case_files_page.py', ROOT / 'data/object-case-files.json', ROOT / 'text_comparisons.py', ROOT / 'text_comparisons_page.py', ROOT / 'text_comparison_content.py', ROOT / 'data/text-comparisons.json', ROOT / 'concordance.py', ROOT / 'concordance_page.py', ROOT / 'data/concordance.json', ROOT / 'identity_register.py', ROOT / 'identity_page.py', ROOT / 'data/identity-cases.json', ROOT / 'royal_witnesses.py', ROOT / 'royal_witnesses_page.py', ROOT / 'data/royal-witnesses.json', ROOT / 'samaria_succession.py', ROOT / 'samaria_succession_page.py', ROOT / 'data/samaria-succession.json', ROOT / 'exile_provinces.py', ROOT / 'exile_provinces_page.py', ROOT / 'data/exile-provinces.json', ROOT / 'scripts/audit_sources.py', ROOT / 'scripts/audit_accessibility.py']
+    authored += [ROOT / 'depth_content.py', ROOT / 'content_review.py', ROOT / 'data/article-depth-expansions.json', ROOT / 'data/content-review-decisions.json']
     authored += list(ROOT.glob('*.md')) + list((ROOT / 'archive/heritage').glob('*.md')) + list((ROOT / 'archive/governance').glob('*.md')) + list((ROOT / 'docs').glob('*.md')) + list((ROOT / 'static').glob('*.js'))
     authored += list((ROOT / 'static').glob('*.css')) + list(OUT.rglob('*.html'))
     for path in authored:
         text = path.read_text(encoding='utf-8')
         # Exact Scripture quotations preserve source punctuation; editorial prose uses ASCII hyphens.
-        if path.suffix == '.html' and OUT / 'bible' in path.parents:
-            text = re.sub(r'<blockquote\b[^>]*>.*?</blockquote>', '', text, flags=re.S)
+        if path.suffix == '.html':
+            if OUT / 'bible' in path.parents:
+                text = re.sub(r'<blockquote\b[^>]*>.*?</blockquote>', '', text, flags=re.S)
+            text = re.sub(r'<blockquote class="scripture-excerpt"[^>]*>.*?</blockquote>', '', text, flags=re.S)
         if re.search('[\u2010-\u2015\u2212]', text):
             errors.append(f'{path.relative_to(ROOT)}: prohibited dash character')
     if errors:

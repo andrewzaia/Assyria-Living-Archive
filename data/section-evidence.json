@@ -83,6 +83,16 @@
       "sources": [
         "met-assyria"
       ]
+    },
+    "From a city to a territorial kingdom": {
+      "sources": [
+        "wikipedia-assyria"
+      ]
+    },
+    "Why the capitals changed": {
+      "sources": [
+        "wikipedia-assyria"
+      ]
     }
   },
   "ashur": {
@@ -100,6 +110,16 @@
       "sources": [
         "unesco-ashur"
       ]
+    },
+    "A sacred centre beside the Tigris": {
+      "sources": [
+        "wikipedia-assur"
+      ]
+    },
+    "Several phases of occupation": {
+      "sources": [
+        "wikipedia-assur"
+      ]
     }
   },
   "old-assyrian-trade": {
@@ -112,6 +132,28 @@
       "sources": [
         "met-caravan"
       ]
+    },
+    "How a caravan business operated": {
+      "sources": [
+        "wikipedia-old-assyrian-period",
+        "met-old-assyrian-caravan-66-245-10",
+        "met-old-assyrian-letter-66-245-1"
+      ],
+      "locations": {
+        "met-old-assyrian-caravan-66-245-10": "Curatorial description and object details",
+        "met-old-assyrian-letter-66-245-1": "Curatorial description and object details"
+      }
+    },
+    "Households supplied goods and information": {
+      "sources": [
+        "wikipedia-old-assyrian-period",
+        "met-old-assyrian-caravan-66-245-10",
+        "met-old-assyrian-letter-66-245-1"
+      ],
+      "locations": {
+        "met-old-assyrian-caravan-66-245-10": "Curatorial description and object details",
+        "met-old-assyrian-letter-66-245-1": "Curatorial description and object details"
+      }
     }
   },
   "nimrud": {
@@ -125,6 +167,25 @@
         "met-court",
         "met-lion"
       ]
+    },
+    "Kalhu as a working capital": {
+      "sources": [
+        "wikipedia-nimrud"
+      ]
+    },
+    "Ivories, tombs and the wider city": {
+      "sources": [
+        "wikipedia-nimrud",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "GEN",
+          10,
+          8,
+          12
+        ]
+      ]
     }
   },
   "khorsabad": {
@@ -136,6 +197,16 @@
     "Ancient city, modern discoveries": {
       "sources": [
         "khorsabad-ministry"
+      ]
+    },
+    "A city built around a king": {
+      "sources": [
+        "wikipedia-dur-sharrukin"
+      ]
+    },
+    "Why a great project could lose its purpose": {
+      "sources": [
+        "wikipedia-dur-sharrukin"
       ]
     }
   },
@@ -149,6 +220,16 @@
       "sources": [
         "cdli",
         "yale-libraries"
+      ]
+    },
+    "The capital extended into its surrounding landscape": {
+      "sources": [
+        "wikipedia-nineveh"
+      ]
+    },
+    "Learning was part of court activity": {
+      "sources": [
+        "wikipedia-nineveh"
       ]
     }
   },
@@ -164,6 +245,16 @@
         "met-lion",
         "met-lamassu"
       ]
+    },
+    "A guardian experienced from two directions": {
+      "sources": [
+        "wikipedia-lamassu"
+      ]
+    },
+    "Stone, labour and religious protection": {
+      "sources": [
+        "wikipedia-lamassu"
+      ]
     }
   },
   "royal-reliefs": {
@@ -176,6 +267,16 @@
     "Ask who is speaking": {
       "sources": [
         "met-court"
+      ]
+    },
+    "Scenes organise events into a narrative": {
+      "sources": [
+        "wikipedia-assyrian-sculpture"
+      ]
+    },
+    "An architectural surface rather than a museum picture": {
+      "sources": [
+        "wikipedia-assyrian-sculpture"
       ]
     }
   },
@@ -193,6 +294,16 @@
     "The modern-language distinction": {
       "sources": [
         "gedsh-aramaic"
+      ]
+    },
+    "A language is different from its writing system": {
+      "sources": [
+        "wikipedia-akkadian-language"
+      ]
+    },
+    "What a tablet's form contributes": {
+      "sources": [
+        "wikipedia-akkadian-language"
       ]
     }
   },
@@ -214,6 +325,31 @@
         "cambridge-nena",
         "gedsh-turoyo"
       ]
+    },
+    "A widespread language developed local forms": {
+      "sources": [
+        "wikipedia-aramaic"
+      ]
+    },
+    "Where Syriac and modern varieties fit": {
+      "sources": [
+        "wikipedia-aramaic",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          26,
+          28
+        ],
+        [
+          "ISA",
+          36,
+          11,
+          13
+        ]
+      ]
     }
   },
   "classical-syriac": {
@@ -227,6 +363,16 @@
         "syriaca-intro",
         "gedsh-syriac"
       ]
+    },
+    "A literature with several practical purposes": {
+      "sources": [
+        "wikipedia-syriac-literature"
+      ]
+    },
+    "A learned language crossed political borders": {
+      "sources": [
+        "wikipedia-syriac-literature"
+      ]
     }
   },
   "sureth": {
@@ -238,6 +384,16 @@
     "Listen to documented voices": {
       "sources": [
         "cambridge-nena"
+      ]
+    },
+    "Local speech has its own history": {
+      "sources": [
+        "wikipedia-suret-language"
+      ]
+    },
+    "Reading and speaking develop through different activities": {
+      "sources": [
+        "wikipedia-suret-language"
       ]
     }
   },
@@ -251,6 +407,16 @@
       "sources": [
         "fu-surayt"
       ]
+    },
+    "Tur Abdin and the diaspora are both settings of use": {
+      "sources": [
+        "wikipedia-turoyo-language"
+      ]
+    },
+    "A lesson needs sound, meaning and use": {
+      "sources": [
+        "wikipedia-turoyo-language"
+      ]
     }
   },
   "syriac-scripts": {
@@ -262,6 +428,18 @@
     "Reading responsibly": {
       "sources": [
         "hmml-palaeography"
+      ]
+    },
+    "Three principal styles share an alphabet": {
+      "sources": [
+        "wikipedia-syriac-alphabet",
+        "unicode-syriac-standard"
+      ]
+    },
+    "What to observe on a manuscript page": {
+      "sources": [
+        "wikipedia-syriac-alphabet",
+        "unicode-syriac-standard"
       ]
     }
   },
@@ -283,6 +461,16 @@
       "sources": [
         "hmml-voobus"
       ]
+    },
+    "The work and its surviving copy have different dates": {
+      "sources": [
+        "wikipedia-syriac-literature"
+      ]
+    },
+    "How a catalogue makes a passage findable": {
+      "sources": [
+        "wikipedia-syriac-literature"
+      ]
     }
   },
   "ephrem": {
@@ -294,6 +482,16 @@
     "Read the works with care": {
       "sources": [
         "gedsh-ephrem"
+      ]
+    },
+    "A career between Nisibis and Edessa": {
+      "sources": [
+        "wikipedia-ephrem-the-syrian"
+      ]
+    },
+    "Poetry made teaching memorable": {
+      "sources": [
+        "wikipedia-ephrem-the-syrian"
       ]
     }
   },
@@ -309,6 +507,16 @@
         "modern-simele-asa",
         "modern-simele-api"
       ]
+    },
+    "Violence and the disruption of communities": {
+      "sources": [
+        "wikipedia-simele-massacre"
+      ]
+    },
+    "Historical estimates and remembrance": {
+      "sources": [
+        "wikipedia-simele-massacre"
+      ]
     }
   },
   "sayfo": {
@@ -322,6 +530,16 @@
         "modern-sayfo",
         "modern-sayfo-eyewitness"
       ]
+    },
+    "Several regions, connected destruction": {
+      "sources": [
+        "wikipedia-sayfo"
+      ]
+    },
+    "Loss continued through displacement": {
+      "sources": [
+        "wikipedia-sayfo"
+      ]
     }
   },
   "tur-abdin": {
@@ -334,6 +552,16 @@
       "sources": [
         "gedsh-tur-abdin",
         "gedsh-turoyo"
+      ]
+    },
+    "A landscape linked through institutions": {
+      "sources": [
+        "wikipedia-tur-abdin"
+      ]
+    },
+    "Language, migration and particular places": {
+      "sources": [
+        "wikipedia-tur-abdin"
       ]
     }
   },
@@ -352,6 +580,16 @@
       "sources": [
         "nena-urmi"
       ]
+    },
+    "The city and its rural surroundings": {
+      "sources": [
+        "wikipedia-urmia"
+      ]
+    },
+    "Printing, speech and displacement": {
+      "sources": [
+        "wikipedia-urmia"
+      ]
     }
   },
   "nineveh-plain": {
@@ -363,6 +601,16 @@
     "A dated community record": {
       "sources": [
         "unami-nineveh"
+      ]
+    },
+    "A region beyond the excavated capital": {
+      "sources": [
+        "wikipedia-nineveh-plains"
+      ]
+    },
+    "Return requires more than reaching a place": {
+      "sources": [
+        "wikipedia-nineveh-plains"
       ]
     }
   },
@@ -382,6 +630,16 @@
         "modern-aaa",
         "modern-kanna"
       ]
+    },
+    "There is no single migration route": {
+      "sources": [
+        "wikipedia-assyrian-diaspora"
+      ]
+    },
+    "What is carried and what is rebuilt": {
+      "sources": [
+        "wikipedia-assyrian-diaspora"
+      ]
     }
   },
   "syriac-printing": {
@@ -391,6 +649,16 @@
       ]
     },
     "Presses in several regions": {
+      "sources": [
+        "gedsh-printing"
+      ]
+    },
+    "What printing changed": {
+      "sources": [
+        "gedsh-printing"
+      ]
+    },
+    "An edition connects producers and readers": {
       "sources": [
         "gedsh-printing"
       ]
@@ -405,6 +673,16 @@
     "Aramaic and Syriac Christianity": {
       "sources": [
         "gedsh-edessa"
+      ]
+    },
+    "A city between political worlds": {
+      "sources": [
+        "wikipedia-edessa"
+      ]
+    },
+    "Schools and remembered beginnings": {
+      "sources": [
+        "wikipedia-edessa"
       ]
     }
   },
@@ -457,6 +735,16 @@
         "modern-aaa",
         "modern-arc"
       ]
+    },
+    "Settlement is a continuing process": {
+      "sources": [
+        "wikipedia-assyrian-australians"
+      ]
+    },
+    "Generations and institutions": {
+      "sources": [
+        "wikipedia-assyrian-australians"
+      ]
     }
   },
   "oral-history": {
@@ -466,6 +754,16 @@
       ]
     },
     "Memory and evidence": {
+      "sources": [
+        "modern-kanna"
+      ]
+    },
+    "What an interview can preserve": {
+      "sources": [
+        "modern-kanna"
+      ]
+    },
+    "Memory and corroboration do different work": {
       "sources": [
         "modern-kanna"
       ]
@@ -481,6 +779,20 @@
     "Digital survival": {
       "sources": [
         "hmml-voobus"
+      ]
+    },
+    "Different objects face different risks": {
+      "sources": [
+        "unesco-ashur",
+        "hmml-voobus",
+        "met-lion"
+      ]
+    },
+    "A practical preservation sequence": {
+      "sources": [
+        "unesco-ashur",
+        "hmml-voobus",
+        "met-lion"
       ]
     }
   },
@@ -547,6 +859,55 @@
           24
         ]
       ]
+    },
+    "How names and places work in Genesis 10": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "GEN",
+          2,
+          14,
+          14
+        ],
+        [
+          "GEN",
+          10,
+          8,
+          12
+        ],
+        [
+          "GEN",
+          10,
+          22,
+          22
+        ],
+        [
+          "GEN",
+          25,
+          3,
+          3
+        ],
+        [
+          "GEN",
+          25,
+          18,
+          18
+        ],
+        [
+          "1CH",
+          1,
+          10,
+          17
+        ],
+        [
+          "NUM",
+          24,
+          21,
+          24
+        ]
+      ]
     }
   },
   "bible-pul-menahem": {
@@ -582,6 +943,25 @@
       "sources": [
         "bible-pul-imj",
         "aebp-tiglath"
+      ]
+    },
+    "Royal security placed a burden on others": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          19,
+          20
+        ],
+        [
+          "1CH",
+          5,
+          25,
+          26
+        ]
       ]
     }
   },
@@ -621,6 +1001,31 @@
           21
         ]
       ]
+    },
+    "Rescue led into a dependent relationship": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "2KI",
+          16,
+          7,
+          18
+        ],
+        [
+          "2CH",
+          28,
+          16,
+          21
+        ]
+      ]
     }
   },
   "bible-samaria": {
@@ -651,6 +1056,25 @@
           17,
           7,
           23
+        ]
+      ]
+    },
+    "Rebellion, siege and the book's explanation": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          1,
+          23
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
         ]
       ]
     }
@@ -685,6 +1109,19 @@
           "ISA",
           20,
           5,
+          6
+        ]
+      ]
+    },
+    "The notice and the sign belong together": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
           6
         ]
       ]
@@ -729,6 +1166,31 @@
           19
         ]
       ]
+    },
+    "From fortified cities to a public challenge": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ],
+        [
+          "2CH",
+          32,
+          1,
+          19
+        ]
+      ]
     }
   },
   "bible-rabshakeh": {
@@ -764,6 +1226,25 @@
           36,
           11,
           13
+        ]
+      ]
+    },
+    "The wider audience was part of the strategy": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          17,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          2,
+          22
         ]
       ]
     }
@@ -810,6 +1291,31 @@
           23
         ]
       ]
+    },
+    "The prayer answers the challenge": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          38
+        ],
+        [
+          "2CH",
+          32,
+          20,
+          23
+        ]
+      ]
     }
   },
   "bible-esarhaddon": {
@@ -831,6 +1337,31 @@
     },
     "Esar Haddon in Ezra": {
       "passages": [
+        [
+          "EZR",
+          4,
+          1,
+          5
+        ]
+      ]
+    },
+    "A successor and a later settlement claim": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          19,
+          36,
+          37
+        ],
+        [
+          "ISA",
+          37,
+          37,
+          38
+        ],
         [
           "EZR",
           4,
@@ -870,6 +1401,43 @@
           11
         ]
       ]
+    },
+    "The city and the prophet respond differently": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "JON",
+          1,
+          1,
+          17
+        ],
+        [
+          "JON",
+          2,
+          1,
+          10
+        ],
+        [
+          "JON",
+          3,
+          1,
+          10
+        ],
+        [
+          "JON",
+          4,
+          1,
+          11
+        ],
+        [
+          "2KI",
+          14,
+          25,
+          25
+        ]
+      ]
     }
   },
   "bible-nahum": {
@@ -885,6 +1453,31 @@
     },
     "The city under assault": {
       "passages": [
+        [
+          "NAH",
+          2,
+          1,
+          13
+        ],
+        [
+          "NAH",
+          3,
+          1,
+          19
+        ]
+      ]
+    },
+    "Security and violence are judged together": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "NAH",
+          1,
+          1,
+          15
+        ],
         [
           "NAH",
           2,
@@ -936,6 +1529,31 @@
           13
         ]
       ]
+    },
+    "The passage develops a shared blessing": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          19,
+          23,
+          25
+        ],
+        [
+          "ISA",
+          11,
+          11,
+          16
+        ],
+        [
+          "ISA",
+          27,
+          12,
+          13
+        ]
+      ]
     }
   },
   "ashurnasirpal-ii": {
@@ -962,6 +1580,16 @@
         "met-assyria",
         "met-court"
       ]
+    },
+    "Conquest and the building of Kalhu": {
+      "sources": [
+        "wikipedia-ashurnasirpal-ii"
+      ]
+    },
+    "The resources behind monumental success": {
+      "sources": [
+        "wikipedia-ashurnasirpal-ii"
+      ]
     }
   },
   "shalmaneser-iii": {
@@ -986,6 +1614,16 @@
       "sources": [
         "oracc-shalmaneser",
         "met-assyria"
+      ]
+    },
+    "Repeated campaigning met organised resistance": {
+      "sources": [
+        "wikipedia-shalmaneser-iii"
+      ]
+    },
+    "Tribute represented a hierarchy": {
+      "sources": [
+        "wikipedia-shalmaneser-iii"
       ]
     }
   },
@@ -1033,6 +1671,37 @@
         "aebp-tiglath",
         "bible-webbe"
       ]
+    },
+    "Annexation changed local government": {
+      "sources": [
+        "wikipedia-tiglath-pileser-iii"
+      ]
+    },
+    "Ahaz's appeal had consequences beyond battle": {
+      "sources": [
+        "wikipedia-tiglath-pileser-iii",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          15,
+          29,
+          29
+        ],
+        [
+          "2KI",
+          16,
+          7,
+          9
+        ],
+        [
+          "2CH",
+          28,
+          16,
+          21
+        ]
+      ]
     }
   },
   "shalmaneser-v": {
@@ -1073,6 +1742,46 @@
         "aebp-shalmaneser-v",
         "aebp-sargon"
       ]
+    },
+    "Subordination, rebellion and siege": {
+      "sources": [
+        "wikipedia-shalmaneser-v",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
+    },
+    "The change of reign complicates attribution": {
+      "sources": [
+        "wikipedia-shalmaneser-v",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          3,
+          6
+        ],
+        [
+          "2KI",
+          18,
+          9,
+          12
+        ]
+      ]
     }
   },
   "sargon-ii": {
@@ -1106,6 +1815,16 @@
       "sources": [
         "aebp-sargon",
         "oracc-rinap"
+      ]
+    },
+    "Consolidating authority after accession": {
+      "sources": [
+        "wikipedia-sargon-ii"
+      ]
+    },
+    "A capital tied closely to one reign": {
+      "sources": [
+        "wikipedia-sargon-ii"
       ]
     }
   },
@@ -1159,6 +1878,43 @@
         "oracc-rinap",
         "bm-lachish-panel"
       ]
+    },
+    "War became visible within the capital": {
+      "sources": [
+        "wikipedia-sennacherib"
+      ]
+    },
+    "A kingdom under pressure in 701 BCE": {
+      "sources": [
+        "wikipedia-sennacherib",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          38
+        ]
+      ]
     }
   },
   "esarhaddon": {
@@ -1207,6 +1963,16 @@
         "oracc-rinap",
         "aebp-governance"
       ]
+    },
+    "Maintaining power through a royal transition": {
+      "sources": [
+        "wikipedia-esarhaddon"
+      ]
+    },
+    "Babylon and the next generation": {
+      "sources": [
+        "wikipedia-esarhaddon"
+      ]
     }
   },
   "ashurbanipal": {
@@ -1232,6 +1998,16 @@
         "met-assyria",
         "bm-chronicle"
       ]
+    },
+    "Court learning had practical purposes": {
+      "sources": [
+        "wikipedia-ashurbanipal"
+      ]
+    },
+    "Conflict within an extensive empire": {
+      "sources": [
+        "wikipedia-ashurbanipal"
+      ]
     }
   },
   "assyrian-governance": {
@@ -1255,6 +2031,16 @@
       "sources": [
         "aebp-governance",
         "oracc-rinap"
+      ]
+    },
+    "What direct provincial rule required": {
+      "sources": [
+        "wikipedia-neo-assyrian-empire"
+      ]
+    },
+    "Letters reveal work rather than perfect order": {
+      "sources": [
+        "wikipedia-neo-assyrian-empire"
       ]
     }
   },
@@ -1301,6 +2087,37 @@
         "aebp-deportation",
         "bm-lachish-deportees"
       ]
+    },
+    "What forced removal changed": {
+      "sources": [
+        "wikipedia-neo-assyrian-empire"
+      ]
+    },
+    "Resettlement affected institutions and worship": {
+      "sources": [
+        "wikipedia-neo-assyrian-empire",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          24
+        ],
+        [
+          "1CH",
+          5,
+          25,
+          26
+        ]
+      ]
     }
   },
   "assyrian-religious-life": {
@@ -1325,6 +2142,16 @@
       "sources": [
         "unesco-ashur",
         "met-assyria"
+      ]
+    },
+    "Cult had a material basis": {
+      "sources": [
+        "wikipedia-mesopotamian-mythology"
+      ]
+    },
+    "Ritual and divination addressed different questions": {
+      "sources": [
+        "wikipedia-mesopotamian-mythology"
       ]
     }
   },
@@ -1367,6 +2194,31 @@
         "gedsh-syriac",
         "gedsh-aramaic"
       ]
+    },
+    "One state could use several languages": {
+      "sources": [
+        "wikipedia-imperial-aramaic"
+      ]
+    },
+    "The language choice at Jerusalem": {
+      "sources": [
+        "wikipedia-imperial-aramaic",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          26,
+          26
+        ],
+        [
+          "ISA",
+          36,
+          11,
+          11
+        ]
+      ]
     }
   },
   "fall-of-nineveh": {
@@ -1408,6 +2260,16 @@
         "met-levant-chronology",
         "met-assyria"
       ]
+    },
+    "Several defeats ended imperial power": {
+      "sources": [
+        "wikipedia-fall-of-nineveh"
+      ]
+    },
+    "Why a capital's destruction reached beyond its walls": {
+      "sources": [
+        "wikipedia-fall-of-nineveh"
+      ]
     }
   },
   "post-imperial-assyria": {
@@ -1432,6 +2294,16 @@
       "sources": [
         "gedsh-aramaic",
         "gedsh-assyrians"
+      ]
+    },
+    "A region within changing empires": {
+      "sources": [
+        "wikipedia-achaemenid-assyria"
+      ]
+    },
+    "Continuity is compatible with change": {
+      "sources": [
+        "wikipedia-achaemenid-assyria"
       ]
     }
   },
@@ -1458,6 +2330,18 @@
         "cdli",
         "oracc-rinap"
       ]
+    },
+    "Reading the structure of a receipt": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-corpus"
+      ]
+    },
+    "What damage changes": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-corpus"
+      ]
     }
   },
   "syriac-script-histories": {
@@ -1482,6 +2366,26 @@
       "sources": [
         "hmml-palaeography",
         "hmml-serto"
+      ]
+    },
+    "Compare characters before dating a hand": {
+      "sources": [
+        "unicode-syriac-standard",
+        "unicode-syriac-names",
+        "hmml-estrangela",
+        "hmml-serto",
+        "hmml-east",
+        "hmml-palaeography"
+      ]
+    },
+    "A book can preserve several hands": {
+      "sources": [
+        "unicode-syriac-standard",
+        "unicode-syriac-names",
+        "hmml-estrangela",
+        "hmml-serto",
+        "hmml-east",
+        "hmml-palaeography"
       ]
     }
   },
@@ -1508,6 +2412,20 @@
         "unicode-syriac-names",
         "hmml-palaeography"
       ]
+    },
+    "A character is different from a glyph": {
+      "sources": [
+        "unicode-syriac-names",
+        "unicode-syriac-standard",
+        "hmml-palaeography"
+      ]
+    },
+    "Marks and direction carry information": {
+      "sources": [
+        "unicode-syriac-names",
+        "unicode-syriac-standard",
+        "hmml-palaeography"
+      ]
     }
   },
   "nena-dialect-comparison": {
@@ -1532,6 +2450,22 @@
         "nena-dialects",
         "cambridge-nena"
       ]
+    },
+    "Compare like tasks in recordings": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects",
+        "nena-alqosh",
+        "nena-ankawa"
+      ]
+    },
+    "Variation is not automatically an error": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects",
+        "nena-alqosh",
+        "nena-ankawa"
+      ]
     }
   },
   "urmi-neo-aramaic-recordings": {
@@ -1555,6 +2489,22 @@
     "What a reliable comparison needs": {
       "sources": [
         "nena-urmi"
+      ]
+    },
+    "A voice belongs to a particular setting": {
+      "sources": [
+        "nena-urmi",
+        "cambridge-nena",
+        "gedsh-urmia",
+        "gedsh-printing"
+      ]
+    },
+    "Connect speech with the written example": {
+      "sources": [
+        "nena-urmi",
+        "cambridge-nena",
+        "gedsh-urmia",
+        "gedsh-printing"
       ]
     }
   },
@@ -1581,6 +2531,22 @@
         "gedsh-tur-abdin",
         "fu-surayt"
       ]
+    },
+    "A lesson connects sound and use": {
+      "sources": [
+        "gedsh-turoyo",
+        "gedsh-tur-abdin",
+        "fu-surayt",
+        "unicode-syriac-standard"
+      ]
+    },
+    "A course and a field record do different work": {
+      "sources": [
+        "gedsh-turoyo",
+        "gedsh-tur-abdin",
+        "fu-surayt",
+        "unicode-syriac-standard"
+      ]
     }
   },
   "manuscript-provenance-practice": {
@@ -1606,6 +2572,26 @@
         "syriac-digimss",
         "hmml-voobus"
       ]
+    },
+    "Composition, copying and custody": {
+      "sources": [
+        "hmml-palaeography",
+        "hmml-serto",
+        "hmml-east",
+        "hmml-voobus",
+        "manchester-syriac",
+        "syriac-digimss"
+      ]
+    },
+    "A reference another reader can follow": {
+      "sources": [
+        "hmml-palaeography",
+        "hmml-serto",
+        "hmml-east",
+        "hmml-voobus",
+        "manchester-syriac",
+        "syriac-digimss"
+      ]
     }
   },
   "living-language-archive-ethics": {
@@ -1628,6 +2614,22 @@
     "Enable correction and future review": {
       "sources": [
         "cambridge-nena",
+        "modern-kanna"
+      ]
+    },
+    "Describe real uses before recording": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects",
+        "modern-nena",
+        "modern-kanna"
+      ]
+    },
+    "Teach through an authorised segment": {
+      "sources": [
+        "cambridge-nena",
+        "nena-dialects",
+        "modern-nena",
         "modern-kanna"
       ]
     }
@@ -1656,6 +2658,22 @@
         "oha-australia-ethics",
         "nla-oral-history-rights"
       ]
+    },
+    "Prompts that produce a concrete account": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice",
+        "nla-oral-history-rights",
+        "modern-kanna"
+      ]
+    },
+    "When dates and memories differ": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice",
+        "nla-oral-history-rights",
+        "modern-kanna"
+      ]
     }
   },
   "assyrian-village-histories": {
@@ -1678,6 +2696,22 @@
     },
     "Privacy and surviving places": {
       "sources": [
+        "oha-australia-ethics"
+      ]
+    },
+    "Explain how a settlement functioned": {
+      "sources": [
+        "unami-nineveh",
+        "gedsh-tur-abdin",
+        "gedsh-sureth",
+        "oha-australia-ethics"
+      ]
+    },
+    "Organise change around documented events": {
+      "sources": [
+        "unami-nineveh",
+        "gedsh-tur-abdin",
+        "gedsh-sureth",
         "oha-australia-ethics"
       ]
     }
@@ -1705,6 +2739,26 @@
         "nla-oral-history-rights",
         "modern-kanna"
       ]
+    },
+    "Arrival is not the end of migration history": {
+      "sources": [
+        "modern-kanna",
+        "modern-aaa",
+        "modern-arc",
+        "gedsh-diaspora",
+        "nla-oral-history-access",
+        "nla-oral-history-rights"
+      ]
+    },
+    "Compare without making accounts identical": {
+      "sources": [
+        "modern-kanna",
+        "modern-aaa",
+        "modern-arc",
+        "gedsh-diaspora",
+        "nla-oral-history-access",
+        "nla-oral-history-rights"
+      ]
     }
   },
   "heritage-objects-and-practices": {
@@ -1726,6 +2780,22 @@
     },
     "Record rights for every medium": {
       "sources": [
+        "nla-oral-history-rights"
+      ]
+    },
+    "Technique and occasion both explain food": {
+      "sources": [
+        "modern-kileche",
+        "modern-dance",
+        "modern-festival-sydney",
+        "nla-oral-history-rights"
+      ]
+    },
+    "Objects and performances preserve different evidence": {
+      "sources": [
+        "modern-kileche",
+        "modern-dance",
+        "modern-festival-sydney",
         "nla-oral-history-rights"
       ]
     }
@@ -1753,6 +2823,22 @@
         "oha-australia-ethics",
         "nla-oral-history-rights"
       ]
+    },
+    "A contribution can have several access choices": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice",
+        "nla-oral-history-rights",
+        "nla-oral-history-access"
+      ]
+    },
+    "Withdrawal and correction differ": {
+      "sources": [
+        "oha-australia-ethics",
+        "oha-australia-practice",
+        "nla-oral-history-rights",
+        "nla-oral-history-access"
+      ]
     }
   },
   "assyria-community-broadcasts": {
@@ -1777,6 +2863,24 @@
     "Preserve citations, not illicit copies": {
       "sources": [
         "modern-radio"
+      ]
+    },
+    "A public setting for language and discussion": {
+      "sources": [
+        "modern-radio",
+        "modern-festival-sydney",
+        "modern-kileche",
+        "modern-dance",
+        "cambridge-nena"
+      ]
+    },
+    "Make an episode useful before listening": {
+      "sources": [
+        "modern-radio",
+        "modern-festival-sydney",
+        "modern-kileche",
+        "modern-dance",
+        "cambridge-nena"
       ]
     }
   },
@@ -1815,20 +2919,34 @@
     },
     "Royal spectacle and missing voices": {
       "sources": [
-        "bm-black-obelisk"
+        "bm-black-obelisk",
+        "wikipedia-black-obelisk-of-shalmaneser-iii"
       ]
     },
     "A repeatable comparison": {
       "sources": [
         "bm-black-obelisk",
-        "bible-webbe"
+        "bible-webbe",
+        "wikipedia-black-obelisk-of-shalmaneser-iii"
       ],
       "passages": [
         [
           "2KI",
           9,
+          1,
+          13
+        ],
+        [
+          "2KI",
+          9,
           14,
           37
+        ],
+        [
+          "2KI",
+          10,
+          1,
+          36
         ]
       ]
     }
@@ -1888,7 +3006,8 @@
       "sources": [
         "imj-sennacherib-prism",
         "oracc-rinap",
-        "bible-webbe"
+        "bible-webbe",
+        "wikipedia-assyrian-siege-of-jerusalem"
       ],
       "passages": [
         [
@@ -1903,7 +3022,41 @@
       "sources": [
         "oracc-rinap",
         "bm-taylor-prism",
-        "oracc-rinap3-sennacherib22"
+        "oracc-rinap3-sennacherib22",
+        "wikipedia-assyrian-siege-of-jerusalem",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          37
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          36,
+          1,
+          22
+        ],
+        [
+          "ISA",
+          37,
+          1,
+          38
+        ],
+        [
+          "2CH",
+          32,
+          1,
+          23
+        ]
       ]
     }
   },
@@ -1926,7 +3079,8 @@
     "Read Kings before harmonising": {
       "sources": [
         "bible-webbe",
-        "imj-sennacherib-prism"
+        "imj-sennacherib-prism",
+        "wikipedia-lachish-reliefs"
       ],
       "passages": [
         [
@@ -1947,7 +3101,8 @@
       "sources": [
         "bm-lachish-panel",
         "bm-lachish-deportees",
-        "bm-lachish-camp"
+        "bm-lachish-camp",
+        "wikipedia-lachish-reliefs"
       ]
     }
   },
@@ -1988,7 +3143,8 @@
     "Prophecy and a campaign are different claims": {
       "sources": [
         "bible-webbe",
-        "rinap-sargon-corpus"
+        "rinap-sargon-corpus",
+        "wikipedia-sargon-ii"
       ],
       "passages": [
         [
@@ -2004,7 +3160,17 @@
         "rinap-sargon-corpus",
         "aebp-sargon",
         "oracc-rinap",
-        "oracc-rinap2-ashdod"
+        "oracc-rinap2-ashdod",
+        "wikipedia-sargon-ii",
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ]
       ]
     }
   },
@@ -2431,7 +3597,8 @@
     "Zephaniah and later memory": {
       "sources": [
         "bible-webbe",
-        "met-nineveh-history"
+        "met-nineveh-history",
+        "wikipedia-fall-of-nineveh"
       ],
       "passages": [
         [
@@ -2444,7 +3611,8 @@
     },
     "What remains to check": {
       "sources": [
-        "bm-chronicle"
+        "bm-chronicle",
+        "wikipedia-fall-of-nineveh"
       ]
     }
   },
@@ -2488,9 +3656,30 @@
     "Keep translation and preservation visible": {
       "sources": [
         "oracc-rinap",
-        "bible-webbe"
+        "bible-webbe",
+        "bm-taylor-prism",
+        "bm-chronicle",
+        "oracc-rinap3-sennacherib22"
       ],
       "passages": [
+        [
+          "2KI",
+          18,
+          13,
+          16
+        ],
+        [
+          "2KI",
+          19,
+          1,
+          37
+        ],
+        [
+          "ISA",
+          20,
+          1,
+          6
+        ],
         [
           "NAH",
           1,
@@ -2503,7 +3692,10 @@
       "sources": [
         "oracc-rinap",
         "imj-sennacherib-prism",
-        "bible-webbe"
+        "bible-webbe",
+        "bm-taylor-prism",
+        "bm-chronicle",
+        "oracc-rinap3-sennacherib22"
       ],
       "passages": [
         [
@@ -3387,6 +4579,774 @@
         "wiley-payne-ancient-chaldaeans",
         "parker-2018-chaldaean",
         "hanoosh-2019-chaldean-identity"
+      ]
+    }
+  },
+  "church-of-the-east": {
+    "A church east of the Roman frontier": {
+      "sources": [
+        "wikipedia-church-of-the-east"
+      ]
+    },
+    "Learning and shared inheritance": {
+      "sources": [
+        "wikipedia-church-of-the-east"
+      ]
+    }
+  },
+  "syriac-orthodox": {
+    "A West Syriac tradition": {
+      "sources": [
+        "wikipedia-syriac-orthodox-church"
+      ]
+    },
+    "Monasteries, books and communal worship": {
+      "sources": [
+        "wikipedia-syriac-orthodox-church"
+      ]
+    }
+  },
+  "akitu": {
+    "What a modern celebration brings together": {
+      "sources": [
+        "wikipedia-kha-b-nisan"
+      ]
+    },
+    "Ancient reference and cultural renewal": {
+      "sources": [
+        "wikipedia-kha-b-nisan"
+      ]
+    }
+  },
+  "dance": {
+    "Co-ordinating a shared sequence": {
+      "sources": [
+        "wikipedia-assyrian-folk-dance"
+      ]
+    },
+    "Weddings, learning and variation": {
+      "sources": [
+        "wikipedia-assyrian-folk-dance"
+      ]
+    }
+  },
+  "kileche": {
+    "Dough, filling and shaping": {
+      "sources": [
+        "wikipedia-kleicha"
+      ]
+    },
+    "The occasion is part of the food's history": {
+      "sources": [
+        "wikipedia-kleicha"
+      ]
+    }
+  },
+  "music": {
+    "Different music serves different settings": {
+      "sources": [
+        "wikipedia-assyrian-music"
+      ]
+    },
+    "Performance is only one kind of authorship": {
+      "sources": [
+        "wikipedia-assyrian-music"
+      ]
+    }
+  },
+  "evin-agassi": {
+    "An international career rooted in several settings": {
+      "sources": [
+        "wikipedia-evin-agassi"
+      ]
+    },
+    "Collaboration and remembrance": {
+      "sources": [
+        "wikipedia-evin-agassi"
+      ]
+    }
+  },
+  "assyrian-australian-association": {
+    "The role of an association": {
+      "sources": [
+        "modern-aaa",
+        "modern-arc"
+      ]
+    },
+    "Records and experiences illuminate different things": {
+      "sources": [
+        "modern-aaa",
+        "modern-arc"
+      ]
+    }
+  },
+  "endangered-languages": {
+    "How language shift happens in ordinary life": {
+      "sources": [
+        "wikipedia-neo-aramaic-languages"
+      ]
+    },
+    "Documentation and use are complementary": {
+      "sources": [
+        "wikipedia-neo-aramaic-languages"
+      ]
+    }
+  },
+  "research-guide": {
+    "A worked example: a named monument": {
+      "sources": [
+        "bm-black-obelisk",
+        "oracc-riao-jehu-caption",
+        "bible-webbe"
+      ]
+    },
+    "Turn research notes into an explanation": {
+      "sources": [
+        "bm-black-obelisk",
+        "oracc-riao-jehu-caption",
+        "bible-webbe"
+      ]
+    }
+  },
+  "bible-deportation": {
+    "Movement occurred in two directions": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2KI",
+          17,
+          6,
+          6
+        ],
+        [
+          "2KI",
+          17,
+          24,
+          41
+        ],
+        [
+          "2KI",
+          18,
+          11,
+          11
+        ],
+        [
+          "1CH",
+          5,
+          6,
+          6
+        ],
+        [
+          "1CH",
+          5,
+          25,
+          26
+        ],
+        [
+          "EZR",
+          4,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  "bible-manasseh": {
+    "Humiliation is followed by a changed return": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "2CH",
+          33,
+          10,
+          20
+        ],
+        [
+          "PRM",
+          1,
+          1,
+          15
+        ]
+      ]
+    }
+  },
+  "bible-isaiah-assyria": {
+    "An instrument remains accountable": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ISA",
+          7,
+          17,
+          20
+        ],
+        [
+          "ISA",
+          8,
+          5,
+          8
+        ],
+        [
+          "ISA",
+          10,
+          5,
+          34
+        ],
+        [
+          "ISA",
+          14,
+          24,
+          27
+        ],
+        [
+          "ISA",
+          30,
+          27,
+          33
+        ],
+        [
+          "ISA",
+          31,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  "bible-hosea": {
+    "Seeking rescue does not heal the underlying problem": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "HOS",
+          5,
+          13,
+          13
+        ],
+        [
+          "HOS",
+          7,
+          11,
+          13
+        ],
+        [
+          "HOS",
+          8,
+          8,
+          10
+        ],
+        [
+          "HOS",
+          9,
+          3,
+          3
+        ],
+        [
+          "HOS",
+          10,
+          6,
+          14
+        ],
+        [
+          "HOS",
+          11,
+          5,
+          11
+        ],
+        [
+          "HOS",
+          12,
+          1,
+          1
+        ],
+        [
+          "HOS",
+          14,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "bible-ezekiel": {
+    "Another ruler is warned through Assyria's image": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "EZE",
+          23,
+          1,
+          49
+        ],
+        [
+          "EZE",
+          31,
+          1,
+          18
+        ],
+        [
+          "EZE",
+          32,
+          22,
+          23
+        ]
+      ]
+    }
+  },
+  "bible-micah": {
+    "Peace is described against invasion": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "MIC",
+          5,
+          2,
+          6
+        ],
+        [
+          "MIC",
+          7,
+          12,
+          20
+        ]
+      ]
+    }
+  },
+  "bible-zephaniah": {
+    "A confident city becomes a deserted landscape": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "ZEP",
+          2,
+          1,
+          15
+        ]
+      ]
+    }
+  },
+  "bible-other-prophets": {
+    "A shared name serves several purposes": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "JER",
+          2,
+          18,
+          18
+        ],
+        [
+          "JER",
+          2,
+          36,
+          36
+        ],
+        [
+          "JER",
+          50,
+          17,
+          20
+        ],
+        [
+          "LAM",
+          5,
+          6,
+          6
+        ],
+        [
+          "ISA",
+          52,
+          4,
+          4
+        ],
+        [
+          "PSA",
+          83,
+          1,
+          18
+        ],
+        [
+          "NEH",
+          9,
+          32,
+          32
+        ],
+        [
+          "AMO",
+          5,
+          27,
+          27
+        ],
+        [
+          "AMO",
+          6,
+          14,
+          14
+        ],
+        [
+          "ZEC",
+          10,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  "bible-ezra-memory": {
+    "A reference to the past supports a present argument": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "EZR",
+          4,
+          1,
+          10
+        ],
+        [
+          "EZR",
+          6,
+          1,
+          22
+        ],
+        [
+          "1ES",
+          7,
+          15,
+          15
+        ]
+      ]
+    }
+  },
+  "bible-new-testament": {
+    "Nineveh becomes a comparison about response": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "MAT",
+          12,
+          38,
+          42
+        ],
+        [
+          "LUK",
+          11,
+          29,
+          32
+        ],
+        [
+          "JON",
+          3,
+          1,
+          10
+        ],
+        [
+          "ACT",
+          2,
+          5,
+          11
+        ]
+      ]
+    }
+  },
+  "bible-tobit": {
+    "Exile shapes a household's obligations": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "TOB",
+          1,
+          1,
+          22
+        ],
+        [
+          "TOB",
+          2,
+          1,
+          14
+        ],
+        [
+          "TOB",
+          3,
+          1,
+          17
+        ],
+        [
+          "TOB",
+          4,
+          1,
+          21
+        ],
+        [
+          "TOB",
+          5,
+          1,
+          22
+        ],
+        [
+          "TOB",
+          6,
+          1,
+          17
+        ],
+        [
+          "TOB",
+          7,
+          1,
+          18
+        ],
+        [
+          "TOB",
+          8,
+          1,
+          21
+        ],
+        [
+          "TOB",
+          9,
+          1,
+          6
+        ],
+        [
+          "TOB",
+          10,
+          1,
+          12
+        ],
+        [
+          "TOB",
+          11,
+          1,
+          19
+        ],
+        [
+          "TOB",
+          12,
+          1,
+          22
+        ],
+        [
+          "TOB",
+          13,
+          1,
+          18
+        ],
+        [
+          "TOB",
+          14,
+          1,
+          15
+        ]
+      ]
+    }
+  },
+  "bible-judith": {
+    "A vulnerable community faces overwhelming force": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "JDT",
+          1,
+          1,
+          16
+        ],
+        [
+          "JDT",
+          2,
+          1,
+          28
+        ],
+        [
+          "JDT",
+          3,
+          1,
+          10
+        ],
+        [
+          "JDT",
+          4,
+          1,
+          15
+        ],
+        [
+          "JDT",
+          5,
+          1,
+          24
+        ],
+        [
+          "JDT",
+          6,
+          1,
+          21
+        ],
+        [
+          "JDT",
+          7,
+          1,
+          32
+        ],
+        [
+          "JDT",
+          8,
+          1,
+          36
+        ],
+        [
+          "JDT",
+          9,
+          1,
+          14
+        ],
+        [
+          "JDT",
+          10,
+          1,
+          23
+        ],
+        [
+          "JDT",
+          11,
+          1,
+          23
+        ],
+        [
+          "JDT",
+          12,
+          1,
+          20
+        ],
+        [
+          "JDT",
+          13,
+          1,
+          20
+        ],
+        [
+          "JDT",
+          14,
+          1,
+          19
+        ],
+        [
+          "JDT",
+          15,
+          1,
+          13
+        ],
+        [
+          "JDT",
+          16,
+          1,
+          25
+        ]
+      ]
+    }
+  },
+  "bible-later-remembrance": {
+    "Deliverance becomes a model for later hope": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "SIR",
+          48,
+          17,
+          22
+        ],
+        [
+          "2MA",
+          8,
+          19,
+          19
+        ],
+        [
+          "2MA",
+          15,
+          22,
+          22
+        ],
+        [
+          "3MA",
+          6,
+          5,
+          5
+        ],
+        [
+          "1ES",
+          5,
+          69,
+          69
+        ],
+        [
+          "1ES",
+          7,
+          15,
+          15
+        ],
+        [
+          "4ES",
+          13,
+          39,
+          47
+        ],
+        [
+          "4MA",
+          13,
+          9,
+          9
+        ]
+      ]
+    }
+  },
+  "bible-reading-guide": {
+    "Follow an account before isolating a quotation": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "passages": [
+        [
+          "GEN",
+          10,
+          11,
+          11
+        ],
+        [
+          "HOS",
+          10,
+          14,
+          14
+        ],
+        [
+          "EZR",
+          6,
+          22,
+          22
+        ]
       ]
     }
   }

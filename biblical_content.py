@@ -161,3 +161,6 @@ for _article in ARTICLES:
     for _slug in _MIDDLE_ASSYRIAN_COMPARATIVE_ROUTES.get(_article['slug'], []):
         if _slug not in _article['related']:
             _article['related'].append(_slug)
+
+from depth_content import expand as expand_reading_depth
+ARTICLES = expand_reading_depth(ARTICLES)

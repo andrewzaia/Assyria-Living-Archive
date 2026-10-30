@@ -11,7 +11,7 @@ import generate
 import section_evidence
 from middle_assyrian_content import ARTICLES
 
-SOURCES = json.loads((ROOT / 'sources.json').read_text())
+SOURCES = generate.SOURCES
 
 
 class ArticleCitationTests(unittest.TestCase):
@@ -45,7 +45,7 @@ class ArticleCitationTests(unittest.TestCase):
             section_evidence.DATA = original
 
     def test_existing_guides_retain_standard_trails(self):
-        article = next(a for a in generate.EDITORIAL_ARTICLES if a['slug'] == 'black-obelisk-jehu')
+        article = next(a for a in generate.EDITORIAL_ARTICLES if a['slug'] == 'assyrian-identity')
         refs = {source: i + 1 for i, source in enumerate(article['sources'])}
         html = generate.section_reading_trail(article, article['sections'][0], refs)
         self.assertIn('class="section-reading-trail"', html)

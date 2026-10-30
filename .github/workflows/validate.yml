@@ -46,6 +46,8 @@ jobs:
         run: python scripts/test_chaldean_identity.py
       - name: Test Explore category filtering, header search startup and deep links
         run: node --test scripts/test_explore_filters.mjs
+      - name: Test site-wide article review and exact local primary text
+        run: python scripts/test_content_depth.py
       - name: Test article paragraphs and compact pinpoint citations
         run: python scripts/test_article_citations.py
       - name: Test Middle Assyrian tiles against Explore card hover and theme styles

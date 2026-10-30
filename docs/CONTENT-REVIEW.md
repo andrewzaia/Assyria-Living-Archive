@@ -1,148 +1,148 @@
-# Substantive content review
+# Site-wide substantive content review
 
-Reviewed 30 October 2026. Scope: 96 foundation/expanded editorial articles and 26 biblical guides, 122 original articles in total. This inventory excludes attributed preserved reference texts, local Bible chapters and research-room interfaces. Counts describe article body prose, excluding citations and automatically attached passages.
+Reviewed 30 October 2026. This editorial pass covers all 122 original articles: 96 foundation and expanded articles and 26 biblical guides. It expands 106 articles with 186 topic-specific explanatory sections or integrated additions, and retains 16 articles with recorded reasons. The previously revised nine Middle Assyrian articles are included among the retained articles.
 
-The heading and length review is triage, not an assertion that every sentence has been independently verified. Short length is not itself a defect, and long pages can still lack useful explanation. The user identified a substantive editorial problem: topical articles were repeatedly offering source commentary and research cautions in place of teaching the topic.
+## Scope and outcomes
 
-## Completed collection
+The route inventory covers 639 generated HTML pages: 122 original articles, 372 attributed preserved reference texts, 116 complete local Bible chapters and 29 indexes, research interfaces or utilities. Original articles were assessed for topical explanation; full reference texts and primary chapters were checked for retained local content and attribution; other routes were assessed against their function. Search, bibliography and saved-reading pages do not need to imitate encyclopaedia articles.
 
-All nine Middle Assyrian guides have been rewritten, covering 45 sections. The new explanations describe MAL A 40-41, witnessed marital recognition, inheritance, women's documented transactions, agricultural organisation, named supply receipts, provincial correspondence, ritual offerings and medicine/divination. They retain individual uncertainties. Five source records add named editions or scholarly/archaeological publications. Existing 14 claim records are re-anchored; none is marked independently approved. Citation locations identify passages actually used, not completed sign-by-sign collation.
+The additions explain cities and capitals, caravan businesses, provincial administration, royal reigns, language and script, church history, cultural practice, displacement and diaspora. Object studies explain the recorded transaction before discussing limits. Dedicated method guides include worked examples and practical sequences. Biblical guides now explain the connected narratives and display a bounded excerpt of exact local primary wording alongside links to complete local chapters.
 
-The revised bodies total 5,119 words, previously 3,056. This is a change measure, not evidence that the articles are sufficient or accurate. Content and usefulness must be assessed directly. Original URLs and related-reading links are preserved.
+Existing URLs, original section titles, claim anchors and pending independent-review statuses are preserved. Paragraphs and compact citations keep explanations readable. Section-level source mappings support the new material. The Old Assyrian trade article also includes two named museum tablets from the Imdi-ilum firm: a caravan account and a letter about a business dispute and detained companions.
 
-## Remaining priorities
+## Verification and limits
 
-1. Historical comparison guides: replace method-only closing sections in the Black Obelisk, Lachish, Ashdod, Sennacherib prism and Nineveh chronicle articles with fuller historical explanation. Keep source differences explicit.
-2. Language articles: expand the descriptions of Estrangela, Serto, East Syriac, Urmi, Alqosh, Ankawa and Surayt with verified linguistic examples and useful explanations. Keep dedicated Unicode and reading-method tutorials when they teach an actual skill.
-3. Community and cultural topics: replace future-tense collection proposals with documented accounts of particular practices, institutions and events. Do not invent a village history, recipe, migration biography or interview to fill a gap.
-4. Short foundation and biblical guides: extend the subject's narrative and context, with citations to the passages already presented locally. A Bible link or a displayed passage alone does not replace an article's explanation.
-5. Individual object studies: explain the transaction and historical setting before optional instructions for checking an edition. Retain accession numbers and uncertainty.
+`data/content-review-decisions.json` records each original article's disposition. The generated `/content-review.json` inventories every HTML route, its purpose, local main-text count and disposition. The builder rejects missing route purposes, absent article decisions, missing local main text and unexpected meta-refresh redirects. The validator checks inventory equality, local links and anchors, exact retained primary text and source relationships. Regression tests cover expansion without mutation, preserved object metadata, article citations and exact biblical excerpts.
 
-The site-wide rewrite is **in progress**, not complete. Use the substantive article standard in CONTRIBUTING.md for all subsequent revisions. Obtain independent review where required by the evidence, without making that a substitute for writing a useful explanation now.
+These are editorial and structural checks, not independent historical peer review or exhaustive source collation. Existing secondary sources remain identified as such. Word counts below describe body prose only and exclude citations and attached passages; they are not quality scores. No minimum word target was used to declare completion.
+
+## Continuing maintenance
+
+This full-inventory editorial pass addresses the source-guide problem. Articles remain concise introductions and can be developed further with specific examples, primary editions and specialist review. Continue checking source support at claim level, replacing broad secondary citations where a specific primary witness is available. Community histories must not invent interviews, village details or recipes; permission-cleared contributions and independent historical and linguistic review remain outstanding.
 
 ## Article inventory
 
-| Article | Body words after this revision | Editorial disposition |
+| Article | Body words | Editorial disposition |
 | --- | ---: | --- |
-| `assyrian-identity` | 833 | Review topical depth and method-led sections |
-| `ancient-assyria` | 247 | Priority: expand topical explanation |
-| `ashur` | 135 | Priority: expand topical explanation |
-| `old-assyrian-trade` | 127 | Priority: expand topical explanation |
-| `nimrud` | 117 | Priority: expand topical explanation |
-| `khorsabad` | 110 | Priority: expand topical explanation |
-| `nineveh` | 116 | Priority: expand topical explanation |
-| `lamassu` | 136 | Priority: expand topical explanation |
-| `royal-reliefs` | 108 | Priority: expand topical explanation |
-| `akkadian-and-cuneiform` | 120 | Priority: expand topical explanation |
-| `aramaic` | 166 | Priority: expand topical explanation |
-| `classical-syriac` | 121 | Priority: expand topical explanation |
-| `sureth` | 110 | Priority: expand topical explanation |
-| `surayt` | 118 | Priority: expand topical explanation |
-| `syriac-scripts` | 113 | Priority: expand topical explanation |
-| `manuscripts` | 144 | Priority: expand topical explanation |
-| `ephrem` | 113 | Priority: expand topical explanation |
-| `faith-and-churches` | 375 | Review topical depth and method-led sections |
-| `church-of-the-east` | 105 | Priority: expand topical explanation |
-| `chaldean-church` | 585 | Review topical depth and method-led sections |
-| `syriac-orthodox` | 106 | Priority: expand topical explanation |
-| `akitu` | 116 | Priority: expand topical explanation |
-| `dance` | 122 | Priority: expand topical explanation |
-| `kileche` | 126 | Priority: expand topical explanation |
-| `music` | 114 | Priority: expand topical explanation |
-| `evin-agassi` | 124 | Priority: expand topical explanation |
-| `oral-history` | 128 | Priority: expand topical explanation |
-| `australia` | 121 | Priority: expand topical explanation |
-| `assyrian-australian-association` | 113 | Priority: expand topical explanation |
-| `simele` | 128 | Priority: expand topical explanation |
-| `sayfo` | 138 | Priority: expand topical explanation |
-| `endangered-languages` | 126 | Priority: expand topical explanation |
-| `research-guide` | 156 | Dedicated method guide: assess teaching value separately |
-| `heritage-stewardship` | 111 | Dedicated method guide: assess teaching value separately |
-| `tur-abdin` | 144 | Priority: expand topical explanation |
-| `urmia` | 172 | Priority: expand topical explanation |
-| `nineveh-plain` | 168 | Priority: expand topical explanation |
-| `diaspora` | 168 | Priority: expand topical explanation |
-| `syriac-printing` | 129 | Priority: expand topical explanation |
-| `edessa` | 123 | Priority: expand topical explanation |
-| `ashurnasirpal-ii` | 274 | Priority: expand topical explanation |
-| `shalmaneser-iii` | 261 | Priority: expand topical explanation |
-| `tiglath-pileser-iii` | 269 | Priority: expand topical explanation |
-| `shalmaneser-v` | 269 | Priority: expand topical explanation |
-| `sargon-ii` | 262 | Priority: expand topical explanation |
-| `sennacherib` | 278 | Priority: expand topical explanation |
-| `esarhaddon` | 261 | Priority: expand topical explanation |
-| `ashurbanipal` | 270 | Priority: expand topical explanation |
-| `assyrian-governance` | 275 | Priority: expand topical explanation |
-| `assyrian-deportation` | 269 | Priority: expand topical explanation |
-| `assyrian-religious-life` | 278 | Priority: expand topical explanation |
-| `imperial-languages` | 259 | Priority: expand topical explanation |
-| `fall-of-nineveh` | 280 | Priority: expand topical explanation |
-| `post-imperial-assyria` | 271 | Priority: expand topical explanation |
-| `cuneiform-reading-methods` | 266 | Dedicated method guide: assess teaching value separately |
-| `syriac-script-histories` | 247 | Priority: expand topical explanation |
-| `syriac-unicode-reading` | 245 | Priority: expand topical explanation |
-| `nena-dialect-comparison` | 251 | Priority: expand topical explanation |
-| `urmi-neo-aramaic-recordings` | 233 | Priority: expand topical explanation |
-| `surayt-documentation` | 223 | Priority: expand topical explanation |
-| `manuscript-provenance-practice` | 239 | Dedicated method guide: assess teaching value separately |
-| `living-language-archive-ethics` | 227 | Dedicated method guide: assess teaching value separately |
-| `oral-history-interview-method` | 286 | Dedicated method guide: assess teaching value separately |
-| `assyrian-village-histories` | 292 | Priority: expand topical explanation |
-| `migration-memory-research` | 260 | Priority: expand topical explanation |
-| `heritage-objects-and-practices` | 261 | Priority: expand topical explanation |
-| `heritage-consent-and-access` | 290 | Dedicated method guide: assess teaching value separately |
-| `assyria-community-broadcasts` | 246 | Priority: expand topical explanation |
-| `black-obelisk-jehu` | 371 | Review topical depth and method-led sections |
-| `sennacherib-prism-hezekiah` | 389 | Review topical depth and method-led sections |
-| `lachish-reliefs-context` | 341 | Review topical depth and method-led sections |
-| `sargon-ashdod-isaiah` | 354 | Review topical depth and method-led sections |
-| `samaria-assyrian-chronology` | 1051 | Review topical depth and method-led sections |
-| `assyrian-deportations-texts` | 1162 | Review topical depth and method-led sections |
-| `babylonian-chronicle-nineveh` | 332 | Review topical depth and method-led sections |
-| `historical-evidence-methods` | 372 | Dedicated method guide: assess teaching value separately |
-| `middle-assyrian-overview` | 567 | Rewritten in this revision |
-| `middle-assyrian-provincial-administration` | 547 | Rewritten in this revision |
-| `middle-assyrian-women-and-law` | 689 | Rewritten in this revision |
-| `middle-assyrian-households-inheritance` | 593 | Rewritten in this revision |
-| `middle-assyrian-farming-water` | 549 | Rewritten in this revision |
-| `middle-assyrian-labour-rations` | 552 | Rewritten in this revision |
-| `middle-assyrian-scribes-seals` | 535 | Rewritten in this revision |
-| `middle-assyrian-religion-ritual` | 559 | Rewritten in this revision |
-| `middle-assyrian-routes-and-exchange` | 528 | Rewritten in this revision |
-| `tablet-kaj-247-workers-temple` | 279 | Priority: expand topical explanation |
-| `tablet-marv-10-07-footwear` | 280 | Priority: expand topical explanation |
-| `tablet-kaj-233-horse-barley` | 275 | Priority: expand topical explanation |
-| `tablet-marv-1-12-guard-rations` | 264 | Priority: expand topical explanation |
-| `tablet-kaj-144-lead-house` | 284 | Priority: expand topical explanation |
-| `tablet-billa-30-barley` | 281 | Priority: expand topical explanation |
-| `tablet-kaj-118-straw` | 255 | Priority: expand topical explanation |
-| `met-62-85-3-sealed-tablet` | 259 | Priority: expand topical explanation |
-| `bm-21901-nineveh-chronicle-case` | 278 | Priority: expand topical explanation |
-| `reading-cuneiform-transliteration` | 418 | Dedicated method guide: assess teaching value separately |
-| `chaldean-name-and-heritage` | 1083 | Review topical depth and method-led sections |
-| `bible-origins` | 149 | Priority: expand topical explanation |
-| `bible-pul-menahem` | 139 | Priority: expand topical explanation |
-| `bible-tiglath-pileser` | 143 | Priority: expand topical explanation |
-| `bible-samaria` | 157 | Priority: expand topical explanation |
-| `bible-deportation` | 144 | Priority: expand topical explanation |
-| `bible-sargon` | 137 | Priority: expand topical explanation |
-| `bible-sennacherib-invasion` | 142 | Priority: expand topical explanation |
-| `bible-rabshakeh` | 142 | Priority: expand topical explanation |
-| `bible-hezekiah-deliverance` | 141 | Priority: expand topical explanation |
-| `bible-esarhaddon` | 142 | Priority: expand topical explanation |
-| `bible-manasseh` | 144 | Priority: expand topical explanation |
-| `bible-jonah` | 151 | Priority: expand topical explanation |
-| `bible-nahum` | 141 | Priority: expand topical explanation |
-| `bible-isaiah-assyria` | 125 | Priority: expand topical explanation |
-| `bible-isaiah-blessing` | 149 | Priority: expand topical explanation |
-| `bible-hosea` | 142 | Priority: expand topical explanation |
-| `bible-ezekiel` | 142 | Priority: expand topical explanation |
-| `bible-micah` | 131 | Priority: expand topical explanation |
-| `bible-zephaniah` | 123 | Priority: expand topical explanation |
-| `bible-other-prophets` | 150 | Priority: expand topical explanation |
-| `bible-ezra-memory` | 150 | Priority: expand topical explanation |
-| `bible-new-testament` | 139 | Priority: expand topical explanation |
-| `bible-tobit` | 151 | Priority: expand topical explanation |
-| `bible-judith` | 146 | Priority: expand topical explanation |
-| `bible-later-remembrance` | 153 | Priority: expand topical explanation |
-| `bible-reading-guide` | 203 | Priority: expand topical explanation |
+| `assyrian-identity` | 858 | reviewed-retained |
+| `ancient-assyria` | 457 | expanded |
+| `ashur` | 339 | expanded |
+| `old-assyrian-trade` | 429 | expanded |
+| `nimrud` | 305 | expanded |
+| `khorsabad` | 303 | expanded |
+| `nineveh` | 300 | expanded |
+| `lamassu` | 323 | expanded |
+| `royal-reliefs` | 295 | expanded |
+| `akkadian-and-cuneiform` | 305 | expanded |
+| `aramaic` | 352 | expanded |
+| `classical-syriac` | 300 | expanded |
+| `sureth` | 291 | expanded |
+| `surayt` | 299 | expanded |
+| `syriac-scripts` | 299 | expanded |
+| `manuscripts` | 332 | expanded |
+| `ephrem` | 293 | expanded |
+| `faith-and-churches` | 386 | reviewed-retained |
+| `church-of-the-east` | 287 | expanded |
+| `chaldean-church` | 594 | reviewed-retained |
+| `syriac-orthodox` | 295 | expanded |
+| `akitu` | 298 | expanded |
+| `dance` | 294 | expanded |
+| `kileche` | 302 | expanded |
+| `music` | 287 | expanded |
+| `evin-agassi` | 301 | expanded |
+| `oral-history` | 315 | expanded |
+| `australia` | 298 | expanded |
+| `assyrian-australian-association` | 289 | expanded |
+| `simele` | 314 | expanded |
+| `sayfo` | 304 | expanded |
+| `endangered-languages` | 301 | expanded |
+| `research-guide` | 312 | expanded |
+| `heritage-stewardship` | 273 | expanded |
+| `tur-abdin` | 315 | expanded |
+| `urmia` | 352 | expanded |
+| `nineveh-plain` | 342 | expanded |
+| `diaspora` | 336 | expanded |
+| `syriac-printing` | 300 | expanded |
+| `edessa` | 300 | expanded |
+| `ashurnasirpal-ii` | 449 | expanded |
+| `shalmaneser-iii` | 427 | expanded |
+| `tiglath-pileser-iii` | 441 | expanded |
+| `shalmaneser-v` | 437 | expanded |
+| `sargon-ii` | 438 | expanded |
+| `sennacherib` | 444 | expanded |
+| `esarhaddon` | 431 | expanded |
+| `ashurbanipal` | 428 | expanded |
+| `assyrian-governance` | 427 | expanded |
+| `assyrian-deportation` | 442 | expanded |
+| `assyrian-religious-life` | 434 | expanded |
+| `imperial-languages` | 428 | expanded |
+| `fall-of-nineveh` | 442 | expanded |
+| `post-imperial-assyria` | 432 | expanded |
+| `cuneiform-reading-methods` | 421 | expanded |
+| `syriac-script-histories` | 400 | expanded |
+| `syriac-unicode-reading` | 407 | expanded |
+| `nena-dialect-comparison` | 407 | expanded |
+| `urmi-neo-aramaic-recordings` | 405 | expanded |
+| `surayt-documentation` | 375 | expanded |
+| `manuscript-provenance-practice` | 403 | expanded |
+| `living-language-archive-ethics` | 377 | expanded |
+| `oral-history-interview-method` | 446 | expanded |
+| `assyrian-village-histories` | 441 | expanded |
+| `migration-memory-research` | 404 | expanded |
+| `heritage-objects-and-practices` | 421 | expanded |
+| `heritage-consent-and-access` | 448 | expanded |
+| `assyria-community-broadcasts` | 400 | expanded |
+| `black-obelisk-jehu` | 529 | expanded |
+| `sennacherib-prism-hezekiah` | 555 | expanded |
+| `lachish-reliefs-context` | 497 | expanded |
+| `sargon-ashdod-isaiah` | 516 | expanded |
+| `samaria-assyrian-chronology` | 1099 | reviewed-retained |
+| `assyrian-deportations-texts` | 1204 | reviewed-retained |
+| `babylonian-chronicle-nineveh` | 497 | expanded |
+| `historical-evidence-methods` | 522 | expanded |
+| `middle-assyrian-overview` | 593 | reviewed-retained |
+| `middle-assyrian-provincial-administration` | 565 | reviewed-retained |
+| `middle-assyrian-women-and-law` | 700 | reviewed-retained |
+| `middle-assyrian-households-inheritance` | 605 | reviewed-retained |
+| `middle-assyrian-farming-water` | 562 | reviewed-retained |
+| `middle-assyrian-labour-rations` | 573 | reviewed-retained |
+| `middle-assyrian-scribes-seals` | 555 | reviewed-retained |
+| `middle-assyrian-religion-ritual` | 573 | reviewed-retained |
+| `middle-assyrian-routes-and-exchange` | 547 | reviewed-retained |
+| `tablet-kaj-247-workers-temple` | 420 | expanded |
+| `tablet-marv-10-07-footwear` | 415 | expanded |
+| `tablet-kaj-233-horse-barley` | 409 | expanded |
+| `tablet-marv-1-12-guard-rations` | 390 | expanded |
+| `tablet-kaj-144-lead-house` | 428 | expanded |
+| `tablet-billa-30-barley` | 419 | expanded |
+| `tablet-kaj-118-straw` | 390 | expanded |
+| `met-62-85-3-sealed-tablet` | 400 | expanded |
+| `bm-21901-nineveh-chronicle-case` | 420 | expanded |
+| `reading-cuneiform-transliteration` | 433 | reviewed-retained |
+| `chaldean-name-and-heritage` | 1115 | reviewed-retained |
+| `bible-origins` | 288 | expanded |
+| `bible-pul-menahem` | 273 | expanded |
+| `bible-tiglath-pileser` | 270 | expanded |
+| `bible-samaria` | 294 | expanded |
+| `bible-deportation` | 269 | expanded |
+| `bible-sargon` | 265 | expanded |
+| `bible-sennacherib-invasion` | 266 | expanded |
+| `bible-rabshakeh` | 262 | expanded |
+| `bible-hezekiah-deliverance` | 276 | expanded |
+| `bible-esarhaddon` | 276 | expanded |
+| `bible-manasseh` | 261 | expanded |
+| `bible-jonah` | 280 | expanded |
+| `bible-nahum` | 265 | expanded |
+| `bible-isaiah-assyria` | 257 | expanded |
+| `bible-isaiah-blessing` | 269 | expanded |
+| `bible-hosea` | 261 | expanded |
+| `bible-ezekiel` | 248 | expanded |
+| `bible-micah` | 242 | expanded |
+| `bible-zephaniah` | 239 | expanded |
+| `bible-other-prophets` | 266 | expanded |
+| `bible-ezra-memory` | 266 | expanded |
+| `bible-new-testament` | 254 | expanded |
+| `bible-tobit` | 266 | expanded |
+| `bible-judith` | 260 | expanded |
+| `bible-later-remembrance` | 277 | expanded |
+| `bible-reading-guide` | 329 | expanded |

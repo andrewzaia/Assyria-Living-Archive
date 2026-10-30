@@ -151,3 +151,7 @@ html{scroll-padding-top:125px}
 /* Compact references keep the historical explanation visually primary. */
 .article-body .section-citations{font-size:.8rem;line-height:1.65;color:var(--muted);margin-top:.8rem}
 .section-citations a{text-decoration:underline;text-underline-offset:.15em}
+
+.article-body section>p+p:not(.section-citations){margin-top:.9em}
+.inline-scripture blockquote{margin:1rem 0;padding:1rem 1.25rem;border-left:3px solid var(--gold)}
+.inline-scripture blockquote p+p{margin-top:.65rem}
