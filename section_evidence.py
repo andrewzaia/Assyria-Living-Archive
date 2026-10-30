@@ -27,10 +27,15 @@ def validate(articles, sources):
         for title, evidence in sections.items():
             if title not in headings:
                 raise ValueError('Section trail has unknown heading: ' + slug + ' / ' + title)
-            if set(evidence) - {'sources', 'passages'}:
+            if set(evidence) - {'sources', 'passages', 'locations'}:
                 raise ValueError('Unknown section evidence fields: ' + slug + ' / ' + title)
             citations = evidence.get('sources', [])
             passages = evidence.get('passages', [])
+            locations = evidence.get('locations', {})
+            if (not isinstance(locations, dict) or any(
+                    key not in citations or not isinstance(value, str) or not value.strip()
+                    for key, value in locations.items())):
+                raise ValueError('Invalid citation locator: ' + slug + ' / ' + title)
             if not citations and not passages:
                 raise ValueError('Empty section trail: ' + slug + ' / ' + title)
             if len(citations) != len(set(citations)):

@@ -152,6 +152,19 @@ def section_reading_trail(article, section, source_numbers):
     mapped = section_trail(article, section['title'])
     if not mapped:
         return ''
+    if article.get('citation_style') == 'compact':
+        locations = mapped.get('locations', {})
+        citations = [
+            '<a href="#source-' + H(source_id) + '" aria-label="Source ' +
+            str(source_numbers[source_id]) + ': ' + H(SM[source_id]['title']) + '">[' +
+            str(source_numbers[source_id]) + ']</a>' +
+            (' ' + H(locations[source_id]) if locations.get(source_id) else '')
+            for source_id in mapped.get('sources', [])
+        ]
+        citations.extend('<a href="' + reference_url(tuple(ref)) + '">' +
+                         H(reference_label(tuple(ref))) + '</a>'
+                         for ref in mapped.get('passages', []))
+        return '<p class="section-citations"><strong>References:</strong> ' + '; '.join(citations) + '</p>'
     primary = ', '.join(
         '<a href="' + reference_url(tuple(ref)) + '">' + H(reference_label(tuple(ref))) + '</a>'
         for ref in mapped.get('passages', [])
@@ -169,6 +182,12 @@ def section_reading_trail(article, section, source_numbers):
     return '<aside class="section-reading-trail" aria-label="Selected references for this section"><span class="eyebrow">Section reading trail</span>' + ''.join(details) + '</aside>'
 
 
+def article_paragraphs(text):
+    """Render original prose as escaped paragraphs, preserving intentional breaks."""
+    return ''.join('<p>' + H(paragraph.strip()) + '</p>'
+                   for paragraph in text.split('\n\n') if paragraph.strip())
+
+
 def articles():
     for a in ARTICLES:
         if a.get('kind') == 'preserved_reference':
@@ -182,10 +201,10 @@ def articles():
         royal_related = royal_article_links(a['slug'])
         samaria_related = samaria_article_links(a['slug'])
         exile_related = exile_article_links(a['slug'])
-        compiled_date = '30 October 2026' if (case_record or a['slug'] == 'reading-cuneiform-transliteration') else '26 October 2026'
+        compiled_date = '30 October 2026' if (case_record or a.get('updated') or a['slug'] == 'reading-cuneiform-transliteration') else '26 October 2026'
         # Section trails are explicit and partial. The other sources remain article-level.
         citations=''.join(f'<a href="#source-{s}" class="citation" aria-label="Source {n}">[{n}]</a>' for s,n in refs.items())
-        body=''.join(f'<section id="section-{i+1}"><h2>{H(s["title"])}</h2><p>{H(s["text"])}</p>{section_reading_trail(a,s,refs)}</section>' for i,s in enumerate(a['sections']))
+        body=''.join(f'<section id="section-{i+1}"><h2>{H(s["title"])}</h2>{article_paragraphs(s["text"])}{section_reading_trail(a,s,refs)}</section>' for i,s in enumerate(a['sections']))
         toc=''.join(f'<a href="#section-{i+1}">{H(s["title"])}</a>' for i,s in enumerate(a['sections']))
         if case_record:
             toc='<a href="#object-panel-heading">Object record and edition</a><a href="#compare-lines-title">Edited lines and uncertainties</a>'+toc
@@ -196,7 +215,7 @@ def articles():
         related=''.join(card(AM[s]) for s in a['related'])
         main=f'''<main id="main"><div class="wrap article-header"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/explore/">Explore</a><span>/</span><span>{H(a['category'])}</span></nav><span class="eyebrow">{H(a['category'])}</span><h1>{H(a['title'])}</h1><p class="article-deck">{H(a['summary'])}</p><div class="article-info">{badge('Sourced introduction')}<span>{minutes(a)} min read</span><span>Compiled {compiled_date}</span><button class="save text-action" data-save="{a['slug']}" aria-pressed="false">{icon('save')} <span>Save article</span></button><button class="copy-link text-action">{icon('copy')} Copy link</button></div></div><div class="wrap article-layout"><aside class="article-toc"><span class="eyebrow">In this article</span>{toc}<a href="#article-sources">Sources & further reading</a><a href="#related">Continue exploring</a></aside><article class="article-body">{visual}{note}{object_metadata}{text_comparison_panel}{passage_panel(a)}{body}{concordance_related}{royal_related}{samaria_related}{exile_related}<div class="evidence-line"><span class="eyebrow">Evidence trail</span><p>This introduction draws on the following sources: {citations}. Section reading trails highlight selected references where a more precise relationship has been recorded. Unmapped passages and other references remain at article level; these trails are not a sentence-by-sentence verification. Editorial guidance is identified in the text.</p></div><section id="article-sources" class="article-sources"><span class="eyebrow">Go to the evidence</span><h2>Sources & further reading</h2><ul class="source-list">{''.join(source_item(SM[s],refs[s]) for s in a['sources'])}</ul></section><div class="article-review"><h3>A foundation to build on</h3><p>This introduction was compiled from the linked sources and has not received specialist peer review. It is intended as a route into further research. <a href="/governance/">Read how corrections and reviews are handled.</a></p><a href="/contribute/?type=correction&amp;article={a['slug']}">Prepare a correction or contribution {icon('arrow')}</a></div></article></div><section id="related" class="wrap section"><div class="section-top"><div><span class="eyebrow">A connected story</span><h2>Continue exploring.</h2></div></div><div class="article-grid">{related}</div></section></main>'''
         publication_date='2026-10-30' if (case_record or a['slug'] == 'reading-cuneiform-transliteration') else '2026-10-26'
-        structured={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['summary'],'inLanguage':'en-AU','datePublished':publication_date,'dateModified':publication_date,'citation':[SM[s]['url'] for s in a['sources']]}
+        structured={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['summary'],'inLanguage':'en-AU','datePublished':publication_date,'dateModified':a.get('updated', publication_date),'citation':[SM[s]['url'] for s in a['sources']]}
         if case_record:
             structured['identifier']=case_record['edition']
         extra='<script type="application/ld+json">'+json.dumps(structured).replace('<','\\u003c')+'</script>'

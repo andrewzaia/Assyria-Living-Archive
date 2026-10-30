@@ -24,6 +24,20 @@ Source records use `id`, `title`, `publisher`, `url`, `type`, `access` and `chec
 
 Published editorial guides have article-level bibliographies and selected curated section-level source trails. The evidence register at `/about/evidence/` also presents an initial claim-level verification queue. None of these links alone establishes historical truth. Do not describe an unreviewed source as peer reviewed or a consultation date as independent validation. If substantively updating an entry, check its section trail, any anchored claim-review records and their limitations. Claim reviews require exact source roles, passages and named specialist review before a completed-review label can be used.
 
+## Substantive article standard
+
+Topical articles must teach their subject on the page. Explain what happened, how an institution or practice worked, who was involved and why the details matter. Use concrete, accurately attributed examples and explain technical terms. A source link supports an explanation; it does not replace one.
+
+- Read the relevant passage or published discussion before adding a factual claim. A bibliography title or catalogue label cannot supply missing historical detail.
+- Put citations next to the explanation they support. Record page numbers, law provisions or tablet lines where available in `data/section-evidence.json` using `locations` keyed by the cited source ID.
+- State significant uncertainty beside the affected claim. Avoid repeating generic cautions in place of historical content.
+- Keep research instructions in dedicated method articles or optional further-reading guidance. A topical heading should answer the reader's question, rather than only describing a source or a future research task.
+- Use original explanatory prose. Attribute scholarship and translations, preserve the limitations of damaged readings, and check permissions before copying protected material.
+- Evaluate usefulness editorially. Word counts, section counts, source counts and automated checks cannot establish depth or accuracy. Do not inflate those counts as a substitute for content.
+- When revising headings or claims, update the corresponding source mappings and anchored review records. Keep pending review pending; a rewrite is not independent specialist approval.
+
+The current remediation inventory and remaining priorities are in [docs/CONTENT-REVIEW.md](docs/CONTENT-REVIEW.md). Preserve existing URLs and distinguish a completed collection rewrite from the larger site-wide review.
+
 ## Evidence and identity
 
 - Distinguish primary records, scholarly interpretation, oral testimony, community advocacy and institutional self-description.
