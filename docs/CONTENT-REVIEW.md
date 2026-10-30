@@ -8,7 +8,7 @@ The route inventory covers 639 generated HTML pages: 122 original articles, 372 
 
 The additions explain cities and capitals, caravan businesses, provincial administration, royal reigns, language and script, church history, cultural practice, displacement and diaspora. Object studies explain the recorded transaction before discussing limits. Dedicated method guides include worked examples and practical sequences. Biblical guides now explain the connected narratives and display a bounded excerpt of exact local primary wording alongside links to complete local chapters.
 
-Existing URLs, original section titles, claim anchors and pending independent-review statuses are preserved. Paragraphs and compact citations keep explanations readable. Section-level source mappings support the new material. The Old Assyrian trade article also includes two named museum tablets from the Imdi-ilum firm: a caravan account and a letter about a business dispute and detained companions.
+Existing URLs, original section titles, claim anchors and pending independent-review statuses are preserved. Paragraphs and boxed citations with full source names keep explanations readable. Section-level source mappings support the new material. The Old Assyrian trade article also includes two named museum tablets from the Imdi-ilum firm: a caravan account and a letter about a business dispute and detained companions.
 
 ## Verification and limits
 

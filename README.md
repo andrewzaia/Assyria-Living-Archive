@@ -349,3 +349,5 @@ The full-inventory editorial pass was merged as [PR #38](https://github.com/andr
 ## Boxed section citations restored
 
 Section references again use the shaded, bordered reference box across all original articles. Each supporting source is a fully named link, followed by its publisher and any page, law or tablet-line locator. Biblical references retain explicit book, chapter and verse labels. The expanded article text and existing citation destinations are preserved.
+
+The reference presentation correction was merged as [PR #39](https://github.com/andrewzaia/Assyria-Living-Archive/pull/39), commit `798c1a0af470a165646b42747cb0aa493203344f`, after successful GitHub validation and recorded as REV-0024.

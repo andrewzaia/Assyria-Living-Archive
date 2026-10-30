@@ -32,6 +32,35 @@
   ],
   "changes": [
     {
+      "id": "REV-0024",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Boxed section references with full named citations",
+      "summary": "Restored the shaded and bordered reference box for every mapped original article section. Supporting sources display their full linked title, publisher and any page, law or tablet-line location. Scripture references retain book, chapter and verse labels. Removed compact display settings and extended citation tests across all mapped editorial sections.",
+      "impact": "This presentation correction preserves the expanded prose, original article URLs, biblical excerpts, citation destinations and review statuses. PR #39 passed GitHub root and project-path validation before merging. The styling and link tests do not constitute independent historical review.",
+      "commit": "798c1a0af470a165646b42747cb0aa493203344f",
+      "pr": 39,
+      "sections": [
+        "/articles/old-assyrian-trade/",
+        "/articles/middle-assyrian-women-and-law/",
+        "/articles/bible-jonah/"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "generate.py",
+        "static/styles.css",
+        "scripts/test_article_citations.py",
+        "scripts/validate.py",
+        "depth_content.py",
+        "data/middle-assyrian-articles.json"
+      ]
+    },
+    {
       "id": "REV-0023",
       "date": "2026-10-30",
       "kind": "feature-release",
