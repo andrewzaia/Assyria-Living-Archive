@@ -1294,5 +1294,23 @@
     "type": "Archaeological publication project report",
     "access": "Building P, provincial centre and grand-vizier setting. Its 668 registered texts are a report-specific count, distinct from the glyptic report's 666 fragments and BATSH 9 repository's 677 written finds.",
     "checked": "2026-10-30"
+  },
+  {
+    "id": "met-old-assyrian-caravan-66-245-10",
+    "title": "Cuneiform tablet: caravan account, 66.245.10",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/325851",
+    "type": "Primary object with museum curatorial interpretation",
+    "access": "Public catalogue; historical explanation follows the museum reading, not a new independent tablet collation",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "met-old-assyrian-letter-66-245-1",
+    "title": "Cuneiform tablet: private letter, 66.245.1",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/325842",
+    "type": "Primary object with museum curatorial interpretation",
+    "access": "Public catalogue; historical explanation follows the museum reading, not a new independent tablet collation",
+    "checked": "2026-10-30"
   }
 ]

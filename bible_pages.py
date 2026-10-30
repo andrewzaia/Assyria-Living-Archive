@@ -10,8 +10,15 @@ H=html.escape
 def passage_panel(article):
     refs=article.get('passages',[])
     if not refs:return ''
+    excerpt = ''
+    if article.get('inline_scripture'):
+        book, chapter, first, last = refs[0]
+        last = min(last, first + 7)
+        bible = load_bible()
+        lines = ''.join('<p><sup>' + str(verse) + '</sup> ' + H(bible['verses'][(book, chapter, verse)]['text']) + '</p>' for verse in range(first, last + 1))
+        excerpt = '<div class="inline-scripture"><h3>' + H(reference_label((book, chapter, first, last))) + '</h3><blockquote class="scripture-excerpt" cite="' + reference_url((book, chapter, first, last)) + '">' + lines + '</blockquote><p class="muted">World English Bible British Edition. <a href="' + reference_url((book, chapter, first, last)) + '">Continue in the complete local chapter</a>.</p></div>'
     note=article.get('passage_note','The biblical text is the primary reference for the accounts discussed here. Read the complete chapters before comparing the guide\'s interpretation.')
-    return '<section id="biblical-passages" class="biblical-passages"><span class="eyebrow">BIBLICAL PRIMARY SOURCES</span><h2>Read the Scripture.</h2><p>'+H(note)+'</p><ul>'+''.join(f'<li><a href="{reference_url(p)}">{H(reference_label(p))} <span aria-hidden="true">&#8594;</span></a></li>' for p in refs)+'</ul><p><a href="/bible/">Explore Assyria in the Bible</a> &middot; <a href="/bible/passages/">Search the verse index</a></p></section>'
+    return '<section id="biblical-passages" class="biblical-passages"><span class="eyebrow">BIBLICAL PRIMARY SOURCES</span><h2>Read the Scripture.</h2><p>'+H(note)+'</p>'+excerpt+'<ul>'+''.join(f'<li><a href="{reference_url(p)}">{H(reference_label(p))} <span aria-hidden="true">&#8594;</span></a></li>' for p in refs)+'</ul><p><a href="/bible/">Explore Assyria in the Bible</a> &middot; <a href="/bible/passages/">Search the verse index</a></p></section>'
 
 
 def make_pages(write,shell,heading,card,all_articles):

@@ -85,7 +85,8 @@ class HistoricalIdentityTests(unittest.TestCase):
                 self.assertTrue(set(sources) & SCHOLARLY, slug)
                 self.assertTrue(set(sources) <= set(BY_SLUG[slug]["sources"]))
         self.assertEqual(sum(len(TRAILS[s]) for s in RELATED), 32)
-        self.assertEqual(sum(map(len, TRAILS.values())), 379)
+        # The identity-specific coverage above is stable as other collections grow.
+        self.assertTrue(set(RELATED).issubset(TRAILS))
 
 
     def test_no_ancient_kaldu_lineage_without_primary_evidence(self):

@@ -330,5 +330,7 @@ if __name__=='__main__':
     write('/expansion-metrics.json', json.dumps(METRICS, indent=2))
     write('/robots.txt', robots_text)
     write('/.nojekyll', '')
+    from content_review import build as build_content_review
+    write('/content-review.json', json.dumps(build_content_review(OUT, ARTICLES), ensure_ascii=False, indent=2))
     create_manifest(OUT, BASE_PATH, ALLOW_INDEXING)
     print(f'Generated {len(ARTICLES)} articles, {len(SOURCES)} source records and the Bible hub, verse index and chapter readers.')
