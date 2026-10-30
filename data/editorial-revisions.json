@@ -32,6 +32,50 @@
   ],
   "changes": [
     {
+      "id": "REV-0022",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Substantive Middle Assyrian historical articles and pinpoint citations",
+      "summary": "Rewrote all nine Middle Assyrian guides across 45 sections so readers can learn the subject on the page. Added explanations of MAL A 40-41, marriage and inheritance, women's transactions, agricultural organisation, named provisioning receipts, provincial letters, ritual offerings and medicine/divination. Added five identified source records, compact numbered citations with page or tablet-line locators, real paragraph breaks and updated anchors for 14 existing pending claims. Established a substantive article standard and an inventory of 122 original articles, with the remaining site-wide work tracked in Next Chapters.",
+      "impact": "Existing article URLs are preserved. Citations support the explanation rather than replacing it. Both root and project-path builds and all GitHub validation checks passed before merge. The wider editorial rewrite remains in progress; the change does not establish independent historical review or source collation.",
+      "commit": "f2a33635d72df6d2e532fb59d83f03f4898e9bfd",
+      "pr": 37,
+      "sections": [
+        "/articles/middle-assyrian-overview/",
+        "/articles/middle-assyrian-provincial-administration/",
+        "/articles/middle-assyrian-women-and-law/",
+        "/articles/middle-assyrian-households-inheritance/",
+        "/articles/middle-assyrian-farming-water/",
+        "/articles/middle-assyrian-labour-rations/",
+        "/articles/middle-assyrian-scribes-seals/",
+        "/articles/middle-assyrian-religion-ritual/",
+        "/articles/middle-assyrian-routes-and-exchange/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        ".github/workflows/validate.yml",
+        "CONTRIBUTING.md",
+        "README.md",
+        "data/claim-reviews.json",
+        "data/middle-assyrian-articles.json",
+        "data/project-roadmap.json",
+        "data/section-evidence.json",
+        "docs/CONTENT-REVIEW.md",
+        "generate.py",
+        "scripts/test_article_citations.py",
+        "scripts/validate.py",
+        "section_evidence.py",
+        "sources.json",
+        "static/styles.css"
+      ]
+    },
+    {
       "id": "REV-0021",
       "date": "2026-10-30",
       "kind": "feature-release",
