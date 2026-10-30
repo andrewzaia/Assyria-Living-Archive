@@ -807,5 +807,383 @@
       }
     ],
     "integration": "within-existing"
+  },
+  "research-guide": {
+    "sources": [
+      "bm-black-obelisk",
+      "oracc-riao-jehu-caption",
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A worked example: a named monument",
+        "text": "To investigate an Assyrian reference to Jehu, start with the Black Obelisk's tribute caption. It establishes a named political relationship on an identified monument. Whether the kneeling figure is an observed portrait of Jehu is another question, requiring a different argument.\n\nThis separates object, wording and interpretation of imagery. Kings can explain Jehu's accession while the monument supplies the external tribute reference. A source becomes useful when the reader understands exactly what it contributes, rather than merely being given its title."
+      },
+      {
+        "title": "Turn research notes into an explanation",
+        "text": "A working note records an identifier, relevant passage, supported fact and important uncertainty. Writing for readers reverses that process: begin with the explanation and place the evidence beside it.\n\nFor manuscripts, retain collection, shelfmark and folio. For objects, use accession numbers; for Scripture, give book, chapter and verses. These details make checking possible. They do not replace the article's responsibility to explain the subject and why the cited information matters."
+      }
+    ]
+  },
+  "heritage-stewardship": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Different objects face different risks",
+        "text": "A monument is affected by damage to its material and surrounding site. A manuscript also preserves bindings, page order and annotations that can be lost through separation or careless handling. A digital recording can become unreadable through storage failure or obsolete formats.\n\nPreservation begins by identifying what must survive. A transcript does not preserve a voice's timing and sound, while an image of one manuscript page does not retain every material feature of the book. Different copies preserve different kinds of evidence."
+      },
+      {
+        "title": "A practical preservation sequence",
+        "text": "Keep a master file, document its origin and maintain an independent backup that can actually be opened. A checksum detects changes to bytes, but cannot establish accurate description or publication permission.\n\nRecord who supplied an item, who owns it and what use was agreed. Private contacts and permission records should be separate from the public catalogue. Preserving context alongside content allows later custodians to understand both what the item is and what they may do with it."
+      }
+    ]
+  },
+  "cuneiform-reading-methods": {
+    "sources": [
+      "tcma-kaj-233",
+      "tcma-corpus"
+    ],
+    "sections": [
+      {
+        "title": "Reading the structure of a receipt",
+        "text": "A quantity, commodity, recipient and date can occupy distinct parts of a short receipt. Identifying those roles clarifies what the document records. A barley allocation describes grain and responsibility, not automatically the recipient's entire diet.\n\nTransliteration represents sign readings, translation interprets words, and historical explanation places the transaction in context. Keeping those layers separate produces a clearer account than treating the English sentence as a direct photograph of the original object."
+      },
+      {
+        "title": "What damage changes",
+        "text": "An editor may restore a damaged name from traces or parallels. That proposed restoration remains relevant when identifying a person. Fluent English can otherwise conceal an uncertain ancient reading.\n\nUnits and administrative terms require the same attention. An article can explain the secure parts of a transfer while retaining a question mark affecting another clause. The choice is not between inventing a whole biography and replacing all history with directions to consult an edition."
+      }
+    ]
+  },
+  "syriac-script-histories": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Compare characters before dating a hand",
+        "text": "The Syriac letter alap, ܐ, can look different in different fonts while remaining the same character. Historical handwriting adds variation from tools, proportions and scribal habits. Identifying a letter and dating a written hand are therefore different tasks.\n\nWhen comparing Estrangela, Serto and East Syriac, examine repeated letters and joining behaviour across a line. One unusual shape can mislead, especially when damaged. A pattern is stronger evidence for recognising a style than one isolated resemblance."
+      },
+      {
+        "title": "A book can preserve several hands",
+        "text": "A main text, correction and ownership note may have been added by different people. Their appearance can differ because they belong to different moments of use. A later annotation does not date the original copying.\n\nA useful description identifies the part of the page under discussion and combines handwriting with material, contents, colophons and documentary history. Script contributes to provenance but cannot alone supply a complete copying date or an exclusive church affiliation."
+      }
+    ]
+  },
+  "syriac-unicode-reading": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "A character is different from a glyph",
+        "text": "ܐ is SYRIAC LETTER ALAPH, U+0710; ܒ is SYRIAC LETTER BETH, U+0712. These encoded identities remain the same when a typeface changes their appearance. A glyph is the drawn form rather than the underlying character.\n\nThis explains why copying text between applications can preserve letters while changing style. A screenshot preserves one appearance, while encoded text can be searched, selected and rendered with another appropriate font. Both are useful, but they preserve different things."
+      },
+      {
+        "title": "Marks and direction carry information",
+        "text": "Syriac runs from right to left, while a page may also contain English references or numbers. The display system must arrange those elements together. Unexpected punctuation placement may be a bidirectional-layout problem rather than a linguistic change.\n\nReading marks can be separate characters attached to letters. Removing them can change the information available even when the consonants remain. Preserve source text, test an appropriate font and identify editorial removal of marks rather than silently calling the result an equivalent transcription."
+      }
+    ]
+  },
+  "nena-dialect-comparison": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Compare like tasks in recordings",
+        "text": "A greeting and a long narrative differ in genre as well as potential dialect. Comparable words or actions give a clearer basis for noticing sound, vocabulary and grammar. A listener must distinguish the task from the linguistic feature being compared.\n\nAlqosh and Ankawa identify separately documented localities in the Cambridge material, not two compulsory standards. A speaker's age, migration and recording circumstances can also affect what is heard. Local labels are a starting point for comparison, not a complete explanation."
+      },
+      {
+        "title": "Variation is not automatically an error",
+        "text": "Two established varieties can use different words or constructions without one speaker being wrong. Naming the variety represented helps a learner connect teaching examples with family speech.\n\nAudio, transcription and translation contribute different information. The recording carries pronunciation and timing, the transcript displays an analysis, and the translation explains meaning. Comparing all three teaches more than collecting unfamiliar sounds or treating an English gloss as a full grammatical account."
+      }
+    ]
+  },
+  "urmi-neo-aramaic-recordings": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "A voice belongs to a particular setting",
+        "text": "An Urmi recording documents a particular person's speech on an occasion. A story preserves rhythm, pronunciation and expressions that a word list cannot show. Pauses and repairs can reveal how a narrative is organised without being defects in the language.\n\nThe regional label does not make every speaker identical. Family origin, education and migration can introduce variation. Documentation becomes more useful when it preserves those circumstances alongside the audio, rather than presenting a voice as the single form spoken by a whole population."
+      },
+      {
+        "title": "Connect speech with the written example",
+        "text": "Urmia's printing history makes spoken and written relationships especially useful to study. Print conventions distribute educational material, while an individual voice can preserve pronunciations not obvious from an unvocalised page.\n\nA practical exercise follows a short segment through audio, transcription and translation: establish meaning, locate the words, then listen for their boundaries. That develops an actual reading skill and makes the resource usable on its own terms instead of leaving the page as a link described as linguistic evidence."
+      }
+    ]
+  },
+  "surayt-documentation": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "A lesson connects sound and use",
+        "text": "A greeting becomes useful when written form, recording, meaning and conversational setting are connected. Grammar can then develop through patterns recurring in meaningful examples. An alphabet chart alone cannot supply those relationships.\n\nSurayt should be distinguished from Classical Syriac and Northeastern Neo-Aramaic. Shared writing traditions do not remove differences in vocabulary and grammar. Naming the language and teaching convention lets learners choose material appropriate to their community and avoids treating unrelated examples as interchangeable."
+      },
+      {
+        "title": "A course and a field record do different work",
+        "text": "A course selects and arranges examples for progression. A field recording preserves speech in a particular encounter, possibly including forms beyond a beginner's current lessons. Neither makes the other redundant.\n\nA useful pathway moves from a taught pattern to a comparable recording and back to explanation when differences appear. This connects documentation with practice. It also avoids treating a course's selected convention as proof that every speaker must use the same form."
+      }
+    ]
+  },
+  "manuscript-provenance-practice": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Composition, copying and custody",
+        "text": "A work can be much older than the surviving book that contains it. A later owner may acquire that book far from its production place. These are distinct histories: composition, the surviving copy and subsequent custody.\n\nFor an illustrative case, a seventeenth-century manuscript may contain a much earlier author's work. The copy date does not relocate the author's lifetime, and a later ownership note does not necessarily identify where copying occurred. Separating these questions prevents common mistakes in describing a book."
+      },
+      {
+        "title": "A reference another reader can follow",
+        "text": "Identify the institution, shelfmark and folio. Recto and verso matter, and a viewer's image number may differ from the manuscript's own numbering. Preserve both where needed.\n\nThen explain what the passage supports: wording, a named copyist, a date or an ownership claim. Catalogue expertise can inform attribution without settling every stage of custody. Provenance becomes a usable account rather than an unsupported suggestion that a famous author personally made the surviving pages."
+      }
+    ]
+  },
+  "living-language-archive-ethics": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Describe real uses before recording",
+        "text": "A speaker may agree to a story being used in a language class without agreeing to unrestricted web publication, commercial reuse or the release of identifying family details. Intended uses need ordinary-language explanation rather than one vague permission.\n\nA practical record distinguishes attribution, variety, date and access conditions. Private contacts need not be public. Context and agreed limits strengthen the educational value because later users know what the recording represents and how they are permitted to use it."
+      },
+      {
+        "title": "Teach through an authorised segment",
+        "text": "A short agreed example can explain meaning and grammar without exposing sensitive third-party details. A contributor's agreement does not automatically resolve the privacy of everyone mentioned in a story.\n\nPreserve corrections too. A speaker may clarify a word, correct a transcript or change public attribution preferences. Documenting that change improves reliability. Ethics supports usable language material rather than functioning as a separate checklist added after publication."
+      }
+    ]
+  },
+  "oral-history-interview-method": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Prompts that produce a concrete account",
+        "text": "Instead of asking only what migration was like, follow a sequence: what happened before departure, who was present, what was packed, which place came next and what the first day after arrival involved. Follow up a detail introduced by the narrator.\n\nThese questions do not supply the answer or demand an emotional response. They allow ordinary routines and major events to appear together. An object or stage of travel can help organise memory without forcing the account into the interviewer's preferred story."
+      },
+      {
+        "title": "When dates and memories differ",
+        "text": "Preserve uncertainty when a narrator cannot supply an exact date. A photograph or public record may clarify it, but the recorded recollection should not be silently replaced. Distinguish testimony from later context.\n\nBefore publication, check quotations, attribution and access. A contributor may authorise an edited extract while wishing the complete recording to remain private. Recording those choices helps future readers distinguish spoken memory, editorial explanation and independently established chronology."
+      }
+    ]
+  },
+  "assyrian-village-histories": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Explain how a settlement functioned",
+        "text": "Water, cultivation, travel, schooling and worship organise daily life. Buildings and family names become informative when connected with those activities. A village history should show a working community rather than merely list a church and several residents.\n\nAlqosh, Qaraqosh and Tur Abdin's settlements illustrate why locality matters. Their institutions, speech and relationships differ. Information about one cannot be transferred to another simply because both belong to a wider Assyrian landscape."
+      },
+      {
+        "title": "Organise change around documented events",
+        "text": "A school opening, displacement, road connection or restoration can structure a chronology. Explain its consequences for ordinary life, using records for dates and testimony for experience where appropriate.\n\nIdentify modern names alongside historical ones. A current name helps locate a place, but does not prove that every earlier source meant the same territory. Connecting dated events, activities and names makes local history readable and checkable without inventing a complete past from family recollection alone."
+      }
+    ]
+  },
+  "migration-memory-research": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Arrival is not the end of migration history",
+        "text": "Departure, temporary residence, travel, arrival and settlement can involve different countries and arrangements. The place issuing a document need not be the place a traveller regarded as home.\n\nEmployment, housing, schooling and language shape the next stage. A narrative ending at the airport misses the work of building a life. Family networks and community institutions explain how households established ordinary routines, while individual experiences keep those mechanisms concrete."
+      },
+      {
+        "title": "Compare without making accounts identical",
+        "text": "Two people can leave the same region in different decades and under different circumstances. Their experiences may reveal changing transport, admission arrangements or community support. One story should not become a test that the other must match.\n\nAn institutional timeline supplies dates for an association or church; interviews explain participation. Together they provide chronology and experience. Claims about an entire diaspora require a wider basis than one compelling family narrative."
+      }
+    ]
+  },
+  "heritage-objects-and-practices": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "Technique and occasion both explain food",
+        "text": "A kileche account can identify filling, shaping and the occasion of baking. A family memory can then explain who taught the technique and why it matters. Readers learn what people actually do rather than receiving only a general claim that food preserves identity.\n\nVariation in tools, ingredients and methods can reveal adaptation to new places. Historical value does not require declaring one version the oldest or most authentic. Naming the household context makes the account specific without turning it into a compulsory recipe."
+      },
+      {
+        "title": "Objects and performances preserve different evidence",
+        "text": "A garment or instrument has material features that can be described and photographed. A song or dance also depends on sound, movement, timing and participants. Description and authorised recording preserve different aspects.\n\nIdentify makers and performers where known. Ownership of an object is distinct from rights in its photograph or a recording. Those distinctions allow useful cultural explanation with proper credit instead of leaving the page as a promise to collect heritage later."
+      }
+    ]
+  },
+  "heritage-consent-and-access": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "A contribution can have several access choices",
+        "text": "A person may permit a quotation on a public page, private research consultation of a longer recording and no release of certain family details. Those choices are compatible and need separate records.\n\nIn an illustrative interview, the public catalogue might give an agreed name and broad topic while a private record retains contacts and restrictions. The existence of permission for the public extract does not authorise publication of the private record."
+      },
+      {
+        "title": "Withdrawal and correction differ",
+        "text": "Before publication, explain the audience and the possibility of copying. Removing one web item cannot guarantee removal of downloads already made. Contributors need a realistic account of that limit.\n\nA mistaken date can be corrected with a note, while an access restriction may change whether a recording is available. Preserve the decision and reason so future custodians do not have to infer permission from the presence of a file. These practices protect contributors and improve the material's usefulness."
+      }
+    ]
+  },
+  "assyria-community-broadcasts": {
+    "sources": [],
+    "sections": [
+      {
+        "title": "A public setting for language and discussion",
+        "text": "A community programme can combine news, music, interviews and discussion in a language less available in mainstream media. It creates a public setting beyond household speech and connects listeners in different places.\n\nAn interview preserves a speaker's position on a date; a festival report documents an event. Neither automatically represents every community viewpoint. Identifying programme, contributors and subject explains what a broadcast contributes instead of turning it into an anonymous voice for all Assyrians."
+      },
+      {
+        "title": "Make an episode useful before listening",
+        "text": "An episode entry should explain its topic, factual context and named contributions. An original summary can identify what happened or what practice is discussed. The external audio then supports and extends information already present on the page.\n\nCredit broadcaster and participant, date the material and distinguish reporting, opinion and testimony. This can be done without copying a protected transcript or song lyrics. Contextual writing makes a media archive readable as well as listenable."
+      }
+    ]
+  },
+  "historical-evidence-methods": {
+    "sources": [
+      "bm-taylor-prism",
+      "bm-chronicle",
+      "bible-webbe",
+      "oracc-rinap3-sennacherib22"
+    ],
+    "sections": [
+      {
+        "title": "Agreement can coexist with a difference",
+        "text": "Kings names Sennacherib and Hezekiah and reports tribute. The Assyrian annals name the same rulers and describe pressure on Judah and Jerusalem. That supplies a particular shared setting rather than a generic resemblance between war stories.\n\nThe silver totals and emphases differ. A useful comparison states agreement and difference together. It does not require every detail to become identical before explaining what each witness contributes."
+      },
+      {
+        "title": "Two dates can describe one witness",
+        "text": "The Taylor Prism is a surviving object of 691 BCE recounting earlier campaigns, including the Judah campaign conventionally dated to 701 BCE. BM 21901 is a later copy describing events around Nineveh's fall. Object date and narrated event date are different questions.\n\nThe same distinction applies to manuscripts and retrospective monuments. Identify what survives, then which events it describes and when it was composed or copied. That prevents a dating error while retaining enough substance to explain the history."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-kaj-247-workers-temple": {
+    "sources": [
+      "tcma-kaj-247"
+    ],
+    "sections": [
+      {
+        "title": "Work and a temple in one account",
+        "text": "The entry connects 22 people with a banquet, temple activity and named responsibility. It also refers to a writing-board associated with Sin-ashared, linking surviving clay with another writing surface.\n\nThe mechanism matters: someone needed to account for organised personnel and an institution's activity. The worker category remains tentative. The record can illuminate organisation without proving that all people listed shared a precise legal status."
+      },
+      {
+        "title": "An administrative sequence",
+        "text": "An obligation, a report of performance and acknowledgement by a responsible party are different stages. Interpreting the verbs is therefore central to deciding what the writer recorded.\n\nA banquet also required resources and organisation even where the account does not describe all provisions. The text's human significance lies in the relationship between an institution and the people counted in its work, rather than an imagined festival reconstructed from one uncertain entry."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-marv-10-07-footwear": {
+    "sources": [
+      "tcma-marv-10-07"
+    ],
+    "sections": [
+      {
+        "title": "Palace property and a named recipient",
+        "text": "The shoes belong to the palace, are under the great steward Apliya's responsibility and are assigned to Niri-shaldi, described as a hostage. Owner, managing official and recipient have different roles.\n\nAn ordinary object thus enters a political supply system. A hostage could receive provisions while remaining constrained. The issue of footwear does not establish voluntary employment, but it does document responsibility for a practical need."
+      },
+      {
+        "title": "Names do not supply an entire journey",
+        "text": "The passage interpreted as campaign context names the Euphrates and the lands of Tummi and Nairi. Its uncertainty affects the setting, not the existence of the recorded footwear issue.\n\nBegin with the secure transfer and named people, then qualify the possible context. That provides information without inventing how Niri-shaldi became a hostage or every stage by which a person or object travelled."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-kaj-233-horse-barley": {
+    "sources": [
+      "tcma-kaj-233"
+    ],
+    "sections": [
+      {
+        "title": "Grain entered a service relationship",
+        "text": "The receipt records 16 homer and 5 seah of barley received by Anu-shumu-erish, son of Siniya, for the horse or horses associated with Parparrayu's service. The animal count remains uncertain.\n\nThe quantity is not a modern daily feed rate. Without a duration and secure number of animals, dividing it into a precise allowance would invent information. Its purpose and named responsibility nevertheless document animal provisioning."
+      },
+      {
+        "title": "A date distinguished the occasion",
+        "text": "The reverse gives Kuzallu, day thirteen and the eponymy of Adad-nirari. An eponym year used a named official rather than a modern numbered BCE year.\n\nDate, recipient, commodity and purpose made a compact accountability record. The tablet matters not merely because a horse appears, but because it shows how agricultural produce was assigned and how that assignment could be consulted later."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-marv-1-12-guard-rations": {
+    "sources": [
+      "tcma-marv-1-12"
+    ],
+    "sections": [
+      {
+        "title": "A public duty required supplies",
+        "text": "A guard needed to remain available for duty while an institution organised provisions. The ten-day allocation period makes that relationship concrete. It is not an annual military expenditure statement.\n\nSeparate groups show personnel classified for distribution. Those categories mattered to the account but do not by themselves reveal each person's birthplace or a complete migration history."
+      },
+      {
+        "title": "Keep quantity and duration together",
+        "text": "A quantity becomes a rate only when the relevant people and interval are known. Retaining the ten-day period prevents a misleading annual total or universal diet from being inferred.\n\nThe document illuminates resources needed to maintain a public function and how writing related duty to supply. Readers can understand that mechanism while precise metrology and uncertain readings remain questions for specialists."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-kaj-144-lead-house": {
+    "sources": [
+      "tcma-kaj-144"
+    ],
+    "sections": [
+      {
+        "title": "A house transaction involved a metal obligation",
+        "text": "The edited beginning connects lead, named parties and a house sale in the inner city. It joins immovable property with a recorded obligation involving a movable commodity, providing more than a general statement that houses were bought.\n\nLead must not silently become a modern cash price. The role of the material belongs to the wording of the transaction. Building size, household wealth and a modern currency conversion are not supplied."
+      },
+      {
+        "title": "A written relationship outlasted the encounter",
+        "text": "A document could preserve an obligation after the immediate meeting. A seal added another material feature whose interpretation requires the image and associated wording.\n\nOther records would be needed to follow earlier ownership, later transfer or a dispute's resolution. The tablet supplies a property-related relationship, not a full house biography. That distinction allows the actual transaction to remain informative without an invented account of residents and rooms."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-billa-30-barley": {
+    "sources": [
+      "tcma-billa-30"
+    ],
+    "sections": [
+      {
+        "title": "Provincial provisioning beyond Ashur",
+        "text": "The Billa record gives a provincial example of grain administration rather than another document from the capital. Measurement, named responsibility and a recorded transfer were practical needs outside royal centres too.\n\nIts significance lies in a particular transaction connected with that place. It broadens a history otherwise dominated by palace monuments, without making one receipt a complete account of a province's production."
+      },
+      {
+        "title": "One stage reveals part of a larger system",
+        "text": "Cultivation, storage and movement lay behind a grain transfer, even when the text names only the party responsible at one point. Explaining those necessary operations supplies context.\n\nUnrecorded stages must remain distinct from attested detail. The article can explain barley's role in provisioning without inventing a shipment route or treating the recorded quantity as a whole harvest. A small account makes one part of institutional work concrete."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "tablet-kaj-118-straw": {
+    "sources": [
+      "tcma-kaj-118"
+    ],
+    "sections": [
+      {
+        "title": "A by-product became an accountable resource",
+        "text": "Straw belonged to the agricultural economy alongside grain. Collecting, storing and moving it could require supervision, making it worth recording. The account draws attention to a resource less conspicuous than royal gifts or precious metal.\n\nThe connection between material and responsibility is the important mechanism. An institution treated it as something to manage; the entry does not establish the complete harvest from which it came."
+      },
+      {
+        "title": "Short records select from longer work",
+        "text": "Cultivation, harvesting, separation and handling preceded the stage recorded on a tablet. Explaining these operations is general agricultural reasoning, not a claim that the entry names every worker.\n\nIt cannot determine every later use of the straw or reconstruct a full workforce. It still preserves a specific administrative concern within farming and supply. That information restores part of the material basis of institutions known more spectacularly through monuments."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "met-62-85-3-sealed-tablet": {
+    "sources": [
+      "met-62-85-3"
+    ],
+    "sections": [
+      {
+        "title": "A small object combined writing and images",
+        "text": "The museum identifies a clay administrative tablet with two cylinder-seal impressions. Its dimensions show that record keeping need not require monumental display. A portable object could combine a verbal record with impressed images.\n\nRolling a cylinder repeats a design across clay. The position of impressions in relation to text and edges can help scholars study manufacture and handling, even where a verified translation is unavailable."
+      },
+      {
+        "title": "Useful description without a fictitious translation",
+        "text": "Material, form, catalogue period and identified impressions can be explained directly. The broader role of written and sealed clay also provides historical context.\n\nThe particular parties, commodity and excavated archive cannot be invented from those attributes. Keeping the missing edition explicit protects the distinction between observed object and imagined story. The tablet remains a concrete example of the physical technology used in institutional records."
+      }
+    ],
+    "integration": "within-existing"
+  },
+  "bm-21901-nineveh-chronicle-case": {
+    "sources": [
+      "bm-chronicle"
+    ],
+    "sections": [
+      {
+        "title": "The capital fell within a longer conflict",
+        "text": "The chronicle describes events from 616 to 609 BCE, including Nineveh's destruction. Its sequence concerns Babylonian power, attacks on Assyrian centres and resistance after the capital's fall.\n\nAn annual framework relates events without making every entry an eyewitness report. The surviving tablet is later than the narrated events. Manuscript date and historical contribution must be assessed together rather than making one automatically cancel the other."
+      },
+      {
+        "title": "The chronicle and prophets have distinct purposes",
+        "text": "Nahum presents judgement against violence and pride; Zephaniah pictures desolation. The chronicle supplies a political and military sequence. Their forms of testimony differ.\n\nExplaining each lets readers understand both collapse and its biblical interpretation. A chronicle need not report a prophet's full message, and a prophetic poem need not list every army. The comparison is useful when the substance of each witness stays visible."
+      }
+    ],
+    "integration": "within-existing"
   }
 }
