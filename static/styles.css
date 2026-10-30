@@ -147,3 +147,7 @@ html{scroll-padding-top:125px}
   .mobile-nav .nav-column-heading{margin:10px 8px 4px;padding:6px 8px 8px}
   .mobile-nav .nav-panel{max-height:none;overflow:visible}
 }
+
+/* Compact references keep the historical explanation visually primary. */
+.article-body .section-citations{font-size:.8rem;line-height:1.65;color:var(--muted);margin-top:.8rem}
+.section-citations a{text-decoration:underline;text-underline-offset:.15em}

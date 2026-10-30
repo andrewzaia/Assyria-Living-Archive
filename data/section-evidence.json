@@ -2522,32 +2522,53 @@
     }
   },
   "middle-assyrian-overview": {
-    "Where and when": {
-      "sources": [
-        "tcma-corpus"
-      ]
-    },
-    "An archive in thousands of pieces": {
-      "sources": [
-        "tcma-corpus"
-      ]
-    },
-    "Western expansion and local difference": {
+    "A kingdom extending west from Ashur": {
       "sources": [
         "tcma-corpus",
-        "fu-dur-katlimmu"
-      ]
+        "harvard-dur-katlimmu-citadel"
+      ],
+      "locations": {
+        "tcma-corpus": "Project introduction",
+        "harvard-dur-katlimmu-citadel": "Historical setting"
+      }
     },
-    "Why social history changes the questions": {
+    "Cities, fields and provincial stores": {
       "sources": [
-        "tcma-bibliography",
-        "tcma-corpus"
-      ]
+        "rollig-batsh9",
+        "fu-dur-katlimmu"
+      ],
+      "locations": {
+        "rollig-batsh9": "Introduction and institutional repository summary",
+        "fu-dur-katlimmu": "Excavation history"
+      }
     },
-    "Scripture and period boundaries": {
+    "Families and unequal legal standing": {
+      "sources": [
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 94-98"
+      }
+    },
+    "Writing made obligations durable": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-marv-10-07",
+        "tcma-corpus"
+      ],
+      "locations": {
+        "tcma-kaj-233": "obverse 1-6",
+        "tcma-marv-10-07": "obverse 1 to reverse 12",
+        "tcma-corpus": "Corpus description"
+      }
+    },
+    "Asshur and Assyrian cities in Scripture": {
       "sources": [
         "bible-webbe"
       ],
+      "locations": {
+        "bible-webbe": "Genesis 10:8-12, 22; 2 Kings 17:3-6"
+      },
       "passages": [
         [
           "GEN",
@@ -2571,62 +2592,99 @@
     }
   },
   "middle-assyrian-provincial-administration": {
-    "A particular excavated city": {
+    "A provincial centre on the Habur": {
       "sources": [
+        "harvard-dur-katlimmu-citadel",
         "fu-dur-katlimmu"
-      ]
+      ],
+      "locations": {
+        "harvard-dur-katlimmu-citadel": "Historical setting",
+        "fu-dur-katlimmu": "Project history"
+      }
     },
-    "The administrative centre": {
+    "Building P and its records": {
       "sources": [
         "harvard-dur-katlimmu-seals"
-      ]
+      ],
+      "locations": {
+        "harvard-dur-katlimmu-seals": "Building P, room A deposit"
+      }
     },
-    "What the officials recorded": {
+    "Who exercised authority": {
       "sources": [
-        "tcma-corpus"
-      ]
+        "harvard-dur-katlimmu-seals",
+        "reculeau-water-habur"
+      ],
+      "locations": {
+        "harvard-dur-katlimmu-seals": "Seal captions: grand vizier and district governor",
+        "reculeau-water-habur": "pp. 228-229"
+      }
     },
-    "Authority at several scales": {
+    "What an office needed to account for": {
       "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "rollig-batsh9",
+        "tcma-kaj-233"
+      ],
+      "locations": {
+        "rollig-batsh9": "Institutional repository summary: herders and harvests",
+        "tcma-kaj-233": "obverse 1-6; reverse 7-8"
+      }
     },
-    "Evidence gaps and further study": {
+    "Letters connected provincial households": {
       "sources": [
-        "tcma-bibliography",
-        "fu-dur-katlimmu"
-      ]
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "tcma-tabt05a-134": "obverse 1-14; reverse 15-29; left edge 31-32"
+      }
     }
   },
   "middle-assyrian-women-and-law": {
     "What the laws are": {
       "sources": [
+        "fales-veil-assyrian",
         "tcma-law"
-      ]
-    },
-    "Marriage, property and vulnerable people": {
-      "sources": [
-        "tcma-law",
-        "fales-veil-assyrian"
-      ]
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 93-94",
+        "tcma-law": "Law collection catalogue"
+      }
     },
     "Veiling as a marker of status": {
       "sources": [
         "fales-veil-assyrian"
-      ]
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 94-96; MAL A 40-41"
+      }
     },
-    "Documents challenge a single narrative": {
+    "Marriage, inheritance and violent penalties": {
+      "sources": [
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 95-97; MAL A 40-41"
+      }
+    },
+    "Women in contracts and household affairs": {
       "sources": [
         "fales-veil-assyrian",
-        "tcma-corpus"
-      ]
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 97-98",
+        "tcma-tabt05a-134": "obverse 1-8; reverse 23-29; left edge 31-32"
+      }
     },
-    "Biblical legal comparison without conflation": {
+    "Marriage and remarriage in Deuteronomy": {
       "sources": [
         "bible-webbe",
-        "tcma-law"
+        "fales-veil-assyrian"
       ],
+      "locations": {
+        "bible-webbe": "Deuteronomy 24:1-4",
+        "fales-veil-assyrian": "pp. 94-95"
+      },
       "passages": [
         [
           "DEU",
@@ -2638,158 +2696,233 @@
     }
   },
   "middle-assyrian-households-inheritance": {
-    "A household is more than a name": {
+    "Marriage created different household positions": {
       "sources": [
-        "tcma-assur",
-        "tcma-corpus"
-      ]
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 94-95; MAL A 40-41"
+      }
     },
-    "Inheritance and legal vulnerability": {
+    "Children and an inheritance share": {
       "sources": [
-        "tcma-law"
-      ]
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "p. 95; MAL A 41"
+      }
     },
-    "Property documents and deposits": {
+    "Women could arrange transactions": {
       "sources": [
-        "tcma-taban"
-      ]
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "fales-veil-assyrian": "pp. 97-98"
+      }
     },
-    "The limits of analogy": {
+    "Documents recorded transfers and obligations": {
       "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "tcma-taban",
+        "tcma-tabt05a-151"
+      ],
+      "locations": {
+        "tcma-taban": "TabT05A-191+; TabT05A-43+; period classifications",
+        "tcma-tabt05a-151": "obverse 1-7; envelope 1-7"
+      }
     },
-    "How to assemble a family dossier": {
+    "Illness and supplies crossed household boundaries": {
       "sources": [
-        "tcma-assur",
-        "tcma-taban"
-      ]
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "tcma-tabt05a-134": "obverse 1-14; reverse 15-29; left edge 31-32"
+      }
     }
   },
   "middle-assyrian-farming-water": {
-    "Water made geography political": {
+    "Farming depended on location and water": {
       "sources": [
-        "reculeau-water-habur",
-        "water-assyria-jstor"
-      ]
+        "reculeau-water-habur"
+      ],
+      "locations": {
+        "reculeau-water-habur": "pp. 214-216"
+      }
     },
-    "The administrative trace of a field": {
+    "Barley, wheat and sesame": {
       "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "rollig-batsh9"
+      ],
+      "locations": {
+        "rollig-batsh9": "Introduction and repository summary: crops and scope"
+      }
     },
-    "Irrigation law and conflict": {
+    "Herds required accountable herders": {
       "sources": [
-        "tcma-law"
-      ]
+        "rollig-batsh9"
+      ],
+      "locations": {
+        "rollig-batsh9": "Repository summary: herder commissions and flock accounting"
+      }
     },
-    "Animals and agricultural labour": {
+    "Cultivators and their supervisors": {
       "sources": [
-        "tcma-bibliography",
-        "fu-dur-katlimmu"
-      ]
+        "reculeau-water-habur"
+      ],
+      "locations": {
+        "reculeau-water-habur": "pp. 228-229"
+      }
     },
-    "A research route through the landscape": {
+    "Harvests were vulnerable to disruption": {
       "sources": [
-        "reculeau-water-habur",
-        "tcma-corpus"
-      ]
+        "rollig-batsh9",
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "rollig-batsh9": "Repository summary: threats to harvests",
+        "fales-veil-assyrian": "p. 94; subject matter of MAL B"
+      }
     }
   },
   "middle-assyrian-labour-rations": {
-    "Who appears in ration lists": {
+    "Supplying workers and service animals": {
       "sources": [
-        "tcma-bibliography",
-        "tcma-corpus"
-      ]
-    },
-    "Work and unequal power": {
-      "sources": [
-        "tcma-bibliography",
-        "tcma-corpus"
-      ]
-    },
-    "Counting food and textiles": {
-      "sources": [
-        "tcma-bibliography"
-      ]
-    },
-    "Movement under state authority": {
-      "sources": [
-        "tcma-corpus",
-        "bible-webbe"
+        "tcma-kaj-233"
       ],
-      "passages": [
-        [
-          "2KI",
-          17,
-          3,
-          6
-        ]
-      ]
+      "locations": {
+        "tcma-kaj-233": "obverse 1-6; reverse 7-8"
+      }
     },
-    "Restore the missing questions": {
+    "A pair of shoes for a hostage": {
       "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "tcma-marv-10-07"
+      ],
+      "locations": {
+        "tcma-marv-10-07": "obverse 1 to reverse 12; top edge 14-15"
+      }
+    },
+    "Temple work and compulsory service": {
+      "sources": [
+        "tcma-kaj-247"
+      ],
+      "locations": {
+        "tcma-kaj-247": "obverse 1-5; bottom edge 6; reverse 7-11"
+      }
+    },
+    "Flour moved through an institutional account": {
+      "sources": [
+        "tcma-tabt05a-151"
+      ],
+      "locations": {
+        "tcma-tabt05a-151": "obverse 1-7; bottom edge 8 to reverse 15; envelope 1-7"
+      }
+    },
+    "Obligation took different forms": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-marv-10-07",
+        "tcma-kaj-247",
+        "fales-veil-assyrian"
+      ],
+      "locations": {
+        "tcma-kaj-233": "obverse 1-6",
+        "tcma-marv-10-07": "obverse 1 to reverse 12",
+        "tcma-kaj-247": "obverse 1-5",
+        "fales-veil-assyrian": "pp. 96-97; MAL A 40"
+      }
     }
   },
   "middle-assyrian-scribes-seals": {
-    "A written record is a selection": {
+    "Scribes recorded a transaction in ordered detail": {
       "sources": [
-        "tcma-corpus"
-      ]
+        "tcma-kaj-233",
+        "tcma-marv-10-07"
+      ],
+      "locations": {
+        "tcma-kaj-233": "obverse 1-6; reverse 7-8",
+        "tcma-marv-10-07": "obverse 1 to reverse 12"
+      }
     },
-    "The meaning of a seal impression": {
+    "Dates used named eponym years": {
+      "sources": [
+        "tcma-kaj-233",
+        "tcma-marv-10-07"
+      ],
+      "locations": {
+        "tcma-kaj-233": "reverse 7-8",
+        "tcma-marv-10-07": "reverse 13 to top edge 15"
+      }
+    },
+    "Seals made authority visible": {
       "sources": [
         "harvard-dur-katlimmu-seals"
-      ]
+      ],
+      "locations": {
+        "harvard-dur-katlimmu-seals": "Seal images, external origins and office-holder captions"
+      }
     },
-    "Copies, editions and catalogue numbers": {
+    "An envelope could repeat the record": {
       "sources": [
-        "tcma-corpus",
-        "tcma-assur"
-      ]
+        "tcma-tabt05a-151",
+        "tcma-taban"
+      ],
+      "locations": {
+        "tcma-tabt05a-151": "obverse 1-7; envelope 1-7",
+        "tcma-taban": "TabT05A-191+; TabT05A-43+"
+      }
     },
-    "People behind the names": {
+    "Clay tablets belonged to larger record systems": {
       "sources": [
-        "tcma-assur"
-      ]
-    },
-    "How to preserve a source chain": {
-      "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "tcma-kaj-247"
+      ],
+      "locations": {
+        "tcma-kaj-247": "obverse 1-5; object metadata"
+      }
     }
   },
   "middle-assyrian-religion-ritual": {
-    "Aššur as a religious centre": {
+    "Ashur linked city, deity and kingship": {
       "sources": [
-        "tcma-assur",
-        "tcma-corpus",
+        "fales-veil-assyrian",
         "unesco-ashur"
-      ]
-    },
-    "Rituals in the preserved corpus": {
-      "sources": [
-        "tcma-law"
-      ]
-    },
-    "Institutions and ordinary worship": {
-      "sources": [
-        "tcma-law",
-        "tcma-assur"
-      ]
-    },
-    "Scripture on Assyrian worship in its own setting": {
-      "sources": [
-        "bible-webbe",
-        "tcma-law"
       ],
+      "locations": {
+        "fales-veil-assyrian": "p. 93",
+        "unesco-ashur": "Site description"
+      }
+    },
+    "A written ritual organised offerings": {
+      "sources": [
+        "tcma-kar139"
+      ],
+      "locations": {
+        "tcma-kar139": "obverse 1-6; catalogue dating"
+      }
+    },
+    "Temples needed organised work": {
+      "sources": [
+        "tcma-kaj-247",
+        "tcma-tabt05a-151"
+      ],
+      "locations": {
+        "tcma-kaj-247": "obverse 1-5; bottom edge 6; reverse 7-9",
+        "tcma-tabt05a-151": "bottom edge 8 to reverse 15"
+      }
+    },
+    "Medicine and divination could be considered together": {
+      "sources": [
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "tcma-tabt05a-134": "reverse 15-29"
+      }
+    },
+    "A later biblical account of an Assyrian temple": {
+      "sources": [
+        "bible-webbe"
+      ],
+      "locations": {
+        "bible-webbe": "2 Kings 19:35-37"
+      },
       "passages": [
         [
           "2KI",
@@ -2798,42 +2931,54 @@
           37
         ]
       ]
-    },
-    "Respect historical and living identities": {
-      "sources": [
-        "tcma-corpus",
-        "unesco-ashur"
-      ]
     }
   },
   "middle-assyrian-routes-and-exchange": {
-    "The geography of connection": {
+    "A kingdom connected by provincial centres": {
       "sources": [
         "tcma-corpus",
         "fu-dur-katlimmu"
-      ]
+      ],
+      "locations": {
+        "tcma-corpus": "Project introduction and findspots",
+        "fu-dur-katlimmu": "Provincial setting"
+      }
     },
-    "Letters, receipts and allocation": {
+    "Flour was assigned across several demands": {
       "sources": [
-        "tcma-taban"
-      ]
+        "tcma-tabt05a-151"
+      ],
+      "locations": {
+        "tcma-tabt05a-151": "obverse 1-7; bottom edge 8 to reverse 15; envelope 1-7"
+      }
     },
-    "Markets and institutions": {
+    "Letters co-ordinated supplies and instructions": {
       "sources": [
-        "tcma-corpus",
-        "tcma-bibliography"
-      ]
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "tcma-tabt05a-134": "reverse 23-29; top and left edges 30-32"
+      }
     },
-    "Sealings and the problem of trust": {
+    "Palace provisioning could follow constrained people": {
       "sources": [
-        "harvard-dur-katlimmu-seals"
-      ]
+        "tcma-marv-10-07"
+      ],
+      "locations": {
+        "tcma-marv-10-07": "obverse 1 to reverse 12"
+      }
     },
-    "A route for a real journey dossier": {
+    "Sealed documents travelled as well as goods": {
       "sources": [
-        "tcma-taban",
-        "fu-dur-katlimmu"
-      ]
+        "harvard-dur-katlimmu-seals",
+        "tcma-tabt05a-151",
+        "tcma-tabt05a-134"
+      ],
+      "locations": {
+        "harvard-dur-katlimmu-seals": "Discussion of seal origins",
+        "tcma-tabt05a-151": "Provincial transfer",
+        "tcma-tabt05a-134": "Letter context"
+      }
     }
   },
   "tablet-kaj-247-workers-temple": {

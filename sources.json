@@ -923,17 +923,17 @@
     "publisher": "Edizioni Ca' Foscari / Frederick Mario Fales",
     "url": "https://edizionicafoscari.unive.it/v4/en/edizioni4/libri/978-88-6969-522-3/veiling-in-ancient-near-eastern-legal-contexts/",
     "type": "Peer-reviewed scholarly interpretation of Middle Assyrian legal texts",
-    "access": "Distinguishes law-code veiling and status rules from contemporaneous documents showing more varied women's agency. Legal prescription does not automatically describe enforcement.",
-    "checked": "2026-10-29"
+    "access": "Frederick Mario Fales (2021), in Headscarf and Veiling, pp. 89-100, DOI 10.30687/978-88-6969-521-6/006. Full chapter consulted, especially pp. 93-98 and MAL A 40-41. CC BY 4.0. Original explanatory paraphrases, not a new translation; quotations reproduced within the chapter retain their original attribution.",
+    "checked": "2026-10-30"
   },
   {
     "id": "reculeau-water-habur",
     "title": "Water management and irrigation in Middle Assyrian Dur-Katlimmu",
     "publisher": "The Institute for the Study of Ancient Cultures, University of Chicago",
-    "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIS/ois13.pdf",
+    "url": "https://isac.uchicago.edu/publications/irrigation-early-states-new-directions",
     "type": "Academic discussion of archives and agrarian management",
-    "access": "Herve Reculeau's essay compares royal representations with administrative evidence for irrigation in the Euphrates and Habur valleys. Linked academic PDF, not locally copied or line-collated.",
-    "checked": "2026-10-29"
+    "access": "Herve Reculeau, chapter 9, Opener of Canals, Provider of Abundance and Plenty, in Stephanie Rost (ed.), Irrigation in Early States, OIS 13 (2022), pp. 209-298. Consulted pp. 214-216 and 228-229 for Middle Assyrian irrigation and personnel. Original summaries retain the distinction from the earlier Mari system. PDF linked from the publication page; no protected images or translations reproduced.",
+    "checked": "2026-10-30"
   },
   {
     "id": "water-assyria-jstor",
@@ -1248,6 +1248,51 @@
     "url": "https://doi.org/10.1002/9781444338386.wbeah30233",
     "type": "Independent specialist ancient-history encyclopedia entry",
     "access": "Public academic abstract distinguishes ancient Chaldaean tribes of southern Mesopotamia from any modern church designation; this is ancient-history reference evidence only, not an original ancient tablet or genealogical bridge. Full entry not independently consulted.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "rollig-batsh9",
+    "title": "Wolfgang Rollig, Land- und Viehwirtschaft am Unteren Habur in mittelassyrischer Zeit (BATSH 9, 2008)",
+    "publisher": "Wolfgang Rollig / Harrassowitz; Freie Universitaet Berlin Refubium",
+    "url": "https://refubium.fu-berlin.de/handle/fub188/35581",
+    "type": "Scholarly primary-text edition and institutional summary",
+    "access": "Edition of 106 written finds on agricultural production and livestock. Repository abstract consulted for crop names, herder accounting and harvest threats; no individual tablet line or numerical yield is attributed to the abstract.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-tabt05a-134",
+    "title": "TabT05A-134, letter of Lulayu to Labetu, P532045",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder; primary edition Shibata 2015",
+    "url": "https://oracc.museum.upenn.edu/tcma/P532045",
+    "type": "Edited primary Middle Assyrian letter",
+    "access": "Tell Taban letter, obverse 1-14 and reverse 15 through left edge 32. Discusses wellbeing, medicine, auspicious days, extispicy and supplies. Original explanatory paraphrases of the published edition; uncertain signs and damaged names are not independently collated.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-tabt05a-151",
+    "title": "TabT05A-151+, flour receipt and envelope, P532046",
+    "publisher": "Oracc ATMAP/TCMA, Jacob Jan de Ridder (2020); Shibata 2012 and Llop / Shibata 2016",
+    "url": "https://oracc.museum.upenn.edu/tcma/P532046",
+    "type": "Edited primary Middle Assyrian administrative tablet",
+    "access": "Obverse 1-7, bottom edge 8 through reverse 15, and envelope 1-7. Original explanatory paraphrases of the edition, released under CC BY-SA 3.0. The relationship of later uses to the received flour total is uncertain. Named places are not a single itinerary.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "tcma-kar139",
+    "title": "KAR 139, Ishtar ritual, VAT 15421, P369116",
+    "publisher": "Oracc ATMAP/TCMA; editions by Ebeling, Menzel and Meinhold",
+    "url": "https://oracc.museum.upenn.edu/tcma/P369116",
+    "type": "Edited primary Middle Assyrian ritual",
+    "access": "Ashur, N 04 Archive; opening ritual instructions and beer libations in obverse 1-6. Original explanatory paraphrase, not a new translation or an independently collated text.",
+    "checked": "2026-10-30"
+  },
+  {
+    "id": "harvard-dur-katlimmu-citadel",
+    "title": "The Citadel of Dur-Katlimmu in Middle and Neo-Assyrian Times",
+    "publisher": "Harvard University, Shelby White and Leon Levy Program / Hartmut Kuehne",
+    "url": "https://whitelevy.fas.harvard.edu/citadel-dur-katlimmu-middle-and-neo-assyrian-times",
+    "type": "Archaeological publication project report",
+    "access": "Building P, provincial centre and grand-vizier setting. Its 668 registered texts are a report-specific count, distinct from the glyptic report's 666 fragments and BATSH 9 repository's 677 written finds.",
     "checked": "2026-10-30"
   }
 ]
