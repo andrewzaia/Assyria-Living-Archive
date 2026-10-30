@@ -1185,5 +1185,317 @@
       }
     ],
     "integration": "within-existing"
+  },
+  "bible-origins": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "How names and places work in Genesis 10",
+        "text": "Genesis 10 arranges peoples and places within a genealogy after the flood. Nimrod is introduced through power and the beginning of his kingdom; subsequent verses name cities in the Assyrian region. Asshur also appears among the sons of Shem. Ancestry, political beginnings and geography are brought together within the narrative.\n\nThose relationships are more informative than an isolated word list. The chapter identifies how names are connected, but does not provide a modern archaeological chronology for every city's earliest occupation.\n\nNumbers 24 and Genesis 25 belong to different narrative settings. A similar spelling can lead readers to a passage without proving that every occurrence refers to the same subject. The primary wording below provides a basis for following those relationships before a historical interpretation is added."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-pul-menahem": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Royal security placed a burden on others",
+        "text": "In 2 Kings 15, Menahem makes a large payment to Pul to gain support for his rule and then raises the money from wealthy men in Israel. The arrangement connects external pressure with an internal financial burden. The king makes the decision, but others supply the wealth.\n\nThe Assyrian king's withdrawal does not turn the transaction into an equal exchange. Menahem seeks stability under pressure. That sequence helps readers understand imperial influence before the kingdom becomes the subject of later conquest narratives.\n\nChronicles places Pul and Tilgath Pilneser within its account of the eastern tribes. The passages contribute different statements and should not be collapsed into one episode. External royal identification belongs to historical comparison, while demand, payment and withdrawal can be followed directly in Kings."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-tiglath-pileser": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Rescue led into a dependent relationship",
+        "text": "Ahaz turns to Assyria under pressure from Israel and Aram. His appeal uses subordinate language and is accompanied by wealth from the temple and palace. Assyrian intervention defeats Damascus, but the story continues beyond the immediate military answer.\n\nAt Damascus Ahaz sees an altar and sends a model to Urijah. The changes that follow connect the political encounter with religious decisions and sacred space. The episode is consequently more than an entry in a campaign list.\n\nChronicles emphasises distress rather than lasting strength from Assyrian assistance. Together the accounts allow readers to follow both the request for protection and the costs of dependence. An intervention can remove one threat while creating obligations and changes within the protected kingdom."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-samaria": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Rebellion, siege and the book's explanation",
+        "text": "Hoshea first pays tribute as an Assyrian subject, then seeks Egyptian assistance and withholds payment. The response includes imprisonment and a prolonged siege. Capture is followed by removal to named destinations. That sequence supplies political background rather than presenting the fall as an isolated battle.\n\nKings also explains the catastrophe through worship, conduct, prophetic warnings and covenant rejection. This interpretation is part of the account's purpose, not a detachable introduction to military history.\n\nThe parallel notice in 2 Kings 18 relates the siege to Hoshea's and Hezekiah's reigns. A comparison with Sargon's later claims requires additional witnesses, but should not displace the narrative Kings actually supplies. Readers need the sequence and the book's stated explanation before deciding how other records relate to it."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-deportation": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Movement occurred in two directions",
+        "text": "The passages describe Israelites being removed and other populations being brought into Samaria. Those are distinct movements with different origins and destinations. Conquest changes population and institutions as well as the person holding royal power.\n\nThe account of new settlers includes lions, an appeal to the Assyrian king and a returning priest. Kings then discusses the continuation of several religious practices. The settlement narrative therefore concerns worship and conduct as well as population transfer.\n\nChronicles recounts removal from the eastern tribes; Ezra preserves later claims concerning settlement. Each contributes a particular statement. Explaining their settings prevents the place names from becoming one undifferentiated migration route or a supposedly documented genealogy for every later household."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-sargon": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "The notice and the sign belong together",
+        "text": "Isaiah 20 begins with a commander sent by Sargon attacking Ashdod. The passage then describes Isaiah's enacted sign and interprets it through Egyptian and Cushite captivity. The movement from event to action to explanation is the structure of the chapter.\n\nThe final question concerns those who expected rescue from those powers. Their confidence fails when the imagined protectors can themselves be humiliated. The chapter thus explains insecurity through a visible prophetic action.\n\nReaders encounter a named ruler and city, the prophet's conduct and the reason given for its significance. Historical evidence can extend that setting, but the short chapter is already substantive when its connected argument is explained instead of being reduced to a source reference for Sargon's name."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-sennacherib-invasion": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "From fortified cities to a public challenge",
+        "text": "The opening describes attacks on Judah's fortified cities and Hezekiah's payment, including temple wealth. The scene then moves from Lachish toward Jerusalem as the Assyrian delegation arrives with force behind its demands.\n\nThe speech challenges confidence in Egypt, Hezekiah and the LORD. Listeners on the wall are part of the encounter, so the confrontation concerns morale and allegiance as well as negotiations between officials.\n\nChapter 18 carries the report to Hezekiah and into the prayer and prophetic answer of chapter 19. Following those transitions explains a kingdom under pressure rather than ending the story at tribute. Isaiah and Chronicles add their own emphases within parallel presentations of the crisis."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-rabshakeh": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "The wider audience was part of the strategy",
+        "text": "Judean officials request Aramaic because they understand it and wish to avoid the public audience hearing the speech in its own language. The Assyrian spokesman rejects that restriction and directly addresses the people. Who understands becomes a political issue.\n\nThe speech offers a future under submission and challenges the reliability of king and God. It attempts to separate public confidence from leadership, rather than leaving the people as scenery around a diplomatic exchange.\n\nThe listeners remain silent under the king's instruction, and the officials report to Hezekiah. That response closes the public scene and moves the narrative onward. Audience, speech and silence together make the passage a particular account of pressure and decision."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-hezekiah-deliverance": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "The prayer answers the challenge",
+        "text": "Hezekiah spreads the letter before the LORD and acknowledges Assyria's victories, while distinguishing the living God from manufactured objects destroyed elsewhere. The prayer answers the spokesman's argument rather than denying the political danger.\n\nIsaiah's response addresses Jerusalem's fear and Assyrian boasting. Protection and the limits of the king's power are central to the promise. The narrative then reports destruction in the camp, Sennacherib's return and his later death.\n\nThreat, prayer, prophetic answer and deliverance form a connected account. Divine action is central to the biblical witness and should be stated as its claim. Comparisons with annals can illuminate the setting and differences of presentation, but cannot substitute a discussion of source agreement for the story itself."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-esarhaddon": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A successor and a later settlement claim",
+        "text": "Kings and Isaiah place Esarhaddon's accession after Sennacherib's killing and the killers' flight. This identifies a successor in a royal crisis, without narrating his entire reign.\n\nEzra 4 uses the name differently. Speakers seeking participation in rebuilding refer to sacrifices since the time Esar Haddon brought them into the land. The historical reference forms part of their argument about standing and religious activity.\n\nThese are succession and settlement memory in distinct settings. Explaining both makes the name useful to readers without assuming each occurrence tells the same story. The similarly spelled deity in 2 Kings 17 is another subject and cannot be treated as a further mention of the king merely because an index finds a resemblance."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-manasseh": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Humiliation is followed by a changed return",
+        "text": "Chronicles introduces the captivity after warnings were not heeded. Commanders of the king of Assyria bind Manasseh and take him to Babylon. The military authority and destination are named, while the individual Assyrian ruler remains unnamed.\n\nIn distress Manasseh humbles himself and prays. His restoration is followed by building and action against worship previously promoted. The account moves from disobedience through humiliation to recognition and reform.\n\nThis gives the episode a purpose beyond identifying a prisoner. Political defeat supplies a setting for repentance and restoration. A proposed external date or royal identification may assist historical discussion, but is not a name supplied by Chronicles and must not obscure the narrative's actual movement."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-jonah": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "The city and the prophet respond differently",
+        "text": "Jonah initially moves away from his commission. Storm, descent and rescue precede a renewed call and proclamation. Nineveh responds through belief, fasting and a decree joining outward action with turning from violence. God sees the change and relents.\n\nThe account then returns to Jonah's anger. The plant, its loss and the final question expose a tension between receiving mercy and resenting its extension to others. The prophet's own concern and distress make the issue concrete.\n\nNineveh is therefore more than a mission location. Its people and animals belong to the final appeal concerning compassion. The New Testament recalls the Ninevites' repentance, while Jonah also challenges its readers through the prophet's unresolved response."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-nahum": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Security and violence are judged together",
+        "text": "Chariots, walls, plunder and the lion's dwelling portray a powerful city losing its projected security. The address connects downfall with bloodshed, deception and exploitation. The poem concerns oppressive power, not merely the replacement of one victorious army by another.\n\nThe comparison with No-Amon questions whether Nineveh can be uniquely protected from another strong centre's fate. Resources and confidence do not provide exemption. The final address to Assyria's king broadens the significance beyond damaged buildings.\n\nJonah and Nahum concern Nineveh in different prophetic settings. Mercy following repentance and judgement against violence must each be explained through their passages. Historical chronology can then be added from identified witnesses without replacing the substance of either book."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-isaiah-assyria": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "An instrument remains accountable",
+        "text": "Isaiah 10 calls Assyria the rod of divine anger while distinguishing judgement from the ruler's intention to destroy and boast. The image of a tool exalting itself over its user criticises a claim to independent, unlimited power.\n\nThat argument belongs beside warnings about misplaced confidence. Assyria threatens, Egypt attracts hopes of rescue and Judah's decisions are interpreted through trust and faithfulness. The crisis gives those competing expectations a concrete setting.\n\nIsaiah also includes restoration and blessing involving Assyria. Reading the range prevents the book's treatment of a people and land being reduced to a permanent label of enemy. Threat, accountability, deliverance and hope are distinct parts of its prophetic account."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-isaiah-blessing": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "The passage develops a shared blessing",
+        "text": "Isaiah 19 moves through judgement toward recognition, healing and worship. The highway between Egypt and Assyria and Israel's inclusion as a third party belong within that movement beyond hostility.\n\nVerse 25 gives distinct designations within one blessing: Egypt as God's people, Assyria as the work of his hands and Israel as his inheritance. The named peoples do not need to disappear for the others to be acknowledged in that wording.\n\nThe surrounding sequence therefore matters. Geography participates in a vision of worship and reconciliation, not merely an isolated phrase about Assyria. Other gathering passages broaden the restoration context. Particular claims about fulfilment remain interpretations needing an explicit scriptural argument."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-hosea": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Seeking rescue does not heal the underlying problem",
+        "text": "Hosea describes appeals to foreign powers through illness, wandering and misplaced trust. The criticism is not simply that Egypt and Assyria are strong. People seek security without addressing the conduct for which they are being called to account.\n\nExile, tribute and rule turn dependence into lived consequences. People and objects can be removed, and anticipated help becomes domination. The political relationship therefore affects worship and community life.\n\nThe later movement includes return and the rejection of Assyria as saviour. It answers failed confidence rather than erasing the crisis. Following appeal, judgement, repentance and restoration makes the references a connected argument instead of disconnected predictions of separate wars."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-ezekiel": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Another ruler is warned through Assyria's image",
+        "text": "Ezekiel 31 addresses Pharaoh and develops Assyria as a magnificent cedar. Water, height and shelter communicate prosperity and the dependence of others before exaltation leads into downfall.\n\nThe comparison warns through the fate of an apparently secure power. Its beauty and reach matter because they precede destruction. Reducing the tree to literal territorial measurements loses the argument about pride and mortality.\n\nChapter 23 portrays Assyrian relationships through disturbing imagery, while chapter 32 places Assyria among the dead. Their genres and addressees differ. Each reference needs its literary setting so readers understand why Assyria appears, rather than encountering only a name and an external explanation."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-micah": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Peace is described against invasion",
+        "text": "Micah 5 moves from the promised ruler associated with Bethlehem into peace and defence when the Assyrian enters the land. Danger gives the announcement its setting. Land, entry and resistance describe the threatened community's need.\n\nThe land of Nimrod accompanies Assyria within that prophetic language. It creates a reading connection with Genesis without supplying a modern boundary survey.\n\nMicah 7 includes coming from distant places, shepherding, the nations' response and praise of mercy. The references thus participate in both danger and gathering. A theological reading of the ruler should show its scriptural reasoning, while historical geography must distinguish the wording from a later reconstruction."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-zephaniah": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A confident city becomes a deserted landscape",
+        "text": "Zephaniah 2:13-15 names Assyria and Nineveh, then pictures reversal. A city once secure becomes a place of animals, ruined structures and astonished passers-by. Former confidence and later desolation carry the oracle's force.\n\nThe imagery is not a tactical campaign report. It makes the consequences of judged security visible rather than inventorying every damaged building.\n\nThe surrounding chapter addresses several peoples and places within a wider warning and call to seek the LORD. That setting explains the oracle's place in the book. The year and coalition associated with the historical fall require separately named historical witnesses, rather than being presented as information the poem itself supplies."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-other-prophets": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A shared name serves several purposes",
+        "text": "Jeremiah criticises foreign dependence through water from Egypt and Assyria. Lamentations voices distress through the need for bread. Nehemiah places affliction within communal prayer and a history extending from the Assyrian kings.\n\nThese are not duplicate campaign reports. One rebukes a choice, another expresses deprivation and another remembers suffering. Their literary and social settings explain why Assyria matters differently in each.\n\nZechariah's gathering language adds another direction as people return and imperial pride is brought down. The collection consequently includes judgement, dependence, loss and restoration. An unnamed enemy elsewhere should not automatically be identified as Assyria unless that interpretation is separately argued."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-ezra-memory": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A reference to the past supports a present argument",
+        "text": "Ezra 4's speakers invoke Assyrian-era settlement while seeking a role in rebuilding. Their historical statement belongs within a dispute over participation and authority, rather than standing as a detached catalogue entry.\n\nCommunity names and the reference to Osnappar add further settlement memory in the chapter's correspondence. Their function in the argument should be explained before attaching modern historical identifications.\n\nEzra 6's title king of Assyria occurs in a later setting concerning support for temple work. Its use does not by itself establish a new Assyrian dynasty. Understanding an inherited political designation lets readers follow the passage without converting a title into an invented succession chronology."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-new-testament": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Nineveh becomes a comparison about response",
+        "text": "Matthew 12 and Luke 11 recall the Ninevites in connection with Jonah. Their repentance is used as a comparison with responses to Jesus. The point concerns what people do with a message, not Nineveh's military power.\n\nThe sign and judgement language belongs within the surrounding argument. Finding only the place name would miss why the earlier account is recalled. The passages bring an existing biblical narrative into a later teaching situation.\n\nThese references do not name a contemporary first-century Assyrian kingdom. They preserve a literary and theological remembrance of Nineveh. Explaining that remembrance supplies information while leaving later populations and political identities to their own evidence."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-tobit": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Exile shapes a household's obligations",
+        "text": "Tobit presents an Israelite household in an Assyrian exile setting. Charity, burial, family life and suffering are central activities, while royal names locate parts of the story. The book's concern extends beyond the court.\n\nTobias and Raphael's journey develops guidance, healing and family relationships. Nineveh also belongs to anticipation of judgement and departure. Present conduct in exile is connected with a future beyond the imperial city.\n\nCanonical status differs between churches, and textual editions have distinct histories. Those distinctions can be named without depriving readers of the narrative. The local passage identifies the particular public-domain witness discussed, rather than leaving its Assyrian references as a short description and link."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-judith": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "A vulnerable community faces overwhelming force",
+        "text": "Judith develops an imperial threat, a besieged community's distress and an intervention reversing expectations about who can act. Holofernes represents military confidence, while those threatened face fear, dwindling resources and the question of surrender.\n\nJudith's preparation, prayer, entry into the enemy setting and return supply narrative movement. Courage and reversal give the account more substance than a list of apparently historical names.\n\nThe identification of Nebuchadnezzar as an Assyrian king at Nineveh creates a problem beside external chronologies. That tension remains explicit here. It need not prevent explanation of the story and its theological purpose, nor justify inventing a harmonised campaign history unsupported by evidence."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-later-remembrance": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Deliverance becomes a model for later hope",
+        "text": "Later biblical texts can recall Sennacherib's defeated force without retelling Kings. A short reference assumes that the earlier event matters to a new audience. It can encourage trust or place another crisis within a longer story.\n\nSirach's praise of Hezekiah and Isaiah and references in 2 Maccabees use different literary settings. A praise of figures and an address in conflict do not employ the past identically.\n\nDistinguish the narrated earlier event from the occasion of remembrance. A later text directly documents how the account was received and used; it is not automatically an additional independent eyewitness report. This explains reception as a subject rather than only issuing a caution about evidence."
+      }
+    ],
+    "inline_scripture": true
+  },
+  "bible-reading-guide": {
+    "sources": [
+      "bible-webbe"
+    ],
+    "sections": [
+      {
+        "title": "Follow an account before isolating a quotation",
+        "text": "Begin with a connected narrative: Jonah 1-4 or 2 Kings 18-19. Follow who acts, who speaks, what prompts a speech and how the next event answers it. Then compare a parallel passage such as Isaiah 36-37, retaining differences in emphasis.\n\nA historical article identifying an inscription or object can come next. This order keeps the primary biblical account intelligible before external comparison is introduced.\n\nWith prophetic poetry, follow imagery and the person or community addressed. Flood, cedar and desolate city can carry arguments rather than literal dimensions. For later remembrance, identify the earlier event and the new setting in which it is used. These habits turn a collection of named references into material readers can actually study."
+      }
+    ],
+    "inline_scripture": true
   }
 }
