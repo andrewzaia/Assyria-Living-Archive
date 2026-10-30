@@ -152,33 +152,23 @@ def section_reading_trail(article, section, source_numbers):
     mapped = section_trail(article, section['title'])
     if not mapped:
         return ''
-    if article.get('citation_style') == 'compact':
-        locations = mapped.get('locations', {})
-        citations = [
-            '<a href="#source-' + H(source_id) + '" aria-label="Source ' +
-            str(source_numbers[source_id]) + ': ' + H(SM[source_id]['title']) + '">[' +
-            str(source_numbers[source_id]) + ']</a>' +
-            (' ' + H(locations[source_id]) if locations.get(source_id) else '')
-            for source_id in mapped.get('sources', [])
-        ]
-        citations.extend('<a href="' + reference_url(tuple(ref)) + '">' +
-                         H(reference_label(tuple(ref))) + '</a>'
-                         for ref in mapped.get('passages', []))
-        return '<p class="section-citations"><strong>References:</strong> ' + '; '.join(citations) + '</p>'
     primary = ', '.join(
         '<a href="' + reference_url(tuple(ref)) + '">' + H(reference_label(tuple(ref))) + '</a>'
         for ref in mapped.get('passages', [])
     )
-    supporting = ', '.join(
-        '<a href="#source-' + H(source_id) + '">[' + str(source_numbers[source_id]) + '] ' +
-        H(SM[source_id]['publisher']) + '</a>'
+    locations = mapped.get('locations', {})
+    supporting = ''.join(
+        '<li><a href="#source-' + H(source_id) + '">[' + str(source_numbers[source_id]) + '] ' +
+        H(SM[source_id]['title']) + '</a><span class="section-source-detail">' +
+        H(SM[source_id]['publisher']) +
+        ('; ' + H(locations[source_id]) if locations.get(source_id) else '') + '</span></li>'
         for source_id in mapped.get('sources', [])
     )
     details = []
     if primary:
         details.append('<p><strong>Scripture:</strong> ' + primary + '</p>')
     if supporting:
-        details.append('<p><strong>Additional sources:</strong> ' + supporting + '</p>')
+        details.append('<p><strong>Additional sources:</strong></p><ul class="section-source-list">' + supporting + '</ul>')
     return '<aside class="section-reading-trail" aria-label="Selected references for this section"><span class="eyebrow">Section reading trail</span>' + ''.join(details) + '</aside>'
 
 

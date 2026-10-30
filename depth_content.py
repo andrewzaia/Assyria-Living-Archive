@@ -22,6 +22,5 @@ def expand(articles):
         else:
             article['sections'].extend(copy.deepcopy(entry['sections']))
         article['updated'] = '2026-10-30'
-        article['citation_style'] = 'compact'
         article['inline_scripture'] = entry.get('inline_scripture', False)
     return result
