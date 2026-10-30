@@ -32,6 +32,37 @@
   ],
   "changes": [
     {
+      "id": "REV-0023",
+      "date": "2026-10-30",
+      "kind": "feature-release",
+      "status": "merged",
+      "title": "Site-wide substantive reading and original article review",
+      "summary": "Expanded 106 original articles with 186 explanatory sections or integrated additions across history, language, culture, church traditions, diaspora, object studies and biblical narratives. Recorded explicit decisions for all 122 original articles and inventoried all 639 generated HTML routes by purpose. Added bounded exact primary Scripture excerpts, two named caravan-business tablet examples and validation for new source trails and content coverage.",
+      "impact": "Existing URLs, original section anchors, full preserved references and Bible chapters remain available. GitHub validation passed before PR #38 merged. This completes a full-inventory editorial pass, not exhaustive subject coverage, independent historical review or linguistic specialist sign-off. Browser and live publication checks are separate from these source and build checks.",
+      "commit": "ba033e0b1965fa25e0186889592c6ad1c8e8fe49",
+      "pr": 38,
+      "sections": [
+        "/explore/",
+        "/articles/old-assyrian-trade/",
+        "/articles/bible-jonah/",
+        "/about/#next-chapters"
+      ],
+      "review": {
+        "level": "automated-validation-only",
+        "independent_reviewer": null,
+        "reviewed_on": null
+      },
+      "affected_files": [
+        "data/article-depth-expansions.json",
+        "data/content-review-decisions.json",
+        "content_review.py",
+        "depth_content.py",
+        "bible_pages.py",
+        "data/section-evidence.json",
+        "docs/CONTENT-REVIEW.md"
+      ]
+    },
+    {
       "id": "REV-0022",
       "date": "2026-10-30",
       "kind": "feature-release",
