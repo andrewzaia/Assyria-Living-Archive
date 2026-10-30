@@ -344,3 +344,8 @@ The recovered editorial pass expands 106 of the 122 original articles with 186 e
 The generated `content-review.json` inventories every HTML route by purpose. The 639-page scope comprises original articles, preserved full references, complete Bible chapters and research/index/utility pages. Missing dispositions, unknown routes, absent local main text and meta-refresh redirects fail the inventory build. See [docs/CONTENT-REVIEW.md](docs/CONTENT-REVIEW.md) for the full article inventory and explicit verification limits. This is completion of an editorial pass, not independent academic sign-off or a claim that every subject is exhaustively covered.
 
 The full-inventory editorial pass was merged as [PR #38](https://github.com/andrewzaia/Assyria-Living-Archive/pull/38), commit `ba033e0b1965fa25e0186889592c6ad1c8e8fe49`, after successful GitHub validation. Public revision REV-0023 records the scope and verification limits.
+
+
+## Boxed section citations restored
+
+Section references again use the shaded, bordered reference box across all original articles. Each supporting source is a fully named link, followed by its publisher and any page, law or tablet-line locator. Biblical references retain explicit book, chapter and verse labels. The expanded article text and existing citation destinations are preserved.

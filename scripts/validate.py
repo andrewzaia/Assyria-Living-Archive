@@ -114,7 +114,7 @@ def main():
         if not route.exists():
             errors.append(f"Missing generated editorial guide: {article['slug']}")
             continue
-        citation_class = 'section-citations' if article.get('citation_style') == 'compact' else 'section-reading-trail'
+        citation_class = 'section-reading-trail'
         actual = route.read_text(encoding='utf-8').count('class="' + citation_class + '"')
         expected = len(SECTION_DATA.get(article['slug'], {}))
         if actual != expected:

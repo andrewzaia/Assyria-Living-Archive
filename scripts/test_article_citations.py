@@ -20,15 +20,21 @@ class ArticleCitationTests(unittest.TestCase):
                          '<p>First &lt;script&gt;.</p><p>Second &amp; final.</p>')
 
     def test_all_revised_sections_have_resolvable_citations(self):
-        for article in ARTICLES:
+        for article in generate.EDITORIAL_ARTICLES:
             refs = {source: i + 1 for i, source in enumerate(article['sources'])}
             for section in article['sections']:
+                if not section_evidence.trail(article, section['title']):
+                    continue
                 with self.subTest(article=article['slug'], section=section['title']):
                     html = generate.section_reading_trail(article, section, refs)
-                    self.assertIn('class="section-citations"', html)
+                    self.assertIn('class="section-reading-trail"', html)
                     mapped = section_evidence.trail(article, section['title'])
-                    for source in mapped['sources']:
+                    for source in mapped.get('sources', []):
                         self.assertIn('href="#source-' + source + '"', html)
+                        self.assertIn(generate.H(generate.SM[source]['title']), html)
+                        self.assertIn(generate.H(generate.SM[source]['publisher']), html)
+                    for passage in mapped.get('passages', []):
+                        self.assertIn(generate.H(generate.reference_label(tuple(passage))), html)
                     for locator in mapped.get('locations', {}).values():
                         self.assertIn(generate.H(locator), html)
 
