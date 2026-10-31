@@ -109,6 +109,16 @@ def main():
     for event in TIMELINE:
         if event[4] not in slugs or event[5] not in source_ids:
             errors.append(f'Unknown timeline reference: {event[2]}')
+    for article in ARTICLES:
+        route = OUT / 'articles' / article['slug'] / 'index.html'
+        if not route.exists():
+            errors.append(f"Missing generated article page: {article['slug']}")
+            continue
+        html_text = route.read_text(encoding='utf-8')
+        if 'data-article-media' not in html_text:
+            errors.append(f"Article lacks image discovery panel: {article['slug']}")
+        if '/article-media.js' not in html_text or '/article-media.css' not in html_text:
+            errors.append(f"Article lacks shared media assets: {article['slug']}")
     for article in EDITORIAL_ARTICLES:
         route = OUT / 'articles' / article['slug'] / 'index.html'
         if not route.exists():
