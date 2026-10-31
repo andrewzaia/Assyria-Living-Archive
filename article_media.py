@@ -5,6 +5,7 @@ This module renders a cautious discovery slot for a Commons-licensed image,
 which the client only displays after it retrieves per-file rights metadata.
 """
 from html import escape
+import json
 from urllib.parse import quote, unquote, urlsplit
 
 WIKIPEDIA = "https://en.wikipedia.org/wiki/"
@@ -50,26 +51,39 @@ def wikipedia_title(article, source_map):
     return article["title"], "candidate"
 
 
-def render(article, source_map):
+def media_candidates(article, reference_media=None):
+    if article.get("kind") == "preserved_reference":
+        return article.get("media_candidates", [])[:8]
+    if reference_media:
+        for source_id in article.get("sources", []):
+            if reference_media.get(source_id):
+                return reference_media[source_id][:8]
+    return []
+
+
+def render(article, source_map, reference_media=None):
     title, relation = wikipedia_title(article, source_map)
+    candidates = media_candidates(article, reference_media)
+    payload = escape(json.dumps(candidates, ensure_ascii=False), quote=True)
     source_url = WIKIPEDIA + quote(title.replace(" ", "_"), safe="()'_,")
     commons_url = COMMONS_SEARCH + quote(title) + "&title=Special:MediaSearch&type=image"
     label = "Source subject" if relation == "subject" else "Related source topic" if relation == "context" else "Image search candidate"
     return (
         '<section class="media-research" aria-label="Illustrations and media"'
         ' data-article-media data-media-page="' + escape(title, quote=True) + '"'
-        ' data-media-relation="' + relation + '">'
+        ' data-media-relation="' + relation + '" data-media-candidates="' + payload + '">'
         '<div class="media-research-heading"><span class="eyebrow">Visual evidence</span>'
         '<h2>Images and objects</h2></div>'
         '<p class="media-research-intro">Photographs, artefacts and historic illustrations must be '
         'linked to their actual subjects, creators and image licences. A linked text source alone '
         'does not confer permission to reproduce its images.</p>'
+        '<div class="media-research-gallery" aria-label="Images and source credits"></div>'
         '<figure class="media-research-figure" hidden>'
         '<a class="media-research-original" href="' + escape(source_url, quote=True) + '" target="_blank" rel="noopener noreferrer">'
         '<img alt="" loading="lazy" decoding="async"></a>'
         '<figcaption class="media-research-credit"></figcaption>'
         '</figure>'
-        '<p class="media-research-status" role="status">Looking for an openly licensed source illustration.</p>'
+        '<p class="media-research-status" role="status">Checking image-specific reuse rights and source captions.</p>'
         '<p class="media-research-links"><span>' + label + ': ' + escape(title) + '.</span> '
         '<a href="' + escape(source_url, quote=True) + '" target="_blank" rel="noopener noreferrer">Article used for image lookup</a>'
         ' / <a href="' + escape(commons_url, quote=True) + '" target="_blank" rel="noopener noreferrer">Browse Commons media</a></p>'
@@ -77,12 +91,13 @@ def render(article, source_map):
     )
 
 
-def report(articles, source_map):
+def report(articles, source_map, reference_media=None):
     static = sum(bool(a.get("image")) for a in articles)
     return {
         "total_articles": len(articles),
         "original_editorial_images": static,
         "articles_with_discovery_slots": len(articles),
+        "articles_with_retained_media_candidates": sum(bool(media_candidates(a, reference_media)) for a in articles),
         "licensed_dynamic_images_verified_at_build": 0,
         "status": "Discovery slots are not evidence that an image was successfully retrieved.",
         "method": "The browser checks Wikimedia Commons image-specific metadata before an illustration is displayed. Missing, incompatible or unavailable media remain explicitly unconfirmed.",
@@ -91,6 +106,7 @@ def report(articles, source_map):
              "has_local_image": bool(article.get("image")),
              "image_subject": wikipedia_title(article, source_map)[0],
              "image_relation": wikipedia_title(article, source_map)[1],
+             "retained_media_candidates": len(media_candidates(article, reference_media)),
              "image_licence_confirmed_at_build": False}
             for article in articles
         ],
