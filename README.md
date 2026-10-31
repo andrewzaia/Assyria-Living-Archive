@@ -30,42 +30,44 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 | `scripts/validate.py` | Source and generated-link checks |
 | `scripts/preview.py` | Local build and HTTP preview |
 | `.github/workflows/validate.yml` | Build checks on pushes and pull requests |
-| `.github/workflows/pages.yml` | Validated deployment to GitHub Pages from `main` |
+| `.github/workflows/pages.yml` | Noindex legacy GitHub Pages mirror from `main` |
 | `dist/` | Generated website, ignored by Git and rebuilt each time |
 
 Edit `static/` rather than `dist/`. Every build recreates `dist/` from the maintained files, so stale generated pages are removed.
 
-## Site settings
+## Production site: Cloudflare Pages
 
-The tracked configuration targets this GitHub Pages project:
+The canonical public site is [www.assyrialivingarchive.org](https://www.assyrialivingarchive.org/). Cloudflare Pages builds the Python-generated `dist/` directory from the `main` branch of this repository.
+
+Build configuration:
+
+- Build command: `python3 generate.py && python3 scripts/validate.py`
+- Output directory: `dist`
+- Root directory: `/`
+- Python runtime: 3.12
+- Production branch: `main`
+
+Tracked site configuration:
 
 ```json
 {
-  "site_url": "https://andrewzaia.github.io",
-  "base_path": "/Assyria-Living-Archive",
-  "allow_indexing": false
+  "site_url": "https://www.assyrialivingarchive.org",
+  "base_path": "",
+  "allow_indexing": true
 }
 ```
 
-- `site_url`: the origin only, such as `https://example.com`, without a trailing path. Leave blank to omit canonical and Open Graph URL metadata during development.
-- `base_path`: blank for a domain root; use a path such as `/Assyria-Living-Archive` for a GitHub Pages project site. Do not include the origin here.
-- `allow_indexing`: keep `false` while reviewing the foundation edition. Set `true` deliberately for a public launch. A valid `site_url` is required before enabling it.
+The origin includes `www`, and the empty base path ensures navigation, static assets, canonical tags, Open Graph URLs, `robots.txt` and `sitemap.xml` use the public root domain. Use a permanent Cloudflare Redirect Rule to redirect the apex domain to the equivalent `www` URL and preserve the path and query string. The root redirect is edge configuration, not a second website deployment.
 
-Environment variables `SITE_URL`, `BASE_PATH` and `ALLOW_INDEXING` override the corresponding settings. `ALLOW_INDEXING` accepts `true` or `false`. Builds generate the appropriate robots metadata and `robots.txt`; indexable builds also generate `sitemap.xml`.
+Set the registrar's nameservers to those assigned to the `assyrialivingarchive.org` Cloudflare zone. Cloudflare DNS should have a proxied `www` CNAME to `assyria-living-archive.pages.dev` and a proxied placeholder apex A record for the redirect. Cloudflare Pages manages the custom hostname and its TLS certificate.
 
-Search-engine exclusion does not provide access control. The private ChatGPT-hosted edition's sign-in gate belongs to that hosting service and is not included in this export. A deployment elsewhere needs its own access controls if you want it to remain private.
+`SITE_URL`, `BASE_PATH` and `ALLOW_INDEXING` environment variables override the tracked build settings. Only the canonical Cloudflare site should be indexable.
 
-## GitHub Pages hosting
+## Legacy GitHub Pages mirror
 
-Repository: [andrewzaia/Assyria-Living-Archive](https://github.com/andrewzaia/Assyria-Living-Archive).
+The old GitHub Pages project URL (`https://andrewzaia.github.io/Assyria-Living-Archive/`) is retained temporarily for recovery and existing bookmarks. Its dedicated GitHub Actions build forces `ALLOW_INDEXING=false` regardless of the production settings, preventing it from being presented to search engines as a second public canonical site. Do not attach the `www` hostname to GitHub Pages.
 
-The Pages deployment workflow builds the maintained source into `dist/`, validates it, uploads the generated website and deploys it. It runs on pushes to `main` and can be started manually from Actions. If GitHub's branch-based Pages publisher is still enabled, deployment waits for that publisher to finish before publishing the generated website. Live route and asset checks then verify the published result. Pull requests run validation only.
-
-In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source. The workflow reads the configured Pages origin and base path, so it can also adapt to a future custom domain without rewriting asset links.
-
-The current project URL is `https://andrewzaia.github.io/Assyria-Living-Archive/`. Search indexing remains disabled in `site.config.json` while the foundation edition is under review. Enable it deliberately when the content is ready for indexing.
-
-Reference: [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+Production edits remain subject to the repository's validation workflow. Pull requests can be checked without publishing to the primary hostname; merged commits to `main` trigger Cloudflare Pages Git deployments.
 
 ## Working with the repository
 

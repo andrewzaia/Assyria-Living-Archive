@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Publish legacy GitHub Pages mirror (noindex)
 
 on:
   push:
@@ -40,6 +40,7 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          ALLOW_INDEXING: 'false'
         run: |
           python generate.py
           python scripts/validate.py

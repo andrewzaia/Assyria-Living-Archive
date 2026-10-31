@@ -1,5 +1,5 @@
 // Cloudflare Worker for private editorial email delivery. No personal recipient address in site assets.
-const ALLOWED_ORIGIN = 'https://andrewzaia.github.io';
+const ALLOWED_ORIGIN = 'https://www.assyrialivingarchive.org';
 const MAX_REQUEST_BYTES = 24000;
 const KINDS = new Set(['Article suggestion', 'Correction to an article', 'Personal or family history', 'Language or cultural knowledge', 'Image or media offer']);
 const FIELDS = { name: 120, email: 254, subject: 180, body: 10000, sources: 5000, permissions: 3000 };
@@ -60,7 +60,7 @@ async function verifyTurnstile(token, env, request) {
   });
   if (!check.ok) return false;
   const result = await check.json();
-  return result.success === true && result.hostname === 'andrewzaia.github.io' && result.action === 'contribution';
+  return result.success === true && result.hostname === 'www.assyrialivingarchive.org' && result.action === 'contribution';
 }
 export default {
   async fetch(request, env) {
