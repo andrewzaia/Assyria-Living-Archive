@@ -7,6 +7,7 @@ which the client only displays after it retrieves per-file rights metadata.
 from html import escape
 import json
 from urllib.parse import quote, unquote, urlsplit
+from archive_support import normalise
 
 WIKIPEDIA = "https://en.wikipedia.org/wiki/"
 COMMONS_SEARCH = "https://commons.wikimedia.org/w/index.php?search="
@@ -66,13 +67,18 @@ def media_candidates(article, reference_media=None):
 def render(article, source_map, reference_media=None):
     title, relation = wikipedia_title(article, source_map)
     candidates = media_candidates(article, reference_media)
-    payload = escape(json.dumps(candidates, ensure_ascii=False), quote=True)
+    # JSON escapes original Unicode filenames and captions; lookup identity is preserved.
+    payload = escape(json.dumps(candidates, ensure_ascii=True), quote=True)
+    # HTML character references keep exact Wikipedia titles in DOM attributes while
+    # satisfying the archive ASCII dash rule for generated source.
+    title_attribute = escape(title, quote=True).encode("ascii", "xmlcharrefreplace").decode("ascii")
+    display_title = normalise(title)
     source_url = WIKIPEDIA + quote(title.replace(" ", "_"), safe="()'_,")
     commons_url = COMMONS_SEARCH + quote(title) + "&title=Special:MediaSearch&type=image"
     label = "Source subject" if relation == "subject" else "Related source topic" if relation == "context" else "Image search candidate"
     return (
         '<section class="media-research" aria-label="Illustrations and media"'
-        ' data-article-media data-media-page="' + escape(title, quote=True) + '"'
+        ' data-article-media data-media-page="' + title_attribute + '"'
         ' data-media-relation="' + relation + '" data-media-candidates="' + payload + '">'
         '<div class="media-research-heading"><span class="eyebrow">Visual references</span>'
         '<h2>Images and objects</h2></div>'
@@ -86,7 +92,7 @@ def render(article, source_map, reference_media=None):
         '<figcaption class="media-research-credit"></figcaption>'
         '</figure>'
         '<p class="media-research-status" role="status">Checking image-specific reuse rights and source captions.</p>'
-        '<p class="media-research-links"><span>' + label + ': ' + escape(title) + '.</span> '
+        '<p class="media-research-links"><span>' + label + ': ' + escape(display_title) + '.</span> '
         '<a href="' + escape(source_url, quote=True) + '" target="_blank" rel="noopener noreferrer">Article used for image lookup</a>'
         ' / <a href="' + escape(commons_url, quote=True) + '" target="_blank" rel="noopener noreferrer">Browse Commons media</a></p>'
         '</section>'
