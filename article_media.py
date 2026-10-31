@@ -74,7 +74,7 @@ def render(article, source_map, reference_media=None):
         '<section class="media-research" aria-label="Illustrations and media"'
         ' data-article-media data-media-page="' + escape(title, quote=True) + '"'
         ' data-media-relation="' + relation + '" data-media-candidates="' + payload + '">'
-        '<div class="media-research-heading"><span class="eyebrow">Visual evidence</span>'
+        '<div class="media-research-heading"><span class="eyebrow">Visual references</span>'
         '<h2>Images and objects</h2></div>'
         '<p class="media-research-intro">Photographs, artefacts and historic illustrations must be '
         'linked to their actual subjects, creators and image licences. A linked text source alone '
