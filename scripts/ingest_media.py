@@ -174,15 +174,22 @@ def optimise(source_bytes):
 def candidate_info(title, delay):
     if not title:
         return {}
-    titles = ['File:' + name.removeprefix('File:') for name in title[:8]]
-    response = api(COMMONS_API, {
-        'prop': 'imageinfo', 'iiprop': 'url|mime|extmetadata',
-        'iiurlwidth': '1000',
-        'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit|Copyrighted|UsageTerms',
-        'titles': '|'.join(titles),
-    }, delay)
-    return {p.get('title', '').replace('_', ' ').casefold(): p.get('imageinfo', [None])[0]
-            for p in response.get('query', {}).get('pages', []) if p.get('imageinfo')}
+    # Batch Commons metadata to respect API URL size and avoid dropping valid
+    # figures that occur later in the preserved source page.
+    titles = ['File:' + name.removeprefix('File:') for name in title[:16]]
+    results = {}
+    for start in range(0, len(titles), 8):
+        response = api(COMMONS_API, {
+            'prop': 'imageinfo', 'iiprop': 'url|mime|extmetadata',
+            'iiurlwidth': '1000',
+            'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit|Copyrighted|UsageTerms',
+            'titles': '|'.join(titles[start:start + 8]),
+        }, delay)
+        results.update({
+            p.get('title', '').replace('_', ' ').casefold(): p.get('imageinfo', [None])[0]
+            for p in response.get('query', {}).get('pages', []) if p.get('imageinfo')
+        })
+    return results
 
 
 def fallback(article, delay):
@@ -200,6 +207,19 @@ def fallback(article, delay):
                      'alt': 'Source-associated illustration for ' + title,
                      'caption': 'Lead image linked from ' + title}]
     return []
+
+
+def contextual_map_label(title, alt, caption, relation):
+    """Do not claim a place is marked on a reused unlabelled base map."""
+    if title.replace('_', ' ').casefold() == 'file:near east non political.png':
+        return ('Unlabelled regional terrain map of the Near East',
+                'Regional context map; individual sites are not marked',
+                'context')
+    if title.replace('_', ' ').casefold() == 'file:al-hasakah blank districts.png':
+        return ('District outline map of Al-Hasakah Governorate',
+                'Regional district context; individual towns are not marked',
+                'context')
+    return alt, caption, relation
 
 
 def ingest_article(article, registry, delay, max_per_article, counters):
@@ -229,6 +249,8 @@ def ingest_article(article, registry, delay, max_per_article, counters):
                 continue
             title = 'File:' + raw_name.removeprefix('File:')
             key = title.replace('_', ' ').casefold()
+            if str(item.get('alt') or '').strip().casefold() in ('icon', 'thumbnail', 'image'):
+                continue
             if key in tried:
                 continue
             tried.add(key)
@@ -279,11 +301,15 @@ def ingest_article(article, registry, delay, max_per_article, counters):
                 }
                 indexed[key] = media_id
             if not any(choice['asset_id'] == media_id for choice in selections):
+                alt, caption, image_relation = contextual_map_label(
+                    title,
+                    plain(item.get('alt') or title),
+                    plain(item.get('caption') or item.get('alt') or title),
+                    relation,
+                )
                 selections.append({
-                    'asset_id': media_id,
-                    'alt': plain(item.get('alt') or title),
-                    'caption': plain(item.get('caption') or item.get('alt') or title),
-                    'relation': relation,
+                    'asset_id': media_id, 'alt': alt, 'caption': caption,
+                    'relation': image_relation,
                 })
                 counters['new_article_images'] += 1
 

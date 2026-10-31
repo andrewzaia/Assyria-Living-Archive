@@ -176,7 +176,8 @@ class MediaCollector(HTMLParser):
             except (TypeError, ValueError):
                 return
             alt = ' '.join(attrs.get('alt', '').split())
-            if width < 180 or height < 100 or not alt:
+            # Wikipedia interface icons and placeholders are not academic media.
+            if width < 180 or height < 100 or not alt or alt.casefold() in ('icon', 'thumbnail', 'image'):
                 return
             filename = self.active_file
             if not filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
@@ -237,7 +238,7 @@ def load_references():
             summary=summary, sections=[dict(title='Preserved reference text', text=plain)],
             sources=[record['id']], related=[], image=None, note=None, kind='preserved_reference',
             word_count=words(plain), html=clean, headings=reader.headings, record=record,
-            media_candidates=collector.items[:8],
+            media_candidates=collector.items[:16],
         ))
     return articles
 

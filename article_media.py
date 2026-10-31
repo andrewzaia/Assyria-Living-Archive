@@ -15,6 +15,24 @@ ROOT = Path(__file__).resolve().parent
 LIBRARY_FILE = ROOT / 'data' / 'media-library.json'
 IMAGE_DIR = ROOT / 'static' / 'assets' / 'archive-media'
 
+# These titles represent specific article subjects, not general topical guesses.
+# Lead images remain contextual unless an editor independently authenticates
+# the depicted object or person.
+DIRECT_ARTICLE_TOPICS = {
+    'assyrian-identity': 'Assyrian people',
+    'aramaic': 'Aramaic',
+    'sureth': 'Suret language',
+    'syriac-scripts': 'Syriac alphabet',
+    'chaldean-church': 'Chaldean Catholic Church',
+    'music': 'Assyrian music',
+    'tur-abdin': 'Tur Abdin',
+    'edessa': 'Edessa',
+    'sennacherib-prism-hezekiah': "Sennacherib's Prism",
+    'middle-assyrian-overview': 'Middle Assyrian Empire',
+    'bible-esarhaddon': 'Esarhaddon',
+    'bible-samaria': 'Fall of Samaria',
+}
+
 CONTEXT_TOPICS = {
     "bible-origins": "Assyria",
     "bible-pul-menahem": "Tiglath-Pileser III",
@@ -34,6 +52,8 @@ def wikipedia_title(article, source_map):
         path = urlsplit(article['record']['source_url']).path
         if path.startswith('/wiki/'):
             return unquote(path[6:]).replace('_', ' '), 'subject'
+    if article['slug'] in DIRECT_ARTICLE_TOPICS:
+        return DIRECT_ARTICLE_TOPICS[article['slug']], 'context'
     for source_id in article.get('sources', []):
         source = source_map.get(source_id, {})
         if source.get('type') == 'Preserved encyclopaedia reference' and source.get('title'):
@@ -48,11 +68,11 @@ def wikipedia_title(article, source_map):
 
 def media_candidates(article, reference_media=None):
     if article.get('kind') == 'preserved_reference':
-        return article.get('media_candidates', [])[:8]
+        return article.get('media_candidates', [])[:16]
     for source_id in article.get('sources', []):
         media = (reference_media or {}).get(source_id, [])
         if media:
-            return media[:8]
+            return media[:16]
     return []
 
 
@@ -157,3 +177,93 @@ def report(articles, library):
             'unillustrated_articles': [r['slug'] for r in rows if not r['has_image']],
             'coverage': rows,
             'method': 'Only checked-in, checksum-verified media files count; external candidate links do not count as image coverage.'}
+
+
+def triage(articles, library, reference_media=None, source_map=None):
+    """Build an evidence-driven review queue, never asserting that media does not exist.
+
+    Candidates from preserved source pages are discovery leads, not independent
+    evidence of relevance or reuse permission. Recorded licence metadata is not
+    a sign-off on whether an image actually depicts the article's subject.
+    """
+    from collections import Counter
+    reference_media = reference_media or {}
+    source_map = source_map or {}
+    reuse = Counter(
+        item['asset_id'] for entries in library['articles'].values() for item in entries
+    )
+    pending = []
+    review = []
+    by_category = {}
+    for article in articles:
+        slug = article['slug']
+        category = article['category']
+        cat = by_category.setdefault(category, {
+            'total': 0, 'illustrated': 0, 'requires_discovery': 0,
+            'placement_reviews': 0, 'generic_caption_reviews': 0
+        })
+        cat['total'] += 1
+        images = library['articles'].get(slug, [])
+        illustrated = bool(images or article.get('image'))
+        cat['illustrated' if illustrated else 'requires_discovery'] += 1
+        candidates = media_candidates(article, reference_media)
+        if not illustrated:
+            title, relation = wikipedia_title(article, source_map)
+            pending.append({
+                'slug': slug, 'title': article['title'], 'category': category,
+                'kind': article.get('kind', 'editorial'),
+                'retained_source_image_candidates': len(candidates),
+                'lead_source_topic': title if relation != 'candidate' else None,
+                'status': 'further_research_needed',
+                'note': ('Unillustrated is not evidence that no suitable media exists. '
+                         'Review source figures, subject-specific collections and file rights.')
+            })
+        for entry in images:
+            asset = library['assets'][entry['asset_id']]
+            generic = bool(re.search(
+                r'^(?:Source-associated illustration for|Lead image linked from)',
+                entry.get('alt', '') + ' ' + entry.get('caption', ''), re.I
+            ))
+            flags = []
+            if generic:
+                flags.append('generic_description')
+                cat['generic_caption_reviews'] += 1
+            if entry['relation'] == 'context':
+                flags.append('contextual_association_not_subject_authentication')
+            if reuse[entry['asset_id']] >= 4:
+                flags.append('heavily_reused_illustration')
+            review.append({
+                'slug': slug, 'article_title': article['title'], 'category': category,
+                'asset_id': entry['asset_id'], 'original_title': asset['original_title'],
+                'original_source_url': asset['source_url'],
+                'relation': entry['relation'], 'review_status': 'not_editorially_verified',
+                'review_flags': flags,
+                'note': 'Verify historical identity, date, depiction, caption, and article relevance.'
+            })
+            cat['placement_reviews'] += 1
+    return {
+        'schema_version': 1,
+        'total_articles': len(articles),
+        'articles_with_image': len(articles) - len(pending),
+        'articles_needing_further_media_research': len(pending),
+        'placements_needing_editorial_relevance_review': len(review),
+        'placements_with_generic_source_descriptions': sum(
+            'generic_description' in r['review_flags'] for r in review
+        ),
+        'placements_with_contextual_association': sum(
+            'contextual_association_not_subject_authentication' in r['review_flags']
+            for r in review
+        ),
+        'placements_with_heavy_reuse': sum(
+            'heavily_reused_illustration' in r['review_flags'] for r in review
+        ),
+        'category_progress': by_category,
+        'research_queue': pending,
+        'placement_review_queue': review,
+        'method': (
+            'All statuses are open research or editorial checks. Rights metadata '
+            'and checked-in images confirm technical provenance, but never prove '
+            'depiction accuracy. A media-free article is acceptable only after '
+            'a recorded, source-supported determination.'
+        )
+    }

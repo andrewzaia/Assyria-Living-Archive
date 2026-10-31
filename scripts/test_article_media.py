@@ -228,6 +228,100 @@ class LocalMediaTests(unittest.TestCase):
         self.assertIn('Rights status: <a', markup)
         self.assertNotIn('Licence: <a', markup)
 
+    def test_all_unillustrated_articles_are_research_not_false_absence(self):
+        triage = article_media.triage(
+            generate.ARTICLES, generate.MEDIA_LIBRARY,
+            generate.REFERENCE_MEDIA, generate.SM
+        )
+        self.assertEqual(triage['total_articles'], len(generate.ARTICLES))
+        self.assertEqual(
+            triage['articles_needing_further_media_research'],
+            article_media.report(generate.ARTICLES, generate.MEDIA_LIBRARY)['articles_without_local_image']
+        )
+        self.assertEqual(
+            triage['placements_needing_editorial_relevance_review'],
+            sum(len(entries) for entries in generate.MEDIA_LIBRARY['articles'].values())
+        )
+        self.assertTrue(all(
+            x['status'] == 'further_research_needed'
+            for x in triage['research_queue']
+        ))
+        self.assertFalse(any(
+            x.get('status') in ('unavailable', 'no_media_exists')
+            for x in triage['research_queue']
+        ))
+        self.assertEqual(
+            sum(x['requires_discovery'] for x in triage['category_progress'].values()),
+            len(triage['research_queue'])
+        )
+        self.assertTrue(all(
+            x['review_status'] == 'not_editorially_verified'
+            for x in triage['placement_review_queue']
+        ))
+
+    def test_direct_subject_fallbacks_are_specific_and_not_general_keyword_search(self):
+        title, relation = article_media.wikipedia_title(
+            {'slug': 'syriac-scripts', 'title': 'Syriac scripts', 'sources': []},
+            {}
+        )
+        self.assertEqual((title, relation), ('Syriac alphabet', 'context'))
+        title, relation = article_media.wikipedia_title(
+            {'slug': 'research-guide', 'title': 'Research methods', 'sources': []},
+            {}
+        )
+        self.assertEqual((title, relation), ('Research methods', 'candidate'))
+
+    def test_generic_wikipedia_interface_icons_are_not_archival_media(self):
+        collector = MediaCollector()
+        collector.feed(
+            '<figure><a href="/wiki/File:Generic_icon.jpg">'
+            '<img alt="icon" data-file-width="1200" data-file-height="1200"></a>'
+            '<figcaption>icon</figcaption></figure>'
+            '<figure><a href="/wiki/File:Inscription_tablet.jpg">'
+            '<img alt="Cuneiform tablet" data-file-width="1200" data-file-height="1200"></a>'
+            '<figcaption>Inscribed clay tablet</figcaption></figure>'
+        )
+        self.assertEqual([x['file'] for x in collector.items], ['Inscription tablet.jpg'])
+        self.assertTrue(all(
+            entry['alt'].strip().casefold() not in ('icon', 'thumbnail', 'image')
+            for entries in generate.MEDIA_LIBRARY['articles'].values()
+            for entry in entries
+        ))
+
+    def test_unlabelled_regional_map_does_not_claim_precise_location(self):
+        from scripts.ingest_media import contextual_map_label
+        alt, caption, relation = contextual_map_label(
+            'File:Near East non political.png', 'Nimrud is located in Near East',
+            'Nimrud is located in Near East', 'subject')
+        self.assertEqual(relation, 'context')
+        self.assertIn('not marked', caption)
+        self.assertNotIn('Nimrud', alt)
+        maps = {'File:Near East non political.png',
+                'File:Al-Hasakah blank districts.png'}
+        asset_ids = {key for key, a in generate.MEDIA_LIBRARY['assets'].items()
+                     if a['original_title'] in maps}
+        for slug, selections in generate.MEDIA_LIBRARY['articles'].items():
+            for entry in selections:
+                if entry['asset_id'] in asset_ids:
+                    self.assertEqual(entry['relation'], 'context')
+                    self.assertIn('not marked', entry['caption'])
+
+    def test_later_retained_figures_are_considered(self):
+        subject = {'kind': 'preserved_reference', 'media_candidates': [
+            {'file': 'Artifact-%02d.jpg' % i} for i in range(20)
+        ]}
+        self.assertEqual(len(article_media.media_candidates(subject)), 16)
+        from scripts import ingest_media
+        from unittest.mock import patch
+        calls = []
+        def query(api_url, params, delay):
+            calls.append(params['titles'].split('|'))
+            return {'query': {'pages': []}}
+        with patch.object(ingest_media, 'api', side_effect=query):
+            ingest_media.candidate_info(['Artifact-%02d.jpg' % i for i in range(16)], 0.5)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(list(map(len, calls)), [8, 8])
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',
