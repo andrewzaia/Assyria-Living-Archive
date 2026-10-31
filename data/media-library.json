@@ -30,9 +30,9 @@
     ],
     "ashur": [
       {
-        "alt": "Assur is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Assur is located in Near East",
+        "caption": "Regional context map; individual sites are not marked",
         "relation": "context"
       }
     ],
@@ -308,9 +308,9 @@
         "relation": "context"
       },
       {
-        "alt": "Nimrud is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Nimrud is located in Near East",
+        "caption": "Regional context map; individual sites are not marked",
         "relation": "context"
       }
     ],
@@ -322,9 +322,9 @@
         "relation": "context"
       },
       {
-        "alt": "Nineveh is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Nineveh is located in Near East",
+        "caption": "Regional context map; individual sites are not marked",
         "relation": "context"
       }
     ],
@@ -338,9 +338,9 @@
     ],
     "old-assyrian-trade": [
       {
-        "alt": "Assur is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Assur is located in Near East",
+        "caption": "Regional context map; individual sites are not marked",
         "relation": "context"
       }
     ],
@@ -430,10 +430,10 @@
         "relation": "subject"
       },
       {
-        "alt": "Hasakah Governorate",
+        "alt": "District outline map of Al-Hasakah Governorate",
         "asset_id": "17086f7e6464aee3341d8cab",
-        "caption": "Hasakah Governorate",
-        "relation": "subject"
+        "caption": "Regional district context; individual towns are not marked",
+        "relation": "context"
       }
     ],
     "reference-alqosh": [
@@ -554,10 +554,10 @@
     ],
     "reference-assur": [
       {
-        "alt": "Assur is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Assur is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-assyria": [
@@ -816,10 +816,10 @@
         "relation": "subject"
       },
       {
-        "alt": "Baghdad is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Baghdad is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-baklava": [
@@ -1370,10 +1370,10 @@
     ],
     "reference-hasakah": [
       {
-        "alt": "Hasakah Governorate",
+        "alt": "District outline map of Al-Hasakah Governorate",
         "asset_id": "17086f7e6464aee3341d8cab",
-        "caption": "Hasakah Governorate",
-        "relation": "subject"
+        "caption": "Regional district context; individual towns are not marked",
+        "relation": "context"
       },
       {
         "alt": "Assyrian church in Hasakah",
@@ -1940,10 +1940,10 @@
     ],
     "reference-mor-mattai-monastery": [
       {
-        "alt": "Mor Mattai Monastery is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Mor Mattai Monastery is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-mosul": [
@@ -2000,10 +2000,10 @@
         "relation": "subject"
       },
       {
-        "alt": "Nimrud is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Nimrud is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-nimrud-ivories": [
@@ -2036,10 +2036,10 @@
         "relation": "subject"
       },
       {
-        "alt": "Nineveh is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Nineveh is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-nineveh-plains": [
@@ -2088,10 +2088,10 @@
     ],
     "reference-old-assyrian-period": [
       {
-        "alt": "Assur is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Assur is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-oriental-orthodox-churches": [
@@ -2134,10 +2134,10 @@
     ],
     "reference-qamishli": [
       {
-        "alt": "Hasakah Governorate",
+        "alt": "District outline map of Al-Hasakah Governorate",
         "asset_id": "17086f7e6464aee3341d8cab",
-        "caption": "Hasakah Governorate",
-        "relation": "subject"
+        "caption": "Regional district context; individual towns are not marked",
+        "relation": "context"
       }
     ],
     "reference-qaraqosh": [
@@ -2644,16 +2644,16 @@
     ],
     "reference-tell-brak": [
       {
-        "alt": "Hasakah Governorate",
+        "alt": "District outline map of Al-Hasakah Governorate",
         "asset_id": "17086f7e6464aee3341d8cab",
-        "caption": "Hasakah Governorate",
-        "relation": "subject"
+        "caption": "Regional district context; individual towns are not marked",
+        "relation": "context"
       },
       {
-        "alt": "Tell Brak is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Tell Brak is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-tell-leilan": [
@@ -2666,18 +2666,18 @@
     ],
     "reference-tell-sheikh-hamad": [
       {
-        "alt": "Tell Sheikh Hamad is located in Near East",
+        "alt": "Unlabelled regional terrain map of the Near East",
         "asset_id": "cde24445d3ffec7dec10a32b",
-        "caption": "Tell Sheikh Hamad is located in Near East",
-        "relation": "subject"
+        "caption": "Regional context map; individual sites are not marked",
+        "relation": "context"
       }
     ],
     "reference-tell-tamer": [
       {
-        "alt": "Hasakah Governorate",
+        "alt": "District outline map of Al-Hasakah Governorate",
         "asset_id": "17086f7e6464aee3341d8cab",
-        "caption": "Hasakah Governorate",
-        "relation": "subject"
+        "caption": "Regional district context; individual towns are not marked",
+        "relation": "context"
       },
       {
         "alt": "Tal Tamer (1939)",

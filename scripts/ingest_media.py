@@ -209,6 +209,19 @@ def fallback(article, delay):
     return []
 
 
+def contextual_map_label(title, alt, caption, relation):
+    """Do not claim a place is marked on a reused unlabelled base map."""
+    if title.casefold() == 'file:near east non political.png':
+        return ('Unlabelled regional terrain map of the Near East',
+                'Regional context map; individual sites are not marked',
+                'context')
+    if title.casefold() == 'file:al-hasakah blank districts.png':
+        return ('District outline map of Al-Hasakah Governorate',
+                'Regional district context; individual towns are not marked',
+                'context')
+    return alt, caption, relation
+
+
 def ingest_article(article, registry, delay, max_per_article, counters):
     """Prefer original source figures, then the precise source article's lead image."""
     slug = article['slug']
@@ -288,11 +301,15 @@ def ingest_article(article, registry, delay, max_per_article, counters):
                 }
                 indexed[key] = media_id
             if not any(choice['asset_id'] == media_id for choice in selections):
+                alt, caption, image_relation = contextual_map_label(
+                    title,
+                    plain(item.get('alt') or title),
+                    plain(item.get('caption') or item.get('alt') or title),
+                    relation,
+                )
                 selections.append({
-                    'asset_id': media_id,
-                    'alt': plain(item.get('alt') or title),
-                    'caption': plain(item.get('caption') or item.get('alt') or title),
-                    'relation': relation,
+                    'asset_id': media_id, 'alt': alt, 'caption': caption,
+                    'relation': image_relation,
                 })
                 counters['new_article_images'] += 1
 

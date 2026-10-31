@@ -288,6 +288,24 @@ class LocalMediaTests(unittest.TestCase):
             for entry in entries
         ))
 
+    def test_unlabelled_regional_map_does_not_claim_precise_location(self):
+        from scripts.ingest_media import contextual_map_label
+        alt, caption, relation = contextual_map_label(
+            'File:Near East non political.png', 'Nimrud is located in Near East',
+            'Nimrud is located in Near East', 'subject')
+        self.assertEqual(relation, 'context')
+        self.assertIn('not marked', caption)
+        self.assertNotIn('Nimrud', alt)
+        maps = {'File:Near East non political.png',
+                'File:Al-Hasakah blank districts.png'}
+        asset_ids = {key for key, a in generate.MEDIA_LIBRARY['assets'].items()
+                     if a['original_title'] in maps}
+        for slug, selections in generate.MEDIA_LIBRARY['articles'].items():
+            for entry in selections:
+                if entry['asset_id'] in asset_ids:
+                    self.assertEqual(entry['relation'], 'context')
+                    self.assertIn('not marked', entry['caption'])
+
     def test_later_retained_figures_are_considered(self):
         subject = {'kind': 'preserved_reference', 'media_candidates': [
             {'file': 'Artifact-%02d.jpg' % i} for i in range(20)
