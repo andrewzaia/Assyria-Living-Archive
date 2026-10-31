@@ -2,7 +2,7 @@
   "name": "assyria-archive-contributions",
   "main": "src/index.mjs",
   "compatibility_date": "2026-10-29",
-  "workers_dev": true,
+  "workers_dev": false,
   "send_email": [
     {
       "name": "EMAIL"

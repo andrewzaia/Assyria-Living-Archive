@@ -62,6 +62,17 @@ Set the registrar's nameservers to those assigned to the `assyrialivingarchive.o
 
 `SITE_URL`, `BASE_PATH` and `ALLOW_INDEXING` environment variables override the tracked build settings. Only the canonical Cloudflare site should be indexable.
 
+### Canonical hostnames and restricted alternate access
+
+The Cloudflare zone is active with `www.assyrialivingarchive.org` as the only content-serving public hostname. The apex `assyrialivingarchive.org` issues a permanent 301 redirect to the equivalent HTTPS `www` URL, preserving path and query parameters. HTTPS is enforced, the origin uses Full (strict) TLS validation, and the minimum client TLS version is 1.2.
+
+Cloudflare's account-level Bulk Redirect list `assyria_archive_pagesdev_redirect` redirects `assyria-living-archive.pages.dev` and its deployment-specific subdomains to the canonical HTTPS `www` hostname, preserving paths and query parameters. Cloudflare Pages is set to `preview_deployment_setting: none` and the repository's GitHub Pages publisher has been removed. These redirects are Cloudflare account settings, not generated static files. Keep them in place when modifying the Pages project.
+
+The historical contributions Worker `assyria-archive-contributions` is not used by the public contribution form. Its `workers.dev` endpoint and preview URLs are disabled in Cloudflare, and `worker/wrangler.jsonc` sets `workers_dev: false` so a later Wrangler deployment does not accidentally expose the endpoint. Do not turn on submissions until recipient settings, email authentication, Turnstile hostname and permissions are separately reviewed.
+
+DNSSEC is enabled at Cloudflare. Complete the chain of trust by publishing the current Cloudflare DS record at the domain registrar, then verify Cloudflare reports DNSSEC `active`. Fetch the DS value from Cloudflare at the time of registrar setup rather than copying an old key from documentation. A stale or incorrect DS record at the registrar can break DNS resolution.
+
+
 ## Legacy GitHub Pages publishing
 
 The old GitHub Pages project URL (`https://andrewzaia.github.io/Assyria-Living-Archive/`) is a historical address, not the current hosting endpoint. GitHub Pages is not enabled for this repository, so there is no live recovery mirror. The old Pages publishing workflow was retired after it failed on an unavailable Pages configuration.
