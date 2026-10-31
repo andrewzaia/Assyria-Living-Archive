@@ -29,8 +29,7 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 | `static/` | Maintained CSS, JavaScript, images, fonts and licences |
 | `scripts/validate.py` | Source and generated-link checks |
 | `scripts/preview.py` | Local build and HTTP preview |
-| `.github/workflows/validate.yml` | Build checks on pushes and pull requests |
-| `.github/workflows/pages.yml` | Noindex legacy GitHub Pages mirror from `main` |
+| `.github/workflows/validate.yml` | Build and generated-site checks on pushes and pull requests |
 | `dist/` | Generated website, ignored by Git and rebuilt each time |
 
 Edit `static/` rather than `dist/`. Every build recreates `dist/` from the maintained files, so stale generated pages are removed.
@@ -63,9 +62,11 @@ Set the registrar's nameservers to those assigned to the `assyrialivingarchive.o
 
 `SITE_URL`, `BASE_PATH` and `ALLOW_INDEXING` environment variables override the tracked build settings. Only the canonical Cloudflare site should be indexable.
 
-## Legacy GitHub Pages mirror
+## Legacy GitHub Pages publishing
 
-The old GitHub Pages project URL (`https://andrewzaia.github.io/Assyria-Living-Archive/`) is retained temporarily for recovery and existing bookmarks. Its dedicated GitHub Actions build forces `ALLOW_INDEXING=false` regardless of the production settings, preventing it from being presented to search engines as a second public canonical site. Do not attach the `www` hostname to GitHub Pages.
+The old GitHub Pages project URL (`https://andrewzaia.github.io/Assyria-Living-Archive/`) is a historical address, not the current hosting endpoint. GitHub Pages is not enabled for this repository, so there is no live recovery mirror. The old Pages publishing workflow was retired after it failed on an unavailable Pages configuration.
+
+The validator still tests a root-domain build and a GitHub Pages-style project-path build to catch broken links. Cloudflare Pages publishes only the root-domain build and is the sole production hosting provider. If a separate recovery copy is needed in future, configure it independently and do not permit indexing of duplicate content.
 
 Production edits remain subject to the repository's validation workflow. Pull requests can be checked without publishing to the primary hostname; merged commits to `main` trigger Cloudflare Pages Git deployments.
 
@@ -87,7 +88,7 @@ python scripts/validate.py
 node --check static/app.js
 ```
 
-Node.js is optional for local JavaScript syntax checking, not required to build or serve the website. GitHub-hosted CI runs the checks with Python 3.12 and checks the project-path configuration too. Action versions are pinned to immutable commits. GitHub Pages deployment uses a separate workflow and validates its generated output before publication.
+Node.js is optional for local JavaScript syntax checking, not required to build or serve the website. GitHub-hosted CI runs the checks with Python 3.12 and checks the project-path configuration too. Action versions are pinned to immutable commits. Cloudflare Pages runs the production build and site validator before publishing.
 
 The validator checks article/source relationships, unique slugs and IDs, local navigation and fragment links, referenced assets, catalogue counts, indexing metadata and the ASCII dash convention. External source sites are not fetched by CI. Citation quality and historical accuracy still require editorial review.
 
@@ -215,7 +216,7 @@ The public `/stewardship/` hub documents integrity verification, honest release 
 
 Each complete `python generate.py` build now creates `dist/preservation-manifest.json`. The manifest is deterministic for identical output bytes and records every generated public file except itself, including its path, byte size, SHA-256 digest, effective base path and indexing status. `scripts/validate.py` rejects altered, additional or missing files, unexpected deployment settings or an invalid manifest. This is bit-level **fixity**, not a digital signature, evidence of historical truth or confirmation that remote publishers have retained their websites.
 
-Use `python scripts/export_archive.py --output ../assyria-site-backup.zip` to export a reproducible ZIP **outside** the website and automatically extract it to temporary storage for a complete restored-hash comparison. The ZIP is a recoverable copy, not an established offsite backup programme. CI now tests manifest corruption and recovery and checks a full ZIP restore in the root site build; GitHub Pages deploy builds must also complete a restoration test before publication. The live deployment smoke test samples multiple served files against the published manifest. Full implementation and manually assigned backup responsibilities are documented in `docs/PRESERVATION.md`.
+Use `python scripts/export_archive.py --output ../assyria-site-backup.zip` to export a reproducible ZIP **outside** the website and automatically extract it to temporary storage for a complete restored-hash comparison. The ZIP is a recoverable copy, not an established offsite backup programme. CI now tests manifest corruption and recovery and checks a full ZIP restore in the root site build; The CI root-site build also completes a recovery test, while Cloudflare Pages validates its production output before publication. The live deployment smoke test samples multiple served files against the published manifest. Full implementation and manually assigned backup responsibilities are documented in `docs/PRESERVATION.md`.
 
 The original tracked `allow_indexing: false` remains unchanged. Launch still requires human verification of rights, Scripture and archaeological sourcing, independent specialists, Syriac shaping, keyboard and screen-reader access, mobile layout and cross-browser behaviour. W3C WCAG 2.2 guides accessibility review, but no complete conformance statement is made. No archive backup storage, automatic ongoing monitoring or secure intake service has been added.
 
