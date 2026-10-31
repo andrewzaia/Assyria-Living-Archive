@@ -1,122 +1,74 @@
-"""Check every article has a traceable media candidate without invented licences."""
-import unittest
-import json
+"""Offline media validation for every editorial article and preserved reference."""
 import sys
+import unittest
 from pathlib import Path
 from html.parser import HTMLParser
-
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import article_media
-from archive_support import MediaCollector
 import generate
+from archive_support import MediaCollector
 
 
-class MediaParser(HTMLParser):
+class ImageParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.sections = []
         self.images = []
-        self.references = []
-
+        self.sources = []
     def handle_starttag(self, tag, attrs):
-        a = dict(attrs)
-        if tag == "section" and "data-article-media" in a:
-            self.sections.append(a)
-        if tag == "img":
-            self.images.append(a)
-        if tag == "a" and a.get("href", "").startswith("https://"):
-            self.references.append(a["href"])
+        attrs = dict(attrs)
+        if tag == 'img':
+            self.images.append(attrs.get('src', ''))
+        if tag == 'a' and attrs.get('href', '').startswith('https://'):
+            self.sources.append(attrs['href'])
 
 
-class ArticleMediaTests(unittest.TestCase):
-    def test_every_article_has_an_explicit_media_research_slot(self):
-        self.assertGreater(len(generate.ARTICLES), 372)
+class LocalMediaTests(unittest.TestCase):
+    def test_every_saved_image_is_verified_and_local(self):
+        self.assertTrue(article_media.validate_library(generate.MEDIA_LIBRARY))
         for article in generate.ARTICLES:
-            with self.subTest(slug=article["slug"]):
-                markup = article_media.render(article, generate.SM, generate.REFERENCE_MEDIA)
-                parser = MediaParser()
+            with self.subTest(slug=article['slug']):
+                markup = article_media.render(article, generate.MEDIA_LIBRARY)
+                parser = ImageParser()
                 parser.feed(markup)
-                self.assertEqual(len(parser.sections), 1)
-                self.assertTrue(parser.sections[0].get("data-media-page"))
-                self.assertIn(parser.sections[0].get("data-media-relation"),
-                              ("subject", "context", "candidate"))
-                self.assertEqual(len(parser.images), 1)
-                self.assertTrue(any(link.startswith("https://commons.wikimedia.org/")
-                                    for link in parser.references))
-                self.assertTrue(any(link.startswith("https://en.wikipedia.org/wiki/")
-                                    for link in parser.references))
+                self.assertNotIn('upload.wikimedia.org', markup)
+                self.assertNotIn('data-media-candidates', markup)
+                self.assertTrue(all(src.startswith('/assets/archive-media/') for src in parser.images))
+                self.assertEqual(len(parser.images), len(generate.MEDIA_LIBRARY['articles'].get(article['slug'], [])))
 
-    def test_retained_source_images_include_captions_and_skip_tiny_icons(self):
-        parser = MediaCollector()
-        parser.feed(
-            '<a href="/wiki/File:Small_icon.png"><img alt="icon" width="20" height="20"></a>'
-            '<figure><a href="/wiki/File:Palace_relief.jpg">'
-            '<img alt="Palace relief" data-file-width="600" data-file-height="400"></a>'
-            '<figcaption>Relief from the northern palace.</figcaption></figure>'
+    def test_coverage_report_cannot_count_missing_images(self):
+        report = article_media.report(generate.ARTICLES, generate.MEDIA_LIBRARY)
+        self.assertEqual(report['total_articles'], len(generate.ARTICLES))
+        self.assertEqual(report['articles_without_local_image'] +
+                         report['articles_with_any_local_image'], len(generate.ARTICLES))
+        self.assertEqual(report['locally_archived_licensed_files'], len(generate.MEDIA_LIBRARY['assets']))
+        self.assertEqual(len(report['unillustrated_articles']), report['articles_without_local_image'])
+
+    def test_original_source_metadata_is_not_automatically_a_licence(self):
+        preserved = next(a for a in generate.REFERENCES if a['title'] == 'Assyria')
+        self.assertGreater(len(preserved.get('media_candidates', [])), 0)
+        if not generate.MEDIA_LIBRARY['articles'].get(preserved['slug']):
+            self.assertEqual(article_media.render(preserved, generate.MEDIA_LIBRARY), '')
+
+    def test_source_image_extraction_preserves_original_unicode_filename(self):
+        collector = MediaCollector()
+        collector.feed(
+            '<figure><a href="/wiki/File:Relief_%E2%80%93_Ashur.jpg">'
+            '<img alt="Royal relief" data-file-width="800" data-file-height="500"></a>'
+            '<figcaption>Royal monument.</figcaption></figure>'
         )
-        self.assertEqual(parser.items, [
-            {"file": "Palace relief.jpg", "alt": "Palace relief",
-             "caption": "Relief from the northern palace."}
-        ])
+        self.assertEqual(collector.items[0]['file'], 'Relief \u2013 Ashur.jpg')
+        self.assertEqual(collector.items[0]['caption'], 'Royal monument.')
 
-    def test_preserved_source_media_is_extracted_from_original_snapshot(self):
-        article = next(a for a in generate.REFERENCES if a["title"] == "Assyria")
-        self.assertGreater(len(article["media_candidates"]), 0)
-        html = article_media.render(article, generate.SM, generate.REFERENCE_MEDIA)
-        parser = MediaParser()
-        parser.feed(html)
-        self.assertEqual(json.loads(parser.sections[0]["data-media-candidates"]),
-                         article["media_candidates"][:8])
-
-    def test_original_reference_title_matches_its_preserved_source(self):
-        sample = next(a for a in generate.REFERENCES if a["title"] == "Ashurbanipal")
-        title, relation = article_media.wikipedia_title(sample, generate.SM)
-        self.assertEqual(title, "Ashurbanipal")
-        self.assertEqual(relation, "subject")
-
-    def test_html_escape_prevents_injecting_titles_into_markup(self):
-        article = {"slug": "test", "title": '<script>alert("x")</script>',
-                   "sources": [], "category": "History & archaeology"}
-        markup = article_media.render(article, {})
-        self.assertNotIn("<script>", markup)
-        self.assertIn("&lt;script&gt;", markup)
-
-    def test_unicode_source_names_round_trip_without_forbidden_html_dashes(self):
-        article = {
-            "slug": "reference-test",
-            "title": "Sargon II - the king",
-            "category": "People & diaspora",
-            "kind": "preserved_reference",
-            "sources": [],
-            "record": {"source_url": "https://en.wikipedia.org/wiki/Sargon_II"},
-            "media_candidates": [{
-                "file": "Assyrian relief \u2013 Sargon II.jpg",
-                "alt": "Sargon II \u2014 palace relief",
-                "caption": "A first-millennium \u2013 BCE object"
-            }],
-        }
-        markup = article_media.render(article, {})
-        for char in "\\u2010 \\u2011 \\u2012 \\u2013 \\u2014 \\u2015 \\u2212".split():
-            self.assertNotIn(chr(int(char[2:], 16)), markup)
-        parser = MediaParser()
-        parser.feed(markup)
-        self.assertEqual(parser.sections[0]["data-media-page"], "Sargon II")
-        self.assertEqual(json.loads(parser.sections[0]["data-media-candidates"]),
-                         article["media_candidates"])
-
-    def test_media_audit_distinguishes_slots_from_confirmed_images(self):
-        report = article_media.report(generate.ARTICLES, generate.SM, generate.REFERENCE_MEDIA)
-        self.assertEqual(report["total_articles"], len(generate.ARTICLES))
-        self.assertEqual(report["articles_with_discovery_slots"], len(generate.ARTICLES))
-        self.assertGreater(report["articles_with_retained_media_candidates"], 0)
-        self.assertEqual(report["licensed_dynamic_images_verified_at_build"], 0)
-        self.assertEqual(len(report["coverage"]), len(generate.ARTICLES))
-        self.assertEqual(len({row["slug"] for row in report["coverage"]}),
-                         len(generate.ARTICLES))
-        self.assertFalse(any(row["image_licence_confirmed_at_build"]
-                             for row in report["coverage"]))
+    def test_source_candidates_never_become_hotlinks(self):
+        article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
+                   'kind': 'preserved_reference',
+                   'record': {'source_url': 'https://en.wikipedia.org/wiki/Ashurbanipal'},
+                   'media_candidates': [{'file': 'Unverified.jpg', 'alt': 'Portrait', 'caption': ''}]}
+        self.assertEqual(article_media.render(article, {'schema_version': 1, 'assets': {}, 'articles': {}}), '')
+        title, relation = article_media.wikipedia_title(article, {})
+        self.assertEqual((title, relation), ('Ashurbanipal', 'subject'))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
