@@ -115,10 +115,11 @@ def main():
             errors.append(f"Missing generated article page: {article['slug']}")
             continue
         html_text = route.read_text(encoding='utf-8')
-        if 'data-article-media' not in html_text:
-            errors.append(f"Article lacks image discovery panel: {article['slug']}")
-        if '/article-media.js' not in html_text or '/article-media.css' not in html_text:
-            errors.append(f"Article lacks shared media assets: {article['slug']}")
+        if '/article-media.js' in html_text or 'data-media-candidates=' in html_text:
+            errors.append(f"Legacy Wikimedia browser loader is still present: {article['slug']}")
+        for src in re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', html_text):
+            if not src.startswith(BASE_PATH + '/assets/'):
+                errors.append(f"Non-local article image rejected in {article['slug']}: {src}")
     for article in EDITORIAL_ARTICLES:
         route = OUT / 'articles' / article['slug'] / 'index.html'
         if not route.exists():
