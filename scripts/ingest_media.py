@@ -54,6 +54,7 @@ def is_host(url, host):
 
 def read_url(url, *, delay, max_bytes=MAX_DOWNLOAD_BYTES):
     if not (is_host(url, 'upload.wikimedia.org') or
+            is_host(url, 'thumb.wikimedia.org') or
             is_host(url, 'commons.wikimedia.org') or
             is_host(url, 'en.wikipedia.org')):
         raise ValueError('Non-Wikimedia acquisition URL rejected')
@@ -65,7 +66,10 @@ def read_url(url, *, delay, max_bytes=MAX_DOWNLOAD_BYTES):
                 'User-Agent': USER_AGENT, 'Accept': 'application/json,image/webp,image/jpeg,image/png,*/*',
             })
             with urlopen(req, timeout=30) as response:
-                if not is_host(response.geturl(), 'upload.wikimedia.org') and not is_host(response.geturl(), 'commons.wikimedia.org') and not is_host(response.geturl(), 'en.wikipedia.org'):
+                if not (is_host(response.geturl(), 'upload.wikimedia.org') or
+                        is_host(response.geturl(), 'thumb.wikimedia.org') or
+                        is_host(response.geturl(), 'commons.wikimedia.org') or
+                        is_host(response.geturl(), 'en.wikipedia.org')):
                     raise ValueError('Unsafe image redirect')
                 size = int(response.headers.get('Content-Length') or '0')
                 if size > max_bytes:
@@ -132,11 +136,21 @@ def eligible(info):
     source = info.get('descriptionurl', '')
     thumb = info.get('thumburl', '')
     accepted = re.fullmatch(r'(?:CC0(?: 1\.0)?|CC BY(?:-SA)?(?: [1-4]\.0)?|Public domain|PD)', label, re.I)
+    is_public_domain = label.casefold() in ('public domain', 'pd')
+    if is_public_domain:
+        copyrighted = plain((meta.get('Copyrighted') or {}).get('value')).casefold()
+        usage_terms = plain((meta.get('UsageTerms') or {}).get('value')).casefold()
+        # Rights assertions must agree. The per-file Commons page remains
+        # the evidence; the reference below only explains public-domain reuse.
+        if copyrighted not in ('false', '0') or usage_terms not in ('public domain', 'pd'):
+            return None
+        if not licence_url:
+            licence_url = 'https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain'
     if not accepted or not creator or not licence_url:
         return None
     if not is_host(source, 'commons.wikimedia.org') or not source.startswith('https://commons.wikimedia.org/wiki/File:'):
         return None
-    if not is_host(thumb, 'upload.wikimedia.org'):
+    if not (is_host(thumb, 'upload.wikimedia.org') or is_host(thumb, 'thumb.wikimedia.org')):
         return None
     return {'creator': creator, 'licence': label, 'licence_url': licence_url,
             'source_url': source, 'download_url': thumb}
@@ -164,7 +178,7 @@ def candidate_info(title, delay):
     response = api(COMMONS_API, {
         'prop': 'imageinfo', 'iiprop': 'url|mime|extmetadata',
         'iiurlwidth': '1000',
-        'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit',
+        'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit|Copyrighted|UsageTerms',
         'titles': '|'.join(titles),
     }, delay)
     return {p.get('title', '').replace('_', ' ').casefold(): p.get('imageinfo', [None])[0]
