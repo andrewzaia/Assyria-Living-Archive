@@ -94,18 +94,45 @@ def api(url, params, delay):
     return json.loads(read_url(url + '?' + query, delay=delay, max_bytes=3_000_000))
 
 
+def normalise_licence_url(raw):
+    """Accept only trusted rights links and upgrade Wikimedia's older HTTP forms."""
+    value = html.unescape(str(raw or '')).strip()
+    if value.startswith('//'):
+        value = 'https:' + value
+    elif value.startswith('http://'):
+        value = 'https://' + value[len('http://'):]
+    try:
+        parsed = urlsplit(value)
+    except ValueError:
+        return ''
+    if (parsed.scheme != 'https' or
+            parsed.hostname not in ('creativecommons.org', 'commons.wikimedia.org') or
+            parsed.username or parsed.password):
+        return ''
+    return value
+
+
+def save_progress(registry):
+    """Atomically checkpoint verified files, retaining work if a later query fails."""
+    media.validate_library(registry)
+    target = media.LIBRARY_FILE
+    staging = target.with_name(target.name + '.tmp')
+    staging.write_text(json.dumps(registry, ensure_ascii=True, indent=2,
+                                  sort_keys=True) + '\n', encoding='utf-8')
+    staging.replace(target)
+
+
 def eligible(info):
     if not info or info.get('mime') not in ('image/jpeg', 'image/png', 'image/webp'):
         return None
     meta = info.get('extmetadata') or {}
     label = plain((meta.get('LicenseShortName') or {}).get('value'))
-    licence_url = (meta.get('LicenseUrl') or {}).get('value', '')
+    licence_url = normalise_licence_url((meta.get('LicenseUrl') or {}).get('value', ''))
     creator = plain((meta.get('Artist') or {}).get('value') or (meta.get('Credit') or {}).get('value'))
     source = info.get('descriptionurl', '')
     thumb = info.get('thumburl', '')
     accepted = re.fullmatch(r'(?:CC0(?: 1\.0)?|CC BY(?:-SA)?(?: [1-4]\.0)?|Public domain|PD)', label, re.I)
-    licence_host = urlsplit(licence_url).hostname
-    if not accepted or not creator or not licence_host or licence_host not in ('creativecommons.org', 'commons.wikimedia.org'):
+    if not accepted or not creator or not licence_url:
         return None
     if not is_host(source, 'commons.wikimedia.org') or not source.startswith('https://commons.wikimedia.org/wiki/File:'):
         return None
@@ -248,9 +275,10 @@ def main():
             break
         ingest_article(article, registry, args.delay, args.max_per_article, counters)
         if number % 25 == 0:
-            print('Scanned:', number, 'of', len(articles), 'assets:', len(registry['assets']), flush=True)
-    media.validate_library(registry)
-    media.LIBRARY_FILE.write_text(json.dumps(registry, ensure_ascii=True, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+            save_progress(registry)
+            print('Checkpoint saved. Scanned:', number, 'of', len(articles),
+                  'assets:', len(registry['assets']), flush=True)
+    save_progress(registry)
     print('Archived, local-only:', json.dumps(counters, sort_keys=True), 'assets:', len(registry['assets']))
     if not registry['assets']:
         raise SystemExit('No licensed Wikimedia files were downloaded. Not recording false success.')
