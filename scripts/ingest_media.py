@@ -174,15 +174,22 @@ def optimise(source_bytes):
 def candidate_info(title, delay):
     if not title:
         return {}
-    titles = ['File:' + name.removeprefix('File:') for name in title[:8]]
-    response = api(COMMONS_API, {
-        'prop': 'imageinfo', 'iiprop': 'url|mime|extmetadata',
-        'iiurlwidth': '1000',
-        'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit|Copyrighted|UsageTerms',
-        'titles': '|'.join(titles),
-    }, delay)
-    return {p.get('title', '').replace('_', ' ').casefold(): p.get('imageinfo', [None])[0]
-            for p in response.get('query', {}).get('pages', []) if p.get('imageinfo')}
+    # Batch Commons metadata to respect API URL size and avoid dropping valid
+    # figures that occur later in the preserved source page.
+    titles = ['File:' + name.removeprefix('File:') for name in title[:16]]
+    results = {}
+    for start in range(0, len(titles), 8):
+        response = api(COMMONS_API, {
+            'prop': 'imageinfo', 'iiprop': 'url|mime|extmetadata',
+            'iiurlwidth': '1000',
+            'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist|Credit|Copyrighted|UsageTerms',
+            'titles': '|'.join(titles[start:start + 8]),
+        }, delay)
+        results.update({
+            p.get('title', '').replace('_', ' ').casefold(): p.get('imageinfo', [None])[0]
+            for p in response.get('query', {}).get('pages', []) if p.get('imageinfo')
+        })
+    return results
 
 
 def fallback(article, delay):

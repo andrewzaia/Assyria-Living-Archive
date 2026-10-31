@@ -228,6 +228,65 @@ class LocalMediaTests(unittest.TestCase):
         self.assertIn('Rights status: <a', markup)
         self.assertNotIn('Licence: <a', markup)
 
+    def test_all_unillustrated_articles_are_research_not_false_absence(self):
+        triage = article_media.triage(
+            generate.ARTICLES, generate.MEDIA_LIBRARY,
+            generate.REFERENCE_MEDIA, generate.SM
+        )
+        self.assertEqual(triage['total_articles'], len(generate.ARTICLES))
+        self.assertEqual(
+            triage['articles_needing_further_media_research'],
+            article_media.report(generate.ARTICLES, generate.MEDIA_LIBRARY)['articles_without_local_image']
+        )
+        self.assertEqual(
+            triage['placements_needing_editorial_relevance_review'],
+            sum(len(entries) for entries in generate.MEDIA_LIBRARY['articles'].values())
+        )
+        self.assertTrue(all(
+            x['status'] == 'further_research_needed'
+            for x in triage['research_queue']
+        ))
+        self.assertFalse(any(
+            x.get('status') in ('unavailable', 'no_media_exists')
+            for x in triage['research_queue']
+        ))
+        self.assertEqual(
+            sum(x['requires_discovery'] for x in triage['category_progress'].values()),
+            len(triage['research_queue'])
+        )
+        self.assertTrue(all(
+            x['review_status'] == 'not_editorially_verified'
+            for x in triage['placement_review_queue']
+        ))
+
+    def test_direct_subject_fallbacks_are_specific_and_not_general_keyword_search(self):
+        title, relation = article_media.wikipedia_title(
+            {'slug': 'syriac-scripts', 'title': 'Syriac scripts', 'sources': []},
+            {}
+        )
+        self.assertEqual((title, relation), ('Syriac alphabet', 'context'))
+        title, relation = article_media.wikipedia_title(
+            {'slug': 'research-guide', 'title': 'Research methods', 'sources': []},
+            {}
+        )
+        self.assertEqual((title, relation), ('Research methods', 'candidate'))
+
+    def test_later_retained_figures_are_considered(self):
+        subject = {'kind': 'preserved_reference', 'media_candidates': [
+            {'file': 'Artifact-%02d.jpg' % i} for i in range(20)
+        ]}
+        self.assertEqual(len(article_media.media_candidates(subject)), 16)
+        from scripts import ingest_media
+        from unittest.mock import patch
+        calls = []
+        def query(api_url, params, delay):
+            calls.append(params['titles'].split('|'))
+            return {'query': {'pages': []}}
+        with patch.object(ingest_media, 'api', side_effect=query):
+            ingest_media.candidate_info(['Artifact-%02d.jpg' % i for i in range(16)], 0.5)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(list(map(len, calls)), [8, 8])
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',

@@ -7,7 +7,7 @@ from bible_pages import make_pages as make_bible_pages, passage_panel
 from bible_support import validate_passages
 EDITORIAL_ARTICLES = FOUNDATION_ARTICLES + BIBLICAL_ARTICLES
 from archive_support import load_references, reference_sources, corpus_metrics, normalise
-from article_media import render as render_article_media, report as media_report, load_library, validate_library
+from article_media import render as render_article_media, report as media_report, triage as media_triage, load_library, validate_library
 from map_page import render_atlas
 from glossary import render as render_glossary
 from language_page import render as render_languages, validate as validate_languages
@@ -326,6 +326,7 @@ if __name__=='__main__':
     payload={'edition':'Research and preservation edition 01','compiled':'2026-10-26','articles':[{k:v for k,v in a.items() if k not in ('html','record','headings')} for a in ARTICLES],'sources':SOURCES,'topics':CATS}
     write('/catalogue.json',json.dumps(payload,ensure_ascii=False))
     write('/media-audit.json',json.dumps(media_report(ARTICLES, MEDIA_LIBRARY),ensure_ascii=False,indent=2)+'\n')
+    write('/media-triage.json',json.dumps(media_triage(ARTICLES, MEDIA_LIBRARY, REFERENCE_MEDIA, SM),ensure_ascii=False,indent=2)+'\n')
     write('/404.html',shell('Page not found','The requested page could not be found.','/404.html','<main id="main" class="wrap section empty-state"><h1>A path still to be written.</h1><p>This page is not in the archive.</p><a class="button outline" href="/explore/">Explore the articles</a></main>'))
     robots_text = 'User-agent: *\nAllow: /\n' if ALLOW_INDEXING else 'User-agent: *\nDisallow: /\n'
     if ALLOW_INDEXING:

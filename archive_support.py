@@ -237,7 +237,7 @@ def load_references():
             summary=summary, sections=[dict(title='Preserved reference text', text=plain)],
             sources=[record['id']], related=[], image=None, note=None, kind='preserved_reference',
             word_count=words(plain), html=clean, headings=reader.headings, record=record,
-            media_candidates=collector.items[:8],
+            media_candidates=collector.items[:16],
         ))
     return articles
 
