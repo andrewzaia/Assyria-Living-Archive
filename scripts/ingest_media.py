@@ -211,11 +211,11 @@ def fallback(article, delay):
 
 def contextual_map_label(title, alt, caption, relation):
     """Do not claim a place is marked on a reused unlabelled base map."""
-    if title.casefold() == 'file:near east non political.png':
+    if title.replace('_', ' ').casefold() == 'file:near east non political.png':
         return ('Unlabelled regional terrain map of the Near East',
                 'Regional context map; individual sites are not marked',
                 'context')
-    if title.casefold() == 'file:al-hasakah blank districts.png':
+    if title.replace('_', ' ').casefold() == 'file:al-hasakah blank districts.png':
         return ('District outline map of Al-Hasakah Governorate',
                 'Regional district context; individual towns are not marked',
                 'context')
