@@ -89,6 +89,34 @@ class LocalMediaTests(unittest.TestCase):
         info['extmetadata']['LicenseUrl']['value'] = 'https://malicious.example/foo'
         self.assertIsNone(eligible(info))
 
+    def test_public_domain_requires_consistent_commons_evidence(self):
+        info = {
+            'mime': 'image/jpeg',
+            'descriptionurl': 'https://commons.wikimedia.org/wiki/File:Ashurnasipal_with_official.jpg',
+            'thumburl': 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/test.jpg/1000px-test.jpg',
+            'extmetadata': {
+                'Credit': {'value': 'ChrisO (Own work)'},
+                'LicenseShortName': {'value': 'Public domain'},
+                'Copyrighted': {'value': 'False'},
+                'UsageTerms': {'value': 'Public domain'},
+            },
+        }
+        rights = eligible(info)
+        self.assertIsNotNone(rights)
+        self.assertEqual(rights['licence'], 'Public domain')
+        self.assertEqual(
+            rights['licence_url'],
+            'https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain'
+        )
+        info['extmetadata']['Copyrighted']['value'] = 'True'
+        self.assertIsNone(eligible(info))
+        info['extmetadata']['Copyrighted']['value'] = 'False'
+        info['extmetadata']['UsageTerms']['value'] = 'All rights reserved'
+        self.assertIsNone(eligible(info))
+        info['extmetadata']['UsageTerms']['value'] = 'Public domain'
+        info['thumburl'] = 'https://untrusted.example/test.jpg'
+        self.assertIsNone(eligible(info))
+
     def test_invalid_stored_licence_is_rejected_even_with_local_path(self):
         registry = {
             'schema_version': 1,
