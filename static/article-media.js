@@ -85,7 +85,13 @@
       image.alt = item.alt || ("Media from the source article: " + item.file);
       image.loading = "lazy";
       image.decoding = "async";
-      image.onerror = () => figure.remove();
+      image.onerror = () => {
+        figure.remove();
+        if (!gallery.children.length) {
+          status.classList.remove("media-research-found");
+          status.textContent = "Source images passed metadata checks but could not be loaded. Follow the source links to view the originals.";
+        }
+      };
       image.src = rights.thumb;
       const label = document.createElement("figcaption");
       const description = (item.caption || item.alt || item.file);
