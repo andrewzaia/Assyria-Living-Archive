@@ -15,4 +15,6 @@ assert DOMAIN + '/sitemap.xml' in robots, robots
 sitemap = (ROOT / 'dist' / 'sitemap.xml').read_text(encoding='utf-8')
 assert '<loc>' + DOMAIN + '/</loc>' in sitemap
 assert 'andrewzaia.github.io' not in sitemap
+worker = json.loads((ROOT / 'worker' / 'wrangler.jsonc').read_text(encoding='utf-8'))
+assert worker.get('workers_dev') is False, 'Contribution Worker must not expose a workers.dev hostname'
 print('Public domain, indexing and sitemap checks passed.')
