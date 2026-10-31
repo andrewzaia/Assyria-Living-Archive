@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import worker from '../src/index.mjs';
 
-const origin = 'https://andrewzaia.github.io';
+const origin = 'https://www.assyrialivingarchive.org';
 const createRequest = (data, options = {}) => new Request('https://assyria-archive-contributions.example/submit', {
   method: options.method || 'POST',
   headers: { Origin: options.origin || origin, 'Content-Type': options.contentType || 'application/json' },
@@ -41,7 +41,7 @@ test('requires verified Turnstile action and hostname', async () => {
 test('sends validated form with exact Markdown attachment and private destination', async () => {
   const originalFetch = globalThis.fetch;
   let sent;
-  globalThis.fetch = async () => Response.json({ success: true, hostname: 'andrewzaia.github.io', action: 'contribution' });
+  globalThis.fetch = async () => Response.json({ success: true, hostname: 'www.assyrialivingarchive.org', action: 'contribution' });
   try {
     const response = await worker.fetch(createRequest(good), { ...env, EMAIL: { async send(message) { sent = message; } } });
     assert.equal(response.status, 200);
