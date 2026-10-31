@@ -1,5 +1,13 @@
 {
   "articles": {
+    "akitu": [
+      {
+        "alt": "Source-associated illustration for Kha b-Nisan",
+        "asset_id": "02a78567f064080c35248cbd",
+        "caption": "Lead image linked from Kha b-Nisan",
+        "relation": "context"
+      }
+    ],
     "ancient-assyria": [
       {
         "alt": "The ancient Assyrian heartland (red) and the Neo-Assyrian Empire in the 7th century BC (orange)",
@@ -106,6 +114,14 @@
         "relation": "context"
       }
     ],
+    "khorsabad": [
+      {
+        "alt": "Source-associated illustration for Dur-Sharrukin",
+        "asset_id": "c145373c33d7eb1b5b8a9894",
+        "caption": "Lead image linked from Dur-Sharrukin",
+        "relation": "context"
+      }
+    ],
     "kileche": [
       {
         "alt": "Source-associated illustration for Kleicha",
@@ -179,6 +195,14 @@
         "alt": "Amedi Gate (1994)",
         "asset_id": "51efedf38a6a6572eebd9922",
         "caption": "Amedi Gate (1994)",
+        "relation": "subject"
+      }
+    ],
+    "reference-ancient-church-of-the-east": [
+      {
+        "alt": "Source-associated illustration for Ancient Church of the East",
+        "asset_id": "63be6ea90bc927ab7862b7e9",
+        "caption": "Lead image linked from Ancient Church of the East",
         "relation": "subject"
       }
     ],
@@ -295,6 +319,14 @@
         "alt": "Cathedral of Our Lady of Sorrows: is a Chaldean Catholic cathedral in Baghdad, Iraq",
         "asset_id": "c46c839ac35c8074cfb71542",
         "caption": "Cathedral of Our Lady of Sorrows: is a Chaldean Catholic cathedral in Baghdad, Iraq",
+        "relation": "subject"
+      }
+    ],
+    "reference-assyrians-in-armenia": [
+      {
+        "alt": "Source-associated illustration for Assyrians in Armenia",
+        "asset_id": "32e5a9adf8aacf7371ff6a7a",
+        "caption": "Lead image linked from Assyrians in Armenia",
         "relation": "subject"
       }
     ],
@@ -496,6 +528,14 @@
         "relation": "subject"
       }
     ],
+    "reference-dur-sharrukin": [
+      {
+        "alt": "Source-associated illustration for Dur-Sharrukin",
+        "asset_id": "c145373c33d7eb1b5b8a9894",
+        "caption": "Lead image linked from Dur-Sharrukin",
+        "relation": "subject"
+      }
+    ],
     "reference-east-syriac-rite": [
       {
         "alt": "icon",
@@ -657,6 +697,14 @@
         "alt": "Source-associated illustration for Justin Meram",
         "asset_id": "b1fbbcca1a77abf22c1ce490",
         "caption": "Lead image linked from Justin Meram",
+        "relation": "subject"
+      }
+    ],
+    "reference-kha-b-nisan": [
+      {
+        "alt": "Source-associated illustration for Kha b-Nisan",
+        "asset_id": "02a78567f064080c35248cbd",
+        "caption": "Lead image linked from Kha b-Nisan",
         "relation": "subject"
       }
     ],
@@ -930,6 +978,14 @@
         "relation": "subject"
       }
     ],
+    "reference-saint-thomas-christians": [
+      {
+        "alt": "Source-associated illustration for Saint Thomas Christians",
+        "asset_id": "ba60f0c319a60642f154ee28",
+        "caption": "Lead image linked from Saint Thomas Christians",
+        "relation": "subject"
+      }
+    ],
     "reference-salmas": [
       {
         "alt": "Salmas is located in Iran",
@@ -986,6 +1042,12 @@
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "9579ce98335f66861b27c4a0",
+        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "relation": "subject"
+      },
+      {
+        "alt": "Sargon of Akkad on a rock relief",
+        "asset_id": "e878cb53f3581d8921a2778b",
         "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "subject"
       }
@@ -1182,12 +1244,24 @@
         "asset_id": "9579ce98335f66861b27c4a0",
         "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
+      },
+      {
+        "alt": "Sargon of Akkad on a rock relief",
+        "asset_id": "e878cb53f3581d8921a2778b",
+        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "relation": "context"
       }
     ],
     "sargon-ii": [
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "9579ce98335f66861b27c4a0",
+        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "relation": "context"
+      },
+      {
+        "alt": "Sargon of Akkad on a rock relief",
+        "asset_id": "e878cb53f3581d8921a2778b",
         "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
       }
@@ -1246,6 +1320,15 @@
     ]
   },
   "assets": {
+    "02a78567f064080c35248cbd": {
+      "creator": "Chaldean at English Wikipedia",
+      "file": "/assets/archive-media/02a78567f064080c35248cbd.webp",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original_title": "File:Kha_b'Nissan_parade_in_Alqosh.jpg",
+      "sha256": "37e91c8dabc27a58189723aa22eb3473b1929a8087459db996dca3ac93cdbc08",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kha_b%27Nissan_parade_in_Alqosh.jpg"
+    },
     "0454b9bc7156d69c675f95b2": {
       "creator": "Mar Sharb",
       "file": "/assets/archive-media/0454b9bc7156d69c675f95b2.webp",
@@ -1389,6 +1472,15 @@
       "original_title": "File:Holy Mass Celebration in Malankara Orthodox Syrian Church.jpg",
       "sha256": "5a443abc418d46acd18a1526b578a3629030c3278cc47ec6ee65d23517f4ac5b",
       "source_url": "https://commons.wikimedia.org/wiki/File:Holy_Mass_Celebration_in_Malankara_Orthodox_Syrian_Church.jpg"
+    },
+    "32e5a9adf8aacf7371ff6a7a": {
+      "creator": "ArTvAZDARAR",
+      "file": "/assets/archive-media/32e5a9adf8aacf7371ff6a7a.webp",
+      "licence": "CC BY 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by/3.0",
+      "original_title": "File:Kids_holding_the_Assyrian_and_Armenian_flags_in_Yerevan.jpg",
+      "sha256": "83555622c3b04deb0c47b3e91f7177caa5f6150603c50c4cf8e28baf94343f48",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kids_holding_the_Assyrian_and_Armenian_flags_in_Yerevan.jpg"
     },
     "3433b6b21eadbc8c9a9dd5b1": {
       "creator": "Yuber at English Wikipedia",
@@ -1632,6 +1724,15 @@
       "original_title": "File:046CupolaSPietro.jpg",
       "sha256": "9a065e063fc8dfbeb1e814368014b052fa7764302a60168c21de3943def20a5a",
       "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg"
+    },
+    "63be6ea90bc927ab7862b7e9": {
+      "creator": "Mar Sharb",
+      "file": "/assets/archive-media/63be6ea90bc927ab7862b7e9.webp",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0",
+      "original_title": "File:Church_Church_of_the_Virgin_Mary_in_Baghdad.jpg",
+      "sha256": "6bfeda36feebb4719230869320da51db289027f36129d91cded6f9ad6846339c",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Church_Church_of_the_Virgin_Mary_in_Baghdad.jpg"
     },
     "6400fe818a12accc022b79cf": {
       "creator": "PersianDutchNetwork",
