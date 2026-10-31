@@ -121,7 +121,7 @@ def render(article, library):
             '" loading="lazy" decoding="async"></a>'
             '<figcaption>' + safe_text(subject_label) + safe_text(caption) +
             '. <span class="media-credit">Image by ' + safe_text(asset['creator']) +
-            '. <a href="' + H(asset['source_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">Original file and attribution</a>' +
+            '. <a href="' + safe_url(asset['source_url']) + '" target="_blank" rel="noopener noreferrer">Original file and attribution</a>' +
             '. Licence: <a href="' + safe_url(asset['licence_url']) +
             '" target="_blank" rel="noopener noreferrer">' + safe_text(asset['licence']) +
             '</a>. Resized and converted to WebP for this archive.</span></figcaption></figure>'
