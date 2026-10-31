@@ -236,6 +236,8 @@ def ingest_article(article, registry, delay, max_per_article, counters):
                 continue
             title = 'File:' + raw_name.removeprefix('File:')
             key = title.replace('_', ' ').casefold()
+            if str(item.get('alt') or '').strip().casefold() in ('icon', 'thumbnail', 'image'):
+                continue
             if key in tried:
                 continue
             tried.add(key)

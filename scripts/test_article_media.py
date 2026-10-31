@@ -271,6 +271,23 @@ class LocalMediaTests(unittest.TestCase):
         )
         self.assertEqual((title, relation), ('Research methods', 'candidate'))
 
+    def test_generic_wikipedia_interface_icons_are_not_archival_media(self):
+        collector = MediaCollector()
+        collector.feed(
+            '<figure><a href="/wiki/File:Generic_icon.jpg">'
+            '<img alt="icon" data-file-width="1200" data-file-height="1200"></a>'
+            '<figcaption>icon</figcaption></figure>'
+            '<figure><a href="/wiki/File:Inscription_tablet.jpg">'
+            '<img alt="Cuneiform tablet" data-file-width="1200" data-file-height="1200"></a>'
+            '<figcaption>Inscribed clay tablet</figcaption></figure>'
+        )
+        self.assertEqual([x['file'] for x in collector.items], ['Inscription tablet.jpg'])
+        self.assertTrue(all(
+            entry['alt'].strip().casefold() not in ('icon', 'thumbnail', 'image')
+            for entries in generate.MEDIA_LIBRARY['articles'].values()
+            for entry in entries
+        ))
+
     def test_later_retained_figures_are_considered(self):
         subject = {'kind': 'preserved_reference', 'media_candidates': [
             {'file': 'Artifact-%02d.jpg' % i} for i in range(20)

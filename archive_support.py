@@ -176,7 +176,8 @@ class MediaCollector(HTMLParser):
             except (TypeError, ValueError):
                 return
             alt = ' '.join(attrs.get('alt', '').split())
-            if width < 180 or height < 100 or not alt:
+            # Wikipedia interface icons and placeholders are not academic media.
+            if width < 180 or height < 100 or not alt or alt.casefold() in ('icon', 'thumbnail', 'image'):
                 return
             filename = self.active_file
             if not filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
