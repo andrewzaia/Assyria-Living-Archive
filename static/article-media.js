@@ -129,7 +129,8 @@
         status.textContent = "No source-specific lead illustration was found. Use the Commons link below to investigate available media.";
         return;
       }
-      const fileTitle = "File:" + page.pageimage;
+      // MediaWiki may already return a File: prefix for pageimages.
+      const fileTitle = page.pageimage.startsWith("File:") ? page.pageimage : "File:" + page.pageimage;
       const fileResult = await request("commons.wikimedia.org", {
         prop: "imageinfo", iiprop: "url|mime|extmetadata", iiurlwidth: "1100",
         iiextmetadatafilter: "LicenseShortName|LicenseUrl|Artist|Credit|AttributionRequired",
