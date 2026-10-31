@@ -49,7 +49,7 @@ Run locally from the repository root to repeat or extend acquisition:
     python generate.py
     python scripts/validate.py
 
-A media gap is recorded, not filled with an unlicensed or misleading image. dist/media-audit.json reports the number of articles with actual committed pictures and lists those still missing images. Neither a Wikipedia image candidate nor a successfully fetched licence page counts as delivered media until the local file is saved and its integrity is verified. More targeted portraits, manuscript images, maps, community submissions, and human review remain editorial work.
+Source figures are preferred. If all original figure candidates are unavailable or not eligible, the importer tries the corresponding Wikipedia source article's lead image under the same individual Commons licence and attribution checks. The importer reuses previously archived identical Commons files instead of downloading duplicate copies. A media gap is recorded, not filled with an unlicensed or misleading image. dist/media-audit.json reports the number of articles with actual committed pictures and lists those still missing images. Neither a Wikipedia image candidate nor a successfully fetched licence page counts as delivered media until the local file is saved and its integrity is verified. More targeted portraits, manuscript images, maps, community submissions, and human review remain editorial work.
 
 ## Production site: Cloudflare Pages
 

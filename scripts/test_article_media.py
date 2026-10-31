@@ -106,6 +106,67 @@ class LocalMediaTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Unverified image licence URL'):
             article_media.validate_library(registry, check_files=False)
 
+    def test_unsuitable_preserved_figures_fall_back_to_source_lead(self):
+        from unittest.mock import patch
+        from tempfile import TemporaryDirectory
+        from scripts import ingest_media
+        article = {'slug': 'sample-person', 'kind': 'preserved_reference',
+                   'title': 'Historical person', 'category': 'People & diaspora',
+                   'record': {'source_url': 'https://en.wikipedia.org/wiki/Historical_person'},
+                   'media_candidates': [{'file': 'Unlicensed.jpg', 'alt': 'Unknown',
+                                         'caption': 'Unlicensed image'}]}
+        rights = {
+            'mime': 'image/jpeg',
+            'descriptionurl': 'https://commons.wikimedia.org/wiki/File:Person.jpg',
+            'thumburl': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/x.jpg',
+            'extmetadata': {'Artist': {'value': 'Photographer'},
+                            'LicenseShortName': {'value': 'CC BY 4.0'},
+                            'LicenseUrl': {'value': 'https://creativecommons.org/licenses/by/4.0/'}}
+        }
+        calls = []
+        def candidates(titles, _delay):
+            calls.append(tuple(titles))
+            return {'file:person.jpg': rights} if titles == ['Person.jpg'] else {}
+        counters = dict(previously_archived=0, new_article_images=0,
+                        lookup_failures=0, without_eligible_licence=0, no_source_images=0)
+        library = {'schema_version': 1, 'assets': {}, 'articles': {}}
+        with TemporaryDirectory() as tmp:
+            with patch.object(ingest_media, 'ROOT', Path(tmp)), \
+                 patch.object(ingest_media, 'candidate_info', side_effect=candidates), \
+                 patch.object(ingest_media, 'fallback', return_value=[
+                     {'file': 'Person.jpg', 'alt': 'Related period portrait',
+                      'caption': 'Source lead picture'}]), \
+                 patch.object(ingest_media, 'read_url', return_value=b'source-image'), \
+                 patch.object(ingest_media, 'optimise', return_value=b'RIFFwebp-test'):
+                ingest_media.ingest_article(article, library, 0.5, 2, counters)
+            self.assertEqual(len(library['assets']), 1)
+            self.assertEqual(len(library['articles']['sample-person']), 1)
+            self.assertEqual(counters['new_article_images'], 1)
+            self.assertEqual(calls, [('Unlicensed.jpg',), ('Person.jpg',)])
+
+    def test_cached_images_are_reused_without_network_access(self):
+        from unittest.mock import patch
+        from scripts import ingest_media
+        title = 'File:Preserved image.jpg'
+        media_id = 'f' * 24
+        registry = {'schema_version': 1,
+                    'assets': {media_id: {'original_title': title}},
+                    'articles': {}}
+        article = {'slug': 'a-source', 'kind': 'preserved_reference',
+                   'media_candidates': [{'file': 'Preserved_image.jpg',
+                                         'alt': 'Historical illustration',
+                                         'caption': 'Source photo'}]}
+        counters = dict(previously_archived=0, new_article_images=0,
+                        lookup_failures=0, no_source_images=0, without_eligible_licence=0)
+        with patch.object(ingest_media, 'candidate_info') as candidate_info, \
+             patch.object(ingest_media, 'read_url') as read_url, \
+             patch.object(ingest_media, 'fallback') as fallback:
+            ingest_media.ingest_article(article, registry, 0.5, 2, counters)
+        candidate_info.assert_not_called()
+        read_url.assert_not_called()
+        fallback.assert_not_called()
+        self.assertEqual(registry['articles']['a-source'][0]['asset_id'], media_id)
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',

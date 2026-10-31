@@ -189,72 +189,110 @@ def fallback(article, delay):
 
 
 def ingest_article(article, registry, delay, max_per_article, counters):
+    """Prefer original source figures, then the precise source article's lead image."""
     slug = article['slug']
-    existing = registry['articles'].get(slug, [])
-    if len(existing) >= max_per_article:
+    selections = list(registry['articles'].get(slug, []))
+    if len(selections) >= max_per_article:
         counters['previously_archived'] += 1
         return
-    candidates = media.media_candidates(article, REFERENCE_MEDIA)
-    if not candidates:
+
+    relation = 'subject' if article.get('kind') == 'preserved_reference' else 'context'
+    retained = media.media_candidates(article, REFERENCE_MEDIA)
+    tried = set()
+
+    # Images already accessioned for another article are copied by reference
+    # rather than downloaded, converted, and uploaded a second time.
+    indexed = {
+        asset['original_title'].replace('_', ' ').casefold(): media_id
+        for media_id, asset in registry['assets'].items()
+    }
+
+    def accept_candidates(candidates):
+        pending = []
+        for item in candidates:
+            raw_name = str(item.get('file') or '')
+            if not raw_name:
+                continue
+            title = 'File:' + raw_name.removeprefix('File:')
+            key = title.replace('_', ' ').casefold()
+            if key in tried:
+                continue
+            tried.add(key)
+            pending.append((key, title, item))
+        if not pending:
+            return
+
+        # Only query Commons for files that are not already in our archive.
+        missing = [(key, title, item) for key, title, item in pending if key not in indexed]
+        infos = {}
+        if missing:
+            try:
+                infos = candidate_info([item['file'] for _, _, item in missing], delay)
+            except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
+                counters['lookup_failures'] += 1
+                print(slug, 'rights lookup unavailable:', type(exc).__name__, flush=True)
+
+        for key, title, item in pending:
+            if len(selections) >= max_per_article:
+                break
+            media_id = indexed.get(key)
+            if not media_id:
+                rights = eligible(infos.get(key))
+                if not rights:
+                    continue
+                try:
+                    raw = read_url(rights['download_url'], delay=delay)
+                    data = optimise(raw)
+                except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError, OSError) as exc:
+                    print(slug, 'media skipped:', type(exc).__name__, flush=True)
+                    continue
+                if not data:
+                    continue
+                checksum = hashlib.sha256(data).hexdigest()
+                media_id = hashlib.sha256((title + ':' + checksum).encode('utf-8')).hexdigest()[:24]
+                filename = '/assets/archive-media/' + media_id + '.webp'
+                target = ROOT / 'static' / filename.lstrip('/')
+                target.parent.mkdir(parents=True, exist_ok=True)
+                if not target.exists():
+                    target.write_bytes(data)
+                registry['assets'][media_id] = {
+                    'file': filename, 'sha256': checksum,
+                    'creator': rights['creator'],
+                    'licence': rights['licence'],
+                    'licence_url': rights['licence_url'],
+                    'source_url': rights['source_url'],
+                    'original_title': title,
+                }
+                indexed[key] = media_id
+            if not any(choice['asset_id'] == media_id for choice in selections):
+                selections.append({
+                    'asset_id': media_id,
+                    'alt': plain(item.get('alt') or title),
+                    'caption': plain(item.get('caption') or item.get('alt') or title),
+                    'relation': relation,
+                })
+                counters['new_article_images'] += 1
+
+    accept_candidates(retained)
+
+    # If retained figure candidates have not produced an acceptable image,
+    # try the lead illustration of that exact source topic. Do not search
+    # Commons by vague keywords or invent portraits for unmatched subjects.
+    if not selections:
         try:
-            candidates = fallback(article, delay)
+            lead = fallback(article, delay)
         except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
             counters['lookup_failures'] += 1
-            print(slug, 'fallback metadata unavailable:', type(exc).__name__, flush=True)
-            return
-    if not candidates:
-        counters['no_source_images'] += 1
-        return
-    try:
-        infos = candidate_info([c['file'] for c in candidates], delay)
-    except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
-        counters['lookup_failures'] += 1
-        print(slug, 'licence metadata unavailable:', type(exc).__name__, flush=True)
-        return
-    selections = list(existing)
-    relation = 'subject' if article.get('kind') == 'preserved_reference' else 'context'
-    for candidate in candidates:
-        if len(selections) >= max_per_article:
-            break
-        title = 'File:' + candidate['file'].removeprefix('File:')
-        info = infos.get(title.replace('_', ' ').casefold())
-        rights = eligible(info)
-        if not rights:
-            continue
-        try:
-            raw = read_url(rights['download_url'], delay=delay)
-            data = optimise(raw)
-        except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError, OSError) as exc:
-            print(slug, 'image skipped:', type(exc).__name__, flush=True)
-            continue
-        if not data:
-            continue
-        checksum = hashlib.sha256(data).hexdigest()
-        media_id = hashlib.sha256((title + ':' + checksum).encode('utf-8')).hexdigest()[:24]
-        local_file = '/assets/archive-media/' + media_id + '.webp'
-        target = ROOT / 'static' / local_file.lstrip('/')
-        target.parent.mkdir(parents=True, exist_ok=True)
-        if not target.exists():
-            target.write_bytes(data)
-        registry['assets'][media_id] = {
-            'file': local_file,
-            'sha256': checksum,
-            'creator': rights['creator'],
-            'licence': rights['licence'],
-            'licence_url': rights['licence_url'],
-            'source_url': rights['source_url'],
-            'original_title': title,
-        }
-        if not any(s['asset_id'] == media_id for s in selections):
-            selections.append({'asset_id': media_id, 'alt': plain(candidate.get('alt') or title),
-                               'caption': plain(candidate.get('caption') or candidate.get('alt') or title),
-                               'relation': relation})
-            counters['new_article_images'] += 1
+            print(slug, 'source lead lookup unavailable:', type(exc).__name__, flush=True)
+            lead = []
+        accept_candidates(lead)
+
     if selections:
         registry['articles'][slug] = selections
-    else:
+    elif retained:
         counters['without_eligible_licence'] += 1
-
+    else:
+        counters['no_source_images'] += 1
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
