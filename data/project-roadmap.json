@@ -160,8 +160,8 @@
       "id": "visual-media",
       "title": "Source-credited images and multimedia across the encyclopaedia",
       "status": "in-progress",
-      "delivered": "A source-linked media panel and rights-checking client are available on every editorial guide and every preserved encyclopaedia reference, including all People and diaspora entries. The renderer distinguishes a relevant subject illustration from a contextual source image, checks each Wikimedia file's own creator and open licence metadata, and records candidate coverage in media-audit.json. The source text and embedded image licences are treated separately.",
-      "next": "Audit the resulting image retrievals in a browser, resolve articles without suitable verified media, prioritise distinct portraits, manuscripts, reliefs, maps and photographs, and progressively retain locally optimised, individually credited assets where reuse rights allow. Source candidates and discovery panels do not count as verified images; complete image coverage remains unverified."
+      "delivered": "Recovered image filenames, descriptive alternatives and figure captions from the original retained encyclopaedia snapshots while leaving preserved prose sanitisation unchanged. Each eligible article can display up to three images from its own source or an identified contextual source, subject to separate Wikimedia Commons file-level author, licence, and thumbnail verification. All editorial and preserved articles have a media section, site-wide coverage metadata and tests. No unverified or misleading image is inserted simply to fill a blank.",
+      "next": "Run browser and licensing verification against live media providers, catalogue articles with no suitable images, and systematically add individual portraits, manuscripts, reliefs, maps and community photographs with accurate captions. Prefer locally maintained optimised media where licensing permits. The presence of an original media candidate does not establish safe reuse or successful display, and universal verified image coverage remains outstanding."
     },
     {
       "id": "publication",
