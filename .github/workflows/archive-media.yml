@@ -1,0 +1,52 @@
+name: Archive licensed article media locally
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/ingest_media.py
+  workflow_dispatch:
+
+# Acquisition runs only from trusted main, never from untrusted pull requests.
+permissions:
+  contents: write
+
+concurrency:
+  group: media-acquisition-main
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - name: Check out main with write authentication
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: true
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install image conversion dependency
+        run: python -m pip install 'Pillow>=11,<13'
+      - name: Acquire Commons-licensed images with provenance
+        run: |
+          python scripts/ingest_media.py --max-per-article 2 --max-assets 1000 --delay 0.5
+      - name: Validate all local media references and build
+        run: |
+          python generate.py
+          python scripts/validate.py
+          python scripts/test_article_media.py
+      - name: Commit media binaries and licence registry into repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/media-library.json static/assets/archive-media/
+          if git diff --cached --quiet; then
+            echo "No new images needed"
+            exit 0
+          fi
+          git commit -m "Archive licensed Wikimedia photographs and illustrations locally"
+          git push origin HEAD:main

@@ -34,15 +34,22 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 
 Edit `static/` rather than `dist/`. Every build recreates `dist/` from the maintained files, so stale generated pages are removed.
 
-## Media provenance and image licensing
+## Locally archived visual sources and media reuse
 
-Every editorial article and preserved encyclopaedia reference now has an image-research panel. Original Wikipedia parser snapshots may contain image filenames and captions, which are collected separately during the build without changing or reprinting the retained article JSON. Up to three images from that original source page are displayed only after an in-browser Wikimedia Commons imageinfo request confirms a permitted licence, a Commons file record, and appropriate attribution. Guides citing a preserved reference can reuse that source's media candidates as **contextual illustrations**, not depictions of the person or event unless independently documented. When original candidates are unavailable, the panel tries the corresponding Wikipedia lead image under the same rights checks.
+All published article images are served from repository files under static/assets, never hotlinked from Wikimedia, Wikipedia or another third-party image provider. Source links in captions are references, not image downloads. Article rendering, static hosting and site validation work offline.
 
-Every displayed image has its own author/creator credit, Commons file link, licence, and a caption identified as source-supplied rather than independently verified. The article-text licence is never assumed to apply to embedded images. Non-free, unclear, incompatible and unavailable images are withheld. The existing local images under static/assets keep their separately recorded credits.
+The maintained data/media-library.json registry records each accepted file's SHA-256 checksum, original Wikimedia Commons file description, creator credit, reuse licence and source filename. The original Wikipedia snapshots retain historical figure references; these are only candidates, not proof of permission or accurate depiction. The separate acquisition tool scripts/ingest_media.py checks the specific Commons image metadata, downloads an approved thumbnail, converts it to an optimised local WebP file and records exact provenance. Each displayed image carries a caption, an author credit, a link to the original file and the licence terms. A contextual image is labelled as contextual, not presented as an authentic portrait. The original images are not silently reproduced from the Wikipedia article licence.
 
-Image discovery is lazy-loaded near the viewport for performance. It makes third-party requests to Wikimedia (including transmission of visitor IP and normal network metadata) under Wikimedia's privacy arrangements. The core article text and source references remain available without the external service. A discovery panel is **not** proof that an image is displayed.
+The trusted GitHub Actions workflow archive-media.yml runs when the ingestion script first arrives on main and may also be dispatched manually. It downloads and commits the actual image files and the licence registry back to the public repository. It is **not** triggered by pull requests and does not accept arbitrary external source URLs. Wikimedia API requests carry a descriptive User-Agent, follow throttling and Retry-After guidance, and use serial requests. Conversion requires Pillow; ordinary website builds do not.
 
-The generated dist/media-audit.json lists every article's media candidate status and locally maintained image coverage. It does not claim that a candidate has been licensed or loaded successfully. Systematic acquisition of distinct, verified, locally optimised illustrations, especially portraits of historic and contemporary figures, remains an explicit editorial milestone.
+Run locally from the repository root to repeat or extend acquisition:
+
+    python -m pip install 'Pillow>=11,<13'
+    python scripts/ingest_media.py --max-per-article 2 --max-assets 1000
+    python generate.py
+    python scripts/validate.py
+
+A media gap is recorded, not filled with an unlicensed or misleading image. dist/media-audit.json reports the number of articles with actual committed pictures and lists those still missing images. Neither a Wikipedia image candidate nor a successfully fetched licence page counts as delivered media until the local file is saved and its integrity is verified. More targeted portraits, manuscript images, maps, community submissions, and human review remain editorial work.
 
 ## Production site: Cloudflare Pages
 
