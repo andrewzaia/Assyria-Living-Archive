@@ -23,6 +23,85 @@
     return response.json();
   };
   const firstPage = data => Object.values(data?.query?.pages || {})[0];
+  const inspect = info => {
+    const meta = info?.extmetadata || {};
+    const licence = metadataText(meta.LicenseShortName?.value);
+    const author = metadataText(meta.Artist?.value || meta.Credit?.value);
+    const licenceLink = meta.LicenseUrl?.value;
+    const source = info?.descriptionurl;
+    const thumb = info?.thumburl;
+    const validLicenceLink = httpsUrl(licenceLink, "creativecommons.org") ||
+      (licence.toLowerCase().startsWith("public domain") && httpsUrl(licenceLink, "wikimedia.org"));
+    if (!["image/jpeg", "image/png", "image/webp"].includes(info?.mime) ||
+        !httpsUrl(source, "wikimedia.org") || !httpsUrl(thumb, "wikimedia.org") ||
+        !allowedLicence(licence) || !validLicenceLink ||
+        (!author && !/^(public domain|pd|cc0)/i.test(licence))) return null;
+    return { source, thumb, licence, licenceLink, author };
+  };
+
+  function credit(caption, image, sourceDescription, rights) {
+    const context = document.createElement("span");
+    context.textContent = sourceDescription + " ";
+    const attribution = document.createElement("span");
+    attribution.textContent = "Photograph/artwork: " + (rights.author || "Creator not stated") + ". ";
+    const original = document.createElement("a");
+    original.href = rights.source;
+    original.target = "_blank";
+    original.rel = "noopener noreferrer";
+    original.textContent = "Original file";
+    const license = document.createElement("a");
+    license.href = rights.licenceLink;
+    license.target = "_blank";
+    license.rel = "noopener noreferrer";
+    license.textContent = rights.licence;
+    caption.replaceChildren(context, attribution, original,
+      document.createTextNode(". Licence: "), license,
+      document.createTextNode(". Thumbnail displayed without editorial manipulation."));
+  }
+
+  async function renderSnapshotGallery(panel, status, candidates) {
+    const fileTitles = [...new Set(candidates.map(c => "File:" + c.file))].slice(0, 8);
+    const lookup = await request("commons.wikimedia.org", {
+      prop: "imageinfo", iiprop: "url|mime|extmetadata", iiurlwidth: "850",
+      iiextmetadatafilter: "LicenseShortName|LicenseUrl|Artist|Credit|AttributionRequired",
+      titles: fileTitles.join("|")
+    });
+    const byTitle = new Map(Object.values(lookup?.query?.pages || {}).map(page =>
+      [String(page.title || "").replace(/_/g, " ").toLowerCase(), page]));
+    const gallery = panel.querySelector(".media-research-gallery");
+    let accepted = 0;
+    for (const item of candidates) {
+      if (accepted >= 3) break;
+      const page = byTitle.get(("File:" + item.file).replace(/_/g, " ").toLowerCase());
+      const rights = inspect(page?.imageinfo?.[0]);
+      if (!rights) continue;
+      const figure = document.createElement("figure");
+      figure.className = "media-research-item";
+      const link = document.createElement("a");
+      link.href = rights.source;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      const image = document.createElement("img");
+      image.alt = item.alt || ("Media from the source article: " + item.file);
+      image.loading = "lazy";
+      image.decoding = "async";
+      image.onerror = () => figure.remove();
+      image.src = rights.thumb;
+      const label = document.createElement("figcaption");
+      const description = (item.caption || item.alt || item.file);
+      credit(label, image, "Original reference caption (not independently verified): " + description + ".", rights);
+      link.appendChild(image);
+      figure.append(link, label);
+      gallery.appendChild(figure);
+      accepted++;
+    }
+    if (accepted) {
+      status.textContent = "Selected images from the retained source. Image-specific attribution and licence links appear beneath each image.";
+      status.classList.add("media-research-found");
+    }
+    return accepted;
+  }
+
   async function enhance(panel) {
     const status = panel.querySelector(".media-research-status");
     const figure = panel.querySelector(".media-research-figure");
@@ -30,6 +109,12 @@
     const caption = figure.querySelector("figcaption");
     const title = panel.dataset.mediaPage;
     try {
+      let candidates = [];
+      try { candidates = JSON.parse(panel.dataset.mediaCandidates || "[]"); } catch {}
+      if (candidates.length) {
+        const accepted = await renderSnapshotGallery(panel, status, candidates);
+        if (accepted) return;
+      }
       const result = await request("en.wikipedia.org", {
         prop: "pageimages", piprop: "name", redirects: "1", titles: title
       });
@@ -46,45 +131,22 @@
       });
       const filePage = firstPage(fileResult);
       const info = filePage?.imageinfo?.[0];
-      const meta = info?.extmetadata || {};
-      const licence = metadataText(meta.LicenseShortName?.value);
-      const author = metadataText(meta.Artist?.value || meta.Credit?.value);
-      const licenceLink = meta.LicenseUrl?.value;
-      const source = info?.descriptionurl;
-      const thumb = info?.thumburl;
-      const allowedType = ["image/jpeg", "image/png", "image/webp"].includes(info?.mime);
-      const validLicenceLink = httpsUrl(licenceLink, "creativecommons.org") ||
-        (licence.toLowerCase().startsWith("public domain") && httpsUrl(licenceLink, "wikimedia.org"));
-      if (!allowedType || !httpsUrl(source, "wikimedia.org") ||
-          !httpsUrl(thumb, "wikimedia.org") || !allowedLicence(licence) ||
-          !validLicenceLink || (!author && !/^(public domain|pd|cc0)/i.test(licence))) {
+      const rights = inspect(info);
+      if (!rights) {
         status.textContent = "An image was located, but its reuse rights or attribution could not be confirmed. No image has been republished.";
         return;
       }
+      const { source, thumb } = rights;
 
       const subject = page.title || title;
       img.alt = "Lead illustration accompanying the Wikipedia article " + subject +
         ". Consult the linked original file page for the depicted subject and context.";
       const originalLink = figure.querySelector(".media-research-original");
       originalLink.href = source;
-      const description = document.createElement("span");
-      description.textContent = panel.dataset.mediaRelation === "subject"
-        ? "Lead illustration from the source article " + subject + ". "
-        : "Contextual illustration from the related article " + subject + ". Not a verified portrait or depiction of this article's subject. ";
-      const attribution = document.createElement("span");
-      attribution.textContent = "Image: " + (author || "Creator not stated") + ". ";
-      const fileLink = document.createElement("a");
-      fileLink.href = source;
-      fileLink.target = "_blank";
-      fileLink.rel = "noopener noreferrer";
-      fileLink.textContent = "Original file and description";
-      const licenceAnchor = document.createElement("a");
-      licenceAnchor.href = licenceLink;
-      licenceAnchor.target = "_blank";
-      licenceAnchor.rel = "noopener noreferrer";
-      licenceAnchor.textContent = licence;
-      caption.replaceChildren(description, attribution, fileLink, document.createTextNode(". Licence: "), licenceAnchor,
-        document.createTextNode(". Displayed at reduced resolution, without editorial manipulation."));
+      const context = panel.dataset.mediaRelation === "subject"
+        ? "Lead illustration from the source article " + subject + "."
+        : "Contextual illustration from the related article " + subject + ". Not a verified portrait or depiction of this article's subject.";
+      credit(caption, img, context, rights);
       img.onload = () => {
         figure.hidden = false;
         status.hidden = true;
