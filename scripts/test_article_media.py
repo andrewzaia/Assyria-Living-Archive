@@ -82,6 +82,29 @@ class ArticleMediaTests(unittest.TestCase):
         self.assertNotIn("<script>", markup)
         self.assertIn("&lt;script&gt;", markup)
 
+    def test_unicode_source_names_round_trip_without_forbidden_html_dashes(self):
+        article = {
+            "slug": "reference-test",
+            "title": "Sargon II - the king",
+            "category": "People & diaspora",
+            "kind": "preserved_reference",
+            "sources": [],
+            "record": {"source_url": "https://en.wikipedia.org/wiki/Sargon_II"},
+            "media_candidates": [{
+                "file": "Assyrian relief \u2013 Sargon II.jpg",
+                "alt": "Sargon II \u2014 palace relief",
+                "caption": "A first-millennium \u2013 BCE object"
+            }],
+        }
+        markup = article_media.render(article, {})
+        for char in "\\u2010 \\u2011 \\u2012 \\u2013 \\u2014 \\u2015 \\u2212".split():
+            self.assertNotIn(chr(int(char[2:], 16)), markup)
+        parser = MediaParser()
+        parser.feed(markup)
+        self.assertEqual(parser.sections[0]["data-media-page"], "Sargon II")
+        self.assertEqual(json.loads(parser.sections[0]["data-media-candidates"]),
+                         article["media_candidates"])
+
     def test_media_audit_distinguishes_slots_from_confirmed_images(self):
         report = article_media.report(generate.ARTICLES, generate.SM, generate.REFERENCE_MEDIA)
         self.assertEqual(report["total_articles"], len(generate.ARTICLES))
