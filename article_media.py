@@ -6,6 +6,7 @@ only reads assets already committed to the repository.
 from html import escape as H
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit
+from archive_support import normalise
 import hashlib
 import json
 import re
@@ -104,6 +105,9 @@ def render(article, library):
     choices = library['articles'].get(article['slug'], [])
     if not choices:
         return ''
+    # Preserve source metadata in JSON, but normalise editorial display punctuation.
+    safe_text = lambda value: H(normalise(str(value)), quote=True)
+    safe_url = lambda value: H(quote(str(value), safe=":/?&=%#,+_-'()"), quote=True)
     blocks = []
     for entry in choices:
         asset = library['assets'][entry['asset_id']]
@@ -112,14 +116,14 @@ def render(article, library):
         caption = (entry.get('caption') or entry['alt']).strip()
         blocks.append(
             '<figure class="archive-media-item">'
-            '<a href="' + H(asset['source_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">'
-            '<img src="' + H(asset['file'], quote=True) + '" alt="' + H(entry['alt'], quote=True) +
+            '<a href="' + safe_url(asset['source_url']) + '" target="_blank" rel="noopener noreferrer">'
+            '<img src="' + safe_url(asset['file']) + '" alt="' + safe_text(entry['alt']) +
             '" loading="lazy" decoding="async"></a>'
-            '<figcaption>' + H(subject_label) + H(caption) +
-            '. <span class="media-credit">Image by ' + H(asset['creator']) +
+            '<figcaption>' + safe_text(subject_label) + safe_text(caption) +
+            '. <span class="media-credit">Image by ' + safe_text(asset['creator']) +
             '. <a href="' + H(asset['source_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">Original file and attribution</a>' +
-            '. Licence: <a href="' + H(asset['licence_url'], quote=True) +
-            '" target="_blank" rel="noopener noreferrer">' + H(asset['licence']) +
+            '. Licence: <a href="' + safe_url(asset['licence_url']) +
+            '" target="_blank" rel="noopener noreferrer">' + safe_text(asset['licence']) +
             '</a>. Resized and converted to WebP for this archive.</span></figcaption></figure>'
         )
     return ('<section class="archive-media" aria-label="Illustrations with source credits">'
