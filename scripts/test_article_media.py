@@ -138,7 +138,7 @@ class LocalMediaTests(unittest.TestCase):
                 mock.patch.object(ingest_media, 'fallback', return_value=lead) as fb, \
                 mock.patch.object(ingest_media, 'candidate_info',
                                   side_effect=lambda files, delay: {
-                                      'File:Licensed.jpg': 'approved'
+                                      'file:licensed.jpg': 'approved'
                                   } if files == ['Licensed.jpg'] else {}), \
                 mock.patch.object(ingest_media, 'eligible',
                                   side_effect=lambda info: rights if info == 'approved' else None), \
