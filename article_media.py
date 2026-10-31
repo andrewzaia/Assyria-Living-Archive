@@ -80,7 +80,13 @@ def validate_library(library=None, check_files=True):
                 raise ValueError('Missing image provenance: ' + media_id + '/' + field)
         if not asset['source_url'].startswith('https://commons.wikimedia.org/wiki/File:'):
             raise ValueError('Image source must be a Commons file page')
-        if not asset['licence_url'].startswith('https://'):
+        try:
+            rights_url = urlsplit(asset['licence_url'])
+        except ValueError as exc:
+            raise ValueError('Invalid image licence URL') from exc
+        if (rights_url.scheme != 'https' or
+                rights_url.hostname not in ('creativecommons.org', 'commons.wikimedia.org') or
+                rights_url.username or rights_url.password):
             raise ValueError('Unverified image licence URL')
         if not re.fullmatch('[0-9a-f]{64}', asset['sha256']):
             raise ValueError('Invalid image checksum')
