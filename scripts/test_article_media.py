@@ -167,6 +167,18 @@ class LocalMediaTests(unittest.TestCase):
         fallback.assert_not_called()
         self.assertEqual(registry['articles']['a-source'][0]['asset_id'], media_id)
 
+    def test_explore_cards_display_only_verified_local_archived_images(self):
+        article = generate.AM['reference-assyria']
+        entries = generate.MEDIA_LIBRARY['articles'].get(article['slug'], [])
+        self.assertTrue(entries, 'Expected at least one committed local image for Assyria')
+        markup = generate.card(article, image=True)
+        images = ImageParser()
+        images.feed(markup)
+        self.assertEqual(len(images.images), 1)
+        self.assertTrue(images.images[0].startswith('/assets/archive-media/'))
+        self.assertNotIn('upload.wikimedia.org', markup)
+        self.assertNotIn('thumb.wikimedia.org', markup)
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',
