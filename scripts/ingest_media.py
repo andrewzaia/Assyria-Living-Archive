@@ -225,6 +225,7 @@ def contextual_map_label(title, alt, caption, relation):
 def ingest_article(article, registry, delay, max_per_article, counters):
     """Prefer original source figures, then the precise source article's lead image."""
     slug = article['slug']
+    exclusions = media.load_exclusions()
     selections = list(registry['articles'].get(slug, []))
     if len(selections) >= max_per_article:
         counters['previously_archived'] += 1
@@ -249,6 +250,8 @@ def ingest_article(article, registry, delay, max_per_article, counters):
                 continue
             title = 'File:' + raw_name.removeprefix('File:')
             key = title.replace('_', ' ').casefold()
+            if (slug, key) in exclusions:
+                continue
             if str(item.get('alt') or '').strip().casefold() in ('icon', 'thumbnail', 'image'):
                 continue
             if key in tried:
@@ -325,7 +328,11 @@ def ingest_article(article, registry, delay, max_per_article, counters):
             counters['lookup_failures'] += 1
             print(slug, 'source lead lookup unavailable:', type(exc).__name__, flush=True)
             lead = []
+        # A source lead image is contextual until a scholar verifies depiction.
+        lead_relation = relation
+        relation = 'context'
         accept_candidates(lead)
+        relation = lead_relation
 
     if selections:
         registry['articles'][slug] = selections

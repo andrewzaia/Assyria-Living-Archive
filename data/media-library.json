@@ -174,9 +174,9 @@
     ],
     "black-obelisk-jehu": [
       {
-        "alt": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841\u2013840 BCE.[13]",
+        "alt": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841–840 BCE.[13]",
         "asset_id": "bfa885221080e75bb5324868",
-        "caption": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841\u2013840 BCE.[13]",
+        "caption": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841–840 BCE.[13]",
         "relation": "context"
       },
       {
@@ -348,9 +348,9 @@
     ],
     "nineveh": [
       {
-        "alt": "Painted bowl \u2013 Uruk-Nineveh 5 transition",
+        "alt": "Painted bowl – Uruk-Nineveh 5 transition",
         "asset_id": "199ee7f90e9cdd237bb9f4fb",
-        "caption": "Painted bowl \u2013 Uruk-Nineveh 5 transition",
+        "caption": "Painted bowl – Uruk-Nineveh 5 transition",
         "relation": "context"
       },
       {
@@ -392,20 +392,12 @@
         "relation": "subject"
       }
     ],
-    "reference-acts-of-thomas": [
-      {
-        "alt": "Source-associated illustration for Acts of Thomas",
-        "asset_id": "59ff33c5299d20e841faf4c6",
-        "caption": "Lead image linked from Acts of Thomas",
-        "relation": "subject"
-      }
-    ],
     "reference-adad-nirari-iii": [
       {
         "alt": "Source-associated illustration for Adad-nirari III",
         "asset_id": "24091498ad3c73030527a019",
         "caption": "Lead image linked from Adad-nirari III",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-adana-massacre": [
@@ -413,7 +405,7 @@
         "alt": "Source-associated illustration for Adana massacre",
         "asset_id": "a1d3c58d6e64be03f9c6dfcd",
         "caption": "Lead image linked from Adana massacre",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-addai-of-edessa": [
@@ -437,7 +429,7 @@
         "alt": "Source-associated illustration for Agha Petros",
         "asset_id": "766ac01425e39458a9f56fc7",
         "caption": "Lead image linked from Agha Petros",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ain-sifni": [
@@ -470,9 +462,9 @@
     ],
     "reference-alqosh": [
       {
-        "alt": "Entry way sign, spelling \"I \u2661 Alqosh\"",
+        "alt": "Entry way sign, spelling \"I ♡ Alqosh\"",
         "asset_id": "520f50e694e9894a84c24995",
-        "caption": "Entry way sign, spelling \"I \u2661 Alqosh\"",
+        "caption": "Entry way sign, spelling \"I ♡ Alqosh\"",
         "relation": "subject"
       }
     ],
@@ -495,7 +487,7 @@
         "alt": "Source-associated illustration for Ancient Church of the East",
         "asset_id": "63be6ea90bc927ab7862b7e9",
         "caption": "Lead image linked from Ancient Church of the East",
-        "relation": "subject"
+        "relation": "context"
       },
       {
         "alt": "Christ Pantocrator (Deesis mosaic detail)",
@@ -509,7 +501,7 @@
         "alt": "Source-associated illustration for Ancient Near East",
         "asset_id": "9e7ecce20c6f228f4edbdfb4",
         "caption": "Lead image linked from Ancient Near East",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-andrew-rohan": [
@@ -517,7 +509,7 @@
         "alt": "Source-associated illustration for Andrew Rohan",
         "asset_id": "62d3a483813ff7e79250188f",
         "caption": "Lead image linked from Andrew Rohan",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ankawa": [
@@ -533,7 +525,7 @@
         "alt": "Source-associated illustration for Anna Eshoo",
         "asset_id": "0d9d999aed4524f9dea60d56",
         "caption": "Lead image linked from Anna Eshoo",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-aramaic-alphabet": [
@@ -541,7 +533,7 @@
         "alt": "Source-associated illustration for Aramaic alphabet",
         "asset_id": "3bdaf157d0272983ffce0209",
         "caption": "Lead image linked from Aramaic alphabet",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ashur-bet-sargis": [
@@ -557,7 +549,7 @@
         "alt": "Source-associated illustration for Ashur-uballit I",
         "asset_id": "ea154aa15228590bba041d07",
         "caption": "Lead image linked from Ashur-uballit I",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ashur-yousif": [
@@ -565,7 +557,7 @@
         "alt": "Source-associated illustration for Ashur Yousif",
         "asset_id": "75cfd6f9b19b985b51ab0210",
         "caption": "Lead image linked from Ashur Yousif",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ashurbanipal": [
@@ -573,7 +565,7 @@
         "alt": "Source-associated illustration for Ashurbanipal",
         "asset_id": "b7429bbe24a9f871281e023b",
         "caption": "Lead image linked from Ashurbanipal",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ashurnasirpal-ii": [
@@ -581,7 +573,7 @@
         "alt": "Source-associated illustration for Ashurnasirpal II",
         "asset_id": "8303c8e353d365d4c68eb249",
         "caption": "Lead image linked from Ashurnasirpal II",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assur": [
@@ -611,7 +603,7 @@
         "alt": "Source-associated illustration for Assyrian Australians",
         "asset_id": "7c9af1d35489ff0246d66350",
         "caption": "Lead image linked from Assyrian Australians",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrian-church-of-the-east": [
@@ -663,7 +655,7 @@
         "alt": "Source-associated illustration for Assyrian folk dance",
         "asset_id": "3b1e7fc1d56d41ba2fbb8205",
         "caption": "Lead image linked from Assyrian folk dance",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrian-homeland": [
@@ -693,7 +685,7 @@
         "alt": "Source-associated illustration for Assyrian Policy Institute",
         "asset_id": "4009d9e8633c4fd86d96a446",
         "caption": "Lead image linked from Assyrian Policy Institute",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrian-rebellion": [
@@ -701,7 +693,7 @@
         "alt": "Source-associated illustration for Assyrian rebellion",
         "asset_id": "fa6d84385d62bc07013094e3",
         "caption": "Lead image linked from Assyrian rebellion",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrian-sculpture": [
@@ -737,7 +729,7 @@
         "alt": "Source-associated illustration for Assyrians in Armenia",
         "asset_id": "32e5a9adf8aacf7371ff6a7a",
         "caption": "Lead image linked from Assyrians in Armenia",
-        "relation": "subject"
+        "relation": "context"
       },
       {
         "alt": "Assyrian genocide memorial in Yerevan",
@@ -751,7 +743,7 @@
         "alt": "Source-associated illustration for Assyrians in France",
         "asset_id": "60ad73a9f419e34b9c39c423",
         "caption": "Lead image linked from Assyrians in France",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-georgia": [
@@ -767,7 +759,7 @@
         "alt": "Source-associated illustration for Assyrians in Iran",
         "asset_id": "77a1a2351208796ecea66cd8",
         "caption": "Lead image linked from Assyrians in Iran",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-iraq": [
@@ -775,7 +767,7 @@
         "alt": "Source-associated illustration for Assyrians in Iraq",
         "asset_id": "15d3af689ffa3d83e655765c",
         "caption": "Lead image linked from Assyrians in Iraq",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-lebanon": [
@@ -783,7 +775,7 @@
         "alt": "Source-associated illustration for Assyrians in Lebanon",
         "asset_id": "4536bd9fa07ec3add7130c27",
         "caption": "Lead image linked from Assyrians in Lebanon",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-russia": [
@@ -791,7 +783,7 @@
         "alt": "Source-associated illustration for Assyrians in Russia",
         "asset_id": "3057161f31673a93987daae4",
         "caption": "Lead image linked from Assyrians in Russia",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-sweden": [
@@ -799,7 +791,7 @@
         "alt": "Source-associated illustration for Assyrians in Sweden",
         "asset_id": "43257c0a63a06c1201222295",
         "caption": "Lead image linked from Assyrians in Sweden",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-syria": [
@@ -807,7 +799,7 @@
         "alt": "Source-associated illustration for Assyrians in Syria",
         "asset_id": "3fb0083fcbe753f40aeed1ee",
         "caption": "Lead image linked from Assyrians in Syria",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-assyrians-in-turkey": [
@@ -818,9 +810,9 @@
         "relation": "subject"
       },
       {
-        "alt": "Mar Pithyoun (St. Anthony) Chaldean Catholic Church in Diyarbak\u0131r",
+        "alt": "Mar Pithyoun (St. Anthony) Chaldean Catholic Church in Diyarbakır",
         "asset_id": "36a49a311766d150f6c066f9",
-        "caption": "Mar Pithyoun (St. Anthony) Chaldean Catholic Church in Diyarbak\u0131r",
+        "caption": "Mar Pithyoun (St. Anthony) Chaldean Catholic Church in Diyarbakır",
         "relation": "subject"
       }
     ],
@@ -829,7 +821,7 @@
         "alt": "Source-associated illustration for Assyriology",
         "asset_id": "2f3f97959eeeeadc1ef51f0f",
         "caption": "Lead image linked from Assyriology",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-babylonian-astronomy": [
@@ -837,7 +829,7 @@
         "alt": "Source-associated illustration for Babylonian astronomy",
         "asset_id": "d3ab5e864e5dbaffe606dfb2",
         "caption": "Lead image linked from Babylonian astronomy",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-baghdad": [
@@ -870,15 +862,15 @@
     ],
     "reference-balawat-gates": [
       {
-        "alt": "Detail of an embossed scene on bronze plate showing Shalmaneser III in a chariot and Assyrian archers. From a Balawat gate, Iraq, 859\u2013824 BCE. Ancient Orient Museum, Istanbul",
+        "alt": "Detail of an embossed scene on bronze plate showing Shalmaneser III in a chariot and Assyrian archers. From a Balawat gate, Iraq, 859–824 BCE. Ancient Orient Museum, Istanbul",
         "asset_id": "16f99112984c155a42aede5c",
-        "caption": "Detail of an embossed scene on bronze plate showing Shalmaneser III in a chariot and Assyrian archers. From a Balawat gate, Iraq, 859\u2013824 BCE. Ancient Orient Museum, Istanbul",
+        "caption": "Detail of an embossed scene on bronze plate showing Shalmaneser III in a chariot and Assyrian archers. From a Balawat gate, Iraq, 859–824 BCE. Ancient Orient Museum, Istanbul",
         "relation": "subject"
       },
       {
-        "alt": "Detail of an embossed scene on bronze plate showing Assyrian army attacking a city. From a Balawat gate, Iraq, 859\u2013824 BCE. Ancient Orient Museum, Istanbul",
+        "alt": "Detail of an embossed scene on bronze plate showing Assyrian army attacking a city. From a Balawat gate, Iraq, 859–824 BCE. Ancient Orient Museum, Istanbul",
         "asset_id": "03b129a632077efa647174fa",
-        "caption": "Detail of an embossed scene on bronze plate showing Assyrian army attacking a city. From a Balawat gate, Iraq, 859\u2013824 BCE. Ancient Orient Museum, Istanbul",
+        "caption": "Detail of an embossed scene on bronze plate showing Assyrian army attacking a city. From a Balawat gate, Iraq, 859–824 BCE. Ancient Orient Museum, Istanbul",
         "relation": "subject"
       }
     ],
@@ -909,7 +901,7 @@
         "alt": "Source-associated illustration for Battle of Qarqar",
         "asset_id": "d6ee3e29d2791f0337092335",
         "caption": "Lead image linked from Battle of Qarqar",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-baz-tribe": [
@@ -917,7 +909,7 @@
         "alt": "Source-associated illustration for Baz (tribe)",
         "asset_id": "8a961d07d39510a3f96f8865",
         "caption": "Lead image linked from Baz (tribe)",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-beth-gazo": [
@@ -944,9 +936,9 @@
     ],
     "reference-black-obelisk-of-shalmaneser-iii": [
       {
-        "alt": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841\u2013840 BCE.[13]",
+        "alt": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841–840 BCE.[13]",
         "asset_id": "bfa885221080e75bb5324868",
-        "caption": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841\u2013840 BCE.[13]",
+        "caption": "Part of the gift-bearing Israelite delegation of King Jehu, Black Obelisk, 841–840 BCE.[13]",
         "relation": "subject"
       },
       {
@@ -969,7 +961,7 @@
         "alt": "Source-associated illustration for British Assyrians",
         "asset_id": "de716592741ea4d6a26a4cce",
         "caption": "Lead image linked from British Assyrians",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-bulgur": [
@@ -977,7 +969,7 @@
         "alt": "Source-associated illustration for Bulgur",
         "asset_id": "40eb33c168af1636922fd0c6",
         "caption": "Lead image linked from Bulgur",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-cave-of-treasures": [
@@ -985,7 +977,7 @@
         "alt": "Source-associated illustration for Cave of Treasures",
         "asset_id": "4cf16fa55614584a05274a31",
         "caption": "Lead image linked from Cave of Treasures",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-chaldean-catholic-church": [
@@ -993,7 +985,7 @@
         "alt": "Source-associated illustration for Chaldean Catholic Church",
         "asset_id": "c46c839ac35c8074cfb71542",
         "caption": "Lead image linked from Chaldean Catholic Church",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-christianity-in-iran": [
@@ -1001,7 +993,7 @@
         "alt": "Source-associated illustration for Christianity in Iran",
         "asset_id": "0454b9bc7156d69c675f95b2",
         "caption": "Lead image linked from Christianity in Iran",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-christianity-in-syria": [
@@ -1009,7 +1001,7 @@
         "alt": "Source-associated illustration for Christianity in Syria",
         "asset_id": "8125c3f33879643ca9c07f5f",
         "caption": "Lead image linked from Christianity in Syria",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-christianity-in-the-ottoman-empire": [
@@ -1017,7 +1009,7 @@
         "alt": "Source-associated illustration for Christianity in the Ottoman Empire",
         "asset_id": "3afc3335da4bddb59947f899",
         "caption": "Lead image linked from Christianity in the Ottoman Empire",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-christianity-in-turkey": [
@@ -1025,7 +1017,7 @@
         "alt": "Source-associated illustration for Christianity in Turkey",
         "asset_id": "e90911a2179b181e7b232794",
         "caption": "Lead image linked from Christianity in Turkey",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-christology": [
@@ -1038,9 +1030,9 @@
     ],
     "reference-chronicle-of-zuqnin": [
       {
-        "alt": "alt=In the month of iyy\u014dr (May) a white sign was seen in the sky, before early twilight, in the north-east [quarter], in the Zodiac [sign] which is called Aries, to the north from these three stars in it, which are very shining. A",
+        "alt": "alt=In the month of iyyōr (May) a white sign was seen in the sky, before early twilight, in the north-east [quarter], in the Zodiac [sign] which is called Aries, to the north from these three stars in it, which are very shining. A",
         "asset_id": "416c701e2568b02484b0947e",
-        "caption": "alt=In the month of iyy\u014dr (May) a white sign was seen in the sky, before early twilight, in the north-east [quarter], in the Zodiac [sign] which is called Aries, to the north from these three stars in it, which are very shining. A",
+        "caption": "alt=In the month of iyyōr (May) a white sign was seen in the sky, before early twilight, in the north-east [quarter], in the Zodiac [sign] which is called Aries, to the north from these three stars in it, which are very shining. A",
         "relation": "subject"
       }
     ],
@@ -1049,7 +1041,7 @@
         "alt": "Source-associated illustration for Church of Saint Thomas, Mosul",
         "asset_id": "aa772d3bb854353bd4231163",
         "caption": "Lead image linked from Church of Saint Thomas, Mosul",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-church-of-the-east": [
@@ -1085,7 +1077,7 @@
         "alt": "Source-associated illustration for Church of the East in India",
         "asset_id": "06c16e3e1eafb6590ce7db4c",
         "caption": "Lead image linked from Church of the East in India",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-cizre": [
@@ -1101,7 +1093,7 @@
         "alt": "Source-associated illustration for Council of Seleucia-Ctesiphon",
         "asset_id": "b4b7b0aeb3c23bc618f8c6fd",
         "caption": "Lead image linked from Council of Seleucia-Ctesiphon",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-ctesiphon": [
@@ -1120,15 +1112,15 @@
     ],
     "reference-cuneiform": [
       {
-        "alt": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100\u20132900 BC",
+        "alt": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100–2900 BC",
         "asset_id": "a09d7566935ad7a033606d69",
-        "caption": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100\u20132900 BC",
+        "caption": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100–2900 BC",
         "relation": "subject"
       },
       {
-        "alt": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100\u20132900 BC. A dog on a leash is visible in the background of the lower panel.[26]",
+        "alt": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100–2900 BC. A dog on a leash is visible in the background of the lower panel.[26]",
         "asset_id": "d8afb2cb18d99ea088144fbb",
-        "caption": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100\u20132900 BC. A dog on a leash is visible in the background of the lower panel.[26]",
+        "caption": "A proto-cuneiform tablet, Jemdet Nasr period, c. 3100–2900 BC. A dog on a leash is visible in the background of the lower panel.[26]",
         "relation": "subject"
       }
     ],
@@ -1151,14 +1143,14 @@
         "alt": "Source-associated illustration for Dara (Mesopotamia)",
         "asset_id": "96315679b2a2fe5318e6af04",
         "caption": "Lead image linked from Dara (Mesopotamia)",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-dargecit": [
       {
-        "alt": "Map showing Darge\u00e7it District in Mardin Province",
+        "alt": "Map showing Dargeçit District in Mardin Province",
         "asset_id": "e09f4160dad451a8d9ce19a7",
-        "caption": "Map showing Darge\u00e7it District in Mardin Province",
+        "caption": "Map showing Dargeçit District in Mardin Province",
         "relation": "subject"
       },
       {
@@ -1173,7 +1165,7 @@
         "alt": "Source-associated illustration for Davul",
         "asset_id": "f224e01dc445e8130bc58e89",
         "caption": "Lead image linked from Davul",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-diatessaron": [
@@ -1181,7 +1173,7 @@
         "alt": "Source-associated illustration for Diatessaron",
         "asset_id": "ef1511403d24bf8ebd6cc765",
         "caption": "Lead image linked from Diatessaron",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-dinkha-iv": [
@@ -1194,23 +1186,15 @@
     ],
     "reference-diyarbakr": [
       {
-        "alt": "Diyarbak\u0131r is located in Turkey",
+        "alt": "Diyarbakır is located in Turkey",
         "asset_id": "933399516130e729d4e76ba8",
-        "caption": "Diyarbak\u0131r is located in Turkey",
+        "caption": "Diyarbakır is located in Turkey",
         "relation": "subject"
       },
       {
-        "alt": "Districts of Diyarbak\u0131r",
+        "alt": "Districts of Diyarbakır",
         "asset_id": "8c9f4252ae823786d4b70397",
-        "caption": "Districts of Diyarbak\u0131r",
-        "relation": "subject"
-      }
-    ],
-    "reference-doctrine-of-addai": [
-      {
-        "alt": "Source-associated illustration for Doctrine of Addai",
-        "asset_id": "59ff33c5299d20e841faf4c6",
-        "caption": "Lead image linked from Doctrine of Addai",
+        "caption": "Districts of Diyarbakır",
         "relation": "subject"
       }
     ],
@@ -1219,7 +1203,7 @@
         "alt": "Source-associated illustration for Dolma",
         "asset_id": "e0c46cd74858b0c25820cb82",
         "caption": "Lead image linked from Dolma",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-duduk": [
@@ -1235,7 +1219,7 @@
         "alt": "Source-associated illustration for Duhok",
         "asset_id": "5375a6f2060d5818ed45d6f1",
         "caption": "Lead image linked from Duhok",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-dur-sharrukin": [
@@ -1243,7 +1227,7 @@
         "alt": "Source-associated illustration for Dur-Sharrukin",
         "asset_id": "c145373c33d7eb1b5b8a9894",
         "caption": "Lead image linked from Dur-Sharrukin",
-        "relation": "subject"
+        "relation": "context"
       },
       {
         "alt": "Plan of Dur-Sharrukin, 1867",
@@ -1276,10 +1260,10 @@
     ],
     "reference-elbegendi-midyat": [
       {
-        "alt": "Source-associated illustration for Elbe\u011fendi, Midyat",
+        "alt": "Source-associated illustration for Elbeğendi, Midyat",
         "asset_id": "bfa9ae9e5bbb3759b2aeb0be",
-        "caption": "Lead image linked from Elbe\u011fendi, Midyat",
-        "relation": "subject"
+        "caption": "Lead image linked from Elbeğendi, Midyat",
+        "relation": "context"
       }
     ],
     "reference-ephrem-the-syrian": [
@@ -1287,7 +1271,7 @@
         "alt": "Source-associated illustration for Ephrem the Syrian",
         "asset_id": "8500afdfd43e6925c1ab650d",
         "caption": "Lead image linked from Ephrem the Syrian",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-esarhaddon": [
@@ -1295,7 +1279,7 @@
         "alt": "Source-associated illustration for Esarhaddon",
         "asset_id": "5558ef5e1b6c6e0b4b7b136f",
         "caption": "Lead image linked from Esarhaddon",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-eugenia-of-rome": [
@@ -1303,7 +1287,7 @@
         "alt": "Source-associated illustration for Eugenia of Rome",
         "asset_id": "92f9ee13efa05b93b280ddee",
         "caption": "Lead image linked from Eugenia of Rome",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-evin-agassi": [
@@ -1327,7 +1311,7 @@
         "alt": "Source-associated illustration for Fall of Harran",
         "asset_id": "d31b0fccb9e88c37b766ac38",
         "caption": "Lead image linked from Fall of Harran",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-fall-of-nineveh": [
@@ -1335,7 +1319,7 @@
         "alt": "Source-associated illustration for Fall of Nineveh",
         "asset_id": "f90e835136735c359aa01083",
         "caption": "Lead image linked from Fall of Nineveh",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-fast-of-nineveh": [
@@ -1343,7 +1327,7 @@
         "alt": "Source-associated illustration for Fast of Nineveh",
         "asset_id": "13172b5c9d2ab900bfa4ad62",
         "caption": "Lead image linked from Fast of Nineveh",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-febronia-of-nisibis": [
@@ -1351,7 +1335,7 @@
         "alt": "Source-associated illustration for Febronia of Nisibis",
         "asset_id": "d473245ce5ebe220b3b98632",
         "caption": "Lead image linked from Febronia of Nisibis",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-freydun-atturaya": [
@@ -1359,7 +1343,7 @@
         "alt": "Source-associated illustration for Freydun Atturaya",
         "asset_id": "33aaee9ed2dd50c99f816ad9",
         "caption": "Lead image linked from Freydun Atturaya",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-goblet-drum": [
@@ -1397,7 +1381,7 @@
         "alt": "Source-associated illustration for Hakkari (historical region)",
         "asset_id": "0297a123b5debf7dc47fbf91",
         "caption": "Lead image linked from Hakkari (historical region)",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-hannibal-alkhas": [
@@ -1405,7 +1389,7 @@
         "alt": "Source-associated illustration for Hannibal Alkhas",
         "asset_id": "7eb2b676201729623618bc03",
         "caption": "Lead image linked from Hannibal Alkhas",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-harees": [
@@ -1413,7 +1397,7 @@
         "alt": "Source-associated illustration for Harees",
         "asset_id": "99d4d3ad9e35a1a40a6c9ef1",
         "caption": "Lead image linked from Harees",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-harran": [
@@ -1449,7 +1433,7 @@
         "alt": "Source-associated illustration for Hatran Aramaic",
         "asset_id": "c2594943a09140e9a0a909be",
         "caption": "Lead image linked from Hatran Aramaic",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-history-of-iran": [
@@ -1476,9 +1460,9 @@
     ],
     "reference-history-of-mesopotamia": [
       {
-        "alt": "Reconstitution of housing in A\u015f\u0131kl\u0131 H\u00f6y\u00fck, Upper Mesopotamia, modern Turkey.",
+        "alt": "Reconstitution of housing in Aşıklı Höyük, Upper Mesopotamia, modern Turkey.",
         "asset_id": "e98d9233d3b61027270617f7",
-        "caption": "Reconstitution of housing in A\u015f\u0131kl\u0131 H\u00f6y\u00fck, Upper Mesopotamia, modern Turkey.",
+        "caption": "Reconstitution of housing in Aşıklı Höyük, Upper Mesopotamia, modern Turkey.",
         "relation": "subject"
       },
       {
@@ -1493,7 +1477,7 @@
         "alt": "Source-associated illustration for History of the Assyrians",
         "asset_id": "b356ecb330ad0ef00590f280",
         "caption": "Lead image linked from History of the Assyrians",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-history-of-the-middle-east": [
@@ -1509,7 +1493,7 @@
         "alt": "Source-associated illustration for Holy Qurbana",
         "asset_id": "d97ccab08658aaebe95fb797",
         "caption": "Lead image linked from Holy Qurbana",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-hunayn-ibn-ishaq": [
@@ -1517,14 +1501,14 @@
         "alt": "Source-associated illustration for Hunayn ibn Ishaq",
         "asset_id": "541963602121ffed1e1ba0ac",
         "caption": "Lead image linked from Hunayn ibn Ishaq",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-idil": [
       {
-        "alt": "Location of \u0130dil",
+        "alt": "Location of İdil",
         "asset_id": "fede39b9c1456e26324bc120",
-        "caption": "Location of \u0130dil",
+        "caption": "Location of İdil",
         "relation": "subject"
       }
     ],
@@ -1533,7 +1517,7 @@
         "alt": "Source-associated illustration for Imperial Aramaic",
         "asset_id": "9395e158ee630b86b072f74d",
         "caption": "Lead image linked from Imperial Aramaic",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-iraq-levies": [
@@ -1549,7 +1533,7 @@
         "alt": "Source-associated illustration for Jacob of Serugh",
         "asset_id": "dfc0539fc565efc1dd00fbdc",
         "caption": "Lead image linked from Jacob of Serugh",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-jacobite-syrian-christian-church": [
@@ -1571,7 +1555,7 @@
         "alt": "Source-associated illustration for Jewish Babylonian Aramaic",
         "asset_id": "801bb3ddea5ae391418bc2ac",
         "caption": "Lead image linked from Jewish Babylonian Aramaic",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-jiloan-hamad": [
@@ -1579,7 +1563,7 @@
         "alt": "Source-associated illustration for Jiloan Hamad",
         "asset_id": "0d8c7313918e166feb90aead",
         "caption": "Lead image linked from Jiloan Hamad",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-jilu": [
@@ -1587,7 +1571,7 @@
         "alt": "Source-associated illustration for Jilu",
         "asset_id": "cb70dee6061697c8ceadf08a",
         "caption": "Lead image linked from Jilu",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-jimmy-durmaz": [
@@ -1595,7 +1579,7 @@
         "alt": "Source-associated illustration for Jimmy Durmaz",
         "asset_id": "629d368ab9a592ba8e938524",
         "caption": "Lead image linked from Jimmy Durmaz",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-joseph-yacoub": [
@@ -1603,7 +1587,7 @@
         "alt": "Source-associated illustration for Joseph Yacoub",
         "asset_id": "67ace869efc66c3c6b9092dd",
         "caption": "Lead image linked from Joseph Yacoub",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-juliana-jendo": [
@@ -1619,7 +1603,7 @@
         "alt": "Source-associated illustration for Justin Meram",
         "asset_id": "b1fbbcca1a77abf22c1ce490",
         "caption": "Lead image linked from Justin Meram",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-kashk": [
@@ -1627,7 +1611,7 @@
         "alt": "Source-associated illustration for Kashk",
         "asset_id": "bb1d967a8a09940c3ae6c779",
         "caption": "Lead image linked from Kashk",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-kennedy-bakircioglu": [
@@ -1635,7 +1619,7 @@
         "alt": "Source-associated illustration for Kennedy Bakircioglu",
         "asset_id": "c164ad45f0084dac69598f7a",
         "caption": "Lead image linked from Kennedy Bakircioglu",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-kha-b-nisan": [
@@ -1643,7 +1627,7 @@
         "alt": "Source-associated illustration for Kha b-Nisan",
         "asset_id": "02a78567f064080c35248cbd",
         "caption": "Lead image linked from Kha b-Nisan",
-        "relation": "subject"
+        "relation": "context"
       },
       {
         "alt": "Chaldean Church float in Assyrian New Year parade in Chicago, IL",
@@ -1657,7 +1641,7 @@
         "alt": "Source-associated illustration for Khabur",
         "asset_id": "02aaf78356b592a80f177344",
         "caption": "Lead image linked from Khabur",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-khash-dish": [
@@ -1665,7 +1649,7 @@
         "alt": "Source-associated illustration for Khash (dish)",
         "asset_id": "f7559c833254c3613d701187",
         "caption": "Lead image linked from Khash (dish)",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-khigga": [
@@ -1673,7 +1657,7 @@
         "alt": "Source-associated illustration for Khigga",
         "asset_id": "eae509a7d3bd0aa210b3898b",
         "caption": "Lead image linked from Khigga",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-khosrowabad-west-azerbaijan": [
@@ -1695,7 +1679,7 @@
         "alt": "Source-associated illustration for Kibbeh",
         "asset_id": "0728605c223783d6cd3f437e",
         "caption": "Lead image linked from Kibbeh",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-kleicha": [
@@ -1703,15 +1687,15 @@
         "alt": "Source-associated illustration for Kleicha",
         "asset_id": "3c59f02c0a0a18a2519b1ea9",
         "caption": "Lead image linked from Kleicha",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-kultepe": [
       {
-        "alt": "Source-associated illustration for K\u00fcltepe",
+        "alt": "Source-associated illustration for Kültepe",
         "asset_id": "da42c19b2238c45899e81793",
-        "caption": "Lead image linked from K\u00fcltepe",
-        "relation": "subject"
+        "caption": "Lead image linked from Kültepe",
+        "relation": "context"
       }
     ],
     "reference-kurkh-monoliths": [
@@ -1719,7 +1703,7 @@
         "alt": "Source-associated illustration for Kurkh Monoliths",
         "asset_id": "d6ee3e29d2791f0337092335",
         "caption": "Lead image linked from Kurkh Monoliths",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-lachish-reliefs": [
@@ -1727,7 +1711,7 @@
         "alt": "Source-associated illustration for Lachish reliefs",
         "asset_id": "4624cb23a46b4d2528905ca3",
         "caption": "Lead image linked from Lachish reliefs",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-lahmacun": [
@@ -1771,15 +1755,15 @@
         "alt": "Source-associated illustration for Late Ottoman genocides",
         "asset_id": "5117b6068dec73faeaf46073",
         "caption": "Lead image linked from Late Ottoman genocides",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-libbali-sarrat": [
       {
-        "alt": "Source-associated illustration for Libb\u0101li-\u0161arrat",
+        "alt": "Source-associated illustration for Libbāli-šarrat",
         "asset_id": "39ee614144306ee515aab498",
-        "caption": "Lead image linked from Libb\u0101li-\u0161arrat",
-        "relation": "subject"
+        "caption": "Lead image linked from Libbāli-šarrat",
+        "relation": "context"
       }
     ],
     "reference-library-of-ashurbanipal": [
@@ -1801,7 +1785,7 @@
         "alt": "Source-associated illustration for List of Assyrian kings",
         "asset_id": "f4d1712b58a4a9caf7003724",
         "caption": "Lead image linked from List of Assyrian kings",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-liturgy-of-addai-and-mari": [
@@ -1859,7 +1843,7 @@
         "alt": "Source-associated illustration for Malik Khoshaba",
         "asset_id": "a2c90fc16ed0f23e444cb022",
         "caption": "Lead image linked from Malik Khoshaba",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-mandaic-language": [
@@ -1867,7 +1851,7 @@
         "alt": "Source-associated illustration for Mandaic language",
         "asset_id": "a7ccc4ddfccab7972353d210",
         "caption": "Lead image linked from Mandaic language",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-maragheh": [
@@ -1917,7 +1901,7 @@
         "alt": "Source-associated illustration for Maria Theresa Asmar",
         "asset_id": "34609a1aa3a0d4bfb06bed8b",
         "caption": "Lead image linked from Maria Theresa Asmar",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-medo-babylonian-conquest-of-the-assyrian-empire": [
@@ -1925,14 +1909,14 @@
         "alt": "Source-associated illustration for Medo-Babylonian conquest of the Assyrian Empire",
         "asset_id": "11bcded5f9c9904de35bb61c",
         "caption": "Lead image linked from Medo-Babylonian conquest of the Assyrian Empire",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-mesopotamia": [
       {
         "alt": "Square, yellow plaque showing a lion biting in the neck of a man lying on his back",
         "asset_id": "3e4408025483e62f8e308cce",
-        "caption": "The Code of Hammurabi is a Babylonian legal text composed c. 1755\u20131750 BC. It is the longest, best-organised, and best-preserved legal text from the ancient Near East . It is written in the Old Babylonian dialect of Akkadian , purportedly by Hammurabi , sixth king of the First Dynasty of Babylon .",
+        "caption": "The Code of Hammurabi is a Babylonian legal text composed c. 1755–1750 BC. It is the longest, best-organised, and best-preserved legal text from the ancient Near East . It is written in the Old Babylonian dialect of Akkadian , purportedly by Hammurabi , sixth king of the First Dynasty of Babylon .",
         "relation": "subject"
       },
       {
@@ -1985,7 +1969,7 @@
         "alt": "Source-associated illustration for Military history of the Neo-Assyrian Empire",
         "asset_id": "a7dbcc1d8988e31c5f4b4bfd",
         "caption": "Lead image linked from Military history of the Neo-Assyrian Empire",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-mor-gabriel-monastery": [
@@ -2004,9 +1988,9 @@
     ],
     "reference-mor-hananyo-monastery": [
       {
-        "alt": "Dayro d-Mor \u1e24ananyo",
+        "alt": "Dayro d-Mor Ḥananyo",
         "asset_id": "624975ff90f80f8fa12a06b7",
-        "caption": "Dayro d-Mor \u1e24ananyo",
+        "caption": "Dayro d-Mor Ḥananyo",
         "relation": "subject"
       },
       {
@@ -2040,10 +2024,10 @@
     ],
     "reference-naqia": [
       {
-        "alt": "Source-associated illustration for Naqi\u02bea",
+        "alt": "Source-associated illustration for Naqiʾa",
         "asset_id": "dbaec26071264d94186c51ce",
-        "caption": "Lead image linked from Naqi\u02bea",
-        "relation": "subject"
+        "caption": "Lead image linked from Naqiʾa",
+        "relation": "context"
       }
     ],
     "reference-naum-faiq": [
@@ -2051,7 +2035,7 @@
         "alt": "Source-associated illustration for Naum Faiq",
         "asset_id": "cc996fe382b04db98a340cee",
         "caption": "Lead image linked from Naum Faiq",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-neo-assyrian-empire": [
@@ -2092,9 +2076,9 @@
     ],
     "reference-nimrud-ivories": [
       {
-        "alt": "Plaque 8th\u20137th century BC",
+        "alt": "Plaque 8th–7th century BC",
         "asset_id": "b09424dbeaaa4a61490126d7",
-        "caption": "Plaque 8th\u20137th century BC",
+        "caption": "Plaque 8th–7th century BC",
         "relation": "subject"
       },
       {
@@ -2109,14 +2093,14 @@
         "alt": "Source-associated illustration for Nimrud lens",
         "asset_id": "c72d1ce227ae58ab323c4969",
         "caption": "Lead image linked from Nimrud lens",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-nineveh": [
       {
-        "alt": "Painted bowl \u2013 Uruk-Nineveh 5 transition",
+        "alt": "Painted bowl – Uruk-Nineveh 5 transition",
         "asset_id": "199ee7f90e9cdd237bb9f4fb",
-        "caption": "Painted bowl \u2013 Uruk-Nineveh 5 transition",
+        "caption": "Painted bowl – Uruk-Nineveh 5 transition",
         "relation": "subject"
       },
       {
@@ -2131,7 +2115,7 @@
         "alt": "Source-associated illustration for Nineveh Plains",
         "asset_id": "736c970de34d3ccc5e91e653",
         "caption": "Lead image linked from Nineveh Plains",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-nowruz": [
@@ -2167,7 +2151,7 @@
         "alt": "Source-associated illustration for Odes of Solomon",
         "asset_id": "9073e464efe38b1593feaeb7",
         "caption": "Lead image linked from Odes of Solomon",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-old-assyrian-period": [
@@ -2213,7 +2197,7 @@
         "alt": "Source-associated illustration for Philoxenus of Mabbug",
         "asset_id": "2527c3102c5824ab79af7e64",
         "caption": "Lead image linked from Philoxenus of Mabbug",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-qamishli": [
@@ -2251,7 +2235,7 @@
         "alt": "Source-associated illustration for Rabban Hormizd Monastery",
         "asset_id": "e6fabf7b827ffd22b1213fa4",
         "caption": "Lead image linked from Rabban Hormizd Monastery",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-rosie-malek-yonan": [
@@ -2259,7 +2243,7 @@
         "alt": "Source-associated illustration for Rosie Malek-Yonan",
         "asset_id": "cb9b192589f48a85a64e056a",
         "caption": "Lead image linked from Rosie Malek-Yonan",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sadad-syria": [
@@ -2281,7 +2265,7 @@
         "alt": "Source-associated illustration for Saint Thomas Christians",
         "asset_id": "ba60f0c319a60642f154ee28",
         "caption": "Lead image linked from Saint Thomas Christians",
-        "relation": "subject"
+        "relation": "context"
       },
       {
         "alt": "Christ Pantocrator (Deesis mosaic detail)",
@@ -2323,7 +2307,7 @@
         "alt": "Source-associated illustration for Sanandaj",
         "asset_id": "a1522a24d23959bf8e192eed",
         "caption": "Lead image linked from Sanandaj",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sanharib-malki": [
@@ -2331,7 +2315,7 @@
         "alt": "Source-associated illustration for Sanharib Malki",
         "asset_id": "cb1ea997465832b1712a23e7",
         "caption": "Lead image linked from Sanharib Malki",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sapna-valley": [
@@ -2339,7 +2323,7 @@
         "alt": "Source-associated illustration for Sapna valley",
         "asset_id": "f811d44ba187747fa4ef1a5e",
         "caption": "Lead image linked from Sapna valley",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sargon-gabriel": [
@@ -2354,13 +2338,13 @@
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "9579ce98335f66861b27c4a0",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "subject"
       },
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "e878cb53f3581d8921a2778b",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "subject"
       }
     ],
@@ -2369,7 +2353,7 @@
         "alt": "Source-associated illustration for Sargon of Akkad",
         "asset_id": "e878cb53f3581d8921a2778b",
         "caption": "Lead image linked from Sargon of Akkad",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sargon-stele": [
@@ -2377,7 +2361,7 @@
         "alt": "Source-associated illustration for Sargon Stele",
         "asset_id": "db3affc4f792b3d13a2d10ae",
         "caption": "Lead image linked from Sargon Stele",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sarsing": [
@@ -2471,7 +2455,7 @@
         "alt": "Source-associated illustration for Shalmaneser I",
         "asset_id": "a58431d50271c67da25f4432",
         "caption": "Lead image linked from Shalmaneser I",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-shalmaneser-iii": [
@@ -2493,7 +2477,7 @@
         "alt": "Source-associated illustration for Shalmaneser V",
         "asset_id": "c9e9f532b12115100c176153",
         "caption": "Lead image linked from Shalmaneser V",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-shammuramat": [
@@ -2515,7 +2499,7 @@
         "alt": "Source-associated illustration for Shamshi-Adad I",
         "asset_id": "a904277d10545b0ee6eec5a0",
         "caption": "Lead image linked from Shamshi-Adad I",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-shamshi-adad-v": [
@@ -2523,7 +2507,7 @@
         "alt": "Source-associated illustration for Shamshi-Adad V",
         "asset_id": "6cace3399a24baa129d3eb56",
         "caption": "Lead image linked from Shamshi-Adad V",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sharafiya": [
@@ -2531,7 +2515,7 @@
         "alt": "Source-associated illustration for Sharafiya",
         "asset_id": "d00bd5ed3f7cee6531106d28",
         "caption": "Lead image linked from Sharafiya",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-sharbel-touma": [
@@ -2539,7 +2523,7 @@
         "alt": "Source-associated illustration for Sharbel Touma",
         "asset_id": "25e5ca396d91af378f25fc4c",
         "caption": "Lead image linked from Sharbel Touma",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-shimun-xix-benyamin": [
@@ -2547,7 +2531,7 @@
         "alt": "Source-associated illustration for Shimun XIX Benyamin",
         "asset_id": "86da7928e7042e44cb6dd05a",
         "caption": "Lead image linked from Shimun XIX Benyamin",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-shimun-xx-paulos": [
@@ -2555,7 +2539,7 @@
         "alt": "Source-associated illustration for Shimun XX Paulos",
         "asset_id": "96a2ba5303342e5e5f93ee24",
         "caption": "Lead image linked from Shimun XX Paulos",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-siege-of-lachish": [
@@ -2563,7 +2547,7 @@
         "alt": "Source-associated illustration for Siege of Lachish",
         "asset_id": "78cd5ceea08ba1727d31bf2b",
         "caption": "Lead image linked from Siege of Lachish",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-simele-massacre": [
@@ -2571,14 +2555,14 @@
         "alt": "Source-associated illustration for Simele massacre",
         "asset_id": "e5fa3a3c603eaaf691dc151c",
         "caption": "Lead image linked from Simele massacre",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-srnak-province": [
       {
-        "alt": "Beyt\u00fc\u015f\u015febap, Uludere da\u011f",
+        "alt": "Beytüşşebap, Uludere dağ",
         "asset_id": "b56ee207da9db819525b703c",
-        "caption": "Beyt\u00fc\u015f\u015febap, Uludere da\u011f",
+        "caption": "Beytüşşebap, Uludere dağ",
         "relation": "subject"
       }
     ],
@@ -2587,7 +2571,7 @@
         "alt": "Source-associated illustration for Surma D'Bait Mar Shimun",
         "asset_id": "be1eb8176dfa5ea9bc28e837",
         "caption": "Lead image linked from Surma D'Bait Mar Shimun",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-synod-of-beth-lapat": [
@@ -2595,7 +2579,7 @@
         "alt": "Source-associated illustration for Synod of Beth Lapat",
         "asset_id": "86f47d40d9aaf405fd201dd5",
         "caption": "Lead image linked from Synod of Beth Lapat",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-syriac-catholic-church": [
@@ -2611,7 +2595,7 @@
         "alt": "Source-associated illustration for Syriac chant",
         "asset_id": "316911447c1672b7f30e1cc3",
         "caption": "Lead image linked from Syriac chant",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-syriac-christianity": [
@@ -2633,7 +2617,7 @@
         "alt": "Source-associated illustration for Syriac literature",
         "asset_id": "70c1ec16d5c8e2fea1deebbb",
         "caption": "Lead image linked from Syriac literature",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-syriac-orthodox-church": [
@@ -2660,7 +2644,7 @@
       {
         "alt": "Empty stadium stands, seen from across the pitch",
         "asset_id": "f7eba38e3c835a99e65e81bb",
-        "caption": "S\u00f6dert\u00e4lje Fotbollsarena",
+        "caption": "Södertälje Fotbollsarena",
         "relation": "subject"
       }
     ],
@@ -2669,12 +2653,12 @@
         "alt": "Source-associated illustration for Syrianska IF Kerburan",
         "asset_id": "d30cb1e5cb60fd20ddb7cb99",
         "caption": "Lead image linked from Syrianska IF Kerburan",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-syro-malabar-church": [
       {
-        "alt": "\u0715\u071d\u072a\u0710",
+        "alt": "ܕܝܪܐ",
         "asset_id": "9e9f4e207921c822c803a7e0",
         "caption": "A Syro Malabar monastery in Kuravilangad",
         "relation": "subject"
@@ -2705,7 +2689,7 @@
         "alt": "Source-associated illustration for Tamzara",
         "asset_id": "efb560071c6be5793e1d61c1",
         "caption": "Lead image linked from Tamzara",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tanbur": [
@@ -2713,7 +2697,7 @@
         "alt": "Source-associated illustration for Tanbur",
         "asset_id": "25da76c760bbf644537b3123",
         "caption": "Lead image linked from Tanbur",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tehran": [
@@ -2757,7 +2741,7 @@
         "alt": "Source-associated illustration for Tell Leilan",
         "asset_id": "87ff16ec673a40947bc7ad12",
         "caption": "Lead image linked from Tell Leilan",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tell-sheikh-hamad": [
@@ -2787,7 +2771,7 @@
         "alt": "Source-associated illustration for Tesqopa",
         "asset_id": "686fdde6d696500f49b85b24",
         "caption": "Lead image linked from Tesqopa",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tiglath-pileser-i": [
@@ -2795,7 +2779,7 @@
         "alt": "Source-associated illustration for Tiglath-Pileser I",
         "asset_id": "ec988d5faf222add67c9a212",
         "caption": "Lead image linked from Tiglath-Pileser I",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tiglath-pileser-iii": [
@@ -2803,7 +2787,7 @@
         "alt": "Source-associated illustration for Tiglath-Pileser III",
         "asset_id": "163825bbf849913107b60d7d",
         "caption": "Lead image linked from Tiglath-Pileser III",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tikrit": [
@@ -2825,7 +2809,7 @@
         "alt": "Source-associated illustration for Tukulti-Ninurta I",
         "asset_id": "64e06483a610bdaf3ddda7d7",
         "caption": "Lead image linked from Tukulti-Ninurta I",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tukulti-ninurta-ii": [
@@ -2833,7 +2817,7 @@
         "alt": "Source-associated illustration for Tukulti-Ninurta II",
         "asset_id": "b01a1b1481be1ed6849bbab0",
         "caption": "Lead image linked from Tukulti-Ninurta II",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-turoyo-language": [
@@ -2841,7 +2825,7 @@
         "alt": "Source-associated illustration for Turoyo language",
         "asset_id": "3da6b9627e461baf73c01cf0",
         "caption": "Lead image linked from Turoyo language",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-tyari": [
@@ -2849,7 +2833,7 @@
         "alt": "Source-associated illustration for Tyari",
         "asset_id": "7431fa89ee6cdb3631805e4d",
         "caption": "Lead image linked from Tyari",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-upper-mesopotamia": [
@@ -2857,7 +2841,7 @@
         "alt": "Source-associated illustration for Upper Mesopotamia",
         "asset_id": "4f4fad569836e9ee1b5da694",
         "caption": "Lead image linked from Upper Mesopotamia",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-urmia": [
@@ -2893,7 +2877,7 @@
         "alt": "Source-associated illustration for Zakho",
         "asset_id": "5c01c5adda3195983fb3e99d",
         "caption": "Lead image linked from Zakho",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "reference-zurna": [
@@ -2901,7 +2885,7 @@
         "alt": "Source-associated illustration for Zurna",
         "asset_id": "29493c7725459c05b16ebc0f",
         "caption": "Lead image linked from Zurna",
-        "relation": "subject"
+        "relation": "context"
       }
     ],
     "royal-reliefs": [
@@ -2922,13 +2906,13 @@
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "9579ce98335f66861b27c4a0",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
       },
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "e878cb53f3581d8921a2778b",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
       }
     ],
@@ -2936,13 +2920,13 @@
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "9579ce98335f66861b27c4a0",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
       },
       {
         "alt": "Sargon of Akkad on a rock relief",
         "asset_id": "e878cb53f3581d8921a2778b",
-        "caption": "Sargon of Akkad ( c. 2334\u20132279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
+        "caption": "Sargon of Akkad ( c. 2334–2279 BC) as depicted on his victory stele. Sargon II likely took his regnal name from this ancient king and sought to emulate his exploits.",
         "relation": "context"
       }
     ],
@@ -3195,7 +3179,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Anna_Eshoo_113th_Congress.jpg"
     },
     "0e4c24edf327aebc78bd9756": {
-      "creator": "F\u00e6 (Own work)",
+      "creator": "Fæ (Own work)",
       "file": "/assets/archive-media/0e4c24edf327aebc78bd9756.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -3231,7 +3215,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Map_of_Assyria.png"
     },
     "13172b5c9d2ab900bfa4ad62": {
-      "creator": "Gustave Dor\u00e9",
+      "creator": "Gustave Doré",
       "file": "/assets/archive-media/13172b5c9d2ab900bfa4ad62.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -3307,7 +3291,7 @@
       "file": "/assets/archive-media/1ae25dcf08c4552455fcf475.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Keramick\u00fd samovar, G\u017eeljsk\u00fd keramick\u00fd z\u00e1vod, Rusko 02.JPG",
+      "original_title": "File:Keramický samovar, Gželjský keramický závod, Rusko 02.JPG",
       "sha256": "8612bd082369d6f4e023886bd2c6636a7e336fa1e5037044ec8917b4a7915fdc",
       "source_url": "https://commons.wikimedia.org/wiki/File:Keramick%C3%BD_samovar,_G%C5%BEeljsk%C3%BD_keramick%C3%BD_z%C3%A1vod,_Rusko_02.JPG"
     },
@@ -3343,7 +3327,7 @@
       "file": "/assets/archive-media/22efdbae0c36b22b3b585722.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Mor Hadbschabo Church in Iwardo (G\u00fclg\u00f6ze).jpg",
+      "original_title": "File:Mor Hadbschabo Church in Iwardo (Gülgöze).jpg",
       "sha256": "64e2bb4280e5fbb41af315b1d5639a5d059053186cc3d668b5f367b85c697f3c",
       "source_url": "https://commons.wikimedia.org/wiki/File:Mor_Hadbschabo_Church_in_Iwardo_(G%C3%BClg%C3%B6ze).jpg"
     },
@@ -3384,7 +3368,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Touma11.8.JPG"
     },
     "26a9d447e90bd0ac4bc57630": {
-      "creator": "Jorge D\u00edaz from Berlin, Germany",
+      "creator": "Jorge Díaz from Berlin, Germany",
       "file": "/assets/archive-media/26a9d447e90bd0ac4bc57630.webp",
       "licence": "CC BY-SA 2.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -3460,7 +3444,7 @@
       "file": "/assets/archive-media/3433b6b21eadbc8c9a9dd5b1.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "original_title": "File:Humus Valili\u011fi.PNG",
+      "original_title": "File:Humus Valiliği.PNG",
       "sha256": "559d12d490e4260fcc8448a63fc9d2822d056163bf8f108eb2003c3adfd32217",
       "source_url": "https://commons.wikimedia.org/wiki/File:Humus_Valili%C4%9Fi.PNG"
     },
@@ -3496,12 +3480,12 @@
       "file": "/assets/archive-media/36a49a311766d150f6c066f9.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "original_title": "File:D\u00eara Marpetyun a keldaniyan a Am\u00ead\u00ea 2 2010.JPG",
+      "original_title": "File:Dêra Marpetyun a keldaniyan a Amêdê 2 2010.JPG",
       "sha256": "1cb4b55c86c7fb944dba05d855f2c26262ac8498efca79a4207981125f68642c",
       "source_url": "https://commons.wikimedia.org/wiki/File:D%C3%AAra_Marpetyun_a_keldaniyan_a_Am%C3%AAd%C3%AA_2_2010.JPG"
     },
     "372c3c872787ba93433d25e1": {
-      "creator": "Base map from File:Artaxiad Armenia 80BC-fr.svg by S\u00e9mhur and Sardur. Data from Marciak, Micha\u0142 (2017). Sophene, Gordyene, and Adiabene: Three Regna Minora of Northern Mesopotamia Between East and West",
+      "creator": "Base map from File:Artaxiad Armenia 80BC-fr.svg by Sémhur and Sardur. Data from Marciak, Michał (2017). Sophene, Gordyene, and Adiabene: Three Regna Minora of Northern Mesopotamia Between East and West",
       "file": "/assets/archive-media/372c3c872787ba93433d25e1.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -3514,7 +3498,7 @@
       "file": "/assets/archive-media/38506023c0d5d19053151e05.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Mor Gabriel Manast\u0131r\u0131.jpg",
+      "original_title": "File:Mor Gabriel Manastırı.jpg",
       "sha256": "c1fc97e276b39c097c3514c8cfe84a9f78fa1658e770b38325f5aa463b0f0b38",
       "source_url": "https://commons.wikimedia.org/wiki/File:Mor_Gabriel_Manast%C4%B1r%C4%B1.jpg"
     },
@@ -3568,7 +3552,7 @@
       "file": "/assets/archive-media/3c59f02c0a0a18a2519b1ea9.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Kleicha_(\u0643\u0644\u064a\u062c\u0629).jpg",
+      "original_title": "File:Kleicha_(كليجة).jpg",
       "sha256": "e5974d204246d5e922f98f1eb9b793e1aa2c3df710534d8264cefa29314acef7",
       "source_url": "https://commons.wikimedia.org/wiki/File:Kleicha_(%D9%83%D9%84%D9%8A%D8%AC%D8%A9).jpg"
     },
@@ -3586,7 +3570,7 @@
       "file": "/assets/archive-media/3da6b9627e461baf73c01cf0.webp",
       "licence": "CC0",
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "original_title": "File:Surayt_in_Western_Syriac_script_(\u0723\u0718\u072a\u071d\u072c_\u0713\u0718_\u0723\u0718\u072a\u071d\u071d\u0710_\u0721\u0725\u072a\u0712\u071d\u0710).png",
+      "original_title": "File:Surayt_in_Western_Syriac_script_(ܣܘܪܝܬ_ܓܘ_ܣܘܪܝܝܐ_ܡܥܪܒܝܐ).png",
       "sha256": "dccf9f10db1739f7b82fb5fde3e27a5e23ba7a4df5a461dc1b288bea7ec803a3",
       "source_url": "https://commons.wikimedia.org/wiki/File:Surayt_in_Western_Syriac_script_(%DC%A3%DC%98%DC%AA%DC%9D%DC%AC_%DC%93%DC%98_%DC%A3%DC%98%DC%AA%DC%9D%DC%9D%DC%90_%DC%A1%DC%A5%DC%AA%DC%92%DC%9D%DC%90).png"
     },
@@ -3622,7 +3606,7 @@
       "file": "/assets/archive-media/3ea2e11c33da4436a36cbe22.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0642\u0637\u0627\u064a\u0641 \u0639\u0635\u0627\u0641\u064a\u0631\u064a \u0645\u0646 \u0645\u062f\u064a\u0646\u0629 \u0646\u0627\u0628\u0644\u0633.jpg",
+      "original_title": "File:قطايف عصافيري من مدينة نابلس.jpg",
       "sha256": "cd9746da6b78a6c3063cf1e1dbf7aa91c4633ba148771738982ef0a18bd01fb9",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_%D8%B9%D8%B5%D8%A7%D9%81%D9%8A%D8%B1%D9%8A_%D9%85%D9%86_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D9%86%D8%A7%D8%A8%D9%84%D8%B3.jpg"
     },
@@ -3685,7 +3669,7 @@
       "file": "/assets/archive-media/43753b93a4beee1f775fb698.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0645\u0642\u0628\u0631\u0629 \u062a\u0644 \u0643\u064a\u0641 \u0641\u064a \u0627\u0644\u0639\u0631\u0627\u0642 \u0645\u062d\u0627\u0641\u0638\u0629 \u0646\u064a\u0646\u0648\u0649 \u0642\u0636\u0627\u0621 \u062a\u0644\u0643\u064a\u0641 (10).jpg",
+      "original_title": "File:مقبرة تل كيف في العراق محافظة نينوى قضاء تلكيف (10).jpg",
       "sha256": "f0b1ec7b12a85b83f0af3ddeeea898568107b64fb2b5e5ded06a20abd86d9fb2",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%82%D8%A8%D8%B1%D8%A9_%D8%AA%D9%84_%D9%83%D9%8A%D9%81_%D9%81%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82_%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9_%D9%86%D9%8A%D9%86%D9%88%D9%89_%D9%82%D8%B6%D8%A7%D8%A1_%D8%AA%D9%84%D9%83%D9%8A%D9%81_(10).jpg"
     },
@@ -3739,7 +3723,7 @@
       "file": "/assets/archive-media/4cf16fa55614584a05274a31.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:G\u00e9n\u00e9alogie_sacr\u00e9e.png",
+      "original_title": "File:Généalogie_sacrée.png",
       "sha256": "e01a9a05a089a2396cde8d3b3f09edd270b57958a71a34f720b0be429e113a66",
       "source_url": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9alogie_sacr%C3%A9e.png"
     },
@@ -3793,7 +3777,7 @@
       "file": "/assets/archive-media/5117b6068dec73faeaf46073.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "original_title": "File:Gedenktafel_F\u00fcrstenbrunner_Weg_67_(Westend)_Osmanischer_Genozid.jpg",
+      "original_title": "File:Gedenktafel_Fürstenbrunner_Weg_67_(Westend)_Osmanischer_Genozid.jpg",
       "sha256": "9c5fd9182af896766f95a4fee13ae2534ce4bbcea1b743e861e0aaec5a78bcb3",
       "source_url": "https://commons.wikimedia.org/wiki/File:Gedenktafel_F%C3%BCrstenbrunner_Weg_67_(Westend)_Osmanischer_Genozid.jpg"
     },
@@ -3820,7 +3804,7 @@
       "file": "/assets/archive-media/520f50e694e9894a84c24995.webp",
       "licence": "CC0",
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "original_title": "File:I \u2661 Alqosh Sign.png",
+      "original_title": "File:I ♡ Alqosh Sign.png",
       "sha256": "2fe148c32e783e33d7979f150824712042fcc7e44b6e522eca02e457368e1f62",
       "source_url": "https://commons.wikimedia.org/wiki/File:I_%E2%99%A1_Alqosh_Sign.png"
     },
@@ -3887,15 +3871,6 @@
       "sha256": "3a2fe8910f26e758b597c17f6e725e74939a02c83400d949b0757dc473d75e8e",
       "source_url": "https://commons.wikimedia.org/wiki/File:Mardin_Metropolitan_Municipality_Logo.png"
     },
-    "59ff33c5299d20e841faf4c6": {
-      "creator": "WolfgangRieger",
-      "file": "/assets/archive-media/59ff33c5299d20e841faf4c6.webp",
-      "licence": "Public domain",
-      "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
-      "original_title": "File:Codex_Tchacos_p33.jpg",
-      "sha256": "3a233c64fd3faf72292cf90c08050273efb152fcf0663e80ea026d05c7ade8cc",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Codex_Tchacos_p33.jpg"
-    },
     "5c01c5adda3195983fb3e99d": {
       "creator": "Ahmed Nihad",
       "file": "/assets/archive-media/5c01c5adda3195983fb3e99d.webp",
@@ -3928,12 +3903,12 @@
       "file": "/assets/archive-media/60ad73a9f419e34b9c39c423.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u041f\u0430\u043c\u044f\u0442\u043d\u0438\u043a_\u0430\u0441\u0441\u0438\u0440\u0438\u0439\u0446\u0430\u043c_\u0432_\u0424\u0440\u0430\u043d\u0446\u0438\u0438.jpg",
+      "original_title": "File:Памятник_ассирийцам_в_Франции.jpg",
       "sha256": "effaa9e9f5b3cacb3bbfe89f9e76c05e14ac9e3e3a0bac6e136033eb69e6231e",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D1%81%D1%81%D0%B8%D1%80%D0%B8%D0%B9%D1%86%D0%B0%D0%BC_%D0%B2_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D0%B8.jpg"
     },
     "624975ff90f80f8fa12a06b7": {
-      "creator": "D\u00fbrzan c\u00eerano",
+      "creator": "Dûrzan cîrano",
       "file": "/assets/archive-media/624975ff90f80f8fa12a06b7.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -3969,7 +3944,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Victor_Place_Khorsabad.jpg"
     },
     "637a3bac48ef19e47bd19efb": {
-      "creator": "Kedi\u00c7oban\u0131",
+      "creator": "KediÇobanı",
       "file": "/assets/archive-media/637a3bac48ef19e47bd19efb.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -4077,7 +4052,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Chaldean_church.JPG"
     },
     "70a137f5ff0d141c1ee75978": {
-      "creator": "DEMIS Mapserver, \u092a\u093e\u091f\u0932\u093f\u092a\u0941\u0924\u094d\u0930",
+      "creator": "DEMIS Mapserver, पाटलिपुत्र",
       "file": "/assets/archive-media/70a137f5ff0d141c1ee75978.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -4095,11 +4070,11 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Sanvitale03.jpg"
     },
     "719ed60dee460c8f69fd1f59": {
-      "creator": "\u0627\u0644\u0627\u0639\u0644\u0627\u0645\u064a \u0631\u064a\u0627\u0636 \u0627\u0644\u062c\u0627\u0628\u0631",
+      "creator": "الاعلامي رياض الجابر",
       "file": "/assets/archive-media/719ed60dee460c8f69fd1f59.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0645\u062f\u062e\u0644 \u0645\u0642\u0628\u0631\u0629 \u062a\u0643\u0631\u064a\u062a \u0627\u0644\u0642\u062f\u064a\u0645\u0629.jpg",
+      "original_title": "File:مدخل مقبرة تكريت القديمة.jpg",
       "sha256": "8bd99e215a8616272ae0ea9e1e7093b45c51f8b570bad755dc92a7d19a856b11",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AF%D8%AE%D9%84_%D9%85%D9%82%D8%A8%D8%B1%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9.jpg"
     },
@@ -4153,7 +4128,7 @@
       "file": "/assets/archive-media/7652cf1d317bc30bf70f9e4c.webp",
       "licence": "CC0",
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "original_title": "File:Neo-Assyrian, Nimrud, Queens\u2019 Tombs, Tomb III, Golden Crown.png",
+      "original_title": "File:Neo-Assyrian, Nimrud, Queens’ Tombs, Tomb III, Golden Crown.png",
       "sha256": "da8eac4b16cafd2dc7632c44e1964215e9eb20ceb0740c937285238b680a33c3",
       "source_url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian,_Nimrud,_Queens%E2%80%99_Tombs,_Tomb_III,_Golden_Crown.png"
     },
@@ -4243,7 +4218,7 @@
       "file": "/assets/archive-media/7fd12621e19f6b00caa808b0.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u06af\u0646\u0628\u062f \u06a9\u0628\u0648\u062f \u0645\u0631\u0627\u063a\u0647.jpg",
+      "original_title": "File:گنبد کبود مراغه.jpg",
       "sha256": "fd5dd6aae20f089aae3a187460a2f097ca90c354be5754fb9614ba7bb65894f2",
       "source_url": "https://commons.wikimedia.org/wiki/File:%DA%AF%D9%86%D8%A8%D8%AF_%DA%A9%D8%A8%D9%88%D8%AF_%D9%85%D8%B1%D8%A7%D8%BA%D9%87.jpg"
     },
@@ -4311,7 +4286,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Mor_Ephrem_icon.jpg"
     },
     "85339d6086343abfc592feb1": {
-      "creator": "F\u00e6 (Own work)",
+      "creator": "Fæ (Own work)",
       "file": "/assets/archive-media/85339d6086343abfc592feb1.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -4320,7 +4295,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Venus_Tablet_of_Ammisaduqa.jpg"
     },
     "86da7928e7042e44cb6dd05a": {
-      "creator": "Abraham Yohannan (1853\u20141925); The Assyrian Church of the East",
+      "creator": "Abraham Yohannan (1853—1925); The Assyrian Church of the East",
       "file": "/assets/archive-media/86da7928e7042e44cb6dd05a.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -4356,7 +4331,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Mata_Khtata,_a_village_in_Baz,_Hakkari,_c._1900.jpg"
     },
     "8bf93a0212405fa44f03c83e": {
-      "creator": "Bj\u00f8rn Christian T\u00f8rrissen",
+      "creator": "Bjørn Christian Tørrissen",
       "file": "/assets/archive-media/8bf93a0212405fa44f03c83e.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -4369,7 +4344,7 @@
       "file": "/assets/archive-media/8c9f4252ae823786d4b70397.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
-      "original_title": "File:Diyarbak\u0131r districts.png",
+      "original_title": "File:Diyarbakır districts.png",
       "sha256": "b7518a92aabc206c3729bdf8eb06cc8e5821982a75f3da5050de5e77899db334",
       "source_url": "https://commons.wikimedia.org/wiki/File:Diyarbak%C4%B1r_districts.png"
     },
@@ -4536,7 +4511,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Mar_Gewargis_of_the_Ancient_Church_of_the_East.jpg"
     },
     "a09d7566935ad7a033606d69": {
-      "creator": "Barton, George A. (12 November 1859 \u2013 28 June 1942)",
+      "creator": "Barton, George A. (12 November 1859 – 28 June 1942)",
       "file": "/assets/archive-media/a09d7566935ad7a033606d69.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -4545,7 +4520,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Archaic_cuneiform_tablet_E.A._Hoffman.jpg"
     },
     "a1522a24d23959bf8e192eed": {
-      "creator": "\u0393\u03b5\u03c9\u03c1\u03b3\u03cc\u03c2",
+      "creator": "Γεωργός",
       "file": "/assets/archive-media/a1522a24d23959bf8e192eed.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -4594,12 +4569,12 @@
       "file": "/assets/archive-media/a2c90fc16ed0f23e444cb022.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0425\u043e\u0448\u0430\u0431\u04301.jpg",
+      "original_title": "File:Хошаба1.jpg",
       "sha256": "d0f44d37c4d3f9bdc64106bc2067127dd8748f6ece21e4b9ff863dc7931b6a34",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D1%88%D0%B0%D0%B1%D0%B01.jpg"
     },
     "a570631e3ef84986c8d2c046": {
-      "creator": "Original uploader was \u0160arukinu at en.wikipedia",
+      "creator": "Original uploader was Šarukinu at en.wikipedia",
       "file": "/assets/archive-media/a570631e3ef84986c8d2c046.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -4644,11 +4619,11 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Shamshi-Adad_I.png"
     },
     "a914fddddfe6de2226f3480c": {
-      "creator": "Near_East_topographic_map-blank.svg: S\u00e9mhur derivative work: Zunkir (talk)",
+      "creator": "Near_East_topographic_map-blank.svg: Sémhur derivative work: Zunkir (talk)",
       "file": "/assets/archive-media/a914fddddfe6de2226f3480c.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "original_title": "File:M\u00e9dio-assyrien.png",
+      "original_title": "File:Médio-assyrien.png",
       "sha256": "6e99774ade464bd05d2a6ec4041c580baa1d7d8f239e49d390e5d76514cfbc8d",
       "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A9dio-assyrien.png"
     },
@@ -4666,7 +4641,7 @@
       "file": "/assets/archive-media/aaee73e2ee0def9502cdca77.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Nestorian Peshitta Gospel \u2013 Announcement of Jesus\u2019 Resurrection.jpg",
+      "original_title": "File:Nestorian Peshitta Gospel – Announcement of Jesus’ Resurrection.jpg",
       "sha256": "1e453e7297a676375af5fecc16035b4ce7c6d2dce94d65729cf0fec203eb4796",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nestorian_Peshitta_Gospel_%E2%80%93_Announcement_of_Jesus%E2%80%99_Resurrection.jpg"
     },
@@ -4761,11 +4736,11 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Arch_of_Ctesiphon_(aliraqi1959bagh_0180).jpg"
     },
     "b56ee207da9db819525b703c": {
-      "creator": "Kedi\u00c7oban\u0131",
+      "creator": "KediÇobanı",
       "file": "/assets/archive-media/b56ee207da9db819525b703c.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Beyt\u00fc\u015f\u015febap - Uludere da\u011f 1.jpg",
+      "original_title": "File:Beytüşşebap - Uludere dağ 1.jpg",
       "sha256": "2b804d632d7717b98ad46701844a901e97307a0663429efe58dfd856bed79de7",
       "source_url": "https://commons.wikimedia.org/wiki/File:Beyt%C3%BC%C5%9F%C5%9Febap_-_Uludere_da%C4%9F_1.jpg"
     },
@@ -4864,16 +4839,16 @@
       "file": "/assets/archive-media/bfa9ae9e5bbb3759b2aeb0be.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
-      "original_title": "File:View_of_the_houses_in_the_Assyrian_village_of_Kafro_Tahtoyo_(Elbe\u011fendi,_Midyat).jpg",
+      "original_title": "File:View_of_the_houses_in_the_Assyrian_village_of_Kafro_Tahtoyo_(Elbeğendi,_Midyat).jpg",
       "sha256": "b5a012c6d2bc907b156eab61948847a7d34056c318cda58480e25bb223eb379c",
       "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_houses_in_the_Assyrian_village_of_Kafro_Tahtoyo_(Elbe%C4%9Fendi,_Midyat).jpg"
     },
     "c0a07b077b82bcab761b8eba": {
-      "creator": "\u0627\u0644\u0627\u0639\u0644\u0627\u0645\u064a \u0631\u064a\u0627\u0636 \u0627\u0644\u062c\u0627\u0628\u0631",
+      "creator": "الاعلامي رياض الجابر",
       "file": "/assets/archive-media/c0a07b077b82bcab761b8eba.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0628\u0642\u0627\u064a\u0627 \u0627\u0644\u0643\u0646\u064a\u0633\u0629 \u0627\u0644\u0633\u0631\u064a\u0627\u0646\u064a\u0629 ( \u0627\u0644\u0643\u0646\u064a\u0633\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621 ) \u0645\u062f\u064a\u0646\u0629 \u062a\u0643\u0631\u064a\u062a \u0627\u0644\u0639\u0631\u0627\u0642\u064a\u0629.jpg",
+      "original_title": "File:بقايا الكنيسة السريانية ( الكنيسة الخضراء ) مدينة تكريت العراقية.jpg",
       "sha256": "79144fffe64a9ba7fa4bce93d65ff3a872fe1d7f316be5f052a675738a824f30",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D8%A8%D9%82%D8%A7%D9%8A%D8%A7_%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A7%D9%86%D9%8A%D8%A9_(_%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1_)_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9.jpg"
     },
@@ -5026,7 +5001,7 @@
       "file": "/assets/archive-media/cf8ac3e04db8ff125158189b.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Nestorian Peshitta Gospel \u2013 Feast of the Discovery of the Cross.jpg",
+      "original_title": "File:Nestorian Peshitta Gospel – Feast of the Discovery of the Cross.jpg",
       "sha256": "5206ba0eae8eca72b42ec37b0956ed5f959889df391acf4c8904668aabef6f96",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nestorian_Peshitta_Gospel_%E2%80%93_Feast_of_the_Discovery_of_the_Cross.jpg"
     },
@@ -5044,7 +5019,7 @@
       "file": "/assets/archive-media/d01a1aa62b8eb74a31bfe2fd.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:\u0642\u0637\u0627\u064a\u0641 (1).jpg",
+      "original_title": "File:قطايف (1).jpg",
       "sha256": "e1574b043ca8a69f6baf0a6766988bdb61c8f145673e412b354b06de5890ff44",
       "source_url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_(1).jpg"
     },
@@ -5143,7 +5118,7 @@
       "file": "/assets/archive-media/da42c19b2238c45899e81793.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "original_title": "File:K\u00fcltepeOberstadtPalast.jpg",
+      "original_title": "File:KültepeOberstadtPalast.jpg",
       "sha256": "9ebda6c46b19f2ac6457ad782d0e5ff28231ff4ad0dc8837f3918fab3f066b0f",
       "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%BCltepeOberstadtPalast.jpg"
     },
@@ -5242,7 +5217,7 @@
       "file": "/assets/archive-media/e09f4160dad451a8d9ce19a7.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "original_title": "File:Mardin location Darge\u00e7it.PNG",
+      "original_title": "File:Mardin location Dargeçit.PNG",
       "sha256": "d5b2a3b7ef1f7d0687082c721d9e91d12d4fe67530d656dd683128b81fc180a7",
       "source_url": "https://commons.wikimedia.org/wiki/File:Mardin_location_Darge%C3%A7it.PNG"
     },
@@ -5283,7 +5258,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Campaign_in_southern_Iraq_of_Ashurbanipal_-_fighting_in_the_marshes.jpg"
     },
     "e1c38c2a47418f7c5ff0c643": {
-      "creator": "Florian Koch French translation by Yolan Ch\u00e9riaux",
+      "creator": "Florian Koch French translation by Yolan Chériaux",
       "file": "/assets/archive-media/e1c38c2a47418f7c5ff0c643.webp",
       "licence": "CC BY-SA 2.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -5292,7 +5267,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Mardin_to_the_Mesopotamian_plains.jpg"
     },
     "e3a12355e365237c43fa90fd": {
-      "creator": "File:Near East topographic map-blank.svg: S\u00e9mhur File:Assyrie general.PNG: Zunkir derivative work: Morningstar1814",
+      "creator": "File:Near East topographic map-blank.svg: Sémhur File:Assyrie general.PNG: Zunkir derivative work: Morningstar1814",
       "file": "/assets/archive-media/e3a12355e365237c43fa90fd.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -5490,7 +5465,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Evin_Agassi,_2018.jpg"
     },
     "f224e01dc445e8130bc58e89": {
-      "creator": "Michal Ma\u0148as",
+      "creator": "Michal Maňas",
       "file": "/assets/archive-media/f224e01dc445e8130bc58e89.webp",
       "licence": "CC BY 4.0",
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
@@ -5508,7 +5483,7 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Iraqvillagebaghdeda.JPG"
     },
     "f4d1712b58a4a9caf7003724": {
-      "creator": "Austen Henry Layard (1817\u20131894)",
+      "creator": "Austen Henry Layard (1817–1894)",
       "file": "/assets/archive-media/f4d1712b58a4a9caf7003724.webp",
       "licence": "Public domain",
       "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
@@ -5548,7 +5523,7 @@
       "file": "/assets/archive-media/f7eba38e3c835a99e65e81bb.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "original_title": "File:S\u00f6dert\u00e4lje Fotbollstadion.jpg",
+      "original_title": "File:Södertälje Fotbollstadion.jpg",
       "sha256": "0a6a89a6a0191f32644720401dff7eaa42b2b7042e6e10319d9a4f05c4a2d0d5",
       "source_url": "https://commons.wikimedia.org/wiki/File:S%C3%B6dert%C3%A4lje_Fotbollstadion.jpg"
     },
@@ -5566,12 +5541,12 @@
       "file": "/assets/archive-media/f8a5f1d21dce9328c52b701c.webp",
       "licence": "CC BY-SA 3.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "original_title": "File:H\u00e9rosma\u00eetrisantunlion.jpg",
+      "original_title": "File:Hérosmaîtrisantunlion.jpg",
       "sha256": "5432d1346498d55ab9095a28f44f41790e3ee780ac538a594773a45774ae2320",
       "source_url": "https://commons.wikimedia.org/wiki/File:H%C3%A9rosma%C3%AEtrisantunlion.jpg"
     },
     "f90e835136735c359aa01083": {
-      "creator": "(Mu-tamajo) \u3080\u30fc\u305f\u3093\u3058\u3087",
+      "creator": "(Mu-tamajo) むーたんじょ",
       "file": "/assets/archive-media/f90e835136735c359aa01083.webp",
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",

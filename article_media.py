@@ -14,6 +14,28 @@ import re
 ROOT = Path(__file__).resolve().parent
 LIBRARY_FILE = ROOT / 'data' / 'media-library.json'
 IMAGE_DIR = ROOT / 'static' / 'assets' / 'archive-media'
+EXCLUSIONS_FILE = ROOT / 'data' / 'media-exclusions.json'
+
+
+def load_exclusions():
+    """Documented image-to-article rejections; no automatic global bans."""
+    data = json.loads(EXCLUSIONS_FILE.read_text(encoding='utf-8'))
+    if data.get('schema_version') != 1 or not isinstance(data.get('exclusions'), list):
+        raise ValueError('Invalid media exclusion register')
+    denied = set()
+    for item in data['exclusions']:
+        slug, title = item.get('article_slug', ''), item.get('original_title', '')
+        if (not re.fullmatch(r'[a-z0-9][a-z0-9-]*', slug) or
+                not title.startswith('File:') or
+                not str(item.get('reason', '')).strip() or
+                urlsplit(item.get('evidence_url', '')).scheme != 'https'):
+            raise ValueError('Incomplete or unsafe media editorial exclusion')
+        key = (slug, title.replace('_', ' ').casefold())
+        if key in denied:
+            raise ValueError('Duplicate media exclusion')
+        denied.add(key)
+    return denied
+
 
 # These titles represent specific article subjects, not general topical guesses.
 # Lead images remain contextual unless an editor independently authenticates
@@ -114,10 +136,15 @@ def validate_library(library=None, check_files=True):
             path = ROOT / 'static' / filename.lstrip('/')
             if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != asset['sha256']:
                 raise ValueError('Missing or changed local image: ' + filename)
+    exclusions = load_exclusions()
     for slug, selections in lib['articles'].items():
         if not re.fullmatch('[a-z0-9][a-z0-9-]*', slug) or not isinstance(selections, list):
             raise ValueError('Invalid article media selection')
         for entry in selections:
+            if entry.get('asset_id') in lib['assets']:
+                title = lib['assets'][entry['asset_id']]['original_title']
+                if (slug, title.replace('_', ' ').casefold()) in exclusions:
+                    raise ValueError('Image rejected for this article on documented grounds: ' + slug)
             if entry.get('asset_id') not in lib['assets']:
                 raise ValueError('Article references unknown image: ' + slug)
             if not isinstance(entry.get('alt'), str) or not entry['alt'].strip():

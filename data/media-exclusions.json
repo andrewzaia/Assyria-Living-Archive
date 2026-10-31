@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "exclusions": [
+    {
+      "article_slug": "reference-acts-of-thomas",
+      "original_title": "File:Codex_Tchacos_p33.jpg",
+      "reason": "Codex Tchacos page 33 begins the Gospel of Judas. The codex does not preserve the Acts of Thomas, so the image is not a manuscript witness for this article.",
+      "evidence_url": "https://4care-skos.mf.no/4care-artefacts/79/",
+      "review_scope": "documented_manuscript_mismatch"
+    },
+    {
+      "article_slug": "reference-doctrine-of-addai",
+      "original_title": "File:Codex_Tchacos_p33.jpg",
+      "reason": "Codex Tchacos page 33 is part of the Gospel of Judas. The documented contents do not include the Doctrine of Addai, so the image cannot illustrate that text as a manuscript witness.",
+      "evidence_url": "https://4care-skos.mf.no/4care-artefacts/79/",
+      "review_scope": "documented_manuscript_mismatch"
+    }
+  ]
+}
