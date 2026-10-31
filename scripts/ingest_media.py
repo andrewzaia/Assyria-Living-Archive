@@ -188,71 +188,123 @@ def fallback(article, delay):
     return []
 
 
-def ingest_article(article, registry, delay, max_per_article, counters):
-    slug = article['slug']
-    existing = registry['articles'].get(slug, [])
-    if len(existing) >= max_per_article:
-        counters['previously_archived'] += 1
+def add_source_illustrations(article, registry, selections, candidates,
+                             relation, delay, max_per_article, counters):
+    """Accession only image-specific licensed media or reuse previously verified files."""
+    if not candidates or len(selections) >= max_per_article:
         return
-    candidates = media.media_candidates(article, REFERENCE_MEDIA)
-    if not candidates:
+    existing_titles = {
+        registry['assets'][item['asset_id']]['original_title'].replace('_', ' ').casefold()
+        for item in selections
+    }
+    queued = []
+    for candidate in candidates:
+        if not candidate.get('file'):
+            continue
+        title = 'File:' + candidate['file'].removeprefix('File:')
+        if title.replace('_', ' ').casefold() not in existing_titles:
+            queued.append((title, candidate))
+    if not queued:
+        return
+
+    # Reuse already licensed local binaries without further network requests.
+    known = {
+        asset['original_title'].replace('_', ' ').casefold(): asset_id
+        for asset_id, asset in registry['assets'].items()
+    }
+    need_lookup = [candidate['file'] for title, candidate in queued
+                   if title.replace('_', ' ').casefold() not in known]
+    infos = {}
+    if need_lookup:
         try:
-            candidates = fallback(article, delay)
+            infos = candidate_info(need_lookup, delay)
         except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
             counters['lookup_failures'] += 1
-            print(slug, 'fallback metadata unavailable:', type(exc).__name__, flush=True)
-            return
-    if not candidates:
-        counters['no_source_images'] += 1
-        return
-    try:
-        infos = candidate_info([c['file'] for c in candidates], delay)
-    except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
-        counters['lookup_failures'] += 1
-        print(slug, 'licence metadata unavailable:', type(exc).__name__, flush=True)
-        return
-    selections = list(existing)
-    relation = 'subject' if article.get('kind') == 'preserved_reference' else 'context'
-    for candidate in candidates:
+            print(article['slug'], 'licence metadata unavailable:', type(exc).__name__, flush=True)
+
+    for title, candidate in queued:
         if len(selections) >= max_per_article:
             break
-        title = 'File:' + candidate['file'].removeprefix('File:')
-        info = infos.get(title.replace('_', ' ').casefold())
-        rights = eligible(info)
-        if not rights:
-            continue
-        try:
-            raw = read_url(rights['download_url'], delay=delay)
-            data = optimise(raw)
-        except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError, OSError) as exc:
-            print(slug, 'image skipped:', type(exc).__name__, flush=True)
-            continue
-        if not data:
-            continue
-        checksum = hashlib.sha256(data).hexdigest()
-        media_id = hashlib.sha256((title + ':' + checksum).encode('utf-8')).hexdigest()[:24]
-        local_file = '/assets/archive-media/' + media_id + '.webp'
-        target = ROOT / 'static' / local_file.lstrip('/')
-        target.parent.mkdir(parents=True, exist_ok=True)
-        if not target.exists():
-            target.write_bytes(data)
-        registry['assets'][media_id] = {
-            'file': local_file,
-            'sha256': checksum,
-            'creator': rights['creator'],
-            'licence': rights['licence'],
-            'licence_url': rights['licence_url'],
-            'source_url': rights['source_url'],
-            'original_title': title,
-        }
-        if not any(s['asset_id'] == media_id for s in selections):
-            selections.append({'asset_id': media_id, 'alt': plain(candidate.get('alt') or title),
-                               'caption': plain(candidate.get('caption') or candidate.get('alt') or title),
-                               'relation': relation})
+        key = title.replace('_', ' ').casefold()
+        media_id = known.get(key)
+        if not media_id:
+            rights = eligible(infos.get(key))
+            if not rights:
+                continue
+            try:
+                raw = read_url(rights['download_url'], delay=delay)
+                data = optimise(raw)
+            except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError, OSError) as exc:
+                print(article['slug'], 'image skipped:', type(exc).__name__, flush=True)
+                continue
+            if not data:
+                continue
+            checksum = hashlib.sha256(data).hexdigest()
+            media_id = hashlib.sha256((title + ':' + checksum).encode('utf-8')).hexdigest()[:24]
+            local_file = '/assets/archive-media/' + media_id + '.webp'
+            target = ROOT / 'static' / local_file.lstrip('/')
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if not target.exists():
+                target.write_bytes(data)
+            registry['assets'][media_id] = {
+                'file': local_file,
+                'sha256': checksum,
+                'creator': rights['creator'],
+                'licence': rights['licence'],
+                'licence_url': rights['licence_url'],
+                'source_url': rights['source_url'],
+                'original_title': title,
+            }
+            known[key] = media_id
+        if not any(item['asset_id'] == media_id for item in selections):
+            selections.append({
+                'asset_id': media_id,
+                'alt': plain(candidate.get('alt') or title),
+                'caption': plain(candidate.get('caption') or candidate.get('alt') or title),
+                'relation': relation,
+            })
+            existing_titles.add(key)
             counters['new_article_images'] += 1
+
+
+def ingest_article(article, registry, delay, max_per_article, counters):
+    slug = article['slug']
+    selections = list(registry['articles'].get(slug, []))
+    if len(selections) >= max_per_article:
+        counters['previously_archived'] += 1
+        return
+
+    relation = 'subject' if article.get('kind') == 'preserved_reference' else 'context'
+    candidates = media.media_candidates(article, REFERENCE_MEDIA)
+    add_source_illustrations(article, registry, selections, candidates,
+                             relation, delay, max_per_article, counters)
+
+    # Retained figure links often contain only icons, missing file records or
+    # files with unsuitable licences. An exact Wikipedia lead illustration is a
+    # second source candidate, not proof that the artwork depicts the subject.
+    # Avoid needless duplicate requests and never replace a licensed source
+    # figure with a less precise contextual illustration.
+    if not selections and not article.get('image'):
+        try:
+            fallback_items = fallback(article, delay)
+        except (HTTPError, URLError, RuntimeError, ValueError, TimeoutError) as exc:
+            counters['lookup_failures'] += 1
+            print(slug, 'lead image metadata unavailable:', type(exc).__name__, flush=True)
+            fallback_items = []
+        first_titles = {
+            item['file'].replace('_', ' ').casefold()
+            for item in candidates if item.get('file')
+        }
+        fresh = [item for item in fallback_items
+                 if item.get('file', '').replace('_', ' ').casefold() not in first_titles]
+        add_source_illustrations(article, registry, selections, fresh,
+                                 relation, delay, max_per_article, counters)
+        if not candidates and not fallback_items:
+            counters['no_source_images'] += 1
+
     if selections:
         registry['articles'][slug] = selections
-    else:
+    elif candidates:
         counters['without_eligible_licence'] += 1
 
 

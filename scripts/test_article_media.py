@@ -9,6 +9,9 @@ import article_media
 import generate
 from archive_support import MediaCollector
 from scripts.ingest_media import eligible, normalise_licence_url
+from scripts import ingest_media
+import tempfile
+from unittest import mock
 
 
 class ImageParser(HTMLParser):
@@ -105,6 +108,85 @@ class LocalMediaTests(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, 'Unverified image licence URL'):
             article_media.validate_library(registry, check_files=False)
+
+    def test_rejected_source_image_tries_licensed_lead_and_stores_it_locally(self):
+        article = {
+            'slug': 'reference-assyrian-example',
+            'category': 'History & archaeology',
+            'kind': 'preserved_reference',
+            'record': {'source_url': 'https://en.wikipedia.org/wiki/Assyria'},
+            'title': 'Assyrian example',
+        }
+        registry = {'schema_version': 1, 'assets': {}, 'articles': {}}
+        counters = dict(previously_archived=0, new_article_images=0,
+                        lookup_failures=0, no_source_images=0,
+                        without_eligible_licence=0)
+        initial = [{'file': 'Unusable.jpg', 'alt': 'Icon', 'caption': ''}]
+        lead = [{'file': 'Licensed.jpg', 'alt': 'Assyrian sculpture',
+                 'caption': 'Museum sculpture'}]
+        rights = {
+            'source_url': 'https://commons.wikimedia.org/wiki/File:Licensed.jpg',
+            'download_url': 'https://upload.wikimedia.org/test.jpg',
+            'creator': 'Museum photographer',
+            'licence': 'CC BY 4.0',
+            'licence_url': 'https://creativecommons.org/licenses/by/4.0/',
+        }
+        with tempfile.TemporaryDirectory() as tmp, \
+                mock.patch.object(ingest_media, 'ROOT', Path(tmp)), \
+                mock.patch.object(ingest_media.media, 'media_candidates',
+                                  return_value=initial), \
+                mock.patch.object(ingest_media, 'fallback', return_value=lead) as fb, \
+                mock.patch.object(ingest_media, 'candidate_info',
+                                  side_effect=lambda files, delay: {
+                                      'File:Licensed.jpg': 'approved'
+                                  } if files == ['Licensed.jpg'] else {}), \
+                mock.patch.object(ingest_media, 'eligible',
+                                  side_effect=lambda info: rights if info == 'approved' else None), \
+                mock.patch.object(ingest_media, 'read_url', return_value=b'media'), \
+                mock.patch.object(ingest_media, 'optimise', return_value=b'valid-webp-data'):
+            ingest_media.ingest_article(article, registry, 0.5, 2, counters)
+            fb.assert_called_once()
+            self.assertEqual(counters['new_article_images'], 1)
+            self.assertEqual(len(registry['articles'][article['slug']]), 1)
+            self.assertTrue(article_media.validate_library(registry, check_files=False))
+            self.assertTrue(
+                (Path(tmp) / 'static' /
+                 registry['assets'][next(iter(registry['assets']))]['file'].lstrip('/')).exists()
+            )
+
+    def test_no_fallback_needed_when_original_image_is_verified(self):
+        article = {
+            'slug': 'reference-example',
+            'kind': 'preserved_reference',
+            'record': {'source_url': 'https://en.wikipedia.org/wiki/Assyria'},
+            'title': 'Assyria',
+        }
+        registry = {
+            'schema_version': 1,
+            'assets': {'0123456789abcdef01234567': {
+                'file': '/assets/archive-media/0123456789abcdef01234567.webp',
+                'sha256': '0' * 64,
+                'source_url': 'https://commons.wikimedia.org/wiki/File:Approved.jpg',
+                'creator': 'Museum',
+                'licence': 'CC BY 4.0',
+                'licence_url': 'https://creativecommons.org/licenses/by/4.0/',
+                'original_title': 'File:Approved.jpg',
+            }},
+            'articles': {},
+        }
+        counters = dict(previously_archived=0, new_article_images=0,
+                        lookup_failures=0, no_source_images=0,
+                        without_eligible_licence=0)
+        with mock.patch.object(ingest_media.media, 'media_candidates',
+                               return_value=[{'file': 'Approved.jpg',
+                                              'alt': 'Royal relief', 'caption': 'Relief'}]), \
+                mock.patch.object(ingest_media, 'candidate_info') as lookup, \
+                mock.patch.object(ingest_media, 'fallback') as fb:
+            ingest_media.ingest_article(article, registry, 0.5, 2, counters)
+            self.assertEqual(counters['new_article_images'], 1)
+            self.assertEqual(len(registry['articles']['reference-example']), 1)
+            lookup.assert_not_called()
+            fb.assert_not_called()
 
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
