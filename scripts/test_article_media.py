@@ -179,6 +179,27 @@ class LocalMediaTests(unittest.TestCase):
         self.assertNotIn('upload.wikimedia.org', markup)
         self.assertNotIn('thumb.wikimedia.org', markup)
 
+    def test_public_domain_is_rights_status_not_a_licence(self):
+        data = {
+            'schema_version': 1,
+            'assets': {'archived': {
+                'source_url': 'https://commons.wikimedia.org/wiki/File:Royal_relief.jpg',
+                'file': '/assets/archive-media/0123456789abcdef01234567.webp',
+                'creator': 'Museum photographer',
+                'licence': 'Public domain',
+                'licence_url': 'https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain',
+            }},
+            'articles': {'example': [{
+                'asset_id': 'archived',
+                'alt': 'Royal relief',
+                'caption': 'Assyrian royal relief',
+                'relation': 'subject',
+            }]},
+        }
+        markup = article_media.render({'slug': 'example'}, data)
+        self.assertIn('Rights status: <a', markup)
+        self.assertNotIn('Licence: <a', markup)
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',
