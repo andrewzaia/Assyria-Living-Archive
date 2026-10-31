@@ -322,6 +322,63 @@ class LocalMediaTests(unittest.TestCase):
         self.assertEqual(len(calls), 2)
         self.assertEqual(list(map(len, calls)), [8, 8])
 
+    def test_documented_manuscript_mismatch_is_not_published(self):
+        denied = article_media.load_exclusions()
+        key = 'file:codex tchacos p33.jpg'
+        for slug in ('reference-acts-of-thomas', 'reference-doctrine-of-addai'):
+            self.assertIn((slug, key), denied)
+            current = generate.MEDIA_LIBRARY['articles'].get(slug, [])
+            self.assertFalse(any(
+                generate.MEDIA_LIBRARY['assets'][entry['asset_id']]['original_title']
+                .replace('_', ' ').casefold() == key for entry in current
+            ))
+
+    def test_exclusions_are_enforced_during_manifest_validation(self):
+        example = {
+            'schema_version': 1,
+            'articles': {'reference-acts-of-thomas': [
+                {'asset_id': '0123456789abcdef01234567',
+                 'alt': 'Codex Tchacos page', 'caption': 'Unrelated codex',
+                 'relation': 'context'}]},
+            'assets': {'0123456789abcdef01234567': {
+                'file': '/assets/archive-media/0123456789abcdef01234567.webp',
+                'sha256': 'a'*64,
+                'source_url': 'https://commons.wikimedia.org/wiki/File:Codex_Tchacos_p33.jpg',
+                'original_title': 'File:Codex_Tchacos_p33.jpg',
+                'creator': 'Museum', 'licence': 'CC BY 4.0',
+                'licence_url': 'https://creativecommons.org/licenses/by/4.0/',
+            }}
+        }
+        with self.assertRaisesRegex(ValueError, 'Image rejected for this article'):
+            article_media.validate_library(example, check_files=False)
+
+    def test_excluded_image_is_not_reacquired(self):
+        from unittest.mock import patch
+        from scripts import ingest_media
+        title = 'Codex_Tchacos_p33.jpg'
+        article = {'slug': 'reference-acts-of-thomas',
+                   'kind': 'preserved_reference',
+                   'title': 'Acts of Thomas',
+                   'record': {'source_url': 'https://en.wikipedia.org/wiki/Acts_of_Thomas'},
+                   'media_candidates': [{'file': title, 'alt': 'Codex Tchacos', 'caption': 'Codex'}]}
+        registry = {'schema_version': 1, 'assets': {}, 'articles': {}}
+        counters = {'previously_archived': 0, 'new_article_images': 0,
+                    'lookup_failures': 0, 'no_source_images': 0,
+                    'without_eligible_licence': 0}
+        with patch.object(ingest_media, 'candidate_info') as info, \
+             patch.object(ingest_media, 'fallback', return_value=[
+                 {'file': title, 'alt': 'Misidentified manuscript', 'caption': 'Lead image'}]):
+            ingest_media.ingest_article(article, registry, 0.5, 2, counters)
+        self.assertFalse(registry['assets'])
+        self.assertFalse(registry['articles'])
+        info.assert_not_called()
+
+    def test_automatic_lead_images_are_not_claimed_as_verified_subjects(self):
+        for entries in generate.MEDIA_LIBRARY['articles'].values():
+            for image in entries:
+                if image['alt'].startswith('Source-associated illustration for'):
+                    self.assertEqual(image['relation'], 'context')
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',
