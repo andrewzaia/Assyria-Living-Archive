@@ -34,6 +34,16 @@ Open `http://127.0.0.1:8000`. Stop the server with Ctrl+C. The preview script bu
 
 Edit `static/` rather than `dist/`. Every build recreates `dist/` from the maintained files, so stale generated pages are removed.
 
+## Media provenance and image licensing
+
+Every editorial article and preserved encyclopaedia reference now has an image-research panel. Original Wikipedia parser snapshots may contain image filenames and captions, which are collected separately during the build without changing or reprinting the retained article JSON. Up to three images from that original source page are displayed only after an in-browser Wikimedia Commons imageinfo request confirms a permitted licence, a Commons file record, and appropriate attribution. Guides citing a preserved reference can reuse that source's media candidates as **contextual illustrations**, not depictions of the person or event unless independently documented. When original candidates are unavailable, the panel tries the corresponding Wikipedia lead image under the same rights checks.
+
+Every displayed image has its own author/creator credit, Commons file link, licence, and a caption identified as source-supplied rather than independently verified. The article-text licence is never assumed to apply to embedded images. Non-free, unclear, incompatible and unavailable images are withheld. The existing local images under static/assets keep their separately recorded credits.
+
+Image discovery is lazy-loaded near the viewport for performance. It makes third-party requests to Wikimedia (including transmission of visitor IP and normal network metadata) under Wikimedia's privacy arrangements. The core article text and source references remain available without the external service. A discovery panel is **not** proof that an image is displayed.
+
+The generated dist/media-audit.json lists every article's media candidate status and locally maintained image coverage. It does not claim that a candidate has been licensed or loaded successfully. Systematic acquisition of distinct, verified, locally optimised illustrations, especially portraits of historic and contemporary figures, remains an explicit editorial milestone.
+
 ## Production site: Cloudflare Pages
 
 The canonical public site is [www.assyrialivingarchive.org](https://www.assyrialivingarchive.org/). Cloudflare Pages builds the Python-generated `dist/` directory from the `main` branch of this repository.

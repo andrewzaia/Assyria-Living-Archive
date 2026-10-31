@@ -143,6 +143,65 @@ class Reader(HTMLParser):
         rendered = re.sub(r' href="#([^"]+)"', lambda m: m.group(0) if m.group(1) in ids else '', rendered)
         return rendered, plain
 
+class MediaCollector(HTMLParser):
+    """Identify source-page media filenames without assuming reuse rights.
+
+    Capture source filenames and captions separately from Reader, which still
+    sanitises the original retained prose and deliberately strips embeds.
+    """
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.items = []
+        self.active_file = None
+        self.figure_start = None
+        self.caption = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'figure':
+            self.figure_start = len(self.items)
+        elif tag == 'figcaption':
+            self.caption = []
+        elif tag == 'a':
+            href = attrs.get('href', '')
+            parsed = urlsplit(urljoin('https://en.wikipedia.org', href))
+            if parsed.netloc == 'en.wikipedia.org' and parsed.path.startswith('/wiki/File:'):
+                self.active_file = unquote(parsed.path.split('/wiki/File:', 1)[1]).replace('_', ' ')
+            else:
+                self.active_file = None
+        elif tag == 'img' and self.active_file:
+            try:
+                width = int(attrs.get('data-file-width') or attrs.get('width') or '0')
+                height = int(attrs.get('data-file-height') or attrs.get('height') or '0')
+            except (TypeError, ValueError):
+                return
+            alt = ' '.join(attrs.get('alt', '').split())
+            if width < 180 or height < 100 or not alt:
+                return
+            filename = self.active_file
+            if not filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+                return
+            if not any(item['file'].casefold() == filename.casefold() for item in self.items):
+                self.items.append({'file': filename, 'alt': alt[:230], 'caption': ''})
+
+    def handle_data(self, data):
+        if self.caption is not None:
+            self.caption.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == 'a':
+            self.active_file = None
+        elif tag == 'figcaption' and self.caption is not None:
+            text = ' '.join(' '.join(self.caption).split())[:350]
+            if self.figure_start is not None and text:
+                for item in self.items[self.figure_start:]:
+                    if not item['caption']:
+                        item['caption'] = text
+            self.caption = None
+        elif tag == 'figure':
+            self.figure_start = None
+
+
 def load_references():
     path = ARCHIVE / 'encyclopaedia-references.json'
     if not path.exists():
@@ -164,6 +223,8 @@ def load_references():
         source = json.loads(raw)['parse']
         if source['revid'] != record['revision_id']:
             raise ValueError('Snapshot revision mismatch: ' + record['id'])
+        collector = MediaCollector()
+        collector.feed(source['text'])
         reader = Reader(record['source_url'], routes)
         reader.feed(source['text'])
         clean, plain = reader.finish()
@@ -176,6 +237,7 @@ def load_references():
             summary=summary, sections=[dict(title='Preserved reference text', text=plain)],
             sources=[record['id']], related=[], image=None, note=None, kind='preserved_reference',
             word_count=words(plain), html=clean, headings=reader.headings, record=record,
+            media_candidates=collector.items[:8],
         ))
     return articles
 

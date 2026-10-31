@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "milestones": [
     {
       "id": "foundation",
@@ -155,6 +155,13 @@
       "status": "in-progress",
       "delivered": "Added an offline structural audit for the maintained curated institutional source URLs, a separate bounded monthly/manual HTTP health workflow with inconclusive 403/429/timeout handling, a public audit and metadata report, representative-page accessibility markup checks, and automated test coverage. Repaired multi-menu keyboard disclosure handling, improved focus and reduced-motion CSS, and introduced nonvisual atlas chapter status announcements. These checks do not claim real browser testing, all-source remote verification or full WCAG conformance.",
       "next": "Run and manually assess the scheduled URL-health observations for the expanded 113-record curated source registry, then test screen readers and zoom on the new case-file provenance panels. Retain indexing as blocked on human approvals."
+    },
+    {
+      "id": "visual-media",
+      "title": "Source-credited images and multimedia across the encyclopaedia",
+      "status": "in-progress",
+      "delivered": "Recovered image filenames, descriptive alternatives and figure captions from the original retained encyclopaedia snapshots while leaving preserved prose sanitisation unchanged. Each eligible article can display up to three images from its own source or an identified contextual source, subject to separate Wikimedia Commons file-level author, licence, and thumbnail verification. All editorial and preserved articles have a media section, site-wide coverage metadata and tests. No unverified or misleading image is inserted simply to fill a blank.",
+      "next": "Run browser and licensing verification against live media providers, catalogue articles with no suitable images, and systematically add individual portraits, manuscripts, reliefs, maps and community photographs with accurate captions. Prefer locally maintained optimised media where licensing permits. The presence of an original media candidate does not establish safe reuse or successful display, and universal verified image coverage remains outstanding."
     },
     {
       "id": "publication",
