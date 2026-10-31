@@ -37,6 +37,8 @@ def wikipedia_title(article, source_map):
 
     for source_id in article.get("sources", []):
         source = source_map.get(source_id, {})
+        if source.get("type") == "Preserved encyclopaedia reference" and source.get("title"):
+            return source["title"], "context"
         url = source.get("url", "")
         parsed = urlsplit(url)
         if parsed.netloc == "en.wikipedia.org" and parsed.path.startswith("/wiki/"):
