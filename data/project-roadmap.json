@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-01",
   "milestones": [
     {
       "id": "foundation",
@@ -160,8 +160,8 @@
       "id": "visual-media",
       "title": "Source-credited images and multimedia across the encyclopaedia",
       "status": "in-progress",
-      "delivered": "Recovered image filenames, descriptive alternatives and figure captions from the original retained encyclopaedia snapshots while leaving preserved prose sanitisation unchanged. Each eligible article can display up to three images from its own source or an identified contextual source, subject to separate Wikimedia Commons file-level author, licence, and thumbnail verification. All editorial and preserved articles have a media section, site-wide coverage metadata and tests. No unverified or misleading image is inserted simply to fill a blank.",
-      "next": "Run browser and licensing verification against live media providers, catalogue articles with no suitable images, and systematically add individual portraits, manuscripts, reliefs, maps and community photographs with accurate captions. Prefer locally maintained optimised media where licensing permits. The presence of an original media candidate does not establish safe reuse or successful display, and universal verified image coverage remains outstanding."
+      "delivered": "Built an offline and separately licensed media publishing pipeline covering all editorial and preserved articles. Source figures are extracted as candidates from retained historical snapshots; only Commons files with explicit author, licence, original source and checked-in WebP content are eligible. A dedicated trusted GitHub Actions job acquires and commits image binaries plus a SHA-256 and attribution registry. Site rendering and tests no longer request third-party images at runtime. The generated coverage report counts only real locally retained images.",
+      "next": "Confirm the archive acquisition workflow completes and deposits actual files, measure category-by-category verified image coverage in media-audit.json, and manually curate subjects lacking permitted or appropriate media. Prioritise People & diaspora portraits, archaeological objects, maps and manuscripts. Image adequacy and authenticity cannot be inferred from source-page association alone."
     },
     {
       "id": "publication",
