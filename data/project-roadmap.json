@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "milestones": [
     {
       "id": "foundation",
@@ -155,6 +155,13 @@
       "status": "in-progress",
       "delivered": "Added an offline structural audit for the maintained curated institutional source URLs, a separate bounded monthly/manual HTTP health workflow with inconclusive 403/429/timeout handling, a public audit and metadata report, representative-page accessibility markup checks, and automated test coverage. Repaired multi-menu keyboard disclosure handling, improved focus and reduced-motion CSS, and introduced nonvisual atlas chapter status announcements. These checks do not claim real browser testing, all-source remote verification or full WCAG conformance.",
       "next": "Run and manually assess the scheduled URL-health observations for the expanded 113-record curated source registry, then test screen readers and zoom on the new case-file provenance panels. Retain indexing as blocked on human approvals."
+    },
+    {
+      "id": "visual-media",
+      "title": "Source-credited images and multimedia across the encyclopaedia",
+      "status": "in-progress",
+      "delivered": "A source-linked media panel and rights-checking client are available on every editorial guide and every preserved encyclopaedia reference, including all People and diaspora entries. The renderer distinguishes a relevant subject illustration from a contextual source image, checks each Wikimedia file's own creator and open licence metadata, and records candidate coverage in media-audit.json. The source text and embedded image licences are treated separately.",
+      "next": "Audit the resulting image retrievals in a browser, resolve articles without suitable verified media, prioritise distinct portraits, manuscripts, reliefs, maps and photographs, and progressively retain locally optimised, individually credited assets where reuse rights allow. Source candidates and discovery panels do not count as verified images; complete image coverage remains unverified."
     },
     {
       "id": "publication",
