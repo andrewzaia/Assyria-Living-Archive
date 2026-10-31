@@ -120,6 +120,7 @@ def render(article, library):
         contextual = entry['relation'] == 'context'
         subject_label = 'Related contextual image. ' if contextual else ''
         caption = (entry.get('caption') or entry['alt']).strip()
+        rights_heading = 'Rights status' if asset['licence'].casefold() in ('public domain', 'pd') else 'Licence'
         blocks.append(
             '<figure class="archive-media-item">'
             '<a href="' + safe_url(asset['source_url']) + '" target="_blank" rel="noopener noreferrer">'
@@ -128,7 +129,7 @@ def render(article, library):
             '<figcaption>' + safe_text(subject_label) + safe_text(caption) +
             '. <span class="media-credit">Image by ' + safe_text(asset['creator']) +
             '. <a href="' + safe_url(asset['source_url']) + '" target="_blank" rel="noopener noreferrer">Original file and attribution</a>' +
-            '. Licence: <a href="' + safe_url(asset['licence_url']) +
+            '. ' + rights_heading + ': <a href="' + safe_url(asset['licence_url']) +
             '" target="_blank" rel="noopener noreferrer">' + safe_text(asset['licence']) +
             '</a>. Resized and converted to WebP for this archive.</span></figcaption></figure>'
         )

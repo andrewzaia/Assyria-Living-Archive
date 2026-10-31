@@ -6,7 +6,7 @@ from biblical_content import ARTICLES as BIBLICAL_ARTICLES
 from bible_pages import make_pages as make_bible_pages, passage_panel
 from bible_support import validate_passages
 EDITORIAL_ARTICLES = FOUNDATION_ARTICLES + BIBLICAL_ARTICLES
-from archive_support import load_references, reference_sources, corpus_metrics
+from archive_support import load_references, reference_sources, corpus_metrics, normalise
 from article_media import render as render_article_media, report as media_report, load_library, validate_library
 from map_page import render_atlas
 from glossary import render as render_glossary
@@ -88,7 +88,18 @@ def minutes(a): return max(1,math.ceil(len((' '.join(s['text'] for s in a['secti
 def badge(text): return f'<span class="badge">{H(text)}</span>'
 def card(a, image=False):
     label = 'Preserved reference' if a.get('kind') == 'preserved_reference' else 'Biblical reading guide' if a.get('bible_group') else 'Sourced introduction'
-    visual = f'<div class="card-image"><img src="/assets/{a["image"]}.webp" alt="{H(image_alt(a["image"]))}" loading="lazy"></div>' if image and a.get('image') else ''
+    visual = ''
+    if image and a.get('image'):
+        visual = f'<div class="card-image"><img src="/assets/{a["image"]}.webp" alt="{H(image_alt(a["image"]))}" loading="lazy" decoding="async"></div>'
+    elif image:
+        # Use only assets whose file-level rights, checksum and attribution were
+        # validated in the local media registry. The full credit is in the article.
+        images = MEDIA_LIBRARY['articles'].get(a['slug'], [])
+        if images:
+            selected = images[0]
+            local_file = MEDIA_LIBRARY['assets'][selected['asset_id']]['file']
+            alt = H(normalise(selected['alt']), quote=True)
+            visual = f'<div class="card-image"><img src="{H(local_file, quote=True)}" alt="{alt}" loading="lazy" decoding="async" data-archive-image="true"></div>'
     return f'<article class="article-card" data-category="{H(a["category"])}" data-search="{H((a["title"]+" "+a["summary"]+" "+a["category"]).lower())}">{visual}<a class="card-main" href="{link(a["slug"])}"><span class="eyebrow">{H(a["category"])}</span><h3>{H(a["title"])}</h3><p>{H(a["summary"])}</p><span class="card-meta">{minutes(a)} min read <span aria-hidden="true">/</span> {H(label)} {icon("arrow")}</span></a><button class="save small-save" data-save="{a["slug"]}" aria-label="Save {H(a["title"])}" aria-pressed="false">{icon("save")}</button></article>'
 def image_alt(name):return {'lamassu':'Human-headed winged lion from Nimrud, The Met, object 32.143.2','relief':'Assyrian carved relief panel from Nimrud, The Met, object 32.143.3','khigga':'Khigga circle dance at an Assyrian wedding, photographed by Yucalyptus'}.get(name,'Assyrian folk dancers at Taraz Fest in Yerevan')
 def credit(name):
@@ -148,7 +159,7 @@ def home():
 
 def explore():
     chips='<button class="chip active" data-topic="all" aria-pressed="true">All topics</button>'+''.join(f'<button class="chip" data-topic="{i}" aria-pressed="false">{H(c)}</button>' for i,c in enumerate(CATS))
-    main=f'<main id="main" class="wrap section">{heading("THE ENCYCLOPAEDIA","Follow your curiosity.","Browse the foundation collection, from archaeological cities to the everyday life of a living culture.")}<div class="explore-tools"><label class="search-field">{icon("search")}<input type="search" id="article-search" placeholder="Search articles, places and ideas" aria-label="Search articles"></label><label class="sort-label">Sort by <select id="sort"><option value="curated">Curated order</option><option value="az">Title A-Z</option></select></label></div><div class="filter-chips" role="group" aria-label="Filter by topic">{chips}</div><div class="results-line"><span id="result-count" role="status">{len(ARTICLES)} reading entries</span><span>Research and preservation edition / English</span></div><div class="article-grid" id="article-grid">{"".join(card(a, image=bool(a.get("image"))) for a in ARTICLES)}</div><div class="empty-state" id="no-results" hidden><h2>No matching articles yet.</h2><p>Try a broader term or another topic.</p><button id="clear-filters" class="button outline">Reset search & filters</button></div><aside class="collection-note"><span class="eyebrow">A growing collection</span><p>Editorial guides and attributed, locally preserved reference texts are presented together. Preserved references retain their original authorship and are not independently fact-checked by this project. The next stage will deepen each subject and broaden regional, personal and community coverage.</p><a href="/about/#next-chapters">Read the expansion plan {icon("arrow")}</a></aside></main>'
+    main=f'<main id="main" class="wrap section">{heading("THE ENCYCLOPAEDIA","Follow your curiosity.","Browse the foundation collection, from archaeological cities to the everyday life of a living culture.")}<div class="explore-tools"><label class="search-field">{icon("search")}<input type="search" id="article-search" placeholder="Search articles, places and ideas" aria-label="Search articles"></label><label class="sort-label">Sort by <select id="sort"><option value="curated">Curated order</option><option value="az">Title A-Z</option></select></label></div><div class="filter-chips" role="group" aria-label="Filter by topic">{chips}</div><div class="results-line"><span id="result-count" role="status">{len(ARTICLES)} reading entries</span><span>Research and preservation edition / English</span></div><div class="article-grid" id="article-grid">{"".join(card(a, image=True) for a in ARTICLES)}</div><div class="empty-state" id="no-results" hidden><h2>No matching articles yet.</h2><p>Try a broader term or another topic.</p><button id="clear-filters" class="button outline">Reset search & filters</button></div><aside class="collection-note"><span class="eyebrow">A growing collection</span><p>Editorial guides and attributed, locally preserved reference texts are presented together. Preserved references retain their original authorship and are not independently fact-checked by this project. The next stage will deepen each subject and broaden regional, personal and community coverage.</p><a href="/about/#next-chapters">Read the expansion plan {icon("arrow")}</a></aside></main>'
     write('/explore/index.html',shell('Explore the archive','Browse sourced introductory articles about Assyrian history, languages, arts, communities and heritage.','/explore/',main,'explore'))
 
 def section_reading_trail(article, section, source_numbers):

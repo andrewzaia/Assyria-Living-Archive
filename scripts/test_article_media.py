@@ -195,6 +195,39 @@ class LocalMediaTests(unittest.TestCase):
         fallback.assert_not_called()
         self.assertEqual(registry['articles']['a-source'][0]['asset_id'], media_id)
 
+    def test_explore_cards_display_only_verified_local_archived_images(self):
+        article = generate.AM['reference-assyria']
+        entries = generate.MEDIA_LIBRARY['articles'].get(article['slug'], [])
+        self.assertTrue(entries, 'Expected at least one committed local image for Assyria')
+        markup = generate.card(article, image=True)
+        images = ImageParser()
+        images.feed(markup)
+        self.assertEqual(len(images.images), 1)
+        self.assertTrue(images.images[0].startswith('/assets/archive-media/'))
+        self.assertNotIn('upload.wikimedia.org', markup)
+        self.assertNotIn('thumb.wikimedia.org', markup)
+
+    def test_public_domain_is_rights_status_not_a_licence(self):
+        data = {
+            'schema_version': 1,
+            'assets': {'archived': {
+                'source_url': 'https://commons.wikimedia.org/wiki/File:Royal_relief.jpg',
+                'file': '/assets/archive-media/0123456789abcdef01234567.webp',
+                'creator': 'Museum photographer',
+                'licence': 'Public domain',
+                'licence_url': 'https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain',
+            }},
+            'articles': {'example': [{
+                'asset_id': 'archived',
+                'alt': 'Royal relief',
+                'caption': 'Assyrian royal relief',
+                'relation': 'subject',
+            }]},
+        }
+        markup = article_media.render({'slug': 'example'}, data)
+        self.assertIn('Rights status: <a', markup)
+        self.assertNotIn('Licence: <a', markup)
+
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
                    'kind': 'preserved_reference',
