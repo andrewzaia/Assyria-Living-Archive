@@ -1,4 +1,5 @@
 """Offline media validation for every editorial article and preserved reference."""
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -378,6 +379,35 @@ class LocalMediaTests(unittest.TestCase):
             for image in entries:
                 if image['alt'].startswith('Source-associated illustration for'):
                     self.assertEqual(image['relation'], 'context')
+
+    def test_excluded_byzantine_decorations_and_unrelated_map(self):
+        from pathlib import Path
+        register = json.loads(
+            (Path(__file__).resolve().parents[1] / 'data/media-exclusions.json')
+            .read_text(encoding='utf-8')
+        )
+        rejected = {(item['article_slug'],
+                     item['original_title'].replace('_', ' ').casefold())
+                    for item in register['exclusions']}
+        self.assertEqual(len(register['exclusions']), 23)
+        for article in generate.ARTICLES:
+            for image in generate.MEDIA_LIBRARY['articles'].get(article['slug'], []):
+                title = generate.MEDIA_LIBRARY['assets'][image['asset_id']]['original_title']
+                self.assertNotIn((article['slug'], title.replace('_', ' ').casefold()), rejected)
+
+        retained = generate.MEDIA_LIBRARY['articles'].get(
+            'reference-christianity-in-turkey', [])
+        deesis = [e for e in retained if 'Hagia_Sophia_2744' in
+                  generate.MEDIA_LIBRARY['assets'][e['asset_id']]['original_title']]
+        self.assertEqual(len(deesis), 1)
+        self.assertIn('Byzantine', deesis[0]['caption'])
+        for slug in ('reference-battle-of-qarqar', 'reference-kurkh-monoliths'):
+            captions = [x['caption'] for x in
+                        generate.MEDIA_LIBRARY['articles'].get(slug, [])
+                        if generate.MEDIA_LIBRARY['assets'][x['asset_id']]['original_title']
+                        == 'File:Karkar.jpg']
+            self.assertEqual(len(captions), 1)
+            self.assertIn('Kurkh stele', captions[0])
 
     def test_source_candidates_never_become_hotlinks(self):
         article = {'slug': 'example', 'category': 'People & diaspora', 'title': 'Person',
