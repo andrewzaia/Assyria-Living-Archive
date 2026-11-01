@@ -1,4 +1,5 @@
 """Offline media validation for every editorial article and preserved reference."""
+import json
 import sys
 import unittest
 from pathlib import Path
