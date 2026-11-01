@@ -382,3 +382,8 @@ The full-inventory editorial pass was merged as [PR #38](https://github.com/andr
 Section references again use the shaded, bordered reference box across all original articles. Each supporting source is a fully named link, followed by its publisher and any page, law or tablet-line locator. Biblical references retain explicit book, chapter and verse labels. The expanded article text and existing citation destinations are preserved.
 
 The reference presentation correction was merged as [PR #39](https://github.com/andrewzaia/Assyria-Living-Archive/pull/39), commit `798c1a0af470a165646b42747cb0aa493203344f`, after successful GitHub validation and recorded as REV-0024.
+
+
+### Media relevance audit: Byzantine and source-subject checks
+
+Following individual inspection of Commons file records and a published discussion of the Hagia Sophia Deesis, the archive excluded 21 specific article-image pairings that misleadingly attached Byzantine decorations or an 1843 geographical map to unrelated Syriac linguistic, ecclesiastical or musical subjects. Four no-longer-used local WebP files were removed. These decisions and their source URLs are recorded in `data/media-exclusions.json` and are enforced during media ingestion and build validation. The Hagia Sophia image remains on the directly relevant Christianity in Turkey article; the Kurkh stele images retain local hosting with object-specific captions. These are scoped editorial decisions, not a claim that every remaining illustration has completed historical verification.
