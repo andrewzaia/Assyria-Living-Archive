@@ -1869,10 +1869,6 @@
           "title": "Jette genocide monument damage - CathoBel (30 August 2023)",
           "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/"
         }
-      ],
-      "related_ids": [
-        "AP-0081",
-        "AP-0077"
       ]
     },
     {
@@ -2635,7 +2631,8 @@
       "related_ids": [
         "AP-0117",
         "AP-0118",
-        "AP-0119"
+        "AP-0119",
+        "AP-0120"
       ]
     },
     {
@@ -2665,7 +2662,8 @@
       "related_ids": [
         "AP-0116",
         "AP-0118",
-        "AP-0119"
+        "AP-0119",
+        "AP-0120"
       ]
     },
     {
@@ -2695,7 +2693,8 @@
       "related_ids": [
         "AP-0116",
         "AP-0117",
-        "AP-0119"
+        "AP-0119",
+        "AP-0120"
       ]
     },
     {
@@ -2725,7 +2724,8 @@
       "related_ids": [
         "AP-0116",
         "AP-0117",
-        "AP-0118"
+        "AP-0118",
+        "AP-0120"
       ]
     },
     {
@@ -2751,6 +2751,12 @@
           "title": "Shaqlawa Christian cemetery desecrated - SyriacPress (16 December 2025)",
           "url": "https://syriacpress.com/blog/2025/12/16/new-attack-on-chaldean-syriac-assyrian-cemetery-in-kurdistan-region-of-iraq-40-graves-in-shaqlawa-desecrated-two-weeks-after-armota-incident/"
         }
+      ],
+      "related_ids": [
+        "AP-0116",
+        "AP-0117",
+        "AP-0118",
+        "AP-0119"
       ]
     },
     {
