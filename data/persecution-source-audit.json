@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Incremental source-by-source audit for AP-0081 through AP-0212. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation.",
+  "scope": "Incremental source-by-source audit for AP-0081 through AP-0218. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -740,6 +740,70 @@
       ],
       "review_status": "partial",
       "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription."
+    },
+    {
+      "url": "https://www.leparisien.fr/faits-divers/meurtre-dun-chretien-irakien-a-lyon-lenquete-confiee-au-pole-antiterroriste-13-10-2025-YTMNKS4SH5DNZFFUAO5WTEFDAU.php",
+      "title": "Ashur Sarnaya murder investigation transferred to anti-terrorism authorities - Le Parisien/AFP (13 October 2025)",
+      "captured_record_ids": [
+        "AP-0213"
+      ],
+      "review_status": "reviewed",
+      "notes": "The October 2025 transfer to anti-terror investigators does not prove motive or final guilt."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/09/16/in-lyon-the-killing-of-ashur-sarnaya-raises-questions-france-is-reluctant-to-face/",
+      "title": "Ashur Sarnaya identified as Chaldean-Syriac-Assyrian refugee - SyriacPress (16 September 2025)",
+      "captured_record_ids": [
+        "AP-0213"
+      ],
+      "review_status": "reviewed",
+      "notes": "Community source supplies the Chaldean-Syriac-Assyrian identification, which should not be silently inferred from Chaldean denomination alone."
+    },
+    {
+      "url": "https://www.wgbh.org/news/2016-07-14/these-syrian-christians-fled-muslim-extremist-harassment-then-they-found-it-again-in-germany",
+      "title": "Syriac Orthodox refugee describes harassment in Berlin accommodation - GBH/PRI (14 July 2016)",
+      "captured_record_ids": [
+        "AP-0214"
+      ],
+      "review_status": "partial",
+      "notes": "One first-person Syriac Orthodox refugee housing complaint; wider Open Doors percentages are not separately counted or presented as Assyrian-specific data."
+    },
+    {
+      "url": "https://www.rd.nl/artikel/brandbommen-tegen-kerkgebouw-rijssen",
+      "title": "Firebombs thrown at Syriac Orthodox church in Rijssen, and prior 2001 attack - Reformatorisch Dagblad (30 July 2003)",
+      "captured_record_ids": [
+        "AP-0215",
+        "AP-0216"
+      ],
+      "review_status": "partial",
+      "notes": "Two dated attacks on the same church are distinguished. Police did not establish perpetrators, religious motive or linkage; location markers represent the town only."
+    },
+    {
+      "url": "https://www.anc.org.au/news/ANC-Australia-condemns-vandalism-of-Genocide-monument",
+      "title": "Assyrian genocide memorial vandalism condemned - Armenian National Committee of Australia (8 September 2010)",
+      "captured_record_ids": [
+        "AP-0217"
+      ],
+      "review_status": "reviewed",
+      "notes": "2010 Bonnyrigg anti-Assyrian slurs are directly reported; no perpetrator ethnicity assigned."
+    },
+    {
+      "url": "https://www.anc.org.au/news/Media-Releases/STATEMENT--Armenians--Assyrians--Jews-targeted-in-vandalism-of-Fairfield-NSW-Memorial",
+      "title": "Vandalism of Fairfield Assyrian genocide memorial - Armenian National Committee of Australia (16 April 2015)",
+      "captured_record_ids": [
+        "AP-0218"
+      ],
+      "review_status": "reviewed",
+      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
+    },
+    {
+      "url": "https://neoskosmos.com/en/sydney-assyrian-memorial-vandalised/",
+      "title": "Sydney Assyrian memorial vandalised with swastikas - Neos Kosmos (21 April 2015)",
+      "captured_record_ids": [
+        "AP-0218"
+      ],
+      "review_status": "reviewed",
+      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
     }
   ],
   "excluded_or_pending": [
@@ -782,6 +846,21 @@
       "url": "https://www.assyriapost.com/groups-warn-of-new-kurdish-land-grab-in-assyrian-village-of-bakhetme/",
       "status": "pending",
       "reason": "Retrieve land registry and referenced 1995 regional restitution directive for Bakhetme; the 2026 plan for 1,500 dunams was proposed, not shown as implemented in January reporting."
+    },
+    {
+      "url": "https://www.1twente.nl/artikel/2158883/vijftien-maanden-cel-voor-vuurwerkbom-bij-huis-van-priester-in-glanerbrug",
+      "status": "excluded",
+      "reason": "An initially plausible Dutch Syriac Orthodox pastor attack (3 February 2016) was later adjudicated as stemming from a private conflict, without a racist motive; it is not indexed as ethnic/religious persecution. January 2016 earlier bombing is not established as religiously motivated either."
+    },
+    {
+      "url": "https://staatsanwaltschaft-heidelberg.justiz-bw.de/pb/%2CLde/32196677/?LISTPAGE=1222784",
+      "status": "excluded",
+      "reason": "Official Heidelberg prosecutor reported the June 2026 fire at Leimen's Syriac Orthodox church but concluded no indications of extremist background and suggested serious mental illness. The incident was not classified as ethnic or religious persecution."
+    },
+    {
+      "url": "https://persecution.org/2026/06/19/videos-show-damage-to-historic-iraqi-assyrian-church/",
+      "status": "pending",
+      "reason": "Video published in June 2026 shows interior damage at Mar Kiryakos in Sharanish, but original date and cause of the damage were not independently verified. Do not equate publication year with date of a deliberate attack."
     }
   ]
 }
