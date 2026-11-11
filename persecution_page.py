@@ -6,7 +6,10 @@ import json
 
 DATA_PATH = Path(__file__).resolve().parent / 'static' / 'persecution-records.json'
 TYPES = ('Mass killing', 'Displacement', 'Abduction', 'Religious violence',
-         'Property seizure', 'Institutional pressure')
+         'Property seizure', 'Institutional pressure', 'Cultural destruction',
+         'Airstrikes', 'Vandalism')
+# The map provider uses a longer name than the editorial catalogue.
+COUNTRY_ALIASES = {'United States': 'United States of America'}
 EVIDENCE = ('historical', 'documented', 'reported')
 
 
@@ -15,12 +18,20 @@ def load_records():
     records = data['records']
     assert data['schema_version'] == 1 and len(records) > 0
     assert len({record['id'] for record in records}) == len(records)
+    natural_earth = json.loads((Path(__file__).resolve().parent /
+        'archive/maps/natural-earth-countries.geojson').read_text(encoding='utf-8'))
+    map_countries = {feature['properties']['ADMIN'] for feature in natural_earth['features']}
     for record in records:
         assert record['id'].startswith('AP-')
         assert 1500 <= record['year'] <= 2100
         assert record['type'] in TYPES and record['evidence'] in EVIDENCE
-        assert record['country'] in ('Iraq', 'Syria', 'Turkey', 'Iran')
-        assert -90 <= record['lat'] <= 90 and -180 <= record['lon'] <= 180
+        assert COUNTRY_ALIASES.get(record['country'], record['country']) in map_countries, record['country']
+        assert record.get('scope') and len(record['scope']) < 160
+        lat, lon = record['lat'], record['lon']
+        assert (lat is None) == (lon is None), record['id']
+        if lat is not None:
+            assert isinstance(lat, (int, float)) and isinstance(lon, (int, float))
+            assert -90 <= lat <= 90 and -180 <= lon <= 180
         assert all(record.get(k) for k in ('title', 'summary', 'place', 'date', 'actor', 'sources'))
         assert all(s.get('title') and urlsplit(s['url']).scheme == 'https'
                    and urlsplit(s['url']).netloc for s in record['sources'])
@@ -63,7 +74,9 @@ def render():
                 'documented':'Documented account','reported':'Reported account'}[r['evidence']]) +
                 '</span></div><div class="ap-case-main"><div><h3>' + h(r['title']) +
                 '</h3><p class="ap-case-place">' + h(r['place']) + ', ' +
-                h(r['country']) + ' / ' + h(r['type']) + '</p><p>' + h(r['summary']) +
+                h(r['country']) + ' / ' + h(r['type']) + '</p>' +
+                '<p class="ap-case-scope"><strong>Community covered:</strong> ' +
+                h(r['scope']) + '</p><p>' + h(r['summary']) +
                 '</p><p class="ap-actor"><strong>Reported actor or context:</strong> ' +
                 h(r['actor']) + '</p></div>' + media_html + '</div>' +
                 '<details class="ap-citations"><summary>Sources and references (' +
@@ -77,13 +90,13 @@ def render():
     return f'''<main id="main" class="wrap section ap-page" data-persecution>
 <div class="page-heading ap-heading"><span class="eyebrow">HUMAN RIGHTS / HISTORICAL RECORD</span><h1>Assyrian persecution.</h1>
 <p>An expandable record of mass violence, abductions, displacement, religious intimidation and property violations affecting Assyrian communities across history. Each entry identifies its evidence and links to the published account.</p></div>
-<div class="ap-intro"><p>These are <strong>attributed source records</strong>, not a claim that all reports have been independently verified or that the catalogue is complete. A documented report may include unverified allegations. Historical Assyrian communities appear across several church traditions; reports that only identify Christians or Syriac communities are labelled accordingly rather than silently assigning an ethnicity to every victim.</p>
-<p>Map shading counts <strong>catalogue records</strong>, not people harmed, individual victims, unique incidents or the rate of persecution. Multiple records may concern related events. Place markers identify approximate localities; nationwide reports are associated with representative locations. No unlisted location should be interpreted as safe or incident-free.</p></div>
+<div class="ap-intro"><p>These are <strong>attributed source records</strong>, not a claim that all reports have been independently verified or that the catalogue is complete. A documented report may include unverified allegations. Reports from outside the homeland identify Assyrian diaspora institutions; these are not automatically findings of religious hate crime. Historical Assyrian communities appear across several church traditions; reports that only identify Christians or Syriac communities are labelled accordingly rather than silently assigning an ethnicity to every victim.</p>
+<p>Map shading counts <strong>catalogue records</strong>, not people harmed, individual victims, unique incidents or the rate of persecution. Multiple records may concern related events. Place markers identify approximate localities; entries without a defensible locality remain on the country layer without a location pin. No unlisted location should be interpreted as safe or incident-free.</p></div>
 <div class="ap-metrics" aria-label="Catalogue coverage">
 <div><strong id="ap-total">{len(records)}</strong><span>Source-linked records</span></div>
 <div><strong id="ap-countries">{len(countries)}</strong><span>Countries represented</span></div>
 <div><strong id="ap-places">{len({(r['place'],r['country']) for r in records})}</strong><span>Named localities / regions</span></div>
-<div><strong>1843 - 2024</strong><span>Years covered by this edition</span></div></div>
+<div><strong>{min(r['year'] for r in records)} - {max(r['year'] for r in records)}</strong><span>Years covered by this edition</span></div></div>
 <section class="ap-map-section" aria-label="Interactive country heat map"><div class="ap-section-heading"><div><span class="eyebrow">GEOGRAPHIC RECORD</span><h2>Where persecution is recorded.</h2></div><div class="ap-map-actions" role="group" aria-label="Map view">
 <button type="button" id="ap-world" class="button outline" aria-pressed="true">World</button>
 <button type="button" id="ap-homeland" class="button outline" aria-pressed="false">Historic homeland</button>
@@ -104,8 +117,9 @@ def render():
 <div class="ap-case-list" id="ap-case-list">{''.join(card(r) for r in records)}</div>
 <div class="empty-state" id="ap-empty" hidden><h3>No records match these filters.</h3><p>Reset the filters, or try a different location or date.</p></div></section>
 <section class="ap-method" id="persecution-method"><span class="eyebrow">RESEARCH STANDARDS AND LIMITS</span><h2>How to interpret the catalogue.</h2>
+<p><strong>Community covered</strong> distinguishes direct Assyrian cases from Syriac, church-linked and wider Christian accounts. Inclusion records a documented connection to Assyrian history or institutions; it does not assign one ethnicity to everyone affected. Incidents against Assyrian institutions abroad are recorded even when their motives are unresolved.</p>
 <p><strong>Historical research</strong> denotes an event recorded in historical scholarship; <strong>documented account</strong> denotes a named published investigation or official record; <strong>reported account</strong> preserves the attribution of a report or allegation without independently adjudicating it. These labels describe evidence presentation, not a numerical reliability score.</p>
-<p>Selected historical campaigns are represented by regional entries, while modern cases may be individual attacks, testimony or country-level assessments. Counts therefore must not be used to compare the prevalence or severity of persecution across countries or centuries. Coordinates are approximate and not intended for identifying victims, private property or exact attack sites.</p>
+<p>Selected historical campaigns are represented by regional entries, while modern cases may be individual attacks, testimony or country-level assessments. Event groups may overlap (for example, the 2014 Nineveh Plains offensive and town-specific attacks), so the total is a count of catalogue entries, not distinct events. Counts therefore must not be used to compare the prevalence or severity of persecution across countries or centuries. Coordinates are approximate and not intended for identifying victims, private property or exact attack sites.</p>
 <p>Photographs appear only when a reuse-checked local archive file is available. Historical contextual photographs are explicitly labelled; no remotely hosted media is embedded. Links open the original published source and do not imply institutional endorsement. <a href="/governance/">Read the archive's corrections policy</a> or <a href="/contribute/">prepare a sourced addition</a>. Basemap: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth public-domain geography</a>, retained locally.</p>
 <p><a href="/articles/sayfo/">Read about Sayfo</a> / <a href="/articles/simele/">Read about Simele</a> / <a href="/map/">Explore the historical atlas</a>.</p></section>
 <noscript><p class="ap-noscript">The source-linked catalogue is available below. Enable JavaScript for interactive filters and the country heat map.</p></noscript>
