@@ -67,7 +67,7 @@ def render():
                 '" data-ap-country="' + h(r['country']) + '" data-ap-type="' +
                 h(r['type']) + '" data-ap-evidence="' + h(r['evidence']) +
                 '" data-ap-search="' + h(' '.join(str(r[k]) for k in
-                ('title', 'summary', 'place', 'country', 'date', 'actor', 'type')).lower()) +
+                ('title', 'summary', 'place', 'country', 'date', 'actor', 'type', 'year', 'scope')).lower()) +
                 '"><div class="ap-case-top"><span class="eyebrow">' + h(r['id']) +
                 ' / ' + h(r['date']) + '</span><span class="ap-evidence ap-evidence-' +
                 h(r['evidence']) + '">' + h({'historical':'Historical research',
