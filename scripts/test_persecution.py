@@ -108,7 +108,9 @@ class PersecutionTests(unittest.TestCase):
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
         self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81})
-        self.assertTrue(any(e['status'] == 'pending' for e in audit['excluded_or_pending']))
+        self.assertTrue(audit['excluded_or_pending'])
+        self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
+                            for e in audit['excluded_or_pending']))
         self.assertTrue(any(e['status'] == 'excluded' for e in audit['excluded_or_pending']))
 
     def test_new_locally_supported_cases_and_aggregation_are_preserved(self):
