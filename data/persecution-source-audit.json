@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Incremental source triage for AP-0081 through AP-0124; earlier records were compiled before this register existed. A source marked reviewed means the specific Assyrian-connected reports identified during this editorial pass were reconciled, not that the source is complete for all times. Partial sources are deliberately flagged for future research. This audit is not an independent fact-check or link-uptime guarantee.",
+  "scope": "Incremental source triage for newly added AP-0081 through AP-0148, with source-attributed event links and explicit exclusions. Earlier AP-0001 through AP-0080 are not yet fully re-audited under this system. Review status applies to identified Assyrian-linked incidents, not every event in a publication. 'Partial' is not a judgement of source credibility. This is a living research queue, not a completeness claim or independent proof of every allegation.",
   "sources": [
     {
       "url": "https://bx1.be/categories/news/un-acte-grave-de-negationnisme-le-monument-commemorant-le-genocide-arameen-a-jette-vandalise/",
@@ -11,6 +11,24 @@
       ],
       "review_status": "reviewed",
       "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
+    },
+    {
+      "url": "https://english.ankawa.com/killing-of-two-christian-sisters-renews-panic-in-mosul/",
+      "title": "Christian sisters killed and mother wounded in Mosul - Aid to the Church in Need (2008)",
+      "captured_record_ids": [
+        "AP-0137"
+      ],
+      "review_status": "partial",
+      "notes": "Aid to the Church in Need identifies the two victims and their Syriac Catholic tradition, without an assumed ethnic label."
+    },
+    {
+      "url": "https://fides.org/en/news/10565-ASIA_IRAQ_Release_of_two_Catholic_priest_hostages_in_northern_Iraq",
+      "title": "Release of two Syrian Catholic priest hostages in Mosul - Agenzia Fides (22 October 2007)",
+      "captured_record_ids": [
+        "AP-0129"
+      ],
+      "review_status": "reviewed",
+      "notes": "First-party church account establishes 21 October 2007 release of the two Syriac Catholic priests; it does not establish anti-Christian motivation."
     },
     {
       "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/",
@@ -56,6 +74,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Cemetery reporting is cross-referenced across Shaqlawa and Armota; differing casualty and damage counts retained as attribution, not averaged."
+    },
+    {
+      "url": "https://wikileaks.jcvignoli.com/cable_06KIRKUK20",
+      "title": "Kirkuk Churches Bombed: US diplomatic cable documenting 29 January 2006 attacks",
+      "captured_record_ids": [
+        "AP-0126"
+      ],
+      "review_status": "partial",
+      "notes": "Diplomatic cable provides incident times and the two Kirkuk church locations; linked with the 2006 government report as one coordinated attack."
     },
     {
       "url": "https://www.abc.net.au/news/2005-01-19/kidnappers-free-iraqi-archbishop/621136",
@@ -106,6 +133,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Second contemporary account of the August 2023 Jette incident, not an additional attack."
+    },
+    {
+      "url": "https://www.fides.org/en/news/10521-ASIA_IRAQ_Catholic_priests_taken_hostage_in_Mosul_still_detained_Pope_Benedict_XVI_calls_for_their_release",
+      "title": "Two Syrian Catholic priests remain hostages in Mosul - Agenzia Fides (16 October 2007)",
+      "captured_record_ids": [
+        "AP-0129"
+      ],
+      "review_status": "partial",
+      "notes": "First-party church account confirms 13 October 2007 abduction and indicates probable criminal ransom motive. It corrects a denomination error in a government summary."
     },
     {
       "url": "https://www.gfbv.de/aktuelles/news/bombenanschlag-auf-rueckkehrwillige-assyrisch-aramaeische-christen-in-der-tuerkei/",
@@ -201,6 +237,31 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible",
+      "title": "Iraq: Religious minorities, September 2024 - UK Home Office",
+      "captured_record_ids": [
+        "AP-0147",
+        "AP-0148"
+      ],
+      "review_status": "partial",
+      "notes": "Distinguishes the Bartella family land complaint from the wider property-seizure trend and the reported March 2023 Christian regiment protest. Underlying allegations and dates are attributed."
+    },
+    {
+      "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed",
+      "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+      "captured_record_ids": [
+        "AP-0131",
+        "AP-0132",
+        "AP-0133",
+        "AP-0134",
+        "AP-0135",
+        "AP-0136",
+        "AP-0137"
+      ],
+      "review_status": "partial",
+      "notes": "Human Rights Watch's direct family interviews document several separate 2008 Mosul killings; the named incidents are extracted without assuming every Christian victim's ethnicity. Regional patterns and unexamined cases remain for further triage."
+    },
+    {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
       "title": "2018 Antwerp St James church incident - Observatory on Intolerance and Discrimination against Christians in Europe",
       "captured_record_ids": [
@@ -208,6 +269,17 @@
       ],
       "review_status": "reviewed",
       "notes": "January 2018 St James incident extracted; this country-wide index includes general church incidents not necessarily connected to Assyrians. Further entries require a demonstrated Assyrian connection."
+    },
+    {
+      "url": "https://www.irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=452184",
+      "title": "Iraq: Situation of Christians and Attacks 2003-2008 - Immigration and Refugee Board of Canada (2009)",
+      "captured_record_ids": [
+        "AP-0125",
+        "AP-0127",
+        "AP-0128"
+      ],
+      "review_status": "partial",
+      "notes": "Canadian analysis provides 2005 Kirkuk, 2006 Holy Spirit church and other incidents. Only separately dated, specifically linked Syriac/Assyrian cases were added."
     },
     {
       "url": "https://www.latimes.com/la-011805kidnap_lat-story.html",
@@ -219,6 +291,57 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100",
+      "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
+      "captured_record_ids": [
+        "AP-0137"
+      ],
+      "review_status": "partial",
+      "notes": "Consulted for 2008 Mosul campaign and contemporaneous context; generic reports with no clear Assyrian connection were deliberately not indexed as distinct Assyrian incidents."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/usdos/2006/38902",
+      "title": "2006 International Religious Freedom Report: Iraq - US Department of State",
+      "captured_record_ids": [
+        "AP-0126"
+      ],
+      "review_status": "partial",
+      "notes": "The 29 January 2006 coordinated church attack was grouped as one wave, avoiding fabricated location precision and reconciling divergent contemporary casualty reporting."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810",
+      "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
+      "captured_record_ids": [
+        "AP-0129",
+        "AP-0130"
+      ],
+      "review_status": "partial",
+      "notes": "18 January 2008 Tahira church bombing recorded as a child incident of the broader January church bombings; October 2007 priest abductions reviewed against direct Fides sources."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021",
+      "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+      "captured_record_ids": [
+        "AP-0138",
+        "AP-0139",
+        "AP-0140",
+        "AP-0141",
+        "AP-0142",
+        "AP-0143"
+      ],
+      "review_status": "partial",
+      "notes": "The 14-20 February 2010 Mosul attack narratives were split into named cases and tied to the existing pre-election summary record. No ethnicity is inferred where the official source identifies only Christians."
+    },
+    {
+      "url": "https://www.rferl.org/a/Gunmen_Kill_Two_Christian_Sisters_In_Iraqs_Mosul/1348225.html",
+      "title": "Gunmen kill two Christian sisters in Mosul - Reuters via Radio Free Europe (12 November 2008)",
+      "captured_record_ids": [
+        "AP-0137"
+      ],
+      "review_status": "partial",
+      "notes": "Reuters' contemporary account of November 2008 sisters used to document the killings and acknowledge date differences."
+    },
+    {
       "url": "https://www.svt.se/nyheter/lokalt/orebro/bombhot-mot-syrisk-ortodoxa-kyrkan-i-orebro-en-person-utreds-for-brott",
       "title": "Bomb threat involving Syriac Orthodox St Mary church in Orebro - SVT (13 April 2026)",
       "captured_record_ids": [
@@ -226,6 +349,25 @@
       ],
       "review_status": "reviewed",
       "notes": "A bomb threat was reported, with police investigation; no bomb and no link between all rumours and the suspect established."
+    },
+    {
+      "url": "https://www.syriahr.com/en/266397/",
+      "title": "Turkish shelling in Assyrian villages near Tell Tamer - Syrian Observatory for Human Rights (6 September 2022)",
+      "captured_record_ids": [
+        "AP-0144",
+        "AP-0145"
+      ],
+      "review_status": "reviewed",
+      "notes": "Two distinct September 2022 bombardments affecting different Assyrian Khabur villages were extracted. No assumption of deliberate ethnic targeting or invented casualty count."
+    },
+    {
+      "url": "https://www.syriahr.com/en/377013/",
+      "title": "Syrian interim government shelling damages Assyrian church in Tel Jumaa - Syrian Observatory for Human Rights (28 January 2026)",
+      "captured_record_ids": [
+        "AP-0146"
+      ],
+      "review_status": "reviewed",
+      "notes": "One reported January 2026 church attack affecting the Assyrian village of Tel Jumaa was extracted. No independently verifiable locality coordinate, casualties or ethnic intent has been added."
     }
   ],
   "excluded_or_pending": [
@@ -236,8 +378,13 @@
     },
     {
       "url": "https://stj-sy.org/wp-content/uploads/2025/08/The-Bombing-of-Mar-Elias-Church-in-Dweilaa-and-the-Limited-Official-Response.pdf",
-      "status": "pending",
-      "reason": "A rights group report may identify a separate December 2024 attack on a Syriac Orthodox church in Qamishli. Review full primary report and corroborate event circumstances and date before adding."
+      "status": "excluded",
+      "reason": "Re-examined report concerns the 22 June 2025 Greek Orthodox Mar Elias Church bombing in Damascus, NOT a December 2024 Syriac Orthodox church attack in Qamishli. The previous research-lead description conflated different events. No Assyrian-specific connection is established, so it is not added to this archive."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100",
+      "status": "excluded",
+      "reason": "Three 2009 Mosul/Kirkuk incident summaries did not identify Assyrian victims or an Assyrian-linked congregation. Their contexts inform regional history, but they are not individually indexed as Assyrian incidents without corroboration."
     }
   ]
 }
