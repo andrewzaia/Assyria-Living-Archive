@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-12",
+  "methodology": "Selected, attributed incidents and regional reports affecting Assyrian people or their historically associated Syriac and other Christian communities. Includes historical research and contemporary reported accounts. No independent incident verification is implied. Events may overlap geographically; map shading counts catalogue records, not victims, rates or unique attacks. Markers show approximate representative place coordinates, not incident addresses.",
+  "records": [
+    {
+      "id": "AP-0001",
+      "year": 1843,
+      "date": "Summer 1843",
+      "country": "Turkey",
+      "place": "Hakkari",
+      "lat": 37.57,
+      "lon": 43.73,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Massacres of Assyrian communities in Hakkari",
+      "summary": "Assyrian villages in Hakkari were attacked during Bedir Khan Beg's campaign, with killings, enslavement and forced flight recorded in histories of the region. This regional marker does not imply a single incident site.",
+      "actor": "Forces allied to Bedir Khan Beg",
+      "sources": [
+        {
+          "title": "Hakkari historical region - referenced history",
+          "url": "https://www.assyrialivingarchive.org/articles/reference-hakkari-historical-region/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0002",
+      "year": 1846,
+      "date": "1846",
+      "country": "Turkey",
+      "place": "Tiyari, Hakkari",
+      "lat": 37.55,
+      "lon": 43.72,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Renewed attacks on the Assyrians of Tiyari",
+      "summary": "A further campaign against Assyrian communities in the Tiyari area followed the violence of 1843. Exact village-level incident boundaries require further archival reconstruction.",
+      "actor": "Forces allied to Bedir Khan Beg",
+      "sources": [
+        {
+          "title": "Hakkari historical region - referenced history",
+          "url": "https://www.assyrialivingarchive.org/articles/reference-hakkari-historical-region/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0003",
+      "year": 1915,
+      "date": "1915-1918",
+      "country": "Turkey",
+      "place": "Tur Abdin",
+      "lat": 37.42,
+      "lon": 41.37,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Sayfo: destruction of Assyrian communities in Tur Abdin",
+      "summary": "During the First World War, Assyrian and Syriac Christian communities were targeted by mass killing, attacks and forced displacement. This entry covers the wider Tur Abdin region, not a single village or independently quantified death toll.",
+      "actor": "Ottoman authorities and participating local armed forces, as described in historical research",
+      "sources": [
+        {
+          "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
+          "url": "https://doi.org/10.31648/sw.2525"
+        }
+      ],
+      "media": {
+        "file": "/assets/archive-media/dbbd496d402117ea507a82f6.webp",
+        "alt": "Jilu Assyrian refugees crossing the Asadabad Pass in 1918",
+        "caption": "Assyrian refugees crossing the Asadabad Pass in 1918. Contextual photograph, not an image of a particular massacre.",
+        "creator": "Ariel Varges",
+        "licence": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jilu_Assyrians_coming_over_the_Asadabad_Pass.jpg"
+      }
+    },
+    {
+      "id": "AP-0004",
+      "year": 1915,
+      "date": "1915",
+      "country": "Turkey",
+      "place": "Hakkari",
+      "lat": 37.57,
+      "lon": 43.73,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Sayfo: expulsion and flight from Hakkari",
+      "summary": "Wartime attacks and military operations forced Assyrian communities from Hakkari; the collapse of long-established settlement shaped subsequent refugee movements.",
+      "actor": "Ottoman military and allied irregulars, as described in historical research",
+      "sources": [
+        {
+          "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
+          "url": "https://doi.org/10.31648/sw.2525"
+        },
+        {
+          "title": "Hakkari historical region - referenced history",
+          "url": "https://www.assyrialivingarchive.org/articles/reference-hakkari-historical-region/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0005",
+      "year": 1915,
+      "date": "1915-1918",
+      "country": "Iran",
+      "place": "Urmia",
+      "lat": 37.55,
+      "lon": 45.08,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Sayfo-era violence against Assyrians around Urmia",
+      "summary": "Assyrian Christians in north-western Iran suffered killings and displacement during successive wartime occupations and conflicts. Specific casualty estimates and local responsibilities differ between accounts.",
+      "actor": "Wartime forces and irregulars in the Urmia region",
+      "sources": [
+        {
+          "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
+          "url": "https://doi.org/10.31648/sw.2525"
+        }
+      ]
+    },
+    {
+      "id": "AP-0006",
+      "year": 1918,
+      "date": "1918",
+      "country": "Iran",
+      "place": "Urmia region",
+      "lat": 37.55,
+      "lon": 45.08,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Assyrian refugee flight from the Urmia region",
+      "summary": "Survivors of war and mass violence fled across difficult terrain. Historical photographs record Assyrian refugees on the route towards refuge in Mesopotamia.",
+      "actor": "Wartime violence and forced movement",
+      "sources": [
+        {
+          "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
+          "url": "https://doi.org/10.31648/sw.2525"
+        }
+      ],
+      "media": {
+        "file": "/assets/archive-media/dbbd496d402117ea507a82f6.webp",
+        "alt": "Jilu Assyrian refugees crossing the Asadabad Pass in 1918",
+        "caption": "Assyrian refugees crossing the Asadabad Pass in 1918. Contextual photograph, not an image of a particular massacre.",
+        "creator": "Ariel Varges",
+        "licence": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jilu_Assyrians_coming_over_the_Asadabad_Pass.jpg"
+      }
+    },
+    {
+      "id": "AP-0007",
+      "year": 1933,
+      "date": "August 1933",
+      "country": "Iraq",
+      "place": "Simele, Duhok",
+      "lat": 36.85,
+      "lon": 42.85,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Simele massacre and attacks on Assyrian villages",
+      "summary": "Iraqi forces killed Assyrian civilians in and around Simele during a wider campaign in northern Iraq. A peer-reviewed historical study records more than 600 Assyrian deaths; other historical estimates differ.",
+      "actor": "Iraqi military forces",
+      "sources": [
+        {
+          "title": "Missionary involvement with the Simele massacre in 1933 - Tijmen C. Baarda",
+          "url": "https://doi.org/10.1080/13530194.2023.2233218"
+        }
+      ],
+      "media": {
+        "file": "/assets/archive-media/e5fa3a3c603eaaf691dc151c.webp",
+        "alt": "1933 RAF aerial photograph of Batarshah, an Assyrian village destroyed during the 1933 disturbances",
+        "caption": "Contextual 1933 photograph of Batarshah, not an image of the killings at Simele.",
+        "creator": "No. 30 (B) Squadron, Royal Air Force",
+        "licence": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Batarshah_in_northern_Iraq,_an_Assyrian_village_destroyed_by_Arabs_and_Kurds_during_the_disturbances_of_August_1933.jpg"
+      }
+    },
+    {
+      "id": "AP-0008",
+      "year": 2007,
+      "date": "3 June 2007",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Killing of Fr. Ragheed Ganni and three deacons",
+      "summary": "Gunmen killed the priest and three deacons after Mass near Holy Spirit Church in Mosul, following threats directed at their ministry.",
+      "actor": "Unidentified armed gunmen",
+      "sources": [
+        {
+          "title": "Cause for Sainthood Begins for Fr. Ragheed Ganni - Pontifical University of Saint Thomas Aquinas",
+          "url": "https://angelicum.it/news/cause-for-sainthood-begins-for-angelicum-chaldean-alumnus-fr-rahgeed-ganni/"
+        },
+        {
+          "title": "On Vulnerable Ground - Human Rights Watch",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ]
+    },
+    {
+      "id": "AP-0009",
+      "year": 2008,
+      "date": "29 February - March 2008",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Abduction and killing of Archbishop Paulos Faraj Rahho",
+      "summary": "The Chaldean Catholic archbishop was abducted after leaving church; his driver and bodyguards were shot, and his body was found days later. This is catalogued as an attack on the Assyrian-linked Christian community.",
+      "actor": "Armed kidnappers",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground - Human Rights Watch",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ]
+    },
+    {
+      "id": "AP-0010",
+      "year": 2008,
+      "date": "6 April 2008",
+      "country": "Iraq",
+      "place": "Baghdad, Karrada",
+      "lat": 33.3,
+      "lon": 44.44,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Assyrian Orthodox priest Adel Youssef killed",
+      "summary": "Father Adel Youssef, an Assyrian Orthodox priest, was shot and killed in Baghdad's Karrada district.",
+      "actor": "Unidentified assailants",
+      "sources": [
+        {
+          "title": "2008 Human Rights Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm"
+        },
+        {
+          "title": "2008 Report on International Religious Freedom - Iraq",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
+        }
+      ]
+    },
+    {
+      "id": "AP-0011",
+      "year": 2008,
+      "date": "October 2008",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "Threats and attacks drive Christian families from Mosul",
+      "summary": "UNHCR reported that Christian Iraqis fled Mosul following direct and indirect threats and intimidation, including communities of Assyrian and related church traditions. The figure reported at that time was not independently confirmed by UNHCR.",
+      "actor": "Armed attackers and unidentified threat-makers",
+      "sources": [
+        {
+          "title": "Christian Iraqis displaced from Mosul - UNHCR, 17 October 2008",
+          "url": "https://www.unhcr.org/news/briefing-notes/christian-iraqis-displaced-mosul"
+        },
+        {
+          "title": "2008 Human Rights Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0012",
+      "year": 2010,
+      "date": "February 2010",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Mass killing",
+      "evidence": "reported",
+      "title": "Killings of Christians ahead of Iraqi elections",
+      "summary": "Human rights reporting described a series of killings of Christians in Mosul, including a man and his sons, amid claims that intimidation was connected to upcoming elections. The source does not establish each victim's ethnicity.",
+      "actor": "Unidentified attackers",
+      "sources": [
+        {
+          "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
+          "url": "https://www.ecoi.net/en/document/1067272.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0013",
+      "year": 2010,
+      "date": "2 May 2010",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb attack on buses carrying Christian university students",
+      "summary": "Buses transporting Christian students to the University of Mosul were attacked. Contemporary accounts differed on the number of injured; the catalogue does not reconcile those totals into a single estimate.",
+      "actor": "Unidentified bombers",
+      "sources": [
+        {
+          "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
+          "url": "https://www.ecoi.net/en/document/1067272.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0014",
+      "year": 2010,
+      "date": "31 October 2010",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.4,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Our Lady of Salvation church massacre",
+      "summary": "Armed militants stormed the Syriac Catholic church during Sunday worship, killing clergy, worshippers and members of the security forces. Published victim totals vary by whether security forces and bystanders are included.",
+      "actor": "Islamic State of Iraq, affiliated with al-Qaeda, according to contemporary reports",
+      "sources": [
+        {
+          "title": "USCIRF Condemns Terrorist Attack on Baghdad Church - 3 November 2010",
+          "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-terrorist-attack-baghdad-church"
+        },
+        {
+          "title": "At a Crossroads: Human Rights in Iraq - Human Rights Watch",
+          "url": "https://www.hrw.org/report/2011/02/21/crossroads/human-rights-iraq-eight-years-after-us-led-invasion"
+        }
+      ]
+    },
+    {
+      "id": "AP-0015",
+      "year": 2010,
+      "date": "30 December 2010",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.4,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb attacks on Christian homes in Baghdad",
+      "summary": "A coordinated wave of bombings targeted Christian homes, killing residents and injuring others, as documented in an official country-of-origin review.",
+      "actor": "Unidentified attackers",
+      "sources": [
+        {
+          "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
+          "url": "https://www.ecoi.net/en/document/1067272.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0016",
+      "year": 2014,
+      "date": "July 2014",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "daesh ultimatum and expulsion of Mosul's Christians",
+      "summary": "Following the capture of Mosul, daesh demanded that Christians convert, pay a levy or leave. Homes were marked, property was confiscated and families fled, including Assyrians from several church communities.",
+      "actor": "daesh",
+      "sources": [
+        {
+          "title": "Iraq: ISIS Abducting, Killing, Expelling Minorities - Human Rights Watch",
+          "url": "https://www.hrw.org/news/2014/07/19/iraq-isis-abducting-killing-expelling-minorities"
+        },
+        {
+          "title": "A Devastating Choice - United States Holocaust Memorial Museum",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice"
+        }
+      ]
+    },
+    {
+      "id": "AP-0017",
+      "year": 2014,
+      "date": "June 2014",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "Christians flee attacks around Qaraqosh",
+      "summary": "UNHCR reported that up to 10,000 people fled the predominantly Christian Assyrian town of Qaraqosh after mortar fire near the town. This was an earlier displacement wave, distinct from the August occupation.",
+      "actor": "Armed opposition forces in the area",
+      "sources": [
+        {
+          "title": "Iraq: 10,000 displaced from Christian communities near Mosul - UNHCR",
+          "url": "https://www.unhcr.org/news/briefing-notes/iraq-10-000-displaced-christian-communities-near-mosul"
+        }
+      ]
+    },
+    {
+      "id": "AP-0018",
+      "year": 2014,
+      "date": "August 2014",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "daesh captures Qaraqosh during Nineveh Plains offensive",
+      "summary": "The August offensive drove much of Qaraqosh's Christian population from their homes and disrupted nearby Assyrian and Syriac towns. Reported regional displacement figures should not be treated as counts for Qaraqosh alone.",
+      "actor": "daesh",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2015 - Iraq",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2015/en/104875"
+        },
+        {
+          "title": "A Devastating Choice - United States Holocaust Memorial Museum",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice"
+        }
+      ]
+    },
+    {
+      "id": "AP-0019",
+      "year": 2014,
+      "date": "22 August 2014",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Child reportedly taken during forced departure from Qaraqosh",
+      "summary": "Human Rights Watch recorded the account of a Christian mother who said an armed fighter took her three-year-old daughter during a forced evacuation, corroborated by another witness. This is attributed testimony, not a resolved court finding.",
+      "actor": "daesh fighter according to witnesses",
+      "sources": [
+        {
+          "title": "Iraq: Forced Marriage, Conversion for Yezidis - Human Rights Watch",
+          "url": "https://www.hrw.org/news/2014/10/11/iraq-forced-marriage-conversion-yezidis"
+        }
+      ]
+    },
+    {
+      "id": "AP-0020",
+      "year": 2015,
+      "date": "23 February 2015",
+      "country": "Syria",
+      "place": "Khabur villages near Tell Tamer",
+      "lat": 36.65,
+      "lon": 40.38,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Mass abductions in Assyrian villages along the Khabur",
+      "summary": "daesh attacked Assyrian villages in al-Hasakah and abducted hundreds of Assyrian Christians. Canadian country-of-origin research cites reporting of 253 abducted, with some subsequently released.",
+      "actor": "daesh",
+      "sources": [
+        {
+          "title": "Syria: Abductions and extortions (2015-July 2017) - IRB Canada",
+          "url": "https://www.ecoi.net/en/document/1411538.html"
+        },
+        {
+          "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0021",
+      "year": 2015,
+      "date": "October 2015",
+      "country": "Syria",
+      "place": "Khabur villages near Tell Tamer",
+      "lat": 36.65,
+      "lon": 40.38,
+      "type": "Mass killing",
+      "evidence": "reported",
+      "title": "Reported execution of three Assyrian Christian captives",
+      "summary": "The US Department of State recorded reports that daesh executed three Assyrian Christians captured with other villagers earlier in the year.",
+      "actor": "daesh",
+      "sources": [
+        {
+          "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0022",
+      "year": 2018,
+      "date": "August 2018",
+      "country": "Syria",
+      "place": "al-Hasakah governorate",
+      "lat": 36.5,
+      "lon": 40.75,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Closure orders affecting Assyrian and Armenian schools",
+      "summary": "USCIRF described a dispute over school curricula in which Kurdish-led authorities reportedly ordered the closure of Assyrian and Armenian schools. School leaders said the required curriculum undermined their distinct identities.",
+      "actor": "Kurdish-led autonomous administration, in the reported curriculum dispute",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2019 - Syria",
+          "url": "https://www.uscirf.gov/sites/default/files/2019USCIRFAnnualReport.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0023",
+      "year": 2019,
+      "date": "October-November 2019",
+      "country": "Syria",
+      "place": "Ras al-Ayn",
+      "lat": 36.85,
+      "lon": 40.07,
+      "type": "Property seizure",
+      "evidence": "reported",
+      "title": "Seizure and looting of Christian property after offensive",
+      "summary": "The US Department of State cited Syriac researchers reporting that Turkey-supported armed groups seized and looted houses and businesses belonging to Christian families who fled Ras al-Ayn.",
+      "actor": "Turkey-supported Syrian armed groups, as reported",
+      "sources": [
+        {
+          "title": "2019 Country Reports on Human Rights Practices: Syria - US Department of State",
+          "url": "https://2017-2021.state.gov/reports/2019-country-reports-on-human-rights-practices/syria/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0024",
+      "year": 2023,
+      "date": "2023-2024 reporting",
+      "country": "Iraq",
+      "place": "Nineveh Plains",
+      "lat": 36.42,
+      "lon": 43.24,
+      "type": "Property seizure",
+      "evidence": "reported",
+      "title": "Reported militia seizure of Christian property and restrictions on return",
+      "summary": "UK government country information records allegations of property seizures, extortion, harassment and return restrictions affecting Christian minorities, among them Assyrian communities. The sources do not establish each individual property's ownership or outcome.",
+      "actor": "Popular Mobilisation Forces units and other groups, as alleged in reporting",
+      "sources": [
+        {
+          "title": "Iraq: Religious minorities - UK Home Office, September 2024",
+          "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
+        }
+      ]
+    },
+    {
+      "id": "AP-0025",
+      "year": 2024,
+      "date": "2024 country assessment",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.4,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Harassment and discrimination affecting historic Christian communities",
+      "summary": "A UK Home Office assessment reports continued intimidation and unequal treatment of Christians in Iraq, including at checkpoints and concerning property. This entry summarises a country-wide pattern and must not be read as a single Baghdad incident.",
+      "actor": "Various state and non-state actors cited in the assessment",
+      "sources": [
+        {
+          "title": "Iraq: Religious minorities - UK Home Office, September 2024",
+          "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
+        }
+      ]
+    }
+  ]
+}
