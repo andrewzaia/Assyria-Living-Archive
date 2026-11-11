@@ -795,16 +795,16 @@
     },
     {
       "id": "AP-0035",
-      "year": 1951,
-      "date": "Late 1940s-early 1950s (dates disputed)",
+      "year": 1949,
+      "date": "1947-1952, including Soviet deportation order of 29 May 1949",
       "country": "Georgia",
       "place": "Tbilisi and Georgian SSR",
       "lat": 41.72,
       "lon": 44.79,
       "type": "Displacement",
       "evidence": "historical",
-      "title": "Soviet deportations of Assyrians from Georgia",
-      "summary": "Academic surveys describe the forced removal of Assyrian and Assyro-Chaldean families from Soviet Georgia to internal exile in Central Asia and Siberia. One survey dates large deportations to 1947, while other scholarship places relevant operations in 1950-1952; that difference remains unresolved here.",
+      "title": "Soviet deportation and internal exile of Assyrian families from Georgia",
+      "summary": "Official Georgian archive descriptions identify Assyrians among ethnic groups exiled by Soviet security authorities, and list a 29 May 1949 Soviet decree covering Assyrian families. Other published accounts date additional deportations to 1947 or 1950-1952. The entry covers related operations over several years and does not claim an agreed overall death or deportee total.",
       "actor": "Soviet security and resettlement authorities",
       "scope": "Assyrian community",
       "sources": [
@@ -815,6 +815,10 @@
         {
           "title": "The Assyrians of Georgia: Ethnic Specifics Should Be Preserved - Central Asia and the Caucasus",
           "url": "https://www.ca-c.org/index.php/cac/article/view/947"
+        },
+        {
+          "title": "Georgian security archive special-exile inventories and 29 May 1949 decree - Institute for Development of Freedom of Information",
+          "url": "https://www.idfi.ge/archive/?cat=read_topic&lang=en&topic=141"
         }
       ]
     },
