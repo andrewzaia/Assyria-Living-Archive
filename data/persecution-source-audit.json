@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Incremental source-by-source audit for AP-0081 through AP-0218. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads.",
+  "scope": "Incremental source-by-source audit for AP-0081 through AP-0226. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -804,6 +804,108 @@
       ],
       "review_status": "reviewed",
       "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
+    },
+    {
+      "url": "https://esu.com.ua/article-44492",
+      "title": "Assyrians in Ukraine, national organisations and Soviet repression - Encyclopedia of Modern Ukraine",
+      "captured_record_ids": [
+        "AP-0219"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://www.radiosvoboda.org/amp/918976.html",
+      "title": "Assyrian community and repression in Ukraine - Radio Svoboda (13 August 2004)",
+      "captured_record_ids": [
+        "AP-0219"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://lev.mapofmemory.org/ranenyj-lev/",
+      "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
+      "captured_record_ids": [
+        "AP-0220",
+        "AP-0221"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://guides.rusarchives.ru/node/26540",
+      "title": "Assyrian Khayadta cultural organisation, 1924-1937 - Russian archival guides",
+      "captured_record_ids": [
+        "AP-0220"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/223694",
+      "title": "Yakov Semyonovich Izrailov - Leningrad Book of Remembrance, vol. 7 (2007)",
+      "captured_record_ids": [
+        "AP-0221",
+        "AP-0222"
+      ],
+      "review_status": "reviewed",
+      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/222644",
+      "title": "Ivan (Rostam) Bili-Lazarev - Leningrad Book of Remembrance, vol. 7 (2007)",
+      "captured_record_ids": [
+        "AP-0222"
+      ],
+      "review_status": "partial",
+      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
+    },
+    {
+      "url": "https://www.geocities.ws/moscowconference2002/4.htm",
+      "title": "Moscow Assyrian International Conference - repression and 1949-1950 Caucasus deportations (2002)",
+      "captured_record_ids": [
+        "AP-0223"
+      ],
+      "review_status": "partial",
+      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
+    },
+    {
+      "url": "https://www.visions.az/en/news/649/3c3d5c3c/",
+      "title": "Assyrian deportee family in Helenendorf/Goygol - Visions of Azerbaijan (2015)",
+      "captured_record_ids": [
+        "AP-0223"
+      ],
+      "review_status": "partial",
+      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
+    },
+    {
+      "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/",
+      "title": "Fraidun Bet Auraham Aturaya, Assyrian leader and political prisoner - Syriac Heritage Museum (2022)",
+      "captured_record_ids": [
+        "AP-0224"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://www.kurdipedia.org/files/relatedfiles/2013/87575/0001.PDF",
+      "title": "The Yezidi Kurds and Assyrians of Georgia - Chikhladze and Chikhladze, Central Asia and the Caucasus (2003), p. 7",
+      "captured_record_ids": [
+        "AP-0224",
+        "AP-0225"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2021/09/02/syria-qujsnaya-village-in-khabur-largely-destroyed-by-isis-in-2015-still-abandoned/",
+      "title": "Qujsnaya/Tel Demchej homes and Mor Yukhana church after daesh occupation - SyriacPress (2 September 2021)",
+      "captured_record_ids": [
+        "AP-0226"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
     }
   ],
   "excluded_or_pending": [
@@ -861,6 +963,21 @@
       "url": "https://persecution.org/2026/06/19/videos-show-damage-to-historic-iraqi-assyrian-church/",
       "status": "pending",
       "reason": "Video published in June 2026 shows interior damage at Mar Kiryakos in Sharanish, but original date and cause of the damage were not independently verified. Do not equate publication year with date of a deliberate attack."
+    },
+    {
+      "url": "https://www.ecoi.net/en/document/1220718.html",
+      "status": "pending",
+      "reason": "A Canadian research directorate notes Assyrians displaced in Lebanon's civil war but lacks a named, localised attack or evidence of specific ethnic targeting; do not represent arrival of Syrian refugees in Lebanon as persecution that occurred there."
+    },
+    {
+      "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/uncertain-futures-assyrians-fear-for-family-members-living-in-ukraine/93zq1olj6",
+      "status": "pending",
+      "reason": "SBS confirms Assyrian families in Nova Kakhovka during Russia's 2022 invasion, but does not establish a specific attack on Assyrian people or church buildings. Further incident-specific reporting needed before indexing."
+    },
+    {
+      "url": "https://www.assyrianfoundation.org/files/nineveh_magazine_1_2020.pdfcd073ce5.pdf",
+      "status": "pending",
+      "reason": "A search-indexed magazine article describes deportation from Azerbaijan, but the original PDF URL returned an error during independent access. Do not use it for an unsupported exact deportee total until a stable publication copy can be obtained."
     }
   ]
 }
