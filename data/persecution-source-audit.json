@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Incremental source-by-source audit for AP-0081 through AP-0198. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 16 additional distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation.",
+  "scope": "Incremental source-by-source audit for AP-0081 through AP-0212. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -718,6 +718,28 @@
       ],
       "review_status": "partial",
       "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
+    },
+    {
+      "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf",
+      "title": "Assyrian Aid Society-Iraq, 2019 village land-claim annex (UN Universal Periodic Review repository)",
+      "captured_record_ids": [
+        "AP-0199",
+        "AP-0200",
+        "AP-0201",
+        "AP-0202",
+        "AP-0203",
+        "AP-0204",
+        "AP-0205",
+        "AP-0206",
+        "AP-0207",
+        "AP-0208",
+        "AP-0209",
+        "AP-0210",
+        "AP-0211",
+        "AP-0212"
+      ],
+      "review_status": "partial",
+      "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription."
     }
   ],
   "excluded_or_pending": [
