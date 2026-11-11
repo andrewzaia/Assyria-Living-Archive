@@ -1,0 +1,89 @@
+"""Regression checks for the source-attributed Assyrian persecution catalogue."""
+import json
+import sys
+import unittest
+from pathlib import Path
+from html.parser import HTMLParser
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from persecution_page import load_records, render
+
+
+class CatalogueParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ids = set()
+        self.cards = []
+        self.links = []
+        self.images = []
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if attrs.get('id'):
+            assert attrs['id'] not in self.ids, attrs['id']
+            self.ids.add(attrs['id'])
+        if tag == 'article' and attrs.get('data-ap-id'):
+            self.cards.append(attrs['data-ap-id'])
+        if tag == 'a':
+            self.links.append(attrs.get('href', ''))
+        if tag == 'img':
+            self.images.append(attrs)
+
+
+class PersecutionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = load_records()
+        cls.records = cls.data['records']
+        cls.markup = render()
+        cls.parser = CatalogueParser()
+        cls.parser.feed(cls.markup)
+
+    def test_source_ids_dates_and_coordinate_precision(self):
+        self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
+        self.assertGreaterEqual(len(self.records), 20)
+        self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
+        self.assertEqual({r['country'] for r in self.records},
+                         {'Iran', 'Iraq', 'Syria', 'Turkey'})
+        self.assertLess(min(r['year'] for r in self.records), 1900)
+        self.assertGreater(max(r['year'] for r in self.records), 2020)
+
+    def test_all_records_are_server_rendered_with_direct_references(self):
+        self.assertCountEqual(self.parser.cards, [r['id'] for r in self.records])
+        self.assertIn('/persecution-records.json', self.parser.links)
+        self.assertTrue(all(s['url'] in self.parser.links
+                            for r in self.records for s in r['sources']))
+        self.assertIn('id="ap-map"', self.markup)
+        self.assertIn('id="ap-reset"', self.markup)
+        self.assertIn('id="ap-country"', self.markup)
+        self.assertIn('id="ap-data"', self.markup)
+
+    def test_media_is_local_and_attributed(self):
+        for image in self.parser.images:
+            self.assertTrue(image['src'].startswith('/assets/archive-media/'))
+            self.assertTrue(image.get('alt'))
+        for record in self.records:
+            if record.get('media'):
+                self.assertIn(record['media']['source_url'], self.parser.links)
+                self.assertTrue((ROOT / 'static' / record['media']['file'].lstrip('/')).exists())
+
+    def test_page_is_integrated_with_the_generator_and_navigation(self):
+        from navigation import NAV_PATHS, render_navigation
+        self.assertIn('/persecution/', NAV_PATHS)
+        self.assertIn('aria-current="page"', render_navigation('/persecution/'))
+        source = (ROOT / 'generate.py').read_text(encoding='utf-8')
+        self.assertIn("write('/persecution/index.html'", source)
+        self.assertIn("'/map/', '/persecution/', '/glossary/'", source)
+        self.assertIn('/persecution.js', source)
+        self.assertIn('/persecution.css', source)
+
+    def test_claim_scope_and_report_count_disclosures_remain_visible(self):
+        for phrase in ('not people harmed', 'not a claim that all reports have been independently verified',
+                       'coordinates are approximate', 'report counts, not victims'):
+            self.assertIn(phrase.lower(), self.markup.lower() +
+                          (ROOT / 'static/persecution.js').read_text(encoding='utf-8').lower())
+        self.assertNotIn('<img src="http', self.markup)
+
+
+if __name__ == '__main__':
+    unittest.main()
