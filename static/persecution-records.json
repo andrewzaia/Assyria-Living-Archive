@@ -274,7 +274,6 @@
       ],
       "scope": "Assyrian-linked and shared Christian communities",
       "related_ids": [
-        "AP-0130",
         "AP-0131",
         "AP-0132",
         "AP-0133",
@@ -305,12 +304,12 @@
       ],
       "scope": "Shared Christian communities (ethnicity not established for each victim)",
       "related_ids": [
+        "AP-0138",
+        "AP-0139",
+        "AP-0140",
         "AP-0141",
         "AP-0142",
-        "AP-0143",
-        "AP-0144",
-        "AP-0145",
-        "AP-0146"
+        "AP-0143"
       ]
     },
     {
@@ -581,8 +580,8 @@
       ],
       "scope": "Assyrian-linked and shared Christian communities",
       "related_ids": [
-        "AP-0150",
-        "AP-0151"
+        "AP-0147",
+        "AP-0148"
       ]
     },
     {
@@ -3205,69 +3204,6 @@
     },
     {
       "id": "AP-0138",
-      "year": 2009,
-      "date": "January 2009",
-      "country": "Iraq",
-      "place": "Mosul",
-      "lat": 36.34,
-      "lon": 43.13,
-      "type": "Religious violence",
-      "evidence": "reported",
-      "title": "Christian man reportedly executed in Mosul in January 2009",
-      "summary": "USCIRF documented a mid-January report of a Christian man shot execution-style and killed in Mosul. The report provides no confirmed identity or detailed motive finding.",
-      "actor": "Unidentified killers",
-      "scope": "Christian community of Mosul; victim's ethnic identity unconfirmed",
-      "sources": [
-        {
-          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
-          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
-        }
-      ]
-    },
-    {
-      "id": "AP-0139",
-      "year": 2009,
-      "date": "Early January 2009 (four-day detention)",
-      "country": "Iraq",
-      "place": "Mosul",
-      "lat": 36.34,
-      "lon": 43.13,
-      "type": "Abduction",
-      "evidence": "reported",
-      "title": "Christian resident of Mosul reportedly kidnapped and released after ransom",
-      "summary": "USCIRF recorded a kidnapping at the beginning of 2009 in which a Christian resident was held for four days and reportedly released after a $50,000 ransom. No individual ethnicity or perpetrator was established.",
-      "actor": "Unidentified ransom kidnappers",
-      "scope": "Christian minority in Mosul; Assyrian identity not independently established",
-      "sources": [
-        {
-          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
-          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
-        }
-      ]
-    },
-    {
-      "id": "AP-0140",
-      "year": 2009,
-      "date": "26 April 2009 (two attacks)",
-      "country": "Iraq",
-      "place": "Kirkuk",
-      "lat": 35.47,
-      "lon": 44.39,
-      "type": "Religious violence",
-      "evidence": "reported",
-      "title": "Three Christians reportedly killed and two wounded in Kirkuk attacks",
-      "summary": "USCIRF summarised two distinct reported attacks in Kirkuk on 26 April 2009 that together killed three Christians and wounded two. The publication does not give enough details to assign separate accurate positions or confirm each victim's ethnicity, so the pair remains one summary record.",
-      "actor": "Unknown attackers; no judicial outcomes reported",
-      "scope": "Wider Christian community in a city with Assyrian churches; individual ethnicities unconfirmed",
-      "sources": [
-        {
-          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
-          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
-        }
-      ]
-    },
-    {
-      "id": "AP-0141",
       "year": 2010,
       "date": "14 February 2010",
       "country": "Iraq",
@@ -3291,7 +3227,7 @@
       ]
     },
     {
-      "id": "AP-0142",
+      "id": "AP-0139",
       "year": 2010,
       "date": "15 February 2010",
       "country": "Iraq",
@@ -3315,7 +3251,7 @@
       ]
     },
     {
-      "id": "AP-0143",
+      "id": "AP-0140",
       "year": 2010,
       "date": "16 February 2010",
       "country": "Iraq",
@@ -3339,7 +3275,7 @@
       ]
     },
     {
-      "id": "AP-0144",
+      "id": "AP-0141",
       "year": 2010,
       "date": "17 February 2010 (body discovered)",
       "country": "Iraq",
@@ -3363,7 +3299,7 @@
       ]
     },
     {
-      "id": "AP-0145",
+      "id": "AP-0142",
       "year": 2010,
       "date": "Abducted approximately mid-February; body discovered 20 February 2010",
       "country": "Iraq",
@@ -3387,7 +3323,7 @@
       ]
     },
     {
-      "id": "AP-0146",
+      "id": "AP-0143",
       "year": 2010,
       "date": "20 February 2010",
       "country": "Iraq",
@@ -3411,7 +3347,7 @@
       ]
     },
     {
-      "id": "AP-0147",
+      "id": "AP-0144",
       "year": 2022,
       "date": "4 September 2022",
       "country": "Syria",
@@ -3432,7 +3368,7 @@
       ]
     },
     {
-      "id": "AP-0148",
+      "id": "AP-0145",
       "year": 2022,
       "date": "6 September 2022",
       "country": "Syria",
@@ -3453,7 +3389,7 @@
       ]
     },
     {
-      "id": "AP-0149",
+      "id": "AP-0146",
       "year": 2026,
       "date": "28 January 2026",
       "country": "Syria",
@@ -3474,7 +3410,7 @@
       ]
     },
     {
-      "id": "AP-0150",
+      "id": "AP-0147",
       "year": 2022,
       "date": "Reported 25 June 2022 (seizure predates 2014)",
       "country": "Iraq",
@@ -3498,7 +3434,7 @@
       ]
     },
     {
-      "id": "AP-0151",
+      "id": "AP-0148",
       "year": 2023,
       "date": "11 March 2023 (protest reported)",
       "country": "Iraq",
