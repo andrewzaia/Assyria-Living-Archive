@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution.",
+  "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
       "id": "AP-0001",
@@ -500,7 +500,8 @@
         "AP-0150",
         "AP-0151",
         "AP-0152",
-        "AP-0153"
+        "AP-0153",
+        "AP-0226"
       ]
     },
     {
@@ -848,6 +849,10 @@
           "title": "Georgian security archive special-exile inventories and 29 May 1949 decree - Institute for Development of Freedom of Information",
           "url": "https://www.idfi.ge/archive/?cat=read_topic&lang=en&topic=141"
         }
+      ],
+      "related_ids": [
+        "AP-0223",
+        "AP-0225"
       ]
     },
     {
@@ -1467,7 +1472,8 @@
         "AP-0150",
         "AP-0151",
         "AP-0152",
-        "AP-0153"
+        "AP-0153",
+        "AP-0226"
       ]
     },
     {
@@ -5284,6 +5290,220 @@
       ],
       "related_ids": [
         "AP-0217"
+      ]
+    },
+    {
+      "id": "AP-0219",
+      "year": 1937,
+      "date": "1925-1937, with renewed repression reported in 1949",
+      "country": "Ukraine",
+      "place": "Assyrian communities in Kyiv, Mariupol, Kharkiv, Sloviansk and other cities (regional report)",
+      "lat": null,
+      "lon": null,
+      "type": "State repression",
+      "evidence": "historical",
+      "title": "Soviet authorities suppress Assyrian cultural organisations and activists in Ukraine",
+      "summary": "Ukraine's national encyclopaedia and a Radio Svoboda historical programme describe the imprisonment, exile or execution of leaders of Assyrian associations operating in Ukrainian cities between 1925 and 1937, alongside the destruction of community educational and cultural institutions. The Soviet state, rather than the contemporary Ukrainian government, was responsible. The sources identify a regional campaign but do not give a reconciled locality-by-locality victim count; references to renewed 1949 repression are not counted as an additional incident here.",
+      "actor": "Soviet Communist Party and security authorities governing the Ukrainian SSR",
+      "scope": "Assyrians living in Soviet Ukraine; regional historical report, not a single-city event",
+      "sources": [
+        {
+          "title": "Assyrians in Ukraine, national organisations and Soviet repression - Encyclopedia of Modern Ukraine",
+          "url": "https://esu.com.ua/article-44492"
+        },
+        {
+          "title": "Assyrian community and repression in Ukraine - Radio Svoboda (13 August 2004)",
+          "url": "https://www.radiosvoboda.org/amp/918976.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0220",
+      "year": 1937,
+      "date": "1937 dissolution; related arrests October 1937-July 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "historical",
+      "title": "Assyrian Khayadta association dissolved amid Leningrad purges",
+      "summary": "The Levashovo remembrance archive reports that the Leningrad regional Communist Party committee dissolved the Assyrian organisation Khayadta in 1937. The same archive documents 80 Assyrians arrested between October 1937 and July 1938 on fabricated espionage and sabotage accusations. This entry describes one institutional crackdown and associated arrests, not 80 separately indexed or independently proven crimes; individually documented executions from the same campaign are cross-linked.",
+      "actor": "Leningrad Soviet Communist Party committee and NKVD security organs",
+      "scope": "Assyrian cultural association and community in Leningrad",
+      "sources": [
+        {
+          "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
+          "url": "https://lev.mapofmemory.org/ranenyj-lev/"
+        },
+        {
+          "title": "Assyrian Khayadta cultural organisation, 1924-1937 - Russian archival guides",
+          "url": "https://guides.rusarchives.ru/node/26540"
+        }
+      ],
+      "related_ids": [
+        "AP-0221",
+        "AP-0222"
+      ]
+    },
+    {
+      "id": "AP-0221",
+      "year": 1938,
+      "date": "Arrested 24 November 1937; executed 8 January 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "documented",
+      "title": "Yakov Semyonovich Izrailov, Assyrian shoemaker, executed in Leningrad",
+      "summary": "The Russian National Library's Books of Remembrance identify Yakov Semyonovich Izrailov, an Assyrian shoemaker in the Trudassiriets cooperative, born in 1900, as arrested on 24 November 1937. A special NKVD troika sentenced him to death on 31 December; he was shot in Leningrad on 8 January 1938. This is a named victim of the wider Leningrad repression campaign already summarised in AP-0220, not an additional campaign or a court finding of actual espionage.",
+      "actor": "NKVD Leningrad regional troika and execution authorities",
+      "scope": "Named Assyrian victim of Stalinist political repression",
+      "sources": [
+        {
+          "title": "Yakov Semyonovich Izrailov - Leningrad Book of Remembrance, vol. 7 (2007)",
+          "url": "https://visz.nlr.ru/person/show/223694"
+        },
+        {
+          "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
+          "url": "https://lev.mapofmemory.org/ranenyj-lev/"
+        }
+      ],
+      "related_ids": [
+        "AP-0220",
+        "AP-0222"
+      ]
+    },
+    {
+      "id": "AP-0222",
+      "year": 1938,
+      "date": "Arrested 10 December 1937; executed 8 January 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "documented",
+      "title": "Ivan (Rostam) Bili-Lazarev, Assyrian shoemaker, executed in Leningrad",
+      "summary": "The indexed Leningrad Book of Remembrance identifies Ivan, also called Rostam, Bili-Lazarev, an Assyrian member of the Trudassiriets shoemaking cooperative, as arrested on 10 December 1937 and sentenced by a special NKVD troika on 31 December. His execution on 8 January 1938 is recorded separately from fellow Assyrian Yakov Izrailov, who was executed on the same day. The memorial archive names both men; their deaths are linked to, rather than counted as distinct from, the broader purge campaign.",
+      "actor": "NKVD Leningrad regional troika and execution authorities",
+      "scope": "Named Assyrian victim of Stalinist political repression",
+      "sources": [
+        {
+          "title": "Ivan (Rostam) Bili-Lazarev - Leningrad Book of Remembrance, vol. 7 (2007)",
+          "url": "https://visz.nlr.ru/person/show/222644"
+        },
+        {
+          "title": "Yakov Semyonovich Izrailov - Leningrad Book of Remembrance, vol. 7 (2007)",
+          "url": "https://visz.nlr.ru/person/show/223694"
+        }
+      ],
+      "related_ids": [
+        "AP-0220",
+        "AP-0221"
+      ]
+    },
+    {
+      "id": "AP-0223",
+      "year": 1949,
+      "date": "1949 Soviet forced resettlement, exact operation days require archival review",
+      "country": "Azerbaijan",
+      "place": "Assyrian settlements including Goygol/Helenendorf, Shamkir and Aghstafa (regional report)",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Assyrian families deported from Soviet Azerbaijan to Siberia",
+      "summary": "An Assyrian historians' conference and a later local history of Helenendorf describe Soviet-era Assyrian families forcibly relocated from communities in the Azerbaijan SSR to Siberia in 1949, with some families returning and others settling elsewhere. A Ganja-area account includes testimony from a member of a deported Assyrian family who was born in Siberia. The precise community total and each train's itinerary have not been established from original deportation lists. The Soviet security apparatus carried out these actions; the record does not attribute them to Azerbaijanis as an ethnic group or to the modern Azerbaijani government.",
+      "actor": "Soviet central and Azerbaijan SSR security and resettlement authorities",
+      "scope": "Assyrian families in Soviet Azerbaijan, not a single-village event",
+      "sources": [
+        {
+          "title": "Moscow Assyrian International Conference - repression and 1949-1950 Caucasus deportations (2002)",
+          "url": "https://www.geocities.ws/moscowconference2002/4.htm"
+        },
+        {
+          "title": "Assyrian deportee family in Helenendorf/Goygol - Visions of Azerbaijan (2015)",
+          "url": "https://www.visions.az/en/news/649/3c3d5c3c/"
+        }
+      ],
+      "related_ids": [
+        "AP-0035"
+      ]
+    },
+    {
+      "id": "AP-0224",
+      "year": 1926,
+      "date": "1926; arrest and precise execution circumstances contested in later accounts",
+      "country": "Georgia",
+      "place": "Tbilisi (Tiflis), Georgian SSR",
+      "lat": 41.72,
+      "lon": 44.79,
+      "type": "State repression",
+      "evidence": "historical",
+      "title": "Assyrian nationalist organiser Freydun Atturaya arrested and killed under Soviet rule",
+      "summary": "The Syriac Heritage Museum records that Assyrian poet, physician and independence advocate Freydun Bet-Abram Atturaya was accused of spying for Britain and killed while living in Tbilisi in 1926. His Assyrian Socialist Party activity and later detention are distinct from the wider deportations decades later. Exact prison circumstances and discrepancies in later accounts require review against Soviet case files; the museum's account supports the event but does not prove the espionage allegation.",
+      "actor": "Soviet Georgian security and judicial authorities; espionage accusation not accepted as established fact",
+      "scope": "Named Assyrian national political organiser in Soviet Georgia",
+      "sources": [
+        {
+          "title": "Fraidun Bet Auraham Aturaya, Assyrian leader and political prisoner - Syriac Heritage Museum (2022)",
+          "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/"
+        },
+        {
+          "title": "The Yezidi Kurds and Assyrians of Georgia - Chikhladze and Chikhladze, Central Asia and the Caucasus (2003), p. 7",
+          "url": "https://www.kurdipedia.org/files/relatedfiles/2013/87575/0001.PDF"
+        }
+      ]
+    },
+    {
+      "id": "AP-0225",
+      "year": 1937,
+      "date": "1937 Soviet repression of Assyrian education and publishing",
+      "country": "Georgia",
+      "place": "Tbilisi (Tiflis), Georgian SSR",
+      "lat": 41.72,
+      "lon": 44.79,
+      "type": "State repression",
+      "evidence": "historical",
+      "title": "Assyrian schools and newspaper closed as Tbilisi intellectuals were repressed",
+      "summary": "A 2003 historical study of the Assyrian diaspora in Georgia records that the three Assyrian schools and the newspaper Kokhva d Modynkha operated in Tiflis before the Soviet purge of 1937. It describes their closure and repression of much of the Assyrian intelligentsia and clergy. This is a separate institutional repression campaign from the 1949 exile represented in AP-0035, and it does not presume responsibility by the post-1991 Georgian state.",
+      "actor": "Soviet Party and security administration in the Georgian SSR",
+      "scope": "Assyrian-language schools, editors, community leaders and clergy in Tbilisi",
+      "sources": [
+        {
+          "title": "The Yezidi Kurds and Assyrians of Georgia - Chikhladze and Chikhladze, Central Asia and the Caucasus (2003), p. 7",
+          "url": "https://www.kurdipedia.org/files/relatedfiles/2013/87575/0001.PDF"
+        }
+      ],
+      "related_ids": [
+        "AP-0035"
+      ]
+    },
+    {
+      "id": "AP-0226",
+      "year": 2015,
+      "date": "2015 occupation and destruction; remaining damage inspected in September 2021",
+      "country": "Syria",
+      "place": "Qujsnaya (Tel Demchej), Khabur Valley, al-Hasakah",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "reported",
+      "title": "Assyrian Mor Yukhana church and Qujsnaya village damaged during daesh occupation",
+      "summary": "SyriacPress reported in September 2021 from Qujsnaya (also called Tel Demchej) that the village had been largely destroyed during daesh attacks on Assyrian Khabur settlements in 2015. The Church of Mor Yukhana (St John) showed damaged furnishings, graffiti and signs of vandalism, while many former residents remained displaced. Its condition was observed in 2021, which is not the same as a precisely dated independent 2021 attack. This is a locality-level case within the regional Khabur campaign already represented in AP-0020 and AP-0062.",
+      "actor": "daesh during its 2015 Khabur offensive, according to source-attributed village reporting",
+      "scope": "Assyrian Church of the East congregation and villagers of Qujsnaya",
+      "sources": [
+        {
+          "title": "Qujsnaya/Tel Demchej homes and Mor Yukhana church after daesh occupation - SyriacPress (2 September 2021)",
+          "url": "https://syriacpress.com/blog/2021/09/02/syria-qujsnaya-village-in-khabur-largely-destroyed-by-isis-in-2015-still-abandoned/"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
       ]
     }
   ]
