@@ -251,7 +251,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertEqual({r['country'] for r in tranche},
                          {'France', 'Germany', 'Netherlands', 'Australia'})
         self.assertEqual(by_id['AP-0213']['country'], 'France')
-        self.assertIn('anti-terror', by_id['AP-0213']['summary'])
+        self.assertIn('terrorism-related offences', by_id['AP-0213']['summary'])
         self.assertIn('not a conviction', by_id['AP-0213']['summary'])
         self.assertEqual(by_id['AP-0214']['type'], 'Harassment')
         self.assertEqual(by_id['AP-0214']['evidence'], 'reported')
