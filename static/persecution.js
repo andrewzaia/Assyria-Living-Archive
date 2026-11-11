@@ -20,6 +20,8 @@
   let mapFeatures = [];
   let mapReady = false;
   let mapView = 'world';
+  // Use catalogue-friendly country labels when Natural Earth uses longer names.
+  const nameForCatalogue = name => name === 'United States of America' ? 'United States' : name;
   const point = (lon, lat) => [(lon + 180) * 3, (90 - lat) * 3];
   const element = (tag, attrs = {}, label) => {
     const item = document.createElementNS(ns, tag);
@@ -96,6 +98,7 @@
     markerLayer.replaceChildren();
     const places = new Map();
     for (const record of heatRecords) {
+      if (!Number.isFinite(record.lon) || !Number.isFinite(record.lat)) continue;
       if (fields.country.value && fields.country.value !== record.country) continue;
       const key = record.country + '|' + record.place;
       const current = places.get(key);
@@ -155,7 +158,7 @@
     if (!geojson || !Array.isArray(geojson.features)) throw Error('Invalid geography');
     const fragment = document.createDocumentFragment();
     for (const feature of geojson.features) {
-      const country = feature.properties?.ADMIN || feature.properties?.NAME;
+      const country = nameForCatalogue(feature.properties?.ADMIN || feature.properties?.NAME);
       if (!country) continue;
       const path = element('path', {d:geometryPath(feature.geometry), class:'ap-country ap-level-0'});
       path.dataset.country = country;
