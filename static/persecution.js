@@ -181,6 +181,19 @@
     paint();
   }
 
+  // A linked report may be hidden by the current filters. Reveal it before following its anchor.
+  list.addEventListener('click', event => {
+    const link = event.target.closest('a[data-ap-related]');
+    if (!link || !cards.has(link.dataset.apRelated)) return;
+    if (cards.get(link.dataset.apRelated).hidden) {
+      fields.country.value = '';
+      fields.type.value = '';
+      fields.period.value = '';
+      fields.evidence.value = '';
+      fields.search.value = '';
+      apply();
+    }
+  });
   Object.values(fields).forEach(field => field.addEventListener(
     field === fields.search ? 'input' : 'change', apply));
   $('ap-world').addEventListener('click', () => setView('world'));
