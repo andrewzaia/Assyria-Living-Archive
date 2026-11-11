@@ -1025,7 +1025,7 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Seven Assyrian Christians killed in Dora",
-      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district.",
+      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district. A second source reports a bus attack on 26-27 September with different figures (AP-0095); whether these are separate attacks or varying descriptions of one event has not been resolved.",
       "actor": "Four armed men, identity not established in the cited report",
       "scope": "Assyrian community",
       "sources": [
@@ -1033,6 +1033,9 @@
           "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
         }
+      ],
+      "related_ids": [
+        "AP-0095"
       ]
     },
     {
@@ -1746,6 +1749,9 @@
           "title": "Reported vandalism at Assyrian church in Antwerp - The Assyria Post (2026)",
           "url": "https://www.assyriapost.com/vandalism-at-assyrian-church-in-antwerp-raises-concern-among-assyrian-community/"
         }
+      ],
+      "related_ids": [
+        "AP-0081"
       ]
     },
     {
@@ -1812,6 +1818,1034 @@
         {
           "title": "Homs: shots fired at the cross of the Syriac Orthodox cathedral - Agenzia Fides (2025)",
           "url": "https://www.fides.org/en/news/76465-ASIA_SYRIA_Homs_shots_fired_at_the_cross_of_the_Syriac_Orthodox_cathedral"
+        }
+      ]
+    },
+    {
+      "id": "AP-0081",
+      "year": 2018,
+      "date": "Night of 14-15 January 2018",
+      "country": "Belgium",
+      "place": "Sint-Jacobskerk (St James' Church), Antwerp",
+      "lat": 51.22,
+      "lon": 4.41,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Vandalism at St James' Church used by Chaldean worshippers in Antwerp",
+      "summary": "The European incident observatory records vandalism at St James' Church in Antwerp overnight on 14-15 January 2018, specifically identifying its use by Chaldean Christian worshippers. The published incident summary does not identify the vandal, detail the damage, or establish an ethnic or religious hate motive. This is separate from the 2026 damage at another Antwerp church.",
+      "actor": "Unknown individuals; purpose not established",
+      "scope": "Chaldean-linked church in the Assyrian diaspora; shared parish, not exclusively Assyrian",
+      "sources": [
+        {
+          "title": "2018 Antwerp St James church incident - Observatory on Intolerance and Discrimination against Christians in Europe",
+          "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch="
+        },
+        {
+          "title": "Antwerp church vandalism and earlier St James incident - The Assyria Post (2026)",
+          "url": "https://www.assyriapost.com/vandalism-at-assyrian-church-in-antwerp-raises-concern-among-assyrian-community/"
+        }
+      ],
+      "related_ids": [
+        "AP-0077"
+      ]
+    },
+    {
+      "id": "AP-0082",
+      "year": 2023,
+      "date": "27 August 2023 (damage discovered)",
+      "country": "Belgium",
+      "place": "Sayfo genocide memorial, Jette, Brussels",
+      "lat": 50.88,
+      "lon": 4.33,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Sayfo memorial to Assyrian / Syriac genocide victims defaced in Jette",
+      "summary": "A memorial erected for victims of the 1915 Syriac / Assyrian genocide was spray-painted. The inscriptions concerning genocide and the number of victims were deliberately obscured; community organisations condemned the act and said a complaint would be filed. Belgian reporting noted local municipal cleaning, but did not identify a perpetrator.",
+      "actor": "Unidentified vandals; local community described the marking as genocide denial",
+      "scope": "Assyrian / Syriac diaspora and memorial to victims",
+      "sources": [
+        {
+          "title": "Jette 1915 genocide monument vandalised - BX1 / Belga (29 August 2023)",
+          "url": "https://bx1.be/categories/news/un-acte-grave-de-negationnisme-le-monument-commemorant-le-genocide-arameen-a-jette-vandalise/"
+        },
+        {
+          "title": "Jette genocide monument damage - CathoBel (30 August 2023)",
+          "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0083",
+      "year": 2005,
+      "date": "6 June 2005 (reported 9 June)",
+      "country": "Turkey",
+      "place": "Tur Abdin villages (exact site unconfirmed)",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb attack on three Assyrian Christian returnees in Tur Abdin",
+      "summary": "The Society for Threatened Peoples reported an attempted bombing directed at three Assyrian / Syriac Christians who had returned to their homeland. None was injured. The available report does not establish individual perpetrator identities or a defensible point location.",
+      "actor": "Unknown attackers; the organisation associated the event with intimidation of Christian returnees",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Bomb attack on Syriac / Assyrian returnees in Tur Abdin - Society for Threatened Peoples (2005)",
+          "url": "https://www.gfbv.de/aktuelles/news/bombenanschlag-auf-rueckkehrwillige-assyrisch-aramaeische-christen-in-der-tuerkei/"
+        }
+      ],
+      "related_ids": [
+        "AP-0084",
+        "AP-0085",
+        "AP-0086"
+      ]
+    },
+    {
+      "id": "AP-0084",
+      "year": 2006,
+      "date": "Early August 2006 (reported 5 September)",
+      "country": "Turkey",
+      "place": "Charabale / Kharabale, Tur Abdin (location approximate)",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb explodes in Assyrian Christian village of Charabale",
+      "summary": "The Society for Threatened Peoples reported a bomb explosion in the Christian village called Charabale approximately four weeks before its 5 September 2006 report. The spelling and precise locality are unverified, so no geographic pin is asserted.",
+      "actor": "Unknown attackers; reportedly part of intimidation of returning Assyrian communities",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Bomb attack on Assyrian activist's home and earlier attacks - Society for Threatened Peoples (2006)",
+          "url": "https://www.gfbv.de/aktuelles/news/return-of-the-christian-assyrians-to-turkey-permanently-threatened/"
+        }
+      ],
+      "related_ids": [
+        "AP-0083",
+        "AP-0085",
+        "AP-0086"
+      ]
+    },
+    {
+      "id": "AP-0085",
+      "year": 2006,
+      "date": "30 August 2006",
+      "country": "Turkey",
+      "place": "Midyat, Tur Abdin",
+      "lat": 37.42,
+      "lon": 41.34,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Explosive attack on the home of Assyrian activist Gebro Seven",
+      "summary": "An explosive was reportedly thrown at the home of Gebro Seven, long-time chairman of an Assyrian community society in Augsburg, while he and his wife were visiting Mar Gabriel Monastery. Both escaped harm; the source relays a police assessment that the attack could have been fatal.",
+      "actor": "Unknown attackers; responsibility not established",
+      "scope": "Assyrian community representative",
+      "sources": [
+        {
+          "title": "Bomb attack on Assyrian activist's home and earlier attacks - Society for Threatened Peoples (2006)",
+          "url": "https://www.gfbv.de/aktuelles/news/return-of-the-christian-assyrians-to-turkey-permanently-threatened/"
+        }
+      ],
+      "related_ids": [
+        "AP-0083",
+        "AP-0084",
+        "AP-0086"
+      ]
+    },
+    {
+      "id": "AP-0086",
+      "year": 2007,
+      "date": "17 March 2007 (reported 22 March)",
+      "country": "Turkey",
+      "place": "Midyat, Tur Abdin",
+      "lat": 37.42,
+      "lon": 41.34,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb thrown into courtyard of Midyat church council chairman Yusuf Turker",
+      "summary": "A human-rights organisation reported that an explosive was thrown into the courtyard of Yusuf Turker, chairman of the church council in Midyat. It reportedly did not detonate. The same source includes suspicions about state-linked networks but does not establish their responsibility.",
+      "actor": "Unknown attackers; source raises, but does not prove, accusations against local power networks",
+      "scope": "Assyrian / Syriac church representative",
+      "sources": [
+        {
+          "title": "Bomb attack at the home of Midyat church council chair - Society for Threatened Peoples (2007)",
+          "url": "https://www.gfbv.de/aktuelles/news/return-of-christian-refugees-remains-uncertain/"
+        }
+      ],
+      "related_ids": [
+        "AP-0083",
+        "AP-0084",
+        "AP-0085"
+      ]
+    },
+    {
+      "id": "AP-0087",
+      "year": 2008,
+      "date": "14 October 2008 (report issued 19 October)",
+      "country": "Iraq",
+      "place": "Maskanta church, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Bomb damage at Maskanta church during Mosul attacks",
+      "summary": "Society for Threatened Peoples reporting states an explosive damaged the entrance of Maskanta church during a wave of killings and threats against Christians in Mosul. No church casualties were reported in this specific incident.",
+      "actor": "Unknown bombers",
+      "scope": "Assyrian-linked / shared Christian church community",
+      "sources": [
+        {
+          "title": "Attack on Maskanta church during Mosul violence - Society for Threatened Peoples (2008)",
+          "url": "https://www.gfbv.de/aktuelles/news/church-bombed-in-mosul/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0088",
+      "year": 2003,
+      "date": "19 July 2003",
+      "country": "Iraq",
+      "place": "al-Muthanna district, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Reported kidnapping of Assyrian-Chaldean teenager Hilda Zuhair Istifan",
+      "summary": "A 2003-2007 human-rights chronology reports the abduction of 16-year-old Hilda Zuhair Istifan outside her family home in Mosul and identifies alleged kidnappers. The source does not establish a judicial finding; the account is preserved as attributed reporting.",
+      "actor": "Perpetrators identified by the reporting organisation; judicial outcome not verified",
+      "scope": "Assyrian / Chaldean family",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0089",
+      "year": 2003,
+      "date": "4 November 2003",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assassination of Assyrian-Chaldean judge Ismail Yousif Sadeq",
+      "summary": "A rights organisation recorded the shooting of judge Ismail Yousif Sadeq outside his house in Mosul, reporting that he was due to become the city's presiding judge. The source does not establish whether the killing was driven by ethnic, religious or professional motives.",
+      "actor": "Unidentified gunmen; motive not established",
+      "scope": "Assyrian / Chaldean victim",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0090",
+      "year": 2003,
+      "date": "18 November 2003",
+      "country": "Iraq",
+      "place": "Basra",
+      "lat": 30.51,
+      "lon": 47.78,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian Democratic Movement representative Sargon Nano abducted and killed",
+      "summary": "A human-rights chronology reported the abduction and killing of Sargon Nano, a representative of the Assyrian Democratic Movement, in Basra. The case is listed as a direct attack on an Assyrian community official; perpetrator and motive remain unconfirmed in the cited source.",
+      "actor": "Unknown kidnappers and killers",
+      "scope": "Assyrian political representative",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0091",
+      "year": 2004,
+      "date": "22 March 2004",
+      "country": "Iraq",
+      "place": "Dora, Baghdad",
+      "lat": 33.26,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian-Chaldean couple Ameejon and Jewded Barama killed at home",
+      "summary": "The Society for Threatened Peoples recorded the killing of the elderly Assyrian-Chaldean couple Ameejon Barama and Jewded Barama in their Baghdad home. The published chronology does not identify the attackers.",
+      "actor": "Unknown attackers; motive not established",
+      "scope": "Assyrian / Chaldean family",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0092",
+      "year": 2004,
+      "date": "23 June 2004",
+      "country": "Iraq",
+      "place": "Basra",
+      "lat": 30.51,
+      "lon": 47.78,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian sisters Janet and Shatha Sadah Odisho shot in Basra",
+      "summary": "A human-rights chronology records the shooting of Janet and Shatha Sadah Odisho while they were travelling home from work in Basra. The sisters worked for Bechtel. The record does not attribute the attack to a proven religious motive.",
+      "actor": "Unidentified gunmen; ethnic, occupational or political motive not adjudicated",
+      "scope": "Assyrian / Chaldean victims",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0093",
+      "year": 2004,
+      "date": "31 August 2004",
+      "country": "Iraq",
+      "place": "Bartella, Nineveh Plains",
+      "lat": 36.35,
+      "lon": 43.38,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Three Assyrian Christian healthcare workers killed on way home in Bartella",
+      "summary": "The rights chronology identifies Tara Majeed Betros al-Hadaya, Taghrid Abdul-Massih Ishaq Betros and Hala Abdul-Massih Ishaq Betros as killed while returning from hospital work in Bartella, with two other people injured. No perpetrator is identified.",
+      "actor": "Unidentified armed attackers",
+      "scope": "Assyrian / Chaldean community",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0094",
+      "year": 2004,
+      "date": "10 September 2004",
+      "country": "Iraq",
+      "place": "Baghdida / Qaraqosh, Nineveh Plains",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Mortar attack on Christian school in Baghdida",
+      "summary": "The Society for Threatened Peoples' chronology reports a mortar strike against a Christian school in Baghdida, killing 13-year-old Marc Lewis Shino and injuring his mother and brother. Responsibility is not established in the cited summary.",
+      "actor": "Unknown mortar attackers",
+      "scope": "Assyrian / Syriac-linked Christian community",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0095",
+      "year": 2004,
+      "date": "26-27 September 2004",
+      "country": "Iraq",
+      "place": "Baghdad (exact bus location unknown)",
+      "lat": 33.31,
+      "lon": 44.4,
+      "type": "Mass killing",
+      "evidence": "reported",
+      "title": "Bus attack killing Christian hospitality workers in Baghdad",
+      "summary": "A rights organisation documents an attack on a bus in Baghdad that killed 14 people, reportedly including 10 Assyrian-Chaldean Christian hospitality workers, and wounded others. The entry preserves the reported casualty figures and does not assert a judicial finding. It may overlap AP-0044, another report of seven Assyrians killed in Dora on 27 September 2004. The chronology's different location detail and casualty count do not by themselves prove a second separate incident.",
+      "actor": "Unknown armed assailants; motive not established",
+      "scope": "Assyrian / Chaldean victims among a broader group",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ],
+      "related_ids": [
+        "AP-0044"
+      ]
+    },
+    {
+      "id": "AP-0096",
+      "year": 2004,
+      "date": "4 November 2004",
+      "country": "Iraq",
+      "place": "Near Fallujah",
+      "lat": 33.35,
+      "lon": 43.78,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Doctor Nadia Hanna Morquos killed while returning from Syria",
+      "summary": "The rights chronology reports the killing of Dr Nadia Hanna Morquos on the road near Fallujah after a trip from Syria, with her husband and son wounded in the attack on the family's car.",
+      "actor": "Unidentified gunmen; motive not established",
+      "scope": "Assyrian-linked Christian family (as reported in community chronology)",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0097",
+      "year": 2004,
+      "date": "8 December 2004",
+      "country": "Iraq",
+      "place": "Ramadi",
+      "lat": 33.42,
+      "lon": 43.31,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian-Chaldean medical professor Raad Augustine Qoryaqos murdered",
+      "summary": "A human-rights chronology reports that Dr Raad Augustine Qoryaqos, originally from Bartella and a medicine professor at al-Anbar University, was shot by three armed men who entered his clinic in Ramadi.",
+      "actor": "Three unidentified armed attackers; motive unverified",
+      "scope": "Assyrian / Chaldean victim",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0098",
+      "year": 2005,
+      "date": "17-18 January 2005",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Syriac Catholic Archbishop Basile Georges Casmoussa kidnapped and freed",
+      "summary": "Gunmen kidnapped the Syriac Catholic archbishop of Mosul, who was released the next day. Contemporary reporting records his own view that the kidnapping may not have targeted the church specifically; a reported ransom demand and claims of no payment should not be conflated with a proven sectarian motive.",
+      "actor": "Unidentified kidnappers; church leaders disputed a religious motive",
+      "scope": "Syriac Catholic church leader, ethnicity not established by contemporary reports",
+      "sources": [
+        {
+          "title": "Archbishop Basile Georges Casmoussa freed after kidnapping - ABC / AFP (19 January 2005)",
+          "url": "https://www.abc.net.au/news/2005-01-19/kidnappers-free-iraqi-archbishop/621136"
+        },
+        {
+          "title": "Kidnappers release Archbishop Casmoussa - Los Angeles Times (18 January 2005)",
+          "url": "https://www.latimes.com/la-011805kidnap_lat-story.html"
+        },
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0099",
+      "year": 2005,
+      "date": "4-5 August 2005",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Medical professor Noel Patros abducted and killed in Mosul",
+      "summary": "The Society for Threatened Peoples' chronology reports the abduction of medicine professor Dr Noel Patros in Mosul on 4 August and his killing the following day. The record does not assign a proven motive or perpetrator.",
+      "actor": "Unknown kidnappers and killers",
+      "scope": "Assyrian-linked Christian victim (as reported in community chronology)",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0100",
+      "year": 2005,
+      "date": "5 August 2005",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian-Chaldean student Anita Tyadors killed in Mosul",
+      "summary": "A human-rights chronology records the killing of student Anita Tyadors, identified as Assyrian-Chaldean, in Mosul on 5 August 2005. Further case details and motive are not provided by the source.",
+      "actor": "Unknown attackers; motive not established",
+      "scope": "Assyrian / Chaldean victim",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0101",
+      "year": 2006,
+      "date": "1 January 2006",
+      "country": "Iraq",
+      "place": "Dora, Baghdad",
+      "lat": 33.26,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian Democratic Movement member Ayad Loqa Lazar killed",
+      "summary": "A human-rights chronology identifies Ayad Loqa Lazar, 44, as an Assyrian Democratic Movement member killed early on New Year's Day in Baghdad's Dora district.",
+      "actor": "Unknown killers; political or sectarian motivation not established",
+      "scope": "Assyrian political activist",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0102",
+      "year": 2006,
+      "date": "25 May 2006",
+      "country": "Iraq",
+      "place": "Kirkuk",
+      "lat": 35.47,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian police captain and community activist Salam Mnati Yousif murdered",
+      "summary": "The Society for Threatened Peoples records the fatal shooting of Kirkuk police captain Salam Mnati Yousif while shopping with his wife. The report identifies him as an Assyrian Democratic Movement member and community activist.",
+      "actor": "Unknown killers; motive remains unestablished",
+      "scope": "Assyrian community representative",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0103",
+      "year": 2006,
+      "date": "30 September 2006",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Christian families in Mosul threatened with death unless they leave",
+      "summary": "A chronology records mobile phone threats against 30 Christian families in Mosul, demanding that they leave Iraq within 72 hours. Ethnic identity is not individually identified for every threatened household.",
+      "actor": "Unidentified individuals issuing religious / communal threats",
+      "scope": "Assyrian-linked and wider Christian households",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0104",
+      "year": 2006,
+      "date": "9-11 October 2006",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Syriac Orthodox priest Paulos Iskandar kidnapped and murdered",
+      "summary": "Priest Paulos Iskandar of the Syriac Orthodox Mar Ephrem church was abducted and killed; church accounts describe demands that relatives and the church respond to a papal speech, alongside a ransom demand. Contemporary reports attribute the crime to unidentified militants.",
+      "actor": "Unidentified abductors and killers",
+      "scope": "Assyrian / Syriac Orthodox church leader",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        },
+        {
+          "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak-2/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0105",
+      "year": 2006,
+      "date": "11 October 2006",
+      "country": "Iraq",
+      "place": "Baqubah",
+      "lat": 33.75,
+      "lon": 44.64,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Christian doctor Joseph Fraidon Potros abducted and murdered",
+      "summary": "The Society for Threatened Peoples' chronology reports that Dr Joseph Fraidon Potros was taken from an office at Baqubah General Hospital and subsequently killed. Another contemporaneous summary describes the killing in Baghdad; the locality conflict requires additional checking.",
+      "actor": "Unidentified kidnappers; disputed locality in contemporary reports",
+      "scope": "Assyrian-linked Christian victim",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        },
+        {
+          "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak-2/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0106",
+      "year": 2006,
+      "date": "21 October 2006",
+      "country": "Iraq",
+      "place": "Baqubah, Diyala",
+      "lat": 33.75,
+      "lon": 44.64,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Reported sectarian murder of Christian teenager Iyad Yanhar",
+      "summary": "The rights chronology describes the killing of a 14-year-old Christian boy identified as Iyad Yanhar after armed men reportedly questioned him about his faith. The account is based on reported eyewitness testimony and not an adjudicated criminal case.",
+      "actor": "Masked gunmen, reportedly using explicit anti-Christian language",
+      "scope": "Christian minor (ethnic identity not individually confirmed)",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        },
+        {
+          "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak-2/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0107",
+      "year": 2006,
+      "date": "29 October 2006",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian Christian Ziyad Abdallah Ajaj killed on way to work",
+      "summary": "A rights organisation reported the shooting of 22-year-old Ziyad Abdallah Ajaj as he travelled to work in Mosul, identifying him as an Assyrian Christian. It supplies no independent finding about the attackers.",
+      "actor": "Unknown armed men; motive not established",
+      "scope": "Assyrian victim",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0108",
+      "year": 2006,
+      "date": "23 November 2006",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Syriac political leader Yeshod Majid Hedaya assassinated in Qaraqosh",
+      "summary": "A rights chronology records the shooting of Yeshod Majid Hedaya, a leader of the Syriac Independent Unified Movement, after his public advocacy for Christian self-administration in the Nineveh Plains. That timing is reported but does not establish who ordered the killing or their motive.",
+      "actor": "Unidentified gunmen; possible political motive reported but not proven",
+      "scope": "Assyrian / Syriac political community",
+      "sources": [
+        {
+          "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak/"
+        },
+        {
+          "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak-2/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0109",
+      "year": 2006,
+      "date": "27 December 2006 and following days",
+      "country": "Iraq",
+      "place": "Karrada, Baghdad",
+      "lat": 33.3,
+      "lon": 44.44,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Christmas-tree sellers abducted in Baghdad; three reportedly killed",
+      "summary": "The Society for Threatened Peoples reports the kidnapping of five Christian Christmas-tree sellers in the Karrada quarter of Baghdad on 27 December 2006, and the subsequent discovery of three victims' bodies. Ethnic identities of each individual are not established in the report.",
+      "actor": "Unknown kidnappers and killers",
+      "scope": "Christian community; possible Assyrian-linked victims not individually identified",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0110",
+      "year": 2007,
+      "date": "16 January 2007",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Sargon Sabah Yakob Khamro killed in attack on couple in Bakhdida",
+      "summary": "The rights chronology records an attack on Sargon Sabah Yakob Khamro, 26, and his wife in Bakhdida. He was killed and she was seriously injured. The motive and assailant are not identified.",
+      "actor": "Unidentified gunmen; motive not established",
+      "scope": "Assyrian / Syriac-linked Christian family",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0111",
+      "year": 2007,
+      "date": "26 March 2007",
+      "country": "Iraq",
+      "place": "Kirkuk",
+      "lat": 35.47,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Two Assyrian-Chaldean nuns murdered at Kirkuk residence",
+      "summary": "An incident chronology reports that sisters Fawzeiyah Naoum, aged 85, and Margret Naoum, aged 79, were stabbed at their residence near the Cathedral of the Virgin in Kirkuk. Police reportedly found that nothing had been stolen.",
+      "actor": "Unidentified attackers; motive not established",
+      "scope": "Assyrian / Chaldean religious sisters",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0112",
+      "year": 2007,
+      "date": "May 2007",
+      "country": "Iraq",
+      "place": "Dora, Baghdad",
+      "lat": 33.26,
+      "lon": 44.39,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Extortion and forced-conversion threats against Christian families in Dora",
+      "summary": "Human-rights reporting describes armed groups threatening Christian residents of Dora with death unless they converted, paid religious levies or left. The entry summarises a neighbourhood-level campaign rather than counting each threatened household as a separate attack.",
+      "actor": "Unidentified armed groups and local extremists, according to contemporaneous reports",
+      "scope": "Assyrian-linked and wider Christian community",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0113",
+      "year": 2007,
+      "date": "31 May 2007",
+      "country": "Iraq",
+      "place": "Archangel Raphael monastery, Baghdad",
+      "lat": 33.31,
+      "lon": 44.4,
+      "type": "Property seizure",
+      "evidence": "reported",
+      "title": "Christian monastery in Baghdad reportedly looted and occupied",
+      "summary": "A Society for Threatened Peoples chronology says armed extremists entered the monastery of the Archangel Raphael in Baghdad, stole possessions and occupied the premises while two religious sisters were absent. The exact address and later property outcome are not established.",
+      "actor": "Armed extremist group as characterised by community witnesses; identity unconfirmed",
+      "scope": "Assyrian-linked Chaldean Catholic institution",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0114",
+      "year": 2007,
+      "date": "21-22 June 2007",
+      "country": "Iraq",
+      "place": "Mosul area (bus route)",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Christian students and professors abducted from examination bus near Mosul",
+      "summary": "Rights reporting records the abduction of five Christian students and three professors from a bus after examinations near Mosul. All eight were reportedly released on 22 June following ransom payments. The source does not establish every person's ethnicity.",
+      "actor": "Unidentified gunmen who blocked the bus",
+      "scope": "Assyrian-linked and wider Christian academic community",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0115",
+      "year": 2007,
+      "date": "27 June 2007",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Two Assyrian Bethnahrin Patriotic Union members killed in Mosul",
+      "summary": "The Society for Threatened Peoples' incident chronology names Zuher Yusuf Stayfo, chair of the Bethnahrin Patriotic Union in Mosul, and Luay Sleyman Numan as abducted and murdered following a roadside stop. The perpetrators were not identified.",
+      "actor": "Unidentified armed men; motive not independently adjudicated",
+      "scope": "Assyrian political activists",
+      "sources": [
+        {
+          "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+          "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0116",
+      "year": 2017,
+      "date": "27 October 2017",
+      "country": "Iraq",
+      "place": "Enshki, Duhok",
+      "lat": 37,
+      "lon": 43.07,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Reported desecration of Assyrian cemetery in Enshki",
+      "summary": "A December 2025 community-news investigation retrospectively identifies an October 2017 vandalism of the Christian / Assyrian cemetery in Enshki village. Details of damage and perpetrators require additional primary local reporting.",
+      "actor": "Unidentified vandals; retrospective attribution only",
+      "scope": "Assyrian cemetery community",
+      "sources": [
+        {
+          "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
+          "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/"
+        }
+      ],
+      "related_ids": [
+        "AP-0117",
+        "AP-0118",
+        "AP-0119",
+        "AP-0120"
+      ]
+    },
+    {
+      "id": "AP-0117",
+      "year": 2024,
+      "date": "10 February 2024",
+      "country": "Iraq",
+      "place": "Shaqlawa, Erbil governorate",
+      "lat": 36.41,
+      "lon": 44.32,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Earlier Assyrian cemetery vandalism in Shaqlawa",
+      "summary": "A 2025 investigation documents a separate reported attack on Assyrian graves in Shaqlawa dated 10 February 2024. It is distinct from the December 2025 incident at another cemetery; case documentation is retrospective.",
+      "actor": "Unidentified vandals; no confirmed motive or perpetrators in cited report",
+      "scope": "Assyrian cemetery community",
+      "sources": [
+        {
+          "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
+          "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/"
+        },
+        {
+          "title": "Shaqlawa cemetery attack and other grave desecration - The Assyria Post (19 December 2025)",
+          "url": "https://www.assyriapost.com/christian-graves-vandalized-in-new-kurdish-attack-against-assyrians-in-northern-iraq/"
+        }
+      ],
+      "related_ids": [
+        "AP-0116",
+        "AP-0118",
+        "AP-0119",
+        "AP-0120"
+      ]
+    },
+    {
+      "id": "AP-0118",
+      "year": 2025,
+      "date": "4 December 2025 (damage discovered)",
+      "country": "Iraq",
+      "place": "Armota, Koy Sanjaq district",
+      "lat": 36.17,
+      "lon": 44.81,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Assyrian / Chaldean graves desecrated in Armota",
+      "summary": "Local residents and Assyrian community organisations reported around 15 damaged graves in Armota, including broken crosses and headstones. The site is distinct from the Shaqlawa attacks. Community sources disagree slightly about the exact date, variously 4 or 6 December.",
+      "actor": "Unidentified vandals; community groups alleged broader hostility without identifying the offenders",
+      "scope": "Assyrian / Syriac / Chaldean burial community",
+      "sources": [
+        {
+          "title": "Armota Assyrian / Syriac / Chaldean cemetery desecrated - SyriacPress (5 December 2025)",
+          "url": "https://syriacpress.com/blog/2025/12/05/recently-renovated-chaldean-syriac-assyrian-cemetery-in-armota-kurdistan-region-of-iraq-desecrated/"
+        },
+        {
+          "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
+          "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/"
+        }
+      ],
+      "related_ids": [
+        "AP-0116",
+        "AP-0117",
+        "AP-0119",
+        "AP-0120"
+      ]
+    },
+    {
+      "id": "AP-0119",
+      "year": 2025,
+      "date": "5 December 2025 (reported)",
+      "country": "Iraq",
+      "place": "Mar Khanana Church, Deralok, Duhok",
+      "lat": 37.08,
+      "lon": 43.74,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Assyrian Church of the East site pelted with stones in Deralok",
+      "summary": "Community reporting describes stones and mud thrown at Mar Khanana Church in the Deralok district of Duhok governorate, damaging or soiling the site. It was reported within days of the Armota cemetery desecration but is a separate location and incident.",
+      "actor": "Unidentified vandals; motive and outcome of any investigation not verified",
+      "scope": "Assyrian Church of the East congregation",
+      "sources": [
+        {
+          "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
+          "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/"
+        },
+        {
+          "title": "Shaqlawa cemetery attack and other grave desecration - The Assyria Post (19 December 2025)",
+          "url": "https://www.assyriapost.com/christian-graves-vandalized-in-new-kurdish-attack-against-assyrians-in-northern-iraq/"
+        }
+      ],
+      "related_ids": [
+        "AP-0116",
+        "AP-0117",
+        "AP-0118",
+        "AP-0120"
+      ]
+    },
+    {
+      "id": "AP-0120",
+      "year": 2025,
+      "date": "12 December 2025 (reported date)",
+      "country": "Iraq",
+      "place": "Shaqlawa, Erbil governorate",
+      "lat": 36.41,
+      "lon": 44.32,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Dozens of Assyrian graves damaged in new Shaqlawa cemetery",
+      "summary": "Published reporting describes a further attack on a newly established cemetery in Shaqlawa, with crosses and headstones smashed. One community source says about 30 graves; another says about 40. A suspect was later reportedly detained; counts and judicial outcomes remain to be reconciled.",
+      "actor": "Single man reportedly shown in footage; detention reported but legal outcome unconfirmed",
+      "scope": "Assyrian / Syriac / Chaldean burial community",
+      "sources": [
+        {
+          "title": "Shaqlawa cemetery attack and other grave desecration - The Assyria Post (19 December 2025)",
+          "url": "https://www.assyriapost.com/christian-graves-vandalized-in-new-kurdish-attack-against-assyrians-in-northern-iraq/"
+        },
+        {
+          "title": "Shaqlawa Christian cemetery desecrated - SyriacPress (16 December 2025)",
+          "url": "https://syriacpress.com/blog/2025/12/16/new-attack-on-chaldean-syriac-assyrian-cemetery-in-kurdistan-region-of-iraq-40-graves-in-shaqlawa-desecrated-two-weeks-after-armota-incident/"
+        }
+      ],
+      "related_ids": [
+        "AP-0116",
+        "AP-0117",
+        "AP-0118",
+        "AP-0119"
+      ]
+    },
+    {
+      "id": "AP-0121",
+      "year": 2025,
+      "date": "17 March 2025",
+      "country": "Syria",
+      "place": "Tel Masses (Tell Massas), Khabur Valley",
+      "lat": 36.56,
+      "lon": 40.45,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Assyrian Christian graves and crosses damaged at Tel Masses",
+      "summary": "The local Assyrian Democratic Party reported broken crosses and damaged headstones at the Assyrian village cemetery in Tel Masses in the Khabur Valley. The March 2025 report says the perpetrators were still unknown.",
+      "actor": "Unknown vandals; investigation reportedly ongoing",
+      "scope": "Assyrian Khabur village community",
+      "sources": [
+        {
+          "title": "Assyrian cemetery vandalised in Tel Masses - SyriacPress (19 March 2025)",
+          "url": "https://syriacpress.com/blog/2025/03/19/assyrian-cemetery-vandalized-in-tel-masses-khabur-river-valley/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0122",
+      "year": 2025,
+      "date": "February 2025 (reported 21 February)",
+      "country": "Syria",
+      "place": "Zaidal, Homs governorate",
+      "lat": 34.71,
+      "lon": 36.8,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Syriac Orthodox church cemetery vandalised in Zaidal",
+      "summary": "The Syriac Orthodox Archdiocese of Homs, Hama and Tartus issued a statement condemning damage to crosses and other Christian grave markers in Zaidal. The report provides circulated footage but does not identify the responsible individuals.",
+      "actor": "Unidentified cemetery vandals",
+      "scope": "Syriac Orthodox local Christian community; ethnicity of those buried not individually established",
+      "sources": [
+        {
+          "title": "Syriac Orthodox archdiocese statement on Zaidal cemetery desecration - SyriacPress (21 February 2025)",
+          "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0123",
+      "year": 2025,
+      "date": "September 2025 (reported 4 September)",
+      "country": "Turkey",
+      "place": "St Hirmiz Chaldean Church, Mardin",
+      "lat": 37.31,
+      "lon": 40.73,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Religious symbols desecrated at St Hirmiz Chaldean Church in Mardin",
+      "summary": "Community reporting describes an individual insulting worshippers and desecrating sacred symbols, including a cross, inside St Hirmiz Chaldean Church in Mardin. Video was circulated publicly. The reporting claims security personnel were present, but neither their involvement nor the perpetrator's identity is established here.",
+      "actor": "Individual seen in circulating video; identity and police outcome unknown",
+      "scope": "Chaldean Catholic Assyrian-linked congregation",
+      "sources": [
+        {
+          "title": "St Hirmiz Chaldean church desecrated in Mardin - SyriacPress (4 September 2025)",
+          "url": "https://syriacpress.com/blog/2025/09/04/ancient-chaldean-church-in-merde-mardin-desecrated-amid-rising-concerns-for-minority-rights/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0124",
+      "year": 2026,
+      "date": "10-13 April 2026 (Good Friday and investigation)",
+      "country": "Sweden",
+      "place": "Santa Maria Syriac Orthodox Church, Orebro",
+      "lat": 59.27,
+      "lon": 15.21,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Reported bomb threat involving Syriac Orthodox Easter congregation in Orebro",
+      "summary": "Swedish public broadcaster SVT reports a suspected threat and rumours of a bomb directed at the Santa Maria Syriac Orthodox church during Orthodox Easter. Police attended in strength and investigated a passer-by for alleged unlawful threats. Whether the individual was connected to the original bomb-threat rumour remained unclear; no bomb or attack was confirmed.",
+      "actor": "Unidentified origin of reported threat; individual investigated for alleged unlawful threats",
+      "scope": "Syriac Orthodox / Assyrian diaspora congregation",
+      "sources": [
+        {
+          "title": "Bomb threat involving Syriac Orthodox St Mary church in Orebro - SVT (13 April 2026)",
+          "url": "https://www.svt.se/nyheter/lokalt/orebro/bombhot-mot-syrisk-ortodoxa-kyrkan-i-orebro-en-person-utreds-for-brott"
         }
       ]
     }

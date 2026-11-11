@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-12",
+  "scope": "Incremental source triage for AP-0081 through AP-0124; earlier records were compiled before this register existed. A source marked reviewed means the specific Assyrian-connected reports identified during this editorial pass were reconciled, not that the source is complete for all times. Partial sources are deliberately flagged for future research. This audit is not an independent fact-check or link-uptime guarantee.",
+  "sources": [
+    {
+      "url": "https://bx1.be/categories/news/un-acte-grave-de-negationnisme-le-monument-commemorant-le-genocide-arameen-a-jette-vandalise/",
+      "title": "Jette 1915 genocide monument vandalised - BX1 / Belga (29 August 2023)",
+      "captured_record_ids": [
+        "AP-0082"
+      ],
+      "review_status": "reviewed",
+      "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/",
+      "title": "Syriac Orthodox archdiocese statement on Zaidal cemetery desecration - SyriacPress (21 February 2025)",
+      "captured_record_ids": [
+        "AP-0122"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/03/19/assyrian-cemetery-vandalized-in-tel-masses-khabur-river-valley/",
+      "title": "Assyrian cemetery vandalised in Tel Masses - SyriacPress (19 March 2025)",
+      "captured_record_ids": [
+        "AP-0121"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/09/04/ancient-chaldean-church-in-merde-mardin-desecrated-amid-rising-concerns-for-minority-rights/",
+      "title": "St Hirmiz Chaldean church desecrated in Mardin - SyriacPress (4 September 2025)",
+      "captured_record_ids": [
+        "AP-0123"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/12/05/recently-renovated-chaldean-syriac-assyrian-cemetery-in-armota-kurdistan-region-of-iraq-desecrated/",
+      "title": "Armota Assyrian / Syriac / Chaldean cemetery desecrated - SyriacPress (5 December 2025)",
+      "captured_record_ids": [
+        "AP-0118"
+      ],
+      "review_status": "reviewed",
+      "notes": "Cemetery reporting is cross-referenced across Shaqlawa and Armota; differing casualty and damage counts retained as attribution, not averaged."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2025/12/16/new-attack-on-chaldean-syriac-assyrian-cemetery-in-kurdistan-region-of-iraq-40-graves-in-shaqlawa-desecrated-two-weeks-after-armota-incident/",
+      "title": "Shaqlawa Christian cemetery desecrated - SyriacPress (16 December 2025)",
+      "captured_record_ids": [
+        "AP-0120"
+      ],
+      "review_status": "reviewed",
+      "notes": "Cemetery reporting is cross-referenced across Shaqlawa and Armota; differing casualty and damage counts retained as attribution, not averaged."
+    },
+    {
+      "url": "https://www.abc.net.au/news/2005-01-19/kidnappers-free-iraqi-archbishop/621136",
+      "title": "Archbishop Basile Georges Casmoussa freed after kidnapping - ABC / AFP (19 January 2005)",
+      "captured_record_ids": [
+        "AP-0098"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.assyriapost.com/christian-graves-vandalized-in-new-kurdish-attack-against-assyrians-in-northern-iraq/",
+      "title": "Shaqlawa cemetery attack and other grave desecration - The Assyria Post (19 December 2025)",
+      "captured_record_ids": [
+        "AP-0117",
+        "AP-0119",
+        "AP-0120"
+      ],
+      "review_status": "reviewed",
+      "notes": "December 2025 Shaqlawa graves attack distinguished from February 2024; reported grave count differs among sources."
+    },
+    {
+      "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/",
+      "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
+      "captured_record_ids": [
+        "AP-0116",
+        "AP-0117",
+        "AP-0118",
+        "AP-0119"
+      ],
+      "review_status": "reviewed",
+      "notes": "Retrospective 2017 Enshki, February 2024 Shaqlawa, and December 2025 Armota and Deralok are distinct; no duplicate entry for the same cemetery event."
+    },
+    {
+      "url": "https://www.assyriapost.com/vandalism-at-assyrian-church-in-antwerp-raises-concern-among-assyrian-community/",
+      "title": "Antwerp church vandalism and earlier St James incident - The Assyria Post (2026)",
+      "captured_record_ids": [
+        "AP-0081"
+      ],
+      "review_status": "reviewed",
+      "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta."
+    },
+    {
+      "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/",
+      "title": "Jette genocide monument damage - CathoBel (30 August 2023)",
+      "captured_record_ids": [
+        "AP-0082"
+      ],
+      "review_status": "reviewed",
+      "notes": "Second contemporary account of the August 2023 Jette incident, not an additional attack."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/bombenanschlag-auf-rueckkehrwillige-assyrisch-aramaeische-christen-in-der-tuerkei/",
+      "title": "Bomb attack on Syriac / Assyrian returnees in Tur Abdin - Society for Threatened Peoples (2005)",
+      "captured_record_ids": [
+        "AP-0083"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/",
+      "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
+      "captured_record_ids": [
+        "AP-0088",
+        "AP-0089",
+        "AP-0090",
+        "AP-0091",
+        "AP-0092",
+        "AP-0093",
+        "AP-0094",
+        "AP-0095",
+        "AP-0096",
+        "AP-0097",
+        "AP-0098",
+        "AP-0099",
+        "AP-0100",
+        "AP-0101",
+        "AP-0102",
+        "AP-0103",
+        "AP-0104",
+        "AP-0105",
+        "AP-0106",
+        "AP-0107",
+        "AP-0109",
+        "AP-0110",
+        "AP-0111",
+        "AP-0112",
+        "AP-0113",
+        "AP-0114",
+        "AP-0115"
+      ],
+      "review_status": "partial",
+      "notes": "Multi-year incident chronology contains many more cases than currently extracted; requires progressive incident-by-incident study, corroboration and checking for repetition against all pre-2008 records."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/church-bombed-in-mosul/",
+      "title": "Attack on Maskanta church during Mosul violence - Society for Threatened Peoples (2008)",
+      "captured_record_ids": [
+        "AP-0087"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak-2/",
+      "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+      "captured_record_ids": [
+        "AP-0104",
+        "AP-0105",
+        "AP-0106",
+        "AP-0108"
+      ],
+      "review_status": "partial",
+      "notes": "Long chronology overlaps the GfbV summary and AP-series records; do not generate duplicates from parallel posts or retellings."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/das-schicksal-der-aramaeischsprachigen-assyro-chaldaeer-im-irak/",
+      "title": "Assyrian-Chaldean Iraq incident chronology (2006) - Society for Threatened Peoples",
+      "captured_record_ids": [
+        "AP-0108"
+      ],
+      "review_status": "partial",
+      "notes": "Long chronology overlaps the GfbV summary and AP-series records; do not generate duplicates from parallel posts or retellings."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/return-of-christian-refugees-remains-uncertain/",
+      "title": "Bomb attack at the home of Midyat church council chair - Society for Threatened Peoples (2007)",
+      "captured_record_ids": [
+        "AP-0086"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.gfbv.de/aktuelles/news/return-of-the-christian-assyrians-to-turkey-permanently-threatened/",
+      "title": "Bomb attack on Assyrian activist's home and earlier attacks - Society for Threatened Peoples (2006)",
+      "captured_record_ids": [
+        "AP-0084",
+        "AP-0085"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
+      "title": "2018 Antwerp St James church incident - Observatory on Intolerance and Discrimination against Christians in Europe",
+      "captured_record_ids": [
+        "AP-0081"
+      ],
+      "review_status": "reviewed",
+      "notes": "January 2018 St James incident extracted; this country-wide index includes general church incidents not necessarily connected to Assyrians. Further entries require a demonstrated Assyrian connection."
+    },
+    {
+      "url": "https://www.latimes.com/la-011805kidnap_lat-story.html",
+      "title": "Kidnappers release Archbishop Casmoussa - Los Angeles Times (18 January 2005)",
+      "captured_record_ids": [
+        "AP-0098"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/orebro/bombhot-mot-syrisk-ortodoxa-kyrkan-i-orebro-en-person-utreds-for-brott",
+      "title": "Bomb threat involving Syriac Orthodox St Mary church in Orebro - SVT (13 April 2026)",
+      "captured_record_ids": [
+        "AP-0124"
+      ],
+      "review_status": "reviewed",
+      "notes": "A bomb threat was reported, with police investigation; no bomb and no link between all rumours and the suspect established."
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "url": "https://www.assyriapost.com/suspect-arrested-in-fire-at-assyrian-church-construction-site-no-religious-motive-found/",
+      "status": "excluded",
+      "reason": "German investigators reported no religious or political motivation for the 2026 Leimen construction fire. It is not currently classified as anti-Assyrian persecution."
+    },
+    {
+      "url": "https://stj-sy.org/wp-content/uploads/2025/08/The-Bombing-of-Mar-Elias-Church-in-Dweilaa-and-the-Limited-Official-Response.pdf",
+      "status": "pending",
+      "reason": "A rights group report may identify a separate December 2024 attack on a Syriac Orthodox church in Qamishli. Review full primary report and corroborate event circumstances and date before adding."
+    }
+  ]
+}

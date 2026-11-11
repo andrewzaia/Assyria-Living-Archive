@@ -17,7 +17,8 @@ def load_records():
     data = json.loads(DATA_PATH.read_text(encoding='utf-8'))
     records = data['records']
     assert data['schema_version'] == 1 and len(records) > 0
-    assert len({record['id'] for record in records}) == len(records)
+    ids = {record['id'] for record in records}
+    assert len(ids) == len(records)
     natural_earth = json.loads((Path(__file__).resolve().parent /
         'archive/maps/natural-earth-countries.geojson').read_text(encoding='utf-8'))
     map_countries = {feature['properties']['ADMIN'] for feature in natural_earth['features']}
@@ -27,6 +28,9 @@ def load_records():
         assert record['type'] in TYPES and record['evidence'] in EVIDENCE
         assert COUNTRY_ALIASES.get(record['country'], record['country']) in map_countries, record['country']
         assert record.get('scope') and len(record['scope']) < 160
+        related = record.get('related_ids', [])
+        assert isinstance(related, list) and len(related) == len(set(related)), record['id']
+        assert all(other in ids and other != record['id'] for other in related), record['id']
         lat, lon = record['lat'], record['lon']
         assert (lat is None) == (lon is None), record['id']
         if lat is not None:
@@ -62,6 +66,11 @@ def render():
         links = ''.join('<li><a href="' + h(s['url']) +
                         '" target="_blank" rel="noopener noreferrer">' + h(s['title']) +
                         '</a></li>' for s in r['sources'])
+        related_html = ''
+        if r.get('related_ids'):
+            related_html = ('<nav class="ap-related" aria-label="Related incident records"><strong>Related reports:</strong> ' +
+                ' '.join('<a href="#' + h(other.lower()) + '" data-ap-related="' + h(other) + '">' +
+                         h(other) + '</a>' for other in r['related_ids']) + '</nav>')
         return ('<article class="ap-case" id="' + h(r['id'].lower()) + '" data-ap-id="' +
                 h(r['id']) + '" data-ap-year="' + str(r['year']) +
                 '" data-ap-country="' + h(r['country']) + '" data-ap-type="' +
@@ -78,7 +87,7 @@ def render():
                 '<p class="ap-case-scope"><strong>Community covered:</strong> ' +
                 h(r['scope']) + '</p><p>' + h(r['summary']) +
                 '</p><p class="ap-actor"><strong>Reported actor or context:</strong> ' +
-                h(r['actor']) + '</p></div>' + media_html + '</div>' +
+                h(r['actor']) + '</p></div>' + media_html + '</div>' + related_html +
                 '<details class="ap-citations"><summary>Sources and references (' +
                 str(len(r['sources'])) + ')</summary><ul>' + links + '</ul></details></article>')
     filters_country = '<option value="">All countries</option>' + ''.join(
@@ -119,6 +128,7 @@ def render():
 <section class="ap-method" id="persecution-method"><span class="eyebrow">RESEARCH STANDARDS AND LIMITS</span><h2>How to interpret the catalogue.</h2>
 <p><strong>Community covered</strong> distinguishes direct Assyrian cases from Syriac, church-linked and wider Christian accounts. Inclusion records a documented connection to Assyrian history or institutions; it does not assign one ethnicity to everyone affected. Incidents against Assyrian institutions abroad are recorded even when their motives are unresolved.</p>
 <p><strong>Historical research</strong> denotes an event recorded in historical scholarship; <strong>documented account</strong> denotes a named published investigation or official record; <strong>reported account</strong> preserves the attribution of a report or allegation without independently adjudicating it. These labels describe evidence presentation, not a numerical reliability score.</p>
+<p>When a source documents more than one relevant incident, each event is assessed separately. Related report links connect distinct records without merging their dates or counting one event twice. The maintained source-review register identifies source lists still awaiting further event extraction.</p>
 <p>Selected historical campaigns are represented by regional entries, while modern cases may be individual attacks, testimony or country-level assessments. Event groups may overlap (for example, the 2014 Nineveh Plains offensive and town-specific attacks), so the total is a count of catalogue entries, not distinct events. Counts therefore must not be used to compare the prevalence or severity of persecution across countries or centuries. Coordinates are approximate and not intended for identifying victims, private property or exact attack sites.</p>
 <p>Photographs appear only when a reuse-checked local archive file is available. Historical contextual photographs are explicitly labelled; no remotely hosted media is embedded. Links open the original published source and do not imply institutional endorsement. <a href="/governance/">Read the archive's corrections policy</a> or <a href="/contribute/">prepare a sourced addition</a>. Basemap: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth public-domain geography</a>, retained locally.</p>
 <p><a href="/articles/sayfo/">Read about Sayfo</a> / <a href="/articles/simele/">Read about Simele</a> / <a href="/map/">Explore the historical atlas</a>.</p></section>

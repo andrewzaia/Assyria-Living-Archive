@@ -13,3 +13,6 @@
 @media(prefers-reduced-motion:reduce){.ap-country{transition:none}}
 
 .ap-case p.ap-case-scope{font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:12px}.ap-case-scope strong{color:var(--ink)}
+
+.ap-related{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:8px 0 14px;font-size:12px;color:var(--muted)}
+.ap-related a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.ap-related a:focus-visible{outline:2px solid currentColor;outline-offset:2px}
