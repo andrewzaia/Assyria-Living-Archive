@@ -210,7 +210,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('AP-0175', by_id['AP-0196']['related_ids'])
         self.assertIn('1998', by_id['AP-0194']['summary'])
         self.assertIn('unimplemented', by_id['AP-0195']['summary'])
-        self.assertIn('former Iraqi regime', by_id['AP-0193']['actor'])
+        self.assertIn('Former Iraqi authorities', by_id['AP-0193']['actor'])
         self.assertIn('1,500', by_id['AP-0181']['summary'])
         self.assertIn('not proof', by_id['AP-0181']['summary'].lower())
         self.assertIn('94 land-claim rows', self.markup)
