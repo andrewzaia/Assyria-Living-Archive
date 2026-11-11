@@ -5139,6 +5139,152 @@
       "related_ids": [
         "AP-0182"
       ]
+    },
+    {
+      "id": "AP-0213",
+      "year": 2025,
+      "date": "10 September 2025; anti-terrorism investigation transfer in October",
+      "country": "France",
+      "place": "Lyon",
+      "lat": 45.75,
+      "lon": 4.85,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Ashur Sarnaya, Iraqi Chaldean-Syriac-Assyrian Christian, murdered in Lyon",
+      "summary": "Ashur Sarnaya, a 45-year-old Iraqi Christian using a wheelchair and known for discussing his faith online, was stabbed to death outside his home in Lyon while livestreaming on 10 September 2025. An Assyrian community report identified him as Chaldean-Syriac-Assyrian. French authorities expanded the inquiry to terrorism-related offences on 9 October and transferred it to specialist investigators; the transfer is not a conviction or proof of a religious motive. The published reports reviewed here do not establish a final judicial outcome.",
+      "actor": "Knife attacker; subsequent terrorism-related inquiry, with motive and final liability unproven in cited reporting",
+      "scope": "Iraqi Chaldean-Syriac-Assyrian Christian victim, as identified by community reporting",
+      "sources": [
+        {
+          "title": "Ashur Sarnaya murder investigation transferred to anti-terrorism authorities - Le Parisien/AFP (13 October 2025)",
+          "url": "https://www.leparisien.fr/faits-divers/meurtre-dun-chretien-irakien-a-lyon-lenquete-confiee-au-pole-antiterroriste-13-10-2025-YTMNKS4SH5DNZFFUAO5WTEFDAU.php"
+        },
+        {
+          "title": "Ashur Sarnaya identified as Chaldean-Syriac-Assyrian refugee - SyriacPress (16 September 2025)",
+          "url": "https://syriacpress.com/blog/2025/09/16/in-lyon-the-killing-of-ashur-sarnaya-raises-questions-france-is-reluctant-to-face/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0214",
+      "year": 2016,
+      "date": "Refugee accommodation account published 14 July 2016",
+      "country": "Germany",
+      "place": "Berlin, refugee housing (specific residence undisclosed)",
+      "lat": 52.52,
+      "lon": 13.38,
+      "type": "Harassment",
+      "evidence": "reported",
+      "title": "Syriac Orthodox refugee reports religious harassment in German accommodation",
+      "summary": "In a July 2016 radio investigation, Tarek Bakhous, a Syrian Christian interviewed in the Syriac Orthodox Church of Antiochia in Berlin, said that fellow refugee-housing residents confronted him over possessing beer and told him the Muslim residents were the majority and he could leave if he disliked their rules. He said he subsequently left the shared home. The same report relayed broader Open Doors survey allegations, but those figures do not identify a confirmed Assyrian sample or establish a separate individual incident. This case records Bakhous's direct allegation, not a finding about all Muslim refugees or the German authorities.",
+      "actor": "Fellow residents of an assigned refugee home, as described by Tarek Bakhous; no official adjudication reported",
+      "scope": "Syriac Orthodox Syrian Christian refugee; personal Assyrian ethnicity not independently confirmed",
+      "sources": [
+        {
+          "title": "Syriac Orthodox refugee describes harassment in Berlin accommodation - GBH/PRI (14 July 2016)",
+          "url": "https://www.wgbh.org/news/2016-07-14/these-syrian-christians-fled-muslim-extremist-harassment-then-they-found-it-again-in-germany"
+        }
+      ]
+    },
+    {
+      "id": "AP-0215",
+      "year": 2001,
+      "date": "After 11 September 2001; exact date not stated in retrospective 2003 report",
+      "country": "Netherlands",
+      "place": "Syriac Orthodox church, Roelf Bosmastraat, Rijssen",
+      "lat": 52.31,
+      "lon": 6.52,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Petrol bomb thrown into Syriac Orthodox church building in Rijssen after September 2001",
+      "summary": "A July 2003 report citing local police recalls that soon after the September 2001 attacks in the United States, a window of an association room at Rijssen's Syriac Orthodox church was smashed and a petrol bomb was thrown inside without igniting. Police could not identify a perpetrator or confirm speculation that the church had been mistaken for a Muslim institution. The event is separate from the 2003 attack on the same church.",
+      "actor": "Unknown attacker; suspected mistaken identity was explicitly unproven according to police",
+      "scope": "Syriac Orthodox congregation in Rijssen, historically linked to south-east Turkey",
+      "sources": [
+        {
+          "title": "Firebombs thrown at Syriac Orthodox church in Rijssen, and prior 2001 attack - Reformatorisch Dagblad (30 July 2003)",
+          "url": "https://www.rd.nl/artikel/brandbommen-tegen-kerkgebouw-rijssen"
+        }
+      ],
+      "related_ids": [
+        "AP-0216"
+      ]
+    },
+    {
+      "id": "AP-0216",
+      "year": 2003,
+      "date": "Night of 28-29 July 2003 (reported 30 July)",
+      "country": "Netherlands",
+      "place": "Syriac Orthodox church, Roelf Bosmastraat, Rijssen",
+      "lat": 52.31,
+      "lon": 6.52,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Two firebombs thrown at Syriac Orthodox church in Rijssen",
+      "summary": "Local reporting said unknown people threw two Molotov cocktails towards the Syriac Orthodox church on Roelf Bosmastraat during the night before 30 July 2003. The projectiles fell next to the building, while police observed black marks on a wall and window; a neighbourhood investigation followed. Police said the motive, perpetrators and any connection with the separate 2001 petrol-bomb incident were unknown.",
+      "actor": "Unidentified firebomb throwers; no proven ethnic, religious or other motive",
+      "scope": "Syriac Orthodox congregation in Rijssen, historically linked to south-east Turkey",
+      "sources": [
+        {
+          "title": "Firebombs thrown at Syriac Orthodox church in Rijssen, and prior 2001 attack - Reformatorisch Dagblad (30 July 2003)",
+          "url": "https://www.rd.nl/artikel/brandbommen-tegen-kerkgebouw-rijssen"
+        }
+      ],
+      "related_ids": [
+        "AP-0215"
+      ]
+    },
+    {
+      "id": "AP-0217",
+      "year": 2010,
+      "date": "Before 8 September 2010 (first reported defacement after August unveiling)",
+      "country": "Australia",
+      "place": "Assyrian Genocide Memorial, Bonnyrigg, Sydney",
+      "lat": -33.89,
+      "lon": 150.89,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Assyrian genocide memorial in Sydney defaced with anti-Assyrian slogans in 2010",
+      "summary": "Shortly after the Assyrian Genocide Memorial opened in Bonnyrigg in August 2010, vandals painted a Turkish crescent-and-star emblem and explicitly anti-Assyrian messages onto the memorial and removed its plaque. The Armenian National Committee of Australia reported that Fairfield police had discovered the damage and condemned it. The slogans establish anti-Assyrian content; the published statement does not identify the perpetrators or prove any wider community's responsibility.",
+      "actor": "Unknown vandals; anti-Assyrian graffiti documented, perpetrators not established",
+      "scope": "Assyrian diaspora and genocide-remembrance memorial in Sydney",
+      "sources": [
+        {
+          "title": "Assyrian genocide memorial vandalism condemned - Armenian National Committee of Australia (8 September 2010)",
+          "url": "https://www.anc.org.au/news/ANC-Australia-condemns-vandalism-of-Genocide-monument"
+        }
+      ],
+      "related_ids": [
+        "AP-0218"
+      ]
+    },
+    {
+      "id": "AP-0218",
+      "year": 2015,
+      "date": "15 April 2015 (reported 16 April)",
+      "country": "Australia",
+      "place": "Assyrian Genocide Memorial, Bonnyrigg, Sydney",
+      "lat": -33.89,
+      "lon": 150.89,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Assyrian genocide memorial in Bonnyrigg vandalised with swastikas in 2015",
+      "summary": "The Assyrian Genocide Memorial in Bonnyrigg was defaced again in April 2015 with Nazi swastikas and abusive messages directed at Assyrians, Armenians and Jews. Community representatives condemned the incident, and contemporary reporting described a police investigation. This is a separate dated attack from 2010 and cannot be attributed to any ethnic community without evidence about the perpetrators.",
+      "actor": "Unknown vandals; explicit ethnic and religious hate messages, no identified perpetrators in the cited reports",
+      "scope": "Assyrian, Armenian and Jewish communities targeted by memorial graffiti",
+      "sources": [
+        {
+          "title": "Vandalism of Fairfield Assyrian genocide memorial - Armenian National Committee of Australia (16 April 2015)",
+          "url": "https://www.anc.org.au/news/Media-Releases/STATEMENT--Armenians--Assyrians--Jews-targeted-in-vandalism-of-Fairfield-NSW-Memorial"
+        },
+        {
+          "title": "Sydney Assyrian memorial vandalised with swastikas - Neos Kosmos (21 April 2015)",
+          "url": "https://neoskosmos.com/en/sydney-assyrian-memorial-vandalised/"
+        }
+      ],
+      "related_ids": [
+        "AP-0217"
+      ]
     }
   ]
 }
