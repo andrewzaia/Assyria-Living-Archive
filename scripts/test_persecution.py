@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 80)
+        self.assertGreaterEqual(len(self.records), 124)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -69,6 +69,47 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('United States', self.markup)
         self.assertIn('Vandalism', self.markup)
         self.assertIn('Cultural destruction', self.markup)
+
+    def test_2018_antwerp_source_lead_and_related_cases_are_preserved(self):
+        by_id = {r['id']: r for r in self.records}
+        self.assertEqual(len(by_id), len(self.records))
+        antwerp2018 = by_id['AP-0081']
+        self.assertEqual(antwerp2018['year'], 2018)
+        self.assertEqual(antwerp2018['country'], 'Belgium')
+        self.assertIn('14-15 January', antwerp2018['date'])
+        self.assertIn('AP-0081', by_id['AP-0077']['related_ids'])
+        self.assertIn('AP-0077', antwerp2018['related_ids'])
+        self.assertNotEqual(antwerp2018['place'], by_id['AP-0077']['place'])
+        self.assertEqual(by_id['AP-0082']['year'], 2023)
+        self.assertEqual(by_id['AP-0082']['country'], 'Belgium')
+        self.assertIn('Jette', by_id['AP-0082']['place'])
+        self.assertNotIn('AP-0082', by_id['AP-0077'].get('related_ids', []))
+        for r in self.records:
+            for other in r.get('related_ids', []):
+                self.assertIn(other, by_id)
+                self.assertIn('#' + other.lower(), self.parser.links)
+        self.assertIn('data-ap-related="AP-0081"', self.markup)
+        js = (ROOT / 'static/persecution.js').read_text(encoding='utf-8')
+        self.assertIn('a[data-ap-related]', js)
+        self.assertIn('cards.get(link.dataset.apRelated).hidden', js)
+
+    def test_source_audit_tracks_each_new_entry_and_deferred_leads(self):
+        audit = json.loads((ROOT / 'data/persecution-source-audit.json').read_text(encoding='utf-8'))
+        self.assertEqual(audit['schema_version'], 1)
+        self.assertGreaterEqual(len(audit['sources']), 15)
+        by_id = {r['id']: r for r in self.records}
+        captured = set()
+        for entry in audit['sources']:
+            self.assertIn(entry['review_status'], ('reviewed', 'partial'))
+            self.assertTrue(entry['notes'] and entry['url'].startswith('https://'))
+            self.assertTrue(entry['captured_record_ids'])
+            for id_ in entry['captured_record_ids']:
+                self.assertIn(id_, by_id)
+                self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
+                captured.add(id_)
+        self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81})
+        self.assertTrue(any(e['status'] == 'pending' for e in audit['excluded_or_pending']))
+        self.assertTrue(any(e['status'] == 'excluded' for e in audit['excluded_or_pending']))
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
