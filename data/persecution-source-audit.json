@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Living register of source-specific checks for AP-0081 through AP-0182. Cases include individually dated violence, continuing land claims and a regional multi-decade study; record counts are not a measure of unique attacks, confirmed cadastral parcels, or victims. Allegations concerning Kurdish private claimants, KRG institutions, other administrations and unidentified actors are kept distinct. KRG responses are retained where sourced. A reviewed/partial status measures research coverage, not the truth of a claim; older AP-0001 through AP-0080 still require the same systematic audit.",
+  "scope": "Incremental source-by-source audit for AP-0081 through AP-0198. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 16 additional distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -297,6 +297,15 @@
       "notes": "December 2025 Shaqlawa graves attack distinguished from February 2024; reported grave count differs among sources."
     },
     {
+      "url": "https://www.assyriapost.com/groups-warn-of-new-kurdish-land-grab-in-assyrian-village-of-bakhetme/",
+      "title": "Assyrian parties warn against proposed 1,500-dunam Bakhetme reallocation - Assyria Post (7 January 2026)",
+      "captured_record_ids": [
+        "AP-0181"
+      ],
+      "review_status": "partial",
+      "notes": "The January 2026 Assyrian party statement reports a proposed allocation of around 1,500 dunams, not a completed 2026 seizure. The report distinguishes 1983 Baath-era military expropriation, post-1991 return, the 1995 restitution directive, and the 2026 development proposal; original title, directive and implementation records remain unexamined."
+    },
+    {
       "url": "https://www.assyriapost.com/new-attacks-on-assyrian-graves-and-church-highlight-pattern-of-impunity-in-kurdish-led-northern-iraq/",
       "title": "New attacks on Assyrian graves and church in northern Iraq - The Assyria Post (7 December 2025)",
       "captured_record_ids": [
@@ -318,6 +327,19 @@
       "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta."
     },
     {
+      "url": "https://www.atour.com/news/assyria/20080813a.html",
+      "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+      "captured_record_ids": [
+        "AP-0185",
+        "AP-0187",
+        "AP-0192",
+        "AP-0193",
+        "AP-0198"
+      ],
+      "review_status": "partial",
+      "notes": "Majed Eshoo's 2008 Assyrian village survey provides contextual histories and separate claims for selected 2019-annex village rows. It is a community-authored historical account, not independent verification of each claimant or property title. Former Iraqi regime actions must not be retrospectively attributed to KRG institutions."
+    },
+    {
       "url": "https://www.atour.com/news/assyria/20121001a.html",
       "title": "Kori Gavana and Babelu land disputes, including published KRG response - Assyrian Information Management (2012-2013)",
       "captured_record_ids": [
@@ -333,10 +355,26 @@
       "title": "Dispossession and Expropriation of Assyrian Lands - Assyrian Aid Society-Iraq (2019)",
       "captured_record_ids": [
         "AP-0174",
-        "AP-0182"
+        "AP-0182",
+        "AP-0183",
+        "AP-0184",
+        "AP-0185",
+        "AP-0186",
+        "AP-0187",
+        "AP-0188",
+        "AP-0189",
+        "AP-0190",
+        "AP-0191",
+        "AP-0192",
+        "AP-0193",
+        "AP-0194",
+        "AP-0195",
+        "AP-0196",
+        "AP-0197",
+        "AP-0198"
       ],
       "review_status": "partial",
-      "notes": "2019 Assyrian Aid Society study claims more than 70 affected villages across different eras. It is one multi-region report, not 70 separately confirmed or newly counted incidents."
+      "notes": "2019 Assyrian Aid Society-Iraq United Nations Universal Periodic Review submission includes 94 tabulated village/property claim rows. AP-0183 through AP-0198 index 16 distinguishable named village cases with source row numbers; several concern earlier 1960s or former Iraqi-regime dispossession, and many are unadjudicated claims. Treat annex and overview AP-0182 as one source, not 94 verified crimes or independent judicial validation. Survey as a whole remains partly triaged."
     },
     {
       "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/",
@@ -717,6 +755,11 @@
       "url": "https://syriacpress.com/blog/2026/06/30/chaldean-syriac-assyrian-political-parties-respond-to-villager-appeals-over-illegal-land-encroachment-in-nohadra-duhok/",
       "status": "pending",
       "reason": "Separate June 2026 Tel Keppe / Jaber bin Hayyan housing-project objections refer to a proposed distribution, not a proven completed seizure. Do not catalogue as dispossession without supporting documents."
+    },
+    {
+      "url": "https://www.assyriapost.com/groups-warn-of-new-kurdish-land-grab-in-assyrian-village-of-bakhetme/",
+      "status": "pending",
+      "reason": "Retrieve land registry and referenced 1995 regional restitution directive for Bakhetme; the 2026 plan for 1,500 dunams was proposed, not shown as implemented in January reporting."
     }
   ]
 }
