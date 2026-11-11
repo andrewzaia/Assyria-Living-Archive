@@ -41,12 +41,19 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 20)
+        self.assertGreaterEqual(len(self.records), 80)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
-                         {'Iran', 'Iraq', 'Syria', 'Turkey'})
+                         {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
+                          'Sweden', 'Syria', 'Turkey', 'United States'})
         self.assertLess(min(r['year'] for r in self.records), 1900)
-        self.assertGreater(max(r['year'] for r in self.records), 2020)
+        self.assertGreaterEqual(max(r['year'] for r in self.records), 2026)
+        self.assertTrue(all(r.get('scope') for r in self.records))
+        self.assertTrue(all(r['sources'] and all(s['url'].startswith('https://')
+                       for s in r['sources']) for r in self.records))
+        self.assertTrue(any(r['lat'] is None and r['lon'] is None for r in self.records))
+        self.assertTrue(all((r['lat'] is None) == (r['lon'] is None)
+                            for r in self.records))
 
     def test_all_records_are_server_rendered_with_direct_references(self):
         self.assertCountEqual(self.parser.cards, [r['id'] for r in self.records])
@@ -57,6 +64,22 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('id="ap-reset"', self.markup)
         self.assertIn('id="ap-country"', self.markup)
         self.assertIn('id="ap-data"', self.markup)
+        self.assertEqual(self.markup.count('Community covered:</strong>'), len(self.records))
+        self.assertIn('1843 - 2026', self.markup)
+        self.assertIn('United States', self.markup)
+        self.assertIn('Vandalism', self.markup)
+        self.assertIn('Cultural destruction', self.markup)
+
+    def test_world_geography_matches_catalogue_and_unlocated_cases(self):
+        from persecution_page import COUNTRY_ALIASES
+        features = json.loads((ROOT / 'archive/maps/natural-earth-countries.geojson').read_text(encoding='utf-8'))['features']
+        names = {f['properties']['ADMIN'] for f in features}
+        for record in self.records:
+            self.assertIn(COUNTRY_ALIASES.get(record['country'], record['country']), names)
+        js = (ROOT / 'static/persecution.js').read_text(encoding='utf-8')
+        self.assertIn("'United States of America' ? 'United States'", js)
+        self.assertIn('Number.isFinite(record.lon)', js)
+        self.assertIn('Number.isFinite(record.lat)', js)
 
     def test_media_is_local_and_attributed(self):
         for image in self.parser.images:
