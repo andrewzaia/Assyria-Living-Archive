@@ -9,6 +9,7 @@ EDITORIAL_ARTICLES = FOUNDATION_ARTICLES + BIBLICAL_ARTICLES
 from archive_support import load_references, reference_sources, corpus_metrics, normalise
 from article_media import render as render_article_media, report as media_report, triage as media_triage, load_library, validate_library
 from map_page import render_atlas
+from persecution_page import render as render_persecution
 from glossary import render as render_glossary
 from language_page import render as render_languages, validate as validate_languages
 from heritage_page import DATA as HERITAGE_DATA, render as render_heritage, validate as validate_heritage
@@ -322,6 +323,7 @@ if __name__=='__main__':
     write('/samaria-succession/index.html',shell('Fall of Samaria and Assyrian succession','Eight source-scoped biblical and Assyrian comparisons tracing Menahem, Pekah, Hoshea, Shalmaneser V and Sargon II.','/samaria-succession/',render_samaria(heading, SAMARIA_DATA['stages'], SAMARIA_VIEW, SAMARIA_COUNTS, SAMARIA_DATA['chronology_note']),'samaria-succession','<link rel="stylesheet" href="/samaria-succession.css"><script defer src="/samaria-succession.js"></script>'))
     write('/exile-provinces/index.html',shell('Exile, resettlement and Assyrian provincial life','Twelve source-typed studies with original Assyrian tax correspondence, biblical exile passages, museum objects and archaeological limits.','/exile-provinces/',render_exile(heading, EXILE_DATA['categories'], EXILE_VIEW, EXILE_COUNTS, EXILE_DATA['scope_note']),'exile-provinces','<link rel="stylesheet" href="/exile-provinces.css"><script defer src="/exile-provinces.js"></script>'))
     bible_paths = make_bible_pages(write, shell, heading, card, EDITORIAL_ARTICLES)
+    write('/persecution/index.html', shell('Assyrian persecution', 'Explore source-attributed Assyrian persecution reports and historical events on an interactive, locally hosted country heat map.', '/persecution/', render_persecution(), 'persecution', '<link rel="stylesheet" href="/persecution.css"><script defer src="/persecution.js"></script>'))
     write('/map/index.html', shell('Interactive historical map', 'Explore the growth and contraction of ancient Assyria with eleven dated map sketches, a draggable timeline and locally preserved geographical data.', '/map/', render_atlas(), 'map', '<link rel="stylesheet" href="/map.css"><script defer src="/map.js"></script>'))
     payload={'edition':'Research and preservation edition 01','compiled':'2026-10-26','articles':[{k:v for k,v in a.items() if k not in ('html','record','headings')} for a in ARTICLES],'sources':SOURCES,'topics':CATS}
     write('/catalogue.json',json.dumps(payload,ensure_ascii=False))
@@ -331,7 +333,7 @@ if __name__=='__main__':
     robots_text = 'User-agent: *\nAllow: /\n' if ALLOW_INDEXING else 'User-agent: *\nDisallow: /\n'
     if ALLOW_INDEXING:
         from xml.sax.saxutils import escape as xml_escape
-        pages = ['/', '/explore/', '/timeline/', '/map/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/identity-register/', '/royal-witnesses/', '/samaria-succession/', '/exile-provinces/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
+        pages = ['/', '/explore/', '/timeline/', '/map/', '/persecution/', '/glossary/', '/languages/', '/heritage/', '/governance/', '/stewardship/', '/audit/', '/dossiers/', '/middle-assyrian/', '/case-files/', '/text-comparisons/', '/concordance/', '/identity-register/', '/royal-witnesses/', '/samaria-succession/', '/exile-provinces/', '/about/expansion/', '/about/evidence/', '/sources/', '/about/', '/credits/'] + bible_paths + [link(a['slug']) for a in ARTICLES]
         sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         sitemap += ''.join('<url><loc>' + xml_escape(public_url(path)) + '</loc></url>' for path in pages)
         write('/sitemap.xml', sitemap + '</urlset>\n')
