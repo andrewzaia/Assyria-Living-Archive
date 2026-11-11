@@ -41,12 +41,12 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 218)
+        self.assertGreaterEqual(len(self.records), 226)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
-                         {'Australia', 'Belgium', 'France', 'Georgia', 'Germany',
-                          'Iran', 'Iraq', 'Netherlands', 'Sweden', 'Syria',
-                          'Turkey', 'United States'})
+                         {'Australia', 'Azerbaijan', 'Belgium', 'France', 'Georgia',
+                          'Germany', 'Iran', 'Iraq', 'Netherlands', 'Russia',
+                          'Sweden', 'Syria', 'Turkey', 'Ukraine', 'United States'})
         self.assertLess(min(r['year'] for r in self.records), 1900)
         self.assertGreaterEqual(max(r['year'] for r in self.records), 2026)
         self.assertTrue(all(r.get('scope') for r in self.records))
@@ -274,6 +274,42 @@ class PersecutionTests(unittest.TestCase):
         self.assertEqual(excluded['https://persecution.org/2026/06/19/videos-show-damage-to-historic-iraqi-assyrian-church/']['status'], 'pending')
         self.assertTrue(all(r['lat'] is not None and r['lon'] is not None
                             for r in tranche))
+
+    def test_soviet_geography_and_specific_archive_evidence(self):
+        by_id = {r['id']: r for r in self.records}
+        new = [r for r in self.records if 219 <= int(r['id'][3:]) <= 226]
+        self.assertEqual(len(new), 8)
+        self.assertEqual({r['country'] for r in new},
+                         {'Ukraine', 'Russia', 'Azerbaijan', 'Georgia', 'Syria'})
+        self.assertEqual({r['id'] for r in new},
+                         {f'AP-{i:04d}' for i in range(219, 227)})
+        self.assertTrue(all(r['sources'] for r in new))
+        self.assertEqual(by_id['AP-0219']['type'], 'State repression')
+        self.assertIsNone(by_id['AP-0219']['lat'])
+        self.assertIn('Soviet state', by_id['AP-0219']['summary'])
+        self.assertIn('Khayadta', by_id['AP-0220']['title'])
+        self.assertIn('80 Assyrians', by_id['AP-0220']['summary'])
+        self.assertIn('8 January 1938', by_id['AP-0221']['date'])
+        self.assertIn('8 January 1938', by_id['AP-0222']['date'])
+        self.assertEqual(by_id['AP-0221']['related_ids'],
+                         ['AP-0220', 'AP-0222'])
+        self.assertIn('AP-0221', by_id['AP-0220']['related_ids'])
+        self.assertEqual(by_id['AP-0223']['country'], 'Azerbaijan')
+        self.assertIsNone(by_id['AP-0223']['lat'])
+        self.assertIn('Soviet', by_id['AP-0223']['actor'])
+        self.assertIn('not attribute', by_id['AP-0223']['summary'])
+        self.assertIn('AP-0035', by_id['AP-0223']['related_ids'])
+        self.assertEqual(by_id['AP-0224']['country'], 'Georgia')
+        self.assertIn('1926', by_id['AP-0224']['date'])
+        self.assertEqual(by_id['AP-0225']['year'], 1937)
+        self.assertIn('newspaper', by_id['AP-0225']['summary'])
+        self.assertEqual(by_id['AP-0226']['country'], 'Syria')
+        self.assertIn('2021', by_id['AP-0226']['date'])
+        self.assertIsNone(by_id['AP-0226']['lat'])
+        self.assertIn('AP-0226', by_id['AP-0062']['related_ids'])
+        self.assertIn('AP-0226', by_id['AP-0020']['related_ids'])
+        self.assertIn('State repression', self.markup)
+        self.assertIn('Soviet-era cases', self.markup)
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
