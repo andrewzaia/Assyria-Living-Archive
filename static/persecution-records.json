@@ -3912,7 +3912,8 @@
       ],
       "related_ids": [
         "AP-0175",
-        "AP-0179"
+        "AP-0179",
+        "AP-0196"
       ]
     },
     {
@@ -4104,7 +4105,8 @@
         }
       ],
       "related_ids": [
-        "AP-0155"
+        "AP-0155",
+        "AP-0195"
       ]
     },
     {
@@ -4133,7 +4135,11 @@
       ],
       "related_ids": [
         "AP-0179",
-        "AP-0182"
+        "AP-0182",
+        "AP-0191",
+        "AP-0192",
+        "AP-0193",
+        "AP-0194"
       ]
     },
     {
@@ -4161,7 +4167,8 @@
         }
       ],
       "related_ids": [
-        "AP-0165"
+        "AP-0165",
+        "AP-0196"
       ]
     },
     {
@@ -4302,21 +4309,25 @@
     {
       "id": "AP-0181",
       "year": 2026,
-      "date": "7 January 2026 public submission (incident date unspecified)",
+      "date": "1983 prior seizure; proposed 1,500-dunam reallocation announced 4 January 2026",
       "country": "Iraq",
-      "place": "Bakhitmeh village, northern Iraq",
+      "place": "Bakhetme (Bakhitmeh), Simele district, Duhok",
       "lat": null,
       "lon": null,
       "type": "Land encroachment",
       "evidence": "reported",
-      "title": "Assyrian representative body reports property reallocations in Bakhitmeh",
-      "summary": "An Assyrian advocacy body stated in a January 2026 submission to international organisations that property in Bakhitmeh was being appropriated and allocated to people outside the community. Its online statement does not supply case numbers, parcel boundaries, acquisition dates or a court decision, and a separate independent investigation has not been found. The claim is retained solely as an explicitly attributed and unresolved allegation.",
-      "actor": "Unidentified administrators or recipients alleged in advocacy submission; individual or ethnic responsibility not established",
+      "title": "Bakhetme villagers challenge proposed reallocation of 1,500 dunams of Assyrian land",
+      "summary": "A 4 January 2026 statement from Assyrian parties warned that more than 1,500 dunams of Bakhetme agricultural land might be reallocated to Peshmerga personnel and regional employees. The organisations said the former Iraqi government took the land for a military camp in 1983, while post-1991 restitution was not completed despite a 1995 regional return directive. The sources report a proposed reclassification and ongoing ownership dispute, NOT proof that the 2026 redistribution had been completed.",
+      "actor": "Former Iraqi regime (1983 military use) and a proposed KRG municipal reallocation (2026); Assyrian landownership and implementation contested",
       "scope": "Assyrian landowners and families",
       "sources": [
         {
           "title": "Assyrian Parliament submission naming Bakhitmeh land appropriation allegations (7 January 2026)",
           "url": "https://assyriaparliament.com/index.php/2026/01/07/leadershipannoncement-2-2-2-2/"
+        },
+        {
+          "title": "Assyrian parties warn against proposed 1,500-dunam Bakhetme reallocation - Assyria Post (7 January 2026)",
+          "url": "https://www.assyriapost.com/groups-warn-of-new-kurdish-land-grab-in-assyrian-village-of-bakhetme/"
         }
       ]
     },
@@ -4349,7 +4360,434 @@
         }
       ],
       "related_ids": [
+        "AP-0174",
+        "AP-0183",
+        "AP-0184",
+        "AP-0185",
+        "AP-0186",
+        "AP-0187",
+        "AP-0188",
+        "AP-0189",
+        "AP-0190",
+        "AP-0191",
+        "AP-0192",
+        "AP-0193",
+        "AP-0194",
+        "AP-0195",
+        "AP-0196",
+        "AP-0197",
+        "AP-0198"
+      ]
+    },
+    {
+      "id": "AP-0183",
+      "year": 1961,
+      "date": "From 1961 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Kasse, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Kasse village land reportedly occupied by neighbouring Zibari-clan residents",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 62, lists the whole Kasse village as occupied since 1961 by Kurdish residents of neighbouring villages identified with the Zibari clan. Its table also describes earlier wartime displacement. The annex is a community land-claim record, not an independent court finding.",
+      "actor": "Private claimants from neighbouring villages identified in the annex as linked to the Zibari clan",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 62 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0184",
+      "year": 1961,
+      "date": "From 1961 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Bamishmish, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Bamishmish Assyrian land claim concerning occupation of village after 1961",
+      "summary": "Annex row 63 to the 2019 Assyrian Aid Society-Iraq submission lists Bamishmish among villages displaced after fighting from 1961 and alleges later occupation of the entire village by people from neighbouring Zibari-clan communities. It gives no parcel-level ruling or eviction outcome.",
+      "actor": "Private claimants in neighbouring villages, described by the Assyrian Aid Society as Zibari-clan Kurdish residents",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 63 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0185",
+      "year": 1961,
+      "date": "1961 onwards (date approximate)",
+      "country": "Iraq",
+      "place": "Doode Maseeh, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported occupation of Assyrian Doode Maseeh village land after displacement",
+      "summary": "Annex row 64 records a community complaint that Doode Maseeh village land was taken by neighbouring Zibari-clan residents following the early-1960s fighting and displacement. A separate 2008 regional historical survey also describes Dode Maseeh as an Assyrian village lost after 1961. Specific title instruments and court outcomes were not examined.",
+      "actor": "Neighbouring private Kurdish claimants identified with the Zibari clan in the 2019 report",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 64 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+          "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0186",
+      "year": 1961,
+      "date": "After 1961 (date approximate)",
+      "country": "Iraq",
+      "place": "Mar Zambi, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Mar Zambi whole-village dispossession claim in Dinarta",
+      "summary": "The Assyrian Aid Society-Iraq annex, row 65, lists Mar Zambi as an Assyrian settlement displaced in the early-1960s conflict and alleges occupation of village land by people from neighbouring Kurdish Zibari-clan villages. The survey provides no separately accessible final judgement or individual parcel map.",
+      "actor": "Private neighbouring claimants described in the Assyrian Aid Society survey as Zibari-clan residents",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 65 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0187",
+      "year": 1991,
+      "date": "Following 1991 return; occupation began earlier in some accounts",
+      "country": "Iraq",
+      "place": "Qarawola (Qara Wola), Zakho district",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian owners contest whole-village land claims at Qarawola",
+      "summary": "The 2019 Assyrian Aid Society annex, row 4, lists Qarawola's whole village and a title-deed claim against occupation by residents of neighbouring villages. Majed Eshoo's 2008 local history describes eviction by the former Iraqi regime in 1975 and an attempted Assyrian return after 1991 alongside disputed rival ownership claims. The reports distinguish those historical state expulsions from later private land disputes.",
+      "actor": "Former Iraqi authorities in 1975; rival private village claimants after 1991, described as Kurdish in Eshoo's research",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 4 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+          "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0188",
+      "year": 1991,
+      "date": "1991 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Yousif Ava, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Yousif Ava whole-village agricultural-land claim after 1991",
+      "summary": "Assyrian Aid Society-Iraq's annex row 5 identifies agricultural land comprising the whole of Yousif Ava as reportedly taken in 1991 by residents of neighbouring villages. The source does not name specific claimants or provide a final court decision; village boundaries have not been independently geolocated.",
+      "actor": "Unidentified residents of neighbouring villages, per Assyrian Aid Society's dated claim record",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 5 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0189",
+      "year": 1991,
+      "date": "1991 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Shwadin, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Whole-village agricultural land reportedly appropriated in Shwadin",
+      "summary": "The 2019 Assyrian Aid Society annex, row 6, reports that influential private individuals from an adjoining settlement occupied Shwadin agricultural lands constituting the whole village in 1991. Whether the occupation persisted, or a later title judgement resolved it, is not confirmed by the annex.",
+      "actor": "Influential neighbouring-village individuals, as alleged in the annex; ethnicity of individuals not independently documented",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 6 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0190",
+      "year": 1991,
+      "date": "1991 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Navkindal, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian landowners report 2,600 dunams taken at Navkindal",
+      "summary": "The Assyrian Aid Society annex, row 8, records a 1991 claim involving 2,600 Iraqi dunams of Navkindal farmland and pasture attributed to residents of neighbouring villages. The area is a source-reported figure, not a verified modern cadastral measurement.",
+      "actor": "Private neighbouring-village residents as reported by the Assyrian Aid Society; specific names and legal findings not provided",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 8 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0191",
+      "year": 1991,
+      "date": "From 1991 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Hamzik, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian Hamzik residents allege occupation and construction throughout village",
+      "summary": "Assyrian Aid Society-Iraq annex row 18 lists claims over Hamzik agricultural land, houses, water supplies and communal land, with new buildings, a mosque and tourism development following 1991. It attributes alleged control to influential neighbouring-village individuals. The whole-village description is a reported historical claim, not proof that all residents were subsequently expelled.",
+      "actor": "Influential private individuals from neighbouring settlements, according to the Assyrian Aid Society's 2019 register",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 18 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
         "AP-0174"
+      ]
+    },
+    {
+      "id": "AP-0192",
+      "year": 1992,
+      "date": "1992 (surveyed 2019)",
+      "country": "Iraq",
+      "place": "Benatha, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Benatha residents report 110 dunams and a military-camp land claim",
+      "summary": "Annex row 19 in the Assyrian Aid Society-Iraq submission identifies 110 dunams of claimed Benatha farmland and water sources allegedly affected by a military camp and neighbouring settlement development in 1992. A separate Assyrian village history describes ongoing private encroachments. State involvement and private neighbouring claims are separate elements; no enforcement outcome is established.",
+      "actor": "KRG entities and residents of neighbouring villages, distinguished as separate alleged claimants",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 19 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+          "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
+        "AP-0174"
+      ]
+    },
+    {
+      "id": "AP-0193",
+      "year": 1992,
+      "date": "1976-2005 multiple reported appropriations; post-1991 phase 1992",
+      "country": "Iraq",
+      "place": "Enishke, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Enishke village reports multiple state and private land encroachments",
+      "summary": "The Assyrian Aid Society annex, row 20, itemises separate claims affecting Enishke farmland, pasture, tourism sites and the village cave from 1976 through 2005, including a 1992 allocation by regional finance and construction bodies and private encroachments. A 2008 village history attributes earlier village destruction to the former Iraqi government and allied irregulars in 1961. These distinct periods and actors are grouped into one location-level file, not converted into a dozen verified seizures.",
+      "actor": "Former Iraqi authorities, KRG finance, construction and tourism agencies, and private neighbouring claimants in separate periods",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 20 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+          "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
+        "AP-0174"
+      ]
+    },
+    {
+      "id": "AP-0194",
+      "year": 1984,
+      "date": "1984 claim; 1998 return instructions",
+      "country": "Iraq",
+      "place": "Dery and Meristek, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Dery-Meristek land appropriation contested despite recorded 1998 orders",
+      "summary": "The Assyrian Aid Society annex, row 22, records a 1984 claim involving 434 dunams transferred under the former Iraqi regime for housing and municipal use in Dery and Meristek. It lists a 15 April 1998 agricultural/forestry decision and KRG parliament decision 4215 dated 1 November 1998 ordering removal of encroachment. These decisions are reported in the annex; their actual enforcement has not been independently established.",
+      "actor": "Former Iraqi regime and later Amadiya municipal offices, plus separate alleged use of village water resources",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 22 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
+        "AP-0174"
+      ]
+    },
+    {
+      "id": "AP-0195",
+      "year": 1963,
+      "date": "1963 original claim; 1975 agricultural allocation; 17 May 1994 committee finding",
+      "country": "Iraq",
+      "place": "Cham Rabatkeh, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian Cham Rabatkeh farmers cite 1994 land ownership committee finding",
+      "summary": "Assyrian Aid Society-Iraq annex row 40 describes approximately 54 dunams at Cham Rabatkeh as used by a neighbouring group identified with the Zibari clan since the 1960s, while citing 1975 agricultural distributions and an Assyrian-favourable agricultural committee decision numbered 1 on 17 May 1994. The 2019 survey says this decision remained unimplemented. The reported underlying land claim is distinct from the 2013 armed assault recorded separately.",
+      "actor": "Private claimants identified as members of the Zibari clan in the community annex; decision attributed to an agricultural committee",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 40 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
+        "AP-0173"
+      ]
+    },
+    {
+      "id": "AP-0196",
+      "year": 1991,
+      "date": "Occupation reported after 1991; court rulings October-November 2016 and February 2017",
+      "country": "Iraq",
+      "place": "Sholi (Zhouli), Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Sholi farmland claim and reported non-enforcement of 2016-2017 court decisions",
+      "summary": "The Assyrian Aid Society-Iraq annex, row 42, identifies contested farmland of about 130 dunams in Sholi and neighbouring Khalilani/Hizanke customary areas, allocated in 1975 to 117 Assyrian farmers. It cites court decisions on 5 October, 24 October and 21 November 2016, and 23 February 2017, which the Society says upheld Assyrian ownership but did not prevent renewed cultivation and construction. These may overlap the previously catalogued multi-family appellate dispute; no double-counting of families is warranted.",
+      "actor": "Private neighbouring-village claimants, according to Assyrian Aid Society; the source separately identifies dated regional court decisions",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 42 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182",
+        "AP-0175",
+        "AP-0165"
+      ]
+    },
+    {
+      "id": "AP-0197",
+      "year": 2006,
+      "date": "2006-2011 reported period",
+      "country": "Iraq",
+      "place": "Babilo (Babblo), Amadiya district",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Babilo Assyrian land claim against tourism allocation and neighbouring use",
+      "summary": "The Assyrian Aid Society-Iraq annex, row 83, lists 417 dunams of Babilo farmland and pasture in dispute during 2006-2011, attributed jointly to a Dohuk tourism directorate and residents of adjoining villages. It describes a right-of-disposal claim, not a confirmed final freehold title. No completed court restitution is established by the published list.",
+      "actor": "Dohuk Directorate of Tourism and private neighbouring-village occupants, as attributed by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 83 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0198",
+      "year": 1991,
+      "date": "1991 occupation allegation; former regime development described separately",
+      "country": "Iraq",
+      "place": "Derabon (Derabun), Rizgari subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian Derabon villagers report post-1991 occupation of agricultural land",
+      "summary": "The 2019 Assyrian Aid Society annex, row 3, describes separate land problems at Derabon: approximately 1,000 dunams of farmland occupied from 1991, and about 3,000 dunams and a 300-house development associated with the former Iraqi regime. A 2008 Assyrian village survey confirms separate earlier Arabisation and post-1991 settlement claims. The source roles and periods are not interchangeable.",
+      "actor": "Former Iraqi authorities for earlier development; post-1991 neighbouring residents alleged to occupy farmland, per community reporting",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 3 (reproduced by Atour)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
+          "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
       ]
     }
   ]

@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 182)
+        self.assertGreaterEqual(len(self.records), 198)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -155,7 +155,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_assyrian_land_rights_and_documented_kurdish_actor_cases(self):
         by_id = {r['id']: r for r in self.records}
-        self.assertEqual(len(by_id), 182)
+        self.assertEqual(sum(int(r['id'][3:]) <= 182 for r in self.records), 182)
         new = [r for r in self.records if 171 <= int(r['id'][3:]) <= 182]
         self.assertEqual(len(new), 12)
         self.assertTrue(all(r['country'] == 'Iraq' for r in new))
@@ -187,6 +187,34 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('AP-0179', by_id['AP-0165'].get('related_ids', []))
         self.assertIn('AP-0177', by_id['AP-0164'].get('related_ids', []))
         self.assertNotIn('AP-0180', by_id['AP-0171'].get('related_ids', []))
+
+    def test_assyrian_village_annex_evidence_and_crosslinks(self):
+        by_id = {r['id']: r for r in self.records}
+        annex = [r for r in self.records if 183 <= int(r['id'][3:]) <= 198]
+        self.assertEqual(len(annex), 16)
+        self.assertTrue(all(r['country'] == 'Iraq' for r in annex))
+        self.assertTrue(all(r['type'] == 'Land encroachment' for r in annex))
+        self.assertTrue(all(r['evidence'] == 'reported' for r in annex))
+        self.assertTrue(all(r['lat'] is None and r['lon'] is None for r in annex))
+        self.assertTrue(all('AP-0182' in r.get('related_ids', []) for r in annex))
+        self.assertTrue(all(r['id'] in by_id['AP-0182']['related_ids'] for r in annex))
+        self.assertTrue(all(any('annex, row ' in s['title'] for s in r['sources']) for r in annex))
+        self.assertEqual(len(set(int(s['title'].split('annex, row ')[1].split(' ')[0])
+                                 for r in annex for s in r['sources']
+                                 if 'annex, row ' in s['title'])), 16)
+        self.assertIn('1994', by_id['AP-0195']['summary'])
+        self.assertIn('1975', by_id['AP-0195']['summary'])
+        self.assertIn('AP-0173', by_id['AP-0195']['related_ids'])
+        self.assertIn('2016', by_id['AP-0196']['summary'])
+        self.assertIn('2017', by_id['AP-0196']['summary'])
+        self.assertIn('AP-0175', by_id['AP-0196']['related_ids'])
+        self.assertIn('1998', by_id['AP-0194']['summary'])
+        self.assertIn('unimplemented', by_id['AP-0195']['summary'])
+        self.assertIn('Former Iraqi authorities', by_id['AP-0193']['actor'])
+        self.assertIn('1,500', by_id['AP-0181']['summary'])
+        self.assertIn('not proof', by_id['AP-0181']['summary'].lower())
+        self.assertIn('94 land-claim rows', self.markup)
+        self.assertNotIn('AP-0198', by_id['AP-0181'].get('related_ids', []))
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
