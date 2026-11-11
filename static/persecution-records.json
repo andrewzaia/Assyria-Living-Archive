@@ -272,7 +272,17 @@
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm"
         }
       ],
-      "scope": "Assyrian-linked and shared Christian communities"
+      "scope": "Assyrian-linked and shared Christian communities",
+      "related_ids": [
+        "AP-0130",
+        "AP-0131",
+        "AP-0132",
+        "AP-0133",
+        "AP-0134",
+        "AP-0135",
+        "AP-0136",
+        "AP-0137"
+      ]
     },
     {
       "id": "AP-0012",
@@ -293,7 +303,15 @@
           "url": "https://www.ecoi.net/en/document/1067272.html"
         }
       ],
-      "scope": "Shared Christian communities (ethnicity not established for each victim)"
+      "scope": "Shared Christian communities (ethnicity not established for each victim)",
+      "related_ids": [
+        "AP-0141",
+        "AP-0142",
+        "AP-0143",
+        "AP-0144",
+        "AP-0145",
+        "AP-0146"
+      ]
     },
     {
       "id": "AP-0013",
@@ -561,7 +579,11 @@
           "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
         }
       ],
-      "scope": "Assyrian-linked and shared Christian communities"
+      "scope": "Assyrian-linked and shared Christian communities",
+      "related_ids": [
+        "AP-0150",
+        "AP-0151"
+      ]
     },
     {
       "id": "AP-0025",
@@ -1082,6 +1104,9 @@
           "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
           "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
         }
+      ],
+      "related_ids": [
+        "AP-0130"
       ]
     },
     {
@@ -2847,6 +2872,653 @@
           "title": "Bomb threat involving Syriac Orthodox St Mary church in Orebro - SVT (13 April 2026)",
           "url": "https://www.svt.se/nyheter/lokalt/orebro/bombhot-mot-syrisk-ortodoxa-kyrkan-i-orebro-en-person-utreds-for-brott"
         }
+      ]
+    },
+    {
+      "id": "AP-0125",
+      "year": 2005,
+      "date": "2 November 2005",
+      "country": "Iraq",
+      "place": "Mar Giwargis Church, Kirkuk",
+      "lat": 35.47,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Three people reportedly killed in attack on Mar Giwargis Church in Kirkuk",
+      "summary": "A Canadian refugee-board review cites an earlier rights-monitoring chronology reporting three civilian deaths in an attack on the Mar Giwargis church in Kirkuk. The available review does not specify identities or judicial findings.",
+      "actor": "Unidentified attackers; motive or individual responsibility not established",
+      "scope": "Christian congregation at a Syriac / Assyrian-linked church; individual ethnicities unconfirmed",
+      "sources": [
+        {
+          "title": "Iraq: Situation of Christians and Attacks 2003-2008 - Immigration and Refugee Board of Canada (2009)",
+          "url": "https://www.irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=452184"
+        }
+      ]
+    },
+    {
+      "id": "AP-0126",
+      "year": 2006,
+      "date": "29 January 2006",
+      "country": "Iraq",
+      "place": "Churches in Kirkuk and Baghdad (coordinated attacks)",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Coordinated car bombs at churches in Kirkuk and Baghdad",
+      "summary": "The US religious-freedom report describes near-simultaneous church bombings; a US diplomatic cable documents two vehicles exploding near Kirkuk's Mar Afram and Virgin Mary churches, killing and injuring civilians. Reports differ over the overall count and casualty totals; the linked attacks are grouped as one coordinated wave.",
+      "actor": "Unknown bombers",
+      "scope": "Assyrian / Syriac-linked and wider Christian worshippers",
+      "sources": [
+        {
+          "title": "2006 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2006/38902"
+        },
+        {
+          "title": "Kirkuk Churches Bombed: US diplomatic cable documenting 29 January 2006 attacks",
+          "url": "https://wikileaks.jcvignoli.com/cable_06KIRKUK20"
+        }
+      ]
+    },
+    {
+      "id": "AP-0127",
+      "year": 2006,
+      "date": "27 September 2006",
+      "country": "Iraq",
+      "place": "Holy Spirit Church, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Rocket attack against Chaldean Holy Spirit Church in Mosul",
+      "summary": "Canada's refugee research review records a rocket attack on the Church of the Holy Spirit on 27 September. It is distinct from a reported shooting against the same church eight days later, and is not an additional count of the wider 2006 intimidation campaign.",
+      "actor": "Unidentified attackers",
+      "scope": "Chaldean Catholic congregation with Assyrian-linked heritage",
+      "sources": [
+        {
+          "title": "Iraq: Situation of Christians and Attacks 2003-2008 - Immigration and Refugee Board of Canada (2009)",
+          "url": "https://www.irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=452184"
+        }
+      ],
+      "related_ids": [
+        "AP-0128"
+      ]
+    },
+    {
+      "id": "AP-0128",
+      "year": 2006,
+      "date": "5 October 2006 (eight days after rocket attack)",
+      "country": "Iraq",
+      "place": "Holy Spirit Church, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Gunfire at Mosul Holy Spirit Church following September rocket attack",
+      "summary": "A monitoring chronology cited by Canada's Immigration and Refugee Board reports armed men firing on the same Holy Spirit church eight days after the 27 September rocket attack. Identity of the attackers and injuries are not established in the cited summary.",
+      "actor": "Unidentified armed group",
+      "scope": "Chaldean Catholic congregation with Assyrian-linked heritage",
+      "sources": [
+        {
+          "title": "Iraq: Situation of Christians and Attacks 2003-2008 - Immigration and Refugee Board of Canada (2009)",
+          "url": "https://www.irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=452184"
+        }
+      ],
+      "related_ids": [
+        "AP-0127"
+      ]
+    },
+    {
+      "id": "AP-0129",
+      "year": 2007,
+      "date": "13-21 October 2007",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Syriac Catholic priests Pius Afas and Mazen Ishoa kidnapped and later released",
+      "summary": "Two Syriac Catholic priests were taken hostage on 13 October and released on 21 October 2007. Direct church reporting described a ransom demand and characterised the abductors as likely ordinary criminals, without establishing an anti-Christian or political motive; some later official reporting incorrectly labels their denomination Syriac Orthodox.",
+      "actor": "Unidentified kidnappers; church representatives said a criminal ransom motive was likely",
+      "scope": "Syriac Catholic clergy in Assyrian-linked church tradition; individual ethnicity not established",
+      "sources": [
+        {
+          "title": "Release of two Syrian Catholic priest hostages in Mosul - Agenzia Fides (22 October 2007)",
+          "url": "https://fides.org/en/news/10565-ASIA_IRAQ_Release_of_two_Catholic_priest_hostages_in_northern_Iraq"
+        },
+        {
+          "title": "Two Syrian Catholic priests remain hostages in Mosul - Agenzia Fides (16 October 2007)",
+          "url": "https://www.fides.org/en/news/10521-ASIA_IRAQ_Catholic_priests_taken_hostage_in_Mosul_still_detained_Pope_Benedict_XVI_calls_for_their_release"
+        },
+        {
+          "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
+        }
+      ]
+    },
+    {
+      "id": "AP-0130",
+      "year": 2008,
+      "date": "18 January 2008",
+      "country": "Iraq",
+      "place": "al-Tahira Church, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Car bomb outside al-Tahira Church injures worshippers in Mosul",
+      "summary": "US State Department reporting records a car bomb outside the Chaldean al-Tahira church, causing minor injuries to two people. It forms part of, but is a separately dated event within, the wider January 2008 wave of church attacks.",
+      "actor": "Unidentified bombers",
+      "scope": "Chaldean Catholic / Assyrian-linked church congregation",
+      "sources": [
+        {
+          "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
+        }
+      ],
+      "related_ids": [
+        "AP-0046"
+      ]
+    },
+    {
+      "id": "AP-0131",
+      "year": 2008,
+      "date": "28-31 August 2008",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Nafa't Basheer Mikha abducted and found murdered in Mosul",
+      "summary": "Human Rights Watch interviewed family members who said that Nafa't Basheer Mikha disappeared on 28 August after leaving for his shop; three nights later the family found his body with gunshot wounds. The family believed his Christian faith motivated the killing, but the assailants were not identified.",
+      "actor": "Unidentified kidnappers and killers; family alleged religious targeting",
+      "scope": "Christian family from the Chaldo-Assyrian community investigated by HRW",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011",
+        "AP-0132"
+      ]
+    },
+    {
+      "id": "AP-0132",
+      "year": 2008,
+      "date": "10 September 2008",
+      "country": "Iraq",
+      "place": "Bicycle repair shop, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Rayan Nafa't Mikha killed at his bicycle repair shop",
+      "summary": "Human Rights Watch recorded that an armed assailant killed Rayan at his shop less than two weeks after his father Nafa't Basheer Mikha had been murdered. The surviving family fled to Qaraqosh.",
+      "actor": "Unidentified attackers; motive or individual responsibility not established",
+      "scope": "Christian family from Chaldo-Assyrian community",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011",
+        "AP-0131"
+      ]
+    },
+    {
+      "id": "AP-0133",
+      "year": 2008,
+      "date": "28 September 2008",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Mechanic Afnan Daoud Saeb al-Hadad killed after declaring Christian faith",
+      "summary": "Human Rights Watch recorded eyewitness testimony that a masked gunman examined al-Hadad's identification, explicitly asked whether he was Christian, and shot him after he confirmed it. His family fled Mosul for Qaraqosh.",
+      "actor": "Unknown gunman who explicitly expressed anti-Christian motivation according to HRW testimony",
+      "scope": "Chaldo-Assyrian Christian community",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011"
+      ]
+    },
+    {
+      "id": "AP-0134",
+      "year": 2008,
+      "date": "4 October 2008",
+      "country": "Iraq",
+      "place": "Sarray market, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Christian garment-shop owner shot dead in Mosul marketplace",
+      "summary": "Human Rights Watch interviewed relatives of a 46-year-old Christian shopkeeper whose name it withheld at the family's request. An unidentified man entered the Sarray-market shop and shot him; the family later fled to Qaraqosh.",
+      "actor": "Unknown individual; context of campaign against Christians",
+      "scope": "Christian family in Chaldo-Assyrian minority violence investigation; ethnicity individually undisclosed",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011"
+      ]
+    },
+    {
+      "id": "AP-0135",
+      "year": 2008,
+      "date": "7 October 2008",
+      "country": "Iraq",
+      "place": "Construction site, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Builder Amjad Hadi Petrous and son Wusam killed at Mosul construction site",
+      "summary": "Human Rights Watch reported that gunmen asked Amjad Hadi Petrous whether he was Christian before killing him and his 20-year-old son Wusam at the worksite. The direct questioning supports religious targeting in the reported account.",
+      "actor": "Unknown gunmen who identified the victims as Christians before shooting",
+      "scope": "Chaldo-Assyrian Christian father and son",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011"
+      ]
+    },
+    {
+      "id": "AP-0136",
+      "year": 2008,
+      "date": "Early September 2008 (kidnapping and death)",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Mechanic Tariq Qattam abducted for ransom and found dead",
+      "summary": "Human Rights Watch interviewed the family of 66-year-old Tariq Qattam. He was taken from his mechanic shop and killed despite his family reportedly paying a negotiated ransom. The available testimony documents extortion but does not establish the kidnappers' religious motive.",
+      "actor": "Unknown ransom kidnappers",
+      "scope": "Christian family examined in HRW's Chaldo-Assyrian minority investigation",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ],
+      "related_ids": [
+        "AP-0011"
+      ]
+    },
+    {
+      "id": "AP-0137",
+      "year": 2008,
+      "date": "11-12 November 2008 (conflicting news dates)",
+      "country": "Iraq",
+      "place": "al-Qahira neighbourhood, Mosul",
+      "lat": 36.37,
+      "lon": 43.16,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Two Syrian Catholic sisters murdered and their mother injured in Mosul",
+      "summary": "Reuters and Aid to the Church in Need identified the sisters as Lamyaa and Walaa Sabih, killed at their home. Their mother was wounded and a bomb later detonated at the house. Human Rights Watch dates the killings 11 November, while contemporary reports place the attack 12 November; the disagreement is retained.",
+      "actor": "Unidentified gunmen and bombers",
+      "scope": "Syriac Catholic Christian family; individual Assyrian ethnicity unconfirmed",
+      "sources": [
+        {
+          "title": "Gunmen kill two Christian sisters in Mosul - Reuters via Radio Free Europe (12 November 2008)",
+          "url": "https://www.rferl.org/a/Gunmen_Kill_Two_Christian_Sisters_In_Iraqs_Mosul/1348225.html"
+        },
+        {
+          "title": "Christian sisters killed and mother wounded in Mosul - Aid to the Church in Need (2008)",
+          "url": "https://english.ankawa.com/killing-of-two-christian-sisters-renews-panic-in-mosul/"
+        },
+        {
+          "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        },
+        {
+          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
+        }
+      ],
+      "related_ids": [
+        "AP-0011"
+      ]
+    },
+    {
+      "id": "AP-0138",
+      "year": 2009,
+      "date": "January 2009",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Christian man reportedly executed in Mosul in January 2009",
+      "summary": "USCIRF documented a mid-January report of a Christian man shot execution-style and killed in Mosul. The report provides no confirmed identity or detailed motive finding.",
+      "actor": "Unidentified killers",
+      "scope": "Christian community of Mosul; victim's ethnic identity unconfirmed",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
+        }
+      ]
+    },
+    {
+      "id": "AP-0139",
+      "year": 2009,
+      "date": "Early January 2009 (four-day detention)",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Christian resident of Mosul reportedly kidnapped and released after ransom",
+      "summary": "USCIRF recorded a kidnapping at the beginning of 2009 in which a Christian resident was held for four days and reportedly released after a $50,000 ransom. No individual ethnicity or perpetrator was established.",
+      "actor": "Unidentified ransom kidnappers",
+      "scope": "Christian minority in Mosul; Assyrian identity not independently established",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
+        }
+      ]
+    },
+    {
+      "id": "AP-0140",
+      "year": 2009,
+      "date": "26 April 2009 (two attacks)",
+      "country": "Iraq",
+      "place": "Kirkuk",
+      "lat": 35.47,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Three Christians reportedly killed and two wounded in Kirkuk attacks",
+      "summary": "USCIRF summarised two distinct reported attacks in Kirkuk on 26 April 2009 that together killed three Christians and wounded two. The publication does not give enough details to assign separate accurate positions or confirm each victim's ethnicity, so the pair remains one summary record.",
+      "actor": "Unknown attackers; no judicial outcomes reported",
+      "scope": "Wider Christian community in a city with Assyrian churches; individual ethnicities unconfirmed",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100"
+        }
+      ]
+    },
+    {
+      "id": "AP-0141",
+      "year": 2010,
+      "date": "14 February 2010",
+      "country": "Iraq",
+      "place": "Store, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Fatukhi Munir shot dead in a Mosul shop",
+      "summary": "The US Department of State names Fatukhi Munir as killed in a drive-by shooting inside his store on 14 February. The incident was one of multiple attacks against Christians immediately before Iraq's March 2010 elections.",
+      "actor": "Unidentified drive-by gunmen; government later attributed campaign generally to extremists",
+      "scope": "Christian minority in Mosul; specific ethnic identity not established",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0142",
+      "year": 2010,
+      "date": "15 February 2010",
+      "country": "Iraq",
+      "place": "Outside family home, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Rayan Salem Elias killed outside his Mosul home",
+      "summary": "US State Department reporting identifies Rayan Salem Elias as shot and killed outside his home on 15 February 2010 during the pre-election campaign of violence against Christians.",
+      "actor": "Unidentified gunmen",
+      "scope": "Christian minority in Mosul; specific ethnic identity not established",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0143",
+      "year": 2010,
+      "date": "16 February 2010",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Engineering student Zia Toma killed and Ramsin Shamel wounded in Mosul",
+      "summary": "US State Department reporting identifies engineering student Zia Toma as killed and fellow student Ramsin Shamel as injured during an attack on 16 February 2010, one of the incidents leading Christian families to flee the city.",
+      "actor": "Unidentified gunmen",
+      "scope": "Christian students; individual ethnicity not determined in the cited report",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0144",
+      "year": 2010,
+      "date": "17 February 2010 (body discovered)",
+      "country": "Iraq",
+      "place": "Wadi al-Ain, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Wissam George found shot dead in Wadi al-Ain",
+      "summary": "The US Department of State records the discovery of 20-year-old Wissam George's body on 17 February 2010, with fatal gunshot wounds. The exact date of killing and identity of his assailants were not established.",
+      "actor": "Unidentified killers",
+      "scope": "Christian minority in Mosul; individual ethnic identity unconfirmed",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0145",
+      "year": 2010,
+      "date": "Abducted approximately mid-February; body discovered 20 February 2010",
+      "country": "Iraq",
+      "place": "al-Belladiyat, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Kidnapped shopkeeper Adnan al-Dahan found murdered in Mosul",
+      "summary": "According to a US government report, Adnan al-Dahan was kidnapped from his store in al-Hadba and later found on 20 February with gunshot wounds to the head in al-Belladiyat.",
+      "actor": "Unknown kidnappers and killers",
+      "scope": "Christian minority in Mosul; individual ethnicity not established",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0146",
+      "year": 2010,
+      "date": "20 February 2010",
+      "country": "Iraq",
+      "place": "Family home, Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Aishwa Maroki and two sons shot dead at their Mosul home",
+      "summary": "The US State Department reported armed men entering the home of Aishwa Maroki on 20 February 2010 and killing him and his two sons. It occurred amid the same campaign of attacks prompting further Christian displacement.",
+      "actor": "Unidentified gunmen",
+      "scope": "Christian family in Mosul; specific ethnicity not independently established",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        }
+      ],
+      "related_ids": [
+        "AP-0012"
+      ]
+    },
+    {
+      "id": "AP-0147",
+      "year": 2022,
+      "date": "4 September 2022",
+      "country": "Syria",
+      "place": "Tel Jumaa and Talkifjy, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Shelling hits homes in Assyrian villages near Tell Tamer",
+      "summary": "The Syrian Observatory for Human Rights reported Turkish artillery striking civilian houses in the Assyrian villages of Tel Jumaa and Talkifjy on 4 September, with residents displaced to neighbouring villages. The source reported no casualties; the targeting motive was not established.",
+      "actor": "Turkish forces, according to local conflict-monitor reporting; no proved ethnic motive",
+      "scope": "Assyrian village residents",
+      "sources": [
+        {
+          "title": "Turkish shelling in Assyrian villages near Tell Tamer - Syrian Observatory for Human Rights (6 September 2022)",
+          "url": "https://www.syriahr.com/en/266397/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0148",
+      "year": 2022,
+      "date": "6 September 2022",
+      "country": "Syria",
+      "place": "Tel Tawel, Khabur Valley",
+      "lat": 36.56,
+      "lon": 40.41,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Heavy artillery fired on Assyrian Tel Tawel village",
+      "summary": "The Syrian Observatory for Human Rights reported artillery from a Turkish position near Ras al-Ayn hitting the Assyrian village of Tel Tawel on 6 September. The report had no confirmed casualties at publication and does not prove deliberate ethnic targeting.",
+      "actor": "Turkish forces per conflict-monitor report; intended target and motive unresolved",
+      "scope": "Assyrian Khabur Valley community",
+      "sources": [
+        {
+          "title": "Turkish shelling in Assyrian villages near Tell Tamer - Syrian Observatory for Human Rights (6 September 2022)",
+          "url": "https://www.syriahr.com/en/266397/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0149",
+      "year": 2026,
+      "date": "28 January 2026",
+      "country": "Syria",
+      "place": "Tel Jumaa (Assyrian village), west of Tell Tamer",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Artillery shells damage Assyrian church in Tel Jumaa",
+      "summary": "The Syrian Observatory for Human Rights reported artillery fire striking an Assyrian church in Tel Jumaa on 28 January 2026, causing serious material damage and civilian flight towards Tell Tamer. No casualties were confirmed in the initial report; responsibility is attributed to Syrian interim-government forces in that source.",
+      "actor": "Syrian interim-government forces, as alleged by the Syrian Observatory; official response not checked",
+      "scope": "Assyrian church and village congregation",
+      "sources": [
+        {
+          "title": "Syrian interim government shelling damages Assyrian church in Tel Jumaa - Syrian Observatory for Human Rights (28 January 2026)",
+          "url": "https://www.syriahr.com/en/377013/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0150",
+      "year": 2022,
+      "date": "Reported 25 June 2022 (seizure predates 2014)",
+      "country": "Iraq",
+      "place": "Bartella, Nineveh Plains",
+      "lat": 36.35,
+      "lon": 43.38,
+      "type": "Property seizure",
+      "evidence": "reported",
+      "title": "Syriac Catholic family's land in Bartella occupied by militia-associated generators",
+      "summary": "A Syriac Catholic church leader told US reporting that the PMF 30th Brigade had taken land belonging to a Christian family in Bartella more than eight years earlier and later installed members' electricity generators on the site. The original seizure date and the property case's legal outcome are not established.",
+      "actor": "30th PMF Brigade, as alleged by local church representatives; no adjudicated finding given",
+      "scope": "Syriac Catholic / Assyrian-linked family and Bartella residents",
+      "sources": [
+        {
+          "title": "Iraq: Religious minorities, September 2024 - UK Home Office",
+          "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
+        }
+      ],
+      "related_ids": [
+        "AP-0024"
+      ]
+    },
+    {
+      "id": "AP-0151",
+      "year": 2023,
+      "date": "11 March 2023 (protest reported)",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida, Nineveh Plains",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Christian soldiers protest reported abuse by PMF brigade commanders in Qaraqosh",
+      "summary": "A UK government assessment, citing US reporting, records that hundreds of Christian soldiers from the Assyrian Democratic Movement-founded 13th regiment protested in Qaraqosh on 11 March, alleging mistreatment and insults by commanders of the PMF 50th Brigade. Their allegations are preserved as claims, not proven findings.",
+      "actor": "50th PMF Brigade commanders, according to protesting soldiers; response not established",
+      "scope": "Assyrian-linked Christian soldiers in 13th regiment",
+      "sources": [
+        {
+          "title": "Iraq: Religious minorities, September 2024 - UK Home Office",
+          "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
+        }
+      ],
+      "related_ids": [
+        "AP-0024"
       ]
     }
   ]
