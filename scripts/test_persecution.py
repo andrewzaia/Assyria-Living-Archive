@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 124)
+        self.assertGreaterEqual(len(self.records), 148)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -108,8 +108,28 @@ class PersecutionTests(unittest.TestCase):
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
         self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81})
-        self.assertTrue(any(e['status'] == 'pending' for e in audit['excluded_or_pending']))
+        self.assertTrue(audit['excluded_or_pending'])
+        self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
+                            for e in audit['excluded_or_pending']))
         self.assertTrue(any(e['status'] == 'excluded' for e in audit['excluded_or_pending']))
+
+    def test_new_locally_supported_cases_and_aggregation_are_preserved(self):
+        by_id = {r['id']: r for r in self.records}
+        self.assertEqual(by_id['AP-0125']['year'], 2005)
+        self.assertIn('Mar Giwargis', by_id['AP-0125']['title'])
+        self.assertIn('Tel Jumaa', by_id['AP-0146']['title'])
+        self.assertEqual(by_id['AP-0146']['country'], 'Syria')
+        self.assertIsNone(by_id['AP-0146']['lat'])
+        self.assertEqual(by_id['AP-0146']['evidence'], 'reported')
+        self.assertTrue(any('Human Rights Watch' in s['title']
+                            for s in by_id['AP-0133']['sources']))
+        mosul_2010 = [r for r in self.records if 138 <= int(r['id'][3:]) <= 143]
+        self.assertEqual(len(mosul_2010), 6)
+        self.assertTrue(all(r['year'] == 2010 for r in mosul_2010))
+        self.assertTrue(all('AP-0012' in r.get('related_ids', [])
+                            for r in mosul_2010))
+        self.assertIn('AP-0130', by_id['AP-0046']['related_ids'])
+        self.assertNotIn('AP-0130', by_id['AP-0011']['related_ids'])
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
