@@ -32,6 +32,7 @@ PURPOSES = {
  'bible/index.html': 'Introduces the biblical collection, its primary text and thematic local guides.',
  'bible/passages/index.html': 'Provides a local searchable verse index and instructions for its use.',
  'map/index.html': 'Provides an interactive dated historical atlas with local explanations and reconstruction limits.',
+ 'persecution/index.html': 'Presents source-attributed Assyrian persecution history and contemporary reports, with explicit evidence labels, searchable local incident cards and a country-level count heat map.',
  'privacy/index.html': 'Explains data handling, local storage and the current contribution arrangement.',
  'contribute/index.html': 'Explains and provides a local contribution-draft form; it does not imply an active inbox.',
  'sources/index.html': 'Source index with publisher, role, dates and reciprocal local reading links; a bibliography serves a different purpose from an article.',

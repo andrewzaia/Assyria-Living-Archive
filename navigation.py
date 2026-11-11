@@ -8,6 +8,7 @@ NAV_GROUPS = (
         ('Historical timeline', '/timeline/', 'Key moments across the centuries'),
         ('Middle Assyrian life', '/middle-assyrian/', 'Families, fields, law and everyday work'),
         ('Interactive map', '/map/', 'Assyria through time and geography'),
+        ('Assyrian persecution', '/persecution/', 'Sourced incident catalogue and interactive heat map'),
         ('Glossary', '/glossary/', 'Terms, names and reading routes'),
         ('Languages and scripts', '/languages/', 'Syriac letter reference, dialect recordings and manuscripts'),
         ('Chaldean church and Assyrian heritage', '/articles/chaldean-name-and-heritage/', 'Church affiliation, ancient names and shared East Syriac identity'),
@@ -45,7 +46,7 @@ NAV_GROUPS = (
 # the same named groups render on desktop and as stacked sections on mobile.
 NAV_COLUMNS = {
     'Explore': (
-        ('Discover', ('/explore/', '/timeline/', '/middle-assyrian/', '/map/')),
+        ('Discover', ('/explore/', '/timeline/', '/middle-assyrian/', '/map/', '/persecution/')),
         ('Culture and language', ('/glossary/', '/languages/', '/articles/chaldean-name-and-heritage/', '/heritage/')),
     ),
     'Research': (
