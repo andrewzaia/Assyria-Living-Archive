@@ -61,10 +61,13 @@ jobs:
         run: python scripts/test_middle_assyrian_hover.py
       - name: Test balanced menus and complete navigation coverage
         run: python scripts/test_navigation.py
+      - name: Test Assyrian persecution source catalogue, map and attribution
+        run: python scripts/test_persecution.py
       - name: Check JavaScript syntax
         run: |
           node --check static/app.js
           node --check static/map.js
+          node --check static/persecution.js
           node --check static/samaria-succession.js
           node --check static/exile-provinces.js
           node --check static/bible.js
