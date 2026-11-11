@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "methodology": "Selected, attributed incidents and regional reports affecting Assyrian people or their historically associated Syriac and other Christian communities. Includes historical research and contemporary reported accounts. No independent incident verification is implied. Events may overlap geographically; map shading counts catalogue records, not victims, rates or unique attacks. Markers show approximate representative place coordinates, not incident addresses.",
+  "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution.",
   "records": [
     {
       "id": "AP-0001",
@@ -21,7 +21,8 @@
           "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
           "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0002",
@@ -41,7 +42,8 @@
           "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
           "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0003",
@@ -69,7 +71,8 @@
         "creator": "Ariel Varges",
         "licence": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Jilu_Assyrians_coming_over_the_Asadabad_Pass.jpg"
-      }
+      },
+      "scope": "Assyrian / Syriac community"
     },
     {
       "id": "AP-0004",
@@ -93,7 +96,8 @@
           "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
           "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0005",
@@ -113,7 +117,8 @@
           "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
           "url": "https://doi.org/10.31648/sw.2525"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0006",
@@ -141,7 +146,8 @@
         "creator": "Ariel Varges",
         "licence": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Jilu_Assyrians_coming_over_the_Asadabad_Pass.jpg"
-      }
+      },
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0007",
@@ -169,7 +175,8 @@
         "creator": "No. 30 (B) Squadron, Royal Air Force",
         "licence": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Batarshah_in_northern_Iraq,_an_Assyrian_village_destroyed_by_Arabs_and_Kurds_during_the_disturbances_of_August_1933.jpg"
-      }
+      },
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0008",
@@ -193,7 +200,8 @@
           "title": "On Vulnerable Ground - Human Rights Watch",
           "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked church community"
     },
     {
       "id": "AP-0009",
@@ -213,7 +221,8 @@
           "title": "On Vulnerable Ground - Human Rights Watch",
           "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked church community"
     },
     {
       "id": "AP-0010",
@@ -237,7 +246,8 @@
           "title": "2008 Report on International Religious Freedom - Iraq",
           "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0011",
@@ -261,7 +271,8 @@
           "title": "2008 Human Rights Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked and shared Christian communities"
     },
     {
       "id": "AP-0012",
@@ -281,7 +292,8 @@
           "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/1067272.html"
         }
-      ]
+      ],
+      "scope": "Shared Christian communities (ethnicity not established for each victim)"
     },
     {
       "id": "AP-0013",
@@ -301,7 +313,8 @@
           "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/1067272.html"
         }
-      ]
+      ],
+      "scope": "Shared Christian communities (ethnicity not established for each victim)"
     },
     {
       "id": "AP-0014",
@@ -325,7 +338,8 @@
           "title": "At a Crossroads: Human Rights in Iraq - Human Rights Watch",
           "url": "https://www.hrw.org/report/2011/02/21/crossroads/human-rights-iraq-eight-years-after-us-led-invasion"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked Syriac Catholic church"
     },
     {
       "id": "AP-0015",
@@ -345,7 +359,8 @@
           "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/1067272.html"
         }
-      ]
+      ],
+      "scope": "Shared Christian communities (ethnicity not established for each victim)"
     },
     {
       "id": "AP-0016",
@@ -369,7 +384,8 @@
           "title": "A Devastating Choice - United States Holocaust Memorial Museum",
           "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked and shared Christian communities"
     },
     {
       "id": "AP-0017",
@@ -389,7 +405,8 @@
           "title": "Iraq: 10,000 displaced from Christian communities near Mosul - UNHCR",
           "url": "https://www.unhcr.org/news/briefing-notes/iraq-10-000-displaced-christian-communities-near-mosul"
         }
-      ]
+      ],
+      "scope": "Assyrian / Syriac community"
     },
     {
       "id": "AP-0018",
@@ -413,7 +430,8 @@
           "title": "A Devastating Choice - United States Holocaust Memorial Museum",
           "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice"
         }
-      ]
+      ],
+      "scope": "Assyrian / Syriac community"
     },
     {
       "id": "AP-0019",
@@ -433,7 +451,8 @@
           "title": "Iraq: Forced Marriage, Conversion for Yezidis - Human Rights Watch",
           "url": "https://www.hrw.org/news/2014/10/11/iraq-forced-marriage-conversion-yezidis"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked church community"
     },
     {
       "id": "AP-0020",
@@ -457,7 +476,8 @@
           "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0021",
@@ -477,7 +497,8 @@
           "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
         }
-      ]
+      ],
+      "scope": "Assyrian community"
     },
     {
       "id": "AP-0022",
@@ -497,7 +518,8 @@
           "title": "USCIRF Annual Report 2019 - Syria",
           "url": "https://www.uscirf.gov/sites/default/files/2019USCIRFAnnualReport.pdf"
         }
-      ]
+      ],
+      "scope": "Assyrian / Armenian church communities"
     },
     {
       "id": "AP-0023",
@@ -517,14 +539,15 @@
           "title": "2019 Country Reports on Human Rights Practices: Syria - US Department of State",
           "url": "https://2017-2021.state.gov/reports/2019-country-reports-on-human-rights-practices/syria/"
         }
-      ]
+      ],
+      "scope": "Syriac and shared Christian communities"
     },
     {
       "id": "AP-0024",
       "year": 2023,
       "date": "2023-2024 reporting",
       "country": "Iraq",
-      "place": "Nineveh Plains",
+      "place": "Nineveh Plains (regional reporting)",
       "lat": 36.42,
       "lon": 43.24,
       "type": "Property seizure",
@@ -537,16 +560,17 @@
           "title": "Iraq: Religious minorities - UK Home Office, September 2024",
           "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
         }
-      ]
+      ],
+      "scope": "Assyrian-linked and shared Christian communities"
     },
     {
       "id": "AP-0025",
       "year": 2024,
       "date": "2024 country assessment",
       "country": "Iraq",
-      "place": "Baghdad",
-      "lat": 33.32,
-      "lon": 44.4,
+      "place": "Iraq (nationwide reporting)",
+      "lat": null,
+      "lon": null,
       "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Harassment and discrimination affecting historic Christian communities",
@@ -556,6 +580,1238 @@
         {
           "title": "Iraq: Religious minorities - UK Home Office, September 2024",
           "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible"
+        }
+      ],
+      "scope": "Assyrian-linked and shared Christian communities"
+    },
+    {
+      "id": "AP-0026",
+      "year": 1895,
+      "date": "1894-1897",
+      "country": "Turkey",
+      "place": "Diyarbekir / Mardin",
+      "lat": 37.91,
+      "lon": 40.24,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Hamidian-period violence involving Syriac Christian communities",
+      "summary": "Historical Syriac accounts record attacks against communities in Diyarbekir province during the Hamidian massacres. These episodes affected multiple Christian populations, so the catalogue does not assign every victim an Assyrian identity.",
+      "actor": "Ottoman-era forces and participating local armed groups, as described in community histories",
+      "scope": "Syriac / shared Christian communities",
+      "sources": [
+        {
+          "title": "Sayfo Massacres, 1915-1924 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/sayfo-massacres-1915-1924"
+        },
+        {
+          "title": "Massacres, Resistance, Protectors - David Gaunt (2006)",
+          "url": "https://www.degruyterbrill.com/document/doi/10.31826/9781463210816/html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0027",
+      "year": 1915,
+      "date": "July 1915",
+      "country": "Turkey",
+      "place": "Midyat, Tur Abdin",
+      "lat": 37.42,
+      "lon": 41.34,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Sayfo: killings and attacks in Midyat",
+      "summary": "Studies of the Sayfo describe the assault on the heavily Syriac Christian town of Midyat in 1915, including killings and the destruction of communal security. This is a locally scoped record within the larger Sayfo campaign.",
+      "actor": "Ottoman authorities and participating local forces, as discussed in the historical literature",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Sayfo Massacres, 1915-1924 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/sayfo-massacres-1915-1924"
+        },
+        {
+          "title": "The Complexity of the Assyrian Genocide - David Gaunt, Genocide Studies International",
+          "url": "https://doi.org/10.3138/gsi.9.1.05"
+        }
+      ]
+    },
+    {
+      "id": "AP-0028",
+      "year": 1915,
+      "date": "June-July 1915",
+      "country": "Turkey",
+      "place": "Nusaybin / Nisibis",
+      "lat": 37.07,
+      "lon": 41.22,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Sayfo: arrests and killings in Nusaybin",
+      "summary": "The Syriac Heritage Project documents the arrest of Christian men and subsequent killings in the Nusaybin area. The entry represents an attributed local episode within the larger 1915 campaign, with casualty totals requiring source-by-source comparison.",
+      "actor": "Local Ottoman officials and participating armed groups, as reported in the historical account",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Sayfo Massacres, 1915-1924 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/sayfo-massacres-1915-1924"
+        },
+        {
+          "title": "Massacres, Resistance, Protectors - David Gaunt (2006)",
+          "url": "https://www.degruyterbrill.com/document/doi/10.31826/9781463210816/html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0029",
+      "year": 1915,
+      "date": "June-July 1915",
+      "country": "Turkey",
+      "place": "Mardin",
+      "lat": 37.31,
+      "lon": 40.74,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Sayfo: deportations and killings associated with Mardin",
+      "summary": "The historical record describes the arrest of Christian leaders and deportation or execution of Christians from Mardin, including Syriac churches and their communities. Other denominations were also affected; the record is not an Assyrian-only victim tally.",
+      "actor": "Ottoman authorities and participating armed groups, as described by historians",
+      "scope": "Syriac / shared Christian communities",
+      "sources": [
+        {
+          "title": "Sayfo Massacres, 1915-1924 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/sayfo-massacres-1915-1924"
+        },
+        {
+          "title": "The Complexity of the Assyrian Genocide - David Gaunt, Genocide Studies International",
+          "url": "https://doi.org/10.3138/gsi.9.1.05"
+        }
+      ]
+    },
+    {
+      "id": "AP-0030",
+      "year": 1918,
+      "date": "16 March 1918 (commonly accepted date)",
+      "country": "Iran",
+      "place": "Kuhneshahr, Salmas",
+      "lat": 38.2,
+      "lon": 44.77,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Assassination of Patriarch Mar Shimun XIX Benyamin and entourage",
+      "summary": "Mar Shimun XIX Benyamin and members of his entourage were killed at a meeting with Simko Shikak in the Salmas area. Historical accounts differ on the exact number killed and retain different calendar dates.",
+      "actor": "Armed followers of Simko Shikak, according to historical accounts",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Mar Benyamin Shimun - historical sources and Sinyor Demirel diary",
+          "url": "https://demirel.co.il/en/persons/mar-benyamin-shimun-en/"
+        },
+        {
+          "title": "Massacres, Resistance, Protectors - David Gaunt (2006)",
+          "url": "https://www.degruyterbrill.com/document/doi/10.31826/9781463210816/html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0031",
+      "year": 1924,
+      "date": "September 1924",
+      "country": "Turkey",
+      "place": "Hakkari",
+      "lat": 37.57,
+      "lon": 43.73,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Post-war Assyrian fighting and expulsion in Hakkari",
+      "summary": "A published collection of military and historical documents records fighting, forced removals and contested characterisations of the 1924 Hakkari events. The campaign is sometimes described in Turkish official accounts as an uprising.",
+      "actor": "Turkish military authorities and local forces in a disputed border conflict",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Massacres and Deportation of Assyrians in Northern Mesopotamia, 1924-25 - Racho Donef",
+          "url": "https://www.atour.com/library/government/20100521a.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0032",
+      "year": 1925,
+      "date": "September 1925",
+      "country": "Turkey",
+      "place": "Hakkari",
+      "lat": 37.57,
+      "lon": 43.73,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Further deportations and killings of Assyrians from Hakkari",
+      "summary": "Racho Donef's documentary collection identifies further Assyrian deportations and massacres during border consolidation in 1925, affecting survivors of the First World War.",
+      "actor": "Turkish state forces, as discussed in the cited documentary study",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Massacres and Deportation of Assyrians in Northern Mesopotamia, 1924-25 - Racho Donef",
+          "url": "https://www.atour.com/library/government/20100521a.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0033",
+      "year": 1969,
+      "date": "16 September 1969",
+      "country": "Iraq",
+      "place": "Soriya, Duhok",
+      "lat": 37.11,
+      "lon": 43.01,
+      "type": "Mass killing",
+      "evidence": "historical",
+      "title": "Soriya massacre of Assyrian villagers",
+      "summary": "The Assyrian Policy Institute's modern-genocide history documents Iraqi soldiers opening fire on civilians in the Assyrian village of Soriya, with 47 villagers reported killed. The circumstances and responsibility are described through survivor testimony.",
+      "actor": "Iraqi military soldiers led by an officer identified in survivor accounts",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Assyrian Genocide in Modern History - Assyrian Policy Institute",
+          "url": "https://www.assyrianpolicy.org/genocide-recognition"
+        }
+      ]
+    },
+    {
+      "id": "AP-0034",
+      "year": 1985,
+      "date": "1980s-1990s",
+      "country": "Turkey",
+      "place": "Tur Abdin villages",
+      "lat": 37.48,
+      "lon": 41.2,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Assyrian village depopulation during the Turkey-PKK conflict",
+      "summary": "Assyrian village communities in Mardin and Sirnak provinces experienced pressure, threats and forced migration while caught between Turkish state security demands and PKK activity. This is a period-level entry, not one attack.",
+      "actor": "Turkish state forces, pkk militants and wider conflict pressures, according to the cited study",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
+          "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire"
+        }
+      ]
+    },
+    {
+      "id": "AP-0035",
+      "year": 1949,
+      "date": "1947-1952, including Soviet deportation order of 29 May 1949",
+      "country": "Georgia",
+      "place": "Tbilisi and Georgian SSR",
+      "lat": 41.72,
+      "lon": 44.79,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Soviet deportation and internal exile of Assyrian families from Georgia",
+      "summary": "Official Georgian archive descriptions identify Assyrians among ethnic groups exiled by Soviet security authorities, and list a 29 May 1949 Soviet decree covering Assyrian families. Other published accounts date additional deportations to 1947 or 1950-1952. The entry covers related operations over several years and does not claim an agreed overall death or deportee total.",
+      "actor": "Soviet security and resettlement authorities",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "The Deportation of Muslims from Georgia - Sciences Po Mass Violence and Resistance",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/deportation-muslims-georgia.html"
+        },
+        {
+          "title": "The Assyrians of Georgia: Ethnic Specifics Should Be Preserved - Central Asia and the Caucasus",
+          "url": "https://www.ca-c.org/index.php/cac/article/view/947"
+        },
+        {
+          "title": "Georgian security archive special-exile inventories and 29 May 1949 decree - Institute for Development of Freedom of Information",
+          "url": "https://www.idfi.ge/archive/?cat=read_topic&lang=en&topic=141"
+        }
+      ]
+    },
+    {
+      "id": "AP-0036",
+      "year": 2009,
+      "date": "March 2009",
+      "country": "Iran",
+      "place": "Tehran, Shahr Ara",
+      "lat": 35.74,
+      "lon": 51.38,
+      "type": "Institutional pressure",
+      "evidence": "documented",
+      "title": "Closure of Assyrian Pentecostal church in Tehran",
+      "summary": "US government religious-freedom reporting records a court-ordered closure of the Assyrian-owned Pentecostal congregation in Shahr Ara. Authorities reportedly cited services involving people who had converted to Christianity.",
+      "actor": "Iranian judicial and security authorities",
+      "scope": "Assyrian-linked Protestant church",
+      "sources": [
+        {
+          "title": "2010 International Religious Freedom Report: Iran - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2010/148819.htm"
+        },
+        {
+          "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
+          "url": "https://www.iranrights.org/library/document/4085"
+        }
+      ]
+    },
+    {
+      "id": "AP-0037",
+      "year": 2010,
+      "date": "January 2010",
+      "country": "Iran",
+      "place": "Kermanshah",
+      "lat": 34.31,
+      "lon": 47.07,
+      "type": "Institutional pressure",
+      "evidence": "documented",
+      "title": "Assyrian Pentecostal church closed in Kermanshah",
+      "summary": "USCIRF records the closure by authorities of an Assyrian Evangelical/Pentecostal church led by Pastor Wilson Issavi. The restrictions were associated with allegations of proselytising Muslims.",
+      "actor": "Iranian authorities",
+      "scope": "Assyrian-linked Protestant church",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2010 - Iran",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/72856"
+        },
+        {
+          "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
+          "url": "https://www.iranrights.org/library/document/4085"
+        }
+      ]
+    },
+    {
+      "id": "AP-0038",
+      "year": 2010,
+      "date": "February-March 2010",
+      "country": "Iran",
+      "place": "Kermanshah / Isfahan",
+      "lat": 33.7,
+      "lon": 49.1,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Arrest and detention of Assyrian pastor Wilson Issavi",
+      "summary": "USCIRF and a detailed human-rights study describe the arrest of Assyrian pastor Wilson Issavi in February 2010 and subsequent release. The reporting includes allegations of threats and ill-treatment; those are attributed rather than independently adjudicated here.",
+      "actor": "Iranian security agents, as reported",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "USCIRF Annual Report 2010 - Iran",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/72856"
+        },
+        {
+          "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
+          "url": "https://www.iranrights.org/library/document/4085"
+        }
+      ]
+    },
+    {
+      "id": "AP-0039",
+      "year": 2012,
+      "date": "2012",
+      "country": "Iran",
+      "place": "Tehran, Jannat Abad",
+      "lat": 35.77,
+      "lon": 51.31,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Order to close Assyrian-pastored Persian-language congregation",
+      "summary": "A human-rights report recounts Iranian security officers ordering a Tehran congregation pastored by Robert Gagtapih, identified as Assyrian, to stop services, reportedly threatening confiscation if it did not comply.",
+      "actor": "Iranian intelligence and security authorities, as reported",
+      "scope": "Assyrian-linked Protestant church",
+      "sources": [
+        {
+          "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
+          "url": "https://www.iranrights.org/library/document/4085"
+        }
+      ]
+    },
+    {
+      "id": "AP-0040",
+      "year": 2014,
+      "date": "26 December 2014",
+      "country": "Iran",
+      "place": "Tehran",
+      "lat": 35.7,
+      "lon": 51.42,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Assyrian pastor Victor Bet-Tamraz detained during Christmas gathering",
+      "summary": "The Center for Human Rights in Iran reports that security agents detained former Assyrian church leader Victor Bet-Tamraz and two guests during a Christmas gathering at his home. Subsequent legal proceedings are documented in a separate human-rights review.",
+      "actor": "Iranian security agents",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Former Assyrian church leader arrested - Center for Human Rights in Iran (2015)",
+          "url": "https://iranhumanrights.org/2015/01/assyrian-church/"
+        },
+        {
+          "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
+          "url": "https://www.iranrights.org/library/document/4085"
+        }
+      ]
+    },
+    {
+      "id": "AP-0041",
+      "year": 2018,
+      "date": "2018 court sentence",
+      "country": "Iran",
+      "place": "Tehran",
+      "lat": 35.7,
+      "lon": 51.42,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian Christian woman reportedly sentenced for religious activity",
+      "summary": "Canada's Immigration and Refugee Board collates reports of a woman identified as an Assyrian Christian receiving a ten-year prison sentence involving church organisation and national-security charges. This is an attributed secondary report.",
+      "actor": "Iranian judiciary, according to reported case records",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "IRN200458.E: treatment of Christians, 2017-2021 - Immigration and Refugee Board of Canada",
+          "url": "https://www.ecoi.net/en/document/2048913.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0042",
+      "year": 2019,
+      "date": "May 2019",
+      "country": "Iran",
+      "place": "Tabriz",
+      "lat": 38.08,
+      "lon": 46.29,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian church closed in Tabriz and cross temporarily removed",
+      "summary": "The Canadian research directorate records reporting that an Assyrian church in Tabriz was forcibly closed, while a government-linked source contested the closure account. The dispute about the cross's removal and restoration is disclosed rather than resolved.",
+      "actor": "Iranian authorities, according to the reporting; parts of the account disputed",
+      "scope": "Assyrian-linked Protestant church",
+      "sources": [
+        {
+          "title": "IRN200458.E: treatment of Christians, 2017-2021 - Immigration and Refugee Board of Canada",
+          "url": "https://www.ecoi.net/en/document/2048913.html"
+        },
+        {
+          "title": "Iran: Christians and Christian converts - UK Home Office (June 2026)",
+          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes/country-policy-and-information-note-christians-and-christian-converts-iran-june-2026-accessible"
+        }
+      ]
+    },
+    {
+      "id": "AP-0043",
+      "year": 2004,
+      "date": "1 August 2004",
+      "country": "Iraq",
+      "place": "Baghdad and Mosul",
+      "lat": 33.34,
+      "lon": 44.4,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Coordinated bomb attacks against churches in Baghdad and Mosul",
+      "summary": "Human Rights Watch documents coordinated explosions at churches in Baghdad and Mosul, including an Assyrian church, during Sunday worship. Contemporary accounts differed on the number of locations and casualties.",
+      "actor": "Unidentified insurgent bombers",
+      "scope": "Assyrian-linked and shared Christian communities",
+      "sources": [
+        {
+          "title": "A Face and a Name - Human Rights Watch (2005)",
+          "url": "https://www.hrw.org/report/2005/10/02/face-and-name/civilian-victims-insurgent-groups-iraq"
+        },
+        {
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0044",
+      "year": 2004,
+      "date": "27 September 2004",
+      "country": "Iraq",
+      "place": "Dora, Baghdad",
+      "lat": 33.25,
+      "lon": 44.39,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Seven Assyrian Christians killed in Dora",
+      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district.",
+      "actor": "Four armed men, identity not established in the cited report",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0045",
+      "year": 2004,
+      "date": "9 November 2004",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.31,
+      "lon": 44.41,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Bombs near St George and St Matthew churches",
+      "summary": "Human Rights Watch records car bombs near two Christian churches in Baghdad, with fatalities and many injured near St Matthew's. The entry covers a coordinated incident distinct from the August church bombings.",
+      "actor": "Unidentified insurgent bombers",
+      "scope": "Shared Christian communities",
+      "sources": [
+        {
+          "title": "A Face and a Name - Human Rights Watch (2005)",
+          "url": "https://www.hrw.org/report/2005/10/02/face-and-name/civilian-victims-insurgent-groups-iraq"
+        },
+        {
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0046",
+      "year": 2008,
+      "date": "6-18 January 2008",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "January church and convent bombing wave in Mosul",
+      "summary": "US religious-freedom reporting describes multiple bombs against Christian churches and convents in Mosul, including an Assyrian church and Chaldean church buildings, as part of a wider January wave.",
+      "actor": "Unidentified bombers",
+      "scope": "Assyrian-linked and shared Christian communities",
+      "sources": [
+        {
+          "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
+        }
+      ]
+    },
+    {
+      "id": "AP-0047",
+      "year": 2008,
+      "date": "9 January 2008",
+      "country": "Iraq",
+      "place": "Kirkuk",
+      "lat": 35.47,
+      "lon": 44.39,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "St Ephrem Syriac Orthodox and Chaldean Cathedral bombed",
+      "summary": "Government reporting records simultaneous explosions targeting St Ephrem Syriac Orthodox Church and Kirkuk's Chaldean Cathedral. No injuries were reported in those two attacks.",
+      "actor": "Unidentified bombers",
+      "scope": "Assyrian-linked church communities",
+      "sources": [
+        {
+          "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810"
+        }
+      ]
+    },
+    {
+      "id": "AP-0048",
+      "year": 2009,
+      "date": "12 July 2009",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.4,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Coordinated bombing of six Baghdad churches",
+      "summary": "The US Department of State records six church bombings in Baghdad, resulting in deaths and injuries among Christian worshippers and other residents.",
+      "actor": "Unidentified bombers",
+      "scope": "Shared Christian communities",
+      "sources": [
+        {
+          "title": "2009 Human Rights Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
+        },
+        {
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2010/148821.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0049",
+      "year": 2009,
+      "date": "26 November 2009",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "St Ephrem Chaldean Church and St Theresa convent bombed",
+      "summary": "The US Department of State records damage to St Ephrem's Chaldean Church and St Theresa's Convent in Mosul during bomb attacks; no casualties were reported in this episode.",
+      "actor": "Unidentified bombers",
+      "scope": "Assyrian-linked church communities",
+      "sources": [
+        {
+          "title": "2009 Human Rights Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0050",
+      "year": 2009,
+      "date": "15 December 2009",
+      "country": "Iraq",
+      "place": "Mosul",
+      "lat": 36.34,
+      "lon": 43.13,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Syriac Catholic and Syriac Orthodox churches targeted in Mosul",
+      "summary": "The US Department of State records fatal bombings outside two Syriac churches in Mosul, the Church of the Annunciation and the Church of the Virgin Mary.",
+      "actor": "Unidentified bombers",
+      "scope": "Assyrian / Syriac church communities",
+      "sources": [
+        {
+          "title": "2009 Human Rights Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0051",
+      "year": 2013,
+      "date": "5 February 2013",
+      "country": "Iraq",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lon": 44.4,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Bomb attached to Christian minister Sargon Sulaywah's car",
+      "summary": "A government report documents an explosive attached to the vehicle of the Christian Minister of Environment, Sargon Sulaywah. The driver was seriously injured and the minister escaped.",
+      "actor": "Unidentified militants",
+      "scope": "Shared Christian communities",
+      "sources": [
+        {
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0052",
+      "year": 2013,
+      "date": "15 June 2013",
+      "country": "Iraq",
+      "place": "East Baghdad",
+      "lat": 33.35,
+      "lon": 44.49,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Guards attacked outside St Mary's Assyrian Church",
+      "summary": "The US Department of State reports gunmen attacking two guards outside St Mary's Assyrian Church in eastern Baghdad.",
+      "actor": "Unidentified gunmen",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0053",
+      "year": 2013,
+      "date": "June 2013",
+      "country": "Iraq",
+      "place": "Karrada, Baghdad",
+      "lat": 33.3,
+      "lon": 44.44,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Bombing of three Assyrian-owned businesses",
+      "summary": "US government reporting records bombs striking three Assyrian Christian-owned businesses in the Karrada district, killing an Assyrian owner and a Muslim employee.",
+      "actor": "Unidentified bombers",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0054",
+      "year": 2013,
+      "date": "22 September 2013",
+      "country": "Iraq",
+      "place": "Rafiqayn (exact locality not verified)",
+      "lat": null,
+      "lon": null,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Bomb attack on home of Christian MP Emad Youhanna",
+      "summary": "An official US religious-freedom report records a suicide bomb targeting the home of Christian member of parliament Emad Youhanna. People were injured, including his children; the source does not explicitly establish the ethnicity of all victims.",
+      "actor": "Unidentified suicide attacker",
+      "scope": "Shared Christian communities",
+      "sources": [
+        {
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+        }
+      ]
+    },
+    {
+      "id": "AP-0055",
+      "year": 2014,
+      "date": "7 August 2014",
+      "country": "Iraq",
+      "place": "Bartella",
+      "lat": 36.35,
+      "lon": 43.38,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "daesh occupation of Bartella and detention of remaining Christians",
+      "summary": "UN investigative reporting describes daesh entering Bartella after many Christian residents had fled and detaining or mistreating some who remained. This is a town-level episode within the broader Nineveh Plains offensive.",
+      "actor": "daesh",
+      "scope": "Assyrian / Syriac church communities",
+      "sources": [
+        {
+          "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+          "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0056",
+      "year": 2014,
+      "date": "6-7 August 2014",
+      "country": "Iraq",
+      "place": "Karamlesh",
+      "lat": 36.27,
+      "lon": 43.47,
+      "type": "Displacement",
+      "evidence": "documented",
+      "title": "Karamlesh residents flee daesh advance",
+      "summary": "UN investigators documented the flight of most Christian residents of Karamlesh, with church transport helping people leave as the town fell to daesh. Some residents were unable to leave and their later fates remain uncertain.",
+      "actor": "daesh",
+      "scope": "Assyrian-linked church communities",
+      "sources": [
+        {
+          "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+          "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0057",
+      "year": 2014,
+      "date": "August 2014",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Abduction",
+      "evidence": "documented",
+      "title": "Detention and forced conversion accounts from occupied Qaraqosh",
+      "summary": "UN investigators collected evidence that Christian men and women captured during daesh occupation were held, assaulted and subjected to forced conversion, including detainees gathered near the town's hospital. This is separate from the general expulsion record but part of the same offensive.",
+      "actor": "daesh",
+      "scope": "Assyrian / Syriac church communities",
+      "sources": [
+        {
+          "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+          "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0058",
+      "year": 2014,
+      "date": "August 2014-2016",
+      "country": "Iraq",
+      "place": "Bartella",
+      "lat": 36.35,
+      "lon": 43.38,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "Destruction of Syriac church heritage in Bartella",
+      "summary": "The UN investigative team's detailed assessment records looting, damaged altars and destroyed crosses at St Shmoni and St Georgis and other churches during daesh occupation. Dates for each act of destruction vary or are unknown.",
+      "actor": "daesh",
+      "scope": "Assyrian / Syriac church communities",
+      "sources": [
+        {
+          "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+          "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0059",
+      "year": 2014,
+      "date": "August 2014-2016",
+      "country": "Iraq",
+      "place": "Karamlesh",
+      "lat": 36.27,
+      "lon": 43.47,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "Damage to Karamlesh monasteries and churches during occupation",
+      "summary": "UN investigators record damage and destruction affecting St Barbara Monastery, Mar Addai Church and the Mar Georgis complex during daesh rule. These cultural attacks overlap the town's general displacement event.",
+      "actor": "daesh",
+      "scope": "Assyrian-linked church communities",
+      "sources": [
+        {
+          "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+          "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0060",
+      "year": 2020,
+      "date": "2020 (52 incidents documented by reporting organisation)",
+      "country": "Iraq",
+      "place": "Duhok governorate, Assyrian villages",
+      "lat": 37.01,
+      "lon": 43.15,
+      "type": "Airstrikes",
+      "evidence": "reported",
+      "title": "Turkish airstrikes near Assyrian villages in Duhok",
+      "summary": "The Assyrian Policy Institute catalogued 52 reported 2020 strikes near Assyrian-populated villages in the Barwar, Sapna, Zakho and Nahla areas and described displacement, damaged farmland and continuing fear. This single overview entry does not convert 52 underlying strikes into 52 individually mapped records; the source found no confirmed Assyrian deaths from those strikes.",
+      "actor": "Turkish military strikes against suspected pkk positions, as documented by API",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
+          "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire"
+        }
+      ]
+    },
+    {
+      "id": "AP-0061",
+      "year": 2025,
+      "date": "1 April 2025",
+      "country": "Iraq",
+      "place": "Duhok / Nohadra",
+      "lat": 36.87,
+      "lon": 43,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Attack on Assyrian New Year (Akitu) procession in Duhok",
+      "summary": "During the Assyrian New Year parade, a man wielding an axe attacked participants. The UN confirmed two seriously injured, while some media counted a third injured security officer. A suspect was detained.",
+      "actor": "Individual attacker detained by local security, reported by UNAMI",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "UNAMI Condemns Attack on Assyrian Christians in Duhok - United Nations (2025)",
+          "url": "https://iraq.un.org/en/291998-unami-strongly-condemns-attack-assyrian-christians-duhok"
+        },
+        {
+          "title": "Axe attack on Assyrian New Year parade - Associated Press (2025)",
+          "url": "https://apnews.com/article/bb5d1d323329b3117a2b2b930b0f64db"
+        }
+      ]
+    },
+    {
+      "id": "AP-0062",
+      "year": 2015,
+      "date": "February-May 2015",
+      "country": "Syria",
+      "place": "Assyrian Khabur villages",
+      "lat": 36.65,
+      "lon": 40.37,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "Destruction of churches and archives in Assyrian Khabur villages",
+      "summary": "The Assyrian Policy Institute documented destruction of churches, sacred texts and records in Khabur villages during the daesh occupation. This site-specific cultural destruction is related to, but distinct from, the mass abductions already catalogued.",
+      "actor": "daesh",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Erasing the Legacy of Khabour - Assyrian Policy Institute (2020)",
+          "url": "https://www.assyrianpolicy.org/reports"
+        },
+        {
+          "title": "Abduction of Assyrian Christians - USCIRF (2015)",
+          "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-abduction-more-200-assyrian-christians-and-urges"
+        }
+      ]
+    },
+    {
+      "id": "AP-0063",
+      "year": 2015,
+      "date": "30 December 2015",
+      "country": "Syria",
+      "place": "al-Wusta, Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Bombings of Christian-owned restaurants in Qamishli",
+      "summary": "Suicide and other blasts struck restaurants in the predominantly Christian al-Wusta quarter during celebrations, killing Christians and Muslims. daesh reportedly claimed responsibility; published death tolls differed.",
+      "actor": "daesh, according to claimed responsibility reported by the Syrian Observatory",
+      "scope": "Assyrian / Syriac and shared Christian communities",
+      "sources": [
+        {
+          "title": "16 dead, 30 wounded in explosions in Qamishli - Syrian Observatory (2015)",
+          "url": "https://www.syriahr.com/en/41805/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0064",
+      "year": 2016,
+      "date": "24 January 2016",
+      "country": "Syria",
+      "place": "al-Wusta, Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Bombing of Christian-owned cafe in Qamishli",
+      "summary": "A blast in Qamishli's Christian quarter killed three people identified by a local bishop as members of Chaldean and Syriac church communities. Competing claims about the perpetrators were circulating and remained unresolved in the contemporary report.",
+      "actor": "Unknown perpetrators; conflicting attribution noted in church reporting",
+      "scope": "Assyrian / Syriac church communities",
+      "sources": [
+        {
+          "title": "Attack in the Christian area in Qamishli - Agenzia Fides (2016)",
+          "url": "https://www.fides.org/en/news/59253-ASIA_SYRIA_Attack_in_the_Christian_area_in_Qamishli_3_dead_and_10_wounded"
+        }
+      ]
+    },
+    {
+      "id": "AP-0065",
+      "year": 2016,
+      "date": "19 June 2016",
+      "country": "Syria",
+      "place": "Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Mass killing",
+      "evidence": "documented",
+      "title": "Suicide bombing at Assyrian genocide commemoration",
+      "summary": "A suicide bomber attempted to reach a commemoration of Sayfo attended by the Syriac Orthodox patriarch. Three members of the Christian security service were killed while stopping the attacker.",
+      "actor": "Suicide attacker; perpetrating organisation not established by all cited contemporaneous reports",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Suicide attack at Sayfo commemoration - Agenzia Fides (2016)",
+          "url": "https://www.fides.org/en/news/60270-ASIA_SYRIA_Three_people_killed_in_a_suicide_attack_Patriarch_Ignatius_Ephraim_II_escapes_the_bombing"
+        }
+      ]
+    },
+    {
+      "id": "AP-0066",
+      "year": 2019,
+      "date": "11 July 2019",
+      "country": "Syria",
+      "place": "St Mary's Church, Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Car bomb outside Syriac Orthodox church in Qamishli",
+      "summary": "A vehicle-borne explosion outside St Mary's Syriac Orthodox Church injured civilians and damaged the church and neighbouring properties. Church representatives condemned the bombing; the perpetrator was not identified in their report.",
+      "actor": "Unknown bomber",
+      "scope": "Assyrian / Syriac church community",
+      "sources": [
+        {
+          "title": "MECC Condemns Terrorist Qamishli Bombing - Middle East Council of Churches (2019)",
+          "url": "https://www.mecc.org/mecc/2019/7/12/mecc-condemns-terrorist-qamishli-bombing"
+        }
+      ]
+    },
+    {
+      "id": "AP-0067",
+      "year": 2022,
+      "date": "16-17 April 2022",
+      "country": "Syria",
+      "place": "Tell Shinan near Tell Tamer",
+      "lat": 36.63,
+      "lon": 40.34,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian Khabur Guards fighter killed in shelling near Tell Tamer",
+      "summary": "The Syrian Observatory's reporting records the death of an Assyrian al-Khabur Guards fighter, Zia Tal Tamir, amid Turkish and aligned forces' shelling near Tell Shinan. Other nearby villages were also hit.",
+      "actor": "Turkish forces and Turkey-backed armed groups, according to local reports",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Assyrian fighter killed in Turkish shelling - Syrian Observatory (2022)",
+          "url": "https://www.syriahr.com/en/247863/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0068",
+      "year": 2022,
+      "date": "29 May 2022",
+      "country": "Syria",
+      "place": "Tell Tawil",
+      "lat": 36.56,
+      "lon": 40.41,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "Damage to Mar Sawa al-Hakim church and school in Tell Tawil",
+      "summary": "Syrian Archive investigated an attack damaging a Syriac or Assyrian Christian church, a school and civilian homes in Tell Tawil. Its open-source case assessment discusses the attack and possible responsibility without assuming intent for every impact.",
+      "actor": "Shelling attributed to Turkish or Turkey-backed armed forces in investigation",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Attack on church, school and homes in Tal Tawil - Syrian Archive (2022)",
+          "url": "https://syrianarchive.org/en/investigations/attack-impacts-church-school-and-civilian-homes-in-tal-tawil-in-the-hasakah-countryside/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0069",
+      "year": 2023,
+      "date": "25 February 2023",
+      "country": "Syria",
+      "place": "Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "Sayfo memorial vandalised in Qamishli",
+      "summary": "A monument commemorating the 1915 Assyrian and Syriac genocide was vandalised; a commemorative plaque and cross were damaged. The responsible individuals were not identified in the cited report.",
+      "actor": "Unknown vandals",
+      "scope": "Assyrian / Syriac community",
+      "sources": [
+        {
+          "title": "Christian monument vandalised in northeast Syria - Rudaw (2023)",
+          "url": "https://www.rudaw.net/english/categories/syria/1075882"
+        }
+      ]
+    },
+    {
+      "id": "AP-0070",
+      "year": 2024,
+      "date": "28 January 2024",
+      "country": "Syria",
+      "place": "Mor Aphrem Church, Qamishli",
+      "lat": 37.05,
+      "lon": 41.23,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Anti-Christian graffiti on Mor Aphrem Syriac Orthodox Church",
+      "summary": "A Syriac community publication reported hostile religious graffiti on Mor Aphrem Church and neighbouring Christian homes. Local security forces were informed and the matter was being investigated.",
+      "actor": "Unknown vandals",
+      "scope": "Assyrian / Syriac church community",
+      "sources": [
+        {
+          "title": "Mor Aphrem Church vandalised in Qamishli - SyriacPress (2024)",
+          "url": "https://syriacpress.com/blog/2024/01/28/syriac-orthodox-church-in-zalin-qamishli-north-and-east-syria-vandalized/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0071",
+      "year": 2015,
+      "date": "October 2015",
+      "country": "Sweden",
+      "place": "Tynnered, Gothenburg",
+      "lat": 57.65,
+      "lon": 11.9,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Assyrian-run businesses in Gothenburg marked with conversion threats",
+      "summary": "Reports describe threats sprayed on Assyrian-owned and other Christian businesses, using daesh-associated symbols and demands to convert. The graffiti was investigated; the source does not prove operational involvement by daesh.",
+      "actor": "Unknown perpetrators using daesh-style imagery",
+      "scope": "Assyrian diaspora",
+      "sources": [
+        {
+          "title": "Assyrian Christians in Gothenburg threatened - Observatory on Intolerance against Christians (2015)",
+          "url": "https://www.intoleranceagainstchristians.eu/index.php?case=1594&id=12"
+        }
+      ]
+    },
+    {
+      "id": "AP-0072",
+      "year": 2015,
+      "date": "20 September 2015",
+      "country": "Sweden",
+      "place": "Assyrian Cultural Centre, Sodertalje",
+      "lat": 59.2,
+      "lon": 17.63,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Firecrackers thrown at Assyrian cultural centre",
+      "summary": "Swedish public broadcaster SVT reported that firecrackers were thrown towards the Assyrian Cultural Centre after a local football derby and the incident was reported to police. The report did not establish an anti-Assyrian religious motive, so it is catalogued as a reported attack on an Assyrian institution, not a proven hate crime.",
+      "actor": "Two unidentified individuals seen near the building, according to witnesses",
+      "scope": "Assyrian diaspora",
+      "sources": [
+        {
+          "title": "Assyrian Cultural Centre attacked after football match - Sveriges Television (2015)",
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/assyriska-kulturhuset-utsatt-for-angrepp?lokalmeny=1"
+        }
+      ]
+    },
+    {
+      "id": "AP-0073",
+      "year": 2018,
+      "date": "19 September 2018",
+      "country": "Sweden",
+      "place": "St Afrem church hall, Sodertalje",
+      "lat": 59.19,
+      "lon": 17.62,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Explosion at Syriac Orthodox church hall in Sodertalje",
+      "summary": "Swedish church and press reporting describes an explosion at premises belonging to St Afrem Syriac Orthodox Church in Geneta. No deaths were reported and motive was under investigation; no anti-Christian motive is presumed.",
+      "actor": "Unknown perpetrators or cause at the time of published reports",
+      "scope": "Syriac diaspora church community",
+      "sources": [
+        {
+          "title": "Explosion near St Afrem Syriac Orthodox Church - Dagen (2018)",
+          "url": "https://www.dagen.se/nyheter/polisen-flera-fynd-efter-sprangdadet-vid-kyrka-i-sodertalje/3603883"
+        }
+      ]
+    },
+    {
+      "id": "AP-0074",
+      "year": 2023,
+      "date": "22 November 2023",
+      "country": "Sweden",
+      "place": "Tensta, Stockholm",
+      "lat": 59.39,
+      "lon": 17.91,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Syriac Orthodox Church of Mary Virgin damaged in Stockholm",
+      "summary": "A Syriac news organisation reported a break-in and property damage at a Syriac Orthodox church in Tensta. The archdiocese was investigating and no motive was established in the cited account.",
+      "actor": "Unidentified intruders",
+      "scope": "Syriac diaspora church community",
+      "sources": [
+        {
+          "title": "Syriac Orthodox Church vandalised in Stockholm - SyriacPress (2023)",
+          "url": "https://syriacpress.com/blog/2023/11/23/syriac-orthodox-church-vandalized-in-stockholm-archbishop-aktas-initiates-investigation/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0075",
+      "year": 2016,
+      "date": "November 2016",
+      "country": "United States",
+      "place": "Mar Shaleeta Parish, San Fernando",
+      "lat": 34.28,
+      "lon": -118.44,
+      "type": "Vandalism",
+      "evidence": "documented",
+      "title": "Assyrian Mar Shaleeta church vandalised with threatening biblical reference",
+      "summary": "An Assyrian Ancient Church of the East parish in California was spray-painted with words and a biblical reference concerning the ancient Assyrian army's destruction. Assyrian representatives described it as a hate incident, and the LA Times later documented the incident in a wider church-vandalism inquiry.",
+      "actor": "Unknown vandal; bias motive alleged by community representatives",
+      "scope": "Assyrian diaspora",
+      "sources": [
+        {
+          "title": "California Assyrian church vandalism context - Los Angeles Times (2018)",
+          "url": "https://www.latimes.com/local/lanow/la-me-ln-pasadena-church-vandalism-20180120-story.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0076",
+      "year": 2024,
+      "date": "15 April 2024",
+      "country": "Australia",
+      "place": "Christ the Good Shepherd Church, Wakeley",
+      "lat": -33.87,
+      "lon": 150.91,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Wakeley Assyrian church stabbing of bishop and priest",
+      "summary": "An assailant stabbed Bishop Mar Mari Emmanuel and injured a priest during a live-streamed service at an Assyrian Orthodox church in western Sydney. Police classified the event as religiously motivated terrorism; legal and mental-health proceedings continued later, so this report does not assert a final verdict.",
+      "actor": "16-year-old male defendant, with charges and motive subject to judicial proceedings",
+      "scope": "Assyrian diaspora",
+      "sources": [
+        {
+          "title": "Wakeley Assyrian Orthodox bishop stabbed - ABC News (2024)",
+          "url": "https://www.abc.net.au/news/2024-04-15/nsw-bishop-mar-mari-emmanuel-stabbed-man-arrested-wakeley/103711236"
+        },
+        {
+          "title": "Wakeley case updates and legal proceedings - ABC News (2026)",
+          "url": "https://www.abc.net.au/news/2026-02-27/teenager-stabbed-sydney-bishop-schizophrenia-wakeley/106395940"
+        }
+      ]
+    },
+    {
+      "id": "AP-0077",
+      "year": 2026,
+      "date": "March-April 2026",
+      "country": "Belgium",
+      "place": "Onze-Lieve-Vrouw Altijddurende Bijstandskerk, Antwerp",
+      "lat": 51.23,
+      "lon": 4.43,
+      "type": "Vandalism",
+      "evidence": "reported",
+      "title": "Reported vandalism at Assyrian Chaldean Catholic church in Antwerp",
+      "summary": "An Assyrian community publication reported a symbol spray-painted on the door of a church serving Assyrian Chaldean Catholics in Antwerp. The incident had not been independently established by official Belgian reporting when the account was published.",
+      "actor": "Unidentified vandal; motive and police outcome unconfirmed",
+      "scope": "Assyrian diaspora",
+      "sources": [
+        {
+          "title": "Reported vandalism at Assyrian church in Antwerp - The Assyria Post (2026)",
+          "url": "https://www.assyriapost.com/vandalism-at-assyrian-church-in-antwerp-raises-concern-among-assyrian-community/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0078",
+      "year": 2017,
+      "date": "2016-2017 administrative transfer; restitution ordered 2018",
+      "country": "Turkey",
+      "place": "Mor Gabriel Monastery, Mardin",
+      "lat": 37.32,
+      "lon": 41.54,
+      "type": "Property seizure",
+      "evidence": "documented",
+      "title": "Syriac Orthodox monastery property transferred to state bodies",
+      "summary": "Following administrative reorganisation, multiple Syriac Orthodox church and monastery properties were transferred into Turkish public control, prompting opposition. A 2018 decree ordered restitution of 30 assets, which must be recorded to avoid implying permanent seizure.",
+      "actor": "Turkish public authorities; later restitution ordered",
+      "scope": "Assyrian / Syriac church community",
+      "sources": [
+        {
+          "title": "Restitution decree for Syriac Orthodox properties - Agenzia Fides (2018)",
+          "url": "https://www.fides.org/en/news/63741-ASIA_TURKEY_A_decree_provides_for_the_complete_restitution_of_30_ecclesiastical_assets_to_the_Syriac_Orthodox_Church"
+        }
+      ]
+    },
+    {
+      "id": "AP-0079",
+      "year": 2020,
+      "date": "11 January 2020 onward",
+      "country": "Turkey",
+      "place": "Mehr / Kovankaya, Sirnak",
+      "lat": 37.31,
+      "lon": 42.59,
+      "type": "Abduction",
+      "evidence": "reported",
+      "title": "Disappearance of Assyrian Christian couple Hurmuz and Simoni Diril",
+      "summary": "Two elderly Assyrian-linked Chaldean Catholic villagers disappeared from their home. Simoni's body was found in March 2020; her husband's fate remained unresolved at the time of the cited report. Claims about the abductors were allegations, not established findings.",
+      "actor": "Unknown kidnappers; affiliation allegations contested or unproven",
+      "scope": "Assyrian community",
+      "sources": [
+        {
+          "title": "Missing Assyrian couple investigation - International Christian Concern (2021)",
+          "url": "https://persecution.org/2021/01/11/turkey-makes-no-progress-investigating-the-kidnapping-of-elderly-christians/"
+        },
+        {
+          "title": "Body of Şimuni Diril found - International Christian Concern (2020)",
+          "url": "https://persecution.org/2020/03/21/tragedy-for-family-of-missing-couple/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0080",
+      "year": 2025,
+      "date": "8 June 2025 (reported 12 June)",
+      "country": "Syria",
+      "place": "St Mary of the Holy Belt Cathedral, Homs",
+      "lat": 34.73,
+      "lon": 36.73,
+      "type": "Religious violence",
+      "evidence": "reported",
+      "title": "Shots fired at Syriac Orthodox cathedral cross in Homs",
+      "summary": "The Syriac Orthodox Archdiocese of Homs, Hama and Tartus reported gunfire directed at a cross on the facade of its Cathedral of St Mary of the Holy Belt in the Bustan al-Diwan quarter. Clergy denounced intimidation, and the perpetrators were not identified in the report.",
+      "actor": "Unidentified gunmen",
+      "scope": "Assyrian / Syriac church community",
+      "sources": [
+        {
+          "title": "Homs: shots fired at the cross of the Syriac Orthodox cathedral - Agenzia Fides (2025)",
+          "url": "https://www.fides.org/en/news/76465-ASIA_SYRIA_Homs_shots_fired_at_the_cross_of_the_Syriac_Orthodox_cathedral"
         }
       ]
     }
