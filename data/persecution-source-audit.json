@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Living source triage for added records AP-0081 through AP-0170. Sources can support several distinct events; regional summaries overlap individual cases, and 2020 airstrike data are not all individually extracted. Reviewed/partial status records how far a source was assessed for this archive, not proof of a report's truth. Older AP-0001 through AP-0080 still require systematic re-audit.",
+  "scope": "Living register of source-specific checks for AP-0081 through AP-0182. Cases include individually dated violence, continuing land claims and a regional multi-decade study; record counts are not a measure of unique attacks, confirmed cadastral parcels, or victims. Allegations concerning Kurdish private claimants, KRG institutions, other administrations and unidentified actors are kept distinct. KRG responses are retained where sourced. A reviewed/partial status measures research coverage, not the truth of a claim; older AP-0001 through AP-0080 still require the same systematic audit.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -11,6 +11,15 @@
       ],
       "review_status": "partial",
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://assyriaparliament.com/index.php/2026/01/07/leadershipannoncement-2-2-2-2/",
+      "title": "Assyrian Parliament submission naming Bakhitmeh land appropriation allegations (7 January 2026)",
+      "captured_record_ids": [
+        "AP-0181"
+      ],
+      "review_status": "partial",
+      "notes": "Bakhitmeh alleged appropriation is a single Assyrian advocacy statement with no public individual title documents, actor details, date of seizure or independent confirmation. Record remains reported."
     },
     {
       "url": "https://bx1.be/categories/news/un-acte-grave-de-negationnisme-le-monument-commemorant-le-genocide-arameen-a-jette-vandalise/",
@@ -29,6 +38,15 @@
       ],
       "review_status": "partial",
       "notes": "Aid to the Church in Need identifies the two victims and their Syriac Catholic tradition, without an assumed ethnic label."
+    },
+    {
+      "url": "https://english.ankawa.com/kurdish-aggression-against-assyrians/",
+      "title": "Assyrian Universal Alliance report on 13 June 2013 armed attack at Rabatki - Ankawa (2013)",
+      "captured_record_ids": [
+        "AP-0173"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
     },
     {
       "url": "https://fides.org/en/news/10565-ASIA_IRAQ_Release_of_two_Catholic_priest_hostages_in_northern_Iraq",
@@ -66,6 +84,15 @@
       ],
       "review_status": "partial",
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2022/05/12/iraq-syriacs-assyrians-from-bardarsh-village-illegally-detained-by-kurdish-security-forces-released/",
+      "title": "Assyrian Dadersh land protest detainees released - SyriacPress (12 May 2022)",
+      "captured_record_ids": [
+        "AP-0177"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
     },
     {
       "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/",
@@ -111,6 +138,24 @@
       ],
       "review_status": "reviewed",
       "notes": "Cemetery reporting is cross-referenced across Shaqlawa and Armota; differing casualty and damage counts retained as attribution, not averaged."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2026/06/29/residents-of-chaldean-syriac-assyrian-village-of-kashkawa-in-iraq-appeal-for-urgent-intervention-to-halt-encroachments-on-village-lands/",
+      "title": "Kashkawa residents appeal to enforce rulings on village land - SyriacPress (29 June 2026)",
+      "captured_record_ids": [
+        "AP-0179"
+      ],
+      "review_status": "partial",
+      "notes": "June 2026 revived cultivation complaint at Kashkawa indexed as a single ongoing case. Includes 2022 appellate order and June 2026 enforcement claim; followup not established."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2026/07/22/seizure-of-land-belonging-to-mar-girgis-monastery-renews-debate-over-christian-property-rights-in-iraq/",
+      "title": "Mar Girgis monastery endowment land dispute - SyriacPress (22 July 2026)",
+      "captured_record_ids": [
+        "AP-0180"
+      ],
+      "review_status": "partial",
+      "notes": "Chaldean monastery allegations about 1,400 historic dunams and additional 60 proposed for housing. The source does not identify a Kurdish actor, so none is assigned."
     },
     {
       "url": "https://wikileaks.jcvignoli.com/cable_06KIRKUK20",
@@ -221,6 +266,15 @@
       "notes": "Documented 13 November 2021 civilian protest policing with eleven reported injuries, not assumed religious hate or an attack on worshippers."
     },
     {
+      "url": "https://www.assyrianpolicy.org/post/new-case-of-assyrian-owned-lands-in-ankawa-erbil-appropriated-by-the-kurdistan-regional-government",
+      "title": "Assyrian farmers report KRG seizure of Ankawa farmland - Assyrian Policy Institute (3 May 2021)",
+      "captured_record_ids": [
+        "AP-0176"
+      ],
+      "review_status": "partial",
+      "notes": "Community claim of around 1,000 dunams near Ankawa airport around 27 April 2021. The development-company relationship is alleged. Actual cadastral deeds and any adjudication not independently accessed."
+    },
+    {
       "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq",
       "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
       "captured_record_ids": [
@@ -264,6 +318,27 @@
       "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta."
     },
     {
+      "url": "https://www.atour.com/news/assyria/20121001a.html",
+      "title": "Kori Gavana and Babelu land disputes, including published KRG response - Assyrian Information Management (2012-2013)",
+      "captured_record_ids": [
+        "AP-0171",
+        "AP-0172",
+        "AP-0173"
+      ],
+      "review_status": "partial",
+      "notes": "This 2012-2013 compilation reproduces both Assyrian residents' allegations concerning Kori Gavana and Babelu AND a KRG statement contesting ownership, describing voluntary planning and compensation. Those accounts must be read together; the site makes no independent title judgement."
+    },
+    {
+      "url": "https://www.atour.com/news/assyria/20250921a.html",
+      "title": "Dispossession and Expropriation of Assyrian Lands - Assyrian Aid Society-Iraq (2019)",
+      "captured_record_ids": [
+        "AP-0174",
+        "AP-0182"
+      ],
+      "review_status": "partial",
+      "notes": "2019 Assyrian Aid Society study claims more than 70 affected villages across different eras. It is one multi-region report, not 70 separately confirmed or newly counted incidents."
+    },
+    {
       "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/",
       "title": "Jette genocide monument damage - CathoBel (30 August 2023)",
       "captured_record_ids": [
@@ -271,6 +346,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Second contemporary account of the August 2023 Jette incident, not an additional attack."
+    },
+    {
+      "url": "https://www.chathamhouse.org/2022/03/cultural-heritage-predation-iraq/03-cultural-heritage-object-political-contestation",
+      "title": "Cultural heritage predation in Iraq: political contestation - Chatham House (2022)",
+      "captured_record_ids": [
+        "AP-0182"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
     },
     {
       "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria",
@@ -285,6 +369,15 @@
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
     },
     {
+      "url": "https://www.cswusa.org/2022/05/12/press/5699/article.htm",
+      "title": "Assyrian Christians arrested after attempted land grab - Christian Solidarity Worldwide (12 May 2022)",
+      "captured_record_ids": [
+        "AP-0177"
+      ],
+      "review_status": "partial",
+      "notes": "11 May 2022 Dadersh attempted land grab, assaults and detention are one incident; the two named detainees were released after approximately one day, corroborated by USCIRF profiles."
+    },
+    {
       "url": "https://www.fides.org/en/news/10521-ASIA_IRAQ_Catholic_priests_taken_hostage_in_Mosul_still_detained_Pope_Benedict_XVI_calls_for_their_release",
       "title": "Two Syrian Catholic priests remain hostages in Mosul - Agenzia Fides (16 October 2007)",
       "captured_record_ids": [
@@ -292,6 +385,15 @@
       ],
       "review_status": "partial",
       "notes": "First-party church account confirms 13 October 2007 abduction and indicates probable criminal ransom motive. It corrects a denomination error in a government summary."
+    },
+    {
+      "url": "https://www.fides.org/en/news/69030",
+      "title": "Dohuk appellate court reopens case of land claimed by 117 Christian farming families - Agenzia Fides (14 November 2020)",
+      "captured_record_ids": [
+        "AP-0175"
+      ],
+      "review_status": "partial",
+      "notes": "November 2020 117-family case is a report of appellate review and procedural error, not a final ruling restoring all 117 plots. Land seizure dates are earlier and varied."
     },
     {
       "url": "https://www.gfbv.de/aktuelles/news/bombenanschlag-auf-rueckkehrwillige-assyrisch-aramaeische-christen-in-der-tuerkei/",
@@ -401,10 +503,14 @@
       "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
       "captured_record_ids": [
         "AP-0164",
-        "AP-0165"
+        "AP-0165",
+        "AP-0174",
+        "AP-0175",
+        "AP-0179",
+        "AP-0182"
       ],
       "review_status": "partial",
-      "notes": "Separated 13 April 2016 religiously discriminatory protest roadblocks from an early April communal agricultural-land dispute, with witness attribution and official position."
+      "notes": "Witnesses, land complaints, official orders from 1992/1994 and the KRG response are reviewed. The 2016 Nahla protest roadblock and communal-land house allegation were already indexed; newly added Sarsink claims are a separate location, not 50 new records."
     },
     {
       "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed",
@@ -538,6 +644,42 @@
       ],
       "review_status": "reviewed",
       "notes": "One reported January 2026 church attack affecting the Assyrian village of Tel Jumaa was extracted. No independently verifiable locality coordinate, casualties or ethnic intent has been added."
+    },
+    {
+      "url": "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/james-zaya",
+      "title": "James Zaya: Religious Prisoners of Conscience - USCIRF (released May 2022)",
+      "captured_record_ids": [
+        "AP-0177"
+      ],
+      "review_status": "partial",
+      "notes": "USCIRF lists James Zaya as released in May 2022. Same Dadersh event and same underlying land dispute as Zya Minas."
+    },
+    {
+      "url": "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/zya-minas",
+      "title": "Zya Minas: Religious Prisoners of Conscience - USCIRF (released May 2022)",
+      "captured_record_ids": [
+        "AP-0177"
+      ],
+      "review_status": "partial",
+      "notes": "USCIRF lists Zya Minas as released in May 2022. Must not imply continued imprisonment or multiply one land protest into two separate attacks."
+    },
+    {
+      "url": "https://zowaa.org/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%AF%D9%87%D9%88%D9%83-%D8%AA%D8%AD%D9%83%D9%85-%D8%A8%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D8%B1%D8%A7%D8%B6%D9%8A-%D9%82/",
+      "title": "Dohuk appellate ruling for Kashkawa residents, reproduced with decision - Zowaa (10 June 2022)",
+      "captured_record_ids": [
+        "AP-0179"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
+    },
+    {
+      "url": "https://zowaa.org/clarification/",
+      "title": "Assyrian Democratic Movement statement on Nahla agricultural supplies checkpoint - Zowaa (14 March 2024)",
+      "captured_record_ids": [
+        "AP-0178"
+      ],
+      "review_status": "partial",
+      "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
     }
   ],
   "excluded_or_pending": [
@@ -560,6 +702,21 @@
       "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire",
       "status": "pending",
       "reason": "An Assyrian Policy Institute report tabulates approximately 52 dated 2020 military strike reports near Assyrian settlements. Current AP-0060 is a regional overview. Individual dates and exact locality disclosure require a verified reading of the appendix before event-level indexing, without implying each report corresponds to one missile or an Assyrian casualty."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2026/06/29/residents-of-chaldean-syriac-assyrian-village-of-kashkawa-in-iraq-appeal-for-urgent-intervention-to-halt-encroachments-on-village-lands/",
+      "status": "pending",
+      "reason": "Publicly reproduced June 2022 Kashkawa court decision should be checked against the full court file for appeal and enforcement history after June 2026. The site does not infer legal finality beyond published orders."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/new-case-of-assyrian-owned-lands-in-ankawa-erbil-appropriated-by-the-kurdistan-regional-government",
+      "status": "pending",
+      "reason": "Seek cadastral ownership records, KRG response and developer's documentation for the 2021 Ankawa approximately 1,000-dunam complaint."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2026/06/30/chaldean-syriac-assyrian-political-parties-respond-to-villager-appeals-over-illegal-land-encroachment-in-nohadra-duhok/",
+      "status": "pending",
+      "reason": "Separate June 2026 Tel Keppe / Jaber bin Hayyan housing-project objections refer to a proposed distribution, not a proven completed seizure. Do not catalogue as dispossession without supporting documents."
     }
   ]
 }

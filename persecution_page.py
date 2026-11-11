@@ -7,7 +7,7 @@ import json
 DATA_PATH = Path(__file__).resolve().parent / 'static' / 'persecution-records.json'
 TYPES = ('Mass killing', 'Displacement', 'Abduction', 'Religious violence',
          'Property seizure', 'Institutional pressure', 'Cultural destruction',
-         'Airstrikes', 'Vandalism')
+         'Airstrikes', 'Vandalism', 'Land encroachment', 'Physical assault')
 # The map provider uses a longer name than the editorial catalogue.
 COUNTRY_ALIASES = {'United States': 'United States of America'}
 EVIDENCE = ('historical', 'documented', 'reported')
@@ -100,6 +100,7 @@ def render():
 <div class="page-heading ap-heading"><span class="eyebrow">HUMAN RIGHTS / HISTORICAL RECORD</span><h1>Assyrian persecution.</h1>
 <p>An expandable record of mass violence, abductions, displacement, religious intimidation and property violations affecting Assyrian communities across history. Each entry identifies its evidence and links to the published account.</p></div>
 <div class="ap-intro"><p>These are <strong>attributed source records</strong>, not a claim that all reports have been independently verified or that the catalogue is complete. A documented report may include unverified allegations. Reports from outside the homeland identify Assyrian diaspora institutions; these are not automatically findings of religious hate crime. Historical Assyrian communities appear across several church traditions; reports that only identify Christians or Syriac communities are labelled accordingly rather than silently assigning an ethnicity to every victim.</p>
+<p><strong>Land rights and alleged Kurdish-actor abuses:</strong> The catalogue now separately identifies claimed encroachment by private individuals, actions of KRG authorities, arrests and physical assaults, and cases involving other Iraqi agencies. Community complaints do not by themselves establish legal ownership, motive or a criminal conviction. Court orders, subsequent releases and the authorities' recorded responses are included when available. It is inaccurate to attribute an individual or government action to Kurdish people collectively.</p>
 <p>Map shading counts <strong>catalogue records</strong>, not people harmed, individual victims, unique incidents or the rate of persecution. Multiple records may concern related events. Place markers identify approximate localities; entries without a defensible locality remain on the country layer without a location pin. No unlisted location should be interpreted as safe or incident-free.</p></div>
 <div class="ap-metrics" aria-label="Catalogue coverage">
 <div><strong id="ap-total">{len(records)}</strong><span>Source-linked records</span></div>

@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 170)
+        self.assertGreaterEqual(len(self.records), 182)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -133,7 +133,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_khabur_turkey_and_nineveh_expansion_has_explicit_evidence(self):
         by_id = {r['id']: r for r in self.records}
-        self.assertEqual(len(self.records), 170)
+        self.assertEqual(sum(1 for r in self.records if int(r['id'][3:]) <= 170), 170)
         self.assertEqual(by_id['AP-0149']['year'], 2015)
         self.assertIn('Virgin Mary', by_id['AP-0149']['title'])
         self.assertIn('AP-0062', by_id['AP-0149']['related_ids'])
@@ -152,6 +152,41 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('11 July', by_id['AP-0169']['summary'])
         self.assertIn('released', by_id['AP-0169']['summary'])
         self.assertIn('later release', by_id['AP-0170']['summary'])
+
+    def test_assyrian_land_rights_and_documented_kurdish_actor_cases(self):
+        by_id = {r['id']: r for r in self.records}
+        self.assertEqual(len(by_id), 182)
+        new = [r for r in self.records if 171 <= int(r['id'][3:]) <= 182]
+        self.assertEqual(len(new), 12)
+        self.assertTrue(all(r['country'] == 'Iraq' for r in new))
+        self.assertIn('Land encroachment', self.markup)
+        self.assertIn('Physical assault', self.markup)
+        self.assertIn('Land rights and alleged Kurdish-actor abuses:', self.markup)
+        self.assertIn('KRG', by_id['AP-0171']['actor'])
+        self.assertIn('official', by_id['AP-0171']['summary'])
+        self.assertIn('voluntary', by_id['AP-0171']['summary'])
+        self.assertIn('57', by_id['AP-0172']['summary'])
+        self.assertIn('Zaya Barcam Khoshaba', by_id['AP-0173']['summary'])
+        self.assertEqual(by_id['AP-0173']['type'], 'Physical assault')
+        self.assertEqual(by_id['AP-0165']['type'], 'Land encroachment')
+        self.assertIn('not a final judgement', by_id['AP-0175']['summary'])
+        self.assertIn('117', by_id['AP-0175']['summary'])
+        self.assertIn('1,000', by_id['AP-0176']['summary'])
+        self.assertIn('released the following day', by_id['AP-0177']['summary'])
+        self.assertIn('USCIRF', ' '.join(s['title'] for s in by_id['AP-0177']['sources']))
+        self.assertIn('five hours', by_id['AP-0178']['summary'])
+        self.assertIn('June 2022', by_id['AP-0179']['summary'])
+        self.assertIn('June 2026', by_id['AP-0179']['summary'])
+        self.assertIn('does not identify the original land takers as Kurdish',
+                      by_id['AP-0180']['summary'])
+        self.assertEqual(by_id['AP-0181']['evidence'], 'reported')
+        self.assertIsNone(by_id['AP-0181']['lat'])
+        self.assertIn('not 70 separately verified', by_id['AP-0182']['summary'])
+        # In a continuing land dispute a later appeal is linked, not another
+        # categorically proven seizure, and reports of police abuse name actors.
+        self.assertIn('AP-0179', by_id['AP-0165'].get('related_ids', []))
+        self.assertIn('AP-0177', by_id['AP-0164'].get('related_ids', []))
+        self.assertNotIn('AP-0180', by_id['AP-0171'].get('related_ids', []))
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
