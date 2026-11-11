@@ -1025,7 +1025,7 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Seven Assyrian Christians killed in Dora",
-      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district.",
+      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district. A second source reports a bus attack on 26-27 September with different figures (AP-0095); whether these are separate attacks or varying descriptions of one event has not been resolved.",
       "actor": "Four armed men, identity not established in the cited report",
       "scope": "Assyrian community",
       "sources": [
@@ -1033,6 +1033,9 @@
           "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
         }
+      ],
+      "related_ids": [
+        "AP-0095"
       ]
     },
     {
@@ -2154,7 +2157,7 @@
       "type": "Mass killing",
       "evidence": "reported",
       "title": "Bus attack killing Christian hospitality workers in Baghdad",
-      "summary": "A rights organisation documents an attack on a bus in Baghdad that killed 14 people, reportedly including 10 Assyrian-Chaldean Christian hospitality workers, and wounded others. The entry preserves the reported casualty figures and does not assert a judicial finding.",
+      "summary": "A rights organisation documents an attack on a bus in Baghdad that killed 14 people, reportedly including 10 Assyrian-Chaldean Christian hospitality workers, and wounded others. The entry preserves the reported casualty figures and does not assert a judicial finding. It may overlap AP-0044, another report of seven Assyrians killed in Dora on 27 September 2004. The chronology's different location detail and casualty count do not by themselves prove a second separate incident.",
       "actor": "Unknown armed assailants; motive not established",
       "scope": "Assyrian / Chaldean victims among a broader group",
       "sources": [
@@ -2162,6 +2165,9 @@
           "title": "Chronicle of violence against Assyrian and Chaldean Christians in Iraq (2003-2007) - Society for Threatened Peoples",
           "url": "https://www.gfbv.de/aktuelles/news/chronik-der-gewalt-gegen-assyro-chaldaeer-im-irak/"
         }
+      ],
+      "related_ids": [
+        "AP-0044"
       ]
     },
     {
