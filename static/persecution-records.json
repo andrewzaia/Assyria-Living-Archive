@@ -3671,7 +3671,8 @@
       ],
       "related_ids": [
         "AP-0154",
-        "AP-0156"
+        "AP-0156",
+        "AP-0173"
       ]
     },
     {
@@ -3884,6 +3885,9 @@
           "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
           "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
         }
+      ],
+      "related_ids": [
+        "AP-0177"
       ]
     },
     {
@@ -3905,6 +3909,10 @@
           "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
           "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
         }
+      ],
+      "related_ids": [
+        "AP-0175",
+        "AP-0179"
       ]
     },
     {
@@ -3972,6 +3980,9 @@
           "title": "KRG checkpoints continue to restrict Nahla Valley Assyrians - Assyrian Policy Institute (19 July 2023)",
           "url": "https://www.assyrianpolicy.org/post/krg-checkpoints-in-nahla-valley-continue-to-cause-hardships-to-local-assyrians"
         }
+      ],
+      "related_ids": [
+        "AP-0178"
       ]
     },
     {
@@ -4014,6 +4025,331 @@
           "title": "Samira Habsono detained incommunicado by SDF - Assyrian Policy Institute (13 August 2022)",
           "url": "https://www.assyrianpolicy.org/post/19-year-old-assyrian-woman-detained-by-sdf-forces-in-northeast-syria"
         }
+      ]
+    },
+    {
+      "id": "AP-0171",
+      "year": 2012,
+      "date": "September-December 2012; competing official accounts",
+      "country": "Iraq",
+      "place": "Kori Gavana (Raoula d'Rayeh), outskirts of Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian villagers contest KRG tourism-development plans in Kori Gavana",
+      "summary": "Assyrian village representatives alleged that a KRG development scheme would take approximately 88% of the land used by their community without consent and that workers entered private plots. In a response reproduced in the same collection, KRG officials disputed the villagers' ownership, argued that the area was government land and said the project was voluntary, with compensation available and no work without village consensus. The parties' disagreement over title and scope is not resolved by these publications.",
+      "actor": "KRG tourism and planning authorities in disputed development proposal; ownership and consent contested",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Kori Gavana and Babelu land disputes, including published KRG response - Assyrian Information Management (2012-2013)",
+          "url": "https://www.atour.com/news/assyria/20121001a.html"
+        },
+        {
+          "title": "KRG response on land tenure and Kori Gavana development, published alongside community allegations (2012)",
+          "url": "https://www.atour.com/news/assyria/20121001a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0172"
+      ]
+    },
+    {
+      "id": "AP-0172",
+      "year": 2013,
+      "date": "By 26 January 2013 (date of detailed community update)",
+      "country": "Iraq",
+      "place": "Babelu village, Duhok governorate",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported appropriation of 57 dunams of Assyrian village land in Babelu",
+      "summary": "Assyrian campaign organisers alleged that authorities appropriated 57 Iraqi dunams, approximately 142,500 square metres, from Babelu for a tourism project. Photos and a satellite-map annotation were published, but this report does not independently establish the cadastral boundary or any final ruling. It is separate from Kori Gavana's contested development.",
+      "actor": "KRG tourism authorities as alleged by Assyrian village advocates; disputed land title not adjudicated in cited report",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Kori Gavana and Babelu land disputes, including published KRG response - Assyrian Information Management (2012-2013)",
+          "url": "https://www.atour.com/news/assyria/20121001a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0171"
+      ]
+    },
+    {
+      "id": "AP-0173",
+      "year": 2013,
+      "date": "13 June 2013",
+      "country": "Iraq",
+      "place": "Rabatki / Rabatkeh village, Aqrah district, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Physical assault",
+      "evidence": "reported",
+      "title": "Armed group reportedly assaults Rabatki Assyrian village chief during attempted land grab",
+      "summary": "The Assyrian Universal Alliance reported that armed men arriving in seven vehicles threatened Rabatki residents during a dispute over village land, and that chief Zaya Barcam Khoshaba was struck in the face with a rifle. Its statement associated the men with a neighbouring Kurdish clan, but their identities and any prosecution are not independently established. This 2013 assault is distinct from the 2018 Turkish airstrike near Rabatkeh.",
+      "actor": "Armed private individuals, described by Assyrian witnesses as Kurdish clansmen; identity and legal outcome unverified",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Assyrian Universal Alliance report on 13 June 2013 armed attack at Rabatki - Ankawa (2013)",
+          "url": "https://english.ankawa.com/kurdish-aggression-against-assyrians/"
+        },
+        {
+          "title": "Kori Gavana and Babelu land disputes, including published KRG response - Assyrian Information Management (2012-2013)",
+          "url": "https://www.atour.com/news/assyria/20121001a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0155"
+      ]
+    },
+    {
+      "id": "AP-0174",
+      "year": 2016,
+      "date": "Claims documented 22 April 2016; some dating to 2001",
+      "country": "Iraq",
+      "place": "Sarsink and surrounding Assyrian villages, Duhok governorate",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "documented",
+      "title": "Assyrian residents report more than 50 unresolved land encroachment complaints near Sarsink",
+      "summary": "Human Rights Watch recorded testimony from Assyrian student William Benjamin that more than 50 encroachments had been registered in his home town of Sarsink and not resolved despite high-level promises in 2001. These are a reported aggregate of claims, not 50 individually verified or newly counted incidents. The KRG told HRW generally that land disputes are matters for courts and that its policy was not to appropriate Christian property.",
+      "actor": "Private Kurdish claimants according to Assyrian residents; KRG denies a policy of land confiscation",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        },
+        {
+          "title": "Dispossession and Expropriation of Assyrian Lands - Assyrian Aid Society-Iraq (2019)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0179",
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0175",
+      "year": 2020,
+      "date": "November 2020 appellate decision (underlying seizures earlier)",
+      "country": "Iraq",
+      "place": "Nahla Valley land claims, Duhok governorate",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "documented",
+      "title": "Dohuk appeals court reopens land-expropriation case involving 117 Christian farmers",
+      "summary": "Agenzia Fides reported that Dohuk's appellate court set aside a lower-court handling of claims concerning land and buildings held by 117 Chaldean, Syriac and Assyrian Christian farmers, finding that the underlying title evidence had not been properly examined. This was a procedural reversal and reopening, not a final judgement restoring all 117 properties. Fides also reported plans for a regional commission to review land cases.",
+      "actor": "Kurdish private claimants accused of taking farmland; appellate court reviewed procedural handling, not all ownership claims finally resolved",
+      "scope": "Assyrian, Syriac and Chaldean farming families",
+      "sources": [
+        {
+          "title": "Dohuk appellate court reopens case of land claimed by 117 Christian farming families - Agenzia Fides (14 November 2020)",
+          "url": "https://www.fides.org/en/news/69030"
+        },
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        }
+      ],
+      "related_ids": [
+        "AP-0165"
+      ]
+    },
+    {
+      "id": "AP-0176",
+      "year": 2021,
+      "date": "Around 27 April 2021; reported 3 May",
+      "country": "Iraq",
+      "place": "Agricultural fields near Erbil International Airport, Ankawa",
+      "lat": 36.21,
+      "lon": 43.99,
+      "type": "Property seizure",
+      "evidence": "reported",
+      "title": "Assyrian farmers report seizure of roughly 1,000 dunams near Ankawa",
+      "summary": "Ankawa farmers told the Assyrian Policy Institute that KRG authorities took around 1,000 Iraqi dunams of agricultural land near the airport without prior notice or compensation. They said they retained deeds and that crops had been destroyed; the NGO linked the land to a private development proposal. The ownership, area and developer relationship are reported claims, not independent cadastral findings.",
+      "actor": "KRG authorities and private developers alleged by Assyrian farmers; official adjudication not located",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Assyrian farmers report KRG seizure of Ankawa farmland - Assyrian Policy Institute (3 May 2021)",
+          "url": "https://www.assyrianpolicy.org/post/new-case-of-assyrian-owned-lands-in-ankawa-erbil-appropriated-by-the-kurdistan-regional-government"
+        }
+      ]
+    },
+    {
+      "id": "AP-0177",
+      "year": 2022,
+      "date": "11 May 2022; reported release 12 May",
+      "country": "Iraq",
+      "place": "Dadersh (Bardarash) village, Sarsink area, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Physical assault",
+      "evidence": "documented",
+      "title": "Assyrian mayor Zya Minas and James Zaya assaulted and arrested after land-dispute protest",
+      "summary": "Christian Solidarity Worldwide recorded that villagers resisted an attempted appropriation by men described as KDP loyalists. KRG Asayish reportedly beat protesters and arrested mayor Zya Minas and James Zaya, who had filmed the incident. USCIRF separately recorded both detentions, and USCIRF and SyriacPress reported that both men were released the following day. A recorded release does not establish the outcome of the underlying land dispute.",
+      "actor": "Private individuals described as KDP loyalists in the seizure attempt; KRG Asayish during protest dispersal and detentions",
+      "scope": "Assyrian village mayor, local witness and protesting landowners",
+      "sources": [
+        {
+          "title": "Assyrian Christians arrested after attempted land grab - Christian Solidarity Worldwide (12 May 2022)",
+          "url": "https://www.cswusa.org/2022/05/12/press/5699/article.htm"
+        },
+        {
+          "title": "Zya Minas: Religious Prisoners of Conscience - USCIRF (released May 2022)",
+          "url": "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/zya-minas"
+        },
+        {
+          "title": "James Zaya: Religious Prisoners of Conscience - USCIRF (released May 2022)",
+          "url": "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/james-zaya"
+        },
+        {
+          "title": "Assyrian Dadersh land protest detainees released - SyriacPress (12 May 2022)",
+          "url": "https://syriacpress.com/blog/2022/05/12/iraq-syriacs-assyrians-from-bardarsh-village-illegally-detained-by-kurdish-security-forces-released/"
+        }
+      ],
+      "related_ids": [
+        "AP-0164"
+      ]
+    },
+    {
+      "id": "AP-0178",
+      "year": 2024,
+      "date": "13 March 2024 (reported 14 March)",
+      "country": "Iraq",
+      "place": "Bakrman checkpoint, road to Nahla Valley, Aqrah district",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian farmers stopped for five hours while carrying approved supplies to Nahla",
+      "summary": "The Assyrian Democratic Movement stated that regional security personnel at the Bakrman checkpoint prevented local villagers from transporting agricultural fertiliser and food to Assyrian villages despite paperwork from Aqrah officials. Passage was allowed after more than five hours and intervention by community representatives. The source alleges repeated interference, but this entry counts only the dated March incident.",
+      "actor": "KRG checkpoint security personnel, according to Assyrian Democratic Movement statement",
+      "scope": "Assyrian farmers and village households in Nahla Valley",
+      "sources": [
+        {
+          "title": "Assyrian Democratic Movement statement on Nahla agricultural supplies checkpoint - Zowaa (14 March 2024)",
+          "url": "https://zowaa.org/clarification/"
+        }
+      ],
+      "related_ids": [
+        "AP-0168"
+      ]
+    },
+    {
+      "id": "AP-0179",
+      "year": 2026,
+      "date": "June 2026 renewed cultivation; June 2022 ruling referenced",
+      "country": "Iraq",
+      "place": "Kashkawa (Keshkawa), Dinarta subdistrict, Aqrah, Nahla Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Kashkawa villagers report renewed occupation of land despite 2022 court order",
+      "summary": "Kashkawa residents complained in June 2026 that the same disputed fields had again been cultivated by neighbouring claimants. They cited a June 2022 Dohuk appellate ruling imposing a fine and ordering removal of a building and restoration of the plot. A contemporaneous Assyrian Democratic Movement posting reproduces the court decision; the public reports do not show that the order was enforced by November 2026. This records renewed activity in one ongoing dispute, not a new judicial defeat.",
+      "actor": "Private neighbouring claimants described by community organisations as Kurdish; residents allege failure of regional authorities to enforce a favourable court order",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Kashkawa residents appeal to enforce rulings on village land - SyriacPress (29 June 2026)",
+          "url": "https://syriacpress.com/blog/2026/06/29/residents-of-chaldean-syriac-assyrian-village-of-kashkawa-in-iraq-appeal-for-urgent-intervention-to-halt-encroachments-on-village-lands/"
+        },
+        {
+          "title": "Dohuk appellate ruling for Kashkawa residents, reproduced with decision - Zowaa (10 June 2022)",
+          "url": "https://zowaa.org/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%AF%D9%87%D9%88%D9%83-%D8%AA%D8%AD%D9%83%D9%85-%D8%A8%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D8%B1%D8%A7%D8%B6%D9%8A-%D9%82/"
+        },
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        }
+      ],
+      "related_ids": [
+        "AP-0165",
+        "AP-0174"
+      ]
+    },
+    {
+      "id": "AP-0180",
+      "year": 2026,
+      "date": "22 July 2026 report; alleged seizures span earlier decades",
+      "country": "Iraq",
+      "place": "Mar Girgis (St George) Monastery, Ba'awera area east of Mosul",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Chaldean monastery disputes historic land losses and a new housing allocation near Mosul",
+      "summary": "The Antonian Order of Saint Ormizda told SyriacPress that about 1,400 dunams of monastery land had been lost over preceding decades, and objected to a proposal affecting another 60 dunams and part of its historic cemetery. Church leaders said they supported housing for Christian returnees but disputed using monastery endowment land without agreement. The report does not identify the original land takers as Kurdish, and this record must not be used to make that attribution.",
+      "actor": "Unspecified historic claimants and current housing planners; no documented Kurdish actor in cited report",
+      "scope": "Chaldean Catholic monastery and its religious endowment",
+      "sources": [
+        {
+          "title": "Mar Girgis monastery endowment land dispute - SyriacPress (22 July 2026)",
+          "url": "https://syriacpress.com/blog/2026/07/22/seizure-of-land-belonging-to-mar-girgis-monastery-renews-debate-over-christian-property-rights-in-iraq/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0181",
+      "year": 2026,
+      "date": "7 January 2026 public submission (incident date unspecified)",
+      "country": "Iraq",
+      "place": "Bakhitmeh village, northern Iraq",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian representative body reports property reallocations in Bakhitmeh",
+      "summary": "An Assyrian advocacy body stated in a January 2026 submission to international organisations that property in Bakhitmeh was being appropriated and allocated to people outside the community. Its online statement does not supply case numbers, parcel boundaries, acquisition dates or a court decision, and a separate independent investigation has not been found. The claim is retained solely as an explicitly attributed and unresolved allegation.",
+      "actor": "Unidentified administrators or recipients alleged in advocacy submission; individual or ethnic responsibility not established",
+      "scope": "Assyrian landowners and families",
+      "sources": [
+        {
+          "title": "Assyrian Parliament submission naming Bakhitmeh land appropriation allegations (7 January 2026)",
+          "url": "https://assyriaparliament.com/index.php/2026/01/07/leadershipannoncement-2-2-2-2/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0182",
+      "year": 2019,
+      "date": "2019 rights-report publication; underlying disputes span decades",
+      "country": "Iraq",
+      "place": "Assyrian villages in Duhok, Erbil and Nineveh (regional report)",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Assyrian Aid Society documents historic village land disputes across northern Iraq",
+      "summary": "A 2019 Assyrian Aid Society submission investigated title claims in more than 70 affected Assyrian villages, reporting some full-village occupation dating to earlier decades and many unresolved property cases. It attributes different periods of dispossession to pre-2003 Iraqi authorities, private neighbouring Kurdish tribes and later alleged regional failures to enforce remedies. This is one research overview, not 70 separately verified incidents or a single continuing seizure by one actor.",
+      "actor": "Multiple historical actors and private claimants, including some Kurdish tribal groups, as attributed by Assyrian Aid Society",
+      "scope": "Assyrian village owners and displaced families across several districts",
+      "sources": [
+        {
+          "title": "Dispossession and Expropriation of Assyrian Lands - Assyrian Aid Society-Iraq (2019)",
+          "url": "https://www.atour.com/news/assyria/20250921a.html"
+        },
+        {
+          "title": "Cultural heritage predation in Iraq: political contestation - Chatham House (2022)",
+          "url": "https://www.chathamhouse.org/2022/03/cultural-heritage-predation-iraq/03-cultural-heritage-object-political-contestation"
+        },
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        }
+      ],
+      "related_ids": [
+        "AP-0174"
       ]
     }
   ]
