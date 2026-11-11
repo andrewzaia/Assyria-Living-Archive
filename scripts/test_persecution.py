@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 148)
+        self.assertGreaterEqual(len(self.records), 170)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -130,6 +130,28 @@ class PersecutionTests(unittest.TestCase):
                             for r in mosul_2010))
         self.assertIn('AP-0130', by_id['AP-0046']['related_ids'])
         self.assertNotIn('AP-0130', by_id['AP-0011']['related_ids'])
+
+    def test_khabur_turkey_and_nineveh_expansion_has_explicit_evidence(self):
+        by_id = {r['id']: r for r in self.records}
+        self.assertEqual(len(self.records), 170)
+        self.assertEqual(by_id['AP-0149']['year'], 2015)
+        self.assertIn('Virgin Mary', by_id['AP-0149']['title'])
+        self.assertIn('AP-0062', by_id['AP-0149']['related_ids'])
+        for id_ in ('AP-0149', 'AP-0150', 'AP-0151', 'AP-0152', 'AP-0153'):
+            self.assertIn('AP-0020', by_id[id_]['related_ids'])
+            self.assertIn(id_, by_id['AP-0062']['related_ids'])
+            self.assertEqual(by_id[id_]['type'], 'Cultural destruction')
+        strike_ids = ('AP-0154', 'AP-0155', 'AP-0156')
+        self.assertEqual([by_id[id_]['date'] for id_ in strike_ids],
+                         ['1 September 2018', '4 September 2018', '5 September 2018'])
+        self.assertTrue(all(by_id[id_]['lat'] is None for id_ in strike_ids))
+        self.assertTrue(all('no ' in by_id[id_]['summary'].lower() or
+                            'no ' in by_id[id_]['actor'].lower() for id_ in strike_ids))
+        self.assertIn('7 April 2021', by_id['AP-0162']['summary'])
+        self.assertEqual(by_id['AP-0167']['type'], 'Institutional pressure')
+        self.assertIn('11 July', by_id['AP-0169']['summary'])
+        self.assertIn('released', by_id['AP-0169']['summary'])
+        self.assertIn('later release', by_id['AP-0170']['summary'])
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES

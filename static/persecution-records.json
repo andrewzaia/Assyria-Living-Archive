@@ -494,7 +494,14 @@
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
         }
       ],
-      "scope": "Assyrian community"
+      "scope": "Assyrian community",
+      "related_ids": [
+        "AP-0149",
+        "AP-0150",
+        "AP-0151",
+        "AP-0152",
+        "AP-0153"
+      ]
     },
     {
       "id": "AP-0021",
@@ -1454,6 +1461,13 @@
           "title": "Abduction of Assyrian Christians - USCIRF (2015)",
           "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-abduction-more-200-assyrian-christians-and-urges"
         }
+      ],
+      "related_ids": [
+        "AP-0149",
+        "AP-0150",
+        "AP-0151",
+        "AP-0152",
+        "AP-0153"
       ]
     },
     {
@@ -3455,6 +3469,551 @@
       ],
       "related_ids": [
         "AP-0024"
+      ]
+    },
+    {
+      "id": "AP-0149",
+      "year": 2015,
+      "date": "5-6 April 2015 (contemporary reports differ by a day)",
+      "country": "Syria",
+      "place": "Church of the Virgin Mary, Tel Nasri, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "documented",
+      "title": "daesh destroys the Assyrian Church of the Virgin Mary at Tel Nasri",
+      "summary": "Militants placed explosives in the Church of the Virgin Mary, built in 1934, reducing much of the Assyrian village church to rubble during the Khabur occupation. Contemporary accounts place the detonation on Easter or the following day, so the date is given as a short range; the separate regional heritage record covers the wider campaign.",
+      "actor": "daesh, according to contemporaneous eyewitness and church reporting",
+      "scope": "Assyrian Church of the East village congregation",
+      "sources": [
+        {
+          "title": "Assyrian Church of the Virgin Mary destroyed in Tal Nasri - Aleteia (28 May 2015)",
+          "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/"
+        },
+        {
+          "title": "Assyrian village church demolition reported on 6 April 2015 - Agos (2015)",
+          "url": "https://www.agos.com.tr/tr/haber/isis-attacks-on-easter-assyrian-village-church-bombed-36889"
+        },
+        {
+          "title": "Erasing the Legacy of Khabour: Assyrian cultural heritage - Assyrian Policy Institute (2020)",
+          "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0150",
+      "year": 2015,
+      "date": "23 February 2015 and subsequent occupation",
+      "country": "Syria",
+      "place": "Church and homes, Tel Hormuz, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "reported",
+      "title": "Church burned and houses damaged in Assyrian village Tel Hormuz",
+      "summary": "A Syrian Catholic archbishop reported that raiders torched the village during the 23 February assault. Subsequent local accounts describe its church destroyed, homes looted and some booby-trapped before militants withdrew. The exact date on which the church structure was destroyed is uncertain.",
+      "actor": "daesh, according to church and local accounts",
+      "scope": "Assyrian village and linked Christian congregation",
+      "sources": [
+        {
+          "title": "Syrian Catholic archbishop reports Khabur village attacks - Agenzia Fides (24 February 2015)",
+          "url": "https://fides.org/en/news/37331-ASIA_SYRIA_Islamic_State_jihadists_attack_Christian_villages_along_the_river_Khabur"
+        },
+        {
+          "title": "Assyrians recall attacks on Khabur villages - North Press Agency (2021)",
+          "url": "https://npasyria.com/en/54910/"
+        },
+        {
+          "title": "Reported destruction of Assyrian village churches along the Khabur - Christian Today (2015)",
+          "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0151",
+      "year": 2015,
+      "date": "23 February 2015 and ensuing occupation",
+      "country": "Syria",
+      "place": "Mar Bisho church, Tel Shamiran, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "reported",
+      "title": "Mar Bisho church reportedly torched at Tel Shamiran",
+      "summary": "Contemporaneous Assyrian advocacy reporting identifies the Mar Bisho church among religious sites destroyed or set alight during the Khabur offensive. Tel Shamiran was also identified as a village from which civilians were taken hostage. Individual casualty totals for this church have not been established.",
+      "actor": "daesh, according to attributed contemporary reporting",
+      "scope": "Assyrian village church community",
+      "sources": [
+        {
+          "title": "Syrian Catholic archbishop reports Khabur village attacks - Agenzia Fides (24 February 2015)",
+          "url": "https://fides.org/en/news/37331-ASIA_SYRIA_Islamic_State_jihadists_attack_Christian_villages_along_the_river_Khabur"
+        },
+        {
+          "title": "Reported destruction of Assyrian village churches along the Khabur - Christian Today (2015)",
+          "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0152",
+      "year": 2015,
+      "date": "February-May 2015 (exact day not established)",
+      "country": "Syria",
+      "place": "Assyrian village church, Tel Baloua, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "reported",
+      "title": "Reported destruction of the Assyrian church at Tel Baloua",
+      "summary": "An Assyrian campaign group cited in contemporary press identified a church in Tel Baloua as destroyed during the daesh Khabur campaign. Exact damage date and building attribution remain uncertain; this is a location-specific report within the wider documented church-destruction pattern.",
+      "actor": "daesh, per Assyrian advocacy reporting reproduced by Christian Today",
+      "scope": "Assyrian village congregation",
+      "sources": [
+        {
+          "title": "Reported destruction of Assyrian village churches along the Khabur - Christian Today (2015)",
+          "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria"
+        },
+        {
+          "title": "Erasing the Legacy of Khabour: Assyrian cultural heritage - Assyrian Policy Institute (2020)",
+          "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0153",
+      "year": 2015,
+      "date": "February-May 2015 (exact day not established)",
+      "country": "Syria",
+      "place": "Assyrian village church, Qabr Shamiye, Khabur Valley",
+      "lat": null,
+      "lon": null,
+      "type": "Cultural destruction",
+      "evidence": "reported",
+      "title": "Reported burning of a church in Assyrian village Qabr Shamiye",
+      "summary": "Contemporary accounts from the Assyrian advocacy group A Demand for Action described a church burnt in Qabr Shamiye during the February 2015 offensive. The source does not establish the day, casualties or a church dedication.",
+      "actor": "daesh, according to contemporary accounts cited by Christian Today",
+      "scope": "Assyrian village church community",
+      "sources": [
+        {
+          "title": "Reported destruction of Assyrian village churches along the Khabur - Christian Today (2015)",
+          "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria"
+        },
+        {
+          "title": "Erasing the Legacy of Khabour: Assyrian cultural heritage - Assyrian Policy Institute (2020)",
+          "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour"
+        }
+      ],
+      "related_ids": [
+        "AP-0020",
+        "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0154",
+      "year": 2018,
+      "date": "1 September 2018",
+      "country": "Iraq",
+      "place": "Dooreh (Dure), Barwar, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Airstrikes",
+      "evidence": "reported",
+      "title": "Turkish airstrike causes damage in Assyrian village Dooreh",
+      "summary": "The Assyrian Policy Institute reported that Turkish forces struck the area of Dooreh, where residents documented farmland and some home damage. The NGO reported no casualties. It attributed the military operation to pursuit of pkk forces, rather than confirming intentional targeting of Assyrians.",
+      "actor": "Turkish military targeting suspected pkk positions; civilian effects documented by community NGO",
+      "scope": "Assyrian village residents",
+      "sources": [
+        {
+          "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
+          "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
+        }
+      ],
+      "related_ids": [
+        "AP-0155",
+        "AP-0156"
+      ]
+    },
+    {
+      "id": "AP-0155",
+      "year": 2018,
+      "date": "4 September 2018",
+      "country": "Iraq",
+      "place": "Rabatkeh, Nahla Valley, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Airstrikes",
+      "evidence": "reported",
+      "title": "Reported Turkish airstrike affects Assyrian village Rabatkeh",
+      "summary": "The Assyrian Policy Institute listed Rabatkeh among Assyrian villages affected by a September 2018 airstrike, with crop or property losses in the broader series and no reported fatalities. The entry does not allocate all reported regional damage to this one village.",
+      "actor": "Turkish military targeting pkk positions, according to API; no proven ethnic targeting",
+      "scope": "Assyrian village residents",
+      "sources": [
+        {
+          "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
+          "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
+        }
+      ],
+      "related_ids": [
+        "AP-0154",
+        "AP-0156"
+      ]
+    },
+    {
+      "id": "AP-0156",
+      "year": 2018,
+      "date": "5 September 2018",
+      "country": "Iraq",
+      "place": "Annoneh, Barwar, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Airstrikes",
+      "evidence": "reported",
+      "title": "Assyrian residents report airstrikes near Annoneh",
+      "summary": "Assyrian villagers reported additional Turkish strikes near Annoneh in Barwar on 5 September 2018. The contemporary report said no casualties occurred during that week's village strikes; precise detonation locations are not published.",
+      "actor": "Turkish military strikes against suspected pkk positions, per village witnesses",
+      "scope": "Assyrian village residents",
+      "sources": [
+        {
+          "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
+          "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
+        }
+      ],
+      "related_ids": [
+        "AP-0154",
+        "AP-0155"
+      ]
+    },
+    {
+      "id": "AP-0157",
+      "year": 2019,
+      "date": "9-10 October 2019",
+      "country": "Syria",
+      "place": "Assyrian neighbourhoods, Qamishli",
+      "lat": 37.05,
+      "lon": 41.22,
+      "type": "Airstrikes",
+      "evidence": "reported",
+      "title": "Shelling reaches Assyrian neighbourhoods in Qamishli during offensive",
+      "summary": "During the October 2019 Turkish offensive in northeast Syria, an Assyrian policy organisation reported shelling and property damage in predominantly Assyrian areas of Qamishli and two Assyrian civilians seriously injured. Victim identities and exact strike sites are withheld; the report does not establish a deliberate religious or ethnic motive.",
+      "actor": "Turkish military offensive, as attributed by Assyrian Policy Institute",
+      "scope": "Assyrian civilian residents of Qamishli",
+      "sources": [
+        {
+          "title": "Turkish military offensive reaches Assyrian areas of Qamishli - Assyrian Policy Institute (10 October 2019)",
+          "url": "https://www.assyrianpolicy.org/post/api-statement-on-turkish-offensive-in-northeastern-syria"
+        }
+      ],
+      "related_ids": [
+        "AP-0023"
+      ]
+    },
+    {
+      "id": "AP-0158",
+      "year": 2015,
+      "date": "Late 2015; detention lasted approximately 14 months",
+      "country": "Turkey",
+      "place": "Southeastern Turkey (location not specified in source)",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian organisation president Sado Ide Oshana imprisoned on terrorism allegations",
+      "summary": "The Assyrian Policy Institute describes the arrest and imprisonment of Sado Ide Oshana, leader of an Assyrian, Chaldean and Aramean association, during wider 2015 detentions. It reports his release after around fourteen months and subsequent flight from Turkey. Details of charges and court findings were not independently checked.",
+      "actor": "Turkish security authorities; alleged terrorism affiliation disputed by human-rights advocates",
+      "scope": "Assyrian civil-society representative",
+      "sources": [
+        {
+          "title": "API Statement on the Status of Assyrians in Turkey - Assyrian Policy Institute (4 August 2019)",
+          "url": "https://www.assyrianpolicy.org/post/api-statement-on-the-status-of-assyrians-in-turkey"
+        },
+        {
+          "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey"
+        }
+      ]
+    },
+    {
+      "id": "AP-0159",
+      "year": 2016,
+      "date": "November 2016",
+      "country": "Turkey",
+      "place": "Mardin",
+      "lat": 37.31,
+      "lon": 40.74,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Elected Assyrian co-mayor Februniye Akyol removed from office",
+      "summary": "Turkish authorities removed Februniye Akyol from the Mardin municipal co-mayoral office in November 2016. An Assyrian advocacy organisation characterised the action as part of wider political repression; this entry records the removal without presuming a judicial finding that ethnicity was the sole cause.",
+      "actor": "Turkish state authorities under municipal intervention",
+      "scope": "Elected Assyrian political representative",
+      "sources": [
+        {
+          "title": "API Statement on the Status of Assyrians in Turkey - Assyrian Policy Institute (4 August 2019)",
+          "url": "https://www.assyrianpolicy.org/post/api-statement-on-the-status-of-assyrians-in-turkey"
+        },
+        {
+          "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey"
+        }
+      ]
+    },
+    {
+      "id": "AP-0160",
+      "year": 2017,
+      "date": "March 2017",
+      "country": "Turkey",
+      "place": "Mardin",
+      "lat": 37.31,
+      "lon": 40.74,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian community chairman Yuhanon Aktas arrested after police raid",
+      "summary": "The Assyrian Policy Institute reports that police raided the home of Yuhanon Aktas, chairman of an Assyrian organisation in Mardin, arrested him and alleged pkk membership. Available reporting does not provide a verified subsequent judgement.",
+      "actor": "Turkish police, on alleged pkk-affiliation charges; outcome unknown",
+      "scope": "Assyrian civil-society leader",
+      "sources": [
+        {
+          "title": "API Statement on the Status of Assyrians in Turkey - Assyrian Policy Institute (4 August 2019)",
+          "url": "https://www.assyrianpolicy.org/post/api-statement-on-the-status-of-assyrians-in-turkey"
+        },
+        {
+          "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey"
+        }
+      ]
+    },
+    {
+      "id": "AP-0161",
+      "year": 2018,
+      "date": "Early 2018",
+      "country": "Turkey",
+      "place": "Sirnak province (village withheld)",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian returnee Petrus Karatay detained after publicly criticising conditions",
+      "summary": "Petrus Karatay, who had returned from France to his family's home region in Sirnak, was detained after commenting publicly on conditions for returning Assyrians. An Assyrian advocacy group says he was subsequently released. Charges, duration and motive are attributed to published accounts, not judicially established here.",
+      "actor": "Turkish security authorities; purported terrorism charges contested by Karatay",
+      "scope": "Assyrian returnee and community advocate",
+      "sources": [
+        {
+          "title": "API Statement on the Status of Assyrians in Turkey - Assyrian Policy Institute (4 August 2019)",
+          "url": "https://www.assyrianpolicy.org/post/api-statement-on-the-status-of-assyrians-in-turkey"
+        },
+        {
+          "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey"
+        }
+      ]
+    },
+    {
+      "id": "AP-0162",
+      "year": 2020,
+      "date": "9 January 2020 arrest; 7 April 2021 conviction",
+      "country": "Turkey",
+      "place": "Mor Yacoub Monastery area, Tur Abdin",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Syriac Orthodox priest Sefer Aho Bilecen arrested and later convicted",
+      "summary": "Sefer Aho Bilecen was arrested after providing food and water to visitors later alleged to be pkk members. An Assyrian advocacy organisation records an indictment in January 2020 and a sentence of two years and one month on 7 April 2021 for supporting a terrorist organisation. His counsel disputed knowledge of the visitors' affiliation; the recorded conviction and criticism must both be preserved.",
+      "actor": "Turkish police and judiciary; criminal conviction recorded, defence disputed criminal intent",
+      "scope": "Syriac Orthodox Assyrian priest",
+      "sources": [
+        {
+          "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey"
+        }
+      ]
+    },
+    {
+      "id": "AP-0163",
+      "year": 2008,
+      "date": "Late 2008 to January 2009 election campaign",
+      "country": "Iraq",
+      "place": "Qaraqosh / Bakhdida, Nineveh Plains",
+      "lat": 36.27,
+      "lon": 43.38,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian militia members report threats of job loss and eviction over voting",
+      "summary": "Human Rights Watch interviewed four members of a KRG-funded Assyrian militia who said Kurdish-list representatives threatened dismissal and housing eviction unless the men voted for the Kurdish political alliance. They were also told to pass similar warnings to displaced Christian residents. The account is an attributed political-intimidation allegation rather than a criminal conviction.",
+      "actor": "Kurdish electoral-list representatives, according to HRW interviews; officials contested broader intimidation allegations",
+      "scope": "Assyrian militia members and displaced Christian residents",
+      "sources": [
+        {
+          "title": "On Vulnerable Ground: Assyrian militia members report electoral intimidation - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
+        }
+      ]
+    },
+    {
+      "id": "AP-0164",
+      "year": 2016,
+      "date": "13 April 2016",
+      "country": "Iraq",
+      "place": "Nahla Valley access road, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "documented",
+      "title": "Security checkpoints prevent Assyrians travelling to Erbil to protest land encroachment",
+      "summary": "Human Rights Watch spoke with Assyrian witnesses who said KRG Asayish roadblocks prevented Christian families from leaving Nahla and reaching a planned peaceful demonstration at Erbil's parliament. Some travellers were blocked although they had not intended to protest. KRG authorities maintained generally that land disputes should proceed through courts.",
+      "actor": "KRG Asayish and security checkpoint forces, as documented by HRW witnesses",
+      "scope": "Assyrian Christian families and peaceful demonstrators",
+      "sources": [
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        }
+      ]
+    },
+    {
+      "id": "AP-0165",
+      "year": 2016,
+      "date": "Early April 2016 (reported 22 April)",
+      "country": "Iraq",
+      "place": "Hizani, Zule and Khalilani communal lands, Nahla",
+      "lat": null,
+      "lon": null,
+      "type": "Property seizure",
+      "evidence": "documented",
+      "title": "Assyrian families report continued encroachment on communal farmland in Nahla",
+      "summary": "Human Rights Watch interviewed Assyrian residents about a house built and expanded on their communal farmland despite a police stop order. Villagers described earlier unresolved encroachments and presented deeds and complaints. The specific dispute is catalogued separately from the April 13 roadblock, without assuming court resolution or attributing every contested property to state policy.",
+      "actor": "Private Kurdish neighbour accused by Assyrian villagers; alleged official inaction despite police order",
+      "scope": "Assyrian agricultural landowners in Nahla Valley",
+      "sources": [
+        {
+          "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+          "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        }
+      ]
+    },
+    {
+      "id": "AP-0166",
+      "year": 2017,
+      "date": "16-27 July 2017; replacement confirmed 28 July",
+      "country": "Iraq",
+      "place": "Alqosh, Nineveh Plains",
+      "lat": 36.73,
+      "lon": 43.1,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Disputed removal of Alqosh mayor Faiez Abed Jawar",
+      "summary": "Nineveh provincial authorities removed Faiez Abed Jawar as mayor in July 2017. Assyrian residents protested, describing Kurdish political interference; authorities cited corruption allegations and installed Lara Yousif Zara following a council vote. Both the reported official grounds and opposition objections are retained, without assigning misconduct to the replacement officeholder.",
+      "actor": "Nineveh provincial council; local Assyrian political representatives disputed grounds and process",
+      "scope": "Assyrian-linked town administration and local Christian community",
+      "sources": [
+        {
+          "title": "Mayor of Alqosh Deposed - SBS Assyrian (25 July 2017)",
+          "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/mayor-of-alqosh-deposed/qtu3hyrzf"
+        },
+        {
+          "title": "New mayor appointed after disputed removal in Alqosh - Agenzia Fides (28 July 2017)",
+          "url": "https://fides.org/en/news/62719-ASIA_IRAQ_Chaldian_Catholic_Lara_Zara_elected_mayor_of_Alqosh"
+        }
+      ]
+    },
+    {
+      "id": "AP-0167",
+      "year": 2021,
+      "date": "13 November 2021",
+      "country": "Iraq",
+      "place": "Shiyyez and Mar Yaqo, Simele district, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Riot police beat Assyrian protesters over village services in Simele district",
+      "summary": "The Assyrian Policy Institute gathered 17 eyewitness accounts and videos of baton and shield attacks by riot police during a peaceful village protest about electricity and infrastructure. The institute reported at least eleven injured demonstrators. The event is a protest-policing rights allegation, not necessarily an anti-Christian religious attack.",
+      "actor": "KRG riot police, according to verified eyewitness accounts compiled by API",
+      "scope": "Assyrian village residents and civic protesters",
+      "sources": [
+        {
+          "title": "KRG police use unlawful force against Assyrian protestors in Simele - Assyrian Policy Institute (15 November 2021)",
+          "url": "https://www.assyrianpolicy.org/post/krg-police-use-unlawful-force-against-assyrian-protestors-in-simele-district"
+        }
+      ]
+    },
+    {
+      "id": "AP-0168",
+      "year": 2023,
+      "date": "17 July 2023",
+      "country": "Iraq",
+      "place": "Road checkpoint into Nahla Valley, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian family denied entry home after hospital visit by Nahla checkpoint",
+      "summary": "An Assyrian family travelling home after a hospital visit to Akre was reportedly stopped by KRG forces under a night curfew and had to sleep by the roadside. Local Assyrian residents protested; the wider restrictions were associated with KRG-pkk tensions. This is a dated incident rather than a blanket claim that every KRG checkpoint targets Assyrians.",
+      "actor": "KRG checkpoint personnel enforcing night movement restrictions; reported by API",
+      "scope": "Assyrian civilian family and nearby residents",
+      "sources": [
+        {
+          "title": "KRG checkpoints continue to restrict Nahla Valley Assyrians - Assyrian Policy Institute (19 July 2023)",
+          "url": "https://www.assyrianpolicy.org/post/krg-checkpoints-in-nahla-valley-continue-to-cause-hardships-to-local-assyrians"
+        }
+      ]
+    },
+    {
+      "id": "AP-0169",
+      "year": 2022,
+      "date": "3-11 July 2022 (subsequently released)",
+      "country": "Syria",
+      "place": "Derik / al-Malikiyah, al-Hasakah",
+      "lat": 37.18,
+      "lon": 42.14,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian woman Rasha Chamoun detained incommunicado and later released",
+      "summary": "Assyrian Policy Institute reported Rasha Chamoun's detention on 3 July 2022 without reported formal charges and limited family contact. Its published 11 July update confirms she was released. The status of any subsequent investigation is not established; this record does not imply continuing detention.",
+      "actor": "Syrian Democratic Forces, according to her family's account and API; grounds for detention not disclosed",
+      "scope": "Assyrian civilian woman",
+      "sources": [
+        {
+          "title": "Rasha Chamoun's detention and 11 July release - Assyrian Policy Institute (2022)",
+          "url": "https://www.assyrianpolicy.org/post/assyrian-woman-arbitrarily-detained-by-sdf-forces-in-northeastern-syria"
+        }
+      ]
+    },
+    {
+      "id": "AP-0170",
+      "year": 2022,
+      "date": "1 August 2022 arrest; status reported 13 August",
+      "country": "Syria",
+      "place": "Qamishli and reported detention in al-Hasakah",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Assyrian woman Samira Habsono reportedly held without charges by SDF",
+      "summary": "Assyrian Policy Institute reported that 19-year-old Samira Habsono was called to a local office in Qamishli on 1 August and detained on alleged espionage suspicion. According to family interviews, she was denied legal access and was believed held at al-Baytarih women's prison. The cited August 2022 report does not establish a later release or final charge.",
+      "actor": "Syrian Democratic Forces, according to API and family members; detention purpose disputed",
+      "scope": "Assyrian civilian woman",
+      "sources": [
+        {
+          "title": "Samira Habsono detained incommunicado by SDF - Assyrian Policy Institute (13 August 2022)",
+          "url": "https://www.assyrianpolicy.org/post/19-year-old-assyrian-woman-detained-by-sdf-forces-in-northeast-syria"
+        }
       ]
     }
   ]
