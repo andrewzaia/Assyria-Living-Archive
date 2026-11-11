@@ -1461,6 +1461,13 @@
           "title": "Abduction of Assyrian Christians - USCIRF (2015)",
           "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-abduction-more-200-assyrian-christians-and-urges"
         }
+      ],
+      "related_ids": [
+        "AP-0149",
+        "AP-0150",
+        "AP-0151",
+        "AP-0152",
+        "AP-0153"
       ]
     },
     {
@@ -3493,7 +3500,8 @@
         }
       ],
       "related_ids": [
-        "AP-0020"
+        "AP-0020",
+        "AP-0062"
       ]
     },
     {
@@ -3525,7 +3533,8 @@
         }
       ],
       "related_ids": [
-        "AP-0020"
+        "AP-0020",
+        "AP-0062"
       ]
     },
     {
@@ -3553,7 +3562,8 @@
         }
       ],
       "related_ids": [
-        "AP-0020"
+        "AP-0020",
+        "AP-0062"
       ]
     },
     {
@@ -3581,7 +3591,8 @@
         }
       ],
       "related_ids": [
-        "AP-0020"
+        "AP-0020",
+        "AP-0062"
       ]
     },
     {
@@ -3609,7 +3620,8 @@
         }
       ],
       "related_ids": [
-        "AP-0020"
+        "AP-0020",
+        "AP-0062"
       ]
     },
     {
@@ -3631,6 +3643,10 @@
           "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
           "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
         }
+      ],
+      "related_ids": [
+        "AP-0155",
+        "AP-0156"
       ]
     },
     {
@@ -3652,6 +3668,10 @@
           "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
           "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
         }
+      ],
+      "related_ids": [
+        "AP-0154",
+        "AP-0156"
       ]
     },
     {
@@ -3673,6 +3693,10 @@
           "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
           "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq"
         }
+      ],
+      "related_ids": [
+        "AP-0154",
+        "AP-0155"
       ]
     },
     {
@@ -3916,7 +3940,7 @@
       "place": "Shiyyez and Mar Yaqo, Simele district, Duhok",
       "lat": null,
       "lon": null,
-      "type": "Religious violence",
+      "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Riot police beat Assyrian protesters over village services in Simele district",
       "summary": "The Assyrian Policy Institute gathered 17 eyewitness accounts and videos of baton and shield attacks by riot police during a peaceful village protest about electricity and infrastructure. The institute reported at least eleven injured demonstrators. The event is a protest-policing rights allegation, not necessarily an anti-Christian religious attack.",
