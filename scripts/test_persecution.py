@@ -41,11 +41,12 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 212)
+        self.assertGreaterEqual(len(self.records), 218)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
-                         {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
-                          'Sweden', 'Syria', 'Turkey', 'United States'})
+                         {'Australia', 'Belgium', 'France', 'Georgia', 'Germany',
+                          'Iran', 'Iraq', 'Netherlands', 'Sweden', 'Syria',
+                          'Turkey', 'United States'})
         self.assertLess(min(r['year'] for r in self.records), 1900)
         self.assertGreaterEqual(max(r['year'] for r in self.records), 2026)
         self.assertTrue(all(r.get('scope') for r in self.records))
@@ -242,6 +243,37 @@ class PersecutionTests(unittest.TestCase):
                      if 'annex, row ' in s['title']}
         self.assertEqual(len(annex_old | annex_new), 30)
         self.assertFalse(annex_old & annex_new)
+
+    def test_new_country_reports_and_explicitly_excluded_non_persecution(self):
+        by_id = {r['id']: r for r in self.records}
+        tranche = [r for r in self.records if 213 <= int(r['id'][3:]) <= 218]
+        self.assertEqual(len(tranche), 6)
+        self.assertEqual({r['country'] for r in tranche},
+                         {'France', 'Germany', 'Netherlands', 'Australia'})
+        self.assertEqual(by_id['AP-0213']['country'], 'France')
+        self.assertIn('anti-terror', by_id['AP-0213']['summary'])
+        self.assertIn('not a conviction', by_id['AP-0213']['summary'])
+        self.assertEqual(by_id['AP-0214']['type'], 'Harassment')
+        self.assertEqual(by_id['AP-0214']['evidence'], 'reported')
+        self.assertIn('not a finding', by_id['AP-0214']['summary'])
+        self.assertEqual(by_id['AP-0215']['related_ids'], ['AP-0216'])
+        self.assertEqual(by_id['AP-0216']['related_ids'], ['AP-0215'])
+        self.assertIn('without igniting', by_id['AP-0215']['summary'])
+        self.assertIn('motive', by_id['AP-0216']['summary'])
+        self.assertEqual(by_id['AP-0217']['related_ids'], ['AP-0218'])
+        self.assertEqual(by_id['AP-0218']['related_ids'], ['AP-0217'])
+        self.assertEqual([by_id[f'AP-{i:04d}']['year']
+                          for i in (217, 218)], [2010, 2015])
+        self.assertIn('Harassment', self.markup)
+        self.assertNotIn('Paulus Akman', ' '.join(r['title'] for r in self.records))
+        self.assertNotIn('Leimen', ' '.join(r['title'] for r in self.records))
+        audit = json.loads((ROOT / 'data/persecution-source-audit.json').read_text(encoding='utf-8'))
+        excluded = {e['url']: e for e in audit['excluded_or_pending']}
+        self.assertIn('https://www.1twente.nl/artikel/2158883/vijftien-maanden-cel-voor-vuurwerkbom-bij-huis-van-priester-in-glanerbrug', excluded)
+        self.assertIn('https://staatsanwaltschaft-heidelberg.justiz-bw.de/pb/%2CLde/32196677/?LISTPAGE=1222784', excluded)
+        self.assertEqual(excluded['https://persecution.org/2026/06/19/videos-show-damage-to-historic-iraqi-assyrian-church/']['status'], 'pending')
+        self.assertTrue(all(r['lat'] is not None and r['lon'] is not None
+                            for r in tranche))
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
