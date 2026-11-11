@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-12",
   "milestones": [
     {
       "id": "foundation",
@@ -169,6 +169,13 @@
       "status": "in-progress",
       "delivered": "Added a dedicated public publication and preservation room, deterministic SHA-256 fixity manifest covering generated files, strict missing/extra/tampered-file verification, recoverable deterministic ZIP export with tested extraction, CI negative tests and restore checks for build and Pages deployment, plus selected live-file hash probes and an operational recovery runbook. Existing noindex safeguards remain unchanged.",
       "next": "Assign a backup custodian and establish independent offsite copies and restoration drills. Use the new source and accessibility audit procedures to review remote citations and real-device WCAG 2.2 usability before any indexing approval. Rights, specialist historical/linguistic review and live publisher availability still require human checks."
+    },
+    {
+      "id": "assyrian-persecution",
+      "title": "Assyrian persecution map and source catalogue",
+      "status": "in-progress",
+      "delivered": "Added a dedicated Assyrian persecution page with 25 source-attributed historical and contemporary records, a self-hosted Natural Earth country heat map, locality markers, date and type filters, evidence categories, search, country selection and reset. Initial material spans four countries and 1843-2024, using historic events and identified reports without implying complete worldwide coverage. Two appropriately contextualised, previously checked public-domain images are reused from the local image archive. Map shading counts records rather than people harmed or persecution prevalence.",
+      "next": "Continue systematic century-by-century and country-by-country source acquisition; split large regional campaigns into separately corroborated local events where evidence supports it; append contemporary accounts with explicit attribution and time scopes; review further local images and media permissions; independently review historical coordinate placement and accessibility on actual devices."
     }
   ]
 }
