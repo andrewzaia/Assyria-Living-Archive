@@ -41,7 +41,7 @@ class PersecutionTests(unittest.TestCase):
 
     def test_source_ids_dates_and_coordinate_precision(self):
         self.assertEqual(len(self.records), len(set(r['id'] for r in self.records)))
-        self.assertGreaterEqual(len(self.records), 198)
+        self.assertGreaterEqual(len(self.records), 212)
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Australia', 'Belgium', 'Georgia', 'Iran', 'Iraq',
@@ -215,6 +215,33 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('not proof', by_id['AP-0181']['summary'].lower())
         self.assertIn('94 land-claim rows', self.markup)
         self.assertNotIn('AP-0198', by_id['AP-0181'].get('related_ids', []))
+
+    def test_second_village_annex_tranche_is_attributed_and_not_double_counted(self):
+        by_id = {r['id']: r for r in self.records}
+        new = [r for r in self.records if 199 <= int(r['id'][3:]) <= 212]
+        self.assertEqual(len(new), 14)
+        self.assertEqual([r['id'] for r in new],
+                         [f'AP-{i:04d}' for i in range(199, 213)])
+        self.assertTrue(all(r['country'] == 'Iraq' and
+                            r['type'] == 'Land encroachment' and
+                            r['evidence'] == 'reported' for r in new))
+        self.assertTrue(all(r['lat'] is None and r['lon'] is None for r in new))
+        self.assertTrue(all(r['related_ids'] == ['AP-0182'] for r in new))
+        self.assertTrue(all(r['id'] in by_id['AP-0182']['related_ids'] for r in new))
+        self.assertEqual(len({s['title'] for r in new for s in r['sources']}), 14)
+        self.assertIn('former Iraqi', by_id['AP-0200']['summary'])
+        self.assertIn('1991', by_id['AP-0200']['summary'])
+        self.assertIn('1978 and 1991', by_id['AP-0209']['date'])
+        self.assertIn('2013', by_id['AP-0212']['summary'])
+        self.assertNotIn('KRG', by_id['AP-0201']['actor'])
+        annex_old = {int(s['title'].split('annex, row ')[1].split(' ')[0])
+                     for r in self.records if 183 <= int(r['id'][3:]) <= 198
+                     for s in r['sources'] if 'annex, row ' in s['title']}
+        annex_new = {int(s['title'].split('annex, row ')[1].split(' ')[0])
+                     for r in new for s in r['sources']
+                     if 'annex, row ' in s['title']}
+        self.assertEqual(len(annex_old | annex_new), 30)
+        self.assertFalse(annex_old & annex_new)
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
