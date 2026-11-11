@@ -4376,7 +4376,21 @@
         "AP-0195",
         "AP-0196",
         "AP-0197",
-        "AP-0198"
+        "AP-0198",
+        "AP-0199",
+        "AP-0200",
+        "AP-0201",
+        "AP-0202",
+        "AP-0203",
+        "AP-0204",
+        "AP-0205",
+        "AP-0206",
+        "AP-0207",
+        "AP-0208",
+        "AP-0209",
+        "AP-0210",
+        "AP-0211",
+        "AP-0212"
       ]
     },
     {
@@ -4784,6 +4798,342 @@
         {
           "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
           "url": "https://www.atour.com/news/assyria/20080813a.html"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0199",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Mallah Arab, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Mallah Arab Assyrian residents report whole-village farmland appropriation",
+      "summary": "The Assyrian Aid Society-Iraq's 2019 annex, row 7, lists agricultural land covering the whole village of Mallah Arab as occupied in 1991 by residents of neighbouring villages. The row identifies neither individual claimants nor a ruling, so ownership, present possession and any resolution remain unverified.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 7 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0200",
+      "year": 1977,
+      "date": "1977 and 1978/1991 claims",
+      "country": "Iraq",
+      "place": "Bersive (Bersawa), Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Bersive land dossier distinguishes former Iraqi housing allocation from later encroachments",
+      "summary": "The 2019 Assyrian Aid Society annex, row 9, attributes a 4,500-dunam residential-complex allocation in 1977 to the former Iraqi regime, then separately reports appropriation of the village watercourse in 1991 by neighbouring residents and claims affecting 2,400 dunams of farmland and pasture dated 1978/1991. Both land-area figures are source claims; the events and actors must not be conflated or added to a unique seized-area total.",
+      "actor": "Former Iraqi authorities (1977 allocation); private neighbouring claimants (later water and farmland disputes)",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 9 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0201",
+      "year": 1977,
+      "date": "1977",
+      "country": "Iraq",
+      "place": "Hizawa, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Hizawa owners dispute 1,450-dunam municipal transfer and housing development",
+      "summary": "Assyrian Aid Society annex row 10 reports that 1,450 dunams of Hizawa farmland were affected by a 1977 property transfer to Zakho municipality and residential development. The claimed transfer predates the KRG, and the annex does not reproduce a final title ruling or independently show the current administrative status.",
+      "actor": "Zakho municipality in 1977, as identified by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 10 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0202",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Talkber, Darkar subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Talkber farmland claim concerns 3,000 dunams transferred to Zakho municipality",
+      "summary": "The Assyrian Aid Society-Iraq annex, row 11, identifies 3,000 dunams of agricultural land in Talkber as the subject of a 1991 municipal transfer. It names the Zakho municipality rather than a private village neighbour. The source does not establish the legal validity or subsequent outcome of the transfer.",
+      "actor": "Zakho municipality, as identified in the 2019 Assyrian Aid Society annex",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 11 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0203",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Levo, Batoufa subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Levo villagers report 420-dunam farming and residential land dispute",
+      "summary": "The 2019 Assyrian Aid Society annex, row 12, reports 420 dunams of Levo agricultural land affected by residential-complex construction in 1991 and attributes the encroachment to neighbouring villagers. The annex provides no claimant names, parcel plan or court outcome.",
+      "actor": "People from neighbouring villages, as alleged by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 12 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0204",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Shkaft Mart, Zakho centre",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Shkaft Mart villagers contest municipality's occupation of village farmland",
+      "summary": "Assyrian Aid Society-Iraq annex row 13 identifies agricultural land described as the whole of Shkaft Mart village as subject to appropriation by Zakho municipality in 1991. The whole-village description is the reporting organisation's characterisation, not an independently mapped parcel or judicial finding.",
+      "actor": "Zakho municipality, as identified by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 13 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0205",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Mehamdike, Zakho centre",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Mehamdike farmland listed in whole-village municipal appropriation claim",
+      "summary": "The Assyrian Aid Society-Iraq 2019 annex, row 14, lists Mehamdike agricultural land across the whole village as taken by Zakho municipality in 1991. It does not include individual deeds, proceedings or proof of later enforcement and is recorded as an attributed land-rights complaint.",
+      "actor": "Zakho municipality, as identified by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 14 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0206",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Bidaro, Zakho centre",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Bidaro Assyrian owners report loss of whole-village titled land",
+      "summary": "The 2019 Assyrian Aid Society annex, row 15, identifies the lands of Bidaro as a whole-village 1991 occupation claim against residents of neighbouring villages, describing the property as privately owned. The reported ownership category is not a verified copy of a deed or final ownership decision.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 15 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0207",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Bebad, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Bebad owners allege 1991 encroachment on farmland, buildings and water sources",
+      "summary": "Assyrian Aid Society-Iraq annex row 17 reports a 1991 land claim at Bebad involving 12 dunams and lists agricultural land, buildings, pasture and water sources among the affected assets. It attributes the dispute to residents of neighbouring villages, without specifying which parcels or resolving ownership.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 17 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0208",
+      "year": 1961,
+      "date": "1961",
+      "country": "Iraq",
+      "place": "Duhoki village, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Duhoki Assyrian villagers report occupation of village lands since 1961",
+      "summary": "The Assyrian Aid Society's 2019 annex, row 21, assigns a 1961 date to a whole-village claim concerning Duhoki and lists neighbours as the alleged occupiers. It does not establish whether the reported loss was caused by particular fighting or identify an ethnic or institutional perpetrator.",
+      "actor": "Unspecified neighbouring villagers, as reported by the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 21 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0209",
+      "year": 1978,
+      "date": "1978 and 1991",
+      "country": "Iraq",
+      "place": "Bobawa, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Bobawa land complaint distinguishes 1978 state action and 1991 neighbour occupation",
+      "summary": "Annex row 23 of the 2019 Assyrian Aid Society submission reports a whole-village land dispute at Bobawa with 1978 and 1991 dates. It identifies the former Iraqi government and residents of nearby settlements as distinct parties. The annex does not assign each parcel or conclusively establish a continuous seizure by either party.",
+      "actor": "Former Iraqi authorities and nearby residents in different periods, according to the annex",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 23 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0210",
+      "year": 1989,
+      "date": "1989 and 1991",
+      "country": "Iraq",
+      "place": "Sardawao, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Sardawao agricultural and orchard land contested across 1989 and 1991",
+      "summary": "The Assyrian Aid Society-Iraq annex, row 24, lists farmland and orchards in Sardawao, sector 44, as the subject of claims dated 1989 and 1991 involving people from neighbouring villages. Sector 44 is a cadastral label in the source, not an asserted number of dunams.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 24 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0211",
+      "year": 1977,
+      "date": "1977 and 1991",
+      "country": "Iraq",
+      "place": "Badarsh, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Badarsh Assyrian farmland and orchard dispute listed for 1977 and 1991",
+      "summary": "Assyrian Aid Society annex row 25 reports encroachments affecting Badarsh village farmland and orchards with 1977 and 1991 dates and attributes them to neighbouring residents. It supplies no seized-area total or court decision, so the extent and legal disposition remain unresolved in this record.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 25 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ],
+      "related_ids": [
+        "AP-0182"
+      ]
+    },
+    {
+      "id": "AP-0212",
+      "year": 1992,
+      "date": "1992 and 2013",
+      "country": "Iraq",
+      "place": "Balijani, Sarsink subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Balijani villagers allege continuing farmland and housing encroachments",
+      "summary": "The Assyrian Aid Society 2019 annex, row 26, reports disputes involving Balijani agricultural land and residential construction in 1992 and 2013, attributed to residents of neighbouring villages. These are two dates within one village dossier, not proof of two independent completed land seizures.",
+      "actor": "Residents of neighbouring villages, according to the Assyrian Aid Society",
+      "scope": "Assyrian villagers and landowning families",
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 26 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
         }
       ],
       "related_ids": [
