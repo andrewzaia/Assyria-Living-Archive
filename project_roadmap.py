@@ -6,6 +6,9 @@ from pathlib import Path
 
 DATA = json.loads((Path(__file__).resolve().parent / 'data/project-roadmap.json').read_text(encoding='utf-8'))
 STATUSES = {'available', 'in-progress', 'planned', 'on-hold'}
+# Keep About > The Next Chapters readable; detailed changes belong in release history.
+MAX_DELIVERED = 230
+MAX_NEXT = 150
 REQUIRED = {'foundation', 'navigation', 'scripture', 'encyclopaedia', 'atlas', 'source-trails',
             'claims', 'language', 'community', 'submission', 'governance', 'publication'}
 
@@ -20,6 +23,8 @@ def validate():
             raise ValueError('Invalid roadmap milestone status or ID: ' + item['id'])
         if not all(isinstance(item.get(field), str) and item[field].strip() for field in ('title','delivered','next')):
             raise ValueError('Roadmap milestone is incomplete: ' + item['id'])
+        if len(item['delivered']) > MAX_DELIVERED or len(item['next']) > MAX_NEXT:
+            raise ValueError('Roadmap summary is too long: ' + item['id'])
     return items
 
 
