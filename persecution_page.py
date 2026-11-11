@@ -7,7 +7,8 @@ import json
 DATA_PATH = Path(__file__).resolve().parent / 'static' / 'persecution-records.json'
 TYPES = ('Mass killing', 'Displacement', 'Abduction', 'Religious violence',
          'Property seizure', 'Institutional pressure', 'Cultural destruction',
-         'Airstrikes', 'Vandalism', 'Land encroachment', 'Physical assault')
+         'Airstrikes', 'Vandalism', 'Land encroachment', 'Physical assault',
+         'Harassment')
 # The map provider uses a longer name than the editorial catalogue.
 COUNTRY_ALIASES = {'United States': 'United States of America'}
 EVIDENCE = ('historical', 'documented', 'reported')
