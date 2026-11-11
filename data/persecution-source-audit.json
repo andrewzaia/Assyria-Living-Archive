@@ -1,8 +1,17 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-12",
-  "scope": "Incremental source triage for newly added AP-0081 through AP-0148, with source-attributed event links and explicit exclusions. Earlier AP-0001 through AP-0080 are not yet fully re-audited under this system. Review status applies to identified Assyrian-linked incidents, not every event in a publication. 'Partial' is not a judgement of source credibility. This is a living research queue, not a completeness claim or independent proof of every allegation.",
+  "scope": "Living source triage for added records AP-0081 through AP-0170. Sources can support several distinct events; regional summaries overlap individual cases, and 2020 airstrike data are not all individually extracted. Reviewed/partial status records how far a source was assessed for this archive, not proof of a report's truth. Older AP-0001 through AP-0080 still require systematic re-audit.",
   "sources": [
+    {
+      "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
+      "title": "Assyrian Church of the Virgin Mary destroyed in Tal Nasri - Aleteia (28 May 2015)",
+      "captured_record_ids": [
+        "AP-0149"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
     {
       "url": "https://bx1.be/categories/news/un-acte-grave-de-negationnisme-le-monument-commemorant-le-genocide-arameen-a-jette-vandalise/",
       "title": "Jette 1915 genocide monument vandalised - BX1 / Belga (29 August 2023)",
@@ -29,6 +38,34 @@
       ],
       "review_status": "reviewed",
       "notes": "First-party church account establishes 21 October 2007 release of the two Syriac Catholic priests; it does not establish anti-Christian motivation."
+    },
+    {
+      "url": "https://fides.org/en/news/37331-ASIA_SYRIA_Islamic_State_jihadists_attack_Christian_villages_along_the_river_Khabur",
+      "title": "Syrian Catholic archbishop reports Khabur village attacks - Agenzia Fides (24 February 2015)",
+      "captured_record_ids": [
+        "AP-0150",
+        "AP-0151"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://fides.org/en/news/62719-ASIA_IRAQ_Chaldian_Catholic_Lara_Zara_elected_mayor_of_Alqosh",
+      "title": "New mayor appointed after disputed removal in Alqosh - Agenzia Fides (28 July 2017)",
+      "captured_record_ids": [
+        "AP-0166"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://npasyria.com/en/54910/",
+      "title": "Assyrians recall attacks on Khabur villages - North Press Agency (2021)",
+      "captured_record_ids": [
+        "AP-0150"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
     },
     {
       "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/",
@@ -94,6 +131,107 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.agos.com.tr/tr/haber/isis-attacks-on-easter-assyrian-village-church-bombed-36889",
+      "title": "Assyrian village church demolition reported on 6 April 2015 - Agos (2015)",
+      "captured_record_ids": [
+        "AP-0149"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour",
+      "title": "Erasing the Legacy of Khabour: Assyrian cultural heritage - Assyrian Policy Institute (2020)",
+      "captured_record_ids": [
+        "AP-0149",
+        "AP-0152",
+        "AP-0153"
+      ],
+      "review_status": "partial",
+      "notes": "Five individual village/church damage cases linked to the regional 2015 archive destruction summary; exact destruction days vary and total church losses may be greater."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/19-year-old-assyrian-woman-detained-by-sdf-forces-in-northeast-syria",
+      "title": "Samira Habsono detained incommunicado by SDF - Assyrian Policy Institute (13 August 2022)",
+      "captured_record_ids": [
+        "AP-0170"
+      ],
+      "review_status": "partial",
+      "notes": "Records Samira Habsono's detention as described in the August 2022 source, with later disposition unknown."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/api-statement-on-the-status-of-assyrians-in-turkey",
+      "title": "API Statement on the Status of Assyrians in Turkey - Assyrian Policy Institute (4 August 2019)",
+      "captured_record_ids": [
+        "AP-0158",
+        "AP-0159",
+        "AP-0160",
+        "AP-0161"
+      ],
+      "review_status": "partial",
+      "notes": "Extracted 2015 detention of Sado Ide Oshana, 2016 removal of co-mayor Februniye Akyol, 2017 arrest of Yuhanon Aktas, 2018 arrest of returnee Petrus Karatay. Distinct officeholders and dated events, not inferred ethnic motive for each state action."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/api-statement-on-turkish-offensive-in-northeastern-syria",
+      "title": "Turkish military offensive reaches Assyrian areas of Qamishli - Assyrian Policy Institute (10 October 2019)",
+      "captured_record_ids": [
+        "AP-0157"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/assyrian-priest-indicted-on-terrorism-charges-in-turkey",
+      "title": "Assyrian priest Sefer Aho Bilecen arrested and convicted - Assyrian Policy Institute (2020-2021)",
+      "captured_record_ids": [
+        "AP-0158",
+        "AP-0159",
+        "AP-0160",
+        "AP-0161",
+        "AP-0162"
+      ],
+      "review_status": "partial",
+      "notes": "Tracks 9 January 2020 arrest, disputed allegations and 7 April 2021 conviction for Fr Sefer Aho Bilecen, as well as references to earlier activists. One episode is not counted twice for arrest and sentencing."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/assyrian-woman-arbitrarily-detained-by-sdf-forces-in-northeastern-syria",
+      "title": "Rasha Chamoun's detention and 11 July release - Assyrian Policy Institute (2022)",
+      "captured_record_ids": [
+        "AP-0169"
+      ],
+      "review_status": "partial",
+      "notes": "Explicitly retains release of Rasha Chamoun on 11 July 2022; does not imply she remains in custody."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/krg-checkpoints-in-nahla-valley-continue-to-cause-hardships-to-local-assyrians",
+      "title": "KRG checkpoints continue to restrict Nahla Valley Assyrians - Assyrian Policy Institute (19 July 2023)",
+      "captured_record_ids": [
+        "AP-0168"
+      ],
+      "review_status": "partial",
+      "notes": "Records the 17 July 2023 denial of transit after hospital visit. Other night curfews are wider contextual allegations, not counted as every individual attack."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/krg-police-use-unlawful-force-against-assyrian-protestors-in-simele-district",
+      "title": "KRG police use unlawful force against Assyrian protestors in Simele - Assyrian Policy Institute (15 November 2021)",
+      "captured_record_ids": [
+        "AP-0167"
+      ],
+      "review_status": "partial",
+      "notes": "Documented 13 November 2021 civilian protest policing with eleven reported injuries, not assumed religious hate or an attack on worshippers."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/post/turkish-airstrikes-threaten-assyrian-villages-in-northern-iraq",
+      "title": "Turkish Airstrikes Threaten Assyrian Villages in Northern Iraq - Assyrian Policy Institute (6 September 2018)",
+      "captured_record_ids": [
+        "AP-0154",
+        "AP-0155",
+        "AP-0156"
+      ],
+      "review_status": "partial",
+      "notes": "Three separately dated 1, 4 and 5 September 2018 village strike reports indexed. Sources report no casualties; surrounding battle and livestock damage do not prove intended ethnic targeting."
+    },
+    {
       "url": "https://www.assyriapost.com/christian-graves-vandalized-in-new-kurdish-attack-against-assyrians-in-northern-iraq/",
       "title": "Shaqlawa cemetery attack and other grave desecration - The Assyria Post (19 December 2025)",
       "captured_record_ids": [
@@ -133,6 +271,18 @@
       ],
       "review_status": "reviewed",
       "notes": "Second contemporary account of the August 2023 Jette incident, not an additional attack."
+    },
+    {
+      "url": "https://www.christiantoday.com/news/islamic-state-kidnap-90-assyrian-christians-in-syria",
+      "title": "Reported destruction of Assyrian village churches along the Khabur - Christian Today (2015)",
+      "captured_record_ids": [
+        "AP-0150",
+        "AP-0151",
+        "AP-0152",
+        "AP-0153"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
     },
     {
       "url": "https://www.fides.org/en/news/10521-ASIA_IRAQ_Catholic_priests_taken_hostage_in_Mosul_still_detained_Pope_Benedict_XVI_calls_for_their_release",
@@ -247,6 +397,16 @@
       "notes": "Distinguishes the Bartella family land complaint from the wider property-seizure trend and the reported March 2023 Christian regiment protest. Underlying allegations and dates are attributed."
     },
     {
+      "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked",
+      "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
+      "captured_record_ids": [
+        "AP-0164",
+        "AP-0165"
+      ],
+      "review_status": "partial",
+      "notes": "Separated 13 April 2016 religiously discriminatory protest roadblocks from an early April communal agricultural-land dispute, with witness attribution and official position."
+    },
+    {
       "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed",
       "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
       "captured_record_ids": [
@@ -256,10 +416,11 @@
         "AP-0134",
         "AP-0135",
         "AP-0136",
-        "AP-0137"
+        "AP-0137",
+        "AP-0163"
       ],
       "review_status": "partial",
-      "notes": "Human Rights Watch's direct family interviews document several separate 2008 Mosul killings; the named incidents are extracted without assuming every Christian victim's ethnicity. Regional patterns and unexamined cases remain for further triage."
+      "notes": "One reported Qaraqosh election-related housing and job coercion incident added; earlier 2008 killings already indexed. HRW records contested official assessments and lacks judicial convictions in the political intimidation case."
     },
     {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
@@ -342,6 +503,15 @@
       "notes": "Reuters' contemporary account of November 2008 sisters used to document the killings and acknowledge date differences."
     },
     {
+      "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/mayor-of-alqosh-deposed/qtu3hyrzf",
+      "title": "Mayor of Alqosh Deposed - SBS Assyrian (25 July 2017)",
+      "captured_record_ids": [
+        "AP-0166"
+      ],
+      "review_status": "partial",
+      "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
       "url": "https://www.svt.se/nyheter/lokalt/orebro/bombhot-mot-syrisk-ortodoxa-kyrkan-i-orebro-en-person-utreds-for-brott",
       "title": "Bomb threat involving Syriac Orthodox St Mary church in Orebro - SVT (13 April 2026)",
       "captured_record_ids": [
@@ -385,6 +555,11 @@
       "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100",
       "status": "excluded",
       "reason": "Three 2009 Mosul/Kirkuk incident summaries did not identify Assyrian victims or an Assyrian-linked congregation. Their contexts inform regional history, but they are not individually indexed as Assyrian incidents without corroboration."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire",
+      "status": "pending",
+      "reason": "An Assyrian Policy Institute report tabulates approximately 52 dated 2020 military strike reports near Assyrian settlements. Current AP-0060 is a regional overview. Individual dates and exact locality disclosure require a verified reading of the appendix before event-level indexing, without implying each report corresponds to one missile or an Assyrian casualty."
     }
   ]
 }
