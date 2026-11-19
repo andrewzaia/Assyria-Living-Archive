@@ -311,6 +311,28 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('State repression', self.markup)
         self.assertIn('Soviet-era cases', self.markup)
 
+    def test_named_soviet_victim_dossiers_2026_11_19(self):
+        by_id = {r['id']: r for r in self.records}
+        new = [by_id[f'AP-{i:04d}'] for i in range(227, 231)]
+        self.assertEqual(len(new), 4)
+        self.assertEqual({r['country'] for r in new}, {'Russia', 'Georgia'})
+        self.assertEqual([r['year'] for r in new], [1938, 1938, 1938, 1949])
+        for r in new:
+            self.assertTrue(r['sources'])
+            self.assertTrue(r['summary'])
+            self.assertTrue(r['related_ids'])
+            self.assertIn('AP-0220' if r['country'] == 'Russia' else 'AP-0035', r['related_ids'])
+            self.assertIn(r['id'], by_id[r['related_ids'][0]]['related_ids'])
+        self.assertIn('6 November 1938', by_id['AP-0227']['date'])
+        self.assertIn('1 October 1938', by_id['AP-0228']['date'])
+        self.assertIn('6 November 1938', by_id['AP-0229']['date'])
+        self.assertIn('12 December 1949', by_id['AP-0230']['date'])
+        self.assertIn('not independently inspected', by_id['AP-0230']['summary'])
+        audit = json.loads((ROOT / 'data/persecution-source-audit.json').read_text(encoding='utf-8'))
+        self.assertGreaterEqual(len(audit['sources']), 92)
+        self.assertTrue(all(any(r['id'] in a['captured_record_ids'] for a in audit['sources'])
+                            for r in new))
+
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
         features = json.loads((ROOT / 'archive/maps/natural-earth-countries.geojson').read_text(encoding='utf-8'))['features']
