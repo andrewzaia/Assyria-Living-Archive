@@ -1,0 +1,69 @@
+name: Daily archive review
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 22 * * *'
+
+# The daily job can update its single rolling GitHub issue, not code or releases.
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: daily-archive-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out production repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Check repository health
+        id: core
+        continue-on-error: true
+        run: |
+          python scripts/test_daily_review.py
+          python scripts/audit_sources.py
+          python scripts/test_source_accessibility.py
+          python scripts/test_persecution.py
+          python generate.py
+          python scripts/validate.py
+      - name: Rotate daily source URL sample and prepare research queue
+        id: report
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          VALIDATION: ${{ steps.core.outcome }}
+        run: |
+          python scripts/daily_review.py --network \
+            --validation "$VALIDATION" --run-url "$RUN_URL" \
+            --report "$RUNNER_TEMP/daily-review.json" \
+            --summary "$RUNNER_TEMP/daily-review.md"
+          cat "$RUNNER_TEMP/daily-review.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Update one rolling archive health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue="$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 100 \
+            --json number,title --jq '.[] | select(.title == "Daily Assyria archive review") | .number' | head -n 1)"
+          if [ -n "$issue" ]; then
+            gh issue edit "$issue" --repo "$GITHUB_REPOSITORY" \
+              --body-file "$RUNNER_TEMP/daily-review.md"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "Daily Assyria archive review" \
+              --body-file "$RUNNER_TEMP/daily-review.md"
+          fi
+      - name: Preserve failed validation status
+        if: ${{ steps.core.outcome != 'success' }}
+        run: |
+          echo "::error::Daily site validation failed. See the workflow logs and rolling issue."
+          exit 1
