@@ -33,6 +33,7 @@ jobs:
         run: |
           python scripts/test_source_accessibility.py
           python scripts/audit_sources.py
+          python scripts/test_daily_review.py
       - name: Test accessioned cuneiform and object case metadata
         run: python scripts/test_case_files.py
       - name: Test original-language source attribution and uncertainty rules
