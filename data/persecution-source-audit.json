@@ -1,8 +1,37 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-19",
-  "scope": "Incremental source-by-source audit for AP-0081 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending.",
+  "updated_on": "2026-11-20",
+  "scope": "Incremental source triage for AP-0001 through AP-0021 and AP-0081 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0022 through AP-0080 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting.",
   "sources": [
+    {
+      "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
+      "title": "2008 Human Rights Report: Iraq - US Department of State",
+      "captured_record_ids": [
+        "AP-0010",
+        "AP-0011"
+      ],
+      "review_status": "partial",
+      "notes": "Legacy State Department page returned technical difficulties in this session. Keep attribution, but not marked independently checked at passage level."
+    },
+    {
+      "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm",
+      "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
+      "captured_record_ids": [
+        "AP-0020",
+        "AP-0021"
+      ],
+      "review_status": "partial",
+      "notes": "Legacy State Department page not directly re-read; corroborating Canadian government and Fides reports support the named Khabur hostages and three deaths."
+    },
+    {
+      "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser",
+      "title": "Claire P. Kaiser, 'What Are They Doing? After All, We're Not Germans', in Empire and Belonging in the Eurasian Borderlands (Cornell University Press, 2019), pp. 88-89, n. 43",
+      "captured_record_ids": [
+        "AP-0230"
+      ],
+      "review_status": "partial",
+      "notes": "Peer-reviewed historical chapter reproduces details from Ilia Bidzhamov's petition to the USSR MGB, 12 December 1949, State Security Archive of Georgia (I), fond 13, dossier 41, tome 1, folios 17-20. Original file not independently inspected; nationality and family deportation sourced, formal legal basis unresolved."
+    },
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
       "title": "Assyrian Church of the Virgin Mary destroyed in Tal Nasri - Aleteia (28 May 2015)",
@@ -11,6 +40,15 @@
       ],
       "review_status": "partial",
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://angelicum.it/news/cause-for-sainthood-begins-for-angelicum-chaldean-alumnus-fr-rahgeed-ganni/",
+      "title": "Cause for Sainthood Begins for Fr. Ragheed Ganni - Pontifical University of Saint Thomas Aquinas",
+      "captured_record_ids": [
+        "AP-0008"
+      ],
+      "review_status": "partial",
+      "notes": "Pontifical university page could not be independently retrieved this session; HRW provides separate 3 June 2007 identification."
     },
     {
       "url": "https://assyriaparliament.com/index.php/2026/01/07/leadershipannoncement-2-2-2-2/",
@@ -31,6 +69,27 @@
       "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
     },
     {
+      "url": "https://doi.org/10.1080/13530194.2023.2233218",
+      "title": "Missionary involvement with the Simele massacre in 1933 - Tijmen C. Baarda",
+      "captured_record_ids": [
+        "AP-0007"
+      ],
+      "review_status": "reviewed",
+      "notes": "Peer-reviewed Simele study and publicly available full text/abstract corroborate more than 600 Assyrian deaths; no exact independently proven aggregate beyond author scope."
+    },
+    {
+      "url": "https://doi.org/10.31648/sw.2525",
+      "title": "The Situation of the Assyrians in the Middle East in Period World War I - Pawel Letko",
+      "captured_record_ids": [
+        "AP-0003",
+        "AP-0004",
+        "AP-0005",
+        "AP-0006"
+      ],
+      "review_status": "partial",
+      "notes": "Academic article citation, title and publication confirmed through publisher index; full text not checked for each separate Sayfo-era locality or Urmia chronology."
+    },
+    {
       "url": "https://english.ankawa.com/killing-of-two-christian-sisters-renews-panic-in-mosul/",
       "title": "Christian sisters killed and mother wounded in Mosul - Aid to the Church in Need (2008)",
       "captured_record_ids": [
@@ -47,6 +106,15 @@
       ],
       "review_status": "partial",
       "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
+    },
+    {
+      "url": "https://esu.com.ua/article-44492",
+      "title": "Assyrians in Ukraine, national organisations and Soviet repression - Encyclopedia of Modern Ukraine",
+      "captured_record_ids": [
+        "AP-0219"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
     },
     {
       "url": "https://fides.org/en/news/10565-ASIA_IRAQ_Release_of_two_Catholic_priest_hostages_in_northern_Iraq",
@@ -77,6 +145,34 @@
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
     },
     {
+      "url": "https://guides.rusarchives.ru/node/26540",
+      "title": "Assyrian Khayadta cultural organisation, 1924-1937 - Russian archival guides",
+      "captured_record_ids": [
+        "AP-0220"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://lev.mapofmemory.org/ranenyj-lev/",
+      "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
+      "captured_record_ids": [
+        "AP-0220",
+        "AP-0221"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://neoskosmos.com/en/sydney-assyrian-memorial-vandalised/",
+      "title": "Sydney Assyrian memorial vandalised with swastikas - Neos Kosmos (21 April 2015)",
+      "captured_record_ids": [
+        "AP-0218"
+      ],
+      "review_status": "reviewed",
+      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
+    },
+    {
       "url": "https://npasyria.com/en/54910/",
       "title": "Assyrians recall attacks on Khabur villages - North Press Agency (2021)",
       "captured_record_ids": [
@@ -84,6 +180,33 @@
       ],
       "review_status": "partial",
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11792212/",
+      "title": "Tijmen C. Baarda, Missionary involvement with the Simele massacre in 1933 - full open-access scholarly article",
+      "captured_record_ids": [
+        "AP-0007"
+      ],
+      "review_status": "reviewed",
+      "notes": "Open-access scholarly study describes the Simele massacre and more than 600 deaths; alternative estimates and precise village-level victim registers remain outside this review."
+    },
+    {
+      "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/",
+      "title": "Fraidun Bet Auraham Aturaya, Assyrian leader and political prisoner - Syriac Heritage Museum (2022)",
+      "captured_record_ids": [
+        "AP-0224"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2021/09/02/syria-qujsnaya-village-in-khabur-largely-destroyed-by-isis-in-2015-still-abandoned/",
+      "title": "Qujsnaya/Tel Demchej homes and Mor Yukhana church after daesh occupation - SyriacPress (2 September 2021)",
+      "captured_record_ids": [
+        "AP-0226"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
     },
     {
       "url": "https://syriacpress.com/blog/2022/05/12/iraq-syriacs-assyrians-from-bardarsh-village-illegally-detained-by-kurdish-security-forces-released/",
@@ -122,6 +245,15 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://syriacpress.com/blog/2025/09/16/in-lyon-the-killing-of-ashur-sarnaya-raises-questions-france-is-reluctant-to-face/",
+      "title": "Ashur Sarnaya identified as Chaldean-Syriac-Assyrian refugee - SyriacPress (16 September 2025)",
+      "captured_record_ids": [
+        "AP-0213"
+      ],
+      "review_status": "reviewed",
+      "notes": "Community source supplies the Chaldean-Syriac-Assyrian identification, which should not be silently inferred from Chaldean denomination alone."
+    },
+    {
       "url": "https://syriacpress.com/blog/2025/12/05/recently-renovated-chaldean-syriac-assyrian-cemetery-in-armota-kurdistan-region-of-iraq-desecrated/",
       "title": "Armota Assyrian / Syriac / Chaldean cemetery desecrated - SyriacPress (5 December 2025)",
       "captured_record_ids": [
@@ -158,6 +290,74 @@
       "notes": "Chaldean monastery allegations about 1,400 historic dunams and additional 60 proposed for housing. The source does not identify a Kurdish actor, so none is assigned."
     },
     {
+      "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf",
+      "title": "Assyrian Aid Society-Iraq, 2019 village land-claim annex (UN Universal Periodic Review repository)",
+      "captured_record_ids": [
+        "AP-0199",
+        "AP-0200",
+        "AP-0201",
+        "AP-0202",
+        "AP-0203",
+        "AP-0204",
+        "AP-0205",
+        "AP-0206",
+        "AP-0207",
+        "AP-0208",
+        "AP-0209",
+        "AP-0210",
+        "AP-0211",
+        "AP-0212"
+      ],
+      "review_status": "partial",
+      "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/book/t11/1/10",
+      "title": "David Asan Abramov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0229"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/1541856",
+      "title": "Nikolai Artemyevich Avetisov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0227"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/1542113",
+      "title": "Babakhai, son of Lazar - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0228"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/222644",
+      "title": "Ivan (Rostam) Bili-Lazarev - Leningrad Book of Remembrance, vol. 7 (2007)",
+      "captured_record_ids": [
+        "AP-0222"
+      ],
+      "review_status": "partial",
+      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/223694",
+      "title": "Yakov Semyonovich Izrailov - Leningrad Book of Remembrance, vol. 7 (2007)",
+      "captured_record_ids": [
+        "AP-0221",
+        "AP-0222"
+      ],
+      "review_status": "reviewed",
+      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
+    },
+    {
       "url": "https://wikileaks.jcvignoli.com/cable_06KIRKUK20",
       "title": "Kirkuk Churches Bombed: US diplomatic cable documenting 29 January 2006 attacks",
       "captured_record_ids": [
@@ -183,6 +383,24 @@
       ],
       "review_status": "partial",
       "notes": "Specific Assyrian-linked incidents indexed. Related claims, outcomes and any additional events require continued cross-source review."
+    },
+    {
+      "url": "https://www.anc.org.au/news/ANC-Australia-condemns-vandalism-of-Genocide-monument",
+      "title": "Assyrian genocide memorial vandalism condemned - Armenian National Committee of Australia (8 September 2010)",
+      "captured_record_ids": [
+        "AP-0217"
+      ],
+      "review_status": "reviewed",
+      "notes": "2010 Bonnyrigg anti-Assyrian slurs are directly reported; no perpetrator ethnicity assigned."
+    },
+    {
+      "url": "https://www.anc.org.au/news/Media-Releases/STATEMENT--Armenians--Assyrians--Jews-targeted-in-vandalism-of-Fairfield-NSW-Memorial",
+      "title": "Vandalism of Fairfield Assyrian genocide memorial - Armenian National Committee of Australia (16 April 2015)",
+      "captured_record_ids": [
+        "AP-0218"
+      ],
+      "review_status": "reviewed",
+      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
     },
     {
       "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour",
@@ -377,6 +595,17 @@
       "notes": "2019 Assyrian Aid Society-Iraq United Nations Universal Periodic Review submission includes 94 tabulated village/property claim rows. AP-0183 through AP-0198 index 16 distinguishable named village cases with source row numbers; several concern earlier 1960s or former Iraqi-regime dispossession, and many are unadjudicated claims. Treat annex and overview AP-0182 as one source, not 94 verified crimes or independent judicial validation. Survey as a whole remains partly triaged."
     },
     {
+      "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C",
+      "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
+      "captured_record_ids": [
+        "AP-0001",
+        "AP-0002",
+        "AP-0004"
+      ],
+      "review_status": "partial",
+      "notes": "Cambridge book introduction and metadata accessible, but exact 1843/1846 narrative is not visible in public excerpt. Supplemented by other named sources; do not claim a passage-level verification."
+    },
+    {
       "url": "https://www.cathobel.be/2023/08/le-monument-commemorant-le-genocide-des-arameens-a-jette-vandalise-un-acte-de-negationnisme-grave/",
       "title": "Jette genocide monument damage - CathoBel (30 August 2023)",
       "captured_record_ids": [
@@ -416,6 +645,26 @@
       "notes": "11 May 2022 Dadersh attempted land grab, assaults and detention are one incident; the two named detainees were released after approximately one day, corroborated by USCIRF profiles."
     },
     {
+      "url": "https://www.ecoi.net/en/document/1067272.html",
+      "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
+      "captured_record_ids": [
+        "AP-0012",
+        "AP-0013",
+        "AP-0015"
+      ],
+      "review_status": "reviewed",
+      "notes": "IRB Canada response identifies February 2010 Mosul killings, May 2010 student convoy attack and December 2010 Baghdad home bombings, with varying injury and death totals from cited correspondents."
+    },
+    {
+      "url": "https://www.ecoi.net/en/document/1411538.html",
+      "title": "Syria: Abductions and extortions (2015-July 2017) - IRB Canada",
+      "captured_record_ids": [
+        "AP-0020"
+      ],
+      "review_status": "reviewed",
+      "notes": "IRB Canada response identifies 253 people abducted from Assyrian villages along Khabur on 23 February 2015 and some releases; total describes reported hostages, not a verified victim register."
+    },
+    {
       "url": "https://www.fides.org/en/news/10521-ASIA_IRAQ_Catholic_priests_taken_hostage_in_Mosul_still_detained_Pope_Benedict_XVI_calls_for_their_release",
       "title": "Two Syrian Catholic priests remain hostages in Mosul - Agenzia Fides (16 October 2007)",
       "captured_record_ids": [
@@ -425,6 +674,15 @@
       "notes": "First-party church account confirms 13 October 2007 abduction and indicates probable criminal ransom motive. It corrects a denomination error in a government summary."
     },
     {
+      "url": "https://www.fides.org/en/news/58534-ASIA_SYRIA_The_jihadists_release_the_video_of_the_execution_of_three_Assyrian_hostages",
+      "title": "Three Assyrian Khabur hostages killed, video publicised - Agenzia Fides (8 October 2015)",
+      "captured_record_ids": [
+        "AP-0021"
+      ],
+      "review_status": "reviewed",
+      "notes": "Contemporaneous 8 October 2015 report describes the three Assyrian Khabur hostages and publicised execution video. Date of killings remains uncertain and must not be inferred solely from a video date."
+    },
+    {
       "url": "https://www.fides.org/en/news/69030",
       "title": "Dohuk appellate court reopens case of land claimed by 117 Christian farming families - Agenzia Fides (14 November 2020)",
       "captured_record_ids": [
@@ -432,6 +690,15 @@
       ],
       "review_status": "partial",
       "notes": "November 2020 117-family case is a report of appellate review and procedural error, not a final ruling restoring all 117 plots. Land seizure dates are earlier and varied."
+    },
+    {
+      "url": "https://www.geocities.ws/moscowconference2002/4.htm",
+      "title": "Moscow Assyrian International Conference - repression and 1949-1950 Caucasus deportations (2002)",
+      "captured_record_ids": [
+        "AP-0223"
+      ],
+      "review_status": "partial",
+      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
     },
     {
       "url": "https://www.gfbv.de/aktuelles/news/bombenanschlag-auf-rueckkehrwillige-assyrisch-aramaeische-christen-in-der-tuerkei/",
@@ -537,6 +804,33 @@
       "notes": "Distinguishes the Bartella family land complaint from the wider property-seizure trend and the reported March 2023 Christian regiment protest. Underlying allegations and dates are attributed."
     },
     {
+      "url": "https://www.gutenberg.org/cache/epub/18930/pg18930-images.html",
+      "title": "The 1843 destruction of Tiary and Diss in Rufus Anderson, History of the Missions of the American Board, vol. I (1872), chapter on the Nestorian mission",
+      "captured_record_ids": [
+        "AP-0001"
+      ],
+      "review_status": "reviewed",
+      "notes": "Rufus Anderson's 1872 mission history includes near-contemporary accounts of 1843 attacks on Tiary and Diss, village destruction and manuscript loss. Claims of victim totals are not independently enumerated."
+    },
+    {
+      "url": "https://www.hrw.org/news/2014/07/19/iraq-isis-abducting-killing-expelling-minorities",
+      "title": "Iraq: ISIS Abducting, Killing, Expelling Minorities - Human Rights Watch",
+      "captured_record_ids": [
+        "AP-0016"
+      ],
+      "review_status": "reviewed",
+      "notes": "HRW records 2014 Mosul Christian ultimatum, confiscated property and marked houses. Date and coercion explicitly supported."
+    },
+    {
+      "url": "https://www.hrw.org/news/2014/10/11/iraq-forced-marriage-conversion-yezidis",
+      "title": "Iraq: Forced Marriage, Conversion for Yezidis - Human Rights Watch",
+      "captured_record_ids": [
+        "AP-0019"
+      ],
+      "review_status": "reviewed",
+      "notes": "HRW expressly interviews a Qaraqosh Christian mother whose three-year-old daughter was reportedly taken on 22 August, with a separately interviewed witness. The article's broader title focuses on Yezidis, but contains this specific Christian case."
+    },
+    {
       "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked",
       "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
       "captured_record_ids": [
@@ -554,6 +848,9 @@
       "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed",
       "title": "On Vulnerable Ground: Violence against Minority Communities in Nineveh - Human Rights Watch (2009)",
       "captured_record_ids": [
+        "AP-0008",
+        "AP-0009",
+        "AP-0011",
         "AP-0131",
         "AP-0132",
         "AP-0133",
@@ -564,7 +861,16 @@
         "AP-0163"
       ],
       "review_status": "partial",
-      "notes": "One reported Qaraqosh election-related housing and job coercion incident added; earlier 2008 killings already indexed. HRW records contested official assessments and lacks judicial convictions in the political intimidation case."
+      "notes": "One reported Qaraqosh election-related housing and job coercion incident added; earlier 2008 killings already indexed. HRW records contested official assessments and lacks judicial convictions in the political intimidation case. Earlier record audit: HRW historical report explicitly identifies Father Ragheed Ganni and three deacons, Archbishop Rahho's 2008 abduction and subsequent conviction, and October 2008 Mosul Christian displacement. Regional cases may overlap later named dossiers."
+    },
+    {
+      "url": "https://www.hrw.org/report/2011/02/21/crossroads/human-rights-iraq-eight-years-after-us-led-invasion",
+      "title": "At a Crossroads: Human Rights in Iraq - Human Rights Watch",
+      "captured_record_ids": [
+        "AP-0014"
+      ],
+      "review_status": "reviewed",
+      "notes": "HRW report covers the Iraq church attack and wider persecution context; not a substitute for a victim-by-victim reconciliation."
     },
     {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
@@ -587,6 +893,16 @@
       "notes": "Canadian analysis provides 2005 Kirkuk, 2006 Holy Spirit church and other incidents. Only separately dated, specifically linked Syriac/Assyrian cases were added."
     },
     {
+      "url": "https://www.kurdipedia.org/files/relatedfiles/2013/87575/0001.PDF",
+      "title": "The Yezidi Kurds and Assyrians of Georgia - Chikhladze and Chikhladze, Central Asia and the Caucasus (2003), p. 7",
+      "captured_record_ids": [
+        "AP-0224",
+        "AP-0225"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
       "url": "https://www.latimes.com/la-011805kidnap_lat-story.html",
       "title": "Kidnappers release Archbishop Casmoussa - Los Angeles Times (18 January 2005)",
       "captured_record_ids": [
@@ -596,6 +912,43 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.leparisien.fr/faits-divers/meurtre-dun-chretien-irakien-a-lyon-lenquete-confiee-au-pole-antiterroriste-13-10-2025-YTMNKS4SH5DNZFFUAO5WTEFDAU.php",
+      "title": "Ashur Sarnaya murder investigation transferred to anti-terrorism authorities - Le Parisien/AFP (13 October 2025)",
+      "captured_record_ids": [
+        "AP-0213"
+      ],
+      "review_status": "reviewed",
+      "notes": "The October 2025 transfer to anti-terror investigators does not prove motive or final guilt."
+    },
+    {
+      "url": "https://www.oikoumene.org/resources/documents/statement-by-the-council-of-the-heads-of-the-christian-churches-of-iraq",
+      "title": "Iraqi church leaders' 6 May 2010 statement on the student-bus attack - World Council of Churches (7 May 2010)",
+      "captured_record_ids": [
+        "AP-0013"
+      ],
+      "review_status": "reviewed",
+      "notes": "Translated 6 May 2010 statement of Iraqi Christian church heads identifies the Hamdaniya-to-Mosul bus route and 2 May event, but its injury count differs from other reports. Original Arabic statement is linked on the page; translation used here."
+    },
+    {
+      "url": "https://www.radiosvoboda.org/amp/918976.html",
+      "title": "Assyrian community and repression in Ukraine - Radio Svoboda (13 August 2004)",
+      "captured_record_ids": [
+        "AP-0219"
+      ],
+      "review_status": "reviewed",
+      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://www.rd.nl/artikel/brandbommen-tegen-kerkgebouw-rijssen",
+      "title": "Firebombs thrown at Syriac Orthodox church in Rijssen, and prior 2001 attack - Reformatorisch Dagblad (30 July 2003)",
+      "captured_record_ids": [
+        "AP-0215",
+        "AP-0216"
+      ],
+      "review_status": "partial",
+      "notes": "Two dated attacks on the same church are distinguished. Police did not establish perpetrators, religious motive or linkage; location markers represent the town only."
+    },
+    {
       "url": "https://www.refworld.org/reference/annualreport/uscirf/2009/68100",
       "title": "USCIRF Annual Report 2009: Iraq - US Commission on International Religious Freedom",
       "captured_record_ids": [
@@ -603,6 +956,15 @@
       ],
       "review_status": "partial",
       "notes": "Consulted for 2008 Mosul campaign and contemporaneous context; generic reports with no clear Assyrian connection were deliberately not indexed as distinct Assyrian incidents."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/uscirf/2015/en/104875",
+      "title": "USCIRF Annual Report 2015 - Iraq",
+      "captured_record_ids": [
+        "AP-0018"
+      ],
+      "review_status": "reviewed",
+      "notes": "Refworld text of USCIRF annual report covers the 2014 Nineveh persecution and refugee displacement; not a census specific to Qaraqosh."
     },
     {
       "url": "https://www.refworld.org/reference/annualreport/usdos/2006/38902",
@@ -617,11 +979,12 @@
       "url": "https://www.refworld.org/reference/annualreport/usdos/2008/62810",
       "title": "2008 International Religious Freedom Report: Iraq - US Department of State",
       "captured_record_ids": [
+        "AP-0010",
         "AP-0129",
         "AP-0130"
       ],
       "review_status": "partial",
-      "notes": "18 January 2008 Tahira church bombing recorded as a child incident of the broader January church bombings; October 2007 priest abductions reviewed against direct Fides sources."
+      "notes": "18 January 2008 Tahira church bombing recorded as a child incident of the broader January church bombings; October 2007 priest abductions reviewed against direct Fides sources. Earlier record audit: Refworld page was not retrievable in this session; historical citation preserved pending direct source-access verification."
     },
     {
       "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021",
@@ -665,6 +1028,16 @@
       "notes": "A bomb threat was reported, with police investigation; no bomb and no link between all rumours and the suspect established."
     },
     {
+      "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/badir-khan-massacres-1842-1846",
+      "title": "Badr Khan massacres of 1843 and 1846 - Syriac Heritage Project",
+      "captured_record_ids": [
+        "AP-0001",
+        "AP-0002"
+      ],
+      "review_status": "reviewed",
+      "notes": "Secondary community history explicitly distinguishes 1843 attacks on Tiyari from the 1846 campaign against Tkhuma; useful location correction, not an independent census or original Ottoman archive."
+    },
+    {
       "url": "https://www.syriahr.com/en/266397/",
       "title": "Turkish shelling in Assyrian villages near Tell Tamer - Syrian Observatory for Human Rights (6 September 2022)",
       "captured_record_ids": [
@@ -682,6 +1055,42 @@
       ],
       "review_status": "reviewed",
       "notes": "One reported January 2026 church attack affecting the Assyrian village of Tel Jumaa was extracted. No independently verifiable locality coordinate, casualties or ethnic intent has been added."
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00263206.2018.1542595",
+      "title": "Resistance to centralisation in the Ottoman periphery: Kurdish Baban and Bohtan emirates - Middle Eastern Studies (2018)",
+      "captured_record_ids": [
+        "AP-0002"
+      ],
+      "review_status": "partial",
+      "notes": "Peer-reviewed historical article indexed with explicit 1843 Tiyari/Diz and 1846 Tkhuma distinction. Publisher full text was not retrievable in the research session; passage-level source verification remains open."
+    },
+    {
+      "url": "https://www.unhcr.org/news/briefing-notes/christian-iraqis-displaced-mosul",
+      "title": "Christian Iraqis displaced from Mosul - UNHCR, 17 October 2008",
+      "captured_record_ids": [
+        "AP-0011"
+      ],
+      "review_status": "partial",
+      "notes": "UNHCR legacy URL was inaccessible in this session. HRW separately supports 2008 mass displacement and threat context; UNHCR briefing statistics require direct rechecking."
+    },
+    {
+      "url": "https://www.unhcr.org/news/briefing-notes/iraq-10-000-displaced-christian-communities-near-mosul",
+      "title": "Iraq: 10,000 displaced from Christian communities near Mosul - UNHCR",
+      "captured_record_ids": [
+        "AP-0017"
+      ],
+      "review_status": "reviewed",
+      "notes": "UNHCR briefing of 27 June 2014 identifies Qaraqosh as an Assyrian town, the mortar-threat exodus and an estimate of 10,000 displaced people. Distinct from August daesh occupation."
+    },
+    {
+      "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-terrorist-attack-baghdad-church",
+      "title": "USCIRF Condemns Terrorist Attack on Baghdad Church - 3 November 2010",
+      "captured_record_ids": [
+        "AP-0014"
+      ],
+      "review_status": "reviewed",
+      "notes": "USCIRF 3 November 2010 statement directly discusses the 31 October Our Lady of Salvation church massacre; early fatality tally differs across sources."
     },
     {
       "url": "https://www.uscirf.gov/religious-prisoners-conscience/forb-victims-database/james-zaya",
@@ -702,6 +1111,34 @@
       "notes": "USCIRF lists Zya Minas as released in May 2022. Must not imply continued imprisonment or multiply one land protest into two separate attacks."
     },
     {
+      "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice",
+      "title": "A Devastating Choice - United States Holocaust Memorial Museum",
+      "captured_record_ids": [
+        "AP-0016",
+        "AP-0018"
+      ],
+      "review_status": "reviewed",
+      "notes": "USHMM survivor account supports Mosul Christian expulsion and Qaraqosh displacement background; it is a witness profile rather than a census of each town's losses."
+    },
+    {
+      "url": "https://www.visions.az/en/news/649/3c3d5c3c/",
+      "title": "Assyrian deportee family in Helenendorf/Goygol - Visions of Azerbaijan (2015)",
+      "captured_record_ids": [
+        "AP-0223"
+      ],
+      "review_status": "partial",
+      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
+    },
+    {
+      "url": "https://www.wgbh.org/news/2016-07-14/these-syrian-christians-fled-muslim-extremist-harassment-then-they-found-it-again-in-germany",
+      "title": "Syriac Orthodox refugee describes harassment in Berlin accommodation - GBH/PRI (14 July 2016)",
+      "captured_record_ids": [
+        "AP-0214"
+      ],
+      "review_status": "partial",
+      "notes": "One first-person Syriac Orthodox refugee housing complaint; wider Open Doors percentages are not separately counted or presented as Assyrian-specific data."
+    },
+    {
       "url": "https://zowaa.org/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%AF%D9%87%D9%88%D9%83-%D8%AA%D8%AD%D9%83%D9%85-%D8%A8%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D8%B1%D8%A7%D8%B6%D9%8A-%D9%82/",
       "title": "Dohuk appellate ruling for Kashkawa residents, reproduced with decision - Zowaa (10 June 2022)",
       "captured_record_ids": [
@@ -718,230 +1155,6 @@
       ],
       "review_status": "partial",
       "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
-    },
-    {
-      "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf",
-      "title": "Assyrian Aid Society-Iraq, 2019 village land-claim annex (UN Universal Periodic Review repository)",
-      "captured_record_ids": [
-        "AP-0199",
-        "AP-0200",
-        "AP-0201",
-        "AP-0202",
-        "AP-0203",
-        "AP-0204",
-        "AP-0205",
-        "AP-0206",
-        "AP-0207",
-        "AP-0208",
-        "AP-0209",
-        "AP-0210",
-        "AP-0211",
-        "AP-0212"
-      ],
-      "review_status": "partial",
-      "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription."
-    },
-    {
-      "url": "https://www.leparisien.fr/faits-divers/meurtre-dun-chretien-irakien-a-lyon-lenquete-confiee-au-pole-antiterroriste-13-10-2025-YTMNKS4SH5DNZFFUAO5WTEFDAU.php",
-      "title": "Ashur Sarnaya murder investigation transferred to anti-terrorism authorities - Le Parisien/AFP (13 October 2025)",
-      "captured_record_ids": [
-        "AP-0213"
-      ],
-      "review_status": "reviewed",
-      "notes": "The October 2025 transfer to anti-terror investigators does not prove motive or final guilt."
-    },
-    {
-      "url": "https://syriacpress.com/blog/2025/09/16/in-lyon-the-killing-of-ashur-sarnaya-raises-questions-france-is-reluctant-to-face/",
-      "title": "Ashur Sarnaya identified as Chaldean-Syriac-Assyrian refugee - SyriacPress (16 September 2025)",
-      "captured_record_ids": [
-        "AP-0213"
-      ],
-      "review_status": "reviewed",
-      "notes": "Community source supplies the Chaldean-Syriac-Assyrian identification, which should not be silently inferred from Chaldean denomination alone."
-    },
-    {
-      "url": "https://www.wgbh.org/news/2016-07-14/these-syrian-christians-fled-muslim-extremist-harassment-then-they-found-it-again-in-germany",
-      "title": "Syriac Orthodox refugee describes harassment in Berlin accommodation - GBH/PRI (14 July 2016)",
-      "captured_record_ids": [
-        "AP-0214"
-      ],
-      "review_status": "partial",
-      "notes": "One first-person Syriac Orthodox refugee housing complaint; wider Open Doors percentages are not separately counted or presented as Assyrian-specific data."
-    },
-    {
-      "url": "https://www.rd.nl/artikel/brandbommen-tegen-kerkgebouw-rijssen",
-      "title": "Firebombs thrown at Syriac Orthodox church in Rijssen, and prior 2001 attack - Reformatorisch Dagblad (30 July 2003)",
-      "captured_record_ids": [
-        "AP-0215",
-        "AP-0216"
-      ],
-      "review_status": "partial",
-      "notes": "Two dated attacks on the same church are distinguished. Police did not establish perpetrators, religious motive or linkage; location markers represent the town only."
-    },
-    {
-      "url": "https://www.anc.org.au/news/ANC-Australia-condemns-vandalism-of-Genocide-monument",
-      "title": "Assyrian genocide memorial vandalism condemned - Armenian National Committee of Australia (8 September 2010)",
-      "captured_record_ids": [
-        "AP-0217"
-      ],
-      "review_status": "reviewed",
-      "notes": "2010 Bonnyrigg anti-Assyrian slurs are directly reported; no perpetrator ethnicity assigned."
-    },
-    {
-      "url": "https://www.anc.org.au/news/Media-Releases/STATEMENT--Armenians--Assyrians--Jews-targeted-in-vandalism-of-Fairfield-NSW-Memorial",
-      "title": "Vandalism of Fairfield Assyrian genocide memorial - Armenian National Committee of Australia (16 April 2015)",
-      "captured_record_ids": [
-        "AP-0218"
-      ],
-      "review_status": "reviewed",
-      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
-    },
-    {
-      "url": "https://neoskosmos.com/en/sydney-assyrian-memorial-vandalised/",
-      "title": "Sydney Assyrian memorial vandalised with swastikas - Neos Kosmos (21 April 2015)",
-      "captured_record_ids": [
-        "AP-0218"
-      ],
-      "review_status": "reviewed",
-      "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
-    },
-    {
-      "url": "https://esu.com.ua/article-44492",
-      "title": "Assyrians in Ukraine, national organisations and Soviet repression - Encyclopedia of Modern Ukraine",
-      "captured_record_ids": [
-        "AP-0219"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://www.radiosvoboda.org/amp/918976.html",
-      "title": "Assyrian community and repression in Ukraine - Radio Svoboda (13 August 2004)",
-      "captured_record_ids": [
-        "AP-0219"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://lev.mapofmemory.org/ranenyj-lev/",
-      "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
-      "captured_record_ids": [
-        "AP-0220",
-        "AP-0221"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://guides.rusarchives.ru/node/26540",
-      "title": "Assyrian Khayadta cultural organisation, 1924-1937 - Russian archival guides",
-      "captured_record_ids": [
-        "AP-0220"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://visz.nlr.ru/person/show/223694",
-      "title": "Yakov Semyonovich Izrailov - Leningrad Book of Remembrance, vol. 7 (2007)",
-      "captured_record_ids": [
-        "AP-0221",
-        "AP-0222"
-      ],
-      "review_status": "reviewed",
-      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
-    },
-    {
-      "url": "https://visz.nlr.ru/person/show/222644",
-      "title": "Ivan (Rostam) Bili-Lazarev - Leningrad Book of Remembrance, vol. 7 (2007)",
-      "captured_record_ids": [
-        "AP-0222"
-      ],
-      "review_status": "partial",
-      "notes": "Named Leningrad victim registry material is used as an archive of death sentences, not as proof that NKVD accusations were true. Multiple people executed in one purge are linked to the broader campaign."
-    },
-    {
-      "url": "https://www.geocities.ws/moscowconference2002/4.htm",
-      "title": "Moscow Assyrian International Conference - repression and 1949-1950 Caucasus deportations (2002)",
-      "captured_record_ids": [
-        "AP-0223"
-      ],
-      "review_status": "partial",
-      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
-    },
-    {
-      "url": "https://www.visions.az/en/news/649/3c3d5c3c/",
-      "title": "Assyrian deportee family in Helenendorf/Goygol - Visions of Azerbaijan (2015)",
-      "captured_record_ids": [
-        "AP-0223"
-      ],
-      "review_status": "partial",
-      "notes": "Soviet Azerbaijan deportations are documented in Assyrian community history and local reportage, but original train and deportation rolls and casualty totals remain unverified."
-    },
-    {
-      "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/",
-      "title": "Fraidun Bet Auraham Aturaya, Assyrian leader and political prisoner - Syriac Heritage Museum (2022)",
-      "captured_record_ids": [
-        "AP-0224"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://www.kurdipedia.org/files/relatedfiles/2013/87575/0001.PDF",
-      "title": "The Yezidi Kurds and Assyrians of Georgia - Chikhladze and Chikhladze, Central Asia and the Caucasus (2003), p. 7",
-      "captured_record_ids": [
-        "AP-0224",
-        "AP-0225"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://syriacpress.com/blog/2021/09/02/syria-qujsnaya-village-in-khabur-largely-destroyed-by-isis-in-2015-still-abandoned/",
-      "title": "Qujsnaya/Tel Demchej homes and Mor Yukhana church after daesh occupation - SyriacPress (2 September 2021)",
-      "captured_record_ids": [
-        "AP-0226"
-      ],
-      "review_status": "reviewed",
-      "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
-    },
-    {
-      "url": "https://visz.nlr.ru/person/show/1541856",
-      "title": "Nikolai Artemyevich Avetisov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
-      "captured_record_ids": [
-        "AP-0227"
-      ],
-      "review_status": "partial",
-      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
-    },
-    {
-      "url": "https://visz.nlr.ru/person/show/1542113",
-      "title": "Babakhai, son of Lazar - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
-      "captured_record_ids": [
-        "AP-0228"
-      ],
-      "review_status": "partial",
-      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
-    },
-    {
-      "url": "https://visz.nlr.ru/person/book/t11/1/10",
-      "title": "David Asan Abramov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
-      "captured_record_ids": [
-        "AP-0229"
-      ],
-      "review_status": "partial",
-      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
-    },
-    {
-      "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser",
-      "title": "Claire P. Kaiser, 'What Are They Doing? After All, We're Not Germans', in Empire and Belonging in the Eurasian Borderlands (Cornell University Press, 2019), pp. 88-89, n. 43",
-      "captured_record_ids": [
-        "AP-0230"
-      ],
-      "review_status": "partial",
-      "notes": "Peer-reviewed historical chapter reproduces details from Ilia Bidzhamov's petition to the USSR MGB, 12 December 1949, State Security Archive of Georgia (I), fond 13, dossier 41, tome 1, folios 17-20. Original file not independently inspected; nationality and family deportation sourced, formal legal basis unresolved."
     }
   ],
   "excluded_or_pending": [
