@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-19",
+  "updated_on": "2026-11-20",
   "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
@@ -8,18 +8,26 @@
       "year": 1843,
       "date": "Summer 1843",
       "country": "Turkey",
-      "place": "Hakkari",
-      "lat": 37.57,
-      "lon": 43.73,
+      "place": "Tiyari and Diz districts, Hakkari (regional)",
+      "lat": null,
+      "lon": null,
       "type": "Mass killing",
       "evidence": "historical",
       "title": "Massacres of Assyrian communities in Hakkari",
-      "summary": "Assyrian villages in Hakkari were attacked during Bedir Khan Beg's campaign, with killings, enslavement and forced flight recorded in histories of the region. This regional marker does not imply a single incident site.",
-      "actor": "Forces allied to Bedir Khan Beg",
+      "summary": "In the summer of 1843, forces associated with Bedir Khan Beg and the Hakkari emir Nurullah attacked the Assyrian Church of the East communities of Tiyari and Diz. A nineteenth-century mission history records civilian killings, enslavement, the devastation of villages and the destruction of the patriarchal manuscript library. Its estimates of deaths are contemporary claims, not a verified census. The regional campaign has no single defensible map coordinate.",
+      "actor": "Bedir Khan Beg's forces and Hakkari emir Nurullah's allies, as recorded in contemporary missionary accounts",
       "sources": [
         {
           "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
           "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C"
+        },
+        {
+          "title": "The 1843 destruction of Tiary and Diss in Rufus Anderson, History of the Missions of the American Board, vol. I (1872), chapter on the Nestorian mission",
+          "url": "https://www.gutenberg.org/cache/epub/18930/pg18930-images.html"
+        },
+        {
+          "title": "Badr Khan massacres of 1843 and 1846 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/badir-khan-massacres-1842-1846"
         }
       ],
       "scope": "Assyrian community"
@@ -29,18 +37,26 @@
       "year": 1846,
       "date": "1846",
       "country": "Turkey",
-      "place": "Tiyari, Hakkari",
-      "lat": 37.55,
-      "lon": 43.72,
+      "place": "Tkhuma (Thuma), Hakkari region",
+      "lat": null,
+      "lon": null,
       "type": "Mass killing",
       "evidence": "historical",
-      "title": "Renewed attacks on the Assyrians of Tiyari",
-      "summary": "A further campaign against Assyrian communities in the Tiyari area followed the violence of 1843. Exact village-level incident boundaries require further archival reconstruction.",
-      "actor": "Forces allied to Bedir Khan Beg",
+      "title": "1846 massacre of Assyrian communities in Tkhuma",
+      "summary": "Bedir Khan Beg's second major campaign targeted the Tkhuma district in 1846, after the 1843 devastation of Tiyari and Diz. Historical accounts describe killings and destroyed settlements in Tkhuma. Earlier catalogue wording incorrectly named Tiyari as the 1846 campaign's principal target. Exact village boundaries and casualty totals remain contested, so no location pin is asserted.",
+      "actor": "Forces allied to Bedir Khan Beg, including Kurdish armed contingents described in historical research",
       "sources": [
         {
           "title": "Assyrians in Modern Iraq - Introduction, Alda Benjamen (Cambridge University Press, 2022)",
           "url": "https://www.cambridge.org/core/books/assyrians-in-modern-iraq/introduction/FE37E28C79149F7881B82F2601F1960C"
+        },
+        {
+          "title": "Badr Khan massacres: second campaign against Tkhuma in 1846 - Syriac Heritage Project",
+          "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/badir-khan-massacres-1842-1846"
+        },
+        {
+          "title": "Resistance to centralisation in the Ottoman periphery: Kurdish Baban and Bohtan emirates - Middle Eastern Studies (2018)",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00263206.2018.1542595"
         }
       ],
       "scope": "Assyrian community"
@@ -166,6 +182,10 @@
         {
           "title": "Missionary involvement with the Simele massacre in 1933 - Tijmen C. Baarda",
           "url": "https://doi.org/10.1080/13530194.2023.2233218"
+        },
+        {
+          "title": "Tijmen C. Baarda, Missionary involvement with the Simele massacre in 1933 - full open-access scholarly article",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11792212/"
         }
       ],
       "media": {
@@ -214,7 +234,7 @@
       "type": "Abduction",
       "evidence": "documented",
       "title": "Abduction and killing of Archbishop Paulos Faraj Rahho",
-      "summary": "The Chaldean Catholic archbishop was abducted after leaving church; his driver and bodyguards were shot, and his body was found days later. This is catalogued as an attack on the Assyrian-linked Christian community.",
+      "summary": "Chaldean Catholic Archbishop Paulos Faraj Rahho was abducted on 29 February 2008 after leaving Holy Spirit Church in Mosul; attackers shot his driver and bodyguards, and his body was found about ten days later. Human Rights Watch also records that Iraqi authorities arrested an accused kidnapping leader, Ahmed Ali Ahmed, who was convicted and sentenced to death in May 2008. The conviction is a reported legal outcome, not a finding that every participant was identified.",
       "actor": "Armed kidnappers",
       "sources": [
         {
@@ -270,6 +290,10 @@
         {
           "title": "2008 Human Rights Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm"
+        },
+        {
+          "title": "On Vulnerable Ground: 2008 Mosul Christian killings and displacement - Human Rights Watch (2009)",
+          "url": "https://www.hrw.org/report/2009/11/10/vulnerable-ground/violence-against-minority-communities-nineveh-provinces-disputed"
         }
       ],
       "scope": "Assyrian-linked and shared Christian communities",
@@ -317,18 +341,22 @@
       "year": 2010,
       "date": "2 May 2010",
       "country": "Iraq",
-      "place": "Mosul",
-      "lat": 36.34,
-      "lon": 43.13,
+      "place": "Hamdaniya-Qaraqosh to Mosul university bus route",
+      "lat": null,
+      "lon": null,
       "type": "Religious violence",
       "evidence": "reported",
       "title": "Bomb attack on buses carrying Christian university students",
-      "summary": "Buses transporting Christian students to the University of Mosul were attacked. Contemporary accounts differed on the number of injured; the catalogue does not reconcile those totals into a single estimate.",
+      "summary": "On 2 May 2010, bombs struck buses carrying Christian students and university workers from Hamdaniya/Qaraqosh towards the University of Mosul. Iraqi church leaders reported one person killed and 188 injured; the Canadian IRB overview cites other casualty figures, so this catalogue does not present a single reconciled injury count. The exact explosion point along the route is not verified, and the map does not assign it a Mosul city-centre pin.",
       "actor": "Unidentified bombers",
       "sources": [
         {
           "title": "Situation of Christians in Iraq, 2010-2013 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/1067272.html"
+        },
+        {
+          "title": "Iraqi church leaders' 6 May 2010 statement on the student-bus attack - World Council of Churches (7 May 2010)",
+          "url": "https://www.oikoumene.org/resources/documents/statement-by-the-council-of-the-heads-of-the-christian-churches-of-iraq"
         }
       ],
       "scope": "Shared Christian communities (ethnicity not established for each victim)"
@@ -507,7 +535,7 @@
     {
       "id": "AP-0021",
       "year": 2015,
-      "date": "October 2015",
+      "date": "September-October 2015; execution video reported by 8 October",
       "country": "Syria",
       "place": "Khabur villages near Tell Tamer",
       "lat": 36.65,
@@ -515,12 +543,16 @@
       "type": "Mass killing",
       "evidence": "reported",
       "title": "Reported execution of three Assyrian Christian captives",
-      "summary": "The US Department of State recorded reports that daesh executed three Assyrian Christians captured with other villagers earlier in the year.",
+      "summary": "Three Assyrian Christian men abducted in the February 2015 Khabur offensive were killed in daesh captivity. The US government recorded the killings, and Agenzia Fides reported on 8 October that an execution video had been released. Published accounts differ in how they date the execution and video release; the recording's publication is not itself proof of an October execution date.",
       "actor": "daesh",
       "sources": [
         {
           "title": "2015 Country Reports on Human Rights Practices: Syria - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm"
+        },
+        {
+          "title": "Three Assyrian Khabur hostages killed, video publicised - Agenzia Fides (8 October 2015)",
+          "url": "https://www.fides.org/en/news/58534-ASIA_SYRIA_The_jihadists_release_the_video_of_the_execution_of_three_Assyrian_hostages"
         }
       ],
       "scope": "Assyrian community"
