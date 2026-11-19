@@ -108,11 +108,36 @@ class PersecutionTests(unittest.TestCase):
                 self.assertIn(id_, by_id)
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
-        self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81})
+        self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81 or int(r['id'][3:]) <= 21})
         self.assertTrue(audit['excluded_or_pending'])
         self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
                             for e in audit['excluded_or_pending']))
         self.assertTrue(any(e['status'] == 'excluded' for e in audit['excluded_or_pending']))
+
+    def test_first_21_original_cases_have_audited_source_trails(self):
+        by_id = {r['id']: r for r in self.records}
+        audit = json.loads((ROOT / 'data/persecution-source-audit.json').read_text(encoding='utf-8'))
+        indexed = {case for s in audit['sources'] for case in s['captured_record_ids']}
+        self.assertTrue(all(f'AP-{i:04d}' in indexed for i in range(1, 22)))
+        self.assertTrue(all(f'AP-{i:04d}' not in indexed for i in range(22, 81)))
+        self.assertGreaterEqual(len(audit['sources']), 112)
+        tkhuma = by_id['AP-0002']
+        self.assertEqual(tkhuma['year'], 1846)
+        self.assertIn('Tkhuma', tkhuma['title'])
+        self.assertNotIn('Tiyari', tkhuma['title'])
+        self.assertIsNone(tkhuma['lat'])
+        self.assertIsNone(tkhuma['lon'])
+        self.assertIn('1843', tkhuma['summary'])
+        self.assertIsNone(by_id['AP-0001']['lat'])
+        student = by_id['AP-0013']
+        self.assertIn('Hamdaniya', student['place'])
+        self.assertIsNone(student['lat'])
+        self.assertIn('World Council of Churches',
+                      ' '.join(s['title'] for s in student['sources']))
+        self.assertIn('convicted', by_id['AP-0009']['summary'])
+        self.assertIn('September-October', by_id['AP-0021']['date'])
+        self.assertIn('video', by_id['AP-0021']['summary'])
+        self.assertIn('AP-0022 through AP-0080', audit['scope'])
 
     def test_new_locally_supported_cases_and_aggregation_are_preserved(self):
         by_id = {r['id']: r for r in self.records}
