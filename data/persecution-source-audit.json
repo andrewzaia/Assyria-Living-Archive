@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-12",
-  "scope": "Incremental source-by-source audit for AP-0081 through AP-0226. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action.",
+  "updated_on": "2026-11-19",
+  "scope": "Incremental source-by-source audit for AP-0081 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Earlier AP-0001 through AP-0080 await equivalent systematic auditing. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending.",
   "sources": [
     {
       "url": "https://aleteia.org/2015/05/28/isis-destroys-churches-loots-houses-in-syria/",
@@ -906,6 +906,42 @@
       ],
       "review_status": "reviewed",
       "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/1541856",
+      "title": "Nikolai Artemyevich Avetisov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0227"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/show/1542113",
+      "title": "Babakhai, son of Lazar - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0228"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://visz.nlr.ru/person/book/t11/1/10",
+      "title": "David Asan Abramov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+      "captured_record_ids": [
+        "AP-0229"
+      ],
+      "review_status": "partial",
+      "notes": "Named Assyrian victim, arrest date, sentencing authority and execution date indexed from the Russian National Library's Leningrad memorial register. Do not assume the listed Soviet security accusations were justified; individual case overlaps AP-0220."
+    },
+    {
+      "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser",
+      "title": "Claire P. Kaiser, 'What Are They Doing? After All, We're Not Germans', in Empire and Belonging in the Eurasian Borderlands (Cornell University Press, 2019), pp. 88-89, n. 43",
+      "captured_record_ids": [
+        "AP-0230"
+      ],
+      "review_status": "partial",
+      "notes": "Peer-reviewed historical chapter reproduces details from Ilia Bidzhamov's petition to the USSR MGB, 12 December 1949, State Security Archive of Georgia (I), fond 13, dossier 41, tome 1, folios 17-20. Original file not independently inspected; nationality and family deportation sourced, formal legal basis unresolved."
     }
   ],
   "excluded_or_pending": [
