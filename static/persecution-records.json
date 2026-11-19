@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-19",
   "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
@@ -852,7 +852,8 @@
       ],
       "related_ids": [
         "AP-0223",
-        "AP-0225"
+        "AP-0225",
+        "AP-0230"
       ]
     },
     {
@@ -5343,7 +5344,10 @@
       ],
       "related_ids": [
         "AP-0221",
-        "AP-0222"
+        "AP-0222",
+        "AP-0227",
+        "AP-0228",
+        "AP-0229"
       ]
     },
     {
@@ -5504,6 +5508,106 @@
       "related_ids": [
         "AP-0020",
         "AP-0062"
+      ]
+    },
+    {
+      "id": "AP-0227",
+      "year": 1938,
+      "date": "Arrested 4 July 1938; executed 6 November 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "documented",
+      "actor": "NKVD security investigators and Soviet extrajudicial sentencing authorities",
+      "scope": "Named Assyrian victim of Stalinist political repression in Leningrad",
+      "related_ids": [
+        "AP-0220"
+      ],
+      "title": "Nikolai Artemyevich Avetisov, Assyrian shoemaker, executed in Leningrad",
+      "summary": "The Russian National Library's Leningrad Book of Remembrance identifies Nikolai Artemyevich Avetisov, born in 1907 in the Kars region and recorded as Assyrian, as a member of the Trudassiriets shoemakers' cooperative. He was arrested on 4 July 1938, sentenced to death by an NKVD regional troika on 2 November and executed in Leningrad on 6 November. This is a named victim within the wider Soviet repression documented in AP-0220, not a separate purge. The register's security charges are not treated as established guilt.",
+      "sources": [
+        {
+          "title": "Nikolai Artemyevich Avetisov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+          "url": "https://visz.nlr.ru/person/show/1541856"
+        }
+      ]
+    },
+    {
+      "id": "AP-0228",
+      "year": 1938,
+      "date": "Arrested 5 February 1938; executed 1 October 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "documented",
+      "actor": "NKVD security investigators and Soviet extrajudicial sentencing authorities",
+      "scope": "Named Assyrian victim of Stalinist political repression in Leningrad",
+      "related_ids": [
+        "AP-0220"
+      ],
+      "title": "Babakhai, son of Lazar, Assyrian factory worker, executed in Leningrad",
+      "summary": "The Russian National Library's Leningrad memorial register identifies Babakhai, son of Lazar, born in 1905 near Urmia, as an Assyrian and Iranian national employed at the 8 March factory warehouse. Soviet authorities arrested him on 5 February 1938; an NKVD and USSR procuracy commission sentenced him on 2 September, and he was executed in Leningrad on 1 October 1938. This is one individual case in the wider anti-minority political terror, without accepting the alleged espionage charge as fact.",
+      "sources": [
+        {
+          "title": "Babakhai, son of Lazar - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+          "url": "https://visz.nlr.ru/person/show/1542113"
+        }
+      ]
+    },
+    {
+      "id": "AP-0229",
+      "year": 1938,
+      "date": "Arrested 5 June 1938; executed 6 November 1938",
+      "country": "Russia",
+      "place": "Leningrad (present-day Saint Petersburg), Russian SFSR",
+      "lat": 59.94,
+      "lon": 30.32,
+      "type": "State repression",
+      "evidence": "documented",
+      "actor": "NKVD security investigators and Soviet extrajudicial sentencing authorities",
+      "scope": "Named Assyrian victim of Stalinist political repression in Leningrad",
+      "related_ids": [
+        "AP-0220"
+      ],
+      "title": "David Asan Abramov, Assyrian shoemaker, executed in Leningrad",
+      "summary": "Volume 11 of the Russian National Library's Leningrad Book of Remembrance lists David Asan Abramov, born in 1911 in the Van region and identified as Assyrian, as a Trudassiriets cooperative shoemaker. He was arrested on 5 June 1938, condemned by an NKVD regional troika on 2 November and executed on 6 November 1938. This records a distinct named victim in the same Leningrad repression, not an independently counted campaign or proof of the official accusations.",
+      "sources": [
+        {
+          "title": "David Asan Abramov - Leningrad Book of Remembrance, vol. 11 (Russian National Library)",
+          "url": "https://visz.nlr.ru/person/book/t11/1/10"
+        }
+      ]
+    },
+    {
+      "id": "AP-0230",
+      "year": 1949,
+      "date": "Deported by December 1949; petition dated 12 December 1949",
+      "country": "Georgia",
+      "place": "Tbilisi (Tiflis), Georgian SSR",
+      "lat": 41.72,
+      "lon": 44.79,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Ilia Semenovich Bidzhamov and family expelled from Tbilisi to Tomsk oblast",
+      "summary": "Historian Claire P. Kaiser cites a 12 December 1949 petition by Ilia Semenovich Bidzhamov, an Assyrian refugee from the Ottoman Empire who had acquired Soviet citizenship in 1923. He and his family had been expelled from Tbilisi to Tomsk oblast, and he wrote that he did not know the grounds of their removal. The documented petition supports a named family deportation, but the archive has not independently inspected the original security file or resolved whether his former Turkish subjecthood was the formal reason. This individual case sits within the broader Soviet Georgian deportations in AP-0035.",
+      "actor": "Soviet state security and deportation authorities in the Georgian SSR; precise legal ground unresolved",
+      "scope": "Named Assyrian refugee family deported from Soviet Georgia",
+      "sources": [
+        {
+          "title": "Claire P. Kaiser, 'What Are They Doing? After All, We're Not Germans', in Empire and Belonging in the Eurasian Borderlands (Cornell University Press, 2019), pp. 88-89, n. 43",
+          "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser"
+        },
+        {
+          "title": "Empire and Belonging in the Eurasian Borderlands - Cornell University Press (2019)",
+          "url": "https://cornellpress.cornell.edu/book/9781501736131/empire-and-belonging-in-the-eurasian-borderlands/"
+        }
+      ],
+      "related_ids": [
+        "AP-0035"
       ]
     }
   ]
