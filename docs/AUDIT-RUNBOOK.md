@@ -31,6 +31,27 @@ For all curated sources:
 python scripts/audit_sources.py --network --workers 4 --timeout 8 --output .qa/source-health.json
 ```
 
+## Daily archive review and continuous improvement
+
+`.github/workflows/daily-review.yml` runs daily at 22:37 UTC (approximately 09:37 AEDT or 08:37 AEST), or on manual dispatch. It checks the current default branch, runs deterministic source and persecution tests, builds and validates the generated website, and probes a rotating, bounded sample of 12 curated external references. It updates **one rolling GitHub issue** named `Daily Assyria archive review` with the latest counts, source-health observations, results and a rotating shortlist of unmapped persecution records.
+
+GitHub's cron schedule is best-effort, can run late and, for an inactive public repository, may eventually be disabled. The workflow uses the built-in `GITHUB_TOKEN` with only `contents: read` and `issues: write`; no long-lived token or additional paid service is required. Issue updates may be prevented by repository Actions policy; investigate the workflow log before claiming that a report was posted.
+
+Run the report generator locally without HTTP requests:
+
+```sh
+python scripts/test_daily_review.py
+python scripts/daily_review.py --report .qa/daily-report.json --summary .qa/daily-report.md
+```
+
+To include bounded network checking:
+
+```sh
+python scripts/daily_review.py --network --report .qa/daily-report.json --summary .qa/daily-report.md
+```
+
+A second, separately scheduled ChatGPT task can investigate a worthwhile project improvement and propose a reviewed GitHub pull request. It is not a substitute for this workflow's deterministic checks. Automated HTTP availability must not become an editorial review result; neither routine may invent historical cases, refresh consultation dates, merge unreviewed scholarship or issue arbitrary code patches merely to produce activity. No change to the website is necessary when the current information is sound.
+
 GitHub Actions `.github/workflows/source-audit.yml` supports manual dispatch and a monthly schedule. Its job summary shows categories and candidates for editorial follow-up. Network probes are intentionally **separate from normal PR builds** so intermittent external outages and bot mitigation do not prevent valid site updates.
 
 Response categories:
@@ -58,7 +79,7 @@ Document real findings and follow-ups in the roadmap and a public correction rec
 
 ## 4. Editorial and release gates
 
-The site retains `allow_indexing: false`. Publication approval requires separate historical and textual review, rights checks, accessibility testing and an authorised maintainer decision. No private interviews are collected by these scripts; a downloadable contribution draft is not a secure submission.
+The production configuration permits indexing on the canonical public hostname. Publication of new substantive historical claims still requires appropriate source review, rights checks, accessibility testing and an authorised maintainer decision. No private interviews are collected by these scripts; a downloadable contribution draft is not a secure submission.
 
 - Source Library: `/sources/`
 - Evidence Register: `/about/evidence/`

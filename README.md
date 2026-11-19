@@ -51,6 +51,15 @@ Run locally from the repository root to repeat or extend acquisition:
 
 Source figures are preferred. If all original figure candidates are unavailable or not eligible, the importer tries the corresponding Wikipedia source article's lead image under the same individual Commons licence and attribution checks. The importer reuses previously archived identical Commons files instead of downloading duplicate copies. A media gap is recorded, not filled with an unlicensed or misleading image. dist/media-audit.json reports the number of articles with actual committed pictures and lists those still missing images. The complementary dist/media-triage.json records the remaining research queue, source image candidate counts, and individual placements awaiting relevance and caption review. A file can be correctly sourced and licensed while still being unsuitable for a specific article. Triage makes no automatic claim that media is unavailable: an unillustrated page remains a research task until a source-supported negative finding is recorded. The source figure scan now considers up to 16 images per preserved page using batched Commons lookups, and a small hand-curated list of exact article subjects improves finding genuinely relevant lead images without generic keyword guessing. Neither a Wikipedia image candidate nor a successfully fetched licence page counts as delivered media until the local file is saved and its integrity is verified. More targeted portraits, manuscript images, maps, community submissions, and human review remain editorial work.
 
+## Daily archive maintenance and improvement
+
+The project uses two complementary daily routines:
+
+- GitHub Actions `Daily archive review` checks the generated site, source and persecution data, and rotates through a bounded set of external institutional source URLs. Its latest research queue, structural findings and link-probe results appear in a single rolling GitHub issue. It never changes historical claims or the live site.
+- A separate ChatGPT daily improvement task can investigate one evidence-backed roadmap priority, prepare a focused patch on a branch and open a pull request for editorial review. Not every run should produce a change. Unreviewed historical claims must never be auto-merged or published.
+
+See [the audit runbook](docs/AUDIT-RUNBOOK.md) for schedule details, manual execution and the distinction between HTTP availability and scholarly verification.
+
 ## Production site: Cloudflare Pages
 
 The canonical public site is [www.assyrialivingarchive.org](https://www.assyrialivingarchive.org/). Cloudflare Pages builds the Python-generated `dist/` directory from the `main` branch of this repository.
