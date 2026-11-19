@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-19",
   "milestones": [
     {
       "id": "foundation",
@@ -174,8 +174,8 @@
       "id": "assyrian-persecution",
       "title": "Assyrian persecution map and source catalogue",
       "status": "in-progress",
-      "delivered": "226 attributed records across 15 countries, with 30 village land dossiers, 88-source audit and interactive heat map.",
-      "next": "Audit historical source leads, corroborate Soviet arrest and deportation records, and extend underrepresented countries."
+      "delivered": "230 attributed records across 15 countries, including 30 village land dossiers, four new named Soviet-era victim cases, 92-source audit and interactive heat map.",
+      "next": "Audit original AP-0001 to AP-0080 sources; inspect Soviet files; extend countries with Assyrian-specific evidence."
     }
   ]
 }
