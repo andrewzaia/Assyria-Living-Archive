@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = (
-    "/", "/explore/", "/map/", "/languages/", "/heritage/", "/governance/",
+    "/", "/explore/", "/timeline/", "/map/", "/persecution/", "/audit/", "/languages/", "/heritage/", "/governance/",
     "/stewardship/", "/bible/", "/bible/passages/", "/reading-list/",
     "/contribute/", "/sources/", "/about/", "/glossary/", "/middle-assyrian/", "/case-files/", "/text-comparisons/", "/concordance/", "/articles/reading-cuneiform-transliteration/",
 )

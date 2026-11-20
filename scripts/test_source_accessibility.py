@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from audit_sources import audit, classify, load_records, probe
-from audit_accessibility import audit as inspect_page
+from audit_accessibility import audit as inspect_page, PAGES
 
 
 class ExternalSourceAuditTests(unittest.TestCase):
@@ -71,6 +71,10 @@ class AccessibilityAuditTests(unittest.TestCase):
         <a class="skip" href="#main">Skip</a><button class="menu-toggle" aria-controls="mobile-site-nav" aria-expanded="false">Menu</button>
         <nav id="mobile-site-nav"></nav><dialog id="search-dialog" aria-labelledby="search-title"></dialog>
         <h2 id="search-title">Search</h2><main id="main"><h1>Welcome</h1><img src="x" alt="example"><label>Name <input id="person"></label></main></html>''', encoding="utf-8")
+
+    def test_critical_interactive_pages_are_included(self):
+        for route in ("/timeline/", "/map/", "/persecution/", "/audit/"):
+            self.assertIn(route, PAGES)
 
     def test_semantic_smoke_passes(self):
         self.assertEqual(inspect_page("/", self.site), [])
