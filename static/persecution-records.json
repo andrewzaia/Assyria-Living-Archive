@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-22",
   "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
@@ -563,17 +563,25 @@
       "date": "August 2018",
       "country": "Syria",
       "place": "al-Hasakah governorate",
-      "lat": 36.5,
-      "lon": 40.75,
+      "lat": null,
+      "lon": null,
       "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Closure orders affecting Assyrian and Armenian schools",
-      "summary": "USCIRF described a dispute over school curricula in which Kurdish-led authorities reportedly ordered the closure of Assyrian and Armenian schools. School leaders said the required curriculum undermined their distinct identities.",
+      "summary": "USCIRF reported closure orders affecting up to 24 Assyrian and Armenian schools in August 2018 over a mandated curriculum. Syrians for Truth and Justice documented the 7 August order and protests, and reported the authorities' licensing and curriculum rationale. The US Department of State reported 14 temporary closures and a subsequent agreement allowing schools to reopen. The figures have different source scopes and are not additive.",
       "actor": "Kurdish-led autonomous administration, in the reported curriculum dispute",
       "sources": [
         {
           "title": "USCIRF Annual Report 2019 - Syria",
           "url": "https://www.uscirf.gov/sites/default/files/2019USCIRFAnnualReport.pdf"
+        },
+        {
+          "title": "US Department of State - 2018 Country Reports on Human Rights Practices: Syria",
+          "url": "https://2021-2025.state.gov/reports/2018-country-reports-on-human-rights-practices/syria/"
+        },
+        {
+          "title": "Syrians for Truth and Justice - Autonomous Administration Closes Schools Run by Christians",
+          "url": "https://stj-sy.org/en/731/"
         }
       ],
       "scope": "Assyrian / Armenian church communities"
