@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-20",
-  "scope": "Incremental source triage for AP-0001 through AP-0021 and AP-0081 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0022 through AP-0080 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting.",
+  "updated_on": "2026-11-22",
+  "scope": "Incremental source triage for AP-0001 through AP-0022 and AP-0081 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0023 through AP-0080 still await equivalent source triage; AP-0001 through AP-0022 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -22,6 +22,15 @@
       ],
       "review_status": "partial",
       "notes": "Legacy State Department page not directly re-read; corroborating Canadian government and Fides reports support the named Khabur hostages and three deaths."
+    },
+    {
+      "title": "US Department of State - 2018 Country Reports on Human Rights Practices: Syria",
+      "url": "https://2021-2025.state.gov/reports/2018-country-reports-on-human-rights-practices/syria/",
+      "captured_record_ids": [
+        "AP-0022"
+      ],
+      "review_status": "reviewed",
+      "notes": "2018 country report: 14 temporary closures reported in September; agreement permitting reopening and differentiated curricula by grade. Count is not additive to USCIRF estimate."
     },
     {
       "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser",
@@ -189,6 +198,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Open-access scholarly study describes the Simele massacre and more than 600 deaths; alternative estimates and precise village-level victim registers remain outside this review."
+    },
+    {
+      "title": "Syrians for Truth and Justice - Autonomous Administration Closes Schools Run by Christians",
+      "url": "https://stj-sy.org/en/731/",
+      "captured_record_ids": [
+        "AP-0022"
+      ],
+      "review_status": "reviewed",
+      "notes": "Contemporary field reporting documents 7 August order, protests and conflicting positions; September reopening announcement was not independently verified by this source."
     },
     {
       "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/",
@@ -1109,6 +1127,15 @@
       ],
       "review_status": "partial",
       "notes": "USCIRF lists Zya Minas as released in May 2022. Must not imply continued imprisonment or multiply one land protest into two separate attacks."
+    },
+    {
+      "title": "USCIRF Annual Report 2019 - Syria",
+      "url": "https://www.uscirf.gov/sites/default/files/2019USCIRFAnnualReport.pdf",
+      "captured_record_ids": [
+        "AP-0022"
+      ],
+      "review_status": "reviewed",
+      "notes": "Syria chapter, Conditions in the Autonomous Northeastern Region: August 2018 closure orders affecting up to two dozen schools; school administrators disputed the curriculum. Reported allegations, not independent adjudication."
     },
     {
       "url": "https://www.ushmm.org/genocide-prevention/countries/iraq/a-devastating-choice",
