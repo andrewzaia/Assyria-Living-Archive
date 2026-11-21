@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-22",
   "milestones": [
     {
       "id": "foundation",
@@ -174,8 +174,8 @@
       "id": "assyrian-persecution",
       "title": "Assyrian persecution map and source catalogue",
       "status": "in-progress",
-      "delivered": "230 attributed records in 15 countries; 30 land dossiers, corrected 1846 Tkhuma case, early-source triage (AP-0001 to AP-0021), 114-source audit and heat map.",
-      "next": "Audit AP-0022 to AP-0080; revisit inaccessible originals and Soviet files; extend country coverage."
+      "delivered": "230 attributed records in 15 countries; 30 land dossiers, corrected 1846 Tkhuma case, early-source triage (AP-0001 to AP-0022), 117-source audit and heat map.",
+      "next": "Audit AP-0023 to AP-0080; revisit inaccessible originals and Soviet files; extend country coverage."
     }
   ]
 }
