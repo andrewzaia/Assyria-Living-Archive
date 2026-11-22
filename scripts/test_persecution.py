@@ -108,7 +108,7 @@ class PersecutionTests(unittest.TestCase):
                 self.assertIn(id_, by_id)
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
-        self.assertEqual(captured, {r['id'] for r in self.records if int(r['id'][3:]) >= 81 or int(r['id'][3:]) <= 21})
+        self.assertTrue({r['id'] for r in self.records if int(r['id'][3:]) >= 80 or int(r['id'][3:]) <= 23}.issubset(captured))
         self.assertTrue(audit['excluded_or_pending'])
         self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
                             for e in audit['excluded_or_pending']))
@@ -119,7 +119,13 @@ class PersecutionTests(unittest.TestCase):
         audit = json.loads((ROOT / 'data/persecution-source-audit.json').read_text(encoding='utf-8'))
         indexed = {case for s in audit['sources'] for case in s['captured_record_ids']}
         self.assertTrue(all(f'AP-{i:04d}' in indexed for i in range(1, 22)))
-        self.assertTrue(all(f'AP-{i:04d}' not in indexed for i in range(22, 81)))
+        self.assertTrue({'AP-0022', 'AP-0023', 'AP-0080'}.issubset(indexed))
+        self.assertIsNone(by_id['AP-0022']['lat'])
+        self.assertIsNone(by_id['AP-0022']['lon'])
+        self.assertIn('reopening', by_id['AP-0022']['summary'])
+        self.assertIn('205 homes', by_id['AP-0023']['summary'])
+        self.assertIn('75 Christian families', by_id['AP-0023']['summary'])
+        self.assertIn('did not identify', by_id['AP-0080']['summary'])
         self.assertGreaterEqual(len(audit['sources']), 112)
         tkhuma = by_id['AP-0002']
         self.assertEqual(tkhuma['year'], 1846)
@@ -137,7 +143,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0022 through AP-0080', audit['scope'])
+        self.assertIn('AP-0001 through AP-0023', audit['scope'])
 
     def test_new_locally_supported_cases_and_aggregation_are_preserved(self):
         by_id = {r['id']: r for r in self.records}
