@@ -108,7 +108,7 @@ class PersecutionTests(unittest.TestCase):
                 self.assertIn(id_, by_id)
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
-        self.assertTrue({r['id'] for r in self.records if int(r['id'][3:]) >= 80 or int(r['id'][3:]) <= 32}.issubset(captured))
+        self.assertTrue({r['id'] for r in self.records if int(r['id'][3:]) >= 80 or int(r['id'][3:]) <= 45}.issubset(captured))
         self.assertTrue(audit['excluded_or_pending'])
         self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
                             for e in audit['excluded_or_pending']))
@@ -143,7 +143,12 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0001 through AP-0032', audit['scope'])
+        self.assertIn('AP-0001 through AP-0045', audit['scope'])
+        self.assertIn('31 March 2009', by_id['AP-0036']['summary'])
+        self.assertIn('late March', by_id['AP-0038']['summary'])
+        self.assertIn('15 August', by_id['AP-0041']['summary'])
+        self.assertIn('not additive', by_id['AP-0043']['summary'])
+        self.assertIn('more than 25', by_id['AP-0045']['summary'])
         for n in (24, 26, 28, 29, 31, 32):
             record = by_id[f'AP-{n:04d}']
             self.assertIsNone(record['lat'])
