@@ -148,7 +148,7 @@
         "AP-0033"
       ],
       "review_status": "partial",
-      "notes": "Indexed full report text inspected, printed p. 10 (PDF page 12); screenshot retrieval failed. Reports 47 dead, 22 wounded and Noah Yonan testimony. Original casualty roll not inspected."
+      "notes": "Indexed full report text inspected, printed p. 10 (PDF page 12); screenshot retrieval failed. Reports 47 dead, 22 wounded and Noah Yonan testimony. Original casualty roll not inspected. The institute's genocide-recognition landing page links this same publication."
     },
     {
       "url": "https://doi.org/10.1080/13530194.2023.2233218",
@@ -540,15 +540,6 @@
       ],
       "review_status": "partial",
       "notes": "Five individual village/church damage cases linked to the regional 2015 archive destruction summary; exact destruction days vary and total church losses may be greater."
-    },
-    {
-      "url": "https://www.assyrianpolicy.org/genocide-recognition",
-      "title": "Assyrian Genocide in Modern History - Assyrian Policy Institute",
-      "captured_record_ids": [
-        "AP-0033"
-      ],
-      "review_status": "reviewed",
-      "notes": "Landing page identifies the 1969 case and links the full 2019 report."
     },
     {
       "url": "https://www.assyrianpolicy.org/post/19-year-old-assyrian-woman-detained-by-sdf-forces-in-northeast-syria",
@@ -1087,16 +1078,7 @@
         "AP-0035"
       ],
       "review_status": "partial",
-      "notes": "Indexed text identifies resolution 2214-856 and Assyrian families; original decree and individual records not inspected."
-    },
-    {
-      "url": "https://www.idfi.ge/charts/archive/index.php?cat=read_topic&lang=en&topic=141",
-      "title": "Regime Archives in Georgia - IDFI, fond 13, Special Exiles (alternate archive path)",
-      "captured_record_ids": [
-        "AP-0035"
-      ],
-      "review_status": "partial",
-      "notes": "Indexed fond 13 description identifies Assyrian exiles and echelon lists. No original file inspection."
+      "notes": "Indexed text identifies resolution 2214-856 and Assyrian families; original decree and individual records not inspected. The alternate archive path also indexes the fond 13 description and echelon lists; both URLs represent the same publication."
     },
     {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
