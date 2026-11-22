@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0023 and AP-0080 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0024 through AP-0079 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides.",
+  "scope": "Incremental source triage for AP-0001 through AP-0032 and AP-0080 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0033 through AP-0079 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -87,6 +87,15 @@
       "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
     },
     {
+      "url": "https://demirel.co.il/en/persons/mar-benyamin-shimun-en/",
+      "title": "Mar Benyamin Shimun - historical sources and Sinyor Demirel diary",
+      "captured_record_ids": [
+        "AP-0030"
+      ],
+      "review_status": "partial",
+      "notes": "Read the meeting and assassination section, including Gregorian/Julian dates and differing weekday in the diary tradition. This is a modern profile drawing on local testimony, not a full inspection of the original diary."
+    },
+    {
       "url": "https://doi.org/10.1080/13530194.2023.2233218",
       "title": "Missionary involvement with the Simele massacre in 1933 - Tijmen C. Baarda",
       "captured_record_ids": [
@@ -94,6 +103,16 @@
       ],
       "review_status": "reviewed",
       "notes": "Peer-reviewed Simele study and publicly available full text/abstract corroborate more than 600 Assyrian deaths; no exact independently proven aggregate beyond author scope."
+    },
+    {
+      "url": "https://doi.org/10.3138/gsi.9.1.05",
+      "title": "The Complexity of the Assyrian Genocide - David Gaunt, Genocide Studies International",
+      "captured_record_ids": [
+        "AP-0027",
+        "AP-0029"
+      ],
+      "review_status": "partial",
+      "notes": "DOI full text returned HTTP 403; retained as bibliographic lead, not passage-level corroboration."
     },
     {
       "url": "https://doi.org/10.31648/sw.2525",
@@ -563,6 +582,16 @@
       "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta."
     },
     {
+      "url": "https://www.atour.com/library/government/20100521a.html",
+      "title": "Massacres and Deportation of Assyrians in Northern Mesopotamia, 1924-25 - Racho Donef",
+      "captured_record_ids": [
+        "AP-0031",
+        "AP-0032"
+      ],
+      "review_status": "partial",
+      "notes": "Read 2009 book contents, David Gaunt's preface and Donef's introduction on the 1924 and 1925 episodes; Document 1 cites Turkish General Staff, 1972, pp. 19-77 and 483-86. Documents 3 and 4 concern the Swedish archives. Full translated documents and archival originals not inspected."
+    },
+    {
       "url": "https://www.atour.com/news/assyria/20080813a.html",
       "title": "Assyrian villages and monasteries historical survey - Majed Eshoo (2008)",
       "captured_record_ids": [
@@ -661,6 +690,17 @@
       ],
       "review_status": "partial",
       "notes": "11 May 2022 Dadersh attempted land grab, assaults and detention are one incident; the two named detainees were released after approximately one day, corroborated by USCIRF profiles."
+    },
+    {
+      "url": "https://www.degruyterbrill.com/document/doi/10.31826/9781463210816/html",
+      "title": "Massacres, Resistance, Protectors - David Gaunt (2006)",
+      "captured_record_ids": [
+        "AP-0026",
+        "AP-0028",
+        "AP-0030"
+      ],
+      "review_status": "partial",
+      "notes": "Publisher metadata and contents accessible; full relevant chapters not inspected, so retained as a bibliographic lead."
     },
     {
       "url": "https://www.ecoi.net/en/document/1067272.html",
@@ -824,11 +864,13 @@
       "url": "https://www.gov.uk/government/publications/iraq-country-policy-and-information-notes/country-policy-and-information-note-religious-minorities-iraq-september-2024-accessible",
       "title": "Iraq: Religious minorities, September 2024 - UK Home Office",
       "captured_record_ids": [
+        "AP-0024",
+        "AP-0025",
         "AP-0147",
         "AP-0148"
       ],
       "review_status": "partial",
-      "notes": "Distinguishes the Bartella family land complaint from the wider property-seizure trend and the reported March 2023 Christian regiment protest. Underlying allegations and dates are attributed."
+      "notes": "Distinguishes the Bartella family land complaint from the wider property-seizure trend and the reported March 2023 Christian regiment protest. Underlying allegations and dates are attributed. September 2024 version 4.0, sections 3.1.7-3.1.8 and 11.3-11.6 accessed. The compilation describes reported regional and nationwide mistreatment; underlying property titles and specific outcomes were not checked. AP-0024 and AP-0025 are overlapping broad patterns, not extra distinct local incidents."
     },
     {
       "url": "https://www.gutenberg.org/cache/epub/18930/pg18930-images.html",
@@ -1063,6 +1105,18 @@
       ],
       "review_status": "reviewed",
       "notes": "Secondary community history explicitly distinguishes 1843 attacks on Tiyari from the 1846 campaign against Tkhuma; useful location correction, not an independent census or original Ottoman archive."
+    },
+    {
+      "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/sayfo-massacres-1915-1924",
+      "title": "Sayfo Massacres, 1915-1924 - Syriac Heritage Project",
+      "captured_record_ids": [
+        "AP-0026",
+        "AP-0027",
+        "AP-0028",
+        "AP-0029"
+      ],
+      "review_status": "partial",
+      "notes": "Read Catalyst and Precedents and Massacres and Victims in the Heartland sections. Community historical synthesis provides local descriptions but underlying editions and casualty figures require separate checking; its ancestry interpretation is not adopted as independent historical proof."
     },
     {
       "url": "https://www.syriahr.com/en/266397/",
