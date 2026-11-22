@@ -560,20 +560,24 @@
     {
       "id": "AP-0022",
       "year": 2018,
-      "date": "August 2018",
+      "date": "August-September 2018",
       "country": "Syria",
       "place": "al-Hasakah governorate",
-      "lat": 36.5,
-      "lon": 40.75,
+      "lat": null,
+      "lon": null,
       "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Closure orders affecting Assyrian and Armenian schools",
-      "summary": "USCIRF described a dispute over school curricula in which Kurdish-led authorities reportedly ordered the closure of Assyrian and Armenian schools. School leaders said the required curriculum undermined their distinct identities.",
+      "summary": "USCIRF reported that in August 2018 Kurdish-led autonomous authorities ordered the closure of up to two dozen Assyrian and Armenian schools over a curriculum dispute. School administrators and Christian protesters said the mandated curriculum undermined their distinct identities. The State Department separately reported temporary closures of 14 private church schools in September in Qamishli, Hasakeh and Al-Malikiyeh, followed by an agreement permitting reopening with different curricula by grade. The two reported counts are not additive.",
       "actor": "Kurdish-led autonomous administration, in the reported curriculum dispute",
       "sources": [
         {
           "title": "USCIRF Annual Report 2019 - Syria",
           "url": "https://www.uscirf.gov/sites/default/files/2019USCIRFAnnualReport.pdf"
+        },
+        {
+          "title": "2018 Country Reports on Human Rights Practices: Syria - US Department of State",
+          "url": "https://2021-2025.state.gov/reports/2018-country-reports-on-human-rights-practices/syria/"
         }
       ],
       "scope": "Assyrian / Armenian church communities"
@@ -589,12 +593,12 @@
       "type": "Property seizure",
       "evidence": "reported",
       "title": "Seizure and looting of Christian property after offensive",
-      "summary": "The US Department of State cited Syriac researchers reporting that Turkey-supported armed groups seized and looted houses and businesses belonging to Christian families who fled Ras al-Ayn.",
+      "summary": "The US Department of State cited the Syriac Strategic Research Center's November 2019 report that Turkey-supported armed groups seized and looted 205 homes and 120 commercial or industrial premises belonging to 75 Christian families displaced from Ras al-Ayn by the Turkish offensive. These are attributed figures, not independently checked property records or a count of exclusively ethnic-Assyrian victims.",
       "actor": "Turkey-supported Syrian armed groups, as reported",
       "sources": [
         {
           "title": "2019 Country Reports on Human Rights Practices: Syria - US Department of State",
-          "url": "https://2017-2021.state.gov/reports/2019-country-reports-on-human-rights-practices/syria/"
+          "url": "https://2021-2025.state.gov/reports/2019-country-reports-on-human-rights-practices/syria/"
         }
       ],
       "scope": "Syriac and shared Christian communities"
@@ -1888,7 +1892,7 @@
       "type": "Religious violence",
       "evidence": "reported",
       "title": "Shots fired at Syriac Orthodox cathedral cross in Homs",
-      "summary": "The Syriac Orthodox Archdiocese of Homs, Hama and Tartus reported gunfire directed at a cross on the facade of its Cathedral of St Mary of the Holy Belt in the Bustan al-Diwan quarter. Clergy denounced intimidation, and the perpetrators were not identified in the report.",
+      "summary": "Agenzia Fides reported on 12 June 2025 that the Syriac Orthodox Archdiocese of Homs, Hama and Tartus said shots were fired early on 8 June at the cross on the facade of St Mary of the Holy Belt Cathedral in Bustan al-Diwan. Church leaders appealed for the authorities to identify and prosecute those responsible and protect places of worship. The report did not identify the perpetrators.",
       "actor": "Unidentified gunmen",
       "scope": "Assyrian / Syriac church community",
       "sources": [
