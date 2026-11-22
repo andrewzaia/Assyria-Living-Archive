@@ -827,13 +827,17 @@
       "type": "Mass killing",
       "evidence": "historical",
       "title": "Soriya massacre of Assyrian villagers",
-      "summary": "The Assyrian Policy Institute's modern-genocide history documents Iraqi soldiers opening fire on civilians in the Assyrian village of Soriya, with 47 villagers reported killed. The circumstances and responsibility are described through survivor testimony.",
+      "summary": "The Assyrian Policy Institute's 2019 report (printed p. 10) identifies Lieutenant Abdul Karim al-Jahayshee as leading Iraqi soldiers in the attack on Soriya on 16 September 1969. It reports 47 deaths, including the village priest, and 22 wounded; survivor Noah Yonan described soldiers firing into houses and burning them. The report links the assault to a nearby mine explosion as a possible trigger, not an established motive or independently reconciled casualty roll.",
       "actor": "Iraqi military soldiers led by an officer identified in survivor accounts",
       "scope": "Assyrian community",
       "sources": [
         {
           "title": "Assyrian Genocide in Modern History - Assyrian Policy Institute",
           "url": "https://www.assyrianpolicy.org/genocide-recognition"
+        },
+        {
+          "title": "Assyrian Genocide in Modern History - Assyrian Policy Institute, 7 August 2019, p. 10",
+          "url": "https://docs.wixstatic.com/ugd/6ae567_2baeeb49f5ec4fa09997290e86410902.pdf"
         }
       ]
     },
@@ -843,18 +847,22 @@
       "date": "1980s-1990s",
       "country": "Turkey",
       "place": "Tur Abdin villages",
-      "lat": 37.48,
-      "lon": 41.2,
+      "lat": null,
+      "lon": null,
       "type": "Displacement",
       "evidence": "historical",
       "title": "Assyrian village depopulation during the Turkey-PKK conflict",
-      "summary": "Assyrian village communities in Mardin and Sirnak provinces experienced pressure, threats and forced migration while caught between Turkish state security demands and PKK activity. This is a period-level entry, not one attack.",
+      "summary": "Abdulmesih BarAbraham's study (2021) traces Assyrian migration from Tur Abdin from the early 1960s, accelerating during militarisation of southeastern Turkey and the conflict with the pkk. Many villages were abandoned. A 2001 circular from Prime Minister Bulent Ecevit encouraged diaspora Assyrians to return with assurances about security and citizenship rights. The earlier Iraq-focused API report provides cross-border context, not direct evidence for every Turkish village. This entry represents a regional pattern rather than one attack.",
       "actor": "Turkish state forces, pkk militants and wider conflict pressures, according to the cited study",
       "scope": "Assyrian / Syriac community",
       "sources": [
         {
           "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
           "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire"
+        },
+        {
+          "title": "Returning Home: The Ambivalent Assyrian Experience in Turkey - Abdulmesih BarAbraham, Poligrafi (2021)",
+          "url": "https://ojs.zrs-kp.si/poligrafi/article/view/282"
         }
       ]
     },
@@ -864,12 +872,12 @@
       "date": "1947-1952, including Soviet deportation order of 29 May 1949",
       "country": "Georgia",
       "place": "Tbilisi and Georgian SSR",
-      "lat": 41.72,
-      "lon": 44.79,
+      "lat": null,
+      "lon": null,
       "type": "Displacement",
       "evidence": "historical",
       "title": "Soviet deportation and internal exile of Assyrian families from Georgia",
-      "summary": "Official Georgian archive descriptions identify Assyrians among ethnic groups exiled by Soviet security authorities, and list a 29 May 1949 Soviet decree covering Assyrian families. Other published accounts date additional deportations to 1947 or 1950-1952. The entry covers related operations over several years and does not claim an agreed overall death or deportee total.",
+      "summary": "The Institute for Development of Freedom of Information's Georgian archive inventory identifies Assyrians among groups in fond 13, Special Exiles, and attributes deportations of Assyrian and other families to USSR Council of Ministers Resolution 2214-856 of 29 May 1949. The inventory describes railway transport lists naming adults and recording children and family sizes. A related 1949 family petition is catalogued as AP-0230. The original decree and individual deportation lists remain to be inspected; the wider period and totals remain uncertain.",
       "actor": "Soviet security and resettlement authorities",
       "scope": "Assyrian community",
       "sources": [
@@ -884,6 +892,10 @@
         {
           "title": "Georgian security archive special-exile inventories and 29 May 1949 decree - Institute for Development of Freedom of Information",
           "url": "https://www.idfi.ge/archive/?cat=read_topic&lang=en&topic=141"
+        },
+        {
+          "title": "Regime Archives in Georgia - IDFI, fond 13, Special Exiles (alternate archive path)",
+          "url": "https://www.idfi.ge/charts/archive/index.php?cat=read_topic&lang=en&topic=141"
         }
       ],
       "related_ids": [
@@ -903,7 +915,7 @@
       "type": "Institutional pressure",
       "evidence": "documented",
       "title": "Closure of Assyrian Pentecostal church in Tehran",
-      "summary": "US government religious-freedom reporting records a court-ordered closure of the Assyrian-owned Pentecostal congregation in Shahr Ara. Authorities reportedly cited services involving people who had converted to Christianity.",
+      "summary": "US State Department reporting attributed the March 2009 closure order to a revolutionary court and cited the congregation's acceptance of converts. Former pastor Victor Bet-Tamraz's published 2026 witness statement says Persian-language services stopped on 31 March 2009 and he was removed from leadership. The building was transferred to another Assyrian church; the congregation's former Persian-language ministry did not resume. This distinguishes the closure order and language restrictions from permanent closure of the building.",
       "actor": "Iranian judicial and security authorities",
       "scope": "Assyrian-linked Protestant church",
       "sources": [
@@ -914,7 +926,19 @@
         {
           "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
           "url": "https://www.iranrights.org/library/document/4085"
+        },
+        {
+          "title": "2009 International Religious Freedom Report: Iran - US Department of State",
+          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2009/127347.htm"
+        },
+        {
+          "title": "Victor Bet-Tamraz witness statement - Article 18, 29 June 2026, paragraphs 22-24",
+          "url": "https://articleeighteen.com/stories/24481/"
         }
+      ],
+      "related_ids": [
+        "AP-0040",
+        "AP-0041"
       ]
     },
     {
@@ -928,7 +952,7 @@
       "type": "Institutional pressure",
       "evidence": "documented",
       "title": "Assyrian Pentecostal church closed in Kermanshah",
-      "summary": "USCIRF records the closure by authorities of an Assyrian Evangelical/Pentecostal church led by Pastor Wilson Issavi. The restrictions were associated with allegations of proselytising Muslims.",
+      "summary": "The 2010 USCIRF report names Pastor Wilson Issavi and records the January closure of his Assyrian Evangelical Church in Kermanshah. The commission describes the pastor's subsequent February arrest in Isfahan separately. The closure is documented by institutional reporting; the original closure order has not been inspected.",
       "actor": "Iranian authorities",
       "scope": "Assyrian-linked Protestant church",
       "sources": [
@@ -940,6 +964,9 @@
           "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
           "url": "https://www.iranrights.org/library/document/4085"
         }
+      ],
+      "related_ids": [
+        "AP-0038"
       ]
     },
     {
@@ -947,13 +974,13 @@
       "year": 2010,
       "date": "February-March 2010",
       "country": "Iran",
-      "place": "Kermanshah / Isfahan",
-      "lat": 33.7,
-      "lon": 49.1,
+      "place": "Isfahan",
+      "lat": null,
+      "lon": null,
       "type": "Abduction",
       "evidence": "documented",
       "title": "Arrest and detention of Assyrian pastor Wilson Issavi",
-      "summary": "USCIRF and a detailed human-rights study describe the arrest of Assyrian pastor Wilson Issavi in February 2010 and subsequent release. The reporting includes allegations of threats and ill-treatment; those are attributed rather than independently adjudicated here.",
+      "summary": "USCIRF reported that Wilson Issavi was among nine Christians arrested in Isfahan in February 2010 and was released in late March, with no charges reported at the time. His Kermanshah church had been closed in January (AP-0037). The arrest location is Isfahan, not a midpoint between the two cities.",
       "actor": "Iranian security agents, as reported",
       "scope": "Assyrian community",
       "sources": [
@@ -965,6 +992,9 @@
           "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
           "url": "https://www.iranrights.org/library/document/4085"
         }
+      ],
+      "related_ids": [
+        "AP-0037"
       ]
     },
     {
@@ -978,7 +1008,7 @@
       "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Order to close Assyrian-pastored Persian-language congregation",
-      "summary": "A human-rights report recounts Iranian security officers ordering a Tehran congregation pastored by Robert Gagtapih, identified as Assyrian, to stop services, reportedly threatening confiscation if it did not comply.",
+      "summary": "The Iran Human Rights Documentation Center study, hosted by the Abdorrahman Boroumand Center, describes a 2012 order to stop operations at the Persian-language Assembly of God congregation in Jannat Abad. It attributes a threat to confiscate the church building to Revolutionary Guard intelligence agents speaking to Assyrian pastor Robert Gagtapih (notes 137-138). The underlying closure order and interview materials were not inspected.",
       "actor": "Iranian intelligence and security authorities, as reported",
       "scope": "Assyrian-linked Protestant church",
       "sources": [
@@ -999,7 +1029,7 @@
       "type": "Abduction",
       "evidence": "documented",
       "title": "Assyrian pastor Victor Bet-Tamraz detained during Christmas gathering",
-      "summary": "The Center for Human Rights in Iran reports that security agents detained former Assyrian church leader Victor Bet-Tamraz and two guests during a Christmas gathering at his home. Subsequent legal proceedings are documented in a separate human-rights review.",
+      "summary": "Article 18's contemporaneous report identifies Victor Bet-Tamraz and two guests, Amin Afshar-Naderi and Kavian Fallah-Mohammadi, as arrested after a raid on the pastor's Christmas gathering on 26 December 2014 and transferred to Evin Prison. Bet-Tamraz's 2026 witness statement also describes the raid. Later reporting records his ten-year sentence, rejected appeal and departure from Iran with his wife in August 2020. This is the arrest record, not an additional sentencing incident.",
       "actor": "Iranian security agents",
       "scope": "Assyrian community",
       "sources": [
@@ -1010,28 +1040,60 @@
         {
           "title": "Living in the Shadows of Oppression - Abdorrahman Boroumand Center",
           "url": "https://www.iranrights.org/library/document/4085"
+        },
+        {
+          "title": "Pastor arrested while celebrating Christmas - Article 18, 29 December 2014",
+          "url": "https://articleeighteen.com/news/3042/"
+        },
+        {
+          "title": "Victor Bet-Tamraz witness statement - Article 18, 29 June 2026",
+          "url": "https://articleeighteen.com/stories/24481/"
+        },
+        {
+          "title": "2020 Report on International Religious Freedom: Iran - US Department of State, ecoi.net",
+          "url": "https://www.ecoi.net/en/document/2051587.html"
         }
+      ],
+      "related_ids": [
+        "AP-0036",
+        "AP-0041"
       ]
     },
     {
       "id": "AP-0041",
       "year": 2018,
-      "date": "2018 court sentence",
+      "date": "6 January 2018 sentence; August 2020 appeal outcome",
       "country": "Iran",
       "place": "Tehran",
       "lat": 35.7,
       "lon": 51.42,
       "type": "Institutional pressure",
       "evidence": "reported",
-      "title": "Assyrian Christian woman reportedly sentenced for religious activity",
-      "summary": "Canada's Immigration and Refugee Board collates reports of a woman identified as an Assyrian Christian receiving a ten-year prison sentence involving church organisation and national-security charges. This is an attributed secondary report.",
+      "title": "Assyrian Christian Shamiram Issavi sentenced for religious activity",
+      "summary": "Canada's Immigration and Refugee Board cites reports that Assyrian Christian Shamiram Issavi received two five-year terms in January 2018. Article 18 and the US State Department describe a five-year prison sentence; the original judgement is unavailable here, so the differing formulations are retained rather than combined or treated as an agreed term. Her appeal was rejected and she was summoned to Evin Prison on 11 August 2020; she and her husband Victor Bet-Tamraz fled Iran on 15 August before she began serving the sentence.",
       "actor": "Iranian judiciary, according to reported case records",
       "scope": "Assyrian community",
       "sources": [
         {
           "title": "IRN200458.E: treatment of Christians, 2017-2021 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/2048913.html"
+        },
+        {
+          "title": "Iran: Christians sentenced for practising their faith - Amnesty International, MDE 13/8981/2018",
+          "url": "https://www.amnesty.org/en/documents/mde13/8981/2018/en/"
+        },
+        {
+          "title": "Hadi Asgari, Shamiram Issavi, Victor Bet-Tamraz and Amin Afshar-Naderi - Article 18 case study",
+          "url": "https://articleeighteen.com/case-studies/4619/"
+        },
+        {
+          "title": "2020 Report on International Religious Freedom: Iran - US Department of State, ecoi.net",
+          "url": "https://www.ecoi.net/en/document/2051587.html"
         }
+      ],
+      "related_ids": [
+        "AP-0036",
+        "AP-0040"
       ]
     },
     {
@@ -1045,17 +1107,13 @@
       "type": "Institutional pressure",
       "evidence": "reported",
       "title": "Assyrian church closed in Tabriz and cross temporarily removed",
-      "summary": "The Canadian research directorate records reporting that an Assyrian church in Tabriz was forcibly closed, while a government-linked source contested the closure account. The dispute about the cross's removal and restoration is disclosed rather than resolved.",
+      "summary": "The Canadian Immigration and Refugee Board's 2021 research response, section 3.3, cites reports of a May 2019 forced closure of an Assyrian church in Tabriz and removal of its cross. Article 18 reported that the cross was restored following public objections. A government-linked outlet disputed the closure and claimed the cross had fallen and was repaired. The competing accounts are retained; the restoration is not evidence that unrestricted worship resumed.",
       "actor": "Iranian authorities, according to the reporting; parts of the account disputed",
       "scope": "Assyrian-linked Protestant church",
       "sources": [
         {
           "title": "IRN200458.E: treatment of Christians, 2017-2021 - Immigration and Refugee Board of Canada",
           "url": "https://www.ecoi.net/en/document/2048913.html"
-        },
-        {
-          "title": "Iran: Christians and Christian converts - UK Home Office (June 2026)",
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes/country-policy-and-information-note-christians-and-christian-converts-iran-june-2026-accessible"
         }
       ]
     },
@@ -1065,12 +1123,12 @@
       "date": "1 August 2004",
       "country": "Iraq",
       "place": "Baghdad and Mosul",
-      "lat": 33.34,
-      "lon": 44.4,
+      "lat": null,
+      "lon": null,
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Coordinated bomb attacks against churches in Baghdad and Mosul",
-      "summary": "Human Rights Watch documents coordinated explosions at churches in Baghdad and Mosul, including an Assyrian church, during Sunday worship. Contemporary accounts differed on the number of locations and casualties.",
+      "summary": "Human Rights Watch records five church bombings on 1 August 2004 (four Baghdad, one Mosul), with 11 killed and more than 40 wounded. The US State Department's 2005 report instead describes six churches (four Baghdad, two Mosul) and reports 40 killed and 300 injured in Baghdad alone. These conflicting reported figures are not additive. Human Rights Watch reproduces a claim of responsibility by a group calling itself the Committee of Planning and Follow-Up in Iraq, without establishing its identity independently.",
       "actor": "Unidentified insurgent bombers",
       "scope": "Assyrian-linked and shared Christian communities",
       "sources": [
@@ -1079,8 +1137,8 @@
           "url": "https://www.hrw.org/report/2005/10/02/face-and-name/civilian-victims-insurgent-groups-iraq"
         },
         {
-          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2005/en/14415"
         }
       ]
     },
@@ -1095,13 +1153,13 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Seven Assyrian Christians killed in Dora",
-      "summary": "The US Department of State reported that four armed men killed seven Assyrian Christians in Baghdad's Dora district. A second source reports a bus attack on 26-27 September with different figures (AP-0095); whether these are separate attacks or varying descriptions of one event has not been resolved.",
+      "summary": "The US State Department's 2005 religious freedom report states that four gunmen killed seven Assyrian Christians in Dora on 27 September 2004. AP-0095 describes a bus attack on 26-27 September with different figures; the relationship between the reports remains unresolved. The source does not identify the four perpetrators or establish that the incidents were separate.",
       "actor": "Four armed men, identity not established in the cited report",
       "scope": "Assyrian community",
       "sources": [
         {
-          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2005/en/14415"
         }
       ],
       "related_ids": [
@@ -1119,7 +1177,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Bombs near St George and St Matthew churches",
-      "summary": "Human Rights Watch records car bombs near two Christian churches in Baghdad, with fatalities and many injured near St Matthew's. The entry covers a coordinated incident distinct from the August church bombings.",
+      "summary": "Human Rights Watch documents two car bombs on 9 November 2004. The first, near St George's Church in southern Baghdad at about 6:30 pm, caused no reported casualties. About five minutes later the second exploded near St Matthew's Church, killing three and injuring more than 25. The report includes testimony from an injured resident who subsequently fled north. This is distinct from the August church bombings.",
       "actor": "Unidentified insurgent bombers",
       "scope": "Shared Christian communities",
       "sources": [
@@ -1128,8 +1186,8 @@
           "url": "https://www.hrw.org/report/2005/10/02/face-and-name/civilian-victims-insurgent-groups-iraq"
         },
         {
-          "title": "2005 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2005/51600.htm"
+          "title": "2005 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2005/en/14415"
         }
       ]
     },
