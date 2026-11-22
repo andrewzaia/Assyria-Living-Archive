@@ -108,7 +108,7 @@ class PersecutionTests(unittest.TestCase):
                 self.assertIn(id_, by_id)
                 self.assertTrue(any(ref['url'] == entry['url'] for ref in by_id[id_]['sources']))
                 captured.add(id_)
-        self.assertTrue({r['id'] for r in self.records if int(r['id'][3:]) >= 80 or int(r['id'][3:]) <= 23}.issubset(captured))
+        self.assertTrue({r['id'] for r in self.records if int(r['id'][3:]) >= 80 or int(r['id'][3:]) <= 32}.issubset(captured))
         self.assertTrue(audit['excluded_or_pending'])
         self.assertTrue(all(e['status'] in ('pending', 'excluded') and e['reason']
                             for e in audit['excluded_or_pending']))
@@ -143,7 +143,15 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0001 through AP-0023', audit['scope'])
+        self.assertIn('AP-0001 through AP-0032', audit['scope'])
+        for n in (24, 26, 28, 29, 31, 32):
+            record = by_id[f'AP-{n:04d}']
+            self.assertIsNone(record['lat'])
+            self.assertIsNone(record['lon'])
+        self.assertIn('30th and 50th', by_id['AP-0024']['summary'])
+        self.assertIn('3 March Julian', by_id['AP-0030']['summary'])
+        self.assertIn('1972 Turkish General Staff', by_id['AP-0031']['summary'])
+        self.assertIn('Swedish archival documents', by_id['AP-0032']['summary'])
 
     def test_new_locally_supported_cases_and_aggregation_are_preserved(self):
         by_id = {r['id']: r for r in self.records}
