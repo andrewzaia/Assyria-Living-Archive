@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0060 and AP-0080 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0061 through AP-0079 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency.",
+  "scope": "Incremental source triage for AP-0001 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 230 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -116,6 +116,15 @@
       ],
       "review_status": "partial",
       "notes": "Pontifical university page could not be independently retrieved this session; HRW provides separate 3 June 2007 identification."
+    },
+    {
+      "url": "https://apnews.com/article/bb5d1d323329b3117a2b2b930b0f64db",
+      "title": "Axe attack on Assyrian New Year parade - Associated Press (2025)",
+      "captured_record_ids": [
+        "AP-0061"
+      ],
+      "review_status": "partial",
+      "notes": "AP original full page not accessible; indexed AP summary and primary UNAMI statement accessed."
     },
     {
       "url": "https://articleeighteen.com/case-studies/4619/",
@@ -286,6 +295,15 @@
       "notes": "Indexed January 2015 report supports arrest; direct request produced redirect loop."
     },
     {
+      "url": "https://iraq.un.org/en/291998-unami-strongly-condemns-attack-assyrian-christians-duhok",
+      "title": "UNAMI Condemns Attack on Assyrian Christians in Duhok - United Nations (2025)",
+      "captured_record_ids": [
+        "AP-0061"
+      ],
+      "review_status": "reviewed",
+      "notes": "AP original full page not accessible; indexed AP summary and primary UNAMI statement accessed."
+    },
+    {
       "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf",
       "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
       "captured_record_ids": [
@@ -336,6 +354,24 @@
       "notes": "Peer-reviewed journal article abstract describes migration from the 1960s, militarisation, village abandonment and 2001 return circular; full article not independently read."
     },
     {
+      "url": "https://persecution.org/2020/03/21/tragedy-for-family-of-missing-couple/",
+      "title": "Body of Şimuni Diril found - International Christian Concern (2020)",
+      "captured_record_ids": [
+        "AP-0079"
+      ],
+      "review_status": "partial",
+      "notes": "Historical ICC pages returned 403; September 2026 reports reproduce court outcome, official judgment not accessed."
+    },
+    {
+      "url": "https://persecution.org/2021/01/11/turkey-makes-no-progress-investigating-the-kidnapping-of-elderly-christians/",
+      "title": "Missing Assyrian couple investigation - International Christian Concern (2021)",
+      "captured_record_ids": [
+        "AP-0079"
+      ],
+      "review_status": "partial",
+      "notes": "Historical ICC pages returned 403; September 2026 reports reproduce court outcome, official judgment not accessed."
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11792212/",
       "title": "Tijmen C. Baarda, Missionary involvement with the Simele massacre in 1933 - full open-access scholarly article",
       "captured_record_ids": [
@@ -343,6 +379,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Open-access scholarly study describes the Simele massacre and more than 600 deaths; alternative estimates and precise village-level victim registers remain outside this review."
+    },
+    {
+      "url": "https://rudaw.net/english/categories/middleeast/983920",
+      "title": "Qamishli bombing eyewitness reporting - Rudaw, 30 December 2015",
+      "captured_record_ids": [
+        "AP-0063"
+      ],
+      "review_status": "reviewed",
+      "notes": "Original SOHR page returned 403; AFP reproduction and Rudaw reporting accessible."
     },
     {
       "url": "https://syriacmuseum.com/en/fraidun-bet-auraham-aturaya/",
@@ -363,6 +408,15 @@
       "notes": "Source-localised historical case extracted, keeping the distinction between Soviet state responsibility and present-day national authorities, and avoiding multiplication of regional campaigns into presumed independent incidents."
     },
     {
+      "url": "https://syriacpress.com/blog/2022/04/22/martyr-zaia-tal-tamr-of-khabur-guards-buried-in-tal-tamr/",
+      "title": "Zaia Tal Tamr of Khabur Guards buried - SyriacPress, 22 April 2022",
+      "captured_record_ids": [
+        "AP-0067"
+      ],
+      "review_status": "partial",
+      "notes": "SOHR direct page returned 403 but indexed report and additional incident and burial reporting available; no individual ethnicity or targeting motive independently established."
+    },
+    {
       "url": "https://syriacpress.com/blog/2022/05/12/iraq-syriacs-assyrians-from-bardarsh-village-illegally-detained-by-kurdish-security-forces-released/",
       "title": "Assyrian Dadersh land protest detainees released - SyriacPress (12 May 2022)",
       "captured_record_ids": [
@@ -370,6 +424,24 @@
       ],
       "review_status": "partial",
       "notes": "Relevant Assyrian land-rights allegations or documented actions extracted. Individual title documents, exact parcel boundaries, KRG replies and eventual legal outcomes may require further review."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2023/11/23/syriac-orthodox-church-vandalized-in-stockholm-archbishop-aktas-initiates-investigation/",
+      "title": "Syriac Orthodox Church vandalised in Stockholm - SyriacPress (2023)",
+      "captured_record_ids": [
+        "AP-0074"
+      ],
+      "review_status": "partial",
+      "notes": "SyriacPress returned 403; accessible SVT report quotes congregation and police."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2024/01/28/syriac-orthodox-church-in-zalin-qamishli-north-and-east-syria-vandalized/",
+      "title": "Mor Aphrem Church vandalised in Qamishli - SyriacPress (2024)",
+      "captured_record_ids": [
+        "AP-0070"
+      ],
+      "review_status": "partial",
+      "notes": "Direct page returned 403; indexed article body accessed."
     },
     {
       "url": "https://syriacpress.com/blog/2025/02/21/syriac-orthodox-archdiocese-releases-statement-following-vandalism-of-christian-cemetery-in-zaidal/",
@@ -442,6 +514,33 @@
       ],
       "review_status": "partial",
       "notes": "Chaldean monastery allegations about 1,400 historic dunams and additional 60 proposed for housing. The source does not identify a Kurdish actor, so none is assigned."
+    },
+    {
+      "url": "https://syriacpress.com/blog/2026/09/18/ruling-in-the-case-of-missing-hurmuz-diril-a-reduced-sentence-for-apro-diril-and-two-acquittals/",
+      "title": "Ruling in the case of missing Hurmuz Diril - SyriacPress, 18 September 2026",
+      "captured_record_ids": [
+        "AP-0079"
+      ],
+      "review_status": "partial",
+      "notes": "Historical ICC pages returned 403; September 2026 reports reproduce court outcome, official judgment not accessed."
+    },
+    {
+      "url": "https://syrianarchive.org/en/investigations/attack-impacts-church-school-and-civilian-homes-in-tal-tawil-in-the-hasakah-countryside/",
+      "title": "Attack on church, school and homes in Tal Tawil - Syrian Archive (2022)",
+      "captured_record_ids": [
+        "AP-0068"
+      ],
+      "review_status": "partial",
+      "notes": "Detailed investigation body unavailable beyond contents; later Syrian Archive assessment confirms date and church."
+    },
+    {
+      "url": "https://syrianarchive.org/en/investigations/attacks-on-religious-sites-from-1-december-2024-to-31-august-2025/",
+      "title": "Attacks on religious sites - Syrian Archive, 2025 retrospective",
+      "captured_record_ids": [
+        "AP-0068"
+      ],
+      "review_status": "reviewed",
+      "notes": "Detailed investigation body unavailable beyond contents; later Syrian Archive assessment confirms date and church."
     },
     {
       "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf",
@@ -530,6 +629,24 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.abc.net.au/news/2024-04-15/nsw-bishop-mar-mari-emmanuel-stabbed-man-arrested-wakeley/103711236",
+      "title": "Wakeley Assyrian Orthodox bishop stabbed - ABC News (2024)",
+      "captured_record_ids": [
+        "AP-0076"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-02-27/teenager-stabbed-sydney-bishop-schizophrenia-wakeley/106395940",
+      "title": "Wakeley case updates and legal proceedings - ABC News (2026)",
+      "captured_record_ids": [
+        "AP-0076"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
       "url": "https://www.agos.com.tr/tr/haber/isis-attacks-on-easter-assyrian-village-church-bombed-36889",
       "title": "Assyrian village church demolition reported on 6 April 2015 - Agos (2015)",
       "captured_record_ids": [
@@ -564,6 +681,15 @@
       ],
       "review_status": "reviewed",
       "notes": "2015 Bonnyrigg memorial attack is distinct from the 2010 defacement; no perpetrator ethnicity assigned."
+    },
+    {
+      "url": "https://www.assyrianpolicy.org/_files/ugd/6ae567_41177671fb884482adfdc52d459a40b1.pdf",
+      "title": "Erasing the Legacy of Khabour - Assyrian Policy Institute (2020), p. 25",
+      "captured_record_ids": [
+        "AP-0062"
+      ],
+      "review_status": "partial",
+      "notes": "PDF text p. 25 inspected; screenshot unavailable because of file size. USCIRF direct page returned 403; retained as contextual abduction lead."
     },
     {
       "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour",
@@ -702,10 +828,11 @@
       "url": "https://www.assyriapost.com/vandalism-at-assyrian-church-in-antwerp-raises-concern-among-assyrian-community/",
       "title": "Antwerp church vandalism and earlier St James incident - The Assyria Post (2026)",
       "captured_record_ids": [
-        "AP-0081"
+        "AP-0081",
+        "AP-0077"
       ],
       "review_status": "reviewed",
-      "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta."
+      "notes": "Two distinct Antwerp church events captured, 2018 St James and 2026 Edta Dqyamta. Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
     },
     {
       "url": "https://www.atour.com/library/government/20100521a.html",
@@ -827,6 +954,15 @@
       "notes": "11 May 2022 Dadersh attempted land grab, assaults and detention are one incident; the two named detainees were released after approximately one day, corroborated by USCIRF profiles."
     },
     {
+      "url": "https://www.dagen.se/nyheter/polisen-flera-fynd-efter-sprangdadet-vid-kyrka-i-sodertalje/3603883",
+      "title": "Explosion near St Afrem Syriac Orthodox Church - Dagen (2018)",
+      "captured_record_ids": [
+        "AP-0073"
+      ],
+      "review_status": "partial",
+      "notes": "Dagen article paywalled beyond initial paragraphs; SVT quotes police directly."
+    },
+    {
       "url": "https://www.degruyterbrill.com/document/doi/10.31826/9781463210816/html",
       "title": "Massacres, Resistance, Protectors - David Gaunt (2006)",
       "captured_record_ids": [
@@ -894,6 +1030,33 @@
       ],
       "review_status": "reviewed",
       "notes": "Contemporaneous 8 October 2015 report describes the three Assyrian Khabur hostages and publicised execution video. Date of killings remains uncertain and must not be inferred solely from a video date."
+    },
+    {
+      "url": "https://www.fides.org/en/news/59253-ASIA_SYRIA_Attack_in_the_Christian_area_in_Qamishli_3_dead_and_10_wounded",
+      "title": "Attack in the Christian area in Qamishli - Agenzia Fides (2016)",
+      "captured_record_ids": [
+        "AP-0064"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.fides.org/en/news/60270-ASIA_SYRIA_Three_people_killed_in_a_suicide_attack_Patriarch_Ignatius_Ephraim_II_escapes_the_bombing",
+      "title": "Suicide attack at Sayfo commemoration - Agenzia Fides (2016)",
+      "captured_record_ids": [
+        "AP-0065"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.fides.org/en/news/63741-ASIA_TURKEY_A_decree_provides_for_the_complete_restitution_of_30_ecclesiastical_assets_to_the_Syriac_Orthodox_Church",
+      "title": "Restitution decree for Syriac Orthodox properties - Agenzia Fides (2018)",
+      "captured_record_ids": [
+        "AP-0078"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
     },
     {
       "url": "https://www.fides.org/en/news/69030",
@@ -1107,6 +1270,15 @@
       "notes": "HRW report covers the Iraq church attack and wider persecution context; not a substitute for a victim-by-victim reconciliation."
     },
     {
+      "url": "https://www.hurriyetdailynews.com/16-dead-30-wounded-in-three-blasts-in-northeast-syria-monitor--93258",
+      "title": "AFP reporting on Qamishli blasts - Hurriyet Daily News, 31 December 2015",
+      "captured_record_ids": [
+        "AP-0063"
+      ],
+      "review_status": "reviewed",
+      "notes": "Original SOHR page returned 403; AFP reproduction and Rudaw reporting accessible."
+    },
+    {
       "url": "https://www.idfi.ge/archive/?cat=read_topic&lang=en&topic=141",
       "title": "Georgian security archive special-exile inventories and 29 May 1949 decree - Institute for Development of Freedom of Information",
       "captured_record_ids": [
@@ -1114,6 +1286,15 @@
       ],
       "review_status": "partial",
       "notes": "Indexed text identifies resolution 2214-856 and Assyrian families; original decree and individual records not inspected. The alternate archive path also indexes the fond 13 description and echelon lists; both URLs represent the same publication."
+    },
+    {
+      "url": "https://www.intoleranceagainstchristians.eu/cases/assyrian-christians-in-gothenburg-threatened-convert-or-die",
+      "title": "Assyrian Christians in Gothenburg threatened - Observatory on Intolerance against Christians (2015)",
+      "captured_record_ids": [
+        "AP-0071"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
     },
     {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
@@ -1168,6 +1349,15 @@
       "notes": "Relevant events extracted into indexed records; source may mention other cases not yet individually assessed."
     },
     {
+      "url": "https://www.latimes.com/local/lanow/la-me-ln-pasadena-church-vandalism-20180120-story.html",
+      "title": "California Assyrian church vandalism context - Los Angeles Times (2018)",
+      "captured_record_ids": [
+        "AP-0075"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
       "url": "https://www.leparisien.fr/faits-divers/meurtre-dun-chretien-irakien-a-lyon-lenquete-confiee-au-pole-antiterroriste-13-10-2025-YTMNKS4SH5DNZFFUAO5WTEFDAU.php",
       "title": "Ashur Sarnaya murder investigation transferred to anti-terrorism authorities - Le Parisien/AFP (13 October 2025)",
       "captured_record_ids": [
@@ -1175,6 +1365,24 @@
       ],
       "review_status": "reviewed",
       "notes": "The October 2025 transfer to anti-terror investigators does not prove motive or final guilt."
+    },
+    {
+      "url": "https://www.mecc.org/mecc/2019/7/12/mecc-condemns-terrorist-qamishli-bombing",
+      "title": "MECC Condemns Terrorist Qamishli Bombing - Middle East Council of Churches (2019)",
+      "captured_record_ids": [
+        "AP-0066"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.mezopotamyaajansi.net/GENCLIK/content/view/323756",
+      "title": "Hurmuz Diril case verdict - Mezopotamya Agency, 16 September 2026",
+      "captured_record_ids": [
+        "AP-0079"
+      ],
+      "review_status": "partial",
+      "notes": "Historical ICC pages returned 403; September 2026 reports reproduce court outcome, official judgment not accessed."
     },
     {
       "url": "https://www.oikoumene.org/resources/documents/statement-by-the-council-of-the-heads-of-the-christian-churches-of-iraq",
@@ -1313,6 +1521,15 @@
       "notes": "Reuters' contemporary account of November 2008 sisters used to document the killings and acknowledge date differences."
     },
     {
+      "url": "https://www.rudaw.net/english/categories/syria/1075882",
+      "title": "Christian monument vandalised in northeast Syria - Rudaw (2023)",
+      "captured_record_ids": [
+        "AP-0069"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
       "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/mayor-of-alqosh-deposed/qtu3hyrzf",
       "title": "Mayor of Alqosh Deposed - SBS Assyrian (25 July 2017)",
       "captured_record_ids": [
@@ -1340,6 +1557,33 @@
       "notes": "A bomb threat was reported, with police investigation; no bomb and no link between all rumours and the suspect established."
     },
     {
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/assyriska-kulturhuset-utsatt-for-angrepp?lokalmeny=1",
+      "title": "Assyrian Cultural Centre attacked after football match - Sveriges Television (2015)",
+      "captured_record_ids": [
+        "AP-0072"
+      ],
+      "review_status": "reviewed",
+      "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/explosion-vid-syrianska-foreningen-i-sodertalje",
+      "title": "Explosion at church in Sodertalje - SVT, 19 September 2018",
+      "captured_record_ids": [
+        "AP-0073"
+      ],
+      "review_status": "reviewed",
+      "notes": "Dagen article paywalled beyond initial paragraphs; SVT quotes police directly."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/inbrott-och-skadegorelse-i-syrisk-ortodoxa-kyrkan-i-tensta--si8byb",
+      "title": "Break-in and property damage at Syriac Orthodox church in Tensta - SVT, 24 November 2023",
+      "captured_record_ids": [
+        "AP-0074"
+      ],
+      "review_status": "reviewed",
+      "notes": "SyriacPress returned 403; accessible SVT report quotes congregation and police."
+    },
+    {
       "url": "https://www.syriacheritageproject.org/home/sayfo-the-syriac-genocide/badir-khan-massacres-1842-1846",
       "title": "Badr Khan massacres of 1843 and 1846 - Syriac Heritage Project",
       "captured_record_ids": [
@@ -1362,6 +1606,24 @@
       "notes": "Read Catalyst and Precedents and Massacres and Victims in the Heartland sections. Community historical synthesis provides local descriptions but underlying editions and casualty figures require separate checking; its ancestry interpretation is not adopted as independent historical proof."
     },
     {
+      "url": "https://www.syriahr.com/en/247581/",
+      "title": "SDF member killed in Turkish shelling on Tel Shinan - Syrian Observatory, 17 April 2022",
+      "captured_record_ids": [
+        "AP-0067"
+      ],
+      "review_status": "partial",
+      "notes": "SOHR direct page returned 403 but indexed report and additional incident and burial reporting available; no individual ethnicity or targeting motive independently established."
+    },
+    {
+      "url": "https://www.syriahr.com/en/247863/",
+      "title": "Assyrian fighter killed in Turkish shelling - Syrian Observatory (2022)",
+      "captured_record_ids": [
+        "AP-0067"
+      ],
+      "review_status": "partial",
+      "notes": "SOHR direct page returned 403 but indexed report and additional incident and burial reporting available; no individual ethnicity or targeting motive independently established."
+    },
+    {
       "url": "https://www.syriahr.com/en/266397/",
       "title": "Turkish shelling in Assyrian villages near Tell Tamer - Syrian Observatory for Human Rights (6 September 2022)",
       "captured_record_ids": [
@@ -1379,6 +1641,15 @@
       ],
       "review_status": "reviewed",
       "notes": "One reported January 2026 church attack affecting the Assyrian village of Tel Jumaa was extracted. No independently verifiable locality coordinate, casualties or ethnic intent has been added."
+    },
+    {
+      "url": "https://www.syriahr.com/en/41805/",
+      "title": "16 dead, 30 wounded in explosions in Qamishli - Syrian Observatory (2015)",
+      "captured_record_ids": [
+        "AP-0063"
+      ],
+      "review_status": "partial",
+      "notes": "Original SOHR page returned 403; AFP reproduction and Rudaw reporting accessible."
     },
     {
       "url": "https://www.tandfonline.com/doi/full/10.1080/00263206.2018.1542595",
@@ -1406,6 +1677,15 @@
       ],
       "review_status": "reviewed",
       "notes": "UNHCR briefing of 27 June 2014 identifies Qaraqosh as an Assyrian town, the mortar-threat exodus and an estimate of 10,000 displaced people. Distinct from August daesh occupation."
+    },
+    {
+      "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-abduction-more-200-assyrian-christians-and-urges",
+      "title": "Abduction of Assyrian Christians - USCIRF (2015)",
+      "captured_record_ids": [
+        "AP-0062"
+      ],
+      "review_status": "partial",
+      "notes": "PDF text p. 25 inspected; screenshot unavailable because of file size. USCIRF direct page returned 403; retained as contextual abduction lead."
     },
     {
       "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-condemns-terrorist-attack-baghdad-church",

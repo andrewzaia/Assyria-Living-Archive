@@ -1554,7 +1554,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Attack on Assyrian New Year (Akitu) procession in Duhok",
-      "summary": "During the Assyrian New Year parade, a man wielding an axe attacked participants. The UN confirmed two seriously injured, while some media counted a third injured security officer. A suspect was detained.",
+      "summary": "UNAMI's 3 April 2025 statement confirms two serious injuries and immediate apprehension following the Akitu gathering attack on 1 April. Associated Press reported a third injured person, a security officer, and serious head injuries to a 17-year-old and a 75-year-old participant. Reported slogans and extremist imagery do not by themselves establish operational membership in daesh.",
       "actor": "Individual attacker detained by local security, reported by UNAMI",
       "scope": "Assyrian community",
       "sources": [
@@ -1574,18 +1574,18 @@
       "date": "February-May 2015",
       "country": "Syria",
       "place": "Assyrian Khabur villages",
-      "lat": 36.65,
-      "lon": 40.37,
+      "lat": null,
+      "lon": null,
       "type": "Cultural destruction",
       "evidence": "documented",
       "title": "Destruction of churches and archives in Assyrian Khabur villages",
-      "summary": "The Assyrian Policy Institute documented destruction of churches, sacred texts and records in Khabur villages during the daesh occupation. This site-specific cultural destruction is related to, but distinct from, the mass abductions already catalogued.",
+      "summary": "The Assyrian Policy Institute's 31 March 2020 report (printed p. 25) identifies eleven churches destroyed during the February-May 2015 occupation, five north and six south of the Khabur River. It reports that churches under daesh control were ransacked and archives and texts destroyed. Most exact destruction dates remain unclear; the Tel Nasri church was destroyed on Easter Sunday. This regional summary overlaps the individual village cases.",
       "actor": "daesh",
       "scope": "Assyrian community",
       "sources": [
         {
-          "title": "Erasing the Legacy of Khabour - Assyrian Policy Institute (2020)",
-          "url": "https://www.assyrianpolicy.org/reports"
+          "title": "Erasing the Legacy of Khabour - Assyrian Policy Institute (2020), p. 25",
+          "url": "https://www.assyrianpolicy.org/_files/ugd/6ae567_41177671fb884482adfdc52d459a40b1.pdf"
         },
         {
           "title": "Abduction of Assyrian Christians - USCIRF (2015)",
@@ -1612,13 +1612,21 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Bombings of Christian-owned restaurants in Qamishli",
-      "summary": "Suicide and other blasts struck restaurants in the predominantly Christian al-Wusta quarter during celebrations, killing Christians and Muslims. daesh reportedly claimed responsibility; published death tolls differed.",
+      "summary": "Contemporary reports differ on the number of blasts and fatalities on 30 December 2015. AFP reporting citing the Syrian Observatory gives 16 deaths and 30 injuries across three restaurants and reports a daesh claim of responsibility. Rudaw reported at least 17 dead and 30 wounded after two blasts in the Christian quarter, identifying Miami cafe and Gabriel restaurant. The reported totals describe the same evening and are not additive.",
       "actor": "daesh, according to claimed responsibility reported by the Syrian Observatory",
       "scope": "Assyrian / Syriac and shared Christian communities",
       "sources": [
         {
           "title": "16 dead, 30 wounded in explosions in Qamishli - Syrian Observatory (2015)",
           "url": "https://www.syriahr.com/en/41805/"
+        },
+        {
+          "title": "AFP reporting on Qamishli blasts - Hurriyet Daily News, 31 December 2015",
+          "url": "https://www.hurriyetdailynews.com/16-dead-30-wounded-in-three-blasts-in-northeast-syria-monitor--93258"
+        },
+        {
+          "title": "Qamishli bombing eyewitness reporting - Rudaw, 30 December 2015",
+          "url": "https://rudaw.net/english/categories/middleeast/983920"
         }
       ]
     },
@@ -1633,7 +1641,7 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Bombing of Christian-owned cafe in Qamishli",
-      "summary": "A blast in Qamishli's Christian quarter killed three people identified by a local bishop as members of Chaldean and Syriac church communities. Competing claims about the perpetrators were circulating and remained unresolved in the contemporary report.",
+      "summary": "Agenzia Fides reported three deaths and ten injuries after the 24 January 2016 attack. Syriac Catholic Archbishop Jacques Behnan Hindo identified the three deceased as one Chaldean Catholic and two Syriac Orthodox Christians. He described conflicting rumours about responsibility, not a confirmed perpetrator.",
       "actor": "Unknown perpetrators; conflicting attribution noted in church reporting",
       "scope": "Assyrian / Syriac church communities",
       "sources": [
@@ -1654,7 +1662,7 @@
       "type": "Mass killing",
       "evidence": "documented",
       "title": "Suicide bombing at Assyrian genocide commemoration",
-      "summary": "A suicide bomber attempted to reach a commemoration of Sayfo attended by the Syriac Orthodox patriarch. Three members of the Christian security service were killed while stopping the attacker.",
+      "summary": "Fides reported that a suicide bomber detonated among security personnel after being prevented from entering a hall during a Sayfo commemoration on 19 June 2016. Three Sotoro personnel died; Syriac Orthodox Patriarch Ignatius Ephraim II survived. Fides said no claim of responsibility had been made at publication. The monument inaugurated that day was later vandalised (AP-0069).",
       "actor": "Suicide attacker; perpetrating organisation not established by all cited contemporaneous reports",
       "scope": "Assyrian / Syriac community",
       "sources": [
@@ -1662,6 +1670,9 @@
           "title": "Suicide attack at Sayfo commemoration - Agenzia Fides (2016)",
           "url": "https://www.fides.org/en/news/60270-ASIA_SYRIA_Three_people_killed_in_a_suicide_attack_Patriarch_Ignatius_Ephraim_II_escapes_the_bombing"
         }
+      ],
+      "related_ids": [
+        "AP-0069"
       ]
     },
     {
@@ -1675,7 +1686,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Car bomb outside Syriac Orthodox church in Qamishli",
-      "summary": "A vehicle-borne explosion outside St Mary's Syriac Orthodox Church injured civilians and damaged the church and neighbouring properties. Church representatives condemned the bombing; the perpetrator was not identified in their report.",
+      "summary": "The Middle East Council of Churches' statement of 12 July 2019 condemns the bombing outside the Church of Our Lady on the preceding day and records its secretary general's conversation with Patriarch Ignatius Aphrem II and prayers for the injured. That statement does not identify a perpetrator or quantify casualties.",
       "actor": "Unknown bomber",
       "scope": "Assyrian / Syriac church community",
       "sources": [
@@ -1688,21 +1699,29 @@
     {
       "id": "AP-0067",
       "year": 2022,
-      "date": "16-17 April 2022",
+      "date": "17 April 2022",
       "country": "Syria",
       "place": "Tell Shinan near Tell Tamer",
       "lat": 36.63,
       "lon": 40.34,
       "type": "Religious violence",
       "evidence": "reported",
-      "title": "Assyrian Khabur Guards fighter killed in shelling near Tell Tamer",
-      "summary": "The Syrian Observatory's reporting records the death of an Assyrian al-Khabur Guards fighter, Zia Tal Tamir, amid Turkish and aligned forces' shelling near Tell Shinan. Other nearby villages were also hit.",
+      "title": "Khabur Guards fighter Zaia Tal Tamr killed in shelling near Tell Tamer",
+      "summary": "The Syrian Observatory's 17 April 2022 report attributed the death of a Khabur Guards member affiliated with the SDF to Turkish shelling at Tel Shinan. SyriacPress later identified the fighter as Zaia Tal Tamr (Alaa al-Ahmad) in reporting on his burial. This was a combatant death in a conflict affecting Assyrian villages, not evidence by itself of an ethnically targeted civilian killing.",
       "actor": "Turkish forces and Turkey-backed armed groups, according to local reports",
-      "scope": "Assyrian community",
+      "scope": "Assyrian village community and Khabur Guards; combatant death",
       "sources": [
         {
           "title": "Assyrian fighter killed in Turkish shelling - Syrian Observatory (2022)",
           "url": "https://www.syriahr.com/en/247863/"
+        },
+        {
+          "title": "SDF member killed in Turkish shelling on Tel Shinan - Syrian Observatory, 17 April 2022",
+          "url": "https://www.syriahr.com/en/247581/"
+        },
+        {
+          "title": "Zaia Tal Tamr of Khabur Guards buried - SyriacPress, 22 April 2022",
+          "url": "https://syriacpress.com/blog/2022/04/22/martyr-zaia-tal-tamr-of-khabur-guards-buried-in-tal-tamr/"
         }
       ]
     },
@@ -1717,13 +1736,17 @@
       "type": "Cultural destruction",
       "evidence": "documented",
       "title": "Damage to Mar Sawa al-Hakim church and school in Tell Tawil",
-      "summary": "Syrian Archive investigated an attack damaging a Syriac or Assyrian Christian church, a school and civilian homes in Tell Tawil. Its open-source case assessment discusses the attack and possible responsibility without assuming intent for every impact.",
+      "summary": "Syrian Archive's 22 November 2022 investigation indexes impacts on Mar Sawa al-Hakim Church, Umm Waghfa School and civilian homes in Tal Tawil. Its later religious-sites assessment independently identifies the church shelling date as 29 May 2022. The detailed incident analysis was not fully accessible during this review; responsibility and intent remain attributed rather than independently determined.",
       "actor": "Shelling attributed to Turkish or Turkey-backed armed forces in investigation",
       "scope": "Assyrian / Syriac community",
       "sources": [
         {
           "title": "Attack on church, school and homes in Tal Tawil - Syrian Archive (2022)",
           "url": "https://syrianarchive.org/en/investigations/attack-impacts-church-school-and-civilian-homes-in-tal-tawil-in-the-hasakah-countryside/"
+        },
+        {
+          "title": "Attacks on religious sites - Syrian Archive, 2025 retrospective",
+          "url": "https://syrianarchive.org/en/investigations/attacks-on-religious-sites-from-1-december-2024-to-31-august-2025/"
         }
       ]
     },
@@ -1738,7 +1761,7 @@
       "type": "Cultural destruction",
       "evidence": "documented",
       "title": "Sayfo memorial vandalised in Qamishli",
-      "summary": "A monument commemorating the 1915 Assyrian and Syriac genocide was vandalised; a commemorative plaque and cross were damaged. The responsible individuals were not identified in the cited report.",
+      "summary": "Rudaw's 25 February 2023 report reproduces the Syriac Military Council's announcement and describes photographs of a broken plaque and apparently damaged cross. SDF commander Mazloum Abdi condemned the vandalism. The monument was inaugurated in June 2016, the date of the related commemoration bombing (AP-0065). Perpetrators were not established.",
       "actor": "Unknown vandals",
       "scope": "Assyrian / Syriac community",
       "sources": [
@@ -1746,6 +1769,9 @@
           "title": "Christian monument vandalised in northeast Syria - Rudaw (2023)",
           "url": "https://www.rudaw.net/english/categories/syria/1075882"
         }
+      ],
+      "related_ids": [
+        "AP-0065"
       ]
     },
     {
@@ -1759,7 +1785,7 @@
       "type": "Vandalism",
       "evidence": "reported",
       "title": "Anti-Christian graffiti on Mor Aphrem Syriac Orthodox Church",
-      "summary": "A Syriac community publication reported hostile religious graffiti on Mor Aphrem Church and neighbouring Christian homes. Local security forces were informed and the matter was being investigated.",
+      "summary": "SyriacPress reported that unidentified individuals sprayed hostile Arabic messages concerning Jesus and devils on Mor Aphrem Church and Christian homes on the evening of 28 January 2024. The report says the Syriac Security Forces (Sutoro) were investigating; no subsequent outcome was established in this review.",
       "actor": "Unknown vandals",
       "scope": "Assyrian / Syriac church community",
       "sources": [
@@ -1772,7 +1798,7 @@
     {
       "id": "AP-0071",
       "year": 2015,
-      "date": "October 2015",
+      "date": "13 October 2015",
       "country": "Sweden",
       "place": "Tynnered, Gothenburg",
       "lat": 57.65,
@@ -1780,13 +1806,13 @@
       "type": "Religious violence",
       "evidence": "reported",
       "title": "Assyrian-run businesses in Gothenburg marked with conversion threats",
-      "summary": "Reports describe threats sprayed on Assyrian-owned and other Christian businesses, using daesh-associated symbols and demands to convert. The graffiti was investigated; the source does not prove operational involvement by daesh.",
+      "summary": "The Observatory on Intolerance and Discrimination against Christians dates its case to 13 October 2015 and cites Dagens Nyheter reporting about threats against Markus Samuelsson's restaurant, a bakery and a neighbouring pizzeria. The reported graffiti included demands for religious conversion, jihadist imagery and death threats. Police were investigating; the report does not establish organisational involvement by daesh.",
       "actor": "Unknown perpetrators using daesh-style imagery",
       "scope": "Assyrian diaspora",
       "sources": [
         {
           "title": "Assyrian Christians in Gothenburg threatened - Observatory on Intolerance against Christians (2015)",
-          "url": "https://www.intoleranceagainstchristians.eu/index.php?case=1594&id=12"
+          "url": "https://www.intoleranceagainstchristians.eu/cases/assyrian-christians-in-gothenburg-threatened-convert-or-die"
         }
       ]
     },
@@ -1801,7 +1827,7 @@
       "type": "Vandalism",
       "evidence": "reported",
       "title": "Firecrackers thrown at Assyrian cultural centre",
-      "summary": "Swedish public broadcaster SVT reported that firecrackers were thrown towards the Assyrian Cultural Centre after a local football derby and the incident was reported to police. The report did not establish an anti-Assyrian religious motive, so it is catalogued as a reported attack on an Assyrian institution, not a proven hate crime.",
+      "summary": "SVT reported that two people allegedly threw firecrackers at the office entrance approximately 90 minutes after Assyriska FF won the 20 September 2015 local derby. Around ten people were inside; no injuries or damage to parked cars were reported. A separate police seizure of fireworks before the match was not established as connected. No anti-Assyrian or religious motive was demonstrated.",
       "actor": "Two unidentified individuals seen near the building, according to witnesses",
       "scope": "Assyrian diaspora",
       "sources": [
@@ -1822,20 +1848,24 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Explosion at Syriac Orthodox church hall in Sodertalje",
-      "summary": "Swedish church and press reporting describes an explosion at premises belonging to St Afrem Syriac Orthodox Church in Geneta. No deaths were reported and motive was under investigation; no anti-Christian motive is presumed.",
-      "actor": "Unknown perpetrators or cause at the time of published reports",
+      "summary": "SVT quoted police confirming a homemade device exploded at the entrance of a Syriac Orthodox church-owned hall in Geneta shortly before 1 am on 19 September 2018. Police reported no injuries, suspect or known threat to the congregation at the time. Dagen reports the police classification as public-danger destruction. Motive and responsibility were not established.",
+      "actor": "Unidentified perpetrator; police confirmed homemade explosive device",
       "scope": "Syriac diaspora church community",
       "sources": [
         {
           "title": "Explosion near St Afrem Syriac Orthodox Church - Dagen (2018)",
           "url": "https://www.dagen.se/nyheter/polisen-flera-fynd-efter-sprangdadet-vid-kyrka-i-sodertalje/3603883"
+        },
+        {
+          "title": "Explosion at church in Sodertalje - SVT, 19 September 2018",
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/explosion-vid-syrianska-foreningen-i-sodertalje"
         }
       ]
     },
     {
       "id": "AP-0074",
       "year": 2023,
-      "date": "22 November 2023",
+      "date": "22-23 November 2023",
       "country": "Sweden",
       "place": "Tensta, Stockholm",
       "lat": 59.39,
@@ -1843,13 +1873,17 @@
       "type": "Vandalism",
       "evidence": "reported",
       "title": "Syriac Orthodox Church of Mary Virgin damaged in Stockholm",
-      "summary": "A Syriac news organisation reported a break-in and property damage at a Syriac Orthodox church in Tensta. The archdiocese was investigating and no motive was established in the cited account.",
+      "summary": "SVT's 24 November 2023 report quotes the congregation confirming a break-in, theft and damaged windows during the night before Thursday 23 November. Police investigated aggravated theft and a church representative said no threat was known. The church cautioned against misleading social-media claims. Retained as a reported attack on a church institution, not a proven religious hate crime.",
       "actor": "Unidentified intruders",
       "scope": "Syriac diaspora church community",
       "sources": [
         {
           "title": "Syriac Orthodox Church vandalised in Stockholm - SyriacPress (2023)",
           "url": "https://syriacpress.com/blog/2023/11/23/syriac-orthodox-church-vandalized-in-stockholm-archbishop-aktas-initiates-investigation/"
+        },
+        {
+          "title": "Break-in and property damage at Syriac Orthodox church in Tensta - SVT, 24 November 2023",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/inbrott-och-skadegorelse-i-syrisk-ortodoxa-kyrkan-i-tensta--si8byb"
         }
       ]
     },
@@ -1864,7 +1898,7 @@
       "type": "Vandalism",
       "evidence": "documented",
       "title": "Assyrian Mar Shaleeta church vandalised with threatening biblical reference",
-      "summary": "An Assyrian Ancient Church of the East parish in California was spray-painted with words and a biblical reference concerning the ancient Assyrian army's destruction. Assyrian representatives described it as a hate incident, and the LA Times later documented the incident in a wider church-vandalism inquiry.",
+      "summary": "The Los Angeles Times' January 2018 review identifies 2 Kings 19:35 graffiti at Mar Shaleeta Parish in November 2016 and cites the Assyrian American Association of Southern California's hate-crime assessment. The newspaper also reports similar graffiti at other churches. The motive and identity of the perpetrator in the San Fernando case were not independently established.",
       "actor": "Unknown vandal; bias motive alleged by community representatives",
       "scope": "Assyrian diaspora",
       "sources": [
@@ -1885,8 +1919,8 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Wakeley Assyrian church stabbing of bishop and priest",
-      "summary": "An assailant stabbed Bishop Mar Mari Emmanuel and injured a priest during a live-streamed service at an Assyrian Orthodox church in western Sydney. Police classified the event as religiously motivated terrorism; legal and mental-health proceedings continued later, so this report does not assert a final verdict.",
-      "actor": "16-year-old male defendant, with charges and motive subject to judicial proceedings",
+      "summary": "On 15 April 2024, Bishop Mar Mari Emmanuel was stabbed during a live-streamed service and a priest was wounded while intervening. NSW Police declared a terrorist incident. ABC's 27 February 2026 court reporting records charges including terrorism and attempted murder, the bishop's loss of an eye, and pending assessments of the defendant's mental state and fitness for trial. No final verdict against the alleged attacker was established in this review.",
+      "actor": "Defendant aged 16 at time of attack; charges subject to judicial proceedings",
       "scope": "Assyrian diaspora",
       "sources": [
         {
@@ -1902,7 +1936,7 @@
     {
       "id": "AP-0077",
       "year": 2026,
-      "date": "March-April 2026",
+      "date": "Reported 3 April 2026 (exact date unknown)",
       "country": "Belgium",
       "place": "Onze-Lieve-Vrouw Altijddurende Bijstandskerk, Antwerp",
       "lat": 51.23,
@@ -1910,7 +1944,7 @@
       "type": "Vandalism",
       "evidence": "reported",
       "title": "Reported vandalism at Assyrian Chaldean Catholic church in Antwerp",
-      "summary": "An Assyrian community publication reported a symbol spray-painted on the door of a church serving Assyrian Chaldean Catholics in Antwerp. The incident had not been independently established by official Belgian reporting when the account was published.",
+      "summary": "The Assyria Post's 3 April 2026 report describes graffiti on the front door of Edta Dqyamta, a Chaldean Catholic church serving Assyrians. The publication also recalls the separate 2018 St James incident (AP-0081). Exact incident date, perpetrator, motive and official investigation outcome were not established.",
       "actor": "Unidentified vandal; motive and police outcome unconfirmed",
       "scope": "Assyrian diaspora",
       "sources": [
@@ -1928,13 +1962,13 @@
       "year": 2017,
       "date": "2016-2017 administrative transfer; restitution ordered 2018",
       "country": "Turkey",
-      "place": "Mor Gabriel Monastery, Mardin",
-      "lat": 37.32,
-      "lon": 41.54,
+      "place": "Mardin region (Mor Gabriel Foundation)",
+      "lat": null,
+      "lon": null,
       "type": "Property seizure",
       "evidence": "documented",
       "title": "Syriac Orthodox monastery property transferred to state bodies",
-      "summary": "Following administrative reorganisation, multiple Syriac Orthodox church and monastery properties were transferred into Turkish public control, prompting opposition. A 2018 decree ordered restitution of 30 assets, which must be recorded to avoid implying permanent seizure.",
+      "summary": "Fides' 13 February 2018 report describes the Mor Gabriel Foundation lawyer's announcement that a decree would return 30 ecclesiastical properties transferred to public control in 2017. Named assets include Mor Melki, Mor Yakup and Mor Dimet monasteries. The foundation petitioned the Mardin civil court in June 2017; the governor's office disputed an intention to expropriate. The announcement does not demonstrate completion of every title transfer.",
       "actor": "Turkish public authorities; later restitution ordered",
       "scope": "Assyrian / Syriac church community",
       "sources": [
@@ -1947,7 +1981,7 @@
     {
       "id": "AP-0079",
       "year": 2020,
-      "date": "11 January 2020 onward",
+      "date": "11 January 2020 onward; reported ruling 16 September 2026",
       "country": "Turkey",
       "place": "Mehr / Kovankaya, Sirnak",
       "lat": 37.31,
@@ -1955,8 +1989,8 @@
       "type": "Abduction",
       "evidence": "reported",
       "title": "Disappearance of Assyrian Christian couple Hurmuz and Simoni Diril",
-      "summary": "Two elderly Assyrian-linked Chaldean Catholic villagers disappeared from their home. Simoni's body was found in March 2020; her husband's fate remained unresolved at the time of the cited report. Claims about the abductors were allegations, not established findings.",
-      "actor": "Unknown kidnappers; affiliation allegations contested or unproven",
+      "summary": "Hurmuz and Simoni Diril disappeared on 11 January 2020; Simoni's body was recovered approximately 70 days later. SyriacPress and Mezopotamya Agency reported that on 16 September 2026 the Sirnak First Heavy Penal Court sentenced Apro Diril to life imprisonment, reduced to 25 years for good conduct, in the case concerning Hurmuz. Two other defendants were acquitted. Hurmuz's remains had not been located at the time of those reports. The family lawyer disputed the single-perpetrator account; the original judgment and any subsequent appeal were not inspected.",
+      "actor": "Apro Diril convicted in Hurmuz case according to September 2026 reporting; two co-defendants acquitted",
       "scope": "Assyrian community",
       "sources": [
         {
@@ -1966,6 +2000,14 @@
         {
           "title": "Body of Şimuni Diril found - International Christian Concern (2020)",
           "url": "https://persecution.org/2020/03/21/tragedy-for-family-of-missing-couple/"
+        },
+        {
+          "title": "Ruling in the case of missing Hurmuz Diril - SyriacPress, 18 September 2026",
+          "url": "https://syriacpress.com/blog/2026/09/18/ruling-in-the-case-of-missing-hurmuz-diril-a-reduced-sentence-for-apro-diril-and-two-acquittals/"
+        },
+        {
+          "title": "Hurmuz Diril case verdict - Mezopotamya Agency, 16 September 2026",
+          "url": "https://www.mezopotamyaajansi.net/GENCLIK/content/view/323756"
         }
       ]
     },
