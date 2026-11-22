@@ -853,8 +853,8 @@
       "scope": "Assyrian / Syriac community",
       "sources": [
         {
-          "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
-          "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire"
+          "title": "Caught in the Crossfire - Assyrian Policy Institute, January 2021, pp. 7, 13-14",
+          "url": "https://50f3ad00-5b28-4016-898f-6130d301c97a.filesusr.com/ugd/6ae567_d3c5240d7d174f769a71ed9443830a6a.pdf"
         },
         {
           "title": "Returning Home: The Ambivalent Assyrian Experience in Turkey - Abdulmesih BarAbraham, Poligrafi (2021)",
@@ -1194,7 +1194,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "January church and convent bombing wave in Mosul",
-      "summary": "US religious-freedom reporting describes multiple bombs against Christian churches and convents in Mosul, including an Assyrian church and Chaldean church buildings, as part of a wider January wave.",
+      "summary": "The 2008 US religious freedom report identifies four Mosul targets on 6 January: the Assyrian church and its convent, St Peter Church, Mosul al-Jadeedah Convent and Miskanta Church. Six injuries were reported across the combined Baghdad-Mosul attacks. A separate Tahira Church bombing in Mosul on 18 January injured two people (AP-0130). The overview overlaps that child record.",
       "actor": "Unidentified bombers",
       "scope": "Assyrian-linked and shared Christian communities",
       "sources": [
@@ -1218,7 +1218,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "St Ephrem Syriac Orthodox and Chaldean Cathedral bombed",
-      "summary": "Government reporting records simultaneous explosions targeting St Ephrem Syriac Orthodox Church and Kirkuk's Chaldean Cathedral. No injuries were reported in those two attacks.",
+      "summary": "The 2008 US religious freedom report records simultaneous attacks on the Chaldean Cathedral and St Ephrem Syriac Orthodox Church on 9 January 2008, with no reported injuries. These Kirkuk attacks were distinct from the 6 January Baghdad-Mosul attacks.",
       "actor": "Unidentified bombers",
       "scope": "Assyrian-linked church communities",
       "sources": [
@@ -1239,7 +1239,7 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Coordinated bombing of six Baghdad churches",
-      "summary": "The US Department of State records six church bombings in Baghdad, resulting in deaths and injuries among Christian worshippers and other residents.",
+      "summary": "The 2009 State Department human rights report records six churches attacked on 12 July, with four deaths and more than 20 injured. USCIRF's 2010 report instead counts seven churches, four deaths and 18 wounded. The differing counts describe the same coordinated episode and are not additive.",
       "actor": "Unidentified bombers",
       "scope": "Shared Christian communities",
       "sources": [
@@ -1248,8 +1248,12 @@
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
         },
         {
-          "title": "2010 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2010/148821.htm"
+          "title": "2010 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021"
+        },
+        {
+          "title": "USCIRF Annual Report 2010 - Iraq",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/74071"
         }
       ]
     },
@@ -1264,13 +1268,17 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "St Ephrem Chaldean Church and St Theresa convent bombed",
-      "summary": "The US Department of State records damage to St Ephrem's Chaldean Church and St Theresa's Convent in Mosul during bomb attacks; no casualties were reported in this episode.",
+      "summary": "The 2009 State Department report records extensive structural damage to St Ephrem's Chaldean Church and St Theresa's Convent after the 26 November bombings. USCIRF likewise reports property damage without casualties.",
       "actor": "Unidentified bombers",
       "scope": "Assyrian-linked church communities",
       "sources": [
         {
           "title": "2009 Human Rights Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
+        },
+        {
+          "title": "USCIRF Annual Report 2010 - Iraq",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/74071"
         }
       ]
     },
@@ -1285,13 +1293,17 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Syriac Catholic and Syriac Orthodox churches targeted in Mosul",
-      "summary": "The US Department of State records fatal bombings outside two Syriac churches in Mosul, the Church of the Annunciation and the Church of the Virgin Mary.",
+      "summary": "The 2009 State Department report identifies the Annunciation and Virgin Mary churches as the targets of bombs on 15 December, reporting five deaths and 40 injured. USCIRF reports four deaths and 40 injured. The death counts differ and must not be combined.",
       "actor": "Unidentified bombers",
       "scope": "Assyrian / Syriac church communities",
       "sources": [
         {
           "title": "2009 Human Rights Report: Iraq - US Department of State",
           "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm"
+        },
+        {
+          "title": "USCIRF Annual Report 2010 - Iraq",
+          "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/74071"
         }
       ]
     },
@@ -1306,13 +1318,13 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Bomb attached to Christian minister Sargon Sulaywah's car",
-      "summary": "A government report documents an explosive attached to the vehicle of the Christian Minister of Environment, Sargon Sulaywah. The driver was seriously injured and the minister escaped.",
+      "summary": "The 2013 US religious freedom report states that militants attached an explosive to Environment Minister Sargon Sulaywah's vehicle on 5 February. His driver sustained serious injuries; the minister was unharmed. The report does not identify the attackers or establish their specific motive.",
       "actor": "Unidentified militants",
       "scope": "Shared Christian communities",
       "sources": [
         {
-          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2014/en/100816"
         }
       ]
     },
@@ -1327,14 +1339,17 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Guards attacked outside St Mary's Assyrian Church",
-      "summary": "The US Department of State reports gunmen attacking two guards outside St Mary's Assyrian Church in eastern Baghdad.",
+      "summary": "The 2013 US religious freedom report attributes to Iraq's Ministry of Interior the 15 June attack on two guards outside St Mary's Assyrian Church. Their subsequent condition is not specified in that passage.",
       "actor": "Unidentified gunmen",
       "scope": "Assyrian community",
       "sources": [
         {
-          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2014/en/100816"
         }
+      ],
+      "related_ids": [
+        "AP-0053"
       ]
     },
     {
@@ -1348,14 +1363,17 @@
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Bombing of three Assyrian-owned businesses",
-      "summary": "US government reporting records bombs striking three Assyrian Christian-owned businesses in the Karrada district, killing an Assyrian owner and a Muslim employee.",
+      "summary": "The same report describes bombings of three Assyrian Christian-owned businesses in Karrada shortly after the 15 June church-guard attack (AP-0052). An Assyrian business owner and a Muslim employee died. The precise date and perpetrator identity remain unspecified.",
       "actor": "Unidentified bombers",
       "scope": "Assyrian community",
       "sources": [
         {
-          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2014/en/100816"
         }
+      ],
+      "related_ids": [
+        "AP-0052"
       ]
     },
     {
@@ -1363,19 +1381,19 @@
       "year": 2013,
       "date": "22 September 2013",
       "country": "Iraq",
-      "place": "Rafiqayn (exact locality not verified)",
+      "place": "Rafigayn (exact locality not verified)",
       "lat": null,
       "lon": null,
       "type": "Religious violence",
       "evidence": "documented",
       "title": "Bomb attack on home of Christian MP Emad Youhanna",
-      "summary": "An official US religious-freedom report records a suicide bomb targeting the home of Christian member of parliament Emad Youhanna. People were injured, including his children; the source does not explicitly establish the ethnicity of all victims.",
-      "actor": "Unidentified suicide attacker",
+      "summary": "The 2013 US religious freedom report dates the suicide bombing at Christian MP Emad Youhanna's residence to 22 September, with 19 injured, including three of his children. Press accounts attributed the attack to al-Qaeda in Iraq; the report does not independently establish responsibility or all victims' ethnicity.",
+      "actor": "Suicide attacker; press reports attributed attack to al-Qaeda in Iraq",
       "scope": "Shared Christian communities",
       "sources": [
         {
-          "title": "2013 International Religious Freedom Report: Iraq - US Department of State",
-          "url": "https://2009-2017.state.gov/j/drl/rls/irf/2013/nea/222291.htm"
+          "title": "2013 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+          "url": "https://www.refworld.org/reference/annualreport/usdos/2014/en/100816"
         }
       ]
     },
@@ -1390,7 +1408,7 @@
       "type": "Displacement",
       "evidence": "documented",
       "title": "daesh occupation of Bartella and detention of remaining Christians",
-      "summary": "UN investigative reporting describes daesh entering Bartella after many Christian residents had fled and detaining or mistreating some who remained. This is a town-level episode within the broader Nineveh Plains offensive.",
+      "summary": "UNITAD (September 2024, paragraphs 28-31) reports that daesh confined remaining Christian families in Bartella after taking the town. A man refusing forced conversion at a checkpoint was beaten and taken away; his fate was unknown. At least two dozen people appeared still missing at the report date.",
       "actor": "daesh",
       "scope": "Assyrian / Syriac church communities",
       "sources": [
@@ -1398,6 +1416,9 @@
           "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
           "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
         }
+      ],
+      "related_ids": [
+        "AP-0058"
       ]
     },
     {
@@ -1411,7 +1432,7 @@
       "type": "Displacement",
       "evidence": "documented",
       "title": "Karamlesh residents flee daesh advance",
-      "summary": "UN investigators documented the flight of most Christian residents of Karamlesh, with church transport helping people leave as the town fell to daesh. Some residents were unable to leave and their later fates remain uncertain.",
+      "summary": "UNITAD paragraphs 32-35 describe church-organised evacuation on 6-7 August 2014. Approximately 10-15 people remained, including elderly and disabled residents. Some later left; at least two men were reportedly still missing. The investigators report approximately 335 of 800 original families returned after liberation.",
       "actor": "daesh",
       "scope": "Assyrian-linked church communities",
       "sources": [
@@ -1419,6 +1440,9 @@
           "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
           "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
         }
+      ],
+      "related_ids": [
+        "AP-0059"
       ]
     },
     {
@@ -1432,7 +1456,7 @@
       "type": "Abduction",
       "evidence": "documented",
       "title": "Detention and forced conversion accounts from occupied Qaraqosh",
-      "summary": "UN investigators collected evidence that Christian men and women captured during daesh occupation were held, assaulted and subjected to forced conversion, including detainees gathered near the town's hospital. This is separate from the general expulsion record but part of the same offensive.",
+      "summary": "UNITAD paragraph 27 distinguishes detention at the Qaraqosh clinic and nearby houses during mid-August 2014. The investigators document forced conversion, mistreatment and the disappearance of some young men. The report treats its legal findings as preliminary, not court verdicts.",
       "actor": "daesh",
       "scope": "Assyrian / Syriac church communities",
       "sources": [
@@ -1453,14 +1477,21 @@
       "type": "Cultural destruction",
       "evidence": "documented",
       "title": "Destruction of Syriac church heritage in Bartella",
-      "summary": "The UN investigative team's detailed assessment records looting, damaged altars and destroyed crosses at St Shmoni and St Georgis and other churches during daesh occupation. Dates for each act of destruction vary or are unknown.",
+      "summary": "UNITAD's separate heritage report (paragraphs 49-52) identifies three damaged Bartella churches: Mart Shmoni, Mar Georgis and Mart Mariam. It describes suspected arson, looting and destruction of crosses and statues. Explosives placed at Mar Georgis did not detonate; exact dates of most damage remain unknown.",
       "actor": "daesh",
       "scope": "Assyrian / Syriac church communities",
       "sources": [
         {
           "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
           "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        },
+        {
+          "title": "Damage and destruction of cultural heritage by daesh in Iraq - UNITAD, September 2024 (published PDF copy)",
+          "url": "https://964media.com/storage/2024/09/ckUw29eUNofZ2m2G87gbnkntg1x7Qz9Gw.pdf"
         }
+      ],
+      "related_ids": [
+        "AP-0055"
       ]
     },
     {
@@ -1474,14 +1505,21 @@
       "type": "Cultural destruction",
       "evidence": "documented",
       "title": "Damage to Karamlesh monasteries and churches during occupation",
-      "summary": "UN investigators record damage and destruction affecting St Barbara Monastery, Mar Addai Church and the Mar Georgis complex during daesh rule. These cultural attacks overlap the town's general displacement event.",
+      "summary": "UNITAD's heritage report (paragraphs 53-61) documents damage at Mart Barbara Monastery, Mar Addai Church and Mar Georgis Church and cemetery. Daesh repurposed the monastery as a checkpoint and Mar Addai as headquarters; investigators describe damage to religious artwork and disturbance of graves.",
       "actor": "daesh",
       "scope": "Assyrian-linked church communities",
       "sources": [
         {
           "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
           "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf"
+        },
+        {
+          "title": "Damage and destruction of cultural heritage by daesh in Iraq - UNITAD, September 2024 (published PDF copy)",
+          "url": "https://964media.com/storage/2024/09/ckUw29eUNofZ2m2G87gbnkntg1x7Qz9Gw.pdf"
         }
+      ],
+      "related_ids": [
+        "AP-0056"
       ]
     },
     {
@@ -1490,18 +1528,18 @@
       "date": "2020 (52 incidents documented by reporting organisation)",
       "country": "Iraq",
       "place": "Duhok governorate, Assyrian villages",
-      "lat": 37.01,
-      "lon": 43.15,
+      "lat": null,
+      "lon": null,
       "type": "Airstrikes",
       "evidence": "reported",
       "title": "Turkish airstrikes near Assyrian villages in Duhok",
-      "summary": "The Assyrian Policy Institute catalogued 52 reported 2020 strikes near Assyrian-populated villages in the Barwar, Sapna, Zakho and Nahla areas and described displacement, damaged farmland and continuing fear. This single overview entry does not convert 52 underlying strikes into 52 individually mapped records; the source found no confirmed Assyrian deaths from those strikes.",
+      "summary": "The Assyrian Policy Institute's January 2021 report (pp. 7, 13-14) identifies 52 reported airstrike incidents in 2020, including 31 in Barwar. A sidebar on p. 13 instead says 53; the main text uses 52. The report distinguishes incident dates from individual strikes and did not establish Assyrian deaths or injuries from those strikes at publication. This regional overview is not 52 separately mapped attacks.",
       "actor": "Turkish military strikes against suspected pkk positions, as documented by API",
       "scope": "Assyrian community",
       "sources": [
         {
-          "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
-          "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire"
+          "title": "Caught in the Crossfire - Assyrian Policy Institute, January 2021, pp. 7, 13-14",
+          "url": "https://50f3ad00-5b28-4016-898f-6130d301c97a.filesusr.com/ugd/6ae567_d3c5240d7d174f769a71ed9443830a6a.pdf"
         }
       ]
     },
