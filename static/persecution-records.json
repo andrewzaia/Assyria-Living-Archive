@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-22",
   "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
@@ -893,7 +893,8 @@
       "related_ids": [
         "AP-0223",
         "AP-0225",
-        "AP-0230"
+        "AP-0230",
+        "AP-0231"
       ]
     },
     {
@@ -5774,6 +5775,101 @@
       ],
       "related_ids": [
         "AP-0035"
+      ]
+    },
+    {
+      "id": "AP-0231",
+      "year": 1949,
+      "date": "Late 1940s; deportations reported in 1949",
+      "country": "Armenia",
+      "place": "Gelaysor (Gyolaysor), near Verin Dvin, Armenian SSR",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "historical",
+      "title": "Displacement and deportation of Assyrian residents of Gelaysor",
+      "summary": "In a 2016 JAMnews interview, Gelaysor-born community representative Razmik Khosroev recalled Soviet pressure against the village in 1949, with many residents sent into Siberian exile, including Barnaul, and others resettled in villages including Verin Dvin. Maxim Edwards's 2015 field report records similar community recollections of the settlement's abandonment after Soviet authorities denounced its collective farm. These accounts document community memory of displacement; individual deportation lists, victim totals and the dismissal order have not been independently inspected.",
+      "actor": "Soviet authorities in the Armenian SSR; motive and precise administrative orders remain unverified",
+      "scope": "Assyrian village community affected by Soviet repression and displacement",
+      "related_ids": [
+        "AP-0035"
+      ],
+      "sources": [
+        {
+          "title": "Gayane Mkrtchyan, A minority in the majority - JAMnews (6 November 2016)",
+          "url": "https://jam-news.net/a-minority-in-the-majority/"
+        },
+        {
+          "title": "Maxim Edwards, Life and Exile at Assyrian Lake - Roads & Kingdoms (2 September 2015)",
+          "url": "https://roadsandkingdoms.com/2015/life-and-exile-at-assyrian-lake/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0232",
+      "year": 1937,
+      "date": "Arrested 22 November 1937; sentenced 8 December 1937; rehabilitated 21 August 1999",
+      "country": "Kazakhstan",
+      "place": "Akmolinsk (present-day Astana), Kazakh SSR",
+      "lat": 51.17,
+      "lon": 71.43,
+      "type": "State repression",
+      "evidence": "documented",
+      "title": "Nikolai Sergeyevich Babakhanov sentenced to ten years in a Soviet labour camp",
+      "summary": "The Kazakhstan history portal's archive-derived register identifies Babakhanov, born in Armavir in 1917, as Assyrian and employed as a labourer at an Akmolinsk furniture factory. It records his arrest by the district NKVD and a ten-year corrective-labour camp sentence under Article 58-6 imposed by the Karaganda regional NKVD troika. The Akmola regional prosecutor's office rehabilitated him on 21 August 1999 under Kazakhstan's 1993 rehabilitation law. His alleged offence is not treated as proven; the underlying security file and subsequent fate were not inspected.",
+      "actor": "Soviet district NKVD and Karaganda regional NKVD troika",
+      "scope": "Named Assyrian victim of Soviet political repression",
+      "sources": [
+        {
+          "title": "Electronic database of victims of political repression - e-history.kz (31 May 2017), Babakhanov entry",
+          "url": "https://e-history.kz/ru/news/show/5031"
+        }
+      ]
+    },
+    {
+      "id": "AP-0233",
+      "year": 1942,
+      "date": "Arrested 10 September 1941; death sentence 31 March 1942; rehabilitated 13 March 1989",
+      "country": "Kazakhstan",
+      "place": "Voznesenka, Akmola region, Kazakh SSR",
+      "lat": null,
+      "lon": null,
+      "type": "State repression",
+      "evidence": "documented",
+      "title": "Mir-Gadar Mir Kazama ogly Abbasov sentenced to death by Soviet security authorities",
+      "summary": "The Kazakhstan history portal's archive-derived register identifies Abbasov, born in Iran in 1890, as Assyrian and a shop worker in Voznesenka. It records his arrest by the Makinsk district NKVD in September 1941 and a death sentence imposed by the USSR NKVD Special Council on 31 March 1942 under Articles 58-6 and 58-10. The Tselinograd regional prosecutor's office rehabilitated him on 13 March 1989. The source records the sentence, not a confirmed execution date; the underlying security file was not independently inspected.",
+      "actor": "Soviet Makinsk district NKVD and USSR NKVD Special Council",
+      "scope": "Named Assyrian victim of Soviet political repression",
+      "sources": [
+        {
+          "title": "Electronic database of victims of political repression - e-history.kz (31 May 2017), Abbasov entry",
+          "url": "https://e-history.kz/ru/news/show/5031"
+        }
+      ]
+    },
+    {
+      "id": "AP-0234",
+      "year": 2016,
+      "date": "November 2016; parliamentary answer 21 December 2016",
+      "country": "United Kingdom",
+      "place": "United Kingdom (visa decisions concerning London cathedral consecration)",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "documented",
+      "title": "Three Syriac Orthodox archbishops refused UK visas for cathedral consecration",
+      "summary": "Three Syriac Orthodox archbishops from Mosul, St Matthew's Monastery and Homs and Hama were refused visas to attend the London cathedral consecration. The Observatory on Intolerance and Discrimination against Christians reported the refusals and the criticism of the decisions. In a written parliamentary answer on 21 December 2016, the government stated that visa applications are considered on individual merits under immigration rules and declined to comment on individual cases. This records a contested administrative restriction on church representatives, not a judicial finding of religious discrimination or proof of an anti-Assyrian motive.",
+      "actor": "United Kingdom Home Office visa decisions",
+      "scope": "Syriac Orthodox church representatives and diaspora congregation",
+      "sources": [
+        {
+          "title": "Church of England in Parliament, Bishop of Coventry questions visa refusals (21 December 2016)",
+          "url": "https://churchinparliament.org/2016/12/21/bishop-of-coventry-asks-government-about-visa-applications-from-syria-and-iraq/"
+        },
+        {
+          "title": "Observatory on Intolerance and Discrimination against Christians, Christian archbishops denied visas to UK (2016)",
+          "url": "https://www.intoleranceagainstchristians.eu/cases/christian-archbishops-from-iraq-and-syria-denied-visas-to-uk"
+        }
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 230 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit.",
+  "scope": "Incremental source triage for AP-0001 through AP-0234. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 234 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit. AP-0231 to AP-0233 extend geographic coverage to Armenia and Kazakhstan with an attributed village displacement history and two named Soviet repression cases. A death sentence is not equated with a confirmed execution. AP-0234 records a contested UK administrative visa restriction, not proven religious discrimination.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -173,6 +173,15 @@
       "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
     },
     {
+      "url": "https://churchinparliament.org/2016/12/21/bishop-of-coventry-asks-government-about-visa-applications-from-syria-and-iraq/",
+      "title": "Church of England in Parliament - written questions and government answers on visa refusals (21 December 2016)",
+      "captured_record_ids": [
+        "AP-0234"
+      ],
+      "review_status": "reviewed",
+      "notes": "Records parliamentary scrutiny and the government's general immigration-rule response; does not establish religious discrimination."
+    },
+    {
       "url": "https://demirel.co.il/en/persons/mar-benyamin-shimun-en/",
       "title": "Mar Benyamin Shimun - historical sources and Sinyor Demirel diary",
       "captured_record_ids": [
@@ -220,6 +229,16 @@
       ],
       "review_status": "partial",
       "notes": "Academic article citation, title and publication confirmed through publisher index; full text not checked for each separate Sayfo-era locality or Urmia chronology."
+    },
+    {
+      "url": "https://e-history.kz/ru/news/show/5031",
+      "title": "Electronic database of victims of political repression - e-history.kz (31 May 2017)",
+      "captured_record_ids": [
+        "AP-0232",
+        "AP-0233"
+      ],
+      "review_status": "partial",
+      "notes": "Archive-derived Russian-language register explicitly identifies both named people as Assyrian. Arrests, sentences and rehabilitation dates are transcribed from individual entries. Original security files not inspected; Abbasov's execution date and Babakhanov's later fate are not given."
     },
     {
       "url": "https://english.ankawa.com/killing-of-two-christian-sisters-renews-panic-in-mosul/",
@@ -317,6 +336,15 @@
       "notes": "September 2024 public assessment, printed pp. 9-12, paragraphs 27-45; relevant page images inspected. Preliminary investigative findings and missing-person status at publication; confidential evidence not inspected. Heritage sites analysed separately."
     },
     {
+      "url": "https://jam-news.net/a-minority-in-the-majority/",
+      "title": "A minority in the majority - JAMnews (2016)",
+      "captured_record_ids": [
+        "AP-0231"
+      ],
+      "review_status": "reviewed",
+      "notes": "Interview with Gelaysor-born community representative Razmik Khosroev attributes 1949 deportation and resettlement to Soviet authorities. Oral recollection, not an inspected deportation file or complete victim list."
+    },
+    {
       "url": "https://lev.mapofmemory.org/ranenyj-lev/",
       "title": "Assyrian victims of Leningrad's Great Terror - Levashovo memorial research",
       "captured_record_ids": [
@@ -379,6 +407,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Open-access scholarly study describes the Simele massacre and more than 600 deaths; alternative estimates and precise village-level victim registers remain outside this review."
+    },
+    {
+      "url": "https://roadsandkingdoms.com/2015/life-and-exile-at-assyrian-lake/",
+      "title": "Life and Exile at Assyrian Lake - Roads & Kingdoms (2015)",
+      "captured_record_ids": [
+        "AP-0231"
+      ],
+      "review_status": "reviewed",
+      "notes": "Field reporting records community recollections of the village's abandonment in the late 1940s. Exact causation and administrative orders are not independently verified."
     },
     {
       "url": "https://rudaw.net/english/categories/middleeast/983920",
@@ -1295,6 +1332,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Relevant source passage inspected; attributed claims retained and limitations recorded in catalogue. No independent judicial or forensic finding implied."
+    },
+    {
+      "url": "https://www.intoleranceagainstchristians.eu/cases/christian-archbishops-from-iraq-and-syria-denied-visas-to-uk",
+      "title": "Observatory on Intolerance and Discrimination against Christians - Christian archbishops denied visas to UK (2016)",
+      "captured_record_ids": [
+        "AP-0234"
+      ],
+      "review_status": "reviewed",
+      "notes": "Incident report attributes the three refusals and criticism; underlying individual visa decisions were not inspected."
     },
     {
       "url": "https://www.intoleranceagainstchristians.eu/index.php?count=100&id=19&page=1&radSearchFilterType=cases&selCountry=6&selTimeFrame=&txtDateStart=&txtSearch=",
