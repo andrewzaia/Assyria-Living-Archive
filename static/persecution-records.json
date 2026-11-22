@@ -4087,7 +4087,8 @@
       "related_ids": [
         "AP-0175",
         "AP-0179",
-        "AP-0196"
+        "AP-0196",
+        "AP-0251"
       ]
     },
     {
@@ -4576,7 +4577,28 @@
         "AP-0247",
         "AP-0248",
         "AP-0249",
-        "AP-0250"
+        "AP-0250",
+        "AP-0251",
+        "AP-0252",
+        "AP-0253",
+        "AP-0254",
+        "AP-0255",
+        "AP-0256",
+        "AP-0257",
+        "AP-0258",
+        "AP-0259",
+        "AP-0260",
+        "AP-0261",
+        "AP-0262",
+        "AP-0263",
+        "AP-0264",
+        "AP-0265",
+        "AP-0266",
+        "AP-0267",
+        "AP-0268",
+        "AP-0269",
+        "AP-0270",
+        "AP-0271"
       ]
     },
     {
@@ -4935,7 +4957,8 @@
       "related_ids": [
         "AP-0182",
         "AP-0175",
-        "AP-0165"
+        "AP-0165",
+        "AP-0251"
       ]
     },
     {
@@ -6272,6 +6295,512 @@
       "sources": [
         {
           "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 38 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0251",
+      "year": 1963,
+      "date": "1963",
+      "country": "Iraq",
+      "place": "Hizaneh, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Hizaneh",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 39: A claim concerning 50 dunams of farmland is attributed to residents of adjoining settlements. The relationship to the later common-land dispute in Sholi and the Hizani/Zule/Khalilani area has not been established; do not aggregate their areas. The underlying claim has not been independently adjudicated.",
+      "actor": "Residents of neighbouring villages, as attributed in the annex",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182",
+        "AP-0196",
+        "AP-0165"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 39 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0252",
+      "year": 2019,
+      "date": "Reported in 2019; original date unspecified",
+      "country": "Iraq",
+      "place": "Safar Zeri, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Safar Zeri",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 41: The annex describes a claim affecting the entire settlement, measuring 1,000 dunams according to the submitting organisation. It does not give an incident date; 2019 refers to publication. No legal ruling or present ownership is established. The underlying claim has not been independently adjudicated.",
+      "actor": "Residents of neighbouring villages, as attributed in the annex",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 41 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0253",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Asan, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Asan",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 43: The report describes the evacuation of the entire settlement following the conflict beginning in 1961. It lists the village as deserted in the later armed-conflict zone. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 43 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0254",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Arkin, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Arkin",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 44: The report identifies cadastral area 113 and describes the settlement as depopulated after the fighting beginning in 1961. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 44 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0255",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Daweki, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Daweki",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 45: The report records village-wide displacement following the fighting beginning in 1961 and subsequent instability. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 45 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0256",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Upper Saoora (Safri Gharbiya), Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Upper Saoora (Safri Gharbiya)",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 46: The report identifies the upper settlement separately from Lower Saoora and describes it as evacuated during conflict after 1961. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 46 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0257",
+      "year": 1988,
+      "date": "After 1988 Anfal operations; status reported in 2019",
+      "country": "Iraq",
+      "place": "Lower Saoora (Safri Sharqiya), Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Lower Saoora (Safri Sharqiya)",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 47: The annex attributes expulsion of the whole lower settlement to the aftermath of the 1988 Anfal operations. It lists the locality as deserted in the subsequent conflict zone. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 47 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0258",
+      "year": 1988,
+      "date": "After 1988 Anfal operations; status reported in 2019",
+      "country": "Iraq",
+      "place": "Belmbos, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Belmbos",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 48: The report associates expulsion with the 1988 Anfal operations and identifies area 93, with a reported village area of 2,160 dunams. This is the stated extent of the village, not an adjudicated seized area. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 48 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0259",
+      "year": 1988,
+      "date": "After 1988 Anfal operations; status reported in 2019",
+      "country": "Iraq",
+      "place": "Cham Ashret (Chami Sherti), Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Cham Ashret (Chami Sherti)",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 49: The annex links the evacuation of the whole settlement to the period following the Anfal operations in 1988. It records the village as uninhabited in the later conflict zone. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 49 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0260",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Cham Chala, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Cham Chala",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 50: The annex reports village-wide displacement following conflict after 1961 and identifies cadastral area 106. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 50 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0261",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Dezkira, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Dezkira",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 51: The source describes the entire village as depopulated following fighting after 1961 and continuing regional insecurity. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 51 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0262",
+      "year": 1974,
+      "date": "By 1974, according to the annex; status reported in 2019",
+      "country": "Iraq",
+      "place": "Naboaa, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Naboaa",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 52: The annex refers to 1974 in connection with an already displaced settlement, using an imprecise chronology. It describes the entire village as deserted, without fixing the original date of evacuation. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 52 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0263",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Birktha, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Birktha",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 53: The submitting organisation describes displacement of the whole settlement following the fighting beginning in 1961. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 53 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0264",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Alolen, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Alolen",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 54: The annex records community displacement after 1961 and describes the village as uninhabited in the later conflict zone. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 54 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0265",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Blimbasi, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Blimbasi",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 55: The source describes the whole village as evacuated after 1961 in the context of regional fighting. This entry follows the annex's separate spelling and chronology from Belmbos, whose possible relationship remains unverified. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 55 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0266",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Like son, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Like son",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 56: The report describes displacement of the entire village in the conflict following 1961. The place name follows the English-language annex; its alternative spelling and exact location are unresolved. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 56 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0267",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Gnari, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Gnari",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 57: The submission lists the village as evacuated after 1961 and subsequently uninhabited. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 57 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0268",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Merga D Tina, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Merga D Tina",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 58: The annex records village-wide departure in the period of conflict following 1961 and classifies the locality as deserted. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 58 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0269",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Merga D Aghaye, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Merga D Aghaye",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 59: The report describes displacement after 1961 and an uninhabited settlement, but gives neither an affected area nor an explicit whole-village measurement. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 59 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0270",
+      "year": 1961,
+      "date": "After 1961; status reported in 2019",
+      "country": "Iraq",
+      "place": "Korava (Korawa), Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement of Assyrian residents of Korava (Korawa)",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 60: The submission describes displacement after 1961 and reports that farmland in area 87 was being used despite the settlement being deserted. It does not identify the users or their legal rights. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "actor": "Regional armed conflict; later agricultural users unidentified",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 60 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0271",
+      "year": 1978,
+      "date": "1978",
+      "country": "Iraq",
+      "place": "Kowani, Amadiya subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Kowani",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 61: The annex lists claims affecting farmland or agricultural resources, buildings and housing development, identifying the former Iraqi government and Amadiya municipality. No precise land area or subsequent legal disposition is given. The underlying claim has not been independently adjudicated.",
+      "actor": "Former Iraqi regime and Amadiya municipality, as attributed in the annex",
+      "scope": "Assyrian village community and land rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 61 (UN UPR repository)",
           "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
         }
       ]
