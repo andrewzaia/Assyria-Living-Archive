@@ -45,7 +45,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Armenia', 'Australia', 'Azerbaijan', 'Belgium', 'France', 'Georgia',
-                          'Germany', 'Iran', 'Iraq', 'Kazakhstan', 'Netherlands', 'Russia',
+                          'Germany', 'Iran', 'Iraq', 'Kazakhstan', 'Lebanon', 'Netherlands', 'Russia',
                           'Sweden', 'Syria', 'Turkey', 'Ukraine', 'United Kingdom', 'United States'})
         self.assertLess(min(r['year'] for r in self.records), 1900)
         self.assertGreaterEqual(max(r['year'] for r in self.records), 2026)
@@ -143,7 +143,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0001 through AP-0234', audit['scope'])
+        self.assertIn('AP-0001 through AP-0237', audit['scope'])
         self.assertIn('eleven churches', by_id['AP-0062']['summary'])
         self.assertIn('aggravated theft', by_id['AP-0074']['summary'])
         self.assertIn('25 years', by_id['AP-0079']['summary'])
@@ -404,6 +404,20 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('13 March 1989', by_id['AP-0233']['date'])
         self.assertIn('Armenia', self.markup)
         self.assertIn('Kazakhstan', self.markup)
+
+    def test_lebanon_expansion_preserves_evidence_boundaries(self):
+        by_id = {r['id']: r for r in self.records}
+        bombing = by_id['AP-0235']
+        self.assertEqual(bombing['country'], 'Lebanon')
+        self.assertIn('one person injured', bombing['summary'])
+        self.assertIn('no casualties', bombing['summary'])
+        for key in ('AP-0236', 'AP-0237'):
+            self.assertEqual(by_id[key]['country'], 'Lebanon')
+            self.assertEqual(by_id[key]['evidence'], 'reported')
+            self.assertIsNone(by_id[key]['lat'])
+            self.assertIsNone(by_id[key]['lon'])
+        self.assertIn('not a named massacre', by_id['AP-0236']['summary'])
+        self.assertIn('not establish a particular attack', by_id['AP-0237']['summary'])
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES
