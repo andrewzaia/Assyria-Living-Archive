@@ -6480,11 +6480,12 @@
       "type": "Displacement",
       "evidence": "reported",
       "title": "Reported displacement of Assyrian residents of Belmbos",
-      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 48: The report associates expulsion with the 1988 Anfal operations and identifies area 93, with a reported village area of 2,160 dunams. This is the stated extent of the village, not an adjudicated seized area. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights.",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 48: The report associates expulsion with the 1988 Anfal operations and identifies area 93, with a reported village area of 2,160 dunams. This is the stated extent of the village, not an adjudicated seized area. The report associates the later conflict environment with pkk presence; it does not establish that the pkk caused the original displacement or confiscated the property. The account does not independently establish the current status, exact original displacement date or individual property rights. Possible spelling or locality overlap with the separately listed Blimbasi account (row 55) remains unresolved.",
       "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
       "scope": "Assyrian village community and land rights",
       "related_ids": [
-        "AP-0182"
+        "AP-0182",
+        "AP-0265"
       ],
       "sources": [
         {
@@ -6652,7 +6653,8 @@
       "actor": "Regional armed conflict from the 1960s; later pkk presence reported; original responsible party not specified",
       "scope": "Assyrian village community and land rights",
       "related_ids": [
-        "AP-0182"
+        "AP-0182",
+        "AP-0258"
       ],
       "sources": [
         {
