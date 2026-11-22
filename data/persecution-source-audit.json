@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0237. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 237 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit. AP-0231 to AP-0233 extend geographic coverage to Armenia and Kazakhstan with an attributed village displacement history and two named Soviet repression cases. A death sentence is not equated with a confirmed execution. AP-0234 records a contested UK administrative visa restriction, not proven religious discrimination. AP-0235 to AP-0237 introduce Lebanon: the 2011 Zahle church bombing, reported civil-war displacement and a 2023 minority-rights assessment. Broader patterns are not counted as proven distinct attacks.",
+  "scope": "Incremental source triage for AP-0001 through AP-0250. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 250 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit. AP-0231 to AP-0233 extend geographic coverage to Armenia and Kazakhstan with an attributed village displacement history and two named Soviet repression cases. A death sentence is not equated with a confirmed execution. AP-0234 records a contested UK administrative visa restriction, not proven religious discrimination. AP-0235 to AP-0237 introduce Lebanon: the 2011 Zahle church bombing, reported civil-war displacement and a 2023 minority-rights assessment. Broader patterns are not counted as proven distinct attacks. AP-0238 adds the 1998 Jordan refugee mistreatment allegation, distinct from persecution in Iraq. AP-0239 to AP-0250 add 12 village dossiers from annex rows 27-38, bringing the mapped village dossiers to 42. Their underlying claims and title outcomes remain unverified.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -171,6 +171,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Jette memorial defacement extracted. Its location and date are distinct from the Antwerp church incidents."
+    },
+    {
+      "url": "https://ccrweb.ca/en/res/assyrian-christians",
+      "title": "Canadian Council for Refugees, Assyrian Christians - resolution 7 (May 1998)",
+      "captured_record_ids": [
+        "AP-0238"
+      ],
+      "review_status": "reviewed",
+      "notes": "Original resolution inspected; reports mistreatment in Jordan and Turkey but does not identify specific incidents or actors. Advocacy statement, not a judicial finding."
     },
     {
       "url": "https://churchinparliament.org/2016/12/21/bishop-of-coventry-asks-government-about-visa-applications-from-syria-and-iraq/",
@@ -428,6 +437,15 @@
       "notes": "Open-access scholarly study describes the Simele massacre and more than 600 deaths; alternative estimates and precise village-level victim registers remain outside this review."
     },
     {
+      "url": "https://refugeerights.org/news-resources/irap-meets-with-christian-refugee-community",
+      "title": "International Refugee Assistance Project, meeting with Assyrian Christian refugees in Amman (2010)",
+      "captured_record_ids": [
+        "AP-0238"
+      ],
+      "review_status": "reviewed",
+      "notes": "Original organisational account describes employment and resettlement constraints; no new local violent attack established."
+    },
+    {
       "url": "https://roadsandkingdoms.com/2015/life-and-exile-at-assyrian-lake/",
       "title": "Life and Exile at Assyrian Lake - Roads & Kingdoms (2015)",
       "captured_record_ids": [
@@ -624,10 +642,22 @@
         "AP-0209",
         "AP-0210",
         "AP-0211",
-        "AP-0212"
+        "AP-0212",
+        "AP-0239",
+        "AP-0240",
+        "AP-0241",
+        "AP-0242",
+        "AP-0243",
+        "AP-0244",
+        "AP-0245",
+        "AP-0246",
+        "AP-0247",
+        "AP-0248",
+        "AP-0249",
+        "AP-0250"
       ],
       "review_status": "partial",
-      "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription."
+      "notes": "Rows 7, 9-15, 17, 21 and 23-26 each identify a separate named village, yielding 14 new source-attributed village dossiers AP-0199 to AP-0212. Some rows bundle multiple dates and actors; group as one village record to avoid inflating unique incidents. No individual deeds or parcel coordinates independently established. Earlier annex rows are indexed from the same report via the Atour transcription. Rows 27-38 were visually reviewed on PDF pages 3-4 and mapped to AP-0239 through AP-0250. Row 29 differentiates private residential construction and the municipal transfer; row 33 cites inspection minute 34. No precise coordinates, parcel ownership or enforcement independently established."
     },
     {
       "url": "https://visz.nlr.ru/person/book/t11/1/10",
