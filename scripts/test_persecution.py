@@ -45,7 +45,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertTrue(all(r['sources'] and r['summary'] for r in self.records))
         self.assertEqual({r['country'] for r in self.records},
                          {'Armenia', 'Australia', 'Azerbaijan', 'Belgium', 'France', 'Georgia',
-                          'Germany', 'Iran', 'Iraq', 'Kazakhstan', 'Lebanon', 'Netherlands', 'Russia',
+                          'Germany', 'Iran', 'Iraq', 'Jordan', 'Kazakhstan', 'Lebanon', 'Netherlands', 'Russia',
                           'Sweden', 'Syria', 'Turkey', 'Ukraine', 'United Kingdom', 'United States'})
         self.assertLess(min(r['year'] for r in self.records), 1900)
         self.assertGreaterEqual(max(r['year'] for r in self.records), 2026)
@@ -143,7 +143,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0001 through AP-0237', audit['scope'])
+        self.assertIn('AP-0001 through AP-0250', audit['scope'])
         self.assertIn('eleven churches', by_id['AP-0062']['summary'])
         self.assertIn('aggravated theft', by_id['AP-0074']['summary'])
         self.assertIn('25 years', by_id['AP-0079']['summary'])
@@ -418,6 +418,22 @@ class PersecutionTests(unittest.TestCase):
             self.assertIsNone(by_id[key]['lon'])
         self.assertIn('not a named massacre', by_id['AP-0236']['summary'])
         self.assertIn('not establish a particular attack', by_id['AP-0237']['summary'])
+
+    def test_jordan_and_third_village_annex_tranche(self):
+        by_id = {r['id']: r for r in self.records}
+        self.assertEqual(by_id['AP-0238']['country'], 'Jordan')
+        self.assertIsNone(by_id['AP-0238']['lat'])
+        self.assertIn('does not specify', by_id['AP-0238']['summary'])
+        new = [by_id[f'AP-{i:04d}'] for i in range(239, 251)]
+        self.assertTrue(all(r['country'] == 'Iraq' and r['type'] == 'Land encroachment' and r['evidence'] == 'reported' for r in new))
+        self.assertTrue(all(r['lat'] is None and r['lon'] is None for r in new))
+        self.assertTrue(all(r['related_ids'] == ['AP-0182'] and r['id'] in by_id['AP-0182']['related_ids'] for r in new))
+        self.assertIn('30,000-square-metre', by_id['AP-0241']['summary'])
+        self.assertIn('municipality', by_id['AP-0241']['actor'])
+        self.assertIn('minute 34', by_id['AP-0245']['summary'])
+        all_rows = [int(s['title'].split('annex, row ')[1].split(' ')[0]) for r in self.records for s in r['sources'] if 'annex, row ' in s['title']]
+        self.assertEqual(len(all_rows), 42)
+        self.assertEqual(len(set(all_rows)), 42)
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES

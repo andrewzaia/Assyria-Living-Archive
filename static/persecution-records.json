@@ -4564,7 +4564,19 @@
         "AP-0209",
         "AP-0210",
         "AP-0211",
-        "AP-0212"
+        "AP-0212",
+        "AP-0239",
+        "AP-0240",
+        "AP-0241",
+        "AP-0242",
+        "AP-0243",
+        "AP-0244",
+        "AP-0245",
+        "AP-0246",
+        "AP-0247",
+        "AP-0248",
+        "AP-0249",
+        "AP-0250"
       ]
     },
     {
@@ -5948,6 +5960,319 @@
         {
           "title": "Lebanon's Assyrians confront severe economic crisis - The Assyrian Journal, 19 July 2020",
           "url": "https://theassyrianjournal.com/assyrians-lebanon-economic-crisis/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0238",
+      "year": 1998,
+      "date": "May 1998 resolution",
+      "country": "Jordan",
+      "place": "Jordan (nationwide refugee-treatment report)",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Reported mistreatment of Assyrian Christian refugees in Jordan",
+      "summary": "In May 1998 the Canadian Council for Refugees adopted resolution 7, describing approximately 3,000 Assyrian Christian refugees in Jordan who had fled war and persecution in Iraq, and alleging further mistreatment in Jordan and Turkey. It called for UNHCR monitoring and safeguards from the host governments. The resolution does not specify the Jordanian incidents, perpetrators or outcomes. A separate 2010 International Refugee Assistance Project account of a meeting with Assyrian refugees in Amman describes employment restrictions and lengthy resettlement delays. Those difficulties are contextual evidence, not proof of targeted discrimination or a second violent incident. The record concerns reported treatment in Jordan, not the original persecution in Iraq.",
+      "actor": "Unspecified actors in a refugee advocacy resolution; government protection sought",
+      "scope": "Assyrian Christian refugees in Jordan",
+      "sources": [
+        {
+          "title": "Canadian Council for Refugees, Assyrian Christians - resolution 7 (May 1998)",
+          "url": "https://ccrweb.ca/en/res/assyrian-christians"
+        },
+        {
+          "title": "International Refugee Assistance Project, meeting with Assyrian Christian refugees in Amman (2010)",
+          "url": "https://refugeerights.org/news-resources/irap-meets-with-christian-refugee-community"
+        }
+      ]
+    },
+    {
+      "id": "AP-0239",
+      "year": 1992,
+      "date": "1992",
+      "country": "Iraq",
+      "place": "Chalik, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Chalik",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 27, reports claims affecting 11 dunams of village property, including buildings and water access at Chalik. The survey names no claimant or court remedy. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 27 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0240",
+      "year": 1985,
+      "date": "1985 and 1992",
+      "country": "Iraq",
+      "place": "Mergajiya, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Mergajiya",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 28, reports claims affecting 25 dunams of agricultural property at Mergajiya. The dates are recorded together at village level, rather than treated as two confirmed seizures. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 28 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0241",
+      "year": 1992,
+      "date": "1992 and 2003",
+      "country": "Iraq",
+      "place": "Kani Mase, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Kani Mase",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 29, reports claims affecting 5,000 square metres reportedly used for housing in 1992 and a separate 30,000-square-metre municipal transfer in 2003 at Kani Mase. The two areas and actors are separate claims; no parcel-level overlap or legal outcome is established. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (1992); Kani Mase municipality (2003) (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 29 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0242",
+      "year": 1992,
+      "date": "1992",
+      "country": "Iraq",
+      "place": "Lower Chaqala, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Lower Chaqala",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 30, reports claims affecting 10 dunams of village property at Lower Chaqala. The annex does not identify affected parcels or any final adjudication. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 30 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0243",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Hese, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Hese",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 31, reports claims affecting 60 dunams involving farmland and residential development at Hese. No individual ownership instruments or remedy are reproduced. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 31 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0244",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Tashish, Kani Mase subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Tashish",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 32, reports claims affecting farmland and residential development, with no area stated at Tashish. The extent of the claim is unresolved. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 32 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0245",
+      "year": 1991,
+      "date": "1991; inspection minute 5 September 2005",
+      "country": "Iraq",
+      "place": "Tin, Bamerni subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Tin",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 33, reports claims affecting 50 dunams involving agricultural land and residential development at Tin. The annex cites Agricultural Committee inspection minute 34 dated 5 September 2005; the original minute and enforcement outcome were not inspected. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 33 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0246",
+      "year": 1965,
+      "date": "1965, 1988 and 2004",
+      "country": "Iraq",
+      "place": "Dehe, Bamerni subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Dehe",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 34, reports claims affecting water access, with no quantified area at Dehe. The source lists three dates without establishing separate incident sequences or naming the neighbouring settlement. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "A nearby village (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 34 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0247",
+      "year": 1992,
+      "date": "1992",
+      "country": "Iraq",
+      "place": "Kani Bilaveh, Bamerni subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Kani Bilaveh",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 35, reports claims affecting water access and housing development at Kani Bilaveh. No property area or judicial outcome is given. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 35 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0248",
+      "year": 2004,
+      "date": "2004",
+      "country": "Iraq",
+      "place": "Dawodiya, Bamerni subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Dawodiya",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 36, reports claims affecting agricultural and grazing land at Dawodiya. The amount and subsequent disposition of the property are not established. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 36 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0249",
+      "year": 1991,
+      "date": "1991",
+      "country": "Iraq",
+      "place": "Aradin Nasara, Bamerni subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Aradin Nasara",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 37, reports claims affecting water access and village land and orchards at Aradin Nasara. The two categories appear in one annex row and are grouped in one village dossier. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 37 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0250",
+      "year": 1993,
+      "date": "1993",
+      "country": "Iraq",
+      "place": "Mezi, Chamanki subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights dispute at Mezi",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 38, reports claims affecting 5,255 dunams of agricultural and grazing land at Mezi. The figure is the reporting organisation's claim, not an independently verified cadastral measurement. This is an attributed claim rather than an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages (as attributed in the annex)",
+      "scope": "Assyrian village property and community rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 38 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
         }
       ]
     }
