@@ -143,7 +143,7 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('convicted', by_id['AP-0009']['summary'])
         self.assertIn('September-October', by_id['AP-0021']['date'])
         self.assertIn('video', by_id['AP-0021']['summary'])
-        self.assertIn('AP-0001 through AP-0271', audit['scope'])
+        self.assertIn('AP-0001 through AP-0301', audit['scope'])
         self.assertIn('eleven churches', by_id['AP-0062']['summary'])
         self.assertIn('aggravated theft', by_id['AP-0074']['summary'])
         self.assertIn('25 years', by_id['AP-0079']['summary'])
@@ -432,8 +432,8 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('municipality', by_id['AP-0241']['actor'])
         self.assertIn('minute 34', by_id['AP-0245']['summary'])
         all_rows = [int(s['title'].split('annex, row ')[1].split(' ')[0]) for r in self.records for s in r['sources'] if 'annex, row ' in s['title']]
-        self.assertEqual(len(all_rows), 63)
-        self.assertEqual(len(set(all_rows)), 63)
+        self.assertEqual(len(all_rows), 94)
+        self.assertEqual(set(all_rows), set(range(1, 95)))
 
     def test_chamanki_displacement_annex_tranche(self):
         by_id = {r['id']: r for r in self.records}
@@ -451,6 +451,21 @@ class PersecutionTests(unittest.TestCase):
         self.assertIn('Former Iraqi regime', by_id['AP-0271']['actor'])
         rows = [int(s['title'].split('annex, row ')[1].split(' ')[0]) for r in new for s in r['sources']]
         self.assertEqual(rows, [39, 41] + list(range(43, 62)))
+
+    def test_complete_annex_inventory_and_evidence_limits(self):
+        by_id = {r['id']: r for r in self.records}
+        new = [by_id[f'AP-{i:04d}'] for i in range(272, 302)]
+        self.assertEqual(len(new), 30)
+        self.assertTrue(all(r['country'] == 'Iraq' and r['evidence'] == 'reported' for r in new))
+        self.assertTrue(all(r['lat'] is None and r['lon'] is None for r in new))
+        self.assertTrue(all('AP-0182' in r['related_ids'] and r['id'] in by_id['AP-0182']['related_ids'] for r in new))
+        self.assertEqual(sum(r['type'] == 'Displacement' for r in new), 9)
+        self.assertIn('village-name cell is blank', by_id['AP-0274']['summary'])
+        self.assertTrue(any('annex, row 77 ' in s['title'] for s in by_id['AP-0179']['sources']))
+        self.assertIn('16/900', by_id['AP-0179']['summary'])
+        self.assertIn('AP-0182', by_id['AP-0179']['related_ids'])
+        self.assertIn('AP-0147', by_id['AP-0299']['related_ids'])
+        self.assertIn('return', by_id['AP-0301']['summary'])
 
     def test_world_geography_matches_catalogue_and_unlocated_cases(self):
         from persecution_page import COUNTRY_ALIASES

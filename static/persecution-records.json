@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-22",
+  "updated_on": "2026-11-23",
   "methodology": "Expanding, selected, attributed incident and regional report catalogue affecting Assyrian people and historically linked Syriac and other Christian church communities. Entries may cover distinct single events, town-level episodes, or broad campaigns, with overlapping episodes sometimes cross-referenced in their descriptions. Source evidence ranges from scholarly history and formal human-rights reports to attributed community accounts. A reported allegation is not presented as a proven finding. The heat map represents the number of catalogue entries, not victims, severity, persecution rates, or unique campaigns. Country inclusion follows the recorded location of an event, not the residence of witnesses or exiles. Place coordinates are approximate and may identify only the town or region. Unrepresented countries do not imply absence of persecution. Soviet-era reports are mapped to the present-day geographic country where the action occurred, without attributing responsibility to current independent governments or the modern ethnic populations of those states.",
   "records": [
     {
@@ -3618,7 +3618,8 @@
         }
       ],
       "related_ids": [
-        "AP-0024"
+        "AP-0024",
+        "AP-0299"
       ]
     },
     {
@@ -4314,7 +4315,8 @@
         "AP-0191",
         "AP-0192",
         "AP-0193",
-        "AP-0194"
+        "AP-0194",
+        "AP-0274"
       ]
     },
     {
@@ -4438,7 +4440,7 @@
       "type": "Land encroachment",
       "evidence": "reported",
       "title": "Kashkawa villagers report renewed occupation of land despite 2022 court order",
-      "summary": "Kashkawa residents complained in June 2026 that the same disputed fields had again been cultivated by neighbouring claimants. They cited a June 2022 Dohuk appellate ruling imposing a fine and ordering removal of a building and restoration of the plot. A contemporaneous Assyrian Democratic Movement posting reproduces the court decision; the June 2026 reporting did not establish that the order had been enforced. This records renewed activity in one ongoing dispute, not a new judicial defeat.",
+      "summary": "Kashkawa residents complained in June 2026 that the same disputed fields had again been cultivated by neighbouring claimants. They cited a June 2022 Dohuk appellate ruling imposing a fine and ordering removal of a building and restoration of the plot. A contemporaneous Assyrian Democratic Movement posting reproduces the court decision; the June 2026 reporting did not establish that the order had been enforced. This records renewed activity in one ongoing dispute, not a new judicial defeat. The 2019 Assyrian Aid Society annex (row 77) describes earlier claims in 1963, the 1970s and 1993, listing areas 493, 394, 389 and 15 within the Kashkawa dispute. It identifies Gari Sur as disputed agricultural land and references Kurdistan Front decision 16/900 of 8 December 1992. Its then-pending litigation predates the reported 2022 ruling; the relationship between the individual parcels and later proceedings remains unverified. This historical source does not establish another distinct incident.",
       "actor": "Private neighbouring claimants described by community organisations as Kurdish; residents allege failure of regional authorities to enforce a favourable court order",
       "scope": "Assyrian landowners and families",
       "sources": [
@@ -4453,11 +4455,16 @@
         {
           "title": "Iraqi Kurdistan: Christian Demonstration Blocked - Human Rights Watch (22 April 2016)",
           "url": "https://www.hrw.org/news/2016/04/22/iraqi-kurdistan-christian-demonstration-blocked"
+        },
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 77 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
         }
       ],
       "related_ids": [
         "AP-0165",
-        "AP-0174"
+        "AP-0174",
+        "AP-0182"
       ]
     },
     {
@@ -4598,7 +4605,38 @@
         "AP-0268",
         "AP-0269",
         "AP-0270",
-        "AP-0271"
+        "AP-0271",
+        "AP-0272",
+        "AP-0273",
+        "AP-0274",
+        "AP-0275",
+        "AP-0276",
+        "AP-0277",
+        "AP-0278",
+        "AP-0279",
+        "AP-0280",
+        "AP-0281",
+        "AP-0282",
+        "AP-0283",
+        "AP-0284",
+        "AP-0285",
+        "AP-0286",
+        "AP-0287",
+        "AP-0288",
+        "AP-0289",
+        "AP-0290",
+        "AP-0291",
+        "AP-0292",
+        "AP-0293",
+        "AP-0294",
+        "AP-0295",
+        "AP-0296",
+        "AP-0297",
+        "AP-0298",
+        "AP-0299",
+        "AP-0300",
+        "AP-0301",
+        "AP-0179"
       ]
     },
     {
@@ -6803,6 +6841,728 @@
       "sources": [
         {
           "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 61 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0272",
+      "year": 2019,
+      "date": "Reported in 2019; original date unspecified",
+      "country": "Iraq",
+      "place": "Fishkhabour, Rizgari subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Fishkhabour",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 1: A claim over 880 dunams of farmland recorded as ownership property; the date and disposition are unknown. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 1 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0273",
+      "year": 2019,
+      "date": "Reported in 2019; original date unspecified",
+      "country": "Iraq",
+      "place": "Bajd Braf, Rizgari subdistrict, Zakho",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Bajd Braf",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 2: The report identifies an agricultural land dispute but supplies no area, date or ownership document. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 2 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0274",
+      "year": 1970,
+      "date": "1970, 1975, 1984 and 1992",
+      "country": "Iraq",
+      "place": "Sarsink subdistrict, Amadiya (village unspecified)",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Sarsink subdistrict",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 16: The village-name cell is blank. The annex lists housing development and water claims affecting 1,350 dunams, identifies title deeds, attributes the earlier dates to municipal and finance bodies and the 1992 claim to neighbouring residents. The particular village and any overlap with AP-0174 remain unknown. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Sarsink municipality and finance directorate (earlier claims); neighbouring residents (1992), as reported",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182",
+        "AP-0174"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 16 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0275",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Gipa, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Gipa",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 66: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 66 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0276",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Sanayi d Kira, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Sanayi d Kira",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 67: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 67 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0277",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Sanayi d Koura, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Sanayi d Koura",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 68: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 68 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0278",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Arton, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Arton",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 69: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 69 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0279",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Zana, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Zana",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 70: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 70 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0280",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Zioka, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Zioka",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 71: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 71 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0281",
+      "year": 1961,
+      "date": "1961 and subsequent displacement",
+      "country": "Iraq",
+      "place": "Birmawa, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Birmawa",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 72: The annex describes wartime flight after 1961 and alleges subsequent occupation of the entire settlement. It does not identify individual parcels or establish who caused the original displacement. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 72 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0282",
+      "year": 1961,
+      "date": "1961",
+      "country": "Iraq",
+      "place": "Gohana, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Gohana",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 73: The report lists a whole-village claim over privately owned village land. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 73 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0283",
+      "year": 1964,
+      "date": "1964 and 1990",
+      "country": "Iraq",
+      "place": "Cham Sineh, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Cham Sineh",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 74: A whole-village ownership claim is recorded with two reported dates, not two separately established seizures. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 74 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0284",
+      "year": 2019,
+      "date": "Reported in 2019; original date unspecified",
+      "country": "Iraq",
+      "place": "Doriya, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Doriya",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 75: The annex alleges occupation of all village land and identifies ownership property; it does not date the claim. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 75 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0285",
+      "year": 1961,
+      "date": "1961",
+      "country": "Iraq",
+      "place": "Gerbish, Dinarta subdistrict, Aqrah",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Gerbish",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 76: The report records a claim affecting the entire village, identifying ownership property. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring Kurdish villages identified with the Zibari clan, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 76 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0286",
+      "year": 1992,
+      "date": "1992",
+      "country": "Iraq",
+      "place": "Hazarjut, Rovia subdistrict, Bardarash",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Hazarjut",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 78: The reported claim encompasses 380 dunams of privately owned farmland, quarries and residential areas. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 78 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0287",
+      "year": 2019,
+      "date": "Reported in 2019; original date unspecified",
+      "country": "Iraq",
+      "place": "Malabrwan, Qasrok subdistrict, Shikhan",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Malabrwan",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 79: An agricultural land claim is recorded without date, area or adjudication. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 79 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0288",
+      "year": 1994,
+      "date": "1994",
+      "country": "Iraq",
+      "place": "Gondi Kosa, Mangish subdistrict, Duhok",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Gondi Kosa",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 80: The claim concerns agricultural land and water access; no area is specified. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 80 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0289",
+      "year": 1986,
+      "date": "1986",
+      "country": "Iraq",
+      "place": "Duhok (individual property claim, annex row 81)",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Duhok (individual property claim",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 81: The annex records an individual residential property claim involving six dunams held under a right of disposal, not necessarily freehold. No street address or parcel number is given. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Individual Assyrian property claim as listed in the community submission",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 81 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0290",
+      "year": 1985,
+      "date": "1985",
+      "country": "Iraq",
+      "place": "Duhok (individual property claim, annex row 82)",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Duhok (individual property claim",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 82: The annex lists an individual ownership claim covering 440 square metres. The property use and exact location are unspecified. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Residents of neighbouring villages, as alleged in the annex",
+      "scope": "Individual Assyrian property claim as listed in the community submission",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 82 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0291",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Nerwa, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Nerwa",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 84: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 84 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0292",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Qarow, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Qarow",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 85: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 85 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0293",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Bashe, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Bashe",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 86: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 86 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0294",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Wela, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Wela",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 87: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 87 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0295",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Maydan, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Maydan",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 88: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 88 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0296",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Hesh, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Hesh",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 89: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 89 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0297",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Esteb, Nerwa and Rekan subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Esteb",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 90: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 90 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0298",
+      "year": 1988,
+      "date": "1988 Anfal operations and aftermath; status reported in 2019",
+      "country": "Iraq",
+      "place": "Dergne, Amadiya subdistrict, Amadiya",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Dergne",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 91: The annex attributes village-wide expulsion to the aftermath of Anfal and describes the settlement as empty in the later conflict zone. The report's mention of pkk presence does not establish responsibility for the 1988 expulsions or present-day occupancy. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Anfal operations, as attributed in the annex; later conflict context includes pkk presence",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 91 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0299",
+      "year": 2003,
+      "date": "Before and after 2003; status reported in 2019",
+      "country": "Iraq",
+      "place": "Bartella subdistrict, Al-Hamdaniya",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Bartella subdistrict",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 92: The submitting organisation alleges extensive allocations of land to Shabak recipients before and after 2003, attributing earlier allocations to the former regime and describing subsequent demographic change. No specific parcel or individual beneficiary is established. AP-0147 is a narrower, possibly overlapping property report, not corroboration of the entire allegation. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Former Iraqi regime and unspecified later allocation authorities, as alleged by the submitting organisation",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182",
+        "AP-0147"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 92 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0300",
+      "year": 1970,
+      "date": "Since the 1970s; status reported in 2019",
+      "country": "Iraq",
+      "place": "Telkeif district centre",
+      "lat": null,
+      "lon": null,
+      "type": "Land encroachment",
+      "evidence": "reported",
+      "title": "Reported land-rights claim in Telkeif district centre",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 93: The annex describes widespread land claims linked to the former regime's Arabisation programme and alleges a reduction of Assyrian presence. It also identifies neighbouring residents, without distinguishing individual parcels or subsequent ownership. The reported claim is not an independently adjudicated seizure.",
+      "actor": "Former Iraqi regime's Arabisation policy and unspecified neighbouring claimants, as attributed in the annex",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 93 (UN UPR repository)",
+          "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AP-0301",
+      "year": 1970,
+      "date": "Since the 1970s; return requests after 2003",
+      "country": "Iraq",
+      "place": "Badriya, Telkeif district",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported displacement in Badriya",
+      "summary": "Assyrian Aid Society-Iraq's 2019 annex, row 94: The submission describes village-wide dispossession under Arabisation and says residents' post-2003 requests to return had not been fulfilled as of the report. Individual administrative decisions, return outcomes and current status are not established. No independent victim list, return status or precise coordinates were established.",
+      "actor": "Former Iraqi regime's Arabisation policy; reported post-2003 failure of authorities to facilitate return",
+      "scope": "Assyrian community property and displacement rights",
+      "related_ids": [
+        "AP-0182"
+      ],
+      "sources": [
+        {
+          "title": "Assyrian Aid Society-Iraq, 2019 land-claim annex, row 94 (UN UPR repository)",
           "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf"
         }
       ]
