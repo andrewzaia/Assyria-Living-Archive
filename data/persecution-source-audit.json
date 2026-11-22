@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0045 and AP-0080 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0046 through AP-0079 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit.",
+  "scope": "Incremental source triage for AP-0001 through AP-0060 and AP-0080 through AP-0230. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. Original AP-0061 through AP-0079 still await equivalent source triage; AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -12,6 +12,17 @@
       ],
       "review_status": "partial",
       "notes": "Legacy State Department page returned technical difficulties in this session. Keep attribution, but not marked independently checked at passage level."
+    },
+    {
+      "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2009/nea/136069.htm",
+      "title": "2009 Human Rights Report: Iraq - US Department of State",
+      "captured_record_ids": [
+        "AP-0048",
+        "AP-0049",
+        "AP-0050"
+      ],
+      "review_status": "reviewed",
+      "notes": "Religious attacks paragraph records 12 July, 26 November and 15 December 2009; underlying police files not inspected."
     },
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2015/nea/252947.htm",
@@ -58,6 +69,25 @@
       ],
       "review_status": "reviewed",
       "notes": "Section 1.g, conflict-related abuses and property seizures. The legacy 2017-2021 archive returned technical difficulties; the official 2021-2025 archive reproduces the report and attributed figures. The original Syriac Strategic Research Center report and property documents were not inspected."
+    },
+    {
+      "url": "https://50f3ad00-5b28-4016-898f-6130d301c97a.filesusr.com/ugd/6ae567_d3c5240d7d174f769a71ed9443830a6a.pdf",
+      "title": "Caught in the Crossfire - Assyrian Policy Institute, January 2021, pp. 7, 13-14",
+      "captured_record_ids": [
+        "AP-0060"
+      ],
+      "review_status": "reviewed",
+      "notes": "Printed pp. 7, 13-14 visually inspected; main text reports 52 events, p. 13 sidebar says 53. Sites approximate; dates may group multiple separate strikes. No Assyrian deaths or confirmed injuries at report publication."
+    },
+    {
+      "url": "https://964media.com/storage/2024/09/ckUw29eUNofZ2m2G87gbnkntg1x7Qz9Gw.pdf",
+      "title": "Damage and destruction of cultural heritage by daesh in Iraq - UNITAD, September 2024 (published PDF copy)",
+      "captured_record_ids": [
+        "AP-0058",
+        "AP-0059"
+      ],
+      "review_status": "partial",
+      "notes": "UNITAD September 2024 report, printed pp. 13-14, paragraphs 49-61, text inspected in published PDF copy; page screenshot unavailable due to file size. ReliefWeb PDF did not load. Details are attributed to investigators."
     },
     {
       "url": "https://abkhazworld.com/aw/analysis/1885-what-are-they-doing-after-all-we-re-not-germans-by-claire-kaiser",
@@ -253,6 +283,19 @@
       ],
       "review_status": "partial",
       "notes": "Indexed January 2015 report supports arrest; direct request produced redirect loop."
+    },
+    {
+      "url": "https://iraq.un.org/sites/default/files/2024-09/Case%20Assessment%20Report_Christians_Summary%20for%20Publication_FINAL_WithCover_ENG2_reduced.pdf",
+      "title": "Case Assessment Report on Christians - UN Investigative Team to Promote Accountability for Crimes Committed by daesh (2024)",
+      "captured_record_ids": [
+        "AP-0055",
+        "AP-0056",
+        "AP-0057",
+        "AP-0058",
+        "AP-0059"
+      ],
+      "review_status": "reviewed",
+      "notes": "September 2024 public assessment, printed pp. 9-12, paragraphs 27-45; relevant page images inspected. Preliminary investigative findings and missing-person status at publication; confidential evidence not inspected. Heritage sites analysed separately."
     },
     {
       "url": "https://lev.mapofmemory.org/ranenyj-lev/",
@@ -525,10 +568,11 @@
       "url": "https://www.assyrianpolicy.org/caught-in-the-crossfire",
       "title": "Caught in the Crossfire: Assyrians and the Turkey-PKK Conflict in Iraq - Assyrian Policy Institute",
       "captured_record_ids": [
-        "AP-0034"
+        "AP-0034",
+        "AP-0060"
       ],
       "review_status": "partial",
-      "notes": "2021 report landing page focuses on northern Iraq, especially 2020; not direct evidence of 1980s-1990s Turkish village displacement."
+      "notes": "2021 report landing page focuses on northern Iraq, especially 2020; not direct evidence of 1980s-1990s Turkish village displacement. Landing page and its linked full report address 2020 airstrike incidents near Assyrian villages in Iraq; not direct evidence of Turkish village displacement in AP-0034."
     },
     {
       "url": "https://www.assyrianpolicy.org/erasing-the-legacy-of-khabour",
@@ -1189,6 +1233,17 @@
       "notes": "Christian section reports January Kermanshah closure, February Isfahan arrest and late March release."
     },
     {
+      "url": "https://www.refworld.org/reference/annualreport/uscirf/2010/74071",
+      "title": "USCIRF Annual Report 2010 - Iraq",
+      "captured_record_ids": [
+        "AP-0048",
+        "AP-0049",
+        "AP-0050"
+      ],
+      "review_status": "reviewed",
+      "notes": "2009 church attacks passage provides alternative casualty and church counts; same attacks, not additive totals."
+    },
+    {
       "url": "https://www.refworld.org/reference/annualreport/uscirf/2015/en/104875",
       "title": "USCIRF Annual Report 2015 - Iraq",
       "captured_record_ids": [
@@ -1223,10 +1278,12 @@
       "captured_record_ids": [
         "AP-0010",
         "AP-0129",
-        "AP-0130"
+        "AP-0130",
+        "AP-0046",
+        "AP-0047"
       ],
       "review_status": "partial",
-      "notes": "18 January 2008 Tahira church bombing recorded as a child incident of the broader January church bombings; October 2007 priest abductions reviewed against direct Fides sources. Earlier record audit: Refworld page was not retrievable in this session; historical citation preserved pending direct source-access verification."
+      "notes": "18 January 2008 Tahira church bombing recorded as a child incident of the broader January church bombings; October 2007 priest abductions reviewed against direct Fides sources. Earlier record audit: Refworld page was not retrievable in this session; historical citation preserved pending direct source-access verification. January 2008 attack passages accessed through Refworld; distinguishes 6, 9 and 18 January and combined versus local casualty figures."
     },
     {
       "url": "https://www.refworld.org/reference/annualreport/usdos/2010/95021",
@@ -1237,10 +1294,23 @@
         "AP-0140",
         "AP-0141",
         "AP-0142",
-        "AP-0143"
+        "AP-0143",
+        "AP-0048"
       ],
       "review_status": "partial",
-      "notes": "The 14-20 February 2010 Mosul attack narratives were split into named cases and tied to the existing pre-election summary record. No ethnicity is inferred where the official source identifies only Christians."
+      "notes": "The 14-20 February 2010 Mosul attack narratives were split into named cases and tied to the existing pre-election summary record. No ethnicity is inferred where the official source identifies only Christians. Prime minister's security response confirms July 2009 attacks on six churches."
+    },
+    {
+      "url": "https://www.refworld.org/reference/annualreport/usdos/2014/en/100816",
+      "title": "2013 International Religious Freedom Report: Iraq - US Department of State, Refworld",
+      "captured_record_ids": [
+        "AP-0051",
+        "AP-0052",
+        "AP-0053",
+        "AP-0054"
+      ],
+      "review_status": "reviewed",
+      "notes": "2013 report section III records February, June and September attacks; underlying criminal investigation records not inspected."
     },
     {
       "url": "https://www.rferl.org/a/Gunmen_Kill_Two_Christian_Sisters_In_Iraqs_Mosul/1348225.html",
