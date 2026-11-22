@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_on": "2026-11-22",
-  "scope": "Incremental source triage for AP-0001 through AP-0234. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 234 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit. AP-0231 to AP-0233 extend geographic coverage to Armenia and Kazakhstan with an attributed village displacement history and two named Soviet repression cases. A death sentence is not equated with a confirmed execution. AP-0234 records a contested UK administrative visa restriction, not proven religious discrimination.",
+  "scope": "Incremental source triage for AP-0001 through AP-0237. The 2019 Assyrian Aid Society annex comprises 94 rows, not 94 verified separate crimes; 30 distinct named village claims are now indexed with annex row locators. Regional summary AP-0182 overlaps its village records. Some rows concern former Iraqi administrations, private claimants or multiple decades rather than KRG actions; ethnic motivations, property titles and enforcement must not be inferred. AP-0001 through AP-0021 include partial entries where source full text was inaccessible. Verified source access does not establish all historical interpretations. 'Reviewed' versus 'partial' describes research triage, not source credibility or independent validation. New-country diaspora triage records religious harassment as an attributed allegation, not an ethnic finding; later court outcomes may exclude initially plausible persecution leads. Country geography now separates Soviet-era repression in Russia, Ukraine and Azerbaijan, linking named executions to their broader campaign. The source audit is not independent archival verification of every state action. Added individually named 1938 Leningrad cases and a 1949 Tbilisi-to-Tomsk family case from a published archival citation; their inclusion does not increase the number of Soviet campaigns. Full inspection of the original NKVD and Georgian security files remains pending. First tranche corrected the 1846 Tkhuma location, removed ungrounded location pins for regional/route reports and distinguished late-2015 execution accounts from dates of video reporting. The second original-source tranche records the school reopening agreement, attributed Ras al-Ayn property figures and the Homs cathedral archdiocese statement as reported by Fides. The third tranche adds source triage for AP-0024 through AP-0032: regional and nationwide Iraqi reporting, local Sayfo narratives, Mar Benyamin's calendar dates and the 1924-1925 Hakkari documentary bibliography. Incomplete primary-source access is explicitly retained. The fourth tranche covers AP-0033 through AP-0045, including Soriya survivor testimony, Tur Abdin migration, Georgian fond 13, Iranian church closures and sentencing outcomes, and conflicting 2004 Iraq casualty reports. Partial source access remains explicit. The fifth tranche covers AP-0046 through AP-0060, including conflicting church bombing casualty figures, identified 2013 attacks, UNITAD paragraph-level findings and cultural heritage evidence, and the API airstrike incident-count inconsistency. All 237 current records now have source-triage mappings; this is not full independent historical verification. The final tranche covers AP-0061 through AP-0079, including the 2026 Diril ruling, Swedish church investigations and attributed Syrian attacks. Partial source access remains explicit. AP-0231 to AP-0233 extend geographic coverage to Armenia and Kazakhstan with an attributed village displacement history and two named Soviet repression cases. A death sentence is not equated with a confirmed execution. AP-0234 records a contested UK administrative visa restriction, not proven religious discrimination. AP-0235 to AP-0237 introduce Lebanon: the 2011 Zahle church bombing, reported civil-war displacement and a 2023 minority-rights assessment. Broader patterns are not counted as proven distinct attacks.",
   "sources": [
     {
       "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2008/nea/119116.htm",
@@ -241,6 +241,15 @@
       "notes": "Archive-derived Russian-language register explicitly identifies both named people as Assyrian. Arrests, sentences and rehabilitation dates are transcribed from individual entries. Original security files not inspected; Abbasov's execution date and Babakhanov's later fate are not given."
     },
     {
+      "url": "https://en.ankawa.com/breaking-news-explosion-next-to-the-church-of-our-lady-in-zahle/",
+      "title": "Explosion next to the Church of Our Lady in Zahle - Ankawa, 27 March 2011",
+      "captured_record_ids": [
+        "AP-0235"
+      ],
+      "review_status": "reviewed",
+      "notes": "Contemporary report initially said no injuries and updated to report one glass-shrapnel injury; discrepancy with institutional and bishop accounts retained."
+    },
+    {
       "url": "https://english.ankawa.com/killing-of-two-christian-sisters-renews-panic-in-mosul/",
       "title": "Christian sisters killed and mother wounded in Mosul - Aid to the Church in Need (2008)",
       "captured_record_ids": [
@@ -343,6 +352,16 @@
       ],
       "review_status": "reviewed",
       "notes": "Interview with Gelaysor-born community representative Razmik Khosroev attributes 1949 deportation and resettlement to Soviet authorities. Oral recollection, not an inspected deportation file or complete victim list."
+    },
+    {
+      "url": "https://lahlebanon.org/wp-content/uploads/2023/08/National-Report-on-Freedom-of-Religion-and-Belief_Lebanon_July2023-.pdf",
+      "title": "National Report on Freedom of Religion and Belief: Lebanon - National Working Group on FoRB, July 2023, pp. 113-114",
+      "captured_record_ids": [
+        "AP-0236",
+        "AP-0237"
+      ],
+      "review_status": "partial",
+      "notes": "Printed pp. 113-114, Assyrians and vulnerable groups sections, text inspected. Page 114 image inspected; page 113 screenshot returned HTTP 406. The report attributes militia targeting during the civil war and political marginalisation; no named attack or underlying testimony independently inspected."
     },
     {
       "url": "https://lev.mapofmemory.org/ranenyj-lev/",
@@ -578,6 +597,15 @@
       ],
       "review_status": "reviewed",
       "notes": "Detailed investigation body unavailable beyond contents; later Syrian Archive assessment confirms date and church."
+    },
+    {
+      "url": "https://theassyrianjournal.com/assyrians-lebanon-economic-crisis/",
+      "title": "Lebanon's Assyrians confront severe economic crisis - The Assyrian Journal, 19 July 2020",
+      "captured_record_ids": [
+        "AP-0237"
+      ],
+      "review_status": "reviewed",
+      "notes": "Community meeting report attributes camp avoidance to fear of religious attacks and discrimination, not proof of a specific attack. Economic hardship alone is not classified as persecution."
     },
     {
       "url": "https://upr-info.org/sites/default/files/documents/2019-10/aasi_upr34_irq_e_annexe1.pdf",
@@ -1020,6 +1048,24 @@
       ],
       "review_status": "reviewed",
       "notes": "IRB Canada response identifies February 2010 Mosul killings, May 2010 student convoy attack and December 2010 Baghdad home bombings, with varying injury and death totals from cited correspondents."
+    },
+    {
+      "url": "https://www.ecoi.net/en/document/1172957.html",
+      "title": "2011 International Religious Freedom Report: Lebanon, section III - US Department of State, ecoi.net",
+      "captured_record_ids": [
+        "AP-0235"
+      ],
+      "review_status": "reviewed",
+      "notes": "Section III of the 2011 report, accessible via ecoi.net, records the 27 March bombing, serious damage, no reported casualties and no responsibility claimed by year end. Legacy State Department PDF screenshot returned 403; the accessible text copy was read."
+    },
+    {
+      "url": "https://www.ecoi.net/en/document/1220718.html",
+      "title": "Treatment of Assyrian Christians, LBN3207 - Immigration and Refugee Board of Canada, citing World Minorities (1978)",
+      "captured_record_ids": [
+        "AP-0236"
+      ],
+      "review_status": "reviewed",
+      "notes": "LBN3207 cites 1978 World Minorities for wartime homelessness and resettlement, explicitly noting lack of detailed Assyrian-specific treatment information. Original book and individual records not inspected; not proof of targeted violence by a given faction."
     },
     {
       "url": "https://www.ecoi.net/en/document/1411538.html",
@@ -1798,6 +1844,15 @@
       "notes": "One first-person Syriac Orthodox refugee housing complaint; wider Open Doors percentages are not separately counted or presented as Assyrian-specific data."
     },
     {
+      "url": "https://www.ynetnews.com/articles/0,7340,L-4048167,00.html",
+      "title": "Bomb explodes at Lebanese church, no injuries - Ynetnews, 27 March 2011, quoting Bishop Boulos Safar",
+      "captured_record_ids": [
+        "AP-0235"
+      ],
+      "review_status": "reviewed",
+      "notes": "Contemporary article quotes the bishop on the time, location, damage, absence of injuries and plans for Sunday worship."
+    },
+    {
       "url": "https://zowaa.org/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%AF%D9%87%D9%88%D9%83-%D8%AA%D8%AD%D9%83%D9%85-%D8%A8%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D8%B1%D8%A7%D8%B6%D9%8A-%D9%82/",
       "title": "Dohuk appellate ruling for Kashkawa residents, reproduced with decision - Zowaa (10 June 2022)",
       "captured_record_ids": [
@@ -1873,11 +1928,6 @@
       "reason": "Video published in June 2026 shows interior damage at Mar Kiryakos in Sharanish, but original date and cause of the damage were not independently verified. Do not equate publication year with date of a deliberate attack."
     },
     {
-      "url": "https://www.ecoi.net/en/document/1220718.html",
-      "status": "pending",
-      "reason": "A Canadian research directorate notes Assyrians displaced in Lebanon's civil war but lacks a named, localised attack or evidence of specific ethnic targeting; do not represent arrival of Syrian refugees in Lebanon as persecution that occurred there."
-    },
-    {
       "url": "https://www.sbs.com.au/language/assyrian/en/podcast-episode/uncertain-futures-assyrians-fear-for-family-members-living-in-ukraine/93zq1olj6",
       "status": "pending",
       "reason": "SBS confirms Assyrian families in Nova Kakhovka during Russia's 2022 invasion, but does not establish a specific attack on Assyrian people or church buildings. Further incident-specific reporting needed before indexing."
@@ -1886,6 +1936,11 @@
       "url": "https://www.assyrianfoundation.org/files/nineveh_magazine_1_2020.pdfcd073ce5.pdf",
       "status": "pending",
       "reason": "A search-indexed magazine article describes deportation from Azerbaijan, but the original PDF URL returned an error during independent access. Do not use it for an unsupported exact deportee total until a stable publication copy can be obtained."
+    },
+    {
+      "url": "https://lahlebanon.org/wp-content/uploads/2023/08/National-Report-on-Freedom-of-Religion-and-Belief_Lebanon_July2023-.pdf",
+      "status": "pending",
+      "reason": "AP-0236 records an attributed regional civil-war pattern; seek named, dated attacks and original victim or administrative records before creating narrower records."
     }
   ]
 }

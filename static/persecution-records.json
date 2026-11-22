@@ -5871,6 +5871,85 @@
           "url": "https://www.intoleranceagainstchristians.eu/cases/christian-archbishops-from-iraq-and-syria-denied-visas-to-uk"
         }
       ]
+    },
+    {
+      "id": "AP-0235",
+      "year": 2011,
+      "date": "27 March 2011",
+      "country": "Lebanon",
+      "place": "St Mary's Syriac Orthodox Church, Zahle",
+      "lat": 33.85,
+      "lon": 35.9,
+      "type": "Religious violence",
+      "evidence": "documented",
+      "title": "Bombing of St Mary's Syriac Orthodox Church in Zahle",
+      "summary": "The US State Department's 2011 religious freedom report records a bombing outside the Syriac Orthodox church on 27 March, causing extensive damage. Bishop Youstinios Boulos Safar told contemporary reporters that an explosive detonated at a side entrance at approximately 4:15 am, damaging the altar, seating, door and seven nearby vehicles. The bishop and State Department reported no casualties, while Ankawa's updated report identified one person injured by flying glass. These accounts differ; the injury was not independently reconciled. The bishop intended to hold Sunday worship despite the damage. No responsibility had been claimed by the end of 2011.",
+      "actor": "Unidentified bomber; responsibility and motive not established",
+      "scope": "Syriac Orthodox church community in Lebanon",
+      "sources": [
+        {
+          "title": "2011 International Religious Freedom Report: Lebanon, section III - US Department of State, ecoi.net",
+          "url": "https://www.ecoi.net/en/document/1172957.html"
+        },
+        {
+          "title": "Bomb explodes at Lebanese church, no injuries - Ynetnews, 27 March 2011, quoting Bishop Boulos Safar",
+          "url": "https://www.ynetnews.com/articles/0,7340,L-4048167,00.html"
+        },
+        {
+          "title": "Explosion next to the Church of Our Lady in Zahle - Ankawa, 27 March 2011",
+          "url": "https://en.ankawa.com/breaking-news-explosion-next-to-the-church-of-our-lady-in-zahle/"
+        }
+      ]
+    },
+    {
+      "id": "AP-0236",
+      "year": 1975,
+      "date": "1975-1990 (Lebanese Civil War; displacement reported by 1978)",
+      "country": "Lebanon",
+      "place": "Lebanon (civil war; principally Beirut-area communities)",
+      "lat": null,
+      "lon": null,
+      "type": "Displacement",
+      "evidence": "reported",
+      "title": "Reported targeting and displacement of Assyrians during the Lebanese Civil War",
+      "summary": "A July 2023 national civil-society report on freedom of religion and belief states that militias and other armed factions targeted Assyrians during the civil war. A response from Canada's Immigration and Refugee Board, citing a 1978 minority reference work, separately records Assyrians made homeless by the conflict and resettlement assistance by the Assyrian Universal Alliance and World Council of Churches. The latter response expressly lacked detailed information on Assyrian-specific treatment in Lebanon. This is an attributed period-level account of violence and displacement, not a named massacre, casualty tally or finding about the motive for every displacement. Particular attacks, responsible units and victim lists remain to be researched.",
+      "actor": "Militias and other armed factions, as alleged in the civil-society report; individual units unidentified",
+      "scope": "Assyrian communities in Lebanon during the civil war",
+      "sources": [
+        {
+          "title": "National Report on Freedom of Religion and Belief: Lebanon - National Working Group on FoRB, July 2023, pp. 113-114",
+          "url": "https://lahlebanon.org/wp-content/uploads/2023/08/National-Report-on-Freedom-of-Religion-and-Belief_Lebanon_July2023-.pdf"
+        },
+        {
+          "title": "Treatment of Assyrian Christians, LBN3207 - Immigration and Refugee Board of Canada, citing World Minorities (1978)",
+          "url": "https://www.ecoi.net/en/document/1220718.html"
+        }
+      ]
+    },
+    {
+      "id": "AP-0237",
+      "year": 2023,
+      "date": "July 2023 assessment",
+      "country": "Lebanon",
+      "place": "Lebanon (nationwide assessment)",
+      "lat": null,
+      "lon": null,
+      "type": "Institutional pressure",
+      "evidence": "reported",
+      "title": "Reported political underrepresentation and marginalisation of Assyrians in Lebanon",
+      "summary": "The July 2023 National Report on Freedom of Religion and Belief describes the Church of the East Assyrian community as lacking a dedicated parliamentary seat, with representation instead grouped within Beirut's minority seat. It reports that no Assyrian from that community had occupied the seat or served in a government up to the report's publication and describes wider marginalisation. Interviews in the same chapter identify barriers to public employment and representation across several minority groups, especially Kurds; these broader findings are not all attributed specifically to Assyrians. A 2020 Assyrian Journal report separately describes refugees avoiding camps because of feared religious discrimination and violence; it does not establish a particular attack. This nationwide account records reported structural concerns rather than a judicial finding of unlawful discrimination or a distinct violent incident.",
+      "actor": "Lebanese confessional representation system and reported societal discrimination",
+      "scope": "Assyrian Church of the East community and minority-rights concerns",
+      "sources": [
+        {
+          "title": "National Report on Freedom of Religion and Belief: Lebanon - National Working Group on FoRB, July 2023, pp. 113-114",
+          "url": "https://lahlebanon.org/wp-content/uploads/2023/08/National-Report-on-Freedom-of-Religion-and-Belief_Lebanon_July2023-.pdf"
+        },
+        {
+          "title": "Lebanon's Assyrians confront severe economic crisis - The Assyrian Journal, 19 July 2020",
+          "url": "https://theassyrianjournal.com/assyrians-lebanon-economic-crisis/"
+        }
+      ]
     }
   ]
 }
