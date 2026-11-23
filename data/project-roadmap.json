@@ -153,7 +153,7 @@
       "id": "source-accessibility",
       "title": "Source integrity and accessibility audit",
       "status": "in-progress",
-      "delivered": "Automated source-link, markup, keyboard and reduced-motion audits, including bounded monthly URL-health checks.",
+      "delivered": "Automated source-link, markup, keyboard and reduced-motion audits, including bounded monthly URL-health checks. Representative page smoke checks now include the persecution catalogue, audit hub and timeline.",
       "next": "Review inconclusive URLs and complete real-device and screen-reader assessments."
     },
     {
